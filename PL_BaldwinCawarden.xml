@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="REED.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="eng"> 
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            
+            <title type="main">Inns of Court</title>
+
+            <!-- RESOLVE: Who are the funding agencies for the original printed version of Inns of Court? Should Jackman, NEH, and/or SSHRC be cited? -->   
+            <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>
+            
+            <!-- RESOLVE: should CANARIE be cited here as a funder? Please confirm with Susan Brown
+            <funder><orgName>CANARIE</orgName></funder> -->
+            
+            <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>            
+            <funder><orgName>National Endowment for the Humanities, Washington, DC, United States of
+               America</orgName></funder>
+            <funder><orgName>Social Sciences and Humanities Research Council, Ottawa,
+               Canada</orgName></funder>
+            
+            <!-- RESOLVE: how do we refer to Alan Nelson and John Elliott as editors of the print edition? -->
+		 <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
+		 <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
+            
+            <respStmt>
+               <persName xml:id="CB">Carolyn Black</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Project Manager</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>John Bradley</persName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Susan Brown</persName> 
+               <orgName>University of Guelph</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="KC">Kathy Chung</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>REED Research Associate, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="JC">James Cummings</persName>
+               <orgName>Newcastle University</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+               <resp>TEI Schema Designer, Technical Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Matthew Davies</persName>
+               <orgName>University of London, Birkbeck College</orgName> <!-- confirm -->
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <!-- RESOLVE: who is the Paleographer, Translator, Latin and Anglo-French Glossarian for Inns of Court (both print and electronic)? -->
+            <respStmt>
+               <persName xml:id="PG">Patrick Gregory</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Associate Editor</resp> <!-- confirm -->
+               <resp>Paleographer, Translator, Latin and Anglo-French Glossarian</resp> <!-- confirm -->
+            </respStmt>
+            <respStmt>
+               <persName>Tanya Hagen</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Bibliographer, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="JAKA1">Diane K. Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>Principal Investigator, NHPRC-Mellon Digital Edition Publishing Cooperatives Planning Grant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Alexandra F. Johnston</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>REED Founder and Senior Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>David Kathman</persName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Sally-Beth MacLean</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Principal Investigator, SSHRC grant; Director of Research and General Editor</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Kimberly Martin</persName>
+               <orgName>University of Guelph</orgName>
+               <resp>NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Christopher Matusiak</persName>
+               <orgName>Ithaca College</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="JN">Jamie Norrish</persName>
+               <resp>Programmer, EATS developer, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Dorothy Porter</persName>
+               <orgName>University of Pennsylvania</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Suzanne Westfall</persName>
+               <orgName>Lafayette College</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board Member</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>                        
+         </titleStmt>
+         <editionStmt>
+            <edition>Print version, published <date when-iso="2010">2010</date>. Electronic edition, anticipated publication <date when-iso="2018">2018</date></edition>
+         </editionStmt>
+         
+         <publicationStmt>
+            <authority><orgName>Records of Early English Drama (REED)</orgName>
+               <address>
+                  <addrLine>University of Toronto</addrLine>
+                  <addrLine>170 St George Street, Suite 810</addrLine>
+                  <addrLine>Toronto, Ontario, Canada</addrLine>
+                  <addrLine>M5R 2M8</addrLine>
+               </address>
+            </authority>
+            <!-- RESOLVE: Include Boydell & Brewer publication information? -->
+            <authority>
+               <orgName>D.S. Brewer, Cambridge, an imprint of Boydell &amp; Brewer Ltd./Boydell &amp; Brewer Ltd.</orgName>
+               <address>
+                  <addrLine>PO Box 9, Woodbridge</addrLine>
+                  <addrLine>Suffolk IP12 3DF, UK</addrLine>
+                  <addrLine>668 Mt. Hope Avenue</addrLine>
+                  <addrLine>Rochester, NY 14620</addrLine>
+               </address>
+            </authority>
+            
+            <availability>
+               <p>Copyright <orgName>Records of Early English Drama (REED)</orgName>,
+                  <date>2017</date></p>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a
+                  Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA
+                  4.0) licence.</licence>
+            </availability>
+         </publicationStmt>
+         
+         <seriesStmt>
+            <title>Records of Early English Drama</title>
+         </seriesStmt>
+         <sourceDesc>
+            <p>This publication constitutes a remediation of the printed Inns of Court collection. Information on original sources for transcriptions can be accessed via the Document Descriptions.</p>
+            <p>For a full list of REED collections, editors, executive board members, and staff, please visit http://reed.utoronto.ca/people</p>       
+         </sourceDesc>
+      </fileDesc>
+      
+      <encodingDesc>
+         <listPrefixDef> <!-- RESOLVE: how do we refer to this section for IoC? -->
+            <prefixDef ident="taxon" matchPattern="([A-Za-z0-9_-]+)"
+               replacementPattern="../taxonomy.xml#$1">
+               <p>Private URIs using the <code>taxon</code> prefix are pointers to entities in the
+                  taxonomy.xml file. For example, <code>taxon:church</code> dereferences to
+                  <code>taxonomy.xml#church</code>.</p>
+            </prefixDef>
+            <prefixDef ident="gloss" matchPattern="([A-Za-z0-9_-]+)"
+               replacementPattern="../glossary.xml#$1">
+               <p>Private URIs using the <code>gloss</code> prefix are pointers to entities in the
+                  glossary.xml file. For example, <code>gloss:histrio-1</code> dereferences to
+                  <code>glossary.xml#histrio-1</code>.</p>
+            </prefixDef>
+         </listPrefixDef>
+         
+         <projectDesc>
+            <p>Records of Early English Drama (REED) is an international scholarly project that is
+               establishing for the first time the context from which the drama of Shakespeare and his
+               contemporaries grew. Founded in 1976, REED has worked since then to locate, transcribe,
+               and edit historical documents containing evidence of drama, secular music, and other
+               communal entertainment and ceremony from the Middle Ages until 1642, when the Puritans
+               closed the London theatres.</p>
+         </projectDesc>
+      </encodingDesc>
+      
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">English</language>
+            <language ident="lat">Latin</language>
+            <language ident="fra">Anglo-French</language>
+         </langUsage>
+         <settingDesc>
+            <place>
+               <placeName>London</placeName> 
+            </place>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <!-- Add new major milestone changes to top -->
+         <change when="2018-01-13" who="#JAKA1">developed model for private letter</change>
+         <change when="2017-10-28" who="#JAKA1">adapted schema from #JC work on Staffordshire</change>
+      </revisionDesc>
+   </teiHeader>
+
+   <!-- DKJ 2018-01-28: Please review updated record structure to make sure I'm structuring the elements and attributes correctly. Please go ahead and make corrections directly, then comment on what you've done so I can make sure I can apply corrections to other record files -->
+    <!--#CB 2018-02-02: I did some remodelling below. Might be easier to understand if you look at comments on Bacon-Cecil letter first. -->
+   <text ana="taxon:letter" type="record" n="private_correspondence">
+      <body xml:lang="eng">
+         <head>Inns of Court<!-- #CB 2018-02-02: Deleted folio info from this head. Added "Inns of Court" after tag to parallel staffs -->
+            <date from-iso="1555" to-iso="1556" cert="low">1555–6 (?)</date><!-- #CB 2018-02-02: removed endnote from <head> and inserted below record in <div> -->
+            <!-- #CB 2018-01-22: would still like to have cert vs precision discussion. precision seems the better choice for a question mark date? Discuss with James C on google doc?. Does this resolve the date issue? #DJ 2018-01-28.
+               Circa issue I commented on in PL_Bacon-Cecil file re notBefore and notAfter attributes also applies here. #CB 2018-01-22 -->
+		 <seg ana="docu:RLP002" corresp="docu:RLPCI1 p.80">RLP002</seg></head>
+	       <div type="transcription">
+            <head>f [1]<supplied>Letter of William Baldwin to Sir Thomas Cawarden</supplied></head><!-- #CB 2018-02-02: added f [1] after <head>. -->
+         <!-- Does this resolve the code issue? (also considered in tagging decisions document. #DJ 2018-01-28.
+            REED Online is using six-letter codes for all docs. All codes begin with a two-letter collection code (so, say, IC for Inns). Would it work for you to adopt? #CB 2018-01-22 -->            
+        
+
+            <pb n="1" type="folio"/>
+            <!-- I've removed the asterisk and added the endnote above. Do we need to keep the pb here if it's already invoked in the <head>? DJ: 2018-01-28
+               We didn't keep asterisks in REED Online. The endnotes are identified by TEI, so any flags can be inserted automatically if needed. -->
+               
+               <ab><hi rend="center">love and lyve</hi></ab>
+                  <!-- 
+                     Resolved by establishing as its own <ab> and adding <hi rend> #DJ 2018-01-28.
+                     #KC_2018-01-22: This is a question about the XML and CWRC display. The XML
+tag here is <lb> line break. The CWRC display shows a line break *and* has inserted a line space. There is no 
+line space in the published record. Do you want to check the CWRC display? Also, the sentence "love and lyve" is
+centered in the published record. 
+this is centred in original manuscript, and we did opt to preserve that both in print and online, within own <ab>, so this line would be <ab><hi rend="center">love and lyve</hi></ab>. #CB 2018-01-22 -->
+            
+            <ab><persName n="Sir Thomas Cawarden">You</persName> shall vnderstande syr that <persName n="William Baldwin">I</persName> have<note type="other">v corrected from another letter</note> made a Co<ex>m</ex>modie concernyng <title n="The Way to Life">the way to lyfe</title>, mete as it is supposed to be played ^<add place="above">before</add> <persName n="Queen Elizabeth I">the Quene</persName>, and there be of <orgName n="Inns of Court, combined">the Innes of court</orgName><note type="editorial">I corrected from i</note> that desyer to have the setting furth therof, but because <persName n="Sir Thomas Cawarden">your m<ex>aster</ex>ship</persName> now thre yeres passed offered in a sort to set furth sum of <persName n="William Baldwin">my</persName> rude devises, I thought it good to know <persName n="Sir Thomas Cawarden">your</persName> mynde herein, before <persName n="William Baldwin">I</persName> gave answer to any other/ The settyng furth wil be chargeable because the matter is stately, comprehending a discourse of the hole worlde/ There be in it of svndry personages .lxij. and the play is iij. houres long, it is now in learnyng and well be ready within these .x. dayes/ The matter is this, I bring in a yong man whome I name Lamuel who hath a servant called Lob, these two will attempt the worlde to seke theyr fortune, they mete with Lust lucke and love, Lust promiseth them lecherie, Lucke lordship, Love Lyfe, they folow lvst and through lechery be lost, than through Lucke they recover, Lucke bringeth them to lordship from which through Larges and larracine they cu<ex>m</ex> to Lacke/ Than through Love, the go to Light &amp; therby attayne Lyfe/ All the players names beginne with L. And be<note type="other">b corrected from another letter</note> such<note type="other">s corrected from th</note> as ensue</ab>
+            <note type="editorial">In his letter to Sir Thomas Cawarden c 1555–6 (?), Baldwin claims to ‘have made a Com<ex>m</ex>odie concernyng the way to lyfe’ appropriate for performance before the queen (Mary); moreover, ‘there be of the Innes of court that desyer to have the setting furth therof.’</note>
+            
+            <!-- #CB 2018-02-02: Bit confused by your comment below. You seem to be asking about what is explained in the next line? We use <note type="foot"> where you are currently using <note type="other"> -->.
+		       <!-- 
+               In the schema there isn't a choice for endnote, so I've been using "editorial" where it seems to be in line with something the editor addressed. But what @type should I use for corrections (as noted at the bottom of a page?) For now I'm using "other" but if there is a protocol let me know. #DJ 2018-01-28
+               We used <div type="endnote"> to surround endnotes, to contrast with div type="transcription" or div type="translation". <note> used for footnotes within text and marginalia as <note type="foot"> or <note type="marginal">. #CB 2018-01-22 -->	    
+               <!-- Can we add discussion of to tag or not to tag interlineation to larger discussion of whether your coding is treating print vol or ms as artifact? Here you are preserving half brackets, but these are not in ms only used to symbolize text written above line. REED Online uses <add place="above"> instead of upper half brackets and <add place="below"> instead of lower half brackets. #CB 2018-01-22 -->
+            </div>
+	      <div type="endnote">This letter is photographically reproduced, transcribed, and partly annotated in Jean F. Preston and Laetitia Yeandle, English Handwriting 1400–1650: An Introductory Manual (Binghamton, NY, 1992), 42–3.</note></div><!-- #CB 2018-02-02: I added this here. Note it's div not note that is the surrounding element. -->
+      </body>
+   </text>
+  
+</TEI>

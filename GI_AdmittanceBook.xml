@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="REED.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title type="main">Inns of Court</title>
+
+
+            <funder><orgName>Andrew W. Mellon Foundation, New York, United States of
+                  America</orgName></funder>
+            <funder><orgName>CANARIE</orgName></funder>
+
+            <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>
+            <funder><orgName>National Endowment for the Humanities, Washington, DC, United States of
+                  America</orgName></funder>
+            <funder><orgName>Social Sciences and Humanities Research Council, Ottawa,
+                  Canada</orgName></funder>
+
+            <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
+            <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
+
+            <respStmt>
+               <persName xml:id="CB">Carolyn Black</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Project Manager</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>John Bradley</persName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Susan Brown</persName>
+               <orgName>University of Guelph</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="CK">Kathy Chung</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>REED Research Associate, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="JC">James Cummings</persName>
+               <orgName>Newcastle University</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+               <resp>TEI Schema Designer, Technical Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Matthew Davies</persName>
+               <orgName>University of London, Birkbeck College</orgName>
+               <!-- confirm -->
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <!-- RESOLVE: who is the Paleographer, Translator, Latin and Anglo-French Glossarian for Inns of Court (both print and electronic)? -->
+            <respStmt>
+               <persName xml:id="PG">Patrick Gregory</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Associate Editor</resp>
+               <!-- confirm -->
+               <resp>Paleographer, Translator, Latin and Anglo-French Glossarian</resp>
+               <!-- confirm -->
+            </respStmt>
+            <respStmt>
+               <persName>Tanya Hagen</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Bibliographer, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="JAKA1">Diane K. Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>Principal Investigator, NHPRC-Mellon Digital Edition Publishing Cooperatives
+                  Planning Grant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Alexandra F. Johnston</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>REED Founder and Senior Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>David Kathman</persName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Sally-Beth MacLean</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Principal Investigator, SSHRC grant; Director of Research and General
+                  Editor</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Kimberly Martin</persName>
+               <orgName>University of Guelph</orgName>
+               <resp>NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Christopher Matusiak</persName>
+               <orgName>Ithaca College</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="JN">Jamie Norrish</persName>
+               <resp>Programmer, EATS developer, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Dorothy Porter</persName>
+               <orgName>University of Pennsylvania</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Suzanne Westfall</persName>
+               <orgName>Lafayette College</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board Member</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Print version, published <date when-iso="2010">2010</date>. Electronic edition,
+               anticipated publication <date when-iso="2018">2018</date></edition>
+         </editionStmt>
+
+         <publicationStmt>
+            <authority><orgName>Records of Early English Drama (REED)</orgName>
+               <address>
+                  <addrLine>University of Toronto</addrLine>
+                  <addrLine>170 St George Street, Suite 810</addrLine>
+                  <addrLine>Toronto, Ontario, Canada</addrLine>
+                  <addrLine>M5R 2M8</addrLine>
+               </address>
+            </authority>
+            <!-- RESOLVE: Include Boydell & Brewer publication information? -->
+            <authority>
+               <orgName>D.S. Brewer, Cambridge, an imprint of Boydell &amp; Brewer Ltd./Boydell
+                  &amp; Brewer Ltd.</orgName>
+               <address>
+                  <addrLine>PO Box 9, Woodbridge</addrLine>
+                  <addrLine>Suffolk IP12 3DF, UK</addrLine>
+                  <addrLine>668 Mt. Hope Avenue</addrLine>
+                  <addrLine>Rochester, NY 14620</addrLine>
+               </address>
+            </authority>
+
+            <availability>
+               <p>Copyright <orgName>Records of Early English Drama (REED)</orgName>,
+                     <date>2017</date></p>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed
+                  under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+                  (CC BY-NC-SA 4.0) licence.</licence>
+            </availability>
+         </publicationStmt>
+
+         <seriesStmt>
+            <title>Records of Early English Drama</title>
+         </seriesStmt>
+         <sourceDesc>
+            <p>This publication constitutes a remediation of the printed Inns of Court collection.
+               Information on original sources for transcriptions can be accessed via the Document
+               Descriptions.</p>
+            <p>For a full list of REED collections, editors, executive board members, and staff,
+               please visit http://reed.utoronto.ca/people</p>
+         </sourceDesc>
+      </fileDesc>
+
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="taxon" matchPattern="([A-Za-z0-9_-]+)"
+               replacementPattern="../taxonomy.xml#$1">
+               <p>Private URIs using the <code>taxon</code> prefix are pointers to entities in the
+                  taxonomy.xml file. For example, <code>taxon:church</code> dereferences to
+                  <code>taxonomy.xml#church</code>.</p>
+            </prefixDef>
+            <prefixDef ident="gloss" matchPattern="([A-Za-z0-9_-]+)"
+               replacementPattern="../glossary.xml#$1">
+               <p>Private URIs using the <code>gloss</code> prefix are pointers to entities in the
+                  glossary.xml file. For example, <code>gloss:histrio-1</code> dereferences to
+                  <code>glossary.xml#histrio-1</code>.</p>
+            </prefixDef>
+            <prefixDef ident="docu" matchPattern="([A-Z-z0-9_-]+)"
+               replacementPattern="../documents.xml#$1">
+            </prefixDef>
+         </listPrefixDef>
+
+         <projectDesc>
+            <p>Records of Early English Drama (REED) is an international scholarly project that is
+               establishing for the first time the context from which the drama of Shakespeare and
+               his contemporaries grew. Founded in 1976, REED has worked since then to locate,
+               transcribe, and edit historical documents containing evidence of drama, secular
+               music, and other communal entertainment and ceremony from the Middle Ages until 1642,
+               when the Puritans closed the London theatres.</p>
+         </projectDesc>
+      </encodingDesc>
+
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">English</language>
+            <language ident="lat">Latin</language>
+            <language ident="fra">Anglo-French</language>
+         </langUsage>
+         <settingDesc>
+            <place>
+               <placeName>London</placeName>
+            </place>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <!-- Add new major milestone changes to top -->
+         <change when="2018-01-27" who="#JAKA1">Corrected editorial symbols</change>
+         <change when="2018-01-20" who="#JAKA1">Created file</change>
+      </revisionDesc>
+   </teiHeader>
+
+   <!-- each text element represents a single record within a record set -->
+   <text ana="taxon:grays_inn" type="record">
+      <body xml:lang="lat">
+         <head type="page" n="295">
+            <note type="editorial">Prominent among those granted honorary admission by Henry Helmes, Prince of Purpoole, were John Lyly, almost certainly the playwright, and John Spencer, lord mayor of London (see ODNB for both men). A pane of stained glass commemorating Spencer’s membership survives in the hall of Gray’s Inn.</note>
+            
+            <!-- DKJ 2018-01-27: Added persName for John Lily, playwright, John Spencer, Mayor of London, and Henry Helmes (ID'ing Henry Helmes as Prince of Purpoole in records for pp.295 and 298 based on Alan Nelson's note, giving them @cert high and @resp #AHN1 -->
+            
+            <date when-iso="1594-02-02" cert="high"><supplied>2 February</supplied></date>
+            <!-- DKJ 2018-01-28: would someone confirm that this should be 1594  -->
+            <seg ana="docu:RLGIAB" corresp="docu:IC1 p. 124">RLGIAB</seg>
+         </head>
+         <div type="transcription">
+            
+            <list>
+               <item>
+                  <persName n="Edward Devereux">Edward Deuoraxe</persName> de <placeName n="Castle Bromwich, Warwickshire">Castell Bromwiche in Comitate warwici</placeName> admiss<expan>us</expan> est in societat<ex>em</ex> hui<ex>us</ex> hospitij nostri <date when-iso="1594-02-02">ij die ffeb<ex>ruarij</ex></date> anno supradict<ex>o</ex>
+               <seg type="signed" rend="center"><ex>(signed)</ex> <persName n="Henry Helmes" resp="REED" role="Prince of Purpoole">H<ex>enricus</ex> Princeps.</persName></seg>
+               </item>                                         
+               <!-- DKJ 2018-01-28: Using seg @type and @rend. This seems to be in line with Staff procedure. Please confirm!  -->
+               
+               <item><persName n="Francis Dethicke">ffrancisc<ex>us</ex> Dethicke</persName> de <del type="erasure">admiss</del><note type="editorial">de created from d of cancelled admiss with e written over m</note> <placeName n="Newhall, Derbyshire">Newhall in Comitate Darbye</placeName> admiss<ex>us</ex> est in societatem hui<ex>us</ex> hospitij eode<ex>m</ex> die
+                  <seg type="signed" rend="center"><ex>(signed)</ex> <persName n="Henry Helmes" resp="REED" role="Prince of Purpoole">H<ex>enricus</ex> P<ex>rinceps</ex></persName>.</seg></item>
+               
+               <item><persName n="William Pope">Guillelm<ex>us</ex> Poape</persName> de <placeName n="Wroxton, Oxfordshire">Roxton in Comitate Oxoniæ</placeName> admiss<ex>us</ex> est in societate<ex>m</ex> hui<ex>us</ex> hospitij eodem die </item>
+
+            <note type="marginal" rend="left">Extra hospiciu<ex>m</ex></note>
+
+            <item><del type="erasure"><persName n="Francis East">ffranciscus East</persName> de <space type="blank"/> in <placeName n="Cambridgeshire">Comitate Cantabrigiæ</placeName> admiss<ex>us</ex> est in societatem hospitij nostri eod<ex>em</ex> die</del></item>
+               <!-- DKJ 2018-01-28: Would someone check to see how this cancellation should be handled? Was it the entire item? I've used space element with @type "blank" to trace what was written in the printed volume. If that is not necessary, please remove  -->
+               
+               <item>extra hospitiu<ex>m</ex> <del type="erasure">pr<ex>o</ex></del> in plena pencione tent<ex>us</ex> decimo octavo die Iunij A<ex>nn</ex>o 38 Elizabeth Regine: 
+                  
+               <seg type="signed" rend="center"><ex>(signed)</ex> <persName n="Henry Helmes" resp="REED" role="Prince of Purpoole">Henric<ex>us</ex> Pr<ex>incep</ex>s Purpoole</persName>.</seg> </item>
+            </list>
+            <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
+
+   <text ana="taxon:grays_inn" type="record">
+      <body xml:lang="lat">
+         <head type="page" n="295">
+            <date when="1594-12-25" cert="high"><supplied>25 December</supplied></date>
+            <!-- DKJ 2018-01-28: would someone confirm that this should be 1594  -->
+            <seg ana="docu:RLGIAB" corresp="docu:IC1 p. 125">RLGIAB</seg>
+         </head>
+         <div type="transcription">
+            
+            
+            <list>
+               <item><persName n="John Cook">Ihoannes Cooke</persName> &amp; <persName n="Edward Cook">Edwardus Cooke</persName> de <placeName n="Westminster, London">Westminster</placeName> admissi<ex>us</ex> sunt in societate<ex>m</ex> hui<ex>us</ex> hospitij xxv die Decembris anno Elizabeth Regine xxx vij<lb/>
+               <seg type="signed" rend="center"><ex>(signed)</ex> <persName n="Henry Helmes" resp="REED" role="Prince of Purpoole">Henry Pr<ex>incep</ex>s Purpoole</persName></seg> </item>
+               
+               <item><persName n="Phillip Wentworth">Phillippus Waintworth</persName> de <placeName n="Cotton, Suffolk">Cotton in Comitate Suffolciæ</placeName> <persName n="Anthony Fletcher">Anthonius ffletcher</persName> de
+               <placeName n="Cockermouth, Cumbria">Cockermouth in Comitate Comber<ex>landia</ex>e</placeName> <persName n="Thomas Thomkins">Thomas Thomkins</persName> de <placeName n="London">Civitate Londini</placeName> <persName n="John Lily" cert="high" resp="#AHN1" role="playwright">Ihoannes Lillie</persName> de <placeName n="London">Civitate Londini</placeName> <persName n="Thomas Smith">Thomas Smith</persName> de <placeName n="Framingham, Suffolk">fram<ex>m</ex>ingha<ex>m</ex> in Comitate Suffolk</placeName> admissi sunt in societatem huius hospitij die &amp; anno supradictis<lb/>
+               <seg type="signed"><ex>(signed)</ex> <persName n="Henry Helmes" resp="REED" role="Prince of Purpoole">Henry Pr<ex>inceps</ex> Purpoole</persName></seg> </item>
+            </list>
+         </div>
+      </body>
+   </text>
+
+   <text ana="taxon:grays_inn" type="record">
+      <body xml:lang="lat">
+         <head type="page" n="298">
+            <date when="1594-01-06" cert="high"><supplied>6 January</supplied></date>
+            <!-- DKJ 2018-01-28: would someone confirm that this should be 1594  -->
+            <seg ana="docu:RLGIAB" corresp="docu:IC1 p. 125">RLGIAB</seg>
+         </head>
+         <div type="transcription">
+            
+            <list>
+               <item><persName n="John Spencer" resp="#AHN1" role="Mayor of London">Iohan<ex>nes</ex> Spencer</persName> Maior ciuitatis London<ex>i</ex> admissus est in societatem huius Hospitij sexto die Ianuarij. Anno d<ex>o</ex>m<ex>inae</ex> Reginae Eliz<ex>abethae</ex> 37<hi rend="superscript">o</hi>
+                  
+               <seg type="signed" rend="center">(signed) <persName n="Henry Helmes" resp="REED" role="Prince of Purpoole">Henrie Helmes Pr<ex>incep</ex>s Purpool</persName></seg></item>
+            </list>
+            <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
+
+   <text ana="taxon:grays_inn" type="record" subtype="inn_book">
+      <body xml:lang="lat">
+         <head type="page" n="739-40">
+            <note type="editorial">Henry, Prince of Purpoole of Gray’s Inn for 1617–18, called Henry the second (Henry Helmes of 1594–5 becoming retrospectively Henry the first) was Henry Yelverton: see below, endnote to STC: 17944a.5 single sheet verso col 2. Sir Dudley Digges was admitted to Gray’s Inn a second time, just prior to 8 November 1630, presumably because this admission by the Prince of Purpoole was not deemed sufficiently regular (Fletcher (ed), Pension Book, p 299, n 1).</note>
+            <!-- DKJ 2018-01-28: should this last reference be a pointer to the Gray's Inn Pension Book records? -->
+            
+            <note type="editorial" n="STC">The unnamed Gray’s Inn Prince of Purpoole for 1617–18 was ‘Henry Yelverton, second son of William Y., of Rougham, Norfolk, Esq.’ He was admitted 2 February 1611/12 and knighted (as ‘of Gray’s Inn’) 23 February 1617/18 at Newmarket (Foster, Register, p 129; and Wm. A. Shaw, The Knights of England, vol 2 (London, 1906), 167). For ‘Henry the first,’ and for Edward Smyth of Lincoln’s Inn, see Introduction, p xx.</note>
+            <!-- how should we format endnotes that refer to one another AND to locations within the printed volume AND to bibliographical references?? -->
+            
+            <date from-iso="1617" to-iso="1618" cert="high">1617-18</date>
+            <seg ana="docu:RLGIAB" corresp="docu:IC1 p. 200">RLGIAB</seg>
+         </head>
+         <div type="transcription">
+
+            <list>
+               <note type="marginal" rend="left"><del type="erasure"><persName n="Henry Yelverton" resp="#AHN1" role="Prince of Purpoole">Henricus Pr<ex>incep</ex>s</persName> abs<ex>que</ex> fine dura<ex>n</ex>ti festo</del></note> 
+               
+               <item> <del type="erasure">Admissus est <persName n="Thomas Wright">Thomas Wright</persName> <placeName n="London">Londinensis</placeName> armiger <date when-iso="1617-12-26">26: Decemb<ex>ris</ex></date> p<ex>er</ex> <persName n="Henry Yelverton" resp="#AHN1" role="Prince of Purpoole">Hen<ex>ricum</ex> 2 Pr<ex>incipem</ex></persName> 1617:</del> </item>
+               
+               <note type="marginal" rend="left"> Consimiliter: </note>
+               
+               <item>Admissus <persName n="Edward Ascough">Edw<ex>ardus</ex> Aschan</persName> Armiger de <placeName n="Cottam, Lincolnshire">Cottom in Com<ex>itatu</ex> Lincoln<ex>iae</ex></placeName> <date when-iso="1617-12-26">26: Decemb<ex>ris</ex></date> per <persName n="Henry Yelverton" role="Prince of Purpoole">Hen<ex>ricum</ex> 2 Pr<ex>incipem</ex></persName> 1617 </item>
+               
+               <note type="marginal" rend="left"><persName n="Henry Yelverton" role="Prince of Purpoole">Henricus Pr<ex>incep</ex>s P<ex>urpoolae</ex></persName> abs<ex>que</ex> fine</note>
+               
+               <item>Admissus est <persName n="Samuel Tryon">Sam<ex>uel</ex> Tryon</persName> de <placeName n="London">London</placeName> miles <date when-iso="1617-12-29">29: Decemb<ex>ris</ex></date> per <persName n="Henry Yelverton" role="Prince of Purpoole">Hen<ex>ricum</ex> 2 Pr<ex>incipem</ex></persName> 1617: </item>
+               
+               <note type="marginal" rend="left"> <persName n="Henry Yelverton" role="Prince of Purpoole">Henricus Pr<ex>incep</ex>s P<ex>urpoolae</ex></persName></note>
+               
+               <item> Admissus est <persName n="Huntington Hastings Corney">Huntington Corney Hastings</persName> de <placeName n="Pickering, Yorkshire" cert="low" resp="#JAKA1">Pickering
+                  in com<ex>itatu</ex> Eboru<ex>m</ex></placeName> Armiger <date when-iso="1617-12-29">29 Decemb<ex>ris</ex></date> per <persName n="Henry Yelverton" role="Prince of Purpoole">Hen<ex>ricum</ex> 2 Prin<ex>cipem</ex></persName> 1617: </item><note type="editorial">Huntingdon Hastings Corney, son of John Corney</note>
+               
+               <note type="marginal" rend="left"> <persName n="Henry Yelverton" role="Prince of Purpoole">Henricus Pr<ex>incep</ex>s P<ex>urpoolae</ex></persName></note>
+               
+               <item> Admissus est <persName n="Thomas Lee">Tho<ex>mas</ex> Lee</persName> de <placeName n="London">London</placeName> Armiger <date when-iso="1617-12-30">30: Decemb<ex>ris</ex></date> p<ex>er</ex> <persName n="Henry Yelverton" role="Prince of Purpoole">Hen<ex>ricum</ex> 2 Prin<ex>cipem</ex></persName> 1617: </item>
+               
+               <note type="marginal" rend="left"><persName n="Henry Yelverton" role="Prince of Purpoole">Henricus Pr<ex>incep</ex>s P<ex>urpoolae</ex></persName></note>
+               
+               <item>Admissus est Tho<ex>mas</ex> Woode ^<add place="above">miles</add> de cam<ex>era</ex> regali gen<ex>erosus</ex> <del type="erasure">miles</del> <date when-iso="1617-12-30">30: Decembris</date> per <persName n="Henry Yelverton" role="Prince of Purpoole">Hen<ex>ricum</ex> 2 Prin<ex>cipem</ex></persName> 1617: </item>
+               
+               <note type="marginal" rend="left"> <persName n="Henry Yelverton" role="Prince of Purpoole">Henricus Pr<ex>inceps</ex> P<ex>urpoolae</ex></persName> absque fine </note>
+               
+               <item> Admissus est <persName n="Edward Filmere">Edward <add place="above">Philmere</add> ffilmere</persName> armiger de <placeName n="East Sutton, Kent">Est Sutton in Com<ex>itatu</ex> Cant<ex>uariae</ex></placeName> 3: Ian<ex>uarij</ex> p<ex>er</ex> Hen<ex>ricum</ex> 2 Pr<ex>incipem</ex> 1617: </item>
+               
+               <note type="marginal" rend="left"> <persName n="Henry Yelverton" role="Prince of Purpoole">Henricus Pr<ex>inceps</ex> P<ex>urpoolae</ex>
+                     abs<ex>que</ex></persName> fine</note>
+               
+               <item> Admissus est <persName n="Gervase Elwes">Iaruis Eluishe</persName> de ^<add place="above"><placeName n="London">London</placeName> in comitatu</add> Medilsex armiger: <date when-iso="1617-01-04">4: Ian<ex>uarij</ex></date> p<ex>er</ex> Hen<ex>ricum</ex> 2 Pr<ex>incipem</ex> 1617:</item>
+               
+               <note type="marginal" rend="left"> <persName n="Henry Yelverton" role="Prince of Purpoole">Henricus Pr<ex>incep</ex>s P<ex>urpoolae</ex></persName></note>
+               
+               <item> Admissus est <persName n="John Smith">Ihohan<ex>nes</ex> Smith</persName> miles de <placeName n="Leeds, Kent" cert="medium" resp="#JAKA1">Leids in com<ex>itatu</ex> Cantu<ex>ariae</ex></placeName> <date when-iso="1617-01-04">4: Ian<ex>uarij</ex></date> p<ex>er</ex> <persName n="Henry Yelverton" role="Prince of Purpoole">Hen<ex>ricum</ex> 2 Prin<ex>cipem</ex></persName> 1617: </item>
+
+               <note type="marginal" rend="left"> <persName n="Henry Yelverton" role="Prince of Purpoole">Henricus Pr<ex>incep</ex>s P<ex>urpoolae</ex></persName> abs<ex>que</ex> fine </note>
+
+               <item> <persName n="Tobias Wright">Tobyas Wright</persName> fillius et heres <persName n="Richard Wright">Richardi Wright</persName> de <placeName n="Lewknor, Oxfordshire">Lewknor in Com<ex>itatu</ex> Ox<ex>oniae</ex></placeName> Ar<ex>miger</ex> admissus est in Societate<ex>m</ex> huius hospicij <date when-iso="1617-01-05">quinto die Ianuarij</date> Anno Primo Henrici secundi prim<ex>o</ex> 1617 </item>
+
+               <note type="marginal" rend="left"><persName n="Henry Yelverton" role="Prince of Purpoole">Henricus Pr<ex>incep</ex>s P<ex>urpoolae</ex></persName> abs<ex>que</ex> fine </note>
+
+               <item> <persName n="Edward Yelverton">Edvardus Yelverton</persName> Armiger de <placeName n="London">London</placeName> Admissus est in societate<ex>m</ex> huius hospitii die et Anno predic<ex>tis</ex> | </item>
+
+               <note type="marginal" rend="left"> <handShift/>2<hi rend="superscript">o</hi> Februarij 1617.<handShift/> </note>
+
+               <item> <handShift/><persName n="Esmé Stuart" role="aristocracy">Esme Steward</persName> Domin<ex>us</ex> Aubigeney admissus est in hanc Societatem Die &amp; Anno supradictis./ </item>
+
+               <item> <persName n="Sir Arthur Ingram">Arthurus Ingram</persName> miles Secretarius coram Presidente
+                  &amp; Concilio Dom<ex>ini</ex> Regis in partib<ex>us</ex> Borealis admissus est in hanc societatem die &amp; anno supradictis./ </item>
+
+               <item> <persName n="Sir John Butler">Iohannes Butler</persName> miles de <placeName n="Woodhall, Hertfordshire">Woodhall in comitatu Hartfordiæ</placeName> admissus est in hanc
+                  societatem die &amp; an<ex>n</ex>o supradictis </item>
+               
+               <item><persName n="Sir William Button">Gulielmus Button</persName> miles de <placeName n="London">London</placeName> admissus est vt sup<ex>r</ex>a </item>
+
+               <note type="marginal" rend="left"> <handShift/><persName n="Henry Yelverton" role="Prince of Purpoole">Henricus Pr<ex>incep</ex>s P<ex>urpoolae</ex></persName> 2<hi rend="superscript">us</hi><handShift/> </note>
+
+               <item> <persName n="Sir Dudley Digg">Dudley Digg</persName>s miles de <placeName n="Chilham, Kent">Chilham in Com<ex>itatu</ex> C<ex>anciae</ex></placeName>: admissus est vt sup<ex>r</ex>a </item>
+
+               <item> <persName n="John Packington (son)">Iohannes Packington</persName> Armiger filius &amp; heres <persName n="Sir John Packington (father)">Iohannis Packington</persName> Milit<ex>is</ex>
+                  admissus est vt sup<ex>r</ex>a </item>
+
+               <item> <persName n="Richard Johnson (son)">Richardus Ihonson</persName> filius &amp; heres <persName n="Richard Johnson (father)">Richardi Iohnson</persName> admissus est in hanc
+                  Societatem vt sup<ex>r</ex>a </item>
+
+               <item> <persName n="Thomas Talbot">Thomas Talbot</persName> de <placeName n="Wriothesley, Bedfordshire">Risly in Com<ex>itatu</ex> Bedford<ex>iae</ex></placeName> admissus vt sup<ex>r</ex>a<handShift/> </item>
+            </list>
+            <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
+
+
+</TEI>
