@@ -1,0 +1,850 @@
+Documents described below are grouped first under the four Inns of Court in alphabetical order, then under a single Inn of Chancery (Furnival’s). Documents not assignable to a par- ticular Inn follow, grouped as Letters (diplomatic and private), Diaries and Reminiscences, Histories, and Miscellaneous. Individual items within the latter categories are listed in chronological order.
+Inns of Court
+
+GRAY’S INN
+The history of Gray’s Inn as a site of legal activity may be traced back before 1370. The Inn occupied property owned or controlled by the dean and chapter of St Paul’s, and subsequently by the family of Grey of Wilton. Historically the manor was called Portpoole, remembered today in Portpool Street which runs eastward from Gray’s Inn Road. (In Elizabethan and Stuart times the site gave its name to the Inn’s lord of Christmas, called the Prince of Portpool or Purpoole.)
+
+The northernmost of the four Inns of Court, Gray’s Inn, is bounded on the east by Gray’s Inn Lane (now Gray’s Inn Road), on the south by shops fronting on High Holborn, on the west by Bedford Mews (now Jockey’s Fields), and on the north by the King’s Way (now Theobalds Road) and fields not yet built over. Within its walls Gray’s Inn comprises law chambers (still used for residence), a hall, a chapel, a library, a treasury, and walks and gardens. Today’s Gray’s Inn is mostly post-Restoration in its architecture, though it preserves the original layout of its buildings and grounds.
+The governing body of Gray’s Inn is called the pension. Orders of pension were recorded in a series of Pension Books. Archival documents, maintained under the care of an archivist, are produced and read in the library.
+
+_Gray’s Inn Pension Book_
+Surviving Pension Books date from 1568–9. William Dugdale consulted an earlier volume,now lost. His Origines Juridiciales (1666) preserves entries from 1529–30 and 1550–1 (see pp 58–9, 74; see p lxxvi for document description). Financial accounts were entered in the Pension Book to 1582–3, and thereafter in Ledger Books. The library holds microfiche of the Pension Books produced in 1976 (skipping ff 234v–5), and digital photos of PEN/1/1 (Pension Book 1), taken in 2006 when the volume was disbound for conservation.
+The standard essential publication is Reginald J. Fletcher (ed), The Pension Book of Gray’s Inn (Records of the Honourable Society)1569–1669, vol 1 (London, 1901).
+London, Gray’s Inn Archives, PEN/1/1; 1569–1678; Latin and English; paper; iii + 567; 375mm x 260mm; contemporary ink foliation 1–563 (40, 41, 84, 145 duplicated); 19th-c. binding in stamped leather over boards, title on spine in gold: ‘GRAY’S INN | BOOK OF ORDERS | VOL. I | 11 OF ELIZ. | TO | 18 OF CHA: 2. disbound and repaired 2006–7.’ Folio [i] contains a list of musicians dated 22 October 1618; ff [i verso] to [ii verso] contain a partial table of contents for the first 287 leaves; f [iii] is an account sheet from 1569.
+
+_Gray’s Inn Admittance Book_
+Uniquely among Inns of Court admissions registers, the Gray’s Inn Admittance Book contains admissions entries signed by its Christmas prince, the ‘Prince of Purpoole’ (see pp 124–5, 200–1).
+The standard essential publication is Joseph Foster (ed), The Register of Admissions to Gray’s Inn, 1521–1889, together with the Register of Marriages in Gray’s Inn Chapel, 1695–1754 (London, 1889).
+
+London, Gray’s Inn Archives, ADM/1/1; 1581–1649; Latin and English; paper; v + 526 + v; 405mm x 280mm; pagination 5–1052 (pp 1–4, 7–8, 447–8 missing); rebound 1982 in half-leather, title on spine: ‘Gray’s Inn Admittance Book 1581–1649.’
+
+_Gray’s Inn Ledger Book_
+Accounts were kept from Easter to Easter by the pensioner, but from November to November by the treasurer. Despite the legend on the spine the earliest accounts are from 1584 (f 8v). Some butlers’ accounts are also included. Some accounts are out of order, apparently having been entered from rough books without strict attention to chronological sequence. Folios 91v–109v are largely blank, except for two accounts dated 1673 and 1677. No accounts survive for the years 1614–34. Two leaves covering receipts from 1634 to 1637 (ff 110–11v) are heavily damaged (but would not have contained payments relevant to REED).
+
+London, Gray’s Inn Archives, FIN/1/1; 1584–1680; Latin and English; paper; ii + 406 + ii; 420mm x 270mm; contemporary ink foliation 1–225 and contemporary ink pagination 226–406; 19th-c. binding in leather over board, title on spine in gold: ‘LEDG. | A | 1586.’
+
+_Account Book of John Bankes_
+
+John Bankes was treasurer of Gray’s Inn.
+Dorchester, Dorset History Centre, D/BKL/8C/63; 1631–4; English; paper; 15 quires of 12 leaves each except quire 3 with 14 leaves; 360mm x 220mm; unnumbered; writing on ff [1], [3–3v], [5], [8–10v] only; bound in parchment, f [1]: ‘Receits of Pentions Rentes and other yearely profittes in the tyme of Sir Iohn Bankes Treasurer since (blank) November 1631.’
+
+INNER TEMPLE
+Seat of the Knights Templar prior to the suppression of the order in 1312, the ‘Temple’ lay just beyond the western reach of London Wall, between Fleet Street and the Thames. As early as the reign of Edward III (1312–77) the Temple accommodated both the Knights Hospitaller of St John of Jerusalem and legal professionals, the latter enjoying easy access to the royal courts of Westminster. The Paston letters of November 1440 contain the earliest known reference to the Inner Temple, also called a ‘college’; subsequent letters in the same series identify the Middle Temple in similar terms. Though the site was and remains a walled (or fenced) and gated enclosure, the internal boundary between the two inns is not a wall but a lane. Symbolic of the traditionally peaceful coexistence of the two Inns is the Temple Church, shared and governed by both.
+The Inner Temple occupies the eastern (down-river) half of the Temple grounds. Further to the east is the site of the Whitefriars’ monastery, historically a ‘liberty.’ Entrances to the Inner Temple include one or more gates to the north along Fleet Street and a water-gate leading to the Thames (now to the Embankment).
+Physically the Inner Temple comprised law chambers, which traditionally doubled as resi- dential facilities, a hall, the Temple Church, a library, gardens, and a treasury. Alone among the four Inns the Inner Temple lacks its early-modern hall, demolished in 1866 (see p xlii). The Inner Temple retains an old-world atmosphere, a consequence of careful reconstruction following extensive devastation in World War II.
+The governing body of the Inner Temple, called the parliament, consisted of all members holding the rank of master of the bench (or ‘bencher’). Parliament was convened in the hall (‘at the bench,’ that is, the benchers’ or high table) at two- or three-week intervals through- out the year. The orders of this body, called acts of parliament, were for the most part entered into a series of Parliament Books. By tradition the benchers governed only during term, while the masters of the bar (‘barristers’) governed during vacations, and junior members governed during Christmas vacation.
+All Inner Temple administrative records earlier than 1505 and all financial records earlier than 1606 are wanting. At the close of World War II, when the surviving archives were being returned after having been removed for safe-keeping, certain documents were damaged by fire in a road accident. Had they not been removed, however, they would not have survived at all, as the Inner Temple was almost completely destroyed by enemy bombing, including all of the library’s records and all its modern printed books.
+Archives of the Inner Temple are in the custody of the sub-treasurer. Prior to 1989 they were maintained in a strong room in the treasurer’s office. In 1990 the historical archives were moved to a new purpose-built room, where they are supervised by the master of the archives.
+
+_Inner Temple Parliament Books_
+Most Inner Temple parliament acts were recorded in a series of Parliament Books. Occasionally, however, acts strayed into other documents, such as the act of 23 December 1624 (see p 213) concerning expenses at Christmas, which survives only in the Christmas Account Book for that year.
+Damaged by fire the three earliest Parliament Books are partly carbonized along all three outside edges, with the result that some lines of text and even whole entries are now illegible. Repaired and rebound c 1960 the volumes remain brittle and difficult to open (especially the first volume in the series).
+The standard essential publication is F.A. Inderwick (ed), A Calendar of the Inner Temple Records, 2 vols (London, 1896, 1898). Lost text can sometimes be supplied from Inderwick.57
+
+London, Inner Temple Archives, PAR/1/1; 1505–89; Latin, French, and English; paper; iii + 247 + ii; because of damage by fire, leaves vary in size, averaging 410mm x 140mm, inset in modern backing paper 425mm x 165mm; modern pencil foliation 1–247 (1–12 are entirely or mostly blank, ff 47–86 bound out of order); bound in stiff parchment, with leather hinges and thongs.
+
+London, Inner Temple Archives, PAR/1/2; 1589–1638; Latin and English; paper; ii + 266 + ii; 435mm x 180mm; earlier pen foliation on upper-right corners superseded by modern pencil foliation bottom right 1–265 (followed here); bound in red buckram with gold stamping on spine.
+
+London, Inner Temple Archives, PAR/1/3; 1638–64; Latin and English; paper; ii + 187 + ii; 435mm x 180mm; modern pencil foliation 1–186; bound in red buckram with gold stamping on spine.
+
+_Inner Temple Admissions Register_
+
+London, Inner Temple Archives, ADM/1/1; 1547–61; English; paper; vi + 47 + iv; 392mm x 150mm; contemporary ink pagination; all pages torn at sides and now archivally repaired by being pasted onto new paper; rebound in modern brown cloth, title on red leather insert on spine: ‘ADMISSIONS 1547– 1571.’ Bottom two thirds of p 46 and all of p 47 (missing top quarter of page) contain a draft list of payments and receipts.
+
+_Inner Temple Treasurers’, Stewards’, and Butlers’ Accounts_
+
+Early treasurers’ accounts survive in one volume only, 1606–48; the same volume preserves occasional accounts of the steward and butler. For the period 1606–9 separate accounts are given for the treasurer, the steward, and the butler. Thereafter accounts are undivided.
+
+In addition to the documents described below, two fragmentary copies of the treasurers’ accounts for 1621–2 and 1623–4 survive in the Birmingham Reference Library: Coventry MSS 660743, nos. 35 & 36. These are duplicate copies which originally belonged to Sir Thomas Coventry, the treasurer. Each lacks the page recording payments for music and plays in those years, so are not collated here.
+
+London, Inner Temple Archives, FIN/1/1; 1605–48; Latin and English; paper; 321 leaves; 450mm x 160mm; modern pencil foliation a–f, 1–316 (f a originally a paste-down); original stamped leather binding, badly deteriorated.
+
+_Inner Temple Christmas Accounts_
+
+The Christmas account book for 1614–82 is unique among the surviving records of the Inns, though there must have been others of its kind. It contains receipts and payments of the stewards of Christmas commons and is cited here largely for weekly expenditures on music for the revels. The stewards (of whom there were customarily three or four) entered receipts and expenses for the four weeks of Christmas commons beginning at the feast of St Thomas (21 December) and ending a week after Epiphany. For some years only three weeks of commons are recorded. Expenditures for food and drink are recorded daily, other expenses weekly. The volume also contains the text of some acts of parliament. Accounts for the following years are missing: 1625–6, 1630–1, 1632–40, 1642–60.
+The Christmas account of William York for a single first week of the Christmas commons of 1633 fills a lacuna in the Christmas Account Book. A second account, kept by John Williams, another 1633 Christmas steward, was identified by archivists at the Derbyshire Record Office in 1988 (D258/Box 30/8), but as it yields no entries of REED interest further details are omitted here. A third account was kept by Henry Kemp for the third and fourth weeks of Christmas in this same year. All three documents are associated with the ‘Gell papers,’ documents from 1610–48 originally gathered by Thomas Gell of the Inner Temple (admitted 28 May 1612). Henry Chandos-Pole (1829–1902), second son of Edward Sacheverell Chandos-Pole, inherited Hopton Hall and estate from Philip Gell, formally taking the name Gell in 1865. The papers are now allocated permanently to the Derbyshire Record Office. Searches for the third document in the Derbyshire Record Office in 1988 and again in 1991 were unsuccessful.
+
+London, Inner Temple Archives, COM/9/1; 1614–82; Latin and English; paper; i + 229; 445mm x 175mm; modern pencil foliation 1–229 (ff 133–226 blank); original tooled leather binding with 3 leather straps.
+
+Matlock, Derbyshire, Derbyshire Record Office, D258/9/8; December 1633; English; paper; single bifolium half-sheet, writing on both sides; unnumbered; title at the top of first folio: ‘Inner Temple | The Accompt of William Yorke one of the Stewardes for the ffirst weeke of christmas Anno domini 1633.’
+
+_Expense Memorandum of Thomas Nash_
+This Thomas Nash, not to be confused with the playwright of the same name, was a barrister (called 1617, d. 1648) with chambers in Hare Court. In July 1634 he was steward for the reader’s feast.
+
+London, Inner Temple Library, MS Misc. 30, no. 63; 1634?; English; paper; single sheet; 200mm x 65mm; affixed to modern backing-paper and endorsed: ‘his desire is: That Thomas Hall his nephew may LbeJ admitted of the howse, & into his Chamber & all the dutyes shall be paid.’
+
+LINCOLN’S INN
+Lincoln’s Inn takes its name from Henry de Lacy, earl of Lincoln, who died in 1310/11. The site comprised the episcopal palace of Ralph Nevill, bishop of Chichester and chancellor of England (d. 1244); and buildings from a defunct Blackfriars’ monastery in Holborn. Lincoln’s Inn acquired absolute ownership of its land from the see of Chichester in 1580.
+The site is bounded on the east by Chancery Lane, on the south by Carey Street and the Royal Courts of Justice, on the west by Lincoln’s Inn Fields, and on the north by High Holborn. Physically Lincoln’s Inn comprises law chambers, which traditionally doubled as residential facilities, an old hall, a new hall, a chapel, a library, and gardens. Except for its old hall (see p xlii), and its chapel which was designed by Inigo Jones, Lincoln’s Inn today is essentially Victorian in its architecture.
+The governing body of Lincoln’s Inn is called the council. Orders of council are preserved in a sequence of ‘Black Books’: beginning in 1422 the series is the oldest and most complete of any of the Inns of Court. Archival documents, maintained under the care of an archivist, are produced and read in the library.
+
+_Lincoln’s Inn Black Books_
+
+All eight volumes described below were rebound in 1965 in black morocco, giving them a uniform appearance despite notable differences in size (from 210mm x 135mm to 310mm x 205mm). Foliation is sometimes nightmarish, as for example in A1a7 (Black Book 7), due to successive inconsistencies, errors, corrections, and rationalizations. A set of microfilms is preserved in the Public Record Office (TNA: PRO 30/77): the eight volumes referenced here occupy the first five reels.
+The standard essential publication is William Paley Baildon (ed), The Records of the Honorable Society of Lincoln’s Inn. The Black Books, 4 vols (London, 1897).58
+
+London, Lincoln’s Inn Archives, A1a1 (Black Book 1); 1422–71; Latin, French, and English; paper; v + 185 + vi; 210mm x 135mm; modern pencil foliation (leaf missing following f 160, containing treasurers’ accounts for 1469–70; leaf missing following f 180, remaining only as a fragment; ff 49–50, 70, 72–5, and 82 blank), 17th-c. ink foliation 1–180; title (in 17th-c. hand) on f 1: ‘Liber hospicij de Lincolsin.’
+
+London, Lincoln’s Inn Archives, A1a2 (Black Book 2); 1472–1507; Latin, French, and English; paper; originally 2 volumes, bound together in the early 16th c., now referenced respectively as Part 1 and Part 2:
+
+Part 1: 57 leaves; 280mm x 210mm; modern pencil foliation 1–57 supersedes early ink foliation which shows that the volume originally had 65 leaves. On f 1 of Part 1 is written ‘liber 2d’; ff 1v–16 contain notes and lists of names belonging to part of the period covered by Black Book 1 (1440–71); ff 17–57 contain the records of the Inn 1472–86; part of f 57 contains a short list of contents of Part 1 in a 17th-c. hand.
+
+Part 2: ii + 83; 210mm x 295mm; early ink foliation 1–84 (f 69 now missing). Folio [i] of Part 2, the original cover, bears the title ‘[Liber secundus] liber 3’; f [ii] has a partial list of contents in a 17th-c. hand; ff 1–84 contain the records of the Inn 1487–1506; f 84v reads: ‘liber secundus.’
+
+London, Lincoln’s Inn Archives, A1a3 (Black Book 3); 1506–30; Latin, French, and English; paper; v + 223 + v; 305mm x 210mm; contemporary ink foliation 1–190, supplemented by an identical modern pencil foliation which includes a half-sheet foliated ‘143a’ (last 32 leaves blank); a flyleaf seen by Baildon, containing the price of the book (‘xijd’) and a verse inscription, now wanting.
+
+London, Lincoln’s Inn Archives, A1a4 (Black Book 4); 1530–62; Latin, French, and English; paper; v + 387 + viii; 295mm x 200mm; contemporary ink foliation 1–387 (ff 56–7, 67–8, 89–90, 383–5 blank; 386 missing), front flyleaf numbered ‘A’ in pencil; front flyleaf bears title ‘liber quartus.’ Folios 380–2v contain partial indexes in 2 different 17th-c. hands.
+
+London, Lincoln’s Inn Archives, A1a5 (Black Book 5); 1562–93; Latin and English; paper; iii + 538 + iii; 310mm x 205mm; modern pencil foliation 1–10, followed by original ink foliation 1–528 (gathering containing ff 502–19 now misbound between ff 489 and 490; ff 2–10, 234–8, 511, 518 blank). Folio 1 has the title ‘Liber Quintus’ but also bears the earlier ink numbering ‘Fo. 27’ and some notes on council meetings in 1563. Folios 522–6v contain an alphabetical subject-index in a late 16th- or early 17th-c. hand (musicians are cross-indexed under ‘Disportes’).
+
+London, Lincoln’s Inn Archives, A1a6 (Black Book 6); 1592–1618; Latin and English; paper; viii + 530 + v; 295mm x 195mm; contemporary ink foliation 1–704, accidentally or deliberately omitting ff 30, 77, 110–99, 202, and 220–99 (some blank pages have no folio numbers, some pairs of leaves have the same number with ‘A’ or ‘B’ added; a note by the binder on f 704 states erroneously that these leaves (rather than merely their numbers) are ‘wanting’); on f [vi] is the title: ‘Liber Sextus.’ Folios 700–3v contain an alphabetical subject-index in a 17th-c. hand.
+
+London, Lincoln’s Inn Archives, A1a7 (Black Book 7); 1618–35; Latin and English; paper; ix + 458 + v; 295mm x 185mm; contemporary ink foliation 1–211 followed by modern pencil foliation 212–468 (ff 8–11 missing, folio numbers 192 and 290–300 skipped over due to misfoliation, ff 27, 35–45, 74–6, 101–20, 359, 464–8 blank); f [vi] endorsed: ‘1619 to 1635.’ Folios 461–3v contain an index in a contemporary hand.
+
+The volume as seen by Baildon in the 1890s had several pages bound out of order in the first gath- ering, which had sometime previously degenerated into loose sheets (Baildon, vol 2, p 210). The leaves which he referred to as 5, 6, 7, 8, 9, and 10 are now numbered 1, 2, 5, 6, 7, and 4 respectively and bound in numerical order. The missing ff 8–11 must originally have been the first four leaves of the gathering, containing council orders from December 1618 to April 1619. Also, due to a foliation error now corrected, after f 211 the modern reader must add 90 to Baildon’s folio numbers (after f 289 the difference has been smoothed out by the modern foliation to 100). No accounts were entered for 1619–20, 1620–1, or 1621–2.
+
+London, Lincoln’s Inn Archives, A1a8 (Black Book 8); 1635–68; Latin and English; paper; xii + 454 + vii; 295mm x 190mm; contemporary ink foliation 361–773, continued from vol 7 which originally ended at f 360 (ff 774–90, 794–9 blank); on f 815 in an 18th-c. hand: ‘Finis 1668.’ Folios 800–5 contain an uncompleted index in the same hand; ff 792–3 contain an index in a contemporary hand.
+
+MIDDLE TEMPLE
+
+The early history of the Middle Temple is much the same as that of the Inner Temple. It occupies the western (or up-river) half of the Temple grounds. Entrance gates have historically included one or more gates to the north along Fleet Street, one to the west, and a water-gate to the Thames, now the north side of the Embankment.
+Physically the Middle Temple comprises law chambers, which traditionally doubled as residential facilities, an exceptionally large and magnificent hall (see p xlii), a chapel, a library, gardens, and a treasury. Architecturally the Middle Temple retains an old-world atmosphere, to some extent a consequence of careful reconstruction following World War II.
+The governing body of the Middle Temple is called the parliament; its orders, called minutes of parliament, are preserved in volumes called Parliament Books. Middle Temple Parliament Books survive from 1500, except that the second volume, for 1524–51, is lost (whence number ‘2’ is omitted from the sequence of shelfmarks).
+Financial documents surviving from our period include treasurers’ Receipt Books from a series which is complete only from 1637–8 to 1641–6, while a single book survives from earlier years, for 1614–15. The years just prior to 1642 are also represented by treasurers’ Disbursement Books for 1640–1 and 1641–2. A unique series of unbound scraps mostly associated with Inns of Court masques survives abundantly from 1612–13 and 1633–4 (see pp lvii–lxii), and occasionally for other years.
+The standard essential publications are Charles Henry Hopwood (ed), Middle Temple Records, 3 vols and index (London, 1904–5); and A Calendar of the Middle Temple Records (London, 1903).
+
+_Middle Temple Parliament Books_
+London, Middle Temple Archives, MT.1/MPA/No. 1; 1500 – 24; Latin; paper; ii + c 100 + ii; 425mm x 150mm; modern ink foliation 1–48 (last c 50 leaves blank); bound in leather over board in 1926 (some edges repaired), gold-stamped title on spine: ‘A | I | 6 HEN. 7 | TO | 6 HEN. 8 | 1500 1524.’
+
+London, Middle Temple Archives, MT.1/MPA/No. 3; 1551–1610; English; paper; 413 leaves; 405mm x 150mm; contemporary ink foliation 1–413; repaired and rebound in vellum in 1931, no title page, gold-stamped title on spine: ‘D | R | 1551 | TO | 1610.’
+
+London, Middle Temple Archives, MT.1/MPA/No. 4; 1610–26; Latin and English; paper; ii + 208 + i; 410mm x 160mm; contemporary ink foliation 1–208; rebound in vellum in 1926, no title page, title on blank band on spine: ‘C | 3 | 1610 | TO | 1626.’
+
+London, Middle Temple Archives, MT.1/MPA/No. 5; 1626–58; Latin and English; paper; i + 304 + i; in contemporary ink, first foliated 1–38, then paginated 40–496 (f [290] blank, f [291] unnumbered, ff [292–304] paginated in contemporary ink 1–25); bound in vellum over board in 1926; gold-stamped title on spine: ‘B | 2 | 1626 | TO | 1658.’
+
+_Middle Temple Treasurers’ Receipts_
+
+London, Middle Temple Archives, MT.2/TRB/1a; 1613–15; English; paper; i + 34 + i; 314mm x 200mm; modern pencil foliation; outer paper sheet serves as cover, stabbed and sewn, on cover: ‘Iohannes Iermy armiger Thesaurarius Anno domini 1614 & 1615.’
+
+London, Middle Temple Archives, MT.2/TRB/1; 1637–9; English; paper; 91 leaves; 290mm x 200mm; contemporary ink foliation 1–91; f 91 glued into protective cover, back flyleaf dates the repair 25 January 1929; bound in vellum, title on cover: ‘A Booke of/ Accounts An: / Domini 1638: / Conyers /.’
+
+Sometime after it was repaired in 1929 this volume was misplaced, until 1989, when it was redis- covered in the muniment room. The accounts run from 14 October 1637 to 11 October 1639. Those for 1637–8 occupy ff 1–40; for 1638–9, ff 41–91. The receipts for each year are numbered consecu- tively and written in ruled boxes, with the date in the left margin. William Conyers was treasurer in 1638–9, replacing Richard Lane.
+
+London, Middle Temple Archives, MT.2/TRB/2; 1639–40; English; paper; 67 leaves; 285mm x 190mm; modern pencil foliation 1–48 (first 12 and last 7 leaves ruled but unnumbered); vertical rules create left and right columns on each page, horizontal rules added subsequently to make boxes for each entry; bound in vellum. Each entry is numbered.
+
+London, Middle Temple Archives, MT.2/TRB/3; 1640–1; English; paper; v + 23 + xviii; 300mm x 185mm; contemporary ink pagination 1–46; vertical rules for left and right columns on each page, horizontal rules added subsequently to make boxes for each entry; bound in vellum. Each entry is numbered.
+
+London, Middle Temple Archives, MT.2/TRB/4; 1641–6; English; paper; iv + 74 + iv; 290mm x 180mm; contemporary ink pagination 1–48; bound in vellum. Contains annual summaries of receipts, each category of receipt being entered in a separate ruled box and assigned a number which appears in the index at the front of the book.
+
+_Middle Temple Loose Papers_
+When research for this collection began, the following loose papers, including many signed receipts still folded into little bundles, were maintained in archival boxes labelled, for example, ‘Papers and Accounts Concerning Masques.’ Recently the scraps have been unfolded and pre- served in mylar sleeves gathered into ring binders. Most have been described and published by Orbison in ‘Traces of Two Jacobean Dramatic Performances at the Middle Temple,’ pp 55–62; ‘Research Opportunities at the Inns of Court,’ pp 27–33; and the Malone Society’s Collections 12. A more recent publication is Elliott, ‘Musical and Dramatic Documents from the Middle Temple,’ pp 171–93.
+
+Various numbers have been assigned to these documents at various times, including numbers assigned or recorded by Orbison and Elliott. New numbers, assigned by the Middle Temple archivist in the course of recent organization and conservation, are followed here; previously assigned numbers are also recorded.
+
+We list the papers here, under four categories (GDE, MAA, MAB, TUT), in archive order. As all items are paper, and all are in English, those details are not individually noted. Single sheets are typically written on one side only, except for endorsements. Exceptions and bifolia are described in greater detail.
+
+Papers Relating to Middle Temple Entertainments, Feasts, Grand Days, and Dinners (GDE)
+
+Item 1 in the GDE series is a modern photograph of the Twelfth Night entry from John Manningham’s diary (see p 685). Item 2 is a receipt relative to a reader’s feast. Items 13 (a receipt for halberds) and 15, 15a, and 17 (receipts and bills for torches and staves) are not transcribed here, as nothing in these documents specifically points to an entertainment.
+
+The remaining items, ranging from February 1612/13 to 1638–9, find a place in the Records. Items from this series are published, with extensive notes and annotations, in Orbison, ‘Traces of Two Jacobean Dramatic Performances at the Middle Temple,’ pp 55–62; ‘Research Opportunities at the Inns of Court,’ pp 27–33; and Elliott, ‘Musical and Dramatic Documents from the Middle Temple,’ pp 171–93.
+
+Middle Temple Musicians’ Receipt
+London, Middle Temple Archives, MT.7/GDE/3; 2 February 1612/13; single sheet; 300mm x 215mm; endorsed: ‘Mr Dowland & his ffellowes for the consort on the feast day of the purificacion of our Ladye Anno 1612.’
+
+Middle Temple Musicians’ Petition
+London, Middle Temple Archives, MT.7/GDE/4; 1612–13 (MS undated); bifolium; 205mm x 300mm; unnumbered; writing on first page only, lengthwise; badly torn and worm-eaten; addressed in the same hand: ‘To the Righte Worshipfull the Maisters and benchers of the middell Tempell./,’ and endorsed in another hand: ‘Musycyons: [This petition ys Referrd to the Tresorer] The some of xl s. ys to be allowed to them/,’ and in yet another hand: ‘The musicions peticion where vppon theire was granted vnto them by order of parliament xl s.’ This copy is a draft and has no signatures.
+
+Middle Temple Musicians’ Receipt
+London, Middle Temple Archives, MT.7/GDE/5; 13 February 1612/13; single sheet; 94mm x 165mm; endorsed: ‘Papson ye Musicions bill for the receipt of xl s. for wages.’
+
+Middle Temple Musicians’ Receipt
+London, Middle Temple Archives, MT.7/GDE/6; 21 June 1613; single sheet; 313mm x 193mm; endorsed: ‘The musicions Bill for xl s. when they gave their attendance abowt the tyme when the Prince dyed.’
+
+Middle Temple Musicians’ Receipt
+London, Middle Temple Archives, MT.7/GDE/7; 1616; single sheet; 63mm x 152mm.
+
+Middle Temple Players’ Receipt
+London, Middle Temple Archives, MT.7/GDE/8; 2 February 1615/16; single sheet (fragment); 152mm x 205mm; endorsed: ‘The players Bill for a playe on Candlemas Daye 1615/.’
+
+Middle Temple Musicians’ Receipt
+London, Middle Temple Archives, MT.7/GDE/9; 15 February 1618/19; single sheet; 50mm x 200mm; writing on 1 side only.
+
+Middle Temple Players’ Receipt
+London, Middle Temple Archives, MT.7/GDE/10; 1618–19 (MS undated); single sheet; 210mm x 215mm.
+
+Middle Temple Musicians’ Receipt
+London, Middle Temple Archives, MT.7/GDE/11; 15 January 1627/8; single sheet; 97mm x 154mm; endorsed: ‘1627 Musitians paid.’
+
+Middle Temple Musicians’ Receipt
+London, Middle Temple Archives, MT.7/GDE/12; 20 January 1628/9; single sheet; 95mm x 151mm; endorsed: ‘20mo Ianuarij 1628. Musitians allowance 2 l. 13 s. 4 d. paid.’
+
+Middle Temple Musicians’ Receipt
+London, Middle Temple Archives, MT.7/GDE/14; 8 February 1629/30; single sheet; 110mm x 142mm; endorsed: ‘8uo ffebruarij 1629 Musitians 3–13–4 paid.’
+
+Middle Temple Players’ Receipt
+London, Middle Temple Archives, MT.7/GDE/16; 3 November 1632; single sheet; 86mm x 146mm; endorsed: ‘3o November 1632 The players bill 10 li. paid.’
+
+Middle Temple Players’ Receipt
+London, Middle Temple Archives, MT.7/GDE/18; 6 February 1632/3; single sheet; 102mm x 153mm; endorsed: ‘6to ffebruarij 1632 The players bill 2 li. 10 s. paid.’
+
+Middle Temple Musicians’ Receipt
+London, Middle Temple Archives, MT.7/GDE/19; 16 February 1632/3; single sheet; 75mm x 125mm; endorsed: ‘16to ffebruarij 1632 The Musitians acquittance 3–03–4 paid.’
+
+Middle Temple Masque Roll
+London, Middle Temple Archives, MT.7/GDE/20; 16 October 1635; single sheet; 152mm x 100mm; endorsed: ‘Masque Terminis Michaelis Hilarij Pasche & Trinitatis 1634. 1635. 39 li. 00 s. & received on last yeares roll 7 li. in toto 46.’
+
+Middle Temple Receipt Concerning Masque Roll
+London, Middle Temple Archives, MT.7/GDE/21; 1638–9; single sheet; 78mm x 149mm; endorsed: ‘Terminis Michaelis Hillarij pasche & Trinitatis 1638. 1639. Church roll 5 li. Masque roll 2 li.’
+
+Miscellaneous Papers Relating to _The Memorable Masque_ (MAA)
+
+Items from the MAA series are published, with extensive notes and annotations, in Orbison, ‘The Middle Temple Documents Relating to George Chapman’s The Memorable Masque,’ Collections 12, pp 1–26, and biographical notes pp 27–30. Included in the individual docu- ment descriptions below are numbers assigned by Orbison in the form ‘C.xx’ (where ‘C’ sig- nifies ‘Chapman’). We have redated the very first item in the series from 11 January 1612/13 to 11 June 1613. We overlook the following items, on topics not of interest to REED: MAA/2, 5, 10–11, 26, 38, 42.
+
+Middle Temple Summary of Taxation Assessments
+London, Middle Temple Archives, MT.7/MAA/1; 11 June 1613; single sheet; 310mm x 205mm. C.1.
+
+Middle Temple Summary of Taxation Receipts
+London, Middle Temple Archives, MT.7/MAA/3; 1613; bifolium (leaves no longer conjugate); 262mm x 174mm; unnumbered. Folio [2v] contains the following names: ‘mon<...>’; ‘Hale’; ‘Sordley’; ‘ffarlbell’; ‘pie’; ‘bomer.’ C.2.
+
+Middle Temple Certificate of Admission for Inigo Jones
+London, Middle Temple Archives, MT.7/MAA/4; 21 February 1612/13; single sheet; 202mm x 154mm. Not in Orbison.
+
+Middle Temple Receipt
+London, Middle Temple Archives, MT.7/MAA/6; 26 February 1612/13; single sheet; 205mm x 205mm. C.5.
+
+Middle Temple Receipt
+London, Middle Temple Archives, MT.7/MAA/7; 1 March 1612/13; single sheet; 175mm x 155mm. C.6.
+
+Middle Temple Summary of Payments
+London, Middle Temple Archives, MT.7/MAA/8; June 1613 (MS undated); single sheet; 307mm x 200mm. C.12.
+
+Middle Temple Reckoning
+London, Middle Temple Archives, MT.7/MAA/9; between 12 and 16 June 1613 (MS undated); bifolium; 310mm x 200mm; unnumbered. C.11.
+
+Middle Temple Contributions List
+London, Middle Temple Archives, MT.7/MAA/12; 12 June 1613; single sheet; 310mm x 205mm. C.9.
+
+Middle Temple Summary of Receipts
+London, Middle Temple Archives, MT.7/MAA/13; 14 June 1613; single sheet; 310mm x 205mm. C.10.
+
+Middle Temple Receipt
+London, Middle Temple Archives, MT.7/MAA/14; 16 June 1613; single sheet; 225mm x 222mm. C.13.
+
+Middle Temple Receipt
+London, Middle Temple Archives, MT.7/MAA/15; 17 June 1613; single sheet; 154mm x 195mm. C.14.
+
+Middle Temple Receipt
+London, Middle Temple Archives, MT.7/MAA/16; 18 June 1613; single sheet; 209mm x 210mm. C.16.
+
+Middle Temple Receipt
+London, Middle Temple Archives, MT.7/MAA/17; 18 June 1613; single sheet; 305mm x 205mm. C.15.
+
+Middle Temple Receipt
+London, Middle Temple Archives, MT.7/MAA/18; 19 June 1613; single sheet; 310mm x 196mm. C.17.
+
+Middle Temple Receipt
+London, Middle Temple Archives, MT.7/MAA/19; 26 June 1613; single sheet; 155mm x 205mm. C.18.
+
+Middle Temple Receipt
+London, Middle Temple Archives, MT.7/MAA/20; 28 June 1613; single sheet; 307mm x 205mm. C.19.
+
+Middle Temple Summary of Payments
+London, Middle Temple Archives, MT.7/MAA/21; on or after 28 June 1613 (MS undated); single sheet; 310mm x 208mm. C.20.
+
+Middle Temple Summary of Receipts
+London, Middle Temple Archives, MT.7/MAA/22; 14 August 1613; single sheet; 310mm x 205mm. C.21.
+
+Middle Temple Receipt
+London, Middle Temple Archives, MT.7/MAA/23; 25 August 1613; single sheet; 125mm x 203mm. C.22.
+
+Middle Temple List of Receipts
+London, Middle Temple Archives, MT.7/MAA/24; on or after 25 August 1613 (MS undated); single sheet; 270mm x 196mm. C.23.
+
+Middle Temple Summary of Receipts
+London, Middle Temple Archives, MT.7/MAA/25; on or after 15 October 1613 (MS undated); single sheet; 310mm x 200mm. C.24.
+
+Middle Temple Receipt
+London, Middle Temple Archives, MT.7/MAA/27; 1613–14 (MS undated); single sheet; 270mm x 200mm. C.30.
+
+Middle Temple Receipt
+London, Middle Temple Archives, MT.7/MAA/28; 16 October 1613; single sheet; 270mm x 198mm. C.25.
+
+Middle Temple Summary of Payments
+London, Middle Temple Archives, MT.7/MAA/29; on or after 5 November 1613 (MS undated); single sheet; 310mm x 204mm. C.27.
+
+Middle Temple Summary of Payments
+London, Middle Temple Archives, MT.7/MAA/30; on or after 5 November 1613 (MS undated); single sheet; 310mm x 204mm. C.28.
+
+Middle Temple Receipt
+London, Middle Temple Archives, MT.7/MAA/31; 5 November 1613; single sheet; 103mm x 148mm. C.26.
+
+Middle Temple Accounts
+London, Middle Temple Archives, MT.7/MAA/32; 18 November 1613; bifolium; 268mm x 198mm; unnumbered. C.29.
+
+Middle Temple Letter of Sir Edward Phelips and Henry Hobart to Actors in the Masque
+London, Middle Temple Archives, MT.7/MAA/33; 1613 (MS undated); bifolium; 305mm x 205mm.; unnumbered. C.7
+
+Middle Temple Receipt
+London, Middle Temple Archives, MT.7/MAA/34; c 16 February 1612/13; single sheet; 218mm x 205mm. C.3.
+
+Middle Temple Receipt
+London, Middle Temple Archives, MT.7/MAA/35; 18 February 1612/13; single sheet; 210mm x 203mm. C.4.
+
+Middle Temple Letter of Masters of the Bench to Sir Edward Phelips
+London, Middle Temple Archives, MT.7/MAA/36; after 14 May 1613; single sheet; 197mm x 311mm. C.8.
+
+Middle Temple Accounts
+London, Middle Temple Archives, MT.7/MAA/37; 14 April 1614; bifolium; 280mm x 173mm; unnumbered. C.31.
+
+Petition to the Middle Temple
+London, Middle Temple Archives, MT.7/MAA/39; after 16 November 1616 (MS undated); single sheet; 195mm x 310mm. C.34.
+
+Middle Temple Certificate
+London, Middle Temple Archives, MT.7/MAA/40; 16 November 1616; single sheet; 308mm x 205mm. C.32.
+
+Petition to Lincoln’s Inn
+London, Middle Temple Archives, MT.7/MAA/41; after 16 November 1616 (MS undated); single sheet; 205mm x 309mm (originally folded to 205mm x 138mm). C.33.
+
+Miscellaneous Papers Relating to _The Triumph of Peace_ (MAB)
+
+Items from the MAB sequence are published, with extensive notes and annotations, in Orbison, ‘The Middle Temple Documents Relating to James Shirley’s The Triumph of Peace,’ Collections 12, pp 31–71, and biographical notes, pp 72–84.
+
+The first item in the series is a scribal copy of a letter from Philip Herbert, earl of Pembroke and Montgomery, the lord chamberlain, to Thomas Coventry, the lord keeper.59 The remaining MAB items comprise sixty-four warrants intermixed with a few bills and followed by summary accounts. Each warrant began as a demand for payment issued by John Herne of Lincoln’s Inn, who acted as masque treasurer for all four Inns. Each warrant names both the total cost of a particular item or service, and the one-fourth part charged to each Inn (in this case the Middle Temple). Presumably Herne issued similar warrants to Gray’s Inn and the Inner Temple, though these have not survived. Whether he issued warrants to his own Inn, or simply paid or absorbed that one-fourth part, is uncertain.
+
+The warrants, all similar in form, and all written on one side only except for endorsements, contain seven elements: a date; the total amount; a declaration of purpose; an address to Robert Thorpe, treasurer of the Middle Temple; an instruction to Thomas Lane of the Middle Temple signed by Thorpe; a note giving date of receipt and amount signed by John Herne; and a sequence of authorizing signatures. The three points of greatest interest for historians of the masque are the date of the warrant, the statement of what the payment is for, and the total amount.
+
+Textual elements beyond date, purpose, and amount of the sixty-four warrants are highly redundant and so are omitted from the Records. A representative sample of what has been omitted is taken here from MAB/4 (4 January 1633/4; for text of warrant, see p 254):
+
+To Robert Thorpe Esquire Treasurer for the Masque for the Middle Temple.
+
+Thomas Lane pay over this fortye pounds to Mr Herne according to this warrant to me directed, and take his receipt for it,
+(signed) Robert Thorpe
+
+Receiued vpon this warrant ye 7th of Ianuary 1633 the somme of 40 l. (signed) Iohn Herne
+
+On the right side of the sheet are the signatures of seven members of the four Inns’ masque committee, including John Herne and Bulstrode Whitelocke.
+
+All warrants carry an endorsement in five parts: the date of Herne’s receipt; the word ‘Masque’ (sometimes omitted); the amount (as given in the warrant in in Herne’s note); an item number; and a cumulative total. Item numbers run from 3 to 68, indicating that the two earliest warrants are lost, but that the series is otherwise complete. Three documents carry no item number: MAB/53, 57, 62: all three are bills which seem to have been paid internally by the Middle Temple rather than indirectly through Lincoln’s Inn. Sheets of accounts beginning with MAB/71 lie outside the series provided with original item numbers.
+
+In the document descriptions which follow, endorsements are cited in full only for documents which lack item numbers. For documents which carry item numbers endorsements are cited thus: ‘endorsed (item 3)’; ‘endorsed (item 4)’; and so forth.
+
+Reference numbers for this sequence have multiplied over time. The original item number was assigned by a contemporary officer of the Middle Temple. Orbison assigned numbers in the form ‘S.xx’ (where ‘S’ signifies ‘Shirley’). Archival numbers have been assigned more recently by Middle Temple archivists. (Usually – but not always – the original item number is one more than the archival number, while Orbison’s number is one less.) All three numbers are given in the following document descriptions, Orbison’s number being the final item in each description.
+
+For the sixty-four warrants in the sequence MAB/2–68, to recapitulate, only the dates and texts are cited in the Records, while the three interpolated bills (MAB/53, 57, 62) are transcribed in full. The remaining items in the MAB sequence are mostly sheets of accounts compiled in the aftermath of the February 1633/4 masque. All are assignable to 1634–5 except MAB/82 and 84, which are assignable to 1635–6. Rather than attempting a new and necessarily uncertain chronological ordering for items which include undated documents, we follow Orbison, pp 62–71. 
+
+Letter of Philip Herbert, Lord Chamberlain, to Thomas Coventry, Lord Keeper
+London, Middle Temple Archives, MT.7/MAB/1; 5 February 1633/4; bifolium; 228mm x 338mm; unnumbered; written on first page only; endorsed: ‘Masque: A Copye of the Lord Chamberlaynes lettre to the Lord Keeper. 5to ffebruarij 1633.’
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/2; 20 December 1633; single sheet; 310mm x 198mm; endorsed (item 3). S.1.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/3; 24 December 1633; single sheet; 225mm x 195mm; endorsed (item 4). S.2.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/4; 4 January 1633/4; single sheet; 242mm x 198mm; endorsed (item 5). S.3.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/5; 13 January 1633/4; single sheet; 310mm x 188mm; endorsed (item 6). S.8.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/6; 11 January 1633/4; single sheet; 254mm x 188mm; endorsed (item 7). S.4.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/7; 13 January 1633/4; single sheet; 230mm x 163mm; endorsed (item 8). S.5.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/8; 13 January 1633/4; single sheet; 215mm x 162mm; endorsed (item 9). S.7.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/9; 13 January 1633/4; single sheet; 245mm x 220mm; endorsed (item 10). S.6.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/10; 15 January 1633/4; single sheet; 273mm x 160mm; endorsed (item 11). S.10.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/11; 15 January 1633/4; single sheet; 270mm x 160mm; endorsed (item 12). S.9.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/12; 20 January 1633/4; single sheet; 273mm x 163mm; endorsed (item 13). S.11.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/13; 23 January 1633/4; single sheet; 268mm x 163mm; endorsed (item 14). S.15.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/14; 23 January 1633/4; single sheet; 270mm x 160mm; endorsed (item 15). S.13.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/15; 23 January 1633/4; single sheet; 270mm x 157mm; endorsed (item 16). S.12.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/16; 23 January 1633/4; single sheet; 267mm x 160mm; endorsed (item 17). S.16.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/17; 23 January 1633/4; single sheet; 272mm x 162mm; endorsed (item 18). S.14.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/18; 24 January 1633/4; single sheet; 272mm x 160mm; endorsed (item 19). S.17.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/19; 28 January 1633/4; single sheet; 272mm x 162mm; endorsed (item 20). S.18.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/20; 31 January 1633/4; single sheet; 272mm x 163mm; endorsed (item 21). S.19.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/21; 31 January 1633/4; single sheet; 272mm x 161mm; endorsed (item 22). S.20.
+
+Middle Temple Warrant London, Middle Temple Archives, MT.7/MAB/22; 3 February 1633/4; single sheet; 272mm x 162mm; endorsed (item 25). S.21.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/23; 4 February 1633/4; single sheet; 260mm x 190mm; endorsed (item 23). S.22.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/24; 8 February 1633/4; single sheet; 272mm x 168mm; endorsed (item 24). S.23.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/25; 12 February 1633/4; single sheet; 272mm x 168mm; endorsed (item 26). S.24.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/26; 14 February 1633/4; single sheet; 270mm x 165mm; endorsed (item 27). S.25.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/27; 17 February 1633/4; single sheet; 245mm x 198mm; endorsed (item 28). S.30.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/28; 17 February 1633/4; single sheet; 272mm x 165mm; endorsed (item 29). S.31.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/29; 17 February 1633/4; single sheet; 229mm x 200mm; endorsed (item 30). S.27.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/30; 17 February 1633/4; single sheet; 252mm x 198mm; endorsed (item 31). S.32.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/31; 17 February 1633/4; single sheet; 223mm x 184mm; endorsed (item 32). S.26.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/32; 17 February 1633/4; single sheet; 260mm x 202mm; endorsed (item 33). S.28.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/33; 17 February 1633/4; single sheet; 256mm x 198mm; endorsed (item 34). S.29.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/34; 18 February 1633/4; single sheet; 242mm x 183mm; endorsed (item 35). S.33.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/35; 19 February 1633/4; single sheet; 270mm x 168mm; endorsed (item 36). S.37.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/36; 19 February 1633/4; single sheet; 272mm x 168mm; endorsed (item 37). S.35.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/37; 19 February 1633/4; single sheet; 272mm x 168mm; endorsed (item 38). S.36.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/38; 19 February 1633/4; single sheet; 270mm x 168mm; endorsed (item 39). S.34.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/39; 20 February 1633/4; single sheet; 272mm x 168mm; endorsed (item 40). S.42.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/40; 20 February 1633/4; single sheet; 270mm x 168mm; endorsed (item 41). S.39.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/41; 20 February 1633/4; single sheet; 270mm x 168mm; endorsed (item 42). S.38.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/42; 20 February 1633/4; single sheet; 270mm x 168mm; endorsed (item 43). S.43.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/43; 20 February 1633/4; single sheet; 300mm x 191mm; endorsed (item 44). S.40.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/44; 20 February 1633/4; single sheet; 270mm x 167mm; endorsed (item 45). S.41.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/45; 21 February 1633/4; single sheet; 207mm x 168mm; endorsed (item 46). S.47.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/46; 21 February 1633/4; single sheet; 270mm x 168mm; endorsed (item 47). S.46.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/47; 21 February 1633/4; single sheet; 210mm x 168mm; endorsed (item 48). S.48.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/48; 21 February 1633/4; single sheet; 200mm x 167mm; endorsed (item 49). S.44.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/49; 21 February 1633/4; single sheet; 240mm x 197mm; endorsed (item 50). S.60.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/50; 21 February 1633/4; single sheet; 203mm x 162mm; endorsed (item 51). S.45.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/51; 22 February 1633/4; single sheet; 207mm x 168mm; endorsed (item 52). S.49.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/52; 24 February 1633/4; single sheet; 276mm x 203mm; endorsed (item 54). S.50.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/53; 25 February 1633/4; single sheet; 127mm x 152mm; endorsed: ‘25o ffebruarij 1633. Masque j li. 10 s.’ and ‘ 25o ffebruarij 1633. Horsse & Coach hyre j li. 10 s. paid.’ S.52.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/54; 25 February 1633/4; single sheet; 215mm x 162mm; endorsed (item 53). S.53.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/55; 25 February 1633/4; single sheet; 300mm x 193mm; endorsed (item 60). S.51.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/56; 26 February 1633/4; single sheet; 235mm x 195mm; endorsed (item 55). S.54.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/57; 26 February 1633/4; single sheet; 227mm x 198mm. S.55.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/58; 27 February 1633/4; single sheet; 215mm x 168mm; endorsed (item 56). S.56.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/59; 28 February 1633/4; single sheet; 270mm x 165mm; endorsed (item 57). S.58.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/60; 28 February 1633/4; single sheet; 213mm x 165mm; endorsed (item 58). S.57.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/61; 28 February 1633/4; single sheet; 203mm x 165mm; endorsed (item 59). S.59.
+
+Middle Temple Bill
+London, Middle Temple Archives, MT.7/MAB/62; 4 March 1633/4; single sheet; 72mm x 202mm; endorsed: ‘4to Martij 1633. paid Robert Day Coach hyre 12 s.’ S.61.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/63; 21 November 1634; single sheet; 189mm x 165mm; endorsed (item 61). S.65.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/64; 21 November 1634; single sheet; 190mm x 162mm; endorsed (item 62). S.64.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/65; 21 November 1634; single sheet; 190mm x 163mm; endorsed (item 63). S.69.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/66; 21 November 1634; single sheet; 194mm x 165mm; endorsed (item 64). S.63.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/67; 21 November 1634; single sheet; 194mm x 165mm; endorsed (item 65). S.62.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/68; 21 November 1634; single sheet; 194mm x 168mm; endorsed (item 66). S.67.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/69; 21 November 1634; single sheet; 195mm x 163mm; endorsed (item 68). S.68.
+
+Middle Temple Warrant
+London, Middle Temple Archives, MT.7/MAB/70; 21 November 1634; single sheet; 213mm x 168mm; endorsed (item 68). S.66.
+
+Middle Temple List of Monies Delivered to Herne
+London, Middle Temple Archives, MT.7/MAB/71; 1634–5 (MS undated); single sheet; 123mm x 148mm. S.72.
+
+Middle Temple Bill and Receipt
+London, Middle Temple Archives, MT.7/MAB/72/1; 17 June 1635; single sheet; 126mm x 200mm; endorsed: ‘17o Iunij 1635. Mr Hyde Edward for Torches & silke stockinges 3 li. 6 s. paid.’ S.75.
+
+Middle Temple Receipt
+London, Middle Temple Archives, MT.7/MAB/72/2; 16 February 1635/6; single sheet; 115mm x 168mm; endorsed: ‘16o ffebruarij 1635: Mr Pepys 40 s. paid Masque. S.77.
+
+Middle Temple Receipt
+London, Middle Temple Archives, MT.7/MAB/72/3; 17 June 1635; single sheet; 178mm x 198mm; endorsed: ‘17o Iunij 1635 hyre of saddle 3 li. paid.’ S.74.
+
+Middle Temple Accounts
+London, Middle Temple Archives, MT.7/MAB/73(a); 16 October 1635; single sheet; 296mm x 188mm; endorsed: ‘14o Octobris 1635, Masque bills 40 li. 05 6 paid’ and ‘16o Octobris 1635, Masque bills 40 li. 05 s. 6 d. paid.’ S.76.
+
+General Bill of Disbursement for Middle Temple
+London, Middle Temple Archives, MT.7/MAB/73; 1634–5 (MS undated); single sheet; 184mm x 143mm; written on both sides. S.70.
+
+Middle Temple Accounts
+London, Middle Temple Archives, MT.7/MAB/74/wrapper; 1634–5 (MS undated); single sheet; 285mm x 196mm. S.73.
+
+Middle Temple Accounts
+London, Middle Temple Archives, MT.7/MAB/74/1; 1634–5 (MS undated); single sheet; 285mm x 196mm. S.71A.
+
+Middle Temple Accounts
+London, Middle Temple Archives, MT.7/MAB/74/2; 1634–5 (MS undated); single sheet; 280mm x 170mm. S.71B .
+
+Middle Temple Accounts (TUT)
+The TUT series contains accounts, bills, and other financial papers. One loose bifolium contains a reference to a ‘play’ in the ‘hall’ ‘at Christmas.’ Though the document is undated entries referring to ‘Mr Sherleyes reading’ and ‘Mr Martins Reading’ imply the accounting year 1616–17.
+
+London, Middle Temple Archives, MT.2/TUT/13; 1616–17 (MS undated); bifolium; 275mm x 174mm; unnumbered; written on recto only.
+
+Brerewood’s History of the Middle Temple
+This MS is partly in the hand of Sir Robert Brerewood (1588–1654), member of the Middle Temple from 1607 until his death. Many passages are deleted, others marked ‘stet,’ as if pre- pared for a printer. In addition to the Middle Temple, brief panegyric histories are given of Clement’s Inn, Clifford’s Inn, and Lyon’s Inn.
+London, Middle Temple Library, LOFT MS 95; c 1638; Latin and English; paper; iii + 84 + iii; 200mm x 330mm; modern pencil pagination 1–161 at bottom of pages, replacing modern pencil foliation 1–85 at top (f 47 (pp 92–1) bound in reverse order; ff 55, 65–6 interpolated); repaired and rebound in 1923; gold-stamped title on cover: ‘History of | The Middle Temple | By | Sir Robert Brerewood | 1634–1638.’
+
+Inn of Chancery
+FURNIVAL’S INN
+
+An Inn of Chancery, Furnival’s Inn was apparently founded late in the fourteenth century and was purchased by Lincoln’s Inn in 1547. Situated between Portpool Street (later Gray’s Inn Road) on the west and Ely House (later Hatton Gardens) on the east, its imposing facade (Figure 1) loomed over High Holborn. Having survived the Great Fire of London (1666), the Inn was dissolved in 1817 and replaced in 1897 by the Royal Assurance Society, whose building still stands.
+
+Furnival’s Inn Accounts in a History of Lincoln’s Inn (AC)
+Furnival’s Inn, which has no archive of its own, is represented here by a single manuscript housed in the library of the Middle Temple. The full volume contains transcriptions from various sources, all dealing with Lincoln’s Inn and its associated Inns of Chancery. The unidentified compiler may have assembled his materials with an eye to publication. Furnival’s Inn is treated ff 83–93v, while the source documents are described (f 84) as ‘the Auncyent Books of this house, bothe faire and legible in a Court hand.’ Foliation of the MS suggests the source material was out of order and this was not corrected by the compiler. Chronological order requires that the leaves be read in this sequence: ff 89, 90v, 90, 91v, 91, 89v, and 92.
+The MS was given to the Middle Temple (rather than to Lincoln’s Inn, where it would more logically belong) in 1910 by Sir Rufus D. Isaacs (Lord Reading). A full transcription is in D.S. Bland (ed), Early Records of Furnival’s Inn (Newcastle upon Tyne, 1957).
+
+London, Middle Temple Library, LOFT MS 97; c 1639; Latin and English; paper; ii + 93 + ii; modern pencil foliation 1–93 (some leaves bear earlier ink foliation, ending at ‘394’ on f 92); repaired and rebound in 1927; title on spine: ‘History of | Lincolns Inn | [rule] | Seventeenth Century | Manuscript.’ Many passages have been cancelled with x’s or horizontal strikethrough.
+
+Letters
+DIPLOMATIC LETTERS
+
+For another diplomatic letter, see p lxiv, the letter of Philip Herbert, lord chamberlain, to Thomas Coventry, lord keeper.
+
+_Letters of Guzman de Silva, Spanish Ambassador, to the King of Spain and the Duchess of Parma_
+For English translations of complete letters, see Martin A.S. Hume (ed), Calendar of Letters and State Papers, Relating to English Affairs, Preserved Principally in the Archives of Simancas (London, 1892; rpt Nendeln, 1971), 404–6, 564–6.
+
+Simancas, Archivo General de Simancas, Estado, Legajo 818, 11; 12 March 1564/5; Spanish; paper; bifolia; 333mm x 225mm (text area varies); unnumbered; written in a scribal hand with Guzman’s signature at the end of each text; bound in guardbook.
+
+Simancas, Archivo General de Simancas, Estado, Legajo 819, 105; 6 July 1566; Spanish; paper; bifolia; 333mm x 228mm (text area varies); unnumbered; written in a scribal hand with Guzman’s signature at the end of each text; bound in guardbook.
+
+_Letters of Venetian Ambassadors to the Doge_ 
+For English translations of complete letters, see Allen B. Hinds (ed), Calendar of State Papers and Manuscripts Relating to English Affairs, Existing in the Archives and Collections of Venice, and in other Libraries of Northern Italy, vol 16 (London, 1910), 579; and vol 23 (London, 1921), 26, 180, 195. The editors are unable to provide full document descriptions of these manuscripts because they were being repaired at the time of publication.
+
+Venice, Archivio di Stato, Senato, dispacci ambasciatori, Inghilterra, filza XXI; 16 February 1620/1; Italian; paper.
+
+Venice, Archivio di Stato, Senato, dispacci ambasciatori, Inghilterra, filza XXXV; 27 December 1633; Italian; paper.
+
+Venice, Archivio di Stato, Senato, dispacci ambasciatori, Inghilterra, filza XXXV; 7 February 1633/4; Italian; paper.
+
+_Letter of the Inner Temple to the Privy Council_
+London, The National Archives: Public Record Office, SP 16/441/46; 5 January 1639/40; English; paper; single sheet; 335mm x 235mm. Unsigned copy, now bound and foliated as ff 126–7.
+
+PRIVATE LETTERS
+
+_Letter of William Baldwin to Sir Thomas Cawarden_
+Washington DC, Folger Shakespeare Library, MS L.b.298; c 1555; English; paper; bifolium (no longer conjugate except by repair); 307mm x 218mm; previous foliation 115; addressed: ‘To the right wurshipfull Syr Thomas Caverden dd’; endorsed: ‘The note of a playe and the nayemes of players Anno 1556,’ ‘Revylls,’ ‘1556,’ ‘a lettre of a play’.
+
+_Letter of Francis Bacon to William Cecil, Lord Burghley_
+Francis Bacon and William Cecil were members of Gray’s Inn. This letter was clearly composed before 4 August 1598, the date of Burghley’s death. Since both the proposed masque and a previous masque are associated with ‘my lord Chamberlayne,’ that official was probably Henry Carey, first Baron Hunsdon (1526–96), rather than his successor, William Brooke (1527–97), who served only a year before his death. The previous masque may have been part of Gesta Grayorum.
+
+London, British Library, Lansdowne MS 107; undated; English; paper; single sheet; 175mm x 260mm; written on 1 side only. Mounted in guardbook and numbered as f 13.
+
+_Letter of the Middle Temple to the Earl of Shrewsbury_
+
+London, Lambeth Palace Library, Talbot 3199, Letter 249; 1597; English; paper; bifolium; 290mm x 195mm. Now paginated 249–52 and bound in a volume of miscellaneous papers relating to the Talbot family; originally bound in Talbot Manuscript, Shrewsbury Letters, Vol. H, formerly at the College of Arms.
+
+_Letter of the Prince d’Amour to the Earl of Shrewsbury_
+
+London, Lambeth Palace Library, Talbot 3201, Letter 77; 25 December 1597; English; parchment; bifolium; 270mm x 185mm. Now foliated 77–7v and bound in a volume of miscellaneous papers relating to the Talbot family; originally bound in Talbot Manuscript, Shrewsbury Letters, Vol. K, formerly at the College of Arms.
+
+_Letter of Sir John Popham, Lord Chief Justice, to Sir Robert Cecil_
+
+At the time this letter was written Sir John Popham (c 1531–1607) was chief justice of the king’s bench. As a prominent member of the Middle Temple, he was in a position to offer the Inn’s funds, and the services of its young gentlemen, to entertain the queen. The recipient of Popham’s letter was Sir Robert Cecil (1563–1612), then secretary of state.
+
+Hatfield, Hatfield House Library, Cecil Papers Vol. 85/18; 8 February 1601/2; English; paper; bifolium; 301mm x 199mm; unnumbered; addressed: ‘To the Right honorable Sir Robert Cycell knight principall Secretarie to her Maiestie,’ and endorsed: ‘8: februar: 1610 Lord chief Justice To my Master.’
+
+Diaries and Reminiscences
+
+LEGAL REPORT OF SIR JOHN SPELMAN ON GRAY’S INN
+
+London, British Library, Hargrave MS 388; c 1500; French; iii + 255 + iii; 214mm x 148mm; 19th-c. pencil foliation 1–255, skipping many blanks and including preliminaries, supersedes older pen foliation. Rebound with BL: Hargrave MS 1963, title on spine: ‘REPORTS OF CASES, ETC.’
+
+BULSTRODE WHITELOCKE’S ‘ANNALS’
+
+The MS remained in the possession of the Whitelocke family until purchased by the British Library in 1966. Fair copy, in the author’s hand, of an MS draft is now lost. The second volume, containing nothing of REED interest, is BL: Additional MS 37343 (beginning 1634).
+
+London, British Library, Additional MS 53726; 1650?; English; paper; 114 + ii; 300mm x 195mm; modern pencil foliation 1–114 supersedes 18th-c. ink pagination 25–245; each page divided by a vertical rule, text in 2 columns, each column headed by Whitelocke’s age (ie, 1633–4 is ‘Year 29’: each year begins on 6 August, his birthday); original parchment covers rebound in 19th-c. leather over board, now loose. The first 12 leaves, containing preface, are now BL: Additional MS 4992, ff 2–13.
+
+MEMOIRS OF JOHN FINET
+
+Sir John Finet (or Finett) (1570 or 1571–1641), courtier, was knighted by James I in 1616 and served as master of ceremonies to Charles I beginning in 1627. Finet compiled written descriptions of ceremonies he witnessed and supervised, and took great care to preserve these for posterity. MS MC2 is the fourth of three notebooks, ‘Thyrd’ to ‘fift,’ from an original series of five. The majority of the first two, now lost, was published as Finetti Philoxenis (1656). Previously printed by Albert J. Loomie (ed), Ceremonies of Charles I: The Note Books of John Finet 1628–1641 (New York, 1987).
+
+Rousham, Oxfordshire, Rousham House, MS MC2; 1632–7; English; paper; v + 156 + iii; 209mm x 161mm (175mm x 110mm); contemporary foliation; vellum binding, written on f [v] verso ‘My 4th booke of notes and observations Concerning Ambassadores, &c. Beginning [at] in May 1632.’
+
+SIR JOHN FINET, FINETTI PHILOXENIS
+For information on Sir John Finet, see above.
+
+FINETTI PHILOXENIS: | SOM CHOICE | OBSERVATIONS | OF | Sr. JOHN FINETT | KNIGHT, | And Master of the CEREMONIES | to the two last | KINGS, | Touching the Reception, and | Precedence, the Treatment and | Audience, the Puntillios and Con- | tests of Forren | AMBASSADORS | IN | ENGLAND. [rule] | Legati ligant Mundum. | [ rule] | LONDON | Printed by T. R. for H. Twyford and G. Bedell, and are | to be Sold at their Shops in Vine-Court Middle | Temple and the Middle Temple Gate. 1656. Wing: F947.
+
+Histories
+
+EDWARD HALL, _THE UNYON OF LANCASTRE AND YORKE_
+The history of fifteenth-century England composed by Edward Hall (1497–1547), a member of Gray’s Inn by 1521, is most famous as a source for history plays by William Shakespeare. 
+
+Edward Halle, [The unyon of the two noble and illustre famelies of Lancastre and Yorke...], Jmprynted
+at Londo[n]: By Rychard Grafton, Prynter to the Kynges Maiesty, 1550. STC : 12723a. 
+
+JOHN FOXE, _ACTES AND MONUMENTS_
+
+John Foxe (1516 or 1517–1587), the martyrologist, published not only horrific descriptions and illustrations of martyrdom in his Actes and Monuments, but more pedestrian accounts which have proved of value to historians of English life and culture.
+
+[within an illustrated border] ACTES | and Monuments of matters most | speciall and memorable, happenyng in the | Church, with an Vniuersall history of the same, | wherein is set forth at large the whole race and course | of the Church, from the primitiue age to these lat- | ter tymes of ours, with the bloudy times, horrible trou- | bles, and great persecutions agaynst the true Martyrs | of Christ, sought and wrought as well by Heathen | Emperours, as nowe lately practised | by Romish Prelates, especially in this | Realme of England and | Scotland. | ¶ Newly reuised and recognised, partly also | augmented, and now the fourth time agayne | published and recommended to the studious | Reader, by the Author (through the helpe of | Christ our Lord) IOHN FOXE, which | desireth thee good reader to helpe him | with thy Prayer. | APOC. VIII. | Salus sedenti super thronum & agno. | An. 1583. Mens. Octobr. [Colophon:] At London: Imprinted by Iohn Daye, dwellyng ouer Aldersgate beneath S. Martins], 1583. STC : 11225.
+
+JOHN STOW, _THE ANNALES, OR GENERALL CHRONICLE OF ENGLAND_
+
+John Stow (1524 or 1525–1605) was a prolific historian whose oft-published Annales (of England) and Survay (of London) survived his own death under the hands of later editors.
+
+[within illustrated border] THE | ANNALES, | OR | GENERALL CHRO- | nicle of England, begun first by | maister IOHN STOW, and | after him continued and augmented | with matters forreyne, and do- | mestique, auncient and moderne, | vnto the ende of this | present yeere 1614. | by EDMOND | Howes, gen- | tleman, | [(triangle of dots)] | LONDINI | Impensis Thomæ | Adams. | 1615. STC : 23338.
+
+HAMON L’ESTRANGE, _THE REIGN OF KING CHARLES: AN HISTORY_
+
+Hamon L’Estrange (1605–60) was a theologian and royalist whose history of Charles I was published, with a claim of impartiality, during the interregnum.
+
+THE | REIGN | OF | King CHARLES: | An HISTORY | Faithfully and Impartially delivered and dispo- | sed into ANNALS. | [rule] | [illustration of crown, within a square of rules] | [rule] | LONDON, | Printed by E. C. for Edward Dod, and Henry Seile the younger, | and are to be sold at the Gun in Ivie-lane, and over against | St. Dunstans Church in Fleet-street, 1655. Wing: L1189.
+
+SIR WILLIAM DUGDALE, _ORIGINES JURIDICIALES_
+
+For information on William Dugdale’s Origines Juridiciales, see Appendix 11.
+
+ORIGINES | JURIDICALES, | OR | Historical Memorials | OF THE | English Laws, Courts of Justice, | Forms of Tryall, | Punishment in Cases Criminal, | Law Writers, Law Books, | Grants and Settlements of Estates, | Degree of Serjeant, | Innes of Court and Chancery. | [rule] | Also A | CHRONOLOGIE | Of the Lord Chancelors and Keepers of the great Seal, | Lord Treasurers, | Justices Itinerant, | Justices of the Kings Bench and Common Pleas, | Barons of the Exchequer, | Masters of the Rolls, | Kings Attorneys and Sollicitors, | & | Serjeants at Law, | BY | WILLIAM DVGDALE Esq: | NORROY King of Arms. | [rule] | LONDON, | Printed by F. and T. Warren, for the Author. | MDCLXVI. Wing: D2488.
+
+PETER HEYLYN, _CYPRIANUS ANGLICUS_
+
+Peter Heylyn (1599–1662) was a Church of England clergyman whose biography of William Laud, archbishop of Canterbury, was published posthumously.
+
+Cyprianus Anglicus: | OR, THE | HISTORY | OF THE | Life and Death, | OF | The most Reverend and renowned Prelate | WILLIAM | By Divine Providence, | Lord Archbishop of Canterbury ... By P. Heylyn D.D. and Chaplin to Charles the | first and Charles the second, Monarchs of Great Britain ... London: | Printed for A. Seile, MDCLXVIII. Wing: H1699.
+
+Miscellaneous Documents
+
+PRIVATE MEMORANDUM IN A LINCOLN’S INN STATUTE BOOK
+
+The statute book described here is further described by N.R. Ker, Medieval Manuscripts in British Libraries, vol 1 (Oxford, 1969), 141. An unknown former owner inscribed a private memorandum on its flyleaves.
+
+London, Lincoln’s Inn Library, MS Misc. 2 (Misc. 46); 14th-c. with 15th-c. additions; Latin, with English notation on flyleaves; parchment; i + 227 + vi; 55mm x 85mm; modern pencil foliation i–iv, 1–223; 16th-c. binding of stamped leather over board, clasp (partly missing).
+
+SIR JOHN FORTESCUE, PRENOBILIS MILITIS
+
+Prenobilis | militis, cognomento Fo- | rescu, qui temporibus Henrici | sexti floruit, de politica ad | ministratione, et legibus | ciuilibus florentisummi | regni Anglie, com- | mentarius | Excusum Londini: Tipis Edwardi | Whitechurche, et veneunt in | edibus Henrici Smyth | bibliopole [1543?]. STC : 11193.
+
+CAST LIST FOR GRAY’S INN ‘ROMAN COMEDY’
+
+London, British Library, Lansdowne MS 55; 16 January 1587/8; English and Latin; paper; bifolium; 310mm x 205mm; unnumbered; written on 1st page only, prominent fold marks; endorsed. Mounted in guardbook and numbered ff 11–12 and labelled as piece number 4.
+
+POEM ON THE MISFORTUNES OF ARTHUR
+
+For more on this poem, see Janet Cowen and Joanna Udall, ‘The Critical Misfortunes of Arthur?’ Notes and Queries 228 (1983), 402–5.
+
+London, British Library, Additional MS 4125; 1587–8; paper; single sheet; 280mm x 164mm; written on 1 side only. Mounted in guardbook and numbered f 394.
+
+JORGE DE MONTEMAYOR, DIANA OF GEORGE OF MONTEMAYOR
+
+[within border] DIANA | OF GEORGE OF | MONTEMAYOR: | Translated out of Spanish into | English by BARTHOLOMEW | YONG of the Middle | Temple Gentleman. | [flower] | [ornament] | At London, | Printed by Edm. Bollifant, | Impensis G. B. | 1598. G. B. Is George Bishop. STC : 18044.
+
+GRAY’S INN MASQUE
+
+London, British Library, Additional MS 23723; undated; English; paper; iii + 37 + i; 154mm x 100mm; modern foliation 1–33 plus 4 unfoliated blanks, superseding original foliation; half-calf binding; title on spine: ‘POETRY, &C. M.S.’
+
+THOMAS MIDDLETON, CIVITATIS AMOR
+
+CIVITATIS AMOR. | The Cities Loue | An entertainement by water, at | Chelsey, and White-hall. | At the ioyfull receiuing of that Illustrious Hope | of Great Britaine, the High and Mighty | CHARLES, | To bee created Prince of Wales, Duke of Corne- | wall, Earle of Chester, &c. | Together with the Ample Order and Solemnity | of his Highnesse creation, as it was celebra- | ted in his Maiesties Palace of White-hall | on Monday, the fourth of | Nouember. 1616. | As also the Ceremonies of that Ancient and | Honourable Order of the Knights of the Bath; | And all the Triumphs showne in honour | of his Royall Creation. | [rule] | LONDON, | Printed by Nicholas Okes for Thomas Archer, and | are to be sold at his shop in Popes- | head-Pallace. 1616. STC : 17878.
+
+JOHN MINSHEU, A CATALOGUE AND TRUE NOTE
+
+John Minsheu (1559 or 1560–1627) was a notable language teacher and lexicographer. STC: 17944a.5 is a list of individual or institutional purchasers of John Minsheu’s 1617 ‘Dictionary’ (STC : 17944), printed on both sides of a single sheet. The list was reprinted at least seven times, each time with new names added. An unbound variant, Cambridge University Library: Broadsides XVII (1617), is the first to include the two Inns of Court names, and indeed concludes with them. Neither Inn currently holds a copy of Minsheu which might have been acquired through its prince.
+
+The complex publication history of the list is noted by the STC and, at greater length, by Franklin B. Williams, Jr, ‘Scholarly Publication in Shakespeare’s Day: A Leading Case,’ in Joseph Quincy Adams Memorial Studies, James G. McManaway, Giles E. Dawson, and Edwin E. Willoughby (eds) (Washington, DC, 1948), 755–73.
+
+[ornamental rule] | A CATALOGVE and true note of the Names of such Persons which (vpon good liking they haue to the worke being a great helpe to memorie) haue receaued the Etymological DICTIONARIE of XI. Languages ... from the handes of Maister MINSHEV the Author, and Publisher of the same ... [1617?]. STC : 17944a.5.
+
+BULSTRODE WHITELOCKE’S PAPERS FOR THE TRIUMPH OF PEACE
+
+Bulstrode Whitelocke’s papers were culled, probably in the nineteenth century, from a larger collection, then numbered and placed unbound into a folder. A list of contents, written on a single page dated 20 December 1912, was prepared for Professor Smart of Glasgow University. The numbers on that calendar do not correspond exactly to the numbers in the following list, which, thanks primarily to the articles mentioned in the next paragraph, are now to be considered definitive.
+For analysis and discussions, see Lefkowitz, ‘Longleat Papers of Bulstrode Whitelocke,’ pp 42–60; and Sabol, ‘Shirley’s Masque,’ pp 10–26.
+
+Orders of the Committees
+
+Longleat House, Longleat MSS Parcel 2, Number 9, item 1; 1633–4; English; paper; bifolium; 305mm x 197mm; unnumbered; endorsed: ‘Committees’ and ‘Order of the Committees.’
+
+Orders of the Committees
+
+Longleat House, Longleat MSS Parcel 2, Number 9, item 2; 1633–4; English; paper; bifolium; 305mm x 197mm; unnumbered; endorsed: ‘Order of the Committees.’
+
+Members of the Four Subcommittees
+
+Longleat House, Longleat MSS Parcel 2, Number 9, item 3; 1633–4; English; paper; single sheet; 314mm x 192mm; twice endorsed: ‘Subcommittee.’
+
+Names of the King’s Musicians
+
+Longleat House, Longleat mss Parcel 2, Number 9, item 4; 1633–4; English; paper; bifolium; 195mm x 153mm; unnumbered; written in a distinctive calligraphic hand (not Whitelocke’s) and endorsed: ‘Kings Violins.’
+
+Musicians and Attendants in Procession and Masque
+
+Longleat House, Longleat MSS Parcel 2, Number 9, item 5; 1633–4; English; paper; bifolium; 303mm x 203mm; unnumbered; various calculations on f [2v] (not transcribed here).
+
+Accounts for the Music of the Grand Ballet
+
+Longleat House, Longleat MSS Parcel 2, Number 9, item 6; 1633–4; English; paper; 8 leaves; 325mm x 205mm (1 sheet, numbered [4A], 95mm x 190mm pasted to f [4]); unnumbered; on f [8]: ‘Accounts pour la Musique du Grand ballet’ with several figures and calculations.
+
+Bill of Miscellaneous Charges for Music
+
+Longleat House, Longleat MSS Parcel 2, Number 9, item 7; 1633–4; English; paper; bifolium; 310mm x 210mm; unnumbered; endorsed with list of figures and total as on Item 5, f [1v].
+
+Miscellaneous Lists of Musicians
+
+Longleat House, Longleat MSS Parcel 2, Number 9, item 8; 1633–4; English; paper; bifolium; 302mm x 190mm; unnumbered; endorsed: ‘Musique voice & symphony allowed.’
+
+Disposition of Musicians for the Masque
+
+Longleat House, Longleat MSS Parcel 2, Number 9, item 9; 1633–4; English; paper; single sheet; 309mm x 195mm.
+
+Colours of Costumes for the Masque
+
+Longleat House, Longleat MSS Parcel 2, Number 9, item 10; 1633–4; English; paper; bifolium; 305mm x 190mm; unnumbered; endorsed: ‘Musique, robes, colours.’
+
+Cue Sheets for Music in the Masque
+
+Longleat House, Longleat MSS Parcel 2, Number 9, item 11; 1633–4; English; paper; single sheet; 305mm x 197mm.
+
+Disposition of Musicians in the Procession
+
+Longleat House, Longleat MSS Parcel 2, Number 9, item 12; 1633–4; English; paper; bifolium; 305mm x 205mm; unnumbered; endorsed: ‘Richard Griffin late Courier.’
+
+Disposition of Musicians in the First Procession
+
+Longleat House, Longleat MSS Parcel 2, Number 9, item 13; 1633–4; English; paper; 4 leaves; unnum- bered; 305mm x 195mm (folded unevenly); sewn. On f [3v]: ‘Musique placed in the show first time’; and on f [4v]: ‘musique placed in the show last time.’
+
+Disposition of Musicians in the Second Procession
+
+Longleat House, Longleat MSS Parcel 2, Number 9, item 13A; 1633–4; English; paper; single sheet; 308mm x 205mm; right-hand edge worn. This item concerns the second performance of Shirley’s masque. Evidently the archivist who first numbered the items tucked this sheet into the gathering which constitutes Item 13. The two items are now, however, appropriately separated.
+
+Names of Noblemen’s Trumpeters
+
+Longleat House, Longleat MSS Parcel 2, Number 9, item 14; 1633–4; English; paper; single sheet; 198mm x 158mm (full sheet folded twice); endorsed with ‘Trumpeters’ and a list of numbers, totalled. Not in Whitelocke’s hand.
+
+Letter of Ralph Whitfield to Bulstrode Whitelocke
+
+Longleat House, Longleat MSS Parcel 2, Number 9, item 15; 29 January 1633/4; English; paper; bifoli- um; 270mm x 163mm; unnumbered; addressed: ‘To the right worshipfull very worthy frend Bulstrode Whitelocke Esquire these.’
+
+Letter of Ralph Whitfield to Bulstrode Whitelocke
+
+Longleat House, Longleat MSS Parcel 2, Number 9, item 16; English; paper; undated; bifolium; 293mm x 190mm; unnumbered; endorsed ‘Mr Whitfields letter’ and ‘musique in show.’
+
+Letter of Nicholas Lanier to Bulstrode Whitelocke
+
+Longleat House, Longleat MSS Parcel 2, Number 9, item 17; 12 February 1633/4; English; paper; bifolium; 293mm x 192mm; unnumbered; seal intact and in a good state of preservation; addressed: ‘To his much Honored frend, Mr Whitlocke’; endorsed: ‘Mr Nicholas Lanieres letter’ and ‘loud musique.’
+
+Draft Letter of Bulstrode Whitelocke to Nicholas Lanier
+
+Longleat House, Longleat MSS Parcel 2, Number 9, item 18; 12 February 1633/4; English; paper; bifolium; 310mm x 197mm; unnumbered; bottom of f [2] torn away, leaving 180mm of the original height; endorsed: ‘Kings loud musique.’
+
+Letter of the Middle Temple Masters of the Bench to Mrs Adderly
+
+Longleat House, Longleat MSS Parcel 2, Number 9, item 19; undated; English; paper; bifolium; 290mm x 188mm; unnumbered; remnant of seal; addressed: ‘To our very good ffrend Mrs Adderly these.’
+
+THE MANNER OF THE PROGRESSION OF THE MASQUE
+
+Washington, DC, Folger Shakespeare Library, MS Z.e.1, No 25; 1633–4 (MS undated); English; paper; gathering of 4 leaves; approximately 313mm x 193mm (deckled edges make exact measurement impos- sible); paginated 1–7; formerly folded 3 times, fold marks visible on f [8v].
+
+POEM ON THE TRIUMPH OF PEACE
+
+London, The National Archives: Public Record Office, SP 16/260; c 1634; English; paper; single sheet; 315mm x 200mm; written on 1 side only; endorsed: ‘Verses made in praise of/ ye gentlemen which presented a maske/ before his Maiestie february/ 3.d Anno 1633.’ Mounted in guardbook, stamped as f 29, and labelled piece number 14.
+
+MARTIN PARKER, THE HONOR OF THE INNS OF COURT GENTLEMEN
+
+The only surviving copy is in private hands. The transcription here was made from a photo- graphic copy in Susan Eileen Newman, ‘The Broadside Ballads of Martin Parker: A Bibliographical and Critical Study,’ PhD thesis (University of Birmingham, 1976), vol 2, Appendix, Ballad 39.
+
+The Honor of the Inns of Court Gentlemen: | Or, | A briefe recitall of the Magnificent and match- lesse show. (London, 1634). STC : 19245.5.
+
+EDWARD WATERHOUSE, FORTESCUTUS ILLUSTRATUS
+
+D.S. Bland, ‘Henry VIII’s Royal Commission on the Inns of Court,’ Journal of the Society of Public Teachers of Law, ns, 10 (1969), 180, explains, ‘In the mid-seventeenth century these documents (or copies of them) were in the possession of Sir Thomas Widdrington, and have since disappeared; but they were printed, apparently in their entirety, by Edward Waterhouse in his Fortescutus Illustratus of 1663 (pp 539–546).’
+
+Fortescutus Illustratus, | OR A | COMMENTARY | On that Nervous TREATISE De Laudibus Legum Angliæ, | Written by Sir JOHN FORTESCUE Knight, | First Lord Chief Justice, after Lord Chancellour | to King HENRY the Sixth. | (1663). Wing: W1046.
+
+
+
+
