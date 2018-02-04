@@ -253,7 +253,7 @@
       <body xml:lang="eng">
          <head>Inns of Court
             <date from-iso="1595" to-iso="1596" precision="medium">1595-6</date>
-            <seg ana="docu:RLP003" corresp="docu:RLPCI1 pp. 126-7">RLP003</seg></head>
+            <seg ana="docu:RLP003" corresp="docu:RLPIC1 pp. 126-7">RLP003</seg></head>
          <div type="transcription">
             <head>single sheet<supplied>Letter of Francis Bacon to William Cecil, Lord
                Burghley</supplied></head><!-- #CB 2018-02-02: I added 'single sheet'. We duplicate this info here (when it already properly appears in pb line below) mostly for front end display plus legacy conversion issues. Also, would like confirmation you saw my last query about the records heading appearing here, in <supplied>, rather than being pointed to on the taxonomy file. I'm guessing it's easier architecture for people who have to read templates to leave it here for now? -->

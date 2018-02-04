@@ -237,10 +237,16 @@
       </revisionDesc>
    </teiHeader>
    
-   <text>
-      <body>
-            <p></p>
+   <text ana="taxon:letter" type="record" n="description">
+      <body xml:lang="eng">
+         <head>Inns of Court
+            <date from-iso="YYYY" to-iso="YYYY" precision="high">YYYY-YYYY</date>
+            <seg ana="docu:RL1234" corresp="docu:RLPCI1 pp. numbers">six number code</seg></head>
+         <div type="transcription">
+            <head>single sheet or folio<supplied>supplied from text</supplied></head>
+            <pb n="1" type="sheet"/>
+            
+         </div>
       </body>
    </text>
-  
 </TEI>
