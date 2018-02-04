@@ -252,7 +252,7 @@
    <text ana="taxon:letter" type="record" n="private_correspondence">
       <body xml:lang="eng">
          <head>Inns of Court
-            <date from-iso="1595" to-iso="1596" precision="medium">1595-6</date>
+            <date from-iso="1595" to-iso="1596" cert="medium">1595-6</date>
             <seg ana="docu:RLP003" corresp="docu:RLPIC1 pp. 126-7">RLP003</seg></head>
          <div type="transcription">
             <head>single sheet<supplied>Letter of Francis Bacon to William Cecil, Lord
