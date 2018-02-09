@@ -62,7 +62,7 @@
             
             <respStmt>
                <persName>Matthew Davies</persName>
-               <orgName>University of London, Birkbeck College</orgName> <!-- confirm -->
+               <orgName>University of London, Birkbeck College</orgName> <!-- confirm --><!--#CB 2018-02-09: Prob best to confirm with Matthew-->
                <resp>Records of Early English Drama (REED) Executive Board</resp>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
@@ -70,8 +70,8 @@
             <respStmt>
                <persName xml:id="PG">Patrick Gregory</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
-               <resp>Associate Editor</resp> <!-- confirm -->
-               <resp>Paleographer, Translator</resp> <!-- confirm -->
+               <resp>Associate Editor</resp> <!-- confirm --><!--#CB 2018-02-07: Yes-->
+               <resp>Paleographer, Translator</resp> <!-- confirm --><!--#CB 2018-02-07: Yes-->
             </respStmt>
             <respStmt>
                <persName>Tanya Hagen</persName>
@@ -239,12 +239,12 @@
    
    <text ana="taxon:grays_inn" type="record">
       <body xml:lang="lat">
-         <head>Gray's Inn Admittance Book <!-- #CB 2018-02-07: Let's talk about this line during our Skype this Friday. Curious to know how you may or may not work with heads and taxonomy file -->
-            <date when-iso="1594" cert="high">1594</date><!-- #CB 2018-02-07: JC had mentioned on Slack that 'cert' possibly not needed when it is 'high'? I made changes here just to demonstrate what REED Online currently does. Would be helpful to know if when things are different you are suggesting change to style or would like to be corrected.-->
+         <head>Gray's Inn Admittance Book <!-- #CB 2018-02-07: Let's talk about this line during Skype. Curious to know how you may or may not work with record headings and taxonomy file. We didn't include record headings here, just larger place categories, but your process may differ. -->
+            <date when-iso="1594" cert="high">1594</date><!-- #CB 2018-02-07: JC had mentioned on Slack that 'cert' possibly not needed when it is 'high'? I also made changes here just to demonstrate what REED Online currently does. Would be helpful to know if when things are different you are suggesting change to style or would like to see suggested correction.-->
             <seg ana="docu:RLGIAB" corresp="RLIPIC1 p. 124">RLGIAB</seg></head>
          <div type="transcription">
-            <div><!-- #CB 2018-02-07: added <div> which surrounds each separate chunk or folio or page within a transcription. Hasn't really been needed in other items so far, but thought I should demonstrate -->
-            <head>p 295 <supplied>(2 February)</supplied></head> <!-- #CB 2018-02-07: Page number should not be enclosed in <supplied> as not editorially supplied but in ms. Added 2 February into supplied here, removed from <date> line above. We can talk about it. Benefit of not including it above is you can have month- day changes within a record, but I can see why you want to tag with TEI-->
+            <div><!-- #CB 2018-02-07: In REED Online, as with print eds, one record from the same year can include many different folio/pages. You have adapted a different strategy for this record set, which is to break the one record into three separate records when there is a new folio excerpt. I've adjusted this first record to show how we'd do it in REED Online, but left the rest. Would love to discuss on Skype as see pros and cons for both. For now, here, I've added <div>, which surrounds each separate folio or page excerpt within one REED Online record transcription. The other transcriptions below, from same year, would not be separate records but a part of this one, with new <div> <head> and <pb>-->
+            <head>p 295 <supplied>(2 February)</supplied></head> <!-- #CB 2018-02-07: Page number should not be enclosed in <supplied> as not editorially supplied but in ms. Added 2 February into supplied here, removed from <date> line above. We can talk about it. Benefit of not including it above, for REED Online, is you can have month- day changes within a record, but I can see why these dates should also be TEI tagged as such-->
             <pb n="295" type="page"/>           
            
             <!-- DKJ 2018-01-27: Added persName for John Lily, playwright, John Spencer, Mayor of London, and Henry Helmes (ID'ing Henry Helmes as Prince of Purpoole in records for pp.295 and 298 based on Alan Nelson's note, giving them @cert high and @resp #AHN1 -->                        
@@ -272,11 +272,11 @@
             </list>
             <gap reason="omitted"/>
          </div>
-         </div><!-- #CB 2018-02-07: added closing div -->
+         </div><!-- #CB 2018-02-07: added closing div as I added opening div on line 246 -->
           <div type="endnote">
              <p>Prominent among those granted honorary admission by Henry Helmes, Prince of Purpoole, were John Lyly, almost certainly the playwright, and John Spencer, lord mayor of London (see ODNB for both men). A pane of stained glass commemorating Spencer’s membership survives in the hall of Gray’s Inn.</p>
          </div>
-            <!-- DKJ 2018-02-04: #CB could you tell me if I'm using the @note correctly here? --><!-- #CB 2018-02-07: Fixed and moved after transcription div. They are two separate divs-->
+            <!-- DKJ 2018-02-04: #CB could you tell me if I'm using the @note correctly here? --><!-- #CB 2018-02-07: Fixed and moved after transcription div. Endnote and transcription are two separate divs-->
             
       </body>
    </text>
@@ -328,7 +328,7 @@
             <seg ana="docu:RLGIAB" corresp="RLIPIC1 p. 200">RLGIAB</seg></head>
          <div type="transcription">
             <head>pp 739-40</head>
-            <pb n="739-40" type="page"/> <!-- #CB 2018-02-07: I need to check this. Conversion didn't work in staffs. Removed all numbers from these lines when run of pages -->    
+            <pb n="739-40" type="page"/>  
 
        
             <list>
@@ -407,7 +407,8 @@
          <div type="endnote">
               <p>Henry, Prince of Purpoole of Gray’s Inn for 1617–18, called Henry the second (Henry Helmes of 1594–5 becoming retrospectively Henry the first) was Henry Yelverton: see below, endnote to STC: 17944a.5 single sheet verso col 2. Sir Dudley Digges was admitted to Gray’s Inn a second time, just prior to 8 November 1630, presumably because this admission by the Prince of Purpoole was not deemed sufficiently regular (Fletcher (ed), Pension Book, p 299, n 1).</p>
          </div>
-            <!-- DKJ 2018-01-28: should this last reference be a pointer to the Gray's Inn Pension Book records? --><!-- #CB 2018-02-07: If you mean the Fletcher reference, it is a citation to a published work of transcriptions, rather than our transcriptions, so I wouldn't think so? -->
+            <!-- DKJ 2018-01-28: should this last reference be a pointer to the Gray's Inn Pension Book records? -->
+         <!-- #CB 2018-02-07: If you mean the Fletcher reference, it is a citation to a published work of transcriptions, and a note therein, rather than our transcriptions, so I wouldn't think so? -->
              
          <div type="endnote" n="STC">
             <p>The unnamed Gray’s Inn Prince of Purpoole for 1617–18 was ‘Henry Yelverton, second son of William Y., of Rougham, Norfolk, Esq.’ He was admitted 2 February 1611/12 and knighted (as ‘of Gray’s Inn’) 23 February 1617/18 at Newmarket (Foster, Register, p 129; and Wm. A. Shaw, The Knights of England, vol 2 (London, 1906), 167). For ‘Henry the first,’ and for Edward Smyth of Lincoln’s Inn, see Introduction, p xx.</p>
