@@ -13,7 +13,7 @@
             
             <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>
             <funder><orgName>CANARIE</orgName></funder> 
-            
+            <funder><orgName>British Academy, London, UK</orgName></funder><!-- #CB 2018-02-07: I added British Academy, as they are named as funder in Alan's Acknowledgments, along with others you have here -->   
             <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>            
             <funder><orgName>National Endowment for the Humanities, Washington, DC, United States of
                America</orgName></funder>
@@ -62,7 +62,7 @@
             
             <respStmt>
                <persName>Matthew Davies</persName>
-               <orgName>University of London, Birkbeck College</orgName> <!-- confirm -->
+               <orgName>University of London, Birkbeck College</orgName> <!-- confirm --><!--#CB 2018-02-09: Prob best to confirm with Matthew-->
                <resp>Records of Early English Drama (REED) Executive Board</resp>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
@@ -70,8 +70,8 @@
             <respStmt>
                <persName xml:id="PG">Patrick Gregory</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
-               <resp>Associate Editor</resp> <!-- confirm -->
-               <resp>Paleographer, Translator</resp> <!-- confirm -->
+               <resp>Associate Editor</resp> <!-- confirm --><!--#CB 2018-02-07: Yes-->
+               <resp>Paleographer, Translator</resp> <!-- confirm --><!--#CB 2018-02-07: Yes-->
             </respStmt>
             <respStmt>
                <persName>Tanya Hagen</persName>
@@ -147,7 +147,7 @@
             </respStmt>
             
             <respStmt>
-               <persName>Abigrail Ann Young</persName>
+               <persName>Abigail Ann Young</persName><!-- #CB 2018-02-07: please change spelling of Abby's name in headers to corrected version here-->
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>Latin Glossarian</resp>
             </respStmt>
@@ -239,15 +239,14 @@
    
    <text ana="taxon:grays_inn" type="record">
       <body xml:lang="lat">
-         <head>Gray's Inn Admittance Book
-            <date when-iso="1594-02-02" cert="high"><supplied>2 February</supplied></date>
+         <head>Gray's Inn Admittance Book <!-- #CB 2018-02-07: Let's talk about this line during Skype. Curious to know how you may or may not work with record headings and taxonomy file. We didn't include record headings here, just larger place categories, but your process may differ. -->
+            <date when-iso="1594" cert="high">1594</date><!-- #CB 2018-02-07: JC had mentioned on Slack that 'cert' possibly not needed when it is 'high'? I also made changes here just to demonstrate what REED Online currently does. Would be helpful to know if when things are different you are suggesting change to style or would like to see suggested correction.-->
             <seg ana="docu:RLGIAB" corresp="RLIPIC1 p. 124">RLGIAB</seg></head>
          <div type="transcription">
-            <head>page<supplied>295</supplied></head>
+            <div><!-- #CB 2018-02-07: In REED Online, as with print eds, one record from the same year can include many different folio/pages. You have adapted a different strategy for this record set, which is to break the one record into three separate records when there is a new folio excerpt. I've adjusted this first record to show how we'd do it in REED Online, but left the rest. Would love to discuss on Skype as see pros and cons for both. For now, here, I've added <div>, which surrounds each separate folio or page excerpt within one REED Online record transcription. The other transcriptions below, from same year, would not be separate records but a part of this one, with new <div> <head> and <pb>-->
+            <head>p 295 <supplied>(2 February)</supplied></head> <!-- #CB 2018-02-07: Page number should not be enclosed in <supplied> as not editorially supplied but in ms. Added 2 February into supplied here, removed from <date> line above. We can talk about it. Benefit of not including it above, for REED Online, is you can have month- day changes within a record, but I can see why these dates should also be TEI tagged as such-->
             <pb n="295" type="page"/>           
-            <note type="editorial">Prominent among those granted honorary admission by Henry Helmes, Prince of Purpoole, were John Lyly, almost certainly the playwright, and John Spencer, lord mayor of London (see ODNB for both men). A pane of stained glass commemorating Spencer’s membership survives in the hall of Gray’s Inn.</note>
-            <!-- DKJ 2018-02-04: #CB could you tell me if I'm using the @note correctly here? -->
-            
+           
             <!-- DKJ 2018-01-27: Added persName for John Lily, playwright, John Spencer, Mayor of London, and Henry Helmes (ID'ing Henry Helmes as Prince of Purpoole in records for pp.295 and 298 based on Alan Nelson's note, giving them @cert high and @resp #AHN1 -->                        
             <list>
                <item>
@@ -255,23 +254,30 @@
                <seg type="signed" rend="center"><ex>(signed)</ex> <persName n="Henry Helmes" resp="REED" role="Prince of Purpoole">H<ex>enricus</ex> Princeps.</persName></seg>
                </item>                                         
                <!-- DKJ 2018-01-28: Using seg @type and @rend. This seems to be in line with Staff procedure. #CB Please confirm!  -->
+               <!-- #CB 2018-02-07: TEI Looks good. However, the (signed) you've included after the opening tag to mimic print book, we stopped inserting into the text in REED Online, and instead it is generated automatically through the TEI. Better option than including directly in transcription?-->
                
-               <item><persName n="Francis Dethicke">ffrancisc<ex>us</ex> Dethicke</persName> de <del type="erasure">admiss</del><note type="editorial">de created from d of cancelled admiss with e written over m</note> <placeName n="Newhall, Derbyshire">Newhall in Comitate Darbye</placeName> admiss<ex>us</ex> est in societatem hui<ex>us</ex> hospitij eode<ex>m</ex> die
+               <item><persName n="Francis Dethicke">ffrancisc<ex>us</ex> Dethicke</persName> de <del><admiss</del><!-- #CB 2018-02-07:changed to del as per slack discussion 2018-01-29--><note type="foot"><!-- #CB 2018-02-07: changed "editorial" to "foot"-->de created from d of cancelled admiss with e written over m</note> <placeName n="Newhall, Derbyshire">Newhall in Comitate Darbye</placeName> admiss<ex>us</ex> est in societatem hui<ex>us</ex> hospitij eode<ex>m</ex> die
                   <seg type="signed" rend="center"><ex>(signed)</ex> <persName n="Henry Helmes" resp="REED" role="Prince of Purpoole">H<ex>enricus</ex> P<ex>rinceps</ex></persName>.</seg></item>
                
                <item><persName n="William Pope">Guillelm<ex>us</ex> Poape</persName> de <placeName n="Wroxton, Oxfordshire">Roxton in Comitate Oxoniæ</placeName> admiss<ex>us</ex> est in societate<ex>m</ex> hui<ex>us</ex> hospitij eodem die </item>
 
             <note type="marginal" rend="left">Extra hospiciu<ex>m</ex></note>
 
-            <item><del type="erasure"><persName n="Francis East">ffranciscus East</persName> de <space type="blank"/> in <placeName n="Cambridgeshire">Comitate Cantabrigiæ</placeName> admiss<ex>us</ex> est in societatem hospitij nostri eod<ex>em</ex> die</del></item>
+            <item><del><persName n="Francis East">ffranciscus East</persName> de <space/> in <placeName n="Cambridgeshire">Comitate Cantabrigiæ</placeName> admiss<ex>us</ex> est in societatem hospitij nostri eod<ex>em</ex> die</del></item>
                <!-- DKJ 2018-01-28: Would someone check to see how this cancellation should be handled? Was it the entire item? I've used space element with @type "blank" to trace what was written in the printed volume. If that is not necessary, please remove  -->
-               
-               <item>extra hospitiu<ex>m</ex> <del type="erasure">pr<ex>o</ex></del> in plena pencione tent<ex>us</ex> decimo octavo die Iunij A<ex>nn</ex>o 38 Elizabeth Regine: 
+               <!--#CB 2018-02-07: Yes whole item was cancelled. Changed to <del> alone as per our slack discussion 2018-01-29. We also currently use <space/> alone for (blank), and this spits out on the front end as (blank)-->
+               <item>extra hospitiu<ex>m</ex> <del>pr<ex>o</ex></del> in plena pencione tent<ex>us</ex> decimo octavo die Iunij A<ex>nn</ex>o 38 Elizabeth Regine: 
                   
                <seg type="signed" rend="center"><ex>(signed)</ex> <persName n="Henry Helmes" resp="REED" role="Prince of Purpoole">Henric<ex>us</ex> Pr<ex>incep</ex>s Purpoole</persName>.</seg> </item>
             </list>
             <gap reason="omitted"/>
          </div>
+         </div><!-- #CB 2018-02-07: added closing div as I added opening div on line 246 -->
+          <div type="endnote">
+             <p>Prominent among those granted honorary admission by Henry Helmes, Prince of Purpoole, were John Lyly, almost certainly the playwright, and John Spencer, lord mayor of London (see ODNB for both men). A pane of stained glass commemorating Spencer’s membership survives in the hall of Gray’s Inn.</p>
+         </div>
+            <!-- DKJ 2018-02-04: #CB could you tell me if I'm using the @note correctly here? --><!-- #CB 2018-02-07: Fixed and moved after transcription div. Endnote and transcription are two separate divs-->
+            
       </body>
    </text>
 
@@ -281,7 +287,7 @@
             <date when-iso="1594-12-25" cert="high"><supplied>25 December</supplied></date>
             <seg ana="docu:RLGIAB" corresp="RLIPIC1 p. 125">RLGIAB</seg></head>
          <div type="transcription">
-            <head>page<supplied>295</supplied></head>
+            <head>p 295</head>
             <pb n="295" type="page"/>               
                        
             <list>
@@ -302,7 +308,7 @@
             <date when-iso="1594-01-06" cert="high"><supplied>6 January</supplied></date>
             <seg ana="docu:RLGIAB" corresp="RLIPIC1 p. 125">RLGIAB</seg></head>
          <div type="transcription">
-            <head>page<supplied>298</supplied></head>
+            <head>p 298</head>
             <pb n="298" type="page"/>     
             
             <list>
@@ -321,19 +327,14 @@
             <date from-iso="1617" to-iso="1618" cert="high"><supplied>1617-18</supplied></date>
             <seg ana="docu:RLGIAB" corresp="RLIPIC1 p. 200">RLGIAB</seg></head>
          <div type="transcription">
-            <head>page<supplied>298</supplied></head>
-            <pb n="739-40" type="page"/>     
+            <head>pp 739-40</head>
+            <pb n="739-40" type="page"/>  
 
-            <note type="editorial">Henry, Prince of Purpoole of Gray’s Inn for 1617–18, called Henry the second (Henry Helmes of 1594–5 becoming retrospectively Henry the first) was Henry Yelverton: see below, endnote to STC: 17944a.5 single sheet verso col 2. Sir Dudley Digges was admitted to Gray’s Inn a second time, just prior to 8 November 1630, presumably because this admission by the Prince of Purpoole was not deemed sufficiently regular (Fletcher (ed), Pension Book, p 299, n 1).</note>
-            <!-- DKJ 2018-01-28: should this last reference be a pointer to the Gray's Inn Pension Book records? -->
-            
-            <note type="editorial" n="STC">The unnamed Gray’s Inn Prince of Purpoole for 1617–18 was ‘Henry Yelverton, second son of William Y., of Rougham, Norfolk, Esq.’ He was admitted 2 February 1611/12 and knighted (as ‘of Gray’s Inn’) 23 February 1617/18 at Newmarket (Foster, Register, p 129; and Wm. A. Shaw, The Knights of England, vol 2 (London, 1906), 167). For ‘Henry the first,’ and for Edward Smyth of Lincoln’s Inn, see Introduction, p xx.</note>
-            <!-- how should we format endnotes that refer to one another AND to locations within the printed volume AND to bibliographical references?? -->
-
+       
             <list>
-               <note type="marginal" rend="left"><del type="erasure"><persName n="Henry Yelverton" resp="#AHN1" role="Prince of Purpoole">Henricus Pr<ex>incep</ex>s</persName> abs<ex>que</ex> fine dura<ex>n</ex>ti festo</del></note> 
+               <note type="marginal" rend="left"><del><persName n="Henry Yelverton" resp="#AHN1" role="Prince of Purpoole">Henricus Pr<ex>incep</ex>s</persName> abs<ex>que</ex> fine dura<ex>n</ex>ti festo</del></note> 
                
-               <item> <del type="erasure">Admissus est <persName n="Thomas Wright">Thomas Wright</persName> <placeName n="London">Londinensis</placeName> armiger <date when-iso="1617-12-26">26: Decemb<ex>ris</ex></date> p<ex>er</ex> <persName n="Henry Yelverton" resp="#AHN1" role="Prince of Purpoole">Hen<ex>ricum</ex> 2 Pr<ex>incipem</ex></persName> 1617:</del> </item>
+               <item> <del>Admissus est <persName n="Thomas Wright">Thomas Wright</persName> <placeName n="London">Londinensis</placeName> armiger <date when-iso="1617-12-26">26: Decemb<ex>ris</ex></date> p<ex>er</ex> <persName n="Henry Yelverton" resp="#AHN1" role="Prince of Purpoole">Hen<ex>ricum</ex> 2 Pr<ex>incipem</ex></persName> 1617:</del> </item>
                
                <note type="marginal" rend="left"> Consimiliter: </note>
                
@@ -354,7 +355,7 @@
                
                <note type="marginal" rend="left"><persName n="Henry Yelverton" role="Prince of Purpoole">Henricus Pr<ex>incep</ex>s P<ex>urpoolae</ex></persName></note>
                
-               <item>Admissus est Tho<ex>mas</ex> Woode ^<add place="above">miles</add> de cam<ex>era</ex> regali gen<ex>erosus</ex> <del type="erasure">miles</del> <date when-iso="1617-12-30">30: Decembris</date> per <persName n="Henry Yelverton" role="Prince of Purpoole">Hen<ex>ricum</ex> 2 Prin<ex>cipem</ex></persName> 1617: </item>
+               <item>Admissus est Tho<ex>mas</ex> Woode ^<add place="above">miles</add> de cam<ex>era</ex> regali gen<ex>erosus</ex> <del>miles</del> <date when-iso="1617-12-30">30: Decembris</date> per <persName n="Henry Yelverton" role="Prince of Purpoole">Hen<ex>ricum</ex> 2 Prin<ex>cipem</ex></persName> 1617: </item>
                
                <note type="marginal" rend="left"> <persName n="Henry Yelverton" role="Prince of Purpoole">Henricus Pr<ex>inceps</ex> P<ex>urpoolae</ex></persName> absque fine </note>
                
@@ -375,7 +376,7 @@
 
                <note type="marginal" rend="left"><persName n="Henry Yelverton" role="Prince of Purpoole">Henricus Pr<ex>incep</ex>s P<ex>urpoolae</ex></persName> abs<ex>que</ex> fine </note>
 
-               <item> <persName n="Edward Yelverton">Edvardus Yelverton</persName> Armiger de <placeName n="London">London</placeName> Admissus est in societate<ex>m</ex> huius hospitii die et Anno predic<ex>tis</ex> | </item>
+               <item> <persName n="Edward Yelverton">Edvardus Yelverton</persName> Armiger de <placeName n="London">London</placeName> Admissus est in societate<ex>m</ex> huius hospitii die et Anno predic<ex>tis</ex> <pb/><!--#CB 2018-02-07: replaced vertical bar with <pb/>--> </item>
 
                <note type="marginal" rend="left"> <handShift/>2<hi rend="superscript">o</hi> Februarij 1617.<handShift/> </note>
 
@@ -403,6 +404,17 @@
             </list>
             <gap reason="omitted"/>
          </div>
+         <div type="endnote">
+              <p>Henry, Prince of Purpoole of Gray’s Inn for 1617–18, called Henry the second (Henry Helmes of 1594–5 becoming retrospectively Henry the first) was Henry Yelverton: see below, endnote to STC: 17944a.5 single sheet verso col 2. Sir Dudley Digges was admitted to Gray’s Inn a second time, just prior to 8 November 1630, presumably because this admission by the Prince of Purpoole was not deemed sufficiently regular (Fletcher (ed), Pension Book, p 299, n 1).</p>
+         </div>
+            <!-- DKJ 2018-01-28: should this last reference be a pointer to the Gray's Inn Pension Book records? -->
+         <!-- #CB 2018-02-07: If you mean the Fletcher reference, it is a citation to a published work of transcriptions, and a note therein, rather than our transcriptions, so I wouldn't think so? -->
+             
+         <div type="endnote" n="STC">
+            <p>The unnamed Gray’s Inn Prince of Purpoole for 1617–18 was ‘Henry Yelverton, second son of William Y., of Rougham, Norfolk, Esq.’ He was admitted 2 February 1611/12 and knighted (as ‘of Gray’s Inn’) 23 February 1617/18 at Newmarket (Foster, Register, p 129; and Wm. A. Shaw, The Knights of England, vol 2 (London, 1906), 167). For ‘Henry the first,’ and for Edward Smyth of Lincoln’s Inn, see Introduction, p xx.</p>
+         </div>
+            <!-- how should we format endnotes that refer to one another AND to locations within the printed volume AND to bibliographical references?? -->
+
       </body>
    </text>
 
