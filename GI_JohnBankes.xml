@@ -14,7 +14,6 @@
             <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>
             <funder><orgName>CANARIE</orgName></funder> 
             
-            <funder><orgName>British Academy, London, UK</orgName></funder>
             <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>            
             <funder><orgName>National Endowment for the Humanities, Washington, DC, United States of
                America</orgName></funder>
@@ -148,7 +147,7 @@
             </respStmt>
             
             <respStmt>
-               <persName>Abigail Ann Young</persName>
+               <persName>Abigrail Ann Young</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>Latin Glossarian</resp>
             </respStmt>
@@ -238,17 +237,84 @@
       </revisionDesc>
    </teiHeader>
 
-   <text ana="taxon:letter" type="record" n="description">
+   <text ana="taxon:letter" type="record">
       <body xml:lang="eng">
-         <head>Inns of Court
-            <date from-iso="YYYY" to-iso="YYYY" precision="high">YYYY-YYYY</date>
-            <seg ana="docu:RL1234" corresp="docu:RLPCI1 pp. numbers">six number code</seg></head>
+         <head>Account Book of John Bankes
+            <date from-iso="1631" to-iso="1632" cert="medium">1631-2</date>
+            <seg ana="docu:RLABJB" corresp="docu:RLPCI1 p. 229">RLABJB</seg></head>
          <div type="transcription">
-            <head>single sheet or folio<supplied>supplied from text</supplied></head>
-            <pb n="1" type="sheet"/>
-
+            <head>f <del>8</del><supplied>Disbursements in the tyme of Sir Iohn Bankes Treasurer since (blank) November 1631:./</supplied></head>
+            <pb n="f 8" type="folio"/>
+            <div type="endnote"><ab>As Sir John Bankes was treasurer of Gray’s Inn, this item has been inserted to follow excerpts from Gray’s Inn archives. The ‘Lorde of the Councell’ is probably a reference to a member of the privy council. Which councillor may have patronized these trumpeters has not been determined.</ab></div>
+            
+            <div type="transcription">           
+            <gap reason="omitted"/>
+            
+            <table>
+               <row>
+                  <cell>To the <orgName>Trumpeters of the Lorde of the Councell</orgName> by direction of the bench</cell>
+                  <cell>0. 10. 0.</cell>
+               </row>
+               <row>
+                  <cell>To <persName n="Thomas Spencer">Thomas Spencer</persName> for himselfe and his fellowe musitioners for Candlemas last</cell>
+                  <cell>2. 0. 0.</cell>
+               </row>
+            </table>
+               
+               <gap reason="omitted"/>
+            </div>
          </div>
       </body>
    </text>
-  
+            
+   <text ana="taxon:letter" type="record">
+      <body xml:lang="eng">
+         <head>Account Book of John Bankes
+            <date from-iso="1631" to-iso="1632" cert="medium">1631-2</date>
+            <seg ana="docu:RLABJB" corresp="docu:RLPCI1 p. 229">RLABJB</seg></head>
+         <div type="transcription">
+            <head>f <del>9</del><supplied>Disbursements in the tyme of Sir Iohn Bankes Treasurer since (blank) November 1631:./</supplied></head>
+            <pb n="f 9" type="folio"/>
+            <div type="endnote"><ab>As Sir John Bankes was treasurer of Gray’s Inn, this item has been inserted to follow excerpts from Gray’s Inn archives. The ‘Lorde of the Councell’ is probably a reference to a member of the privy council. Which councillor may have patronized these trumpeters has not been determined.</ab></div>
+
+<div type="transcription">
+            <gap reason="omitted"/>
+   
+   <table>
+      <row>
+         <cell>payed to <persName>Thomas Spenser</persName> &amp; other the musitianes for their wages due at Hallowtyde 1631.</cell>
+         <cell>2 l.–0–0</cell>
+      </row>
+   </table>
+</div>
+   <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
+
+   <text ana="taxon:letter" type="record">
+      <body xml:lang="eng">
+         <head>Account Book of John Bankes
+            <date from-iso="1633" to-iso="1634" cert="medium">1633-4</date>
+            <seg ana="docu:RLABJB" corresp="docu:RLPCI1 p. 229">RLABJB</seg></head>
+         <div type="transcription">
+            <head>f <del>10</del><supplied></supplied></head>
+            <pb n="f 10" type="folio"/>
+            <div type="endnote"><ab>As Sir John Bankes was treasurer of Gray’s Inn, this item has been inserted to follow excerpts from Gray’s Inn archives.</ab></div>
+            
+            <div type="transcription">
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>payed unto the musitions for ther wages the 20th of dec<ex>ember</ex> 1633</cell>
+                     <cell>2 l.–12 s.–0</cell>
+                  </row>
+               </table>
+            </div>
+            
+            <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
+
 </TEI>
