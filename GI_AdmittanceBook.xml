@@ -252,7 +252,7 @@
             <seg ana="taxon:RLGIAB" corresp="RLIPIC1 pp. 124-5">RLGIAB</seg></head>
          <div type="transcription">
             <div>
-               <head>p 295 <date when-iso="1595-02-02" cert="high"><supplied>(2 February)</supplied></date></head><!-- #CB 2018-02-15: I changed year date from 1594 to 1595 in date element. MS is out of order in way it presents dates, so although Feb events written on earlier page, this is Feb following the next two transcriptions. You also know this because it was sorted under double year of 1594-5 and Inns of Court used Michaelmas to Michaelmas prevailing account year, so the February within 29 Sept 1594-29 Sept 1595 is Feb 1595. Can explain more on Skype if easier.-->
+               <head>p 295 <date when-iso="1595-02-02" cert="high"><supplied>(2 February)</supplied></date></head>
                <pb n="295" type="page"/>
 
                <list>
@@ -264,10 +264,7 @@
                            ffeb<ex>ruarij</ex></date> anno supradict<ex>o</ex>
                      <seg type="signed" rend="center"><persName n="Henry Helmes" resp="REED"
                            role="Prince of Purpoole">H<ex>enricus</ex> Princeps.</persName></seg>
-                  </item>
-                  <!-- DKJ 2018-01-28: Using seg @type and @rend. This seems to be in line with Staff procedure. #CB Please confirm!  -->
-                  <!-- #CB 2018-02-07: TEI Looks good. However, the (signed) you've included after the opening tag to mimic print book, we stopped inserting into the text in REED Online, and instead it is generated automatically through the TEI. Better option than including directly in transcription?-->
-                  <!-- DKJ 2018-02-10: made change based on CB recommendation -->
+                  </item>                  
 
                   <item><persName n="Francis Dethicke">ffrancisc<ex>us</ex> Dethicke</persName> de
                         <del>admiss</del>
@@ -334,7 +331,7 @@
          </div>
          <div>
             <head>p 298 <date when-iso="1595-01-06" cert="high"><supplied>(6
-                  January)</supplied></date></head><!--#CB 2018-02-15: Changed 1594 to 1595 in date element. See above comment re dating-->
+                  January)</supplied></date></head>
             <pb n="298" type="page"/>
 
             <list>
@@ -366,7 +363,7 @@
          <div type="transcription">
             <div>
             <head>pp 739-40</head>
-            <pb n="739" type="page"/><!--#CB 2018-02-15: Wanted to wait on this until we'd resolved how you would handle page breaks and divs. But now we've done that and you are following REED Online, we would remove page run from this <pb> and only cite relevant page. In other words, I changed '739-40' to '739' here, and added new <pb> below (see further down with comment from me) -->
+            <pb n="739" type="page"/>
 
 
             <list>
@@ -483,7 +480,7 @@
                <item>
                   <persName n="Edward Yelverton">Edvardus Yelverton</persName> Armiger de <placeName
                      n="London">London</placeName> Admissus est in societate<ex>m</ex> huius
-                  hospitii die et Anno predic<ex>tis</ex><pb n="740" type="page"/><!--#CB 2018-02-15: There was vertical bar in original print edition, signifying page turnover. I've added in <pb> info where it was-->
+                  hospitii die et Anno predic<ex>tis</ex><pb n="740" type="page"/>
                   <pb/>
                </item>
 
@@ -546,9 +543,7 @@
                admitted to Gray’s Inn a second time, just prior to 8 November 1630, presumably
                because this admission by the Prince of Purpoole was not deemed sufficiently regular
                (Fletcher (ed), Pension Book, p 299, n 1).</p>
-         </div>
-         <!-- DKJ 2018-01-28: should this last reference be a pointer to the Gray's Inn Pension Book records? -->
-         <!-- #CB 2018-02-07: If you mean the Fletcher reference, it is a citation to a published work of transcriptions, and a note therein, rather than our transcriptions, so I wouldn't think so? -->
+         </div>         
 
          <div type="endnote" n="STC">
             <p>The unnamed Gray’s Inn Prince of Purpoole for 1617–18 was ‘Henry Yelverton, second
@@ -557,7 +552,7 @@
                129; and Wm. A. Shaw, The Knights of England, vol 2 (London, 1906), 167). For ‘Henry
                the first,’ and for Edward Smyth of Lincoln’s Inn, see Introduction, p xx.</p>
          </div>
-         <!-- how should we format endnotes that refer to one another AND to locations within the printed volume AND to bibliographical references?? -->
+         
 
       </body>
    </text>
