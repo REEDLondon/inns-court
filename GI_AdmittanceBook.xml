@@ -214,8 +214,6 @@
                   glossary.xml file. For example, <code>gloss:histrio-1</code> dereferences to
                      <code>glossary.xml#histrio-1</code>.</p>
             </prefixDef>
-            <prefixDef ident="docu" matchPattern="([A-Z-z0-9_-]+)"
-               replacementPattern="../documents.xml#$1"> </prefixDef>
          </listPrefixDef>
 
          <projectDesc>
@@ -249,13 +247,12 @@
 
    <text ana="taxon:grays_inn" type="record">
       <body xml:lang="lat">
-         <head>Gray's Inn Admittance Book <!-- #CB 2018-02-07: Let's talk about this line during Skype. Curious to know how you may or may not work with record headings and taxonomy file. We didn't include record headings here, just larger place categories, but your process may differ. -->
-            <date when-iso="1594">1594</date>
-            <seg ana="docu:RLGIAB" corresp="RLIPIC1 p. 124">RLGIAB</seg></head>
+         <head> 
+            <date from-iso="1594" to-iso="1595" cert="high">1594-5</date>
+            <seg ana="taxon:RLGIAB" corresp="RLIPIC1 pp. 124-5">RLGIAB</seg></head>
          <div type="transcription">
             <div>
-               <!-- #CB 2018-02-07: In REED Online, as with print eds, one record from the same year can include many different folio/pages. You have adapted a different strategy for this record set, which is to break the one record into three separate records when there is a new folio excerpt. I've adjusted this first record to show how we'd do it in REED Online, but left the rest. Would love to discuss on Skype as see pros and cons for both. For now, here, I've added <div>, which surrounds each separate folio or page excerpt within one REED Online record transcription. The other transcriptions below, from same year, would not be separate records but a part of this one, with new <div> <head> and <pb>-->
-               <head>p 295 <supplied>(2 February)</supplied></head>
+               <head>p 295 <date when-iso="1595-02-02" cert="high"><supplied>(2 February)</supplied></date></head><!-- #CB 2018-02-15: I changed year date from 1594 to 1595 in date element. MS is out of order in way it presents dates, so although Feb events written on earlier page, this is Feb following the next two transcriptions. You also know this because it was sorted under double year of 1594-5 and Inns of Court used Michaelmas to Michaelmas prevailing account year, so the February within 29 Sept 1594-29 Sept 1595 is Feb 1595. Can explain more on Skype if easier.-->
                <pb n="295" type="page"/>
 
                <list>
@@ -303,23 +300,9 @@
                </list>
                <gap reason="omitted"/>
             </div>
-         </div>
-         <div type="endnote">
-            <p>Prominent among those granted honorary admission by Henry Helmes, Prince of Purpoole,
-               were John Lyly, almost certainly the playwright, and John Spencer, lord mayor of
-               London (see ODNB for both men). A pane of stained glass commemorating Spencer’s
-               membership survives in the hall of Gray’s Inn.</p>
-         </div>
-      </body>
-   </text>
-
-   <text ana="taxon:grays_inn" type="record">
-      <body xml:lang="lat">
-         <head>Gray's Inn Admittance Book <date when-iso="1594-12-25" cert="high"><supplied>25
-                  December</supplied></date>
-            <seg ana="docu:RLGIAB" corresp="RLIPIC1 p. 125">RLGIAB</seg></head>
-         <div type="transcription">
-            <head>p 295</head>
+            <div>
+            <head><date when-iso="1594-12-25" cert="high"><supplied>(25
+                  December)</supplied></date></head>
             <pb n="295" type="page"/>
 
             <list>
@@ -349,16 +332,9 @@
                </item>
             </list>
          </div>
-      </body>
-   </text>
-
-   <text ana="taxon:grays_inn" type="record">
-      <body xml:lang="lat">
-         <head>Gray's Inn Admittance Book <date when-iso="1594-01-06" cert="high"><supplied>6
-                  January</supplied></date>
-            <seg ana="docu:RLGIAB" corresp="RLIPIC1 p. 125">RLGIAB</seg></head>
-         <div type="transcription">
-            <head>p 298</head>
+         <div>
+            <head>p 298 <date when-iso="1595-01-06" cert="high"><supplied>(6
+                  January)</supplied></date></head><!--#CB 2018-02-15: Changed 1594 to 1595 in date element. See above comment re dating-->
             <pb n="298" type="page"/>
 
             <list>
@@ -373,17 +349,24 @@
             </list>
             <gap reason="omitted"/>
          </div>
+         </div>
+              <div type="endnote">
+            <p>Prominent among those granted honorary admission by Henry Helmes, Prince of Purpoole,
+               were John Lyly, almost certainly the playwright, and John Spencer, lord mayor of
+               London (see ODNB for both men). A pane of stained glass commemorating Spencer’s
+               membership survives in the hall of Gray’s Inn.</p>
+         </div>
       </body>
    </text>
 
    <text ana="taxon:grays_inn" type="record">
       <body xml:lang="lat">
-         <head>Gray's Inn Admittance Book <date from-iso="1617" to-iso="1618" cert="high"
-                  ><supplied>1617-18</supplied></date>
-            <seg ana="docu:RLGIAB" corresp="RLIPIC1 p. 200">RLGIAB</seg></head>
+         <head><date from-iso="1617" to-iso="1618" cert="high"> <supplied>1617-18</supplied></date>
+            <seg ana="taxon:RLGIAB" corresp="RLIPIC1 pp. 200-1">RLGIAB</seg></head>
          <div type="transcription">
+            <div>
             <head>pp 739-40</head>
-            <pb n="739-40" type="page"/>
+            <pb n="739" type="page"/><!--#CB 2018-02-15: Wanted to wait on this until we'd resolved how you would handle page breaks and divs. But now we've done that and you are following REED Online, we would remove page run from this <pb> and only cite relevant page. In other words, I changed '739-40' to '739' here, and added new <pb> below (see further down with comment from me) -->
 
 
             <list>
@@ -500,7 +483,7 @@
                <item>
                   <persName n="Edward Yelverton">Edvardus Yelverton</persName> Armiger de <placeName
                      n="London">London</placeName> Admissus est in societate<ex>m</ex> huius
-                  hospitii die et Anno predic<ex>tis</ex>
+                  hospitii die et Anno predic<ex>tis</ex><pb n="740" type="page"/><!--#CB 2018-02-15: There was vertical bar in original print edition, signifying page turnover. I've added in <pb> info where it was-->
                   <pb/>
                </item>
 
@@ -554,6 +537,7 @@
                </item>
             </list>
             <gap reason="omitted"/>
+         </div>
          </div>
          <div type="endnote">
             <p>Henry, Prince of Purpoole of Gray’s Inn for 1617–18, called Henry the second (Henry
