@@ -9,19 +9,20 @@
          <titleStmt>
             
             <title type="main">Inns of Court</title>
-
+            
             
             <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>
             <funder><orgName>CANARIE</orgName></funder> 
             
+            <funder><orgName>British Academy, London, UK</orgName></funder>
             <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>            
             <funder><orgName>National Endowment for the Humanities, Washington, DC, United States of
                America</orgName></funder>
             <funder><orgName>Social Sciences and Humanities Research Council, Ottawa,
                Canada</orgName></funder>
             
-		 <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
-		 <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
+            <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
+            <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
             
             <respStmt>
                <persName xml:id="CB">Carolyn Black</persName>
@@ -103,7 +104,7 @@
                <resp>Principal Investigator, SSHRC grant; Director of Research and General Editor</resp>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-
+            
             <respStmt>
                <persName>Maureen Maclean</persName>
                <orgName>Bucknell University</orgName>
@@ -111,7 +112,7 @@
             </respStmt>
             
             <respStmt>
-               <persName>Kimberly Martin</persName>
+               <persName xml:id="KM">Kimberley Martin</persName>
                <orgName>University of Guelph</orgName>
                <resp>NHPRC-Mellon Project Consultant</resp>
             </respStmt>
@@ -147,7 +148,7 @@
             </respStmt>
             
             <respStmt>
-               <persName>Abigrail Ann Young</persName>
+               <persName>Abigail Ann Young</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>Latin Glossarian</resp>
             </respStmt>
@@ -204,9 +205,6 @@
                   glossary.xml file. For example, <code>gloss:histrio-1</code> dereferences to
                   <code>glossary.xml#histrio-1</code>.</p>
             </prefixDef>
-            <prefixDef ident="docu" matchPattern="([A-Z-z0-9_-]+)"
-               replacementPattern="../documents.xml#$1">
-            </prefixDef>
          </listPrefixDef>
          
          <projectDesc>
@@ -233,21 +231,23 @@
       </profileDesc>
       <revisionDesc>
          <!-- Add new major milestone changes to top -->
+         <change when="2018-02-17" who="#JAKA1">corrected tagging</change>
          <change when="2018-02-03" who="#JAKA1">created document</change>
       </revisionDesc>
    </teiHeader>
+   
 
    <text ana="taxon:letter" type="record">
       <body xml:lang="eng">
          <head>Account Book of John Bankes
             <date from-iso="1631" to-iso="1632" cert="medium">1631-2</date>
-            <seg ana="docu:RLABJB" corresp="docu:RLPCI1 p. 229">RLABJB</seg></head>
+            <seg ana="taxon:RLGIAJ" corresp="taxon:RPCIC1 p. 229">RLABJB</seg></head>
          <div type="transcription">
             <head>f <del>8</del><supplied>Disbursements in the tyme of Sir Iohn Bankes Treasurer since (blank) November 1631:./</supplied></head>
             <pb n="f 8" type="folio"/>
             <div type="endnote"><ab>As Sir John Bankes was treasurer of Gray’s Inn, this item has been inserted to follow excerpts from Gray’s Inn archives. The ‘Lorde of the Councell’ is probably a reference to a member of the privy council. Which councillor may have patronized these trumpeters has not been determined.</ab></div>
             
-            <div type="transcription">           
+            <div>    
             <gap reason="omitted"/>
             
             <table>
@@ -263,21 +263,11 @@
                
                <gap reason="omitted"/>
             </div>
-         </div>
-      </body>
-   </text>
-            
-   <text ana="taxon:letter" type="record">
-      <body xml:lang="eng">
-         <head>Account Book of John Bankes
-            <date from-iso="1631" to-iso="1632" cert="medium">1631-2</date>
-            <seg ana="docu:RLABJB" corresp="docu:RLPCI1 p. 229">RLABJB</seg></head>
-         <div type="transcription">
-            <head>f <del>9</del><supplied>Disbursements in the tyme of Sir Iohn Bankes Treasurer since (blank) November 1631:./</supplied></head>
+
             <pb n="f 9" type="folio"/>
             <div type="endnote"><ab>As Sir John Bankes was treasurer of Gray’s Inn, this item has been inserted to follow excerpts from Gray’s Inn archives. The ‘Lorde of the Councell’ is probably a reference to a member of the privy council. Which councillor may have patronized these trumpeters has not been determined.</ab></div>
 
-<div type="transcription">
+<div>
             <gap reason="omitted"/>
    
    <table>
@@ -294,15 +284,15 @@
 
    <text ana="taxon:letter" type="record">
       <body xml:lang="eng">
-         <head>Account Book of John Bankes
-            <date from-iso="1633" to-iso="1634" cert="medium">1633-4</date>
-            <seg ana="docu:RLABJB" corresp="docu:RLPCI1 p. 229">RLABJB</seg></head>
+         <head>
+            <date from-iso="1633" to-iso="1634">1633-4</date>
+            <seg ana="taxon:RLGIAJ" corresp="taxon:RPCIC1 p. 229">RLABJB</seg></head>
          <div type="transcription">
-            <head>f <del>10</del><supplied></supplied></head>
+            <head>f <del>10</del><date when-iso="16133-12-20"/></head>
             <pb n="f 10" type="folio"/>
             <div type="endnote"><ab>As Sir John Bankes was treasurer of Gray’s Inn, this item has been inserted to follow excerpts from Gray’s Inn archives.</ab></div>
             
-            <div type="transcription">
+            <div>
                <gap reason="omitted"/>
                <table>
                   <row>

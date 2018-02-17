@@ -205,9 +205,6 @@
                   glossary.xml file. For example, <code>gloss:histrio-1</code> dereferences to
                   <code>glossary.xml#histrio-1</code>.</p>
             </prefixDef>
-            <prefixDef ident="docu" matchPattern="([A-Z-z0-9_-]+)"
-               replacementPattern="../documents.xml#$1">
-            </prefixDef>
          </listPrefixDef>
          
          <projectDesc>
@@ -242,7 +239,7 @@
       <body xml:lang="eng">
          <head>Inns of Court
             <date from-iso="YYYY" to-iso="YYYY" precision="high">YYYY-YYYY</date>
-            <seg ana="docu:RL1234" corresp="docu:RLPIC1 pp. numbers">six number code</seg></head>
+            <seg ana="taxon:RL1234" corresp="docu:RLPIC1 pp. numbers">six number code</seg></head>
          <div type="transcription">
             <head>single sheet or folio<supplied>supplied from text</supplied></head>
             <pb n="1" type="sheet"/>

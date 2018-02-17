@@ -9,19 +9,20 @@
          <titleStmt>
             
             <title type="main">Inns of Court</title>
-
+            
             
             <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>
             <funder><orgName>CANARIE</orgName></funder> 
             
+            <funder><orgName>British Academy, London, UK</orgName></funder>
             <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>            
             <funder><orgName>National Endowment for the Humanities, Washington, DC, United States of
                America</orgName></funder>
             <funder><orgName>Social Sciences and Humanities Research Council, Ottawa,
                Canada</orgName></funder>
             
-		 <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
-		 <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
+            <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
+            <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
             
             <respStmt>
                <persName xml:id="CB">Carolyn Black</persName>
@@ -103,7 +104,7 @@
                <resp>Principal Investigator, SSHRC grant; Director of Research and General Editor</resp>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-
+            
             <respStmt>
                <persName>Maureen Maclean</persName>
                <orgName>Bucknell University</orgName>
@@ -111,7 +112,7 @@
             </respStmt>
             
             <respStmt>
-               <persName>Kimberly Martin</persName>
+               <persName xml:id="KM">Kimberley Martin</persName>
                <orgName>University of Guelph</orgName>
                <resp>NHPRC-Mellon Project Consultant</resp>
             </respStmt>
@@ -147,7 +148,7 @@
             </respStmt>
             
             <respStmt>
-               <persName>Abigrail Ann Young</persName>
+               <persName>Abigail Ann Young</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>Latin Glossarian</resp>
             </respStmt>
@@ -204,9 +205,6 @@
                   glossary.xml file. For example, <code>gloss:histrio-1</code> dereferences to
                   <code>glossary.xml#histrio-1</code>.</p>
             </prefixDef>
-            <prefixDef ident="docu" matchPattern="([A-Z-z0-9_-]+)"
-               replacementPattern="../documents.xml#$1">
-            </prefixDef>
          </listPrefixDef>
          
          <projectDesc>
@@ -233,16 +231,18 @@
       </profileDesc>
       <revisionDesc>
          <!-- Add new major milestone changes to top -->
+         <change when="2018-02-17" who="#JAKA1">updated and corrected tagging</change>
          <change when="2018-02-03" who="#JAKA1">created document</change>
       </revisionDesc>
    </teiHeader>
-
+   
    <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Gray's Inn Ledger Book
+         <head>
             <date from-iso="1584" to-iso="1585" cert="high">1584-5</date>
-            <seg ana="docu:RLGILB" corresp="docu:RLPCI1 pp. 107-8">RLGILB</seg></head>
+            <seg ana="taxon:RLGILB" corresp="taxon:RPCIC1 pp. 107-8">RLGILB</seg></head>
          <div type="transcription">
+            <div>
             <head>f 3v<supplied>(Pensioner's disbursements)</supplied></head>
             <pb n="f 3v" type="folio"/>
             <div type="endnote"><ab>Note reads "For another reference to books for singing, see preceding note." Here is text to previous note: "A connection between the four song-books and Gray’s Inn revels is suggested by a similar reference in the Gray’s Inn Ledger Books 1584–5 (p 108, l.3). After this year accounts occur not in the Pension Book but in the Ledger Book.<lb/>
@@ -264,16 +264,18 @@
             </div>
             <gap reason="omitted"/>
          </div>
+         </div>
       </body>
    </text>
    
    <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Gray's Inn Ledger Book
-            <date from-iso="1586-11-21" to-iso="1587-11-22" cert="high">1586-7</date>
-            <seg ana="docu:RLGILB" corresp="docu:RLPCI1 p. 111">RLGILB</seg></head>
+         <head>
+            <date from-iso="1586" to-iso="1587">1587-8</date>
+            <seg ana="taxon:RLGILB" corresp="taxon:RPCIC1 p. 111">RLGILB</seg></head>
          <div type="transcription">
-            <head>f 13<supplied>(21 November 1586–22 November 1587) (Treasurer’s allowances)</supplied></head>
+            <div>
+            <head>f 13<supplied><date from-iso="1586-11-21" to-iso="1587-11-22">(21 November 1586–22 November 1587)</date> (Treasurer’s allowances)</supplied></head>
             <pb n="f 13" type="folio"/>   
             
             <gap reason="omitted"/>
@@ -286,28 +288,17 @@
                      <cell>iiij li. vj s.</cell>
                   </row>
                </table>
-            </div>
             <gap reason="omitted"/>
-         </div>
-      </body>
-   </text>
-   
-   <text ana="taxon:grays_inn" type="record">
-      <body xml:lang="eng">
-         <head>Gray's Inn Ledger Book
-            <date from-iso="1587-09-29" to-iso="1588-09-28" cert="high">1587-8</date>
-            <seg ana="docu:RLGILB" corresp="docu:RLPCI1 p. 111">RLGILB</seg></head>
-         <div type="transcription">
-            <head>f 17<supplied>(29 September 1587–28 September 1588) (Collector’s disbursements)</supplied></head>
+            </div>
+         <div>
+            <head>f 17<date from-iso="1587-09-29" to-iso="1588-09-28"><supplied>(29 September 1587–28 September 1588) (Collector’s disbursements)</supplied></date></head>
             <pb n="f 17" type="folio"/> 
             <div type="endnote"><ab>Axton, <hi rend="italic">The Queen’s Two Bodies</hi> (London, 1977), 79, refers to the events of this year as ‘the first <hi rend="italic">Gesta Grayorum</hi> revels.’<lb/>
                The ‘play in michelmas terme’ was evidently the lost Roman comedy (see also pp 112–13).</ab>
-            </div>
-            <!-- DKJ 2018-02-04: #CB #JC how do we manage print volume page numbers in endnotes? Should we develop a pointer system? -->
-            
+            </div>          
             <gap reason="omitted"/>
-            
-            <div type="transcription">
+         </div>
+            <div>
                <table>
                   <row>
                      <cell>It<ex>e</ex>m delyvered to <persName n="John Buck">Iohn Buck</persName> 9 ffebr<ex>uary</ex> ffor and
@@ -327,17 +318,18 @@
             </div>
             
             <gap reason="omitted"/>
+            </div>
          </div>
       </body>
    </text>
 
    <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Gray's Inn Ledger Book
-            <date from-iso="1588-10-28" to-iso="1589-10-31" cert="high">1588-9</date>
-            <seg ana="docu:RLGILB" corresp="docu:RLPCI1 p. 111">RLGILB</seg></head>
+         <head>
+            <date from-iso="1588" to-iso="1589">1588-9</date>
+            <seg ana="taxon:RLGILB" corresp="taxon:RPCIC1 p. 111">RLGILB</seg></head>
          <div type="transcription">
-            <head>f 18v<supplied>(28 October 1588–31 October 1589)</supplied></head>
+            <head>f 18v<date from-iso="1588-10-28" to-iso="1589-10-31"><supplied>(28 October 1588–31 October 1589)</supplied></date></head>
             <pb n="f 18v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -358,17 +350,15 @@
    
    <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Gray's Inn Ledger Book
-            <date when-iso="1588-11-13" cert="high">1588</date>
-            <seg ana="docu:RLGILB" corresp="docu:RLPCI1 p. 111">RLGILB</seg></head>
+         <head>
+            <date when-iso="1588">1588</date>
+            <seg ana="taxon:RLGILB" corresp="taxon:RPCIC1 p. 111">RLGILB</seg></head>
          <div type="transcription">
-            <head>f 23v<supplied>(13 November 1588) (Pensioner’s accounts)</supplied></head>
+            <head>f 23v<date when-iso="1588-11-13"><supplied>(13 November 1588) (Pensioner’s accounts)</supplied></date></head>
             <pb n="f 23v" type="folio"/> 
             <div type="endnote"><ab>Axton, <hi rend="italic">The Queen’s Two Bodies</hi> (London, 1977), 79, refers to the events of this year as ‘the first <hi rend="italic">Gesta Grayorum</hi> revels.’<lb/>
-               The ‘play in michelmas terme’ was evidently the lost Roman comedy (see also pp 112–13).</ab>
-            </div>
-            <!-- DKJ 2018-02-04: #CB #JC how do we manage print volume page numbers in endnotes? Should we develop a pointer system? -->
-            
+               The ‘play in michelmas terme’ was evidently the lost Roman comedy (see also printed Inns of Court Vol. 1, pp 112–13).</ab>
+            </div>           
             <gap reason="omitted"/>
             
             <div type="transcription">
@@ -391,11 +381,11 @@
    
    <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Gray's Inn Ledger Book
-            <date from-iso="1589-11" to-iso="1590-11" cert="medium">1589-90</date>
-            <seg ana="docu:RLGILB" corresp="docu:RLPCI1 p. 115">RLGILB</seg></head>
+         <head>
+            <date from-iso="1589" to-iso="1590">1589-90</date>
+            <seg ana="taxon:RLGILB" corresp="taxon:RPCIC1 p. 115">RLGILB</seg></head>
          <div type="transcription">
-            <head>f 20<supplied>(November – November) (Treasurer’s payments)</supplied></head>
+            <head>f 20<date from-iso="1589-11" to-iso="1590-11"><supplied>(November – November) (Treasurer’s payments)</supplied></date></head>
             <pb n="f 20" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -419,11 +409,11 @@
 
    <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Gray's Inn Ledger Book
-            <date from-iso="1590-11-25" to-iso="1591-11-24" cert="high">1590-1</date>
-            <seg ana="docu:RLGILB" corresp="docu:RLPCI1 p. 116">RLGILB</seg></head>
+         <head>
+            <date from-iso="1590" to-iso="1591">1590-1</date>
+            <seg ana="taxon:RLGILB" corresp="taxon:RPCIC1 p. 116">RLGILB</seg></head>
          <div type="transcription">
-            <head>f 30v<supplied>(25 November–24 November) (Disbursements)</supplied></head>
+            <head>f 30v<date from-iso="1590-11-25" to-iso="1591-11-24"><supplied>(25 November–24 November) (Disbursements)</supplied></date></head>
             <pb n="f 30v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -444,9 +434,9 @@
    
    <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Gray's Inn Ledger Book
+         <head>
             <date from-iso="1592" to-iso="1593" cert="medium">1592-3</date>
-            <seg ana="docu:RLGILB" corresp="docu:RLPCI1 p. 120">RLGILB</seg></head>
+            <seg ana="docu:RLGILB" corresp="taxon:RPCIC1 p. 120">RLGILB</seg></head>
          <div type="transcription">
             <head>f 29<supplied>(Collector’s disbursements)</supplied></head>
             <pb n="f 29" type="folio"/> 
@@ -469,9 +459,9 @@
    
    <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Gray's Inn Ledger Book
+         <head>
             <date from-iso="1593" to-iso="1594" cert="medium">1593-4</date>
-            <seg ana="docu:RLGILB" corresp="docu:RLPCI1 p. 121">RLGILB</seg></head>
+            <seg ana="taxon:RLGILB" corresp="taxon:RPCIC1 p. 121">RLGILB</seg></head>
          <div type="transcription">
             <head>f 34v<supplied>(Receiver’s disbursements)</supplied></head>
             <pb n="f 34v" type="folio"/> 
@@ -494,9 +484,9 @@
    
    <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Gray's Inn Ledger Book
+         <head>
             <date from-iso="1594" to-iso="1595" cert="medium">1594-5</date>
-            <seg ana="docu:RLGILB" corresp="docu:RLPCI1 p. 124">RLGILB</seg></head>
+            <seg ana="taxon:RLGILB" corresp="taxon:RPCIC1 p. 124">RLGILB</seg></head>
          <div type="transcription">
             <head>f 29v<supplied>(Treasurer’s disbursements)</supplied></head>
             <pb n="f 29v" type="folio"/> 
@@ -516,16 +506,16 @@
  
    <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Gray's Inn Ledger Book
+         <head>
             <date from-iso="1594" to-iso="1595" cert="medium">1594-5</date>
-            <seg ana="docu:RLGILB" corresp="docu:RLPCI1 p. 124">RLGILB</seg></head>
+            <seg ana="taxon:RLGILB" corresp="taxon:RPCIC1 p. 124">RLGILB</seg></head>
          <div type="transcription">
             <head>f 36v<supplied>(November – November) (Receiver’s disbursements)</supplied></head>
+            <div type="transcription">
             <pb n="f 36v" type="folio"/> 
             
             <gap reason="omitted"/>
-            
-            <div type="transcription">
+
                <table>
                   <row>
                      <cell>Also to <persName n="Morgan or Phillip Johnson" cert="low" resp="#JAKA1">Mr Iohnson</persName> by order of the penc<ex>i</ex>on in full discharge of all his disbursment<ex>es</ex> for the Christmas sport<ex>es</ex></cell>
@@ -542,9 +532,9 @@
 
    <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Gray's Inn Ledger Book
+         <head>
             <date from-iso="1598-07-01" to-iso="1599-11-04" cert="high">1598-9</date>
-            <seg ana="docu:RLGILB" corresp="docu:RLPCI1 p. 131">RLGILB</seg></head>
+            <seg ana="taxon:RLGILB" corresp="taxon:RPCIC1 p. 131">RLGILB</seg></head>
          <div type="transcription">
             <head>f 52<supplied>(1 July 1598–4 November 1599) (Disbursements)</supplied></head>
             <pb n="f 52" type="folio"/> 
@@ -562,29 +552,18 @@
             
             <gap reason="omitted"/>
          </div>
-      </body>
-   </text>
-   
-   <text ana="taxon:grays_inn" type="record">
-      <body xml:lang="eng">
-         <head>Gray's Inn Ledger Book
-            <date from-iso="1598-07-01" to-iso="1599-11-04" cert="high">1598-9</date>
-            <seg ana="docu:RLGILB" corresp="docu:RLPCI1 p. 131">RLGILB</seg></head>
-         <div type="transcription">
-            <head>f 52v<supplied>(1 July 1598–4 November 1599) (Disbursements)</supplied></head>
+         <div>
+            <head>f 52v<date from-iso="1598-07-01" to-iso="1599-11-04"><supplied>(1 July 1598–4 November 1599) (Disbursements)</supplied></date></head>
             <pb n="f 52v" type="folio"/> 
             
             <gap reason="omitted"/>
-            
-            <div type="transcription">
                <table>
                   <row>
                      <cell>It<ex>e</ex>m to the Music<ex>i</ex>ons</cell>
                      <cell>vj li. x s.</cell>
                   </row>
                </table>
-            </div>
-            
+                       
             <gap reason="omitted"/>
          </div>
       </body>
@@ -592,24 +571,20 @@
 
    <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Gray's Inn Ledger Book
-            <date from-iso="1600-10-04" to-iso="1601-11-25" cert="high">1600-01</date>
-            <seg ana="docu:RLGILB" corresp="docu:RLPCI1 p. 133">RLGILB</seg></head>
+         <head>
+            <date from-iso="1600" to-iso="1601">1600-01</date>
+            <seg ana="taxon:RLGILB" corresp="taxon:RLPCI1 p. 133">RLGILB</seg></head>
          <div type="transcription">
-            <head>f 56<supplied>(4 October–25 November) (Treasurer’s disbursements)</supplied></head>
-            <pb n="f 56" type="folio"/> 
-            
+            <head>f 56<date from-iso="1600-10-04" to-iso="1601-11-25"><supplied>(4 October–25 November) (Treasurer’s disbursements)</supplied></date></head>
+            <pb n="f 56" type="folio"/>             
             <gap reason="omitted"/>
-            
-            <div type="transcription">
+
                <table>
                   <row>
                      <cell>To the Music<ex>i</ex>ons by an order in penc<ex>i</ex>on 23 feb<ex>ruary</ex> 1600</cell>
                      <cell>vij li.</cell>
                   </row>
-               </table>
-            </div>
-            
+               </table>                       
             <gap reason="omitted"/>
          </div>
       </body>
@@ -617,50 +592,44 @@
    
    <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Gray's Inn Ledger Book
-            <date from-iso="1602-11-26" to-iso="1604-11-01" cert="high">1603-04</date>
-            <seg ana="docu:RLGILB" corresp="docu:RLPCI1 p. 136">RLGILB</seg></head>
+         <head>
+            <date from-iso="1603" to-iso="1604">1603-04</date>
+            <seg ana="taxon:RLGILB" corresp="taxon:RPCIC1 p. 136">RLGILB</seg></head>
          <div type="transcription">
-            <head>f 58<supplied>(26 November 1602–1 November 1604) (Steward’s disbursements)</supplied></head>
+            <head>f 58<date from-iso="1602-11-26" to-iso="1604-11-01"><supplied>(26 November 1602–1 November 1604) (Steward’s disbursements)</supplied></date></head>
             <pb n="f 58" type="folio"/> 
-            <div type="endnote"><ab>Though payments in this account run 26 November 1602 to 1 November 1604, the sequence of dated entries confirms that this account was for 1603–4 rather than 1602–3.</ab></div>
-            
+            <div type="endnote"><ab>Though payments in this account run 26 November 1602 to 1 November 1604, the sequence of dated entries confirms that this account was for 1603–4 rather than 1602–3.</ab></div>  
+            <div>
             <gap reason="omitted"/>
-            
-            <div type="transcription">
                <table>
                   <row>
                      <cell>Payd to the Music<ex>i</ex>ons by the like order</cell>
                      <cell>2-0-0</cell>
                   </row>
-               </table>
-            </div>
-            
+               </table>                       
             <gap reason="omitted"/>
+            </div>
          </div>
       </body>
    </text>
    
    <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Gray's Inn Ledger Book
-            <date from-iso="1604-11-05" to-iso="1608-08-12" cert="high">1604-1608</date>
-            <seg ana="docu:RLGILB" corresp="docu:RLPCI1 pp. 138-9">RLGILB</seg></head>
+         <head>
+            <date from-iso="1604" to-iso="1608">1604-1608</date>
+            <seg ana="taxon:RLGILB" corresp="taxon:RPCIC1 pp. 138-9">RLGILB</seg></head>
          <div type="transcription">
-            <head>f 66<supplied>(5 November 1604–12 August 1608) (Treasurer’s disbursements)</supplied></head>
+            <head>f 66<date from-iso="1604-11-05" to-iso="1608-08-12"><supplied>(5 November 1604–12 August 1608) (Treasurer’s disbursements)</supplied></date></head>
             <pb n="f 66" type="folio"/> 
             
             <gap reason="omitted"/>
-            
-            <div type="transcription">
+
                <table>
                   <row>
                      <cell>To the Music<ex>i</ex>ons 11 feb<ex>ruary</ex> 1606. 40 s. for candelmas daie &amp; 6 li. more by an order 4 feb<ex>ruary</ex>.</cell>
-                     <cell>6 0 0<note type="editorial">for 8 0 0 (?)</note></cell>
+                     <cell>6 0 0<note type="foot">for 8 0 0 (?)</note></cell>
                   </row>
-               </table>
-            </div>
-            
+               </table>                        
             <gap reason="omitted"/>
          </div>
       </body>
@@ -668,34 +637,28 @@
    
    <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Gray's Inn Ledger Book
-            <date from-iso="1604-11-05" to-iso="1608-08-12" cert="high">1604-1608</date>
-            <seg ana="docu:RLGILB" corresp="docu:RLPCI1 pp. 140-1">RLGILB</seg></head>
+         <head>
+            <date from-iso="1604" to-iso="1608">1604-1608</date>
+            <seg ana="taxon:RLGILB" corresp="taxon:RPCIC1 pp. 140-1">RLGILB</seg></head>
          <div type="transcription">
-            <head>f 66v<supplied>(5 November 1604–12 August 1608) (Treasurer’s disbursements)</supplied></head>
-            <pb n="f 66v" type="folio"/> 
-            
+            <head>f 66v<date from-iso="1604-11-05" to-iso="1608-08-12"><supplied>(5 November 1604–12 August 1608) (Treasurer’s disbursements)</supplied></date></head>
+            <pb n="f 66v" type="folio"/>             
             <gap reason="omitted"/>
-            
-            <div type="transcription">
+
                <table>
                   <row>
                      <cell>To the Music<ex>i</ex>ons by pencion 27 nov<ex>ember</ex> 1607</cell>
                      <cell>4 0 0</cell>
                   </row>
-               </table>
-               
-               <gap reason="omitted"/>
-               
+               </table>               
+               <gap reason="omitted"/>               
                <table>
                   <row>
                      <cell>To the Music<ex>i</ex>ons 15 feb<ex>ruary</ex> 1607 for there wages due this yeare according to penc<ex>i</ex>on 12 li. I<note type="editorial">the sub-treasurer (?)</note> haue gathered &amp; shall gather by my booke &amp; Rowles 6 14 0 Paid more by m<ex>aste</ex>r Treasorer that w<ex>hi</ex>ch remaineth 5 5 8 according to an order in penc<ex>i</ex>on 10 feb<ex>ruary</ex> 1607</cell>
                      <cell>5 5 8</cell>
                   </row>
                </table>
-               <note type="marginal">nota</note>
-            </div>
-            
+               <note type="marginal">nota</note>                        
             <gap reason="omitted"/>
          </div>
       </body>
@@ -703,68 +666,51 @@
                
    <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Gray's Inn Ledger Book
-            <date from-iso="1608-08-25" to-iso="1610-11-25" cert="high">1608-10</date>
-            <seg ana="docu:RLGILB" corresp="docu:RLPCI1 pp. 144">RLGILB</seg></head>
+         <head>
+            <date from-iso="1608" to-iso="1610">1608-10</date>
+            <seg ana="taxon:RLGILB" corresp="taxon:RPCIC1 pp. 144">RLGILB</seg></head>
          <div type="transcription">
-            <head>f 73v<supplied>(12 August 1608–25 November 1610) (Treasurer’s disbursements)</supplied></head>
+            <head>f 73v<date  from-iso="1608-08-25" to-iso="1610-11-25"><supplied>(12 August 1608–25 November 1610) (Treasurer’s disbursements)</supplied></date></head>
             <pb n="f 73v" type="folio"/> 
             <div type="endnote"><ab>The treasurer this year and the previous year (1608–9) was <persName n="Francis Bacon">Sir Francis Bacon</persName>.</ab></div>
             
             <gap reason="omitted"/>
-            
-            <div type="transcription">
+            <div>
                <table>
                   <row>
                      <cell>To ye Music<ex>i</ex>ons 8 ffeb<ex>ruary</ex> 1609 by order of Penc<ex>i</ex>on bycause they had no Christmas</cell>
                      <cell>3 6 8</cell>
                   </row>
-               </table>
-            </div>
-            
+               </table>                       
             <gap reason="omitted"/>
+         </div>
          </div>
       </body>
    </text>
    
    <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Gray's Inn Ledger Book
+         <head>
             <date from-iso="1635" to-iso="1636" cert="medium">1635-6</date>
-            <seg ana="docu:RLGILB" corresp="docu:RLPCI1 pp. 338-9">RLGILB</seg></head>
+            <seg ana="taxon:RLGILB" corresp="taxon:RPCIC1 pp. 338-9">RLGILB</seg></head>
          <div type="transcription">
-            <head>f 113<supplied>(26 February) (Treasurer’s disbursements)</supplied></head>
+            <head>f 113<date when-iso="1635-02-26"><supplied>(26 February) (Treasurer’s disbursements)</supplied></date></head>
             <pb n="f 113" type="folio"/> 
-            <div type="endnote"><ab>The treasurer this year and the previous year (1608–9) was <persName n="Francis Bacon">Sir Francis Bacon</persName>.</ab></div>
-            
+            <div type="endnote"><ab>The treasurer this year and the previous year (1608–9) was <persName n="Francis Bacon">Sir Francis Bacon</persName>.</ab></div>           
             <gap reason="omitted"/>
-            
-            <div type="transcription">
+            <div>
                <table>
                   <row>
                      <cell>To the musitions for their ffee the last Hallowtide xl s. &amp; for 8 nights more at xvj d. the night</cell>
                      <cell>2 10 8</cell>
                   </row>
                </table>
-            </div>
-            
+            </div>                       
             <gap reason="omitted"/>
-         </div>
-      </body>
-   </text>
-   
-   <text ana="taxon:grays_inn" type="record">
-      <body xml:lang="eng">
-         <head>Gray's Inn Ledger Book
-            <date from-iso="1635" to-iso="1636" cert="medium">1635-6</date>
-            <seg ana="docu:RLGILB" corresp="docu:RLPCI1 pp. 338-9">RLGILB</seg></head>
-         <div type="transcription">
-            <head>f 113v<supplied>(26 February) (Treasurer’s disbursements)</supplied></head>
-            <pb n="f 113v" type="folio"/> 
-            
+
+            <pb n="f 113v" type="folio"/>             
             <gap reason="omitted"/>
-            
-            <div type="transcription">
+            <div>
                <table>
                   <row>
                      <cell>To the Musitians 18 ffebr<ex>uarij</ex> 1634</cell>
@@ -772,93 +718,69 @@
                   </row>
                </table>
             </div>
-            
+                        
             <gap reason="omitted"/>
          </div>
-      </body>
-   </text>
-   
-   <text ana="taxon:grays_inn" type="record">
-      <body xml:lang="eng">
-         <head>Gray's Inn Ledger Book
-            <date from-iso="1635" to-iso="1636" cert="medium">1635-6</date>
-            <seg ana="docu:RLGILB" corresp="docu:RLPCI1 pp. 338-9">RLGILB</seg></head>
-         <div type="transcription">
-            <head>f 114<supplied>(26 February) (Treasurer’s disbursements)</supplied></head>
+
             <pb n="f 114" type="folio"/>
             <!-- In the print edition it is marked f 114*, but there is no accompanying endnote -->
             
             <gap reason="omitted"/>
-            
-            <div type="transcription">
+         <div>
                <table>
                   <row>
                      <cell>To <persName n="Francis Knight">ffr<ex>ancis</ex> Knight</persName> for Torches &amp; Beere extraordinary spent at the Reuills</cell>
                      <cell>3 5 0</cell>
                   </row>
                </table>
-               
+         </div>                             
                <gap reason="omitted"/>
-               
+         <div>               
                <table>
                   <row>
                      <cell>To <persName n="Richard Gibbs" cert="medium" resp="#JAKA1">mr Gibbs</persName> in p<ex>ar</ex>te of 50 li., w<ex>hi</ex>ch he lent to the house towards the maske 21 Dec<ex>ember</ex> 1635</cell>
                      <cell>25 0 0</cell>
                   </row>
                </table>
-               
+         </div>               
                <gap reason="omitted"/>
-               
-               <table>
+         <div>
+                <table>
                   <row>
                      <cell>To the watchmen last Hollantide on the Reuelling night</cell>
                      <cell>0 12 0</cell>
                   </row>
                </table>
-            </div>
-            
+         </div>                        
             <gap reason="omitted"/>
-         </div>
       </body>
    </text>
             
    <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Gray's Inn Ledger Book
-            <date when-iso="1637-05-25" cert="high">1637</date>
-            <seg ana="docu:RLGILB" corresp="docu:RLPCI1 pp. 344">RLGILB</seg></head>
+         <head>
+            <date when-iso="1637">1637</date>
+            <seg ana="taxon:RLGILB" corresp="taxon:RPCIC1 pp. 344">RLGILB</seg></head>
          <div type="transcription">
-            <head>f 113<supplied>(25 May 1637) (Treasurers’ disbursements)</supplied></head>
+            <head>f 113<date when-iso="1637-05-25"><supplied>(25 May 1637) (Treasurers’ disbursements)</supplied></date></head>
             <pb n="f 113" type="folio"/>
             
             <gap reason="omitted"/>
-            
-            <div type="transcription">
+
                <table>
                   <row>
                      <cell>To <persName>ffr<ex>ancis</ex> Knight</persName> in p<ex>ar</ex>te for Torches</cell>
                      <cell>2 0 0</cell>
                   </row>
                </table>
-            </div>
-            
+                        
             <gap reason="omitted"/>
          </div>
-      </body>
-   </text>
-
-   <text ana="taxon:grays_inn" type="record">
-      <body xml:lang="eng">
-         <head>Gray's Inn Ledger Book
-            <date when-iso="1637-07-05" cert="high">1637</date>
-            <seg ana="docu:RLGILB" corresp="docu:RLPCI1 pp. 344">RLGILB</seg></head>
-         <div type="transcription">
-            <head>f 113v<supplied>(5 July 1637)</supplied></head>
             <pb n="f 113v" type="folio"/>
             
             <gap reason="omitted"/>
             
-            <div type="transcription">
+            <div>
                <table>
                   <row>
                      <cell>To <persName n="Francis Knight">ffran<ex>cis</ex> Knight</persName> in full for Torches</cell>
@@ -868,32 +790,24 @@
             </div>
             
             <gap reason="omitted"/>
-         </div>
-      </body>
-   </text>
-   
-   <text ana="taxon:grays_inn" type="record">
-      <body xml:lang="eng">
-         <head>Gray's Inn Ledger Book
-            <date when-iso="1637-07-05" cert="high">1637</date>
-            <seg ana="docu:RLGILB" corresp="docu:RLPCI1 pp. 344">RLGILB</seg></head>
-         <div type="transcription">
-            <head>f 114v<supplied>(5 July 1637)</supplied></head>
+
             <pb n="f 114v" type="folio"/>
             <div type="endnote"><ab>These disbursements are repayments of loans for the masque of 1633 – 4.</ab></div>
             <!-- edited endnote so that it is inline here and on the record on p. 346 (below) -->
             
             <gap reason="omitted"/>
             
-            <div type="transcription">
+            <div>
                <table>
                   <row>
                      <cell>To <persName n="Richard Gibbs" cert="medium" resp="#JAKA1">mr Gibbs</persName> more in p<ex>ar</ex>te 20 maij 1637</cell>
                      <cell>10 0 0</cell>
                   </row>
                </table>
+            </div>
                
                <gap reason="omitted"/>
+         <div>
                
                <table>
                   <row>
@@ -901,26 +815,24 @@
                      <cell>5 0 0</cell>
                   </row>
                </table>
-            </div>
-            
+            </div>            
             <gap reason="omitted"/>
-         </div>
       </body>
    </text>
    
    <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Gray's Inn Ledger Book
-            <date when-iso="1637-10-24" cert="high">1637</date>
-            <seg ana="docu:RLGILB" corresp="docu:RLPCI1 pp. 346">RLGILB</seg></head>
+         <head>
+            <date when-iso="1637">1637</date>
+            <seg ana="taxon:RLGILB" corresp="taxon:RPCIC1 pp. 346">RLGILB</seg></head>
          <div type="transcription">
-            <head>f 114v<supplied>(Treasurer’s disbursements)</supplied></head>
+            <head>f 114v<date  when-iso="1637-10-24"><supplied>(Treasurer’s disbursements)</supplied></date></head>
             <pb n="f 114v" type="folio"/>
             <div type="endnote"><ab>This disbursement is repayment for loans for the masque of 1633 – 4.</ab></div>
             
             <gap reason="omitted"/>
             
-            <div type="transcription">
+            <div>
                <table>
                   <row>
                      <cell>To <persName n="Richard Gibbs" cert="medium" resp="#JAKA1">mr Gibbs</persName> more 24 Octobr<ex>is</ex> 1637 w<ex>hi</ex>ch is in full</cell>
@@ -936,17 +848,16 @@
    
    <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Gray's Inn Ledger Book
+         <head>
             <date from-iso="1641" to-iso="1642" cert="medium">1641-2</date>
-            <seg ana="docu:RLGILB" corresp="docu:RLPCI1 pp
-               . 360">RLGILB</seg></head>
+            <seg ana="docu:RLGILB" corresp="taxon:RPCIC1 p. 360">RLGILB</seg></head>
          <div type="transcription">
             <head>f 120<supplied>(Steward’s payments and disbursements)</supplied></head>
             <pb n="f 120" type="folio"/>
             
             <gap reason="omitted"/>
             
-            <div type="transcription">
+            <div>
                <table>
                   <row>
                      <cell></cell>
