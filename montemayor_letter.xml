@@ -241,11 +241,18 @@
    <text ana="taxon:letter" type="record" n="description">
       <body xml:lang="eng">
          <head>Inns of Court
-            <date from-iso="YYYY" to-iso="YYYY" precision="high">YYYY-YYYY</date>
+            <date when-iso="">YYYY-YYYY</date>
             <seg ana="docu:RL1234" corresp="docu:RLPIC1 pp. numbers">six number code</seg></head>
          <div type="transcription">
             <head>single sheet or folio<supplied>supplied from text</supplied></head>
             <pb n="1" type="sheet"/>
+
+
+1598
+Jorge de Montemayor, Diana of George of Montemayor STC : 18044
+sig a2 (Bartholomew Yong’s dedication to Penelope Devereux, Lady Rich)
+...
+...But as certaine yeares past (my Honorable good Lady) in a publike shewe at the Middle Temple, where your Honorable presence with many noble Lordes and faire Ladies graced and beautified those sportes, it befell to my lot in that woorthie assemblie, vnwoorthily to performe the part of a French Oratour by a deducted speech in the same toong, and that amongst so many good conceits and such generall skill in toongs, all the while I was rehearsing it, there was not any, whose mature iudgement and censure in that language I feared and suspected more then your Ladiships, whose attentiue eare and eie daunted my imagination with the apprehension of my disabilitie, and your Ladiships perfect knowledge in the same...
 
          </div>
       </body>
