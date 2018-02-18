@@ -744,6 +744,23 @@ The standard essential publication is Joseph Foster (ed), <hi rend="italic">The 
                
                <!-- Go back and fill in pages lvii to lxii -->
 
+<!-- (Reed_London_Furnivals_Inn_Lincoln_Inn) -->
+               <!-- Inns of Chancery / Furnival's Inn -->
+               <msDesc xml:id="RLFILI">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTL"/>
+                     <idno type="shelfmark">LOFT MS 97</idno>
+                     <msName>Furnival’s Inn Accounts in a History of Lincoln’s Inn (AC) </msName>                     
+                  </msIdentifier>
+                  <ab type="edDesc">
+                     Furnival’s Inn, which has no archive of its own, is represented here by a single manuscript housed in the library of the Middle Temple. The full volume contains transcriptions from various sources, all dealing with Lincoln’s Inn and its associated Inns of Chancery. The unidentified compiler may have assembled his materials with an eye to publication. 
+                     Furnival’s Inn is treated ff 83–93v, while the source documents are described (f 84) as ‘the Auncyent Books of this house, bothe faire and legible in a Court hand.’ Foliation of the MS suggests the source material was out of order and this was not corrected by the compiler. Chronological order requires that the leaves be read in this sequence: ff 89, 90v, 90, 91v, 91, 89v, and 92. 
+                     The MS was given to the Middle Temple (rather than to Lincoln’s Inn, where it would more logically belong) in 1910 by Sir Rufus D. Isaacs (Lord Reading). A full transcription is in D.S. Bland (ed), Early Records of Furnival’s Inn (Newcastle upon Tyne, 1957).</ab>
+                  <ab type="techDesc">c 1639; Latin and English; paper; ii + 93 + ii; modern pencil foliation 1–93 (some leaves bear earlier ink foliation, ending at ‘394’ on f 92); repaired and rebound in 1927; title on spine: ‘History of | Lincolns Inn | [rule] | Seventeenth Century | Manuscript.’ Many passages have been cancelled with x’s or horizontal strikethrough.</ab>
+               </msDesc>
+
+
 <!-- Diplomatic Letters -->
  
 <!-- Diplomatic Letters, Spain, 1: id RLDLS1 (Diplomatic_letters Spain 1)-->
@@ -878,6 +895,8 @@ The standard essential publication is Joseph Foster (ed), <hi rend="italic">The 
                   <ab type="techDesc"><date>8 February 1601/2</date>; English; paper; bifolium; 301mm x 199mm; unnumbered; addressed: ‘To the Right honorable Sir Robert Cycell knight principall Secretarie to her Maiestie,’ and endorsed: ‘8: februar: 1610 Lord chief Justice To my Master.’</ab>
                </msDesc>
 
+<!-- Add letter for John Chamberlain to Sir Dudley Carleton = #RLP007 -->
+               
 <!-- Diaries and Reminiscences -->
                <msDesc xml:id="RLDR001">
                   <msIdentifier>
