@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="REED.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="eng"> 
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            
+            <title type="main">Inns of Court</title>
+
+            
+            <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>
+            <funder><orgName>CANARIE</orgName></funder> 
+            
+            <funder><orgName>British Academy, London, UK</orgName></funder>
+            <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>            
+            <funder><orgName>National Endowment for the Humanities, Washington, DC, United States of
+               America</orgName></funder>
+            <funder><orgName>Social Sciences and Humanities Research Council, Ottawa,
+               Canada</orgName></funder>
+            
+		 <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
+		 <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
+            
+            <respStmt>
+               <persName xml:id="CB">Carolyn Black</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Project Manager</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>John Bradley</persName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Susan Brown</persName> 
+               <orgName>University of Guelph</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="KC">Kathy Chung</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>REED Research Associate, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>William Cooke</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>English Glossarian</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="JC">James Cummings</persName>
+               <orgName>Newcastle University</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+               <resp>TEI Schema Designer, Technical Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Matthew Davies</persName>
+               <orgName>University of London, Birkbeck College</orgName> <!-- confirm -->
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="PG">Patrick Gregory</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Associate Editor</resp> <!-- confirm -->
+               <resp>Paleographer, Translator</resp> <!-- confirm -->
+            </respStmt>
+            <respStmt>
+               <persName>Tanya Hagen</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Bibliographer, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="JAKA1">Diane K. Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>Principal Investigator, NHPRC-Mellon Digital Edition Publishing Cooperatives Planning Grant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Alexandra F. Johnston</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>REED Founder and Senior Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>David Kathman</persName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Sally-Beth MacLean</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Principal Investigator, SSHRC grant; Director of Research and General Editor</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Maureen Maclean</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="KM">Kimberley Martin</persName>
+               <orgName>University of Guelph</orgName>
+               <resp>NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Christopher Matusiak</persName>
+               <orgName>Ithaca College</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="JN">Jamie Norrish</persName>
+               <resp>Programmer, EATS developer, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Dorothy Porter</persName>
+               <orgName>University of Pennsylvania</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Arleane Ralph</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Paleographer</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Suzanne Westfall</persName>
+               <orgName>Lafayette College</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board Member</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Abigail Ann Young</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Latin Glossarian</resp>
+            </respStmt>
+            
+         </titleStmt>
+         <editionStmt>
+            <edition>Print version, published <date when-iso="2010">2010</date>. Electronic edition, anticipated publication <date when-iso="2018">2018</date></edition>
+         </editionStmt>
+         
+         <publicationStmt>
+            <authority><orgName>Records of Early English Drama (REED)</orgName>
+               <address>
+                  <addrLine>University of Toronto</addrLine>
+                  <addrLine>170 St George Street, Suite 810</addrLine>
+                  <addrLine>Toronto, Ontario, Canada</addrLine>
+                  <addrLine>M5R 2M8</addrLine>
+               </address>
+            </authority>
+            
+            <publisher>D.S. Brewer, Cambridge, an imprint of Boydell &amp; Brewer Ltd./Boydell &amp; Brewer Ltd.</publisher>
+            <pubPlace>Rochester, NY</pubPlace>
+            <date>2010</date>
+            <idno type="other">978-1-84384-259-0</idno>
+            
+            <availability>
+               <p>Copyright <orgName>Records of Early English Drama (REED)</orgName>,
+                  <date>2017</date></p>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a
+                  Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA
+                  4.0) licence.</licence>
+            </availability>
+         </publicationStmt>
+         
+         <seriesStmt>
+            <title>Records of Early English Drama</title>
+         </seriesStmt>
+         <sourceDesc>
+            <p>This publication constitutes a remediation of the printed Inns of Court collection. Information on original sources for transcriptions can be accessed via the Document Descriptions.</p>
+            <p>For a full list of REED collections, editors, executive board members, and staff, please visit http://reed.utoronto.ca/people</p>       
+         </sourceDesc>
+      </fileDesc>
+      
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="taxon" matchPattern="([A-Za-z0-9_-]+)"
+               replacementPattern="../taxonomy.xml#$1">
+               <p>Private URIs using the <code>taxon</code> prefix are pointers to entities in the
+                  taxonomy.xml file. For example, <code>taxon:church</code> dereferences to
+                  <code>taxonomy.xml#church</code>.</p>
+            </prefixDef>
+            <prefixDef ident="gloss" matchPattern="([A-Za-z0-9_-]+)"
+               replacementPattern="../glossary.xml#$1">
+               <p>Private URIs using the <code>gloss</code> prefix are pointers to entities in the
+                  glossary.xml file. For example, <code>gloss:histrio-1</code> dereferences to
+                  <code>glossary.xml#histrio-1</code>.</p>
+            </prefixDef>
+         </listPrefixDef>
+         
+         <projectDesc>
+            <p>Records of Early English Drama (REED) is an international scholarly project that is
+               establishing for the first time the context from which the drama of Shakespeare and his
+               contemporaries grew. Founded in 1976, REED has worked since then to locate, transcribe,
+               and edit historical documents containing evidence of drama, secular music, and other
+               communal entertainment and ceremony from the Middle Ages until 1642, when the Puritans
+               closed the London theatres.</p>
+         </projectDesc>
+      </encodingDesc>
+      
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">English</language>
+            <language ident="lat">Latin</language>
+            <language ident="fra">Anglo-French</language>
+         </langUsage>
+         <settingDesc>
+            <place>
+               <placeName>London</placeName> 
+            </place>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <!-- Add new major milestone changes to top -->
+         <change when="2018-02-18" who="#JAKA1">created document</change>
+      </revisionDesc>
+   </teiHeader>
+
+   <text ana="taxon:furnivals_inn" type="record">
+      <body xml:lang="lat-eng">
+         <head>
+            <date from-iso="1407" to-iso="1408">1407-8</date>
+            <seg ana="taxon:RLFILI" corresp="taxon:RLPIC1 p. 3">RLFILI</seg></head>
+         <div type="transcription">
+            <head>f 85</head>
+            <pb n="f 85" type="folio"/>
+            <gap reason="omitted"/>
+            <table>
+               <row>
+                  <cell>Pro Citheratore, duringe Chri<ex>stmas</ex> tyme for Musick</cell>
+                  <cell></cell>
+               </row>
+               <row>
+                  <cell>Pro cordis pro Cither<ex>is</ex></cell>
+                  <cell>vj d.</cell>
+               </row>
+            </table>
+            <gap reason="omitted"/>
+            <table>
+               <row>
+                  <cell>Pro Pane pur les Revellors</cell>
+                  <cell>iiij d.</cell>                  
+               </row>
+               <row>
+                  <cell>Not any reward mentioned, for Musick, whereby it appereth, they had yt gratis, or of theire owne without chardge/</cell>
+                  <cell></cell>
+               </row>
+            </table>
+            <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
+   
+   <text ana="taxon:furnivals_inn" type="record">
+      <body xml:lang="lat-eng">
+         <head>
+            <date from-iso="1411" to-iso="1412">1411-12</date>
+            <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 3">RLIFILI</seg></head>
+         <div type="transcription">
+            <head>f 85 <supplied>(Christmas charges)</supplied></head>
+            <pb n="f 85" type="folio"/>
+            <gap reason="omitted"/>
+            <table>
+               <row>
+                  <cell>Pro Cordis Cithere</cell>
+                  <cell>iiij d.</cell>
+               </row>
+            </table>
+         </div>
+      </body>
+   </text>
+         
+   <text ana="taxon:furnivals_inn" type="record">
+      <body xml:lang="lat-eng">
+         <head>
+            <date from-iso="1412" to-iso="1413">1412-13</date>
+            <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 3">RLIFILI</seg></head>
+         <div type="transcription">         
+            <head>f 85v<supplied>(Christmas charges)</supplied></head>
+            <pb n="f 85v" type="folio"/>
+            <gap reason="omitted"/>
+            <table>
+               <row>
+                  <cell><persName n="Thomas Thwaits">Thomas Thwaits</persName> soluit pro Interludio</cell>
+                  <cell>vj s. viij d.</cell>
+               </row>
+            </table>
+            <gap reason="omitted"/>         
+         </div>
+      </body>
+   </text>
+
+   <text ana="taxon:furnivals_inn" type="record">
+      <body xml:lang="lat-eng">
+         <head>
+            <date from-iso="1416" to-iso="1417">1416-17</date>
+            <seg ana="taxon:RLFILI" corresp="taxon:RLPICI pp. 3-4">RLIFILI</seg></head>
+         <div type="transcription">
+            <head>f 86 <supplied>(Christmas expenses)</supplied></head>
+            <gap reason="omitted"/>
+            <ab>fforreyn Expenc<ex>es</ex> touchinge the Revells</ab>
+            <table>
+               <row>
+                  <cell>Pro Sema Pomorum</cell>
+                  <cell>xiij d.</cell>
+               </row>
+               <row>
+                  <cell>Pro Sema Pirorum dez wardens</cell>
+                  <cell>xij d.</cell>
+               </row>
+               <row>
+                  <cell>Pro wafiers</cell>
+                  <cell>iij s. v d.</cell>
+               </row>
+               <row>
+                  <cell>Pro confectionibus diuersarum specierum</cell>
+                  <cell>ij s.</cell>
+               </row>
+               <row>
+                  <cell>Pro octo <del>gal</del> Lagenis Bastardi</cell>
+                  <cell>iij s.</cell>
+               </row>
+               <row>
+                  <cell>Pro quatuor Lagenis vini De Romney</cell>
+                  <cell>iiij s. viij d.</cell>
+               </row>
+               <row>
+                  <cell>Pro viginti Lagenis vini Rubei</cell>
+                  <cell>xiij s. 4 d.</cell>
+               </row>
+               <row>
+                  <cell>Pro Lusoribus &amp; Ludo suo</cell>
+                  <cell>vij s.</cell>
+               </row>
+               <row>
+                  <cell>Pro cordulis Citherarum</cell>
+                  <cell>viij d.</cell>
+               </row>
+               <row>
+                  <cell>Pro quinque libris Candelarum</cell>
+                  <cell>vij d. ob.</cell>
+               </row>
+               <row>
+                  <cell>Pro vno quarterio Carbonum pro Aula &amp; Coquina</cell>
+                  <cell>xiij d. ob.</cell>
+               </row>
+               <row>
+                  <cell>Pro Cœna lusorum et alijs expens<ex>is</ex></cell>
+                  <cell></cell>
+               </row>
+               <row>
+                  <cell rend="center">The totall of the fforrein Expenc<ex>es</ex> for Chr<ex>istmas</ex> Day</cell>
+                  <cell>xlij s. ij d.</cell>
+               </row>
+            </table>
+            <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
+         
+   <text ana="taxon:furnivals_inn" type="record">
+      <body xml:lang="lat-eng">
+         <head>
+            <date from-iso="1417" to-iso="1418">1417-18</date>
+            <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 4">RLIFILI</seg></head>
+         <div type="transcription">
+            <head>f 86<supplied>(Christmas expenses</supplied></head>
+            <pb n="f 86" type="folio"/>
+            <gap reason="omitted"/>
+            <ab>Expenc<ex>es</ex>, circa le Revells</ab>
+            <table>
+               <row>
+                  <cell>Pro Decem Lagenis et dimid<ex>ium</ex> vini rubei</cell>
+                  <cell>vij s.</cell>
+               </row>
+               <row>
+                  <cell>Pro quatuor Lagenis vini Albi</cell>
+                  <cell>ij s. viij d.</cell>
+               </row>
+               <row>
+                  <cell>Pro quatuor Lagenis de Romney</cell>
+                  <cell>iiij s.</cell>
+               </row>
+               <row>
+                  <cell>Pro vna Lagena del Bastard</cell>
+                  <cell>xvj d.</cell>
+               </row>
+               <row>
+                  <cell>Pro tribus Lagenis De Ipocrass</cell>
+                  <cell>iiij s.</cell>
+               </row>
+               <row>
+                  <cell>Pro 4 duodenis volucrum voc<ex>atis</ex> Larkes</cell>
+                  <cell>x d.</cell>
+               </row>
+               <row>
+                  <cell>Pro Cœna Ludensium</cell>
+                  <cell></cell>
+               </row>
+               <row>
+                  <cell>&amp; alijs expens<ex>is</ex> vt pro Cordis Cithere</cell>
+                  <cell>vij d.</cell>
+               </row>
+               <row>
+                  <cell>Pro 6 Libris Candelarum</cell>
+                  <cell>ix d.</cell>
+               </row>
+               <row>
+                  <cell rend="center">Sum<ex>m</ex>a cust<ex>orum</ex> pur lez Revels</cell>
+                  <cell>xxxviij s.</cell>
+               </row>
+            </table>
+         </div>
+      </body>
+   </text>
+         
+   <text ana="taxon:furnivals_inn" type="record">
+      <body xml:lang="lat-eng">
+         <head>
+            <date from-iso="1442" to-iso="1443">1442-43</date>
+            <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 5">RLIFILI</seg></head>
+         <div type="transcription">
+            <head>f 86v <supplied>(Christmas charges)</supplied></head>
+            <pb n="f 86v" type="folio"/>
+            <gap reason="omitted"/>
+            <ab>Noe Revells here mencyoned</ab>
+            <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
+         
+   <text ana="taxon:furnivals_inn" type="record" n="description">
+      <body xml:lang="lat-eng">
+         <head>
+            <date from-iso="1450" to-iso="1453" cert="medium">1450-53</date>
+            <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 7">RLIFILI</seg></head>
+         <div type="transcription">
+            <head>f 87 </head>
+            <pb n="f 87" type="folio"/>
+            <note type="editorial" n="endnote">Sir John Talbot (1413–60) succeeded as fifth earl of Shrewsbury in 1453 (l.7). See REED’s <hi rend="italic">Patrons and Performances Web Site</hi> for more information.</note>
+            <gap reason="omitted"/>
+            <ab>The fare in Venison, and other Cheare for the whole Christmas tyme, contynueth in like forme, and fasshion, as in formour yeres, with litle, or noe alteration at all. Heare was Revells and is related.</ab>
+            <table>
+               <row>
+                  <cell>In regardo Fidiceni Domini <persName n="John Talbot">IOHANNIS TALBOTT</persName> militis</cell>
+                  <cell>viij d.</cell>
+               </row>
+               <row>
+                  <cell><persName n="... Tresawell">Tresawell</persName> exoneratur De Officio Senescalli in Septimana Natalis Domini./ Eo quod <persName n="... Stanley">Stanley</persName>, <persName n="... Garnon">Garnon</persName> &amp; <persName n="... Moresby">Moresby</persName> renuerunt accipere super se Officium REGIS tempore Natalis Domini, ante impetrationem Brevis De Supersedias quilibet amercietur in</cell>
+                  <cell>vj s. 4 d.</cell>
+               </row>
+            </table>
+            <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
+         
+   <text ana="taxon:furnivals_inn" type="record">
+      <body xml:lang="lat-eng">
+         <head>
+            <date from-iso="1465" to-iso="1466">1465-6</date>
+            <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 10">RLIFILI</seg></head>
+         <div type="transcription">
+            <head>f 87v </head>
+            <pb n="f 87v" type="folio"/>
+            <gap reason="omitted"/>
+            <table>
+               <row>
+                  <cell>The harpurs reward for all Christmas time</cell>
+                  <cell>xiij s. iiij d.</cell>
+               </row>
+            </table>
+            <gap reason="omitted"/>
+            <table>
+               <row>
+                  <cell>Walwin amerci<del><damage/></del>etur, pro eo quod renuit Officium Regale ad</cell>
+                  <cell>vj s. viij d.</cell>
+               </row>
+            </table>
+            <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
+         
+   <text ana="taxon:furnivals_inn" type="record" n="description">
+      <body xml:lang="lat-eng">
+         <head>
+            <date from-iso="1466" to-iso="1469">1466-9</date>
+            <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 10">RLIFILI</seg></head>
+         <div type="transcription">
+            <head>f 88</head>
+            <pb n="f 88" type="folio"/>
+            <ab>In Annis 6, 8 &amp; 9 <persName n="King Edward IV">Edward 4</persName>, nothinge appeareth worthie of Relation, ffor that in those yeres the formor Customes are really sicut prius, observed.</ab>
+            <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
+         
+   <text ana="taxon:furnivals_inn" type="record">
+      <body xml:lang="lat-eng">
+         <head>
+            <date from-iso="1471" to-iso="1472" cert="low" resp="#AHN1">1471-2</date>
+            <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 13">RLIFILI</seg></head>
+         <div type="transcription">
+            <head>f 88<supplied>(Christmas charges)</supplied></head>
+            <pb n="f 88" type="folio"/>
+            <note type="editorial" n="endnote">This entry is immediately followed by the statement, ‘The daie fell oute to be ffridaie,’ perhaps referring to All Hallows, which in 1471 fell on a Friday. If reference is rather to Christmas, the implied year would be 1472. As the original of this antiquarian document remains lost, the year must be regarded as conjectural.</note>
+            <gap reason="omitted"/>
+            <ab>In Anno 11 <persName n="King Edward IV">E<ex>dwardi</ex> 4</persName>. the Christmas tooke its begynnynge heare at Alhalontide, as it dothe at this daie, It seemith not it was before that tyme in vse, ffor that formorly no mention is thereof at all in theire Book<ex>es</ex> made, and it is here mentioned for a great ffestivall. by the perticulers of dyett.</ab>
+               <gap reason="omitted"/>
+         <table>
+            <row>
+               <cell>In reward to the Harpur</cell>
+               <cell>xx d.</cell>
+            </row>
+            <row>
+               <cell>In regardo Citheratori</cell>
+               <cell>viij d.</cell>
+            </row>
+            <row>
+               <cell rend="center">Revells is mentioned, henceforth to attend euerie Saturdaie weekelie, vsque festum Purificacionis, and mynstralsy &amp; Revelling held in Chr<ex>istmas</ex> tyme sicut ab antiquo.</cell>
+               <cell></cell>
+            </row>
+         </table>
+            <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
+         
+   <text ana="taxon:furnivals_inn" type="record">
+      <body xml:lang="lat-eng">
+         <head>
+            <date from-iso="1473" to-iso="1474" cert="low" resp="#AHN1">1473-4</date>
+            <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 14">RLIFILI</seg></head>
+         <div type="transcription">
+            <head>f 88 <supplied>(Christmas charges)</supplied></head>
+            <pb n="f 88" type="folio"/>
+            <note type="editorial" n="endnote">The account is headed ‘Christmas Daie Anno 13<hi rend="superscript">o</hi> E<ex>dwardi</ex> 4. Dies Dominica,’ but in 1473 Christmas fell on a Saturday. Christmas fell on a Sunday in 1474. As the original of this antiquarian document remains lost, the year must be regarded as conjectural.</note>
+            <gap reason="omitted"/>
+            <table>
+               <row>
+                  <cell>Neither venison, nor Musick mentioned all Christmas</cell>
+                  <cell></cell>
+               </row>
+               <row>
+                  <cell><gap reason="omitted"/> Candlemas Daie, le harpur</cell>
+                  <cell>viij d.</cell>
+               </row>
+            </table>
+            <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
+         
+   <text ana="taxon:furnivals_inn" type="record">
+      <body xml:lang="lat-eng">
+         <head>
+            <date from-iso="1476" to-iso="1477">1476-7</date>
+            <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 15">RLIFILI</seg></head>
+         <div type="transcription">
+            <head>f 88 <supplied>(Christmas charges)</supplied></head>
+            <pb n="f 88" type="folio"/>
+            <gap reason="omitted"/>
+            <ab>Musick vppon ^<add place="above">All</add> Hallowes daie &amp; Candlemas even and day this yere</ab>
+            
+            <pb n="f 88v" type="folio"/>
+            <note type="editorial" n="endnote">The occurrence of two different terms for harper raises the question of whether these musicians might have been playing different kinds of string instruments. Although ‘fidicen’ can refer in Anglo-Latin to a fiddler, here the performer is firmly identified in English as a harper. Despite the development in fifteenth-century Italy of the cithern, an instrument to which vocabulary derived from the Latin ‘cithera’ was applied, there is no corresponding evidence that ‘citherator’ was used in Anglo-Latin to refer to players on other plucked string instruments, and 1476–7 would be quite early for the cithern and its vocabulary to have spread to England. The two remaining possibilities would appear to be either that the accountant was simply employing synonyms for variety or that players on two different types or shapes of harp are being distinguished. See ‘cittern’ in L. Macy (ed), <hi rend="italic">Grove Music Online</hi> <ptr/>http://www.grovemusic.com.</note>
+            <gap reason="omitted"/>
+            <table>
+               <row>
+                  <cell>In Regardo Citheratori</cell>
+                  <cell>viij d.</cell>
+               </row>
+               <row>
+                  <cell>In Regardo fidiceni vocat<ex>o</ex> le Harpur</cell>
+                  <cell>viij d.</cell>
+               </row>
+            </table>
+            <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
+         
+   <text ana="taxon:furnivals_inn" type="record">
+      <body xml:lang="lat-eng">
+         <head>
+            <date from-iso="1481" to-iso="1482">1481-2</date>
+            <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 17">RLIFILI</seg></head>
+         <div type="transcription">
+            <head>f 88v <supplied>(Christmas charges)</supplied></head>
+            <pb n="f 88v" type="folio"/>
+            <note type="editorial" n="endnote">For the ‘Ductori de le Marmosett &amp; Iennet,’ see printed Inns of Court vol. 3, pp 918–19, endnote to MT Lib: LOFT MS 97 f 90v.</note>
+            <gap reason="omitted"/>
+            <table>
+               <row>
+                  <cell>In Regardo Ductori de le Marmosett &amp; Iennet</cell>
+                  <cell>vj d.</cell>
+               </row>
+            </table>
+            <gap reason="omitted"/>
+            <table>
+               <row>
+                  <cell>In Regardo pour les Waites</cell>
+                  <cell>viij d.</cell>
+               </row>
+               <row>
+                  <cell>In Regardo al Harpur sur le feast de touts Saintes</cell>
+                  <cell>xx d.</cell>
+               </row>
+            </table>
+            <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
+         
+   <text ana="taxon:furnivals_inn" type="record">
+      <body xml:lang="lat-eng">
+         <head>
+            <date from-iso="1485" to-iso="1489">1485-9</date>
+            <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 19">RLIFILI</seg></head>
+         <div type="transcription">
+            <head>f 89 <date when-iso="1485-12-25"><supplied>(25 December)</supplied></date></head>
+            <pb n="f 89" type="folio"/>
+            <note type="editorial" n="endnote">For the keeper of the baboon, see printed Inns of Court, volume 3, pp 918–19, endnote to MT Lib: LOFT MS 97 f 90v.</note>
+            <gap reason="omitted"/>
+            <list>
+               <item>Waytes &amp; other musick</item>
+               <item>The keper of the Babone</item>
+            </list>
+            <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
+         
+   <text ana="taxon:furnivals_inn" type="record">
+      <body xml:lang="lat-eng">
+         <head>
+            <date from-iso="1489" to-iso="1490">1489-90</date>
+            <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 20">RLIFILI</seg></head>
+         <div type="transcription">
+            <head>f 89</head>
+            <pb n="f 89" type="folio"/>
+            <gap reason="omitted"/>
+            <ab>In Anno 5 <persName n="King Henry VII">H<ex>enrici</ex> 7</persName> St Heughs Revels failed, as also the Revell<ex>es</ex> of St Edmond other yeres vsually kept</ab>
+            <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
+         
+   <text ana="taxon:furnivals_inn" type="record">
+      <body xml:lang="lat-eng">
+         <head>
+            <date from-iso="1491" to-iso="1492">1491-2</date>
+            <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 20">RLIFILI</seg></head>
+         <div type="transcription">
+            <head>f 89<supplied>(Christmas charges)</supplied></head>
+            <pb n="f 89" type="folio"/>
+            <note type="editorial" n="endnote">Earlier on f 89 occurs an entry for 1490–1 (‘Christmas Anno 6 H<ex>enrici</ex> 7’): ‘Commons brake vpp nere Christmas Daie, and the Company became wholie dispersed by reason of wynter Sicknes then.’</note>
+            <gap reason="omitted"/>
+            <table>
+               <row>
+                  <cell>Kitchin Chardges, Venison plentie, also Brawne, Doulcetts, Baked wardens, Cressettes, Players, harneys from the Armorer, handgonnes, horses, Rushes, Musick, and mynstralsy extraordinary/ Also Pottes spent in this tyme extraordinarie</cell>
+                  <cell>ix s.</cell>
+               </row>
+            </table>
+            <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
+         
+   <text ana="taxon:furnivals_inn" type="record">
+      <body xml:lang="lat-eng">
+         <head>
+            <date from-iso="1494" to-iso="1496">1494-5</date>
+            <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 23">RLIFILI</seg></head>
+         <div type="transcription">
+            <head>f 90v<supplied>(Christmas charges)</supplied></head>
+            <pb n="f 90v" type="folio"/>
+            <note type="editorial" n="endnote">In the Tudor and earlier periods, performing exotic animals (excluding bears) appear to have been patronized exclusively by royalty, particularly the monarch. This is borne out by a search of patronized performing animal troupes in REED’s <hi rend="italic">Patrons and Performances Web Site</hi>. It is therefore probable that the leader of the marmoset and jennet (a small Spanish horse) who is paid at Furnival’s Inn in Christmas 1481–2 (p 17, ll.25–6) was patronized by Edward IV, and the keeper of the baboon (p 19, l.5) who is paid at the same Inn on Christmas Day 1485 was patronized by Henry VII (his newborn son, Arthur, prince of Wales, later patronized a baboon keeper who appears in New Romney, Kent, in 1494–5: see REED: <hi rend="italic">Kent: Diocese of Canterbury</hi>, vol 2, p 753). It is probable the mention of ‘Lyons’ here (l.16) and the payments to ‘Pescod the keeper of the Lyons’ in 1497–8 (p 25, l.6) and to ‘Pescodde’ in 1498–9 (p 25, l.19) are all references to the king’s lion keeper. Henry VII’s lion keeper was paid at Shrewsbury in April 1493; his predecessors, Edward IV and Richard III, also kept lions that travelled outside of London.<lb/>
+               Pescod seems to have been the keeper of at least one other kind of exotic animal, as attested by two entries from the Magdalen College Libri Computi not included in REED: <hi rend="italic">Oxford</hi>. In 1494–5 (f 26), ‘Solutum Pescode seruanti quandam bestiam vocatam ly Mermusytt ex consilio seniorum quia rex erat apud Woodstocke xij d.’ (‘12d paid to Pescod, keeping a beast called the marmoset, by the council of the seniors because the king was at Woodstock’). In 1495–6 (f 40), ‘Solutum pescod ducenti duo animalia nuncupata Mermosettes in regardo viij d.’ (‘8d paid in reward to Pescod, leading two animals called marmosets’). That Henry VII kept marmosets is indicated by a payment to the king’s marmoset in Dover, Kent, in 1488–9: see REED: <hi rend="italic">Kent: Diocese of Canterbury</hi>, vol 2, p 374. (Thanks to Mark Sorrell for drawing attention to the Magdalen College entries and for sharing his knowledge concerning patronage of exotic animals in early modern England.)</note>
+            <gap reason="omitted"/>
+            <ab>The hall was at Christmas feast this yere, garnished with <del>a</del> hanginges of Crymosin Say, and the greater part of ^<add place="above">the</add> hall fairelie matted for the Revellers to daunce vpon whiche mattes conteyned .34. yardes</ab>
+            <gap reason="omitted"/>
+            <ab>They had Lyons, The waites, The harpur, and other perticulers, &amp;c</ab>
+            <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
+         
+   <text ana="taxon:furnivals_inn" type="record">
+      <body xml:lang="lat-eng">
+         <head>
+            <date from-iso="1497" to-iso="1499">1497-9</date>
+            <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 25">RLIFILI</seg></head>
+         <div type="transcription">
+            <head>f 90<supplied>(Christmas charges)</supplied></head>
+            <pb n="f 90" type="folio"/>
+            <gap reason="omitted"/>
+            <ab>Revells in <del>h</del> the Hall, the Saturdaie next before Chr<ex>istmas</ex> day after Supper</ab>
+            <gap reason="omitted"/>
+            <table>
+               <row>
+                  <cell>To <persName n="Pescod" role="animal keeper">Pescod</persName> the keeper of the Lyons</cell>
+                  <cell>viij d.</cell>
+               </row>
+            </table>
+            <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
+         
+   <text ana="taxon:furnivals_inn" type="record">
+      <body xml:lang="lat-eng">
+         <head>
+            <date from-iso="1499" to-iso="1500">1499-1500</date>
+            <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 26">RLIFILI</seg></head>
+         <div type="transcription">
+            <head>f 91v</head>
+            <pb n="f 91v" type="folio"/>
+            <ab>Vppon Candlemas daie Anno 15 <persName n="King Henry VII">H<ex>enrici</ex> 7</persName>. Revells in the Hall.</ab>
+            <gap reason="omitted"/>
+            <list>
+               <item>Vpon Candlemas daie aforesaid, the wait<ex>es</ex> of London</item>
+               <item>The harpur.</item>
+            </list>
+            <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
+         
+   <text ana="taxon:furnivals_inn" type="record">
+      <body xml:lang="lat-eng">
+         <head>
+            <date from-iso="1501" to-iso="1503">1501-03</date>
+            <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 28">RLIFILI</seg></head>
+         <div type="transcription">
+            <head>f 91v</head>
+            <pb n="f 91v" type="folio"/>
+            <note type="editorial" n="endnote">The ‘Iustes &amp; Turnamentes’ were held in connection with negotiations for the marriage of Margaret Tudor to James IV of Scotland, which were concluded 25 January 1501/2: see John Stow, <hi rend="italic">The Annales of England</hi> (London, 1592; STC : 23334), 807. (The wedding did not take place until 15 January 1502/3). On the general subject of jousts and tournaments, see p 916, endnote to LI Arch: A1a1 f 62v.</note>
+            <gap reason="ommited"/>
+            <ab>Lez Iustes &amp; Turnament<ex>es</ex> fuervnt En le Palaice al Westminster cora<ex>m</ex> <persName n="King Henry VII">Rege</persName>, <persName n="Elizabeth of York">Regina</persName>, &amp; <persName n="Margaret Tudor">Domina Margareta</persName> filia Regis. This Ladie was aboute this tyme contracted in Matrymony <persName n="King James IV of Scotland">Regi Scotiæ</persName>. Per diuersos legatos Regis Scotiæ, and theis Embassadors, were then there present.</ab>
+            <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
+         
+   <text ana="taxon:furnivals_inn" type="record">
+      <body xml:lang="lat-eng">
+         <head>
+            <date from-iso="1503" to-iso="1504">1503-04</date>
+            <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 29">RLIFILI</seg></head>
+         <div type="transcription">
+            <head>f 91v</head>
+            <pb n="f 91v" type="folio"/>
+            <note type="editorial" n="endnote">Bland, in ‘Fifteenth-Century Revels,’ p 265, n 1, identifies the ‘Ladie Princes’ as Margaret, daughter of Henry VII. This is improbable: Margaret was married by proxy 15 January 1502/3 to James IV of Scotland, leaving for Edinburgh on 8 July 1503. She was formally married in Scotland on 8 August 1503. By Christmas 1503–4, therefore, she was the queen of Scotland and no longer a member of the English court. The princess being referred to here is Katherine of Arragon, dowager princess of Wales, who had been betrothed to Prince Henry on 25 June 1503. Unlike Margaret, Katherine (as princess) is known to have patronized performers between 1500–2 and in 1507. See REED’s Patrons and Performances Web Site for more information.</note>
+               <gap reason="omitted"/>
+               <ab>A Banckett, ordayned at this feastivall tyme for <placeName n="Thavies Inn">Thavis Inne</placeName> and others invited Guestes <del>and</del> of <orgName n="Inns of Court">Innes of Court</orgName>/ whereas was muche dancinge &amp; Revellinge/ and for that purpose, the minstralsey of the <persName n="Katherine of Aragon" resp="#AHN1">Ladie Princ<ex>es</ex></persName> ^<add place="above">and her Servant<ex>es</ex></add> were heare, with the wait<ex>es</ex> of London, the harpur, and other musicall Instrument<ex>es</ex></ab>
+            <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
+         
+   <text ana="taxon:furnivals_inn" type="record">
+      <body xml:lang="lat-eng">
+         <head>
+            <date from-iso="1505" to-iso="1506">1505-06</date>
+            <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 31">RLIFILI</seg></head>
+         <div type="transcription">
+            <head>f 91<supplied>(Christmas charges)</supplied></head>
+            <pb n="f 91" type="folio"/>
+            <gap reason="omitted"/>
+            <table>
+               <row>
+                  <cell>Musick and other chardges vt in Annis premenc<ex>i</ex>onat<ex>is</ex></cell>
+                  <cell></cell>
+               </row>
+            </table>
+            <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
+         
+   <text ana="taxon:furnivals_inn" type="record">
+      <body xml:lang="lat-eng">
+         <head>
+            <date from-iso="1528" to-iso="1530">1528-30</date>
+            <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 58">RLIFILI</seg></head>
+         <div type="transcription">
+            <head>f 91</head>
+            <pb n="f 91" type="folio"/>
+            <gap reason="omitted"/>
+            <list>
+               <item>The Hall was this yere newe tiled, and the Gallerie in the Hall made, as also the Backside of the hall newe roughcast, and whitelymed, scil<ex>icet</ex> Aprilis, Anno d<del><damage/></del></item>
+               <item>vpon St hughes day mynstralsey.</item>
+               <item>vpon the feast daies of all Sainct<ex>es</ex>, and Candlemas. Musick/</item>
+            </list>
+            <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
+         
+   <text ana="taxon:furnivals_inn" type="record">
+      <body xml:lang="lat-eng">
+         <head>
+            <date from-iso="1533" to-iso="1534">1533-4</date>
+            <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 61">RLIFILI</seg></head>
+         <div type="transcription">
+            <head>f 89v</head>
+            <pb n="f 89v" type="folio"/>
+            <gap reason="omitted"/>
+            <ab>On the feast daie of Saint Katheryn. Musick in the Hall/</ab>
+            <gap reason="omitted"/>
+         </div>
+                  
+
+
+      </body>
+   </text>
+  
+</TEI>

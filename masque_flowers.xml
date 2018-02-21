@@ -14,6 +14,7 @@
             <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>
             <funder><orgName>CANARIE</orgName></funder> 
             
+            <funder><orgName>British Academy, London, UK</orgName></funder>
             <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>            
             <funder><orgName>National Endowment for the Humanities, Washington, DC, United States of
                America</orgName></funder>
@@ -103,7 +104,7 @@
                <resp>Principal Investigator, SSHRC grant; Director of Research and General Editor</resp>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Maureen Maclean</persName>
                <orgName>Bucknell University</orgName>
@@ -147,7 +148,7 @@
             </respStmt>
             
             <respStmt>
-               <persName>Abigrail Ann Young</persName>
+               <persName>Abigail Ann Young</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>Latin Glossarian</resp>
             </respStmt>
@@ -233,20 +234,81 @@
       </profileDesc>
       <revisionDesc>
          <!-- Add new major milestone changes to top -->
-         <change when="2018-02-03" who="#JAKA1">created document</change>
+         <change when="2018-02-11" who="#JAKA1">created document</change>
       </revisionDesc>
    </teiHeader>
-   
-   <text ana="taxon:letter" type="record" n="description">
+
+   <text ana="taxon:masque" type="record">
       <body xml:lang="eng">
          <head>Inns of Court
-            <date from-iso="YYYY" to-iso="YYYY" precision="high">YYYY-YYYY</date>
-            <seg ana="docu:RL1234" corresp="docu:RLPCI1 pp. numbers">six number code</seg></head>
+            <date from-iso="1613" to-iso="1614" precision="high">1613-14</date>
+            <seg ana="docu:RLMTF1" corresp="docu:RLPCI2 pp. 536-548">RLMTF1</seg></head>
          <div type="transcription">
-            <head>single sheet or folio<supplied>supplied from text</supplied></head>
-            <pb n="1" type="sheet"/>
+            <head>sigs A3-C4<supplied>Masque of Flowers</supplied></head>
+            <pb n="A3-C4" type="sheet"/>
             
+            <ab>TO THE VERIE HOnorable Knight, Sir FRANCIS BACON, his Maiesties Attorney generall.</ab>
+            <ab>Honourable Sir;</ab>
+            <ab>THis last Maske, presented by Gentlemen of Graies Inne, before his Maiestie,
+               in honor of the marriage, and happy alliance betweene two such principall persons of the kingdome, as are the Earle of Suffolke<note type="foot">Thomas Howard, father of Frances, the bride</note>, and the Earle of Sommerset<note type="foot">Robert Ker, the bridegroom</note>, hath receiued such grace from his Maiestie, the Queene and Prince, and such approbation from the generall. As it may well deserue to
+               bee repeated to those that were present, and represented to those that were absent, by committing the same to the Presse, as others haue been. The dedication of it could not be doubtfull, you hauing beene the Principall, 10 and in effect the onely person, that did both incourage and warrant the Gentlemen, to shew their good affection towards so noble a Coniunction, in
+               a time of such Magnificence. Wherein we conceiue without giuing you false attributes, which little neede where so many are true. That you haue graced
+               in generall all the Societies of the Innes of Court, in continuing them still as 15 third persons with the Nobilite and Court, in doing the King honor. And particularly Graies Inne, which as you haue formerly brought to flourish both | in the auncienter and younger sort, by countenancing vertue in euery qualitie. So now you haue made a notable demonstration thereof in the later and lesse serious kind, by this, That one Inne of Court by it selfe, in time of 20 a Vacation, and in the space of three weekes, could performe that which hath beene performed, which could not haue beene done, but that euery mans exceeding loue and respect to you, gaue him wings to ouertake Time, which
+               is the swiftest of things. This which we alledge for your Honour, we may alledge indifferently for our excuse, if any thing were amisse or wanting, for 25 your times did scarce afford moments, and our experience went not beyond the compasse of some former imployment of that nature, which our grauer studies mought haue made vs by this time to haue forgotten. And so wishing you all encrease of honour, we rest
+            <seg type="closer" rend="right">Humbly to doe you seruice,</seg>
+           <table>
+              <row>
+                 <cell>I. G.</cell>
+              </row>
+              <row>
+                 <cell>W. D.</cell>
+              </row>
+              <row>
+                 <cell>T. B.|</cell>
+            </row>
+           </table><note type="foot">these initials remain unidentified but probably belong to men of Gray’s Inn</note>
+            </ab>
+            
+            <ab>The Deuice of the Maske</ab>
+            <ab>THe Sunne willing to doe honour to a Marriage, betweene two noble
+               persons of the greatest Island of his vniuersall Empire, writeth his Letter of Commission to the two Seasons of the yeare, the Winter and the Spring, to visite and present them on his part, directing the Winter to present them with sports, such as are commonly called by the name of Christmasse sportes, or Carnaual sportes, and the Spring, with other sportes of more Magnificence.</ab>
+            <ab>And more especially, that Winter for his part take knowledge of a certaine Challenge which had beene lately sent and accepted betweene Silenus and 5 Kanasha vpon this point; That Wine was more woorthy then Tobacco, and did more cheere and relieue the spirits of man. This to be tried at two weapons, at Song and at Dance, and requiring the Winter to giue order that the same Challenge be performed in the dayes of Solemnitie of the same Marriage.</ab>
+            <ab>The same Letter containeth a second Speciall direction to the Spring, that whereas of ancient time certaine beautifull youths had bin transformed from Men to Flowers, and had so continued till this time, that now they should
+               be returned againe into Men, | and present themselues in Maske at the same Marriage.</ab>
+            <ab>All this is accordingly performed, and first the two Seasons Inuierno and Primauera come in, and receiue their dispatch from the Sunne, by Gallus the Sunnes Messenger: Thereupon Winter brings in the Challenge, consisting
+            of two Anticke-Maskes, the Anticke-Maske of the Song, and the Anticke- Maske of the Dance.</ab>
+            <ab>Then the Spring brings in the Maske it selfe, and there is first seene in the fabrique, a faire Garden vpon a descending Ground, and at the height thereof there is a stately long Arbour or Bower arched vppon Pillars, wherein the Maskers are placed, but are not discouered at the first, but there appeare onely certaine great tufts of flowers betwixt the Collumnes. Those flowers 25 vpon the Charme doe vanish, and so the Maskers appeare euery one in the space or inter-columne of his Arch.</ab>
+            <ab>The Maske.</ab>
+            <ab>AT the entrance of the King, at the lower end of the Banquetting house, appeared a Trauers painted in Perspectiue, like the wall of a Cittie, with battlements, ouer which were seene the Tops of houses. In the middle
+            whereof was a great gate, and on either side a Temple, the one dedicated to Silenus, and the other to Kawasha, in either of which opened a little gate.</ab>
+            <ab>Out of the great gate, in the middle of the Citty, entred Inuierno or Winter, attired like an old man, in |<note type="foot">start of sig B1</note> a short gowne of silke shagge, like withered grasse all frosted and snowed ouer, and his Cappe, Gowne, Gamashes, and Mittins furred crimson, with long white haire and beard, hung with Icecicles, he marcheth vp to the middle of the Hall, and looks round about him.</ab>
+            
+            <note type="marginal">® Inuierno.</note>
+            
+            <lg>
+               Why thus it should be; such a night as this
+               Puts downe a thousand weary longsome dayes
+               Of Somer, when a Sunne, and Moone, and Stars
+               Are mette within the Pallace of a King,
+               In seuerall glory shining each on other,
+               With raies of comfort, and benigne Aspects
+               When hearts are warme: tis for the seely birds
+               To sacrifice their Pipes vnto the Spring,
+               And let the Pilgrim blesse the Summers day,
+               But Courts, and Youth, and Ladies needs must praise 
+               The Winters raine.
+            </lg>
+            
+            <ab>While Inuierno was thus speaking, entreth the Spring or Primauera, attired like a Nymph, a high tire on her head, Antike with knottes of faire haire, and Cobweb Lawnes rising one aboue an other, garnished with Flowers to some 15 height, and behinde, falling downe in a pendant: an vpper-body of cloth of siluer florie, naked necke, and breast, decked with Pearls: a kertle of yellow cloth of gold, brancht with leaues, a mantle of greene and siluer stuffe, cut out in leaues, white buskins tied with greene ribands, fringed with flowers.</ab>
+            <ab>Shee ouertaking Inuierno, clappes him on the shoulder. |</ab>
+            
+
+               
+            
+            
+
          </div>
       </body>
    </text>
+  
 </TEI>
