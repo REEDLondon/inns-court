@@ -242,12 +242,12 @@
             <seg ana="taxon:RLFILI" corresp="taxon:RLPIC1 p. 3">RLFILI</seg></head>
          <div type="transcription">
             <head>f 85</head>
-            <pb n="f 85" type="folio"/>
+            <pb n="85" type="folio"/>
             <gap reason="omitted"/>
             <table>
                <row>
                   <cell>Pro Citheratore, duringe Chri<ex>stmas</ex> tyme for Musick</cell>
-                  <cell></cell>
+                  <cell><space/></cell><!--#CB 2018-02-21: added <space/> tag here, which outputs on REED Online to what you see here in print collection -- (blank). (blank) is our editorial comment to let reader know that while they might expect text there, there wasn't any in original. Often appears where you'd expect to see sum. I added a few more of these later in file.-->
                </row>
                <row>
                   <cell>Pro cordis pro Cither<ex>is</ex></cell>
@@ -277,7 +277,7 @@
             <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 3">RLIFILI</seg></head>
          <div type="transcription">
             <head>f 85 <supplied>(Christmas charges)</supplied></head>
-            <pb n="f 85" type="folio"/>
+            <pb n="85" type="folio"/>
             <gap reason="omitted"/>
             <table>
                <row>
@@ -296,7 +296,7 @@
             <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 3">RLIFILI</seg></head>
          <div type="transcription">         
             <head>f 85v<supplied>(Christmas charges)</supplied></head>
-            <pb n="f 85v" type="folio"/>
+            <pb n="85v" type="folio"/>
             <gap reason="omitted"/>
             <table>
                <row>
@@ -316,8 +316,9 @@
             <seg ana="taxon:RLFILI" corresp="taxon:RLPICI pp. 3-4">RLIFILI</seg></head>
          <div type="transcription">
             <head>f 86 <supplied>(Christmas expenses)</supplied></head>
+	    <pb n="86" type="folio"/>
             <gap reason="omitted"/>
-            <ab>fforreyn Expenc<ex>es</ex> touchinge the Revells</ab>
+		 <ab><hi rend="center">fforreyn Expenc<ex>es</ex> touchinge the Revells</hi></ab><!--#CB 2018-02-21: Patrick wanted to continue to represent text that looked centered as such, esp when it is at top of a chunk of text. So we've been using <hi rend="center"> in instances like this. I added here and marked up another in next record-->
             <table>
                <row>
                   <cell>Pro Sema Pomorum</cell>
@@ -365,7 +366,7 @@
                </row>
                <row>
                   <cell>Pro Cœna lusorum et alijs expens<ex>is</ex></cell>
-                  <cell></cell>
+                  <cell><space/></cell>
                </row>
                <row>
                   <cell rend="center">The totall of the fforrein Expenc<ex>es</ex> for Chr<ex>istmas</ex> Day</cell>
@@ -383,10 +384,10 @@
             <date from-iso="1417" to-iso="1418">1417-18</date>
             <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 4">RLIFILI</seg></head>
          <div type="transcription">
-            <head>f 86<supplied>(Christmas expenses</supplied></head>
-            <pb n="f 86" type="folio"/>
+            <head>f 86<supplied>(Christmas expenses)</supplied></head>
+            <pb n="86" type="folio"/>
             <gap reason="omitted"/>
-            <ab>Expenc<ex>es</ex>, circa le Revells</ab>
+		 <ab><hi rend="center">Expenc<ex>es</ex>, circa le Revells</hi></ab>
             <table>
                <row>
                   <cell>Pro Decem Lagenis et dimid<ex>ium</ex> vini rubei</cell>
@@ -414,7 +415,7 @@
                </row>
                <row>
                   <cell>Pro Cœna Ludensium</cell>
-                  <cell></cell>
+                  <cell><space/></cell>
                </row>
                <row>
                   <cell>&amp; alijs expens<ex>is</ex> vt pro Cordis Cithere</cell>
@@ -429,6 +430,7 @@
                   <cell>xxxviij s.</cell>
                </row>
             </table>
+	    <gap reason="omitted"/>
          </div>
       </body>
    </text>
@@ -436,26 +438,26 @@
    <text ana="taxon:furnivals_inn" type="record">
       <body xml:lang="lat-eng">
          <head>
-            <date from-iso="1442" to-iso="1443">1442-43</date>
+            <date from-iso="1442" to-iso="1443">1442-3</date>
             <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 5">RLIFILI</seg></head>
          <div type="transcription">
             <head>f 86v <supplied>(Christmas charges)</supplied></head>
-            <pb n="f 86v" type="folio"/>
+            <pb n="86v" type="folio"/>
             <gap reason="omitted"/>
             <ab>Noe Revells here mencyoned</ab>
             <gap reason="omitted"/>
          </div>
       </body>
    </text>
-         
-   <text ana="taxon:furnivals_inn" type="record" n="description">
+       <!--#CB 2018-02-21: record for 1445-6, pp 5-6, not here. Left out intentionally?-->  
+   <text ana="taxon:furnivals_inn" type="record">
       <body xml:lang="lat-eng">
          <head>
-            <date from-iso="1450" to-iso="1453" cert="medium">1450-53</date>
+            <date from-iso="1450" to-iso="1451" cert="medium">1450-1</date>
             <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 7">RLIFILI</seg></head>
          <div type="transcription">
             <head>f 87 </head>
-            <pb n="f 87" type="folio"/>
+            <pb n="87" type="folio"/>
             <note type="editorial" n="endnote">Sir John Talbot (1413–60) succeeded as fifth earl of Shrewsbury in 1453 (l.7). See REED’s <hi rend="italic">Patrons and Performances Web Site</hi> for more information.</note>
             <gap reason="omitted"/>
             <ab>The fare in Venison, and other Cheare for the whole Christmas tyme, contynueth in like forme, and fasshion, as in formour yeres, with litle, or noe alteration at all. Heare was Revells and is related.</ab>
@@ -473,7 +475,7 @@
          </div>
       </body>
    </text>
-         
+         <!--#CB 2018-02-21: record for 1451-2, pp 7-8, not here. Left out intentionally?-->  
    <text ana="taxon:furnivals_inn" type="record">
       <body xml:lang="lat-eng">
          <head>
@@ -481,7 +483,7 @@
             <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 10">RLIFILI</seg></head>
          <div type="transcription">
             <head>f 87v </head>
-            <pb n="f 87v" type="folio"/>
+            <pb n="87v" type="folio"/>
             <gap reason="omitted"/>
             <table>
                <row>
@@ -492,7 +494,7 @@
             <gap reason="omitted"/>
             <table>
                <row>
-                  <cell>Walwin amerci<del><damage/></del>etur, pro eo quod renuit Officium Regale ad</cell>
+                  <cell>Walwin amerci<del><damage><gap unit="chars" extent="3"/><damage/></del>etur, pro eo quod renuit Officium Regale ad</cell><!--#CB 2018-02-21: note I added <gap unit="chars" extent="3"/> within damage tag to indicate three dots (representing letters) are within the diamond brackets-->
                   <cell>vj s. viij d.</cell>
                </row>
             </table>
@@ -508,7 +510,7 @@
             <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 10">RLIFILI</seg></head>
          <div type="transcription">
             <head>f 88</head>
-            <pb n="f 88" type="folio"/>
+            <pb n="88" type="folio"/>
             <ab>In Annis 6, 8 &amp; 9 <persName n="King Edward IV">Edward 4</persName>, nothinge appeareth worthie of Relation, ffor that in those yeres the formor Customes are really sicut prius, observed.</ab>
             <gap reason="omitted"/>
          </div>
@@ -522,7 +524,7 @@
             <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 13">RLIFILI</seg></head>
          <div type="transcription">
             <head>f 88<supplied>(Christmas charges)</supplied></head>
-            <pb n="f 88" type="folio"/>
+            <pb n="88" type="folio"/>
             <note type="editorial" n="endnote">This entry is immediately followed by the statement, ‘The daie fell oute to be ffridaie,’ perhaps referring to All Hallows, which in 1471 fell on a Friday. If reference is rather to Christmas, the implied year would be 1472. As the original of this antiquarian document remains lost, the year must be regarded as conjectural.</note>
             <gap reason="omitted"/>
             <ab>In Anno 11 <persName n="King Edward IV">E<ex>dwardi</ex> 4</persName>. the Christmas tooke its begynnynge heare at Alhalontide, as it dothe at this daie, It seemith not it was before that tyme in vse, ffor that formorly no mention is thereof at all in theire Book<ex>es</ex> made, and it is here mentioned for a great ffestivall. by the perticulers of dyett.</ab>
@@ -553,7 +555,7 @@
             <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 14">RLIFILI</seg></head>
          <div type="transcription">
             <head>f 88 <supplied>(Christmas charges)</supplied></head>
-            <pb n="f 88" type="folio"/>
+            <pb n="88" type="folio"/>
             <note type="editorial" n="endnote">The account is headed ‘Christmas Daie Anno 13<hi rend="superscript">o</hi> E<ex>dwardi</ex> 4. Dies Dominica,’ but in 1473 Christmas fell on a Saturday. Christmas fell on a Sunday in 1474. As the original of this antiquarian document remains lost, the year must be regarded as conjectural.</note>
             <gap reason="omitted"/>
             <table>
@@ -577,12 +579,15 @@
             <date from-iso="1476" to-iso="1477">1476-7</date>
             <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 15">RLIFILI</seg></head>
          <div type="transcription">
+	<div><!--#CB 2018-02-21: As per our conversation on earlier file, I added extra <div> here and above <head>f 88v</head> later in this record. Each new "folio line" within a record is a new <div>. I've only done this when it's relevant, but it might be good practice to include extra <div> after <div type="transcription"> even when only one folio, so structure consistent and easily understood by student taggers?-->
             <head>f 88 <supplied>(Christmas charges)</supplied></head>
-            <pb n="f 88" type="folio"/>
+            <pb n="88" type="folio"/>
             <gap reason="omitted"/>
             <ab>Musick vppon ^<add place="above">All</add> Hallowes daie &amp; Candlemas even and day this yere</ab>
-            
-            <pb n="f 88v" type="folio"/>
+	</div>
+	<div>
+	    <head>f 88v</head>
+            <pb n="88v" type="folio"/>
             <note type="editorial" n="endnote">The occurrence of two different terms for harper raises the question of whether these musicians might have been playing different kinds of string instruments. Although ‘fidicen’ can refer in Anglo-Latin to a fiddler, here the performer is firmly identified in English as a harper. Despite the development in fifteenth-century Italy of the cithern, an instrument to which vocabulary derived from the Latin ‘cithera’ was applied, there is no corresponding evidence that ‘citherator’ was used in Anglo-Latin to refer to players on other plucked string instruments, and 1476–7 would be quite early for the cithern and its vocabulary to have spread to England. The two remaining possibilities would appear to be either that the accountant was simply employing synonyms for variety or that players on two different types or shapes of harp are being distinguished. See ‘cittern’ in L. Macy (ed), <hi rend="italic">Grove Music Online</hi> <ptr/>http://www.grovemusic.com.</note>
             <gap reason="omitted"/>
             <table>
@@ -596,7 +601,8 @@
                </row>
             </table>
             <gap reason="omitted"/>
-         </div>
+	</div>
+       </div>
       </body>
    </text>
          
@@ -607,7 +613,7 @@
             <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 17">RLIFILI</seg></head>
          <div type="transcription">
             <head>f 88v <supplied>(Christmas charges)</supplied></head>
-            <pb n="f 88v" type="folio"/>
+            <pb n="88v" type="folio"/>
             <note type="editorial" n="endnote">For the ‘Ductori de le Marmosett &amp; Iennet,’ see printed Inns of Court vol. 3, pp 918–19, endnote to MT Lib: LOFT MS 97 f 90v.</note>
             <gap reason="omitted"/>
             <table>
@@ -635,11 +641,11 @@
    <text ana="taxon:furnivals_inn" type="record">
       <body xml:lang="lat-eng">
          <head>
-            <date from-iso="1485" to-iso="1489">1485-9</date>
+            <date from-iso="1485" to-iso="1486">1485-6</date>
             <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 19">RLIFILI</seg></head>
          <div type="transcription">
             <head>f 89 <date when-iso="1485-12-25"><supplied>(25 December)</supplied></date></head>
-            <pb n="f 89" type="folio"/>
+            <pb n="89" type="folio"/>
             <note type="editorial" n="endnote">For the keeper of the baboon, see printed Inns of Court, volume 3, pp 918–19, endnote to MT Lib: LOFT MS 97 f 90v.</note>
             <gap reason="omitted"/>
             <list>
@@ -658,7 +664,7 @@
             <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 20">RLIFILI</seg></head>
          <div type="transcription">
             <head>f 89</head>
-            <pb n="f 89" type="folio"/>
+            <pb n="89" type="folio"/>
             <gap reason="omitted"/>
             <ab>In Anno 5 <persName n="King Henry VII">H<ex>enrici</ex> 7</persName> St Heughs Revels failed, as also the Revell<ex>es</ex> of St Edmond other yeres vsually kept</ab>
             <gap reason="omitted"/>
@@ -673,7 +679,7 @@
             <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 20">RLIFILI</seg></head>
          <div type="transcription">
             <head>f 89<supplied>(Christmas charges)</supplied></head>
-            <pb n="f 89" type="folio"/>
+            <pb n="89" type="folio"/>
             <note type="editorial" n="endnote">Earlier on f 89 occurs an entry for 1490–1 (‘Christmas Anno 6 H<ex>enrici</ex> 7’): ‘Commons brake vpp nere Christmas Daie, and the Company became wholie dispersed by reason of wynter Sicknes then.’</note>
             <gap reason="omitted"/>
             <table>
@@ -690,11 +696,11 @@
    <text ana="taxon:furnivals_inn" type="record">
       <body xml:lang="lat-eng">
          <head>
-            <date from-iso="1494" to-iso="1496">1494-5</date>
+            <date from-iso="1494" to-iso="1495">1494-5</date>
             <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 23">RLIFILI</seg></head>
          <div type="transcription">
             <head>f 90v<supplied>(Christmas charges)</supplied></head>
-            <pb n="f 90v" type="folio"/>
+            <pb n="90v" type="folio"/>
             <note type="editorial" n="endnote">In the Tudor and earlier periods, performing exotic animals (excluding bears) appear to have been patronized exclusively by royalty, particularly the monarch. This is borne out by a search of patronized performing animal troupes in REED’s <hi rend="italic">Patrons and Performances Web Site</hi>. It is therefore probable that the leader of the marmoset and jennet (a small Spanish horse) who is paid at Furnival’s Inn in Christmas 1481–2 (p 17, ll.25–6) was patronized by Edward IV, and the keeper of the baboon (p 19, l.5) who is paid at the same Inn on Christmas Day 1485 was patronized by Henry VII (his newborn son, Arthur, prince of Wales, later patronized a baboon keeper who appears in New Romney, Kent, in 1494–5: see REED: <hi rend="italic">Kent: Diocese of Canterbury</hi>, vol 2, p 753). It is probable the mention of ‘Lyons’ here (l.16) and the payments to ‘Pescod the keeper of the Lyons’ in 1497–8 (p 25, l.6) and to ‘Pescodde’ in 1498–9 (p 25, l.19) are all references to the king’s lion keeper. Henry VII’s lion keeper was paid at Shrewsbury in April 1493; his predecessors, Edward IV and Richard III, also kept lions that travelled outside of London.<lb/>
                Pescod seems to have been the keeper of at least one other kind of exotic animal, as attested by two entries from the Magdalen College Libri Computi not included in REED: <hi rend="italic">Oxford</hi>. In 1494–5 (f 26), ‘Solutum Pescode seruanti quandam bestiam vocatam ly Mermusytt ex consilio seniorum quia rex erat apud Woodstocke xij d.’ (‘12d paid to Pescod, keeping a beast called the marmoset, by the council of the seniors because the king was at Woodstock’). In 1495–6 (f 40), ‘Solutum pescod ducenti duo animalia nuncupata Mermosettes in regardo viij d.’ (‘8d paid in reward to Pescod, leading two animals called marmosets’). That Henry VII kept marmosets is indicated by a payment to the king’s marmoset in Dover, Kent, in 1488–9: see REED: <hi rend="italic">Kent: Diocese of Canterbury</hi>, vol 2, p 374. (Thanks to Mark Sorrell for drawing attention to the Magdalen College entries and for sharing his knowledge concerning patronage of exotic animals in early modern England.)</note>
             <gap reason="omitted"/>
@@ -709,11 +715,11 @@
    <text ana="taxon:furnivals_inn" type="record">
       <body xml:lang="lat-eng">
          <head>
-            <date from-iso="1497" to-iso="1499">1497-9</date>
+            <date from-iso="1497" to-iso="1498">1497-8</date>
             <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 25">RLIFILI</seg></head>
          <div type="transcription">
             <head>f 90<supplied>(Christmas charges)</supplied></head>
-            <pb n="f 90" type="folio"/>
+            <pb n="90" type="folio"/>
             <gap reason="omitted"/>
             <ab>Revells in <del>h</del> the Hall, the Saturdaie next before Chr<ex>istmas</ex> day after Supper</ab>
             <gap reason="omitted"/>
@@ -727,7 +733,7 @@
          </div>
       </body>
    </text>
-         
+    <!--#CB 2018-02-21: record for 1498-9, p 25, not here. Left out intentionally?-->    
    <text ana="taxon:furnivals_inn" type="record">
       <body xml:lang="lat-eng">
          <head>
@@ -735,7 +741,7 @@
             <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 26">RLIFILI</seg></head>
          <div type="transcription">
             <head>f 91v</head>
-            <pb n="f 91v" type="folio"/>
+            <pb n="91v" type="folio"/>
             <ab>Vppon Candlemas daie Anno 15 <persName n="King Henry VII">H<ex>enrici</ex> 7</persName>. Revells in the Hall.</ab>
             <gap reason="omitted"/>
             <list>
@@ -750,15 +756,24 @@
    <text ana="taxon:furnivals_inn" type="record">
       <body xml:lang="lat-eng">
          <head>
-            <date from-iso="1501" to-iso="1503">1501-03</date>
+            <date from-iso="1501" to-iso="1502">1501-2</date>
             <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 28">RLIFILI</seg></head>
          <div type="transcription">
+	  <div><!--#CB 2018-02-21: second half of record wasn't here. I added it because it is another example of adding extra <div>--> 
             <head>f 91v</head>
-            <pb n="f 91v" type="folio"/>
+            <pb n="91v" type="folio"/>
             <note type="editorial" n="endnote">The ‘Iustes &amp; Turnamentes’ were held in connection with negotiations for the marriage of Margaret Tudor to James IV of Scotland, which were concluded 25 January 1501/2: see John Stow, <hi rend="italic">The Annales of England</hi> (London, 1592; STC : 23334), 807. (The wedding did not take place until 15 January 1502/3). On the general subject of jousts and tournaments, see p 916, endnote to LI Arch: A1a1 f 62v.</note>
-            <gap reason="ommited"/>
+            <gap reason="omitted"/>
             <ab>Lez Iustes &amp; Turnament<ex>es</ex> fuervnt En le Palaice al Westminster cora<ex>m</ex> <persName n="King Henry VII">Rege</persName>, <persName n="Elizabeth of York">Regina</persName>, &amp; <persName n="Margaret Tudor">Domina Margareta</persName> filia Regis. This Ladie was aboute this tyme contracted in Matrymony <persName n="King James IV of Scotland">Regi Scotiæ</persName>. Per diuersos legatos Regis Scotiæ, and theis Embassadors, were then there present.</ab>
             <gap reason="omitted"/>
+	  </div>
+	  <div>
+	    <head><supplied>(Christmas charges)</supplied></head>
+            <ab>kitchin chardges exceedinge, with Musick <damage><gap unit="chars" extent="1"/></damage>, and Revells</ab>
+	    <gap reason="omitted"/>
+            <ab>At Candlemas feast this yere, Musick, Capons, hennes, wyne, and so great a supplie of venison, that they had so muche unexpended, y<ex>a</ex>t to preserve the same sweete diuers peic<ex>es</ex> were, by the Cook co<ex>m</ex>myted to the powderinge to be preservid/</ab>
+	    <gap reason="omitted"/>  
+          </div>
          </div>
       </body>
    </text>
@@ -766,11 +781,11 @@
    <text ana="taxon:furnivals_inn" type="record">
       <body xml:lang="lat-eng">
          <head>
-            <date from-iso="1503" to-iso="1504">1503-04</date>
+            <date from-iso="1503" to-iso="1504">1503-4</date>
             <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 29">RLIFILI</seg></head>
          <div type="transcription">
             <head>f 91v</head>
-            <pb n="f 91v" type="folio"/>
+            <pb n="91v" type="folio"/>
             <note type="editorial" n="endnote">Bland, in ‘Fifteenth-Century Revels,’ p 265, n 1, identifies the ‘Ladie Princes’ as Margaret, daughter of Henry VII. This is improbable: Margaret was married by proxy 15 January 1502/3 to James IV of Scotland, leaving for Edinburgh on 8 July 1503. She was formally married in Scotland on 8 August 1503. By Christmas 1503–4, therefore, she was the queen of Scotland and no longer a member of the English court. The princess being referred to here is Katherine of Arragon, dowager princess of Wales, who had been betrothed to Prince Henry on 25 June 1503. Unlike Margaret, Katherine (as princess) is known to have patronized performers between 1500–2 and in 1507. See REED’s Patrons and Performances Web Site for more information.</note>
                <gap reason="omitted"/>
                <ab>A Banckett, ordayned at this feastivall tyme for <placeName n="Thavies Inn">Thavis Inne</placeName> and others invited Guestes <del>and</del> of <orgName n="Inns of Court">Innes of Court</orgName>/ whereas was muche dancinge &amp; Revellinge/ and for that purpose, the minstralsey of the <persName n="Katherine of Aragon" resp="#AHN1">Ladie Princ<ex>es</ex></persName> ^<add place="above">and her Servant<ex>es</ex></add> were heare, with the wait<ex>es</ex> of London, the harpur, and other musicall Instrument<ex>es</ex></ab>
@@ -782,16 +797,16 @@
    <text ana="taxon:furnivals_inn" type="record">
       <body xml:lang="lat-eng">
          <head>
-            <date from-iso="1505" to-iso="1506">1505-06</date>
+            <date from-iso="1505" to-iso="1506">1505-6</date>
             <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 31">RLIFILI</seg></head>
          <div type="transcription">
             <head>f 91<supplied>(Christmas charges)</supplied></head>
-            <pb n="f 91" type="folio"/>
+            <pb n="91" type="folio"/>
             <gap reason="omitted"/>
             <table>
                <row>
                   <cell>Musick and other chardges vt in Annis premenc<ex>i</ex>onat<ex>is</ex></cell>
-                  <cell></cell>
+                  <cell><space/></cell>
                </row>
             </table>
             <gap reason="omitted"/>
@@ -802,11 +817,11 @@
    <text ana="taxon:furnivals_inn" type="record">
       <body xml:lang="lat-eng">
          <head>
-            <date from-iso="1528" to-iso="1530">1528-30</date>
+            <date from-iso="1528" to-iso="1529">1528-9</date>
             <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 58">RLIFILI</seg></head>
          <div type="transcription">
             <head>f 91</head>
-            <pb n="f 91" type="folio"/>
+            <pb n="91" type="folio"/>
             <gap reason="omitted"/>
             <list>
                <item>The Hall was this yere newe tiled, and the Gallerie in the Hall made, as also the Backside of the hall newe roughcast, and whitelymed, scil<ex>icet</ex> Aprilis, Anno d<del><damage/></del></item>
@@ -825,7 +840,7 @@
             <seg ana="taxon:RLFILI" corresp="taxon:RLPICI p. 61">RLIFILI</seg></head>
          <div type="transcription">
             <head>f 89v</head>
-            <pb n="f 89v" type="folio"/>
+            <pb n="89v" type="folio"/>
             <gap reason="omitted"/>
             <ab>On the feast daie of Saint Katheryn. Musick in the Hall/</ab>
             <gap reason="omitted"/>
