@@ -1,30 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="REED.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
-<?xml-model href="out/reedLondon.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="out/reedLondon.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="eng"> 
    <teiHeader>
       <fileDesc>
          <titleStmt>
             
             <title type="main">Inns of Court</title>
-
-            <!-- RESOLVE: Who are the funding agencies for the original printed version of Inns of Court? Should Jackman, NEH, and/or SSHRC be cited? -->   
+            
+            
             <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>
+            <funder><orgName>CANARIE</orgName></funder> 
             
-            <!-- RESOLVE: should CANARIE be cited here as a funder? Please confirm with Susan Brown
-            <funder><orgName>CANARIE</orgName></funder> -->
-            
+            <funder><orgName>British Academy, London, UK</orgName></funder>
             <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>            
             <funder><orgName>National Endowment for the Humanities, Washington, DC, United States of
                America</orgName></funder>
             <funder><orgName>Social Sciences and Humanities Research Council, Ottawa,
                Canada</orgName></funder>
             
-            <!-- RESOLVE: how do we refer to Alan Nelson and John Elliott as editors of the print edition? -->
-		 <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
-		 <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
+            <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
+            <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
             
             <respStmt>
                <persName xml:id="CB">Carolyn Black</persName>
@@ -44,10 +42,17 @@
             </respStmt>
             
             <respStmt>
-               <persName xml:id="CK">Kathy Chung</persName>
+               <persName xml:id="KC">Kathy Chung</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>REED Research Associate, NHPRC-Mellon Project Consultant</resp>
             </respStmt>
+            
+            <respStmt>
+               <persName>William Cooke</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>English Glossarian</resp>
+            </respStmt>
+            
             <respStmt>
                <persName xml:id="JC">James Cummings</persName>
                <orgName>Newcastle University</orgName>
@@ -63,12 +68,11 @@
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
             
-            <!-- RESOLVE: who is the Paleographer, Translator, Latin and Anglo-French Glossarian for Inns of Court (both print and electronic)? -->
             <respStmt>
                <persName xml:id="PG">Patrick Gregory</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>Associate Editor</resp> <!-- confirm -->
-               <resp>Paleographer, Translator, Latin and Anglo-French Glossarian</resp> <!-- confirm -->
+               <resp>Paleographer, Translator</resp> <!-- confirm -->
             </respStmt>
             <respStmt>
                <persName>Tanya Hagen</persName>
@@ -102,7 +106,13 @@
             </respStmt>
             
             <respStmt>
-               <persName>Kimberly Martin</persName>
+               <persName>Maureen Maclean</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="KM">Kimberley Martin</persName>
                <orgName>University of Guelph</orgName>
                <resp>NHPRC-Mellon Project Consultant</resp>
             </respStmt>
@@ -125,11 +135,24 @@
             </respStmt>
             
             <respStmt>
+               <persName>Arleane Ralph</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Paleographer</resp>
+            </respStmt>
+            
+            <respStmt>
                <persName>Suzanne Westfall</persName>
                <orgName>Lafayette College</orgName>
                <resp>Records of Early English Drama (REED) Executive Board Member</resp>
                <resp>NHPRC-Mellon Project Team Member</resp>
-            </respStmt>                        
+            </respStmt>
+            
+            <respStmt>
+               <persName>Abigail Ann Young</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Latin Glossarian</resp>
+            </respStmt>
+            
          </titleStmt>
          <editionStmt>
             <edition>Print version, published <date when-iso="2010">2010</date>. Electronic edition, anticipated publication <date when-iso="2018">2018</date></edition>
@@ -144,16 +167,11 @@
                   <addrLine>M5R 2M8</addrLine>
                </address>
             </authority>
-            <!-- RESOLVE: Include Boydell & Brewer publication information? -->
-            <authority>
-               <orgName>D.S. Brewer, Cambridge, an imprint of Boydell &amp; Brewer Ltd./Boydell &amp; Brewer Ltd.</orgName>
-               <address>
-                  <addrLine>PO Box 9, Woodbridge</addrLine>
-                  <addrLine>Suffolk IP12 3DF, UK</addrLine>
-                  <addrLine>668 Mt. Hope Avenue</addrLine>
-                  <addrLine>Rochester, NY 14620</addrLine>
-               </address>
-            </authority>
+            
+            <publisher>D.S. Brewer, Cambridge, an imprint of Boydell &amp; Brewer Ltd./Boydell &amp; Brewer Ltd.</publisher>
+            <pubPlace>Rochester, NY</pubPlace>
+            <date>2010</date>
+            <idno type="other">978-1-84384-259-0</idno>
             
             <availability>
                <p>Copyright <orgName>Records of Early English Drama (REED)</orgName>,
@@ -171,26 +189,24 @@
             <p>This publication constitutes a remediation of the printed Inns of Court collection. Information on original sources for transcriptions can be accessed via the Document Descriptions.</p>
             <p>For a full list of REED collections, editors, executive board members, and staff, please visit http://reed.utoronto.ca/people</p>       
          </sourceDesc>
-      </fileDesc>      
+      </fileDesc>
+      
       <encodingDesc>
          <listPrefixDef>
             <prefixDef ident="taxon" matchPattern="([A-Za-z0-9_-]+)"
-               replacementPattern="taxonomy.xml#$1">
+               replacementPattern="../taxonomy.xml#$1">
                <p>Private URIs using the <code>taxon</code> prefix are pointers to entities in the
                   taxonomy.xml file. For example, <code>taxon:church</code> dereferences to
                   <code>taxonomy.xml#church</code>.</p>
             </prefixDef>
             <prefixDef ident="gloss" matchPattern="([A-Za-z0-9_-]+)"
-               replacementPattern="glossary.xml#$1">
+               replacementPattern="../glossary.xml#$1">
                <p>Private URIs using the <code>gloss</code> prefix are pointers to entities in the
                   glossary.xml file. For example, <code>gloss:histrio-1</code> dereferences to
                   <code>glossary.xml#histrio-1</code>.</p>
             </prefixDef>
-            <prefixDef ident="docu" matchPattern="([A-Za-z0-9_-]+)" 
-               replacementPattern="documents.xml#$1">
-               <p>Private URIs using the <code>docu</code> prefix are pointers to entities in the documents.xml file. For example, <code>docu:IC1</code> dereferences to <code>documents.xmldocu:IC1</code></p>
-            </prefixDef>
-         </listPrefixDef>        
+         </listPrefixDef>
+         
          <projectDesc>
             <p>Records of Early English Drama (REED) is an international scholarly project that is
                establishing for the first time the context from which the drama of Shakespeare and his
@@ -213,193 +229,180 @@
             </place>
          </settingDesc>
       </profileDesc>
-         
       <revisionDesc>
          <!-- Add new major milestone changes to top -->
-         <change when="2017-12-19" who="#JAKA1">uploaded first version to CWRC</change>
-         <change when="2017-12-16" who="#JAKA1">created document to compile Gray's Inn records by Pension Book document</change>
+         <change when="2018-02-17" who="#JAKA1">updated tagging structure</change>
+         <change when="2018-02-03" who="#JAKA1">created document</change>
       </revisionDesc>
-      
-      
    </teiHeader>
    
-   <text ana="taxon:grays_inn" type="record" n="1568-9">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
          <head>
             <date from-iso="1568" to-iso="1589">1568-9</date>
-            <seg ana="docu:RLGIPB1" corresp="docu:IC1 p. 92">RLGIPB1</seg></head>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 92">RLGIP1</seg></head>
          <div type="transcription">
             <div>
-            <head>f [iiiv] <supplied>(Money laid out for the house)</supplied></head>
-            <pb n="f[iiiv]" type="folio"/>
+            <head><del>f iiiv</del> <supplied>(Money laid out for the house)</supplied></head>
+            <pb n="fiiiv" type="folio"/>
             
             <gap reason="omitted"/>
             <table>
                <row>
-                  <cell>Item paied vnto the mvsic<hi rend="italic">i</hi>ons ffor Christenmas</cell>
-                  <cell></cell>
-               </row>
-               <row>
-                  <cell>a<hi rend="italic">nn</hi>o xj° E<hi rend="italic">lizabethae</hi> Regine</cell>
-                  <cell>xxvj s. viij d.</cell><!-- You've quite understandably broken the record above into two rows. This does follow the layout used in the print collection, but that layout is arbitrary. The typesetter knew he would have to break the line somewhere and so chose a place that would look good, which is not reflective of original ms layout. This is usually case for all these types of records, ie, itemized accounts with each item followed by a sum (often with white space separating the text from the sum). You can think of any one item followed by one sum as one long line, ie, one row only, not two. This will make the coding easier! And because the line breaks in most of these itemized accounts are arbitrary and not reflective of ms layout, it would be better not to carry REED print layout into TEI. #CB 2017-12-09 -->
+                  <cell>Item paied vnto the mvsic<ex>i</ex>ons ffor Christenmas a<ex>nn</ex>o xj° E<ex>lizabethae</ex> Regine</cell>
+                  <cell>xxvj s. viij d.</cell>
                </row>
             </table>
-            <gap reason="omitted"/><!-- REED Online doesn't use an opening and closing <gap> tag for the omission elipses, we only use one: <gap reason="omitted"/> Love to know if your way is better practice. #CB 2017-12-09 -->
+            <gap reason="omitted"/>
          </div>
          </div>
       </body>
    </text>
    
-   <text ana="taxon:grays_inn" type="record" n="1570-1">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
          <head>
             <date from-iso="1570" to-iso="1571">1570-1</date>
-            <seg ana="docu:RLGIPB1" corresp="docu:IC1 p. 94">RLGIPB1</seg></head>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 94">RLGIP1</seg></head>
          <div type="transcription">
             <div>
-            <head>f 28 <supplied>(14 May 1570–3 June 1571) (Disbursements)</supplied></head>
+            <head>f 28 <date from-iso="1570-04-14" to-iso="1571-06-03"><supplied>(14 May 1570–3 June 1571) (Disbursements)</supplied></date></head>
             <pb n="f28" type="folio"/>
             
             <gap reason="omitted"/>
             <table>
                <row>
-                  <cell>Item to the carpenter for mendynge tables and trestles</cell>
-                  <cell></cell>
-               </row>
-               <row>
-                  <cell>this winter broken with revelles at sundrye tymes</cell>
+                  <cell>Item to the carpenter for mendynge tables and trestles this winter broken with revelles at sundrye tymes</cell>
                   <cell>0 10 0</cell>
                </row>
             </table>
-         </div>
+            </div>
+               <gap reason="omitted"/>
          </div>
       </body>
    </text>
 
-   <text ana="taxon:grays_inn" type="record" n="1571-2">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
          <head>
             <date from-iso="1571" to-iso="1572">1571-2</date>
-            <seg ana="docu:RLGIPB1" corresp="docu:IC1 p. 95">RLGIPB1</seg></head>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 95">RLGIP1</seg></head>
          <div type="transcription">
             <div>
-               <head>f 32 <supplied>(3 June – 25 May) (Disbursements)</supplied></head>
+               <head>f 32 <date from-iso="1571-06-03" to-iso="1572-05-25"><supplied>(3 June – 25 May) (Disbursements)</supplied></date></head>
                <pb n="f32" type="folio"/>
                
                <gap reason="omitted"/>
                <table>
                   <row>
-                     <cell>Item for iiij staffe torches agaynst allhollowtide</cell> 
-                     <cell></cell>
-                  </row>
-                  <row>
-                     <cell>and candlemas</cell>
+                     <cell>Item for iiij staffe torches agaynst allhollowtide and candlemas</cell> 
                      <cell>0 4 0</cell>
                   </row>
                   <row>
-                     <cell>Item to the carpenter for mendynge formes and tables</cell> 
-                     <cell></cell>
-                  </row>
-                  <row>
-                     <cell>in the hall after the great Showe and newe fotinge most</cell>
-                     <cell></cell>
-                  </row>
-                  <row>
-                     <cell>of the trestles</cell>
+                     <cell>Item to the carpenter for mendynge formes and tables in the hall after the great Showe and newe fotinge most of the trestles</cell> 
                      <cell>0 13 4</cell>
                   </row>
                </table>
                <gap reason="omitted"/>
             </div>
-         </div>
-      </body>
-   </text>
 
-   <text ana="taxon:grays_inn" type="record" n="1572-3">
-      <body xml:lang="eng">
-         <head>
-            <date from-iso="1572" to-iso="1573">1572-3</date>
-            <seg ana="docu:RLGIPB1" corresp="docu:IC1 p. 96">RLGIPB1</seg></head>
-         <div type="transcription">
-            <div>
-            <head>f 41Av <supplied>(Disbursements)</supplied></head>
             <pb n="f41Av" type="folio"/>
             
             <gap reason="omitted"/>
+            <div>
             <table>
                <row>
-                  <cell>Item vnto the Mvsicions for Christmas Anno xv°</cell>
-                  <cell></cell>
-               </row>
-               <row>
-                  <cell>Regni Regine the Some of</cell>
+                  <cell>Item p<ex>ai</ex>d to the Mvsicions for Christmas tyme ffor the howse by the appoyntment of Master Treasorer the Some of</cell>
                   <cell>xxvj s. viij d.</cell>
                </row>
             </table>
-            <gap reason="omitted"/>
             </div>
+            <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
+   
+   <text ana="taxon:grays_inn" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1572" to-iso="1573">1572-3</date>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 96">RLGIP1</seg></head>
+         <div type="transcription">
+            <head>f 41Av <date when-iso="1572-12"><supplied>(Disbursements)</supplied></date></head>
+            <pb n="f 41Av" type="folio"/>
+            <gap reason="omitted"/>
+            <div>
+               <table>
+                  <row>
+                     <cell>Item vnto the Mvsic<ex>io</ex>ns for Christmas A<ex>nn</ex>o xv<hi rend="superscript">o</hi> Reg<ex>ni</ex> Regine the Some of</cell>
+                     <cell>xxvj s. viij d.</cell>
+                  </row>
+               </table>
+            </div>
+            <gap reason="omitted"/>
          </div>
       </body>
    </text>
 
-   <text ana="taxon:grays_inn" type="record" n="1576-7">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
          <head>
             <date from-iso="1576" to-iso="1577">1576-7</date>
-            <seg ana="docu:RLGIPB1" corresp="docu:IC1 p. 99">RLGIPB1</seg></head>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 99">RLGIP1</seg></head>
                <div type="transcription">
-                  <div>
-                  <head>f 70v <supplied>(30 January) (Pension orders)</supplied></head>
+                  <head>f 70v <date when-iso="1577-01-30"><supplied>(30 January) (Pension orders)</supplied></date></head>
                   <pb n="f70v" type="folio"/>
                   
                   <gap reason="omitted"/>
-                  <ab>Also it is further ordered that Mr Shutt one of the Tresorers shall paye to the Steward six poundes for Mr Revell his two last vacac<hi rend="italic">i</hi>ons and eight pound<hi rend="italic">es</hi> for iiij weikes allowed to the gentlemen at xl s. a weike &amp; xxvj s. viij d. for the musicions in christynmas whiche somme comethe to xv li. [viij] vj s. viij d.</ab>
-
-                  <gap reason="omitted"/>
-               </div>
+                  <ab>Also it is further ordered that <persName n="Robert Shute">Mr Shutt</persName> one of the Tresorers shall paye to the Steward six poundes for <persName n="Mr. Revell">Mr Revell</persName> his two last vacac<ex>i</ex>ons and eight pound<ex>es</ex> for iiij weikes allowed to the gentlemen at xl s. a weike &amp; xxvj s. viij d. for the musicions in christynmas whiche somme comethe to xv li. <del>viij</del> vj s. viij d.</ab>
+                  <gap reason="omitted"/>               
                </div>
       </body>
    </text>
 
-   <text ana="taxon:grays_inn" type="record" n="1577-8">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
          <head>
             <date from-iso="1577" to-iso="1578">1577-8</date>
-            <seg ana="docu:RLGIPB1" corresp="docu:IC1 p. 100">RLGIPB1</seg></head>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 100">RLGIP1</seg></head>
          <div type="transcription">
             <div>
-               <head>f 78v <supplied>(27 November) (Pension orders)</supplied></head>
-               <pb n="f78v" type="folio"/>
-               
+               <head>f 78v <date when-iso="1577-11-27"><supplied>(27 November) (Pension orders)</supplied></date></head>
+               <pb n="f78v" type="folio"/>               
                <gap reason="omitted"/>
-               <ab>yt is Lykewyse agryed y<hi rend="italic">a</hi>t viij li. shalbe allowed vnto yee<note>yee: for ye; first e supralinear; one e is superfluous</note> gentilmen for the mayntinanc<hi rend="italic">e</hi> of ther comons betwen thend of this terme &amp; the beginnyng of the next &amp; xxvj s. viij d. to the mvsycions in tyme of Chrystemas yf y<hi rend="italic">a</hi>t<note>yat: possibly yt, ie, it</note> be not thought perrillous for the Sycknes &amp; the sum to be p<hi rend="italic">ai</hi>d by Mr Anger</ab>
+               <ab>yt is Lykewyse agryed y<ex>a</ex>t viij li. shalbe allowed vnto yee<note type="foot">yee: for ye; first e supralinear; one e is superfluous</note> gentilmen for the mayntinanc<ex>e</ex> of ther comons betwen thend of this terme &amp; the beginnyng of the next &amp; xxvj s. viij d. to the mvsycions in tyme of Chrystemas yf y<ex>a</ex>t<note type="foot">yat: possibly yt, ie, it</note> be not thought perrillous for the Sycknes &amp; the sum to be p<ex>ai</ex>d by Mr Anger</ab>
                <gap reason="omitted"/>
+         </div>
+            <div>
+               <head>f 84Av <date from-iso="1577-11-25" to-iso="1578-01-26"><supplied>(25 November–26 January) (Treasurer’s expenses and allowances)</supplied></date></head>
+               <pb n="f 84Av" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Paide to <persName n="Thomas Casson">Thomas Casson</persName> Steward 20 Decemb<ex>er</ex> Anno xx<hi rend="superscript">o</hi> Elizabeth toward<ex>es</ex> the mayntenaunce of the comons in Christemas tyme &amp; of ye mvsyc<ex>i</ex>ons</cell>
+                     <cell>ix li. vj s. viij d.<note type="foot">presumably £8 for Christmas Commons plus 26s 8d to the musicians at Christmas</note></cell>
+                  </row>
+               </table>
             </div>
          </div>
       </body>
    </text>
 
-   <text ana="taxon:grays_inn" type="record" n="1579-80">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
          <head>
             <date from-iso="1579" to-iso="1580">1579-80</date>
-            <seg ana="docu:RLGIPB1" corresp="docu:IC1 pp. 102-3">RLGIPB1</seg></head>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 pp. 102-3">RLGIP1</seg></head>
          <div type="transcription">
             <div>
-               <head>ff 144–4v* <supplied>(5 February) (Paid to Ladyman)</supplied></head> 
-               
+               <head>ff 144–4v <date when-iso="1579-02-05"><supplied>(5 February) (Paid to <persName n="... Ladyman">Ladyman</persName>)</supplied></date></head> 
+               <note type="editorial" n="endnote">Only the eighth item cited here (p 103, ll.1–3), and by implication the seventh, are certainly associ- ated with a play.</note>
+               <pb n="ff 144-4v" type="folio"/>               
                <gap reason="omitted"/>
                
                <table>
                   <row>
-                     <cell>ffor x fott of borde to amende the gate against</cell>
-                     <cell></cell>
-                     </row>
-                  <row>
-                     <cell>candelmas and for xxxij fott to make an ende</cell>
-                  </row>
-                  <row>
-                     <cell>of the pale</cell>
+                     <cell>ffor x fott of borde to amende the gate against candelmas and for xxxij fott to make an ende of the pale</cell>
                      <cell>ij s. viij d.</cell>
                   </row>
                   <row>
@@ -411,11 +414,7 @@
                      <cell>xiiij d.</cell>
                   </row>
                   <row>
-                     <cell>ffor ij quarters to amende the tressells and the</cell>
-                     <cell></cell>
-                  </row>
-                  <row>
-                     <cell>formes in the hall against Candlemas day</cell>
+                     <cell>ffor ij q<ex>uarters</ex> to amende the tressells and the formes in the hall against Candlemas day</cell>
                      <cell>vj d.</cell>
                   </row>
                   <row>
@@ -427,23 +426,11 @@
                      <cell>viiij d. |</cell>
                   </row>
                   <row>
-                     <cell>ffor a plancke to make a forme in the hall the </cell>
-                     <cell></cell>
-                  </row>
-                  <row>
-                     <cell>morrowe after Candellmas day</cell>
+                     <cell>ffor a plancke to make a forme in the hall the morrowe after Candellmas day</cell>
                      <cell>xij d.</cell>
                   </row>
                   <row>
-                     <cell>for fower single q<hi rend="italic">uar</hi>t<hi rend="italic">er</hi>s to make the same forme</cell>
-                     <cell></cell>
-                  </row>
-                  <row>
-                     <cell>newe and to amende other formes Broken at</cell>
-                     <cell></cell>
-                  </row>
-                  <row>
-                     <cell>the playe</cell>
+                     <cell>for fower single q<ex>uar</ex>t<ex>er</ex>s to make the same forme newe and to amende other formes Broken at the playe</cell>
                      <cell>xij d.</cell>
                   </row>
                   <row>
@@ -465,87 +452,55 @@
       </body>
    </text>
 
-   <text ana="taxon:grays_inn" type="record" n="1580-1">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
          <head>
             <date from-iso="1580" to-iso="1581">1580-1</date>
-            <seg ana="docu:RLGIPB1" corresp="docu:IC1 p. 104">RLGIPB1</seg></head>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 104">RLGIP1</seg></head>
          <div type="transcription">
-            <div>
-               <head>f 155 <supplied>(13 February 1579/80–13 February 1580/1) (Disbursements)</supplied></head>
-               <pb n="f155" type="folio"/>
-               
+               <head>f 155 <date from-iso="1580-02-13" to-iso="1581-02-13"><supplied>(13 February 1579/80–13 February 1580/1) (Disbursements)</supplied></date></head>
+               <pb n="f155" type="folio"/>              
                <gap reason="omitted"/>
                
                <table>
                   <row>
-                     <cell>Ite<hi rend="italic">m</hi> for Bord<hi rend="italic">es</hi> Cut for stoles and seat<hi rend="italic">es</hi> for the</cell>
-                     <cell></cell>
-                  </row>
-                  <row>
-                     <cell>play at Shorvetyde<note>Shorvetyde: 5–7 February 1580/1</note></cell>
+                     <cell>Ite<ex>m</ex> for Bord<ex>es</ex> Cut for stoles and seat<ex>es</ex> for the play at Shorvetyde<note>Shorvetyde: 5–7 February 1580/1</note></cell>
                      <cell>v s.</cell>
                   </row>
                   <row>
-                     <cell>It<hi rend="italic">em</hi> for j hundrethe of sixe peny neyles</cell>
+                     <cell>It<ex>em</ex> for j hundrethe of sixe peny neyles</cell>
                      <cell>vj d.</cell>
                   </row>
                   <row>
-                     <cell>It<hi rend="italic">em</hi> for j half dayes work for ij of the Carpenters</cell>
-                     <cell></cell>
-                  </row>
-                  <row>
-                     <cell>men about the seat<hi rend="italic">es</hi></cell>
+                     <cell>It<ex>em</ex> for j half dayes work for ij of the Carpenters men about the seat<ex>es</ex></cell>
                      <cell>xiiij d.</cell>
                   </row>
                   <row>
-                     <cell>It<hi rend="italic">em</hi> for half a dayes worke for ij of the Carpenters</cell>
-                     <cell></cell>
-                  </row>
-                  <row>
-                     <cell>men in mending and settinge vp the Tables and</cell>
-                     <cell></cell>
-                  </row>
-                  <row>
-                     <cell>formes in the hall after the playe</cell>
+                     <cell>It<ex>em</ex> for half a dayes worke for ij of the Carpenters men in mending and settinge vp the Tables and formes in the hall after the playe</cell>
                      <cell>xiiij d.</cell>
                   </row>
                   <row>
-                     <cell>It<hi rend="italic">em</hi> to the pewterer for vessell lost now at Candlemas</cell>
-                     <cell></cell>
-                  </row>
-                  <row>
-                     <cell>vid<hi rend="italic">elicet </hi>on Charger one iij li. platter 4 myddell platters</cell>
-                     <cell></cell>
-                  </row>
-                  <row>
-                     <cell>viij sallett dyshes one pye platt on sawser on great</cell>
-                     <cell></cell>
-                  </row>
-                  <row>
-                     <cell>wrowght dyshe weying xxxij li.</cell>
+                     <cell>It<ex>em</ex> to the pewterer for vessell lost now at Candlemas vid<ex>elicet </ex>on Charger one iij li. platter 4 myddell platters viij sallett dyshes one pye platt on sawser on great wrowght dyshe weying xxxij li.</cell>
                      <cell>xj s. iiij d.</cell>
                   </row>
                </table>
-               <gap reason="omitted"/>
-            </div>
+               <gap reason="omitted"/>            
          </div>
       </body>
    </text>
 
-   <text ana="taxon:grays_inn" type="record" n="1581-2">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
          <head>
             <date from-iso="1581" to-iso="1582">1581-2</date>
-            <seg ana="docu:RLGIPB1" corresp="docu:IC1 p. ?">RLGIPB1</seg></head>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. ?">RLGIP1</seg></head>
          <div type="transcription">
             <head>f 161v <supplied>(Steward’s accounts)</supplied></head>
-            <pb n="f161v" type="folio"/>
-            
+            <pb n="f161v" type="folio"/>            
             <gap reason="omitted"/>
             <table>
                <row>
-                  <cell>It<hi rend="italic">e</hi>m p<hi rend="italic">ai</hi>d to the musicions this yere more then I r<hi rend="italic">eceived</hi></cell>
+                  <cell>It<ex>e</ex>m p<ex>ai</ex>d to the musicions this yere more then I r<ex>eceived</ex></cell>
                   <cell>viij s. x d.</cell>
                </row>
             </table>
@@ -553,14 +508,16 @@
       </body>
    </text>
    
-   <text ana="taxon:grays_inn" type="record" n="1582-3">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
          <head>
             <date from-iso="1582" to-iso="1583">1582-3</date>
-            <seg ana="docu:RLGIPB1" corresp="docu:IC1 pp. 106-7">RLGIPB1</seg></head>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 pp. 106-7">RLGIP1</seg></head>
          <div type="transcription">
-            <head>f 177v* <supplied>(28 January 1582/3–31 January 1583/4) (Money laid out)</supplied></head>
-            <pb n="f177v*" type="folio"/>
+            <head>f 177v <date from-iso="1583-01-28" to-iso="1584-01-31"><supplied>(28 January 1582/3–31 January 1583/4) (Money laid out)</supplied></date></head>
+            <pb n="f177v" type="folio"/>
+            <note type="editorial" n="endnote">A connection between the four song-books and Gray’s Inn revels is suggested by a similar reference in the Gray’s Inn Ledger Books 1584–5 (p 108, l.3). After this year accounts occur not in the Pension Book but in the Ledger Book.<lb/>
+               Scholars consulted on these song-books (Steven W. May and musicologists David Fallows and John Milsom) agree that there is no obvious candidate for an English secular song-book of this date available in multiple (including printed) copies, but they note the possibility of foreign chansons or madrigals, arrangements of metrical psalms, contemporary five-part music, second-hand prints or manuscripts, bespoke manuscripts, or music written into books printed as blank scores (see STC: 7567.5).</note>
             
             <gap reason="omitted"/>
                <table>
@@ -568,11 +525,13 @@
                      <cell>Item to the musicians for their wages</cell>
                      <cell>xl s.</cell>
                   </row>
-               </table>            
+               </table>   
          </div>
-         <div type="transcription">
-            <head>f 184* <supplied>(31 March 1583–19 April 1584) (Disbursements)</supplied></head>
-            <pb n="f184*" type="folio"/>
+         <div>
+
+            <head>f 184 <date from-iso="1583-03-31" to-iso="1584-04-19"><supplied>(31 March 1583–19 April 1584) (Disbursements)</supplied></date></head>
+            <pb n="f184" type="folio"/>
+            <note type="editorial" n="endnote">For another reference to books for singing, see preceding note.</note>
             
             <gap reason="omitted"/>
             <table>
@@ -583,419 +542,325 @@
             </table>
          </div>
       </body>
-   </text>     
+   </text>
    
-   <text ana="taxon:grays_inn" type="record" n="1587-8">
+   <text ana="taxon:grays_inn" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1584" to-iso="1585">1585-6</date>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 109"></seg></head>
+            <div type="transcription">
+               <head>f 187 <date when-iso="1585-11-26"><supplied>(26 November) (Pension orders)</supplied></date></head>
+               <pb n="f 187" type="folio"/>
+               <gap reason="omitted"/>
+               <note type="marginal">Againest all disorder in ye Cristmas teime</note>
+               <ab>At this Pention it is ordered that from henceforthe no gentleman of this Socyetie nor any other p<ex>er</ex>son by the appoyntment choyse or assent of any gentleman of this house shall in tyme of Cristmas or any other tyme take vpon hym or vse the Name place or com<ex>m</ex>aundement of Lord or any such other lyke or break open any chamber or disorderlye molest or abuse any fellowe or officer of this howsse w<ex>i</ex>thin the p<ex>re</ex>cincte of the same vpon payne to be <del>vtterlye</del> expulsed <del>the</del> for the abuse or disorder against any fellow of this howsse &amp; of being put out of com<ex>m</ex>ons for abuse of any officer</ab>
+               <gap reason="omitted"/>
+            </div>
+      </body>
+   </text>
+   
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
          <head>
             <date from-iso="1587" to-iso="1588">1587-8</date>
-            <seg ana="docu:RLGIPB1" corresp="docu:IC1 pp. 110-11">RLGIPB1</seg></head>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 pp. 110-11">RLGIP1</seg></head>
                <div type="transcription">
-                  <head>f 192* <supplied>(23 January) (Pension orders)</supplied></head>
-                  <pb n="f192*" type="folio"/>
+                  
+                  <head>f 192 <date when-iso="1587-01-23"><supplied>(23 January) (Pension orders)</supplied></date></head>
+                  <pb n="f192" type="folio"/>
+                  <note type="editorial" n="endnote">The ‘comedy or shew’ (p 110, l.39) was presumably the lost Roman comedy called, for want of a formal title, ‘Sylla Dictator’: see Appendix 6.2. As many as three plays may have been performed over the year, as set out in Appendix 8.</note>
                   
                   <gap reason="omitted"/>
-                  <ab>Att this penc<hi rend="italic">i</hi>on there was allowed out of the stocke of the house, toward<hi rend="italic">es</hi> the charg<hi rend="italic">es</hi> of the comedy or shew sett forth by the gentlemen of the house this last christenmas xx<hi rend="sup">tie</hi> mark<hi rend="italic">es</hi> with this p<hi rend="italic">ro</hi>viso that ffrom henceforth noe allowanc, be made out of the stock of the house for such lyke occasion vnlesse yt ryste vpon some such charge, agreed vpon by the reders of the house before;⎡And⎤ this xx mark<hi rend="italic">es</hi> is to be payd out of the admyttance money.</ab>
-                  
+                  <ab>Att this penc<ex>i</ex>on there was allowed out of the stocke of the house, toward<ex>es</ex> the charg<ex>es</ex> of the comedy or shew sett forth by the gentlemen of the house this last christenmas xx<hi rend="superscript">tie</hi> mark<ex>es</ex> with this p<ex>ro</ex>viso that ffrom henceforth noe allowanc, be made out of the stock of the house for such lyke occasion vnlesse yt ryste vpon some such charge, agreed vpon by the reders of the house before;<add place="above">And</add> this xx mark<ex>es</ex> is to be payd out of the admyttance money.</ab>                  
                   <gap reason="omitted"/>
                </div>
       </body>
    </text>
    
-   <text ana="taxon:grays_inn" type="record" n="1589-90">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
          <head>
             <date from-iso="1589" to-iso="1590">1589-90</date>
-            <seg ana="docu:RLGIPB1" corresp="docu:IC1 p. 115">RLGIPB1</seg></head>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 115">RLGIP1</seg></head>
          <div type="transcription">
-            <div>
-            <head>f 198v* <supplied>(28 January) (Pension orders)</supplied></head>
-               <pb n="f198v*" type="folio"/>
-               
+            <head>f 198v <date when-iso="1589-01-28"><supplied>(28 January) (Pension orders)</supplied></date></head>
+               <pb n="f198v" type="folio"/>
+            <note type="editorial" n="endnote">The musicians recovered only £7 of the £8 plus 26s 8d that they normally received for their activities over Christmas.</note>               
                <gap reason="omitted"/>
-               
-               <ab>Att this there is allowed to the musitians vij li. for the losse of the last christenmas Lykewise for the banquett made by mr Trott mr Smyth &amp; mr Lamploughe v li. is allowed.</ab>
-               
-               <gap reason="omitted"/>
-            </div>
-         </div>
-         <div type="margin">
-            <ab>Musitic<hi rend="italic">i</hi>ons allowed</ab>
+            <note type="marginal">Musitic<ex>i</ex>ons allowed</note>
+            <ab>Att this<note type="foot">ie, at this pension</note> there is allowed to the musitians vij li. for the losse of the last christenmas Lykewise for the banquett made by <persName n="Nicholas Trott">mr Trott</persName> <persName n="... Smyth">mr Smyth</persName> &amp; <persName n="Thomas Lamphew">mr Lamploughe</persName> v li. is allowed.</ab>               
+               <gap reason="omitted"/>            
          </div>
       </body>
    </text>
-   
-   <text ana="taxon:grays_inn" type="record" n="1589-90">
-      <body xml:lang="eng">
-         <head>
-            <date from-iso="1589" to-iso="1590">1589-90</date>
-            <seg ana="docu:RLGIPB1" corresp="docu:IC1 p.109">RLGIPB1</seg></head>
-         <div type="transcription">
-            <div>
-               <head>f 187 <supplied>(26 November) (Pension orders)</supplied></head>
-               <pb n="f187" type="folio"/>
-               
-               <gap reason="omitted"/>
-               <ab>At this Pention it is ordered that from henceforthe no gentleman of this Socyetie nor any other p<hi rend="italic">er</hi>son by the appoyntment choyse or assent of any gentleman of this house shall in tyme of Cristmas or any other tyme take vpon hym or vse the Name place or com<hi rend="italic">m</hi>aundement of Lord or any such other lyke or break open any chamber or disorderlye molest or abuse any fellowe or officer of this howsse within the precincte of the same vpon payne to be [vtterlye] expulsed [the] for the abuse or disorder against any fellow of this howsse &amp; of being put out of commons for abuse of any officer</ab>
-               <gap reason="omitted"/>
-            </div>
-            <div type="margin">
-               <ab>Againest all disorder in ye Cristmas teime</ab>
-            </div>
-         </div>
-      </body>
-   </text>   
-   
-   <text ana="taxon:grays_inn" type="record" n="1594-5">
+       
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
          <head>
             <date from-iso="1594" to-iso="1595">1594-5</date>
-            <seg ana="docu:RLGIPB1" corresp="docu:IC1 pp. 121-4">RLGIPB1</seg></head>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 pp. 121-4">RLGIP1</seg></head>
          <div type="transcription">
             <div>
-               <head>f 215v* <supplied>(11 February) (Pension orders)</supplied></head>
-               <pb n="f215v*" type="folio"/>
-               
+               <head>f 215v <date when-iso="1595-02-11"><supplied>(11 February) (Pension orders)</supplied></date></head>
+               <pb n="f215v" type="folio"/>
+               <note type="editorial" n="endnote">The ‘sportes &amp; shewes this Shrovetyde<note type="foot">2–4 March 1594/5</note> at the Court before the Queenes Maiestie’ were doubtless related to The Masque of Proteus (see printed Inns of Court Volume 2, Appendix 6.1).</note>
+               <gap reason="omitted"/>              
+               <ab>It ys orderyd that <persName n="William Mills">Mr Will<ex>ia</ex>m Mills</persName> shalbe intreatyd to delyuer vnto <persName n="William Johnson">Mr Will<ex>ia</ex>m Iohnson</persName> &amp; <persName n="Edward Morris">Mr Edward Morrys</persName> the some of one hvndryd mark<ex>es</ex> to be layd out &amp; bestowyd vppon the Gentlemen for ther sport<ex>es</ex> &amp; shewes this Shrovetyde<note>8m/ Shrovetyde, shrovetyd, shrouetide: 2–4 March 1594/5</note> at the Court before the Queenes Ma<ex>ies</ex>tie, the same hvndryd m<ex>a</ex>rk<ex>es</ex> to be payd agayne to the sayd Mr Mills hys Exec<ex>utors</ex> or Assign<ex>es</ex> before thend of the next Term</ab>
+            </div>
                <gap reason="omitted"/>
-               
-               <ab>It ys orderyd that Mr Will<hi rend="italic">ia</hi>m Mills shalbe intreatyd to delyuer vnto Mr Will<hi rend="italic">ia</hi>m Iohnson &amp; Mr Edward Morrys the some of one hvndryd mark<hi rend="italic">es</hi>
-                  <pb />
-                  to be layd out &amp; bestowyd vppon the Gentlemen for ther sport<hi rend="italic">es</hi> &amp; shewes this Shrovetyde<note>8m/ Shrovetyde, shrovetyd, shrouetide: 2–4 March 1594/5</note> at the Court before the Queenes Ma<hi rend="italic">ies</hi>tie, the same hvndryd m<hi rend="italic">a</hi>rk<hi rend="italic">es</hi> to be payd agayne to the sayd Mr Mills hys Exec<hi rend="italic">utors</hi> or Assign<hi rend="italic">es</hi> before thend of the next Term</ab>
-               <gap reason="omitted"/>
-               
+            <div>
+                  <note type="marginal">a Tax for shewes &amp; sport<ex>es</ex> before her Ma<ex>iest</ex>ie at shrouetide</note>
                <table>
                   <row>
-                     <cell>At this pencion it is ordred y<hi rend="italic">a</hi>t every Reader of this house toward<hi rend="italic">es</hi> the charges of the shewes and desport<hi rend="italic">es</hi> before her Maiestie at shrovetyd last past shall pay tenne shilling<hi rend="italic">es</hi> &amp; eu<hi rend="italic">ery</hi>e Auncient vj s. viij d. &amp; eu<hi rend="italic">ery</hi>e vterbarester v s. euerye other gentleman of this societie iiij s. before thend of this terme whether they be in comons or lying in the house or About the same house &amp; this collection to contynew tyll thend of the next terme And the house toward<hi rend="italic">es</hi> the Aforsaid charges is to Allowe out of the publique Stock of the said house the some of</cell>
+                     <cell>At this pencion it is ordred y<ex>a</ex>t every Reader of this house toward<ex>es</ex> the charges of the shewes and desport<ex>es</ex> before her Maiestie at shrovetyd last past shall pay tenne shilling<ex>es</ex> &amp; eu<ex>ery</ex>e Auncient vj s. viij d. &amp; eu<ex>ery</ex>e vterbarester v s. euerye other gentleman of this societie iiij s. before thend of this terme whether they be in comons or lying in the house or About the same house &amp; this collection to contynew tyll thend of the next terme And the house toward<ex>es</ex> the Aforsaid charges is to Allowe out of the publique Stock of the said house the some of</cell>
                      <cell>xxx li.</cell>
                   </row>
                </table>
+            </div>
                <gap reason="omitted"/>
-            </div>
-            <div type="margin">
-               <div>
-                  <ab>Mr William Mills to Lend C markes</ab>
-               </div>
-            <div type="margin">
-               <ab>a Tax for shewes &amp; sport<hi rend="italic">es</hi> before her Ma<hi rend="italic">iest</hi>ie at shrouetide</ab>
-            </div>
-         </div>
-            <div type="transcription">
-               <div>
-                  <head>f216 <supplied>(21 May)</supplied></head>
-                  <pb n="f216" type="folio"/>
-                  
+            <div>
+                  <head>f216 <date when-iso="1595-05-21"><supplied>(21 May)</supplied></date></head>
+                  <pb n="f216" type="folio"/>                  
                   <gap reason="omitted"/>
-                  <ab>Att this penc<hi rend="italic">i</hi>on it is ordered that in Respect of the great charges at this tyme
+               <note type="marginal">All gent<ex>lemen</ex> out of the Commons warned to come into Com<ex>m</ex>on<ex>es</ex> &amp; beare share of all Com<ex>m</ex>on Charges<lb/>
+                  "Nota"</note>
+                  <ab>Att this penc<ex>i</ex>on it is ordered that in Respect of the great charges at this tyme
                      lying vpon the house and your Exceeding great necligences in discharging
                      of your dueties that all those whose names be subscribed being ordynariely
                      lyers out of comons &amp; all others of this societie being in or About London
                      shall before the last day of this instant moneth of may resort into comons &amp;
                      discharge suche money and other dueties as be due or Assessed vpon them
-                     &amp; eu<hi rend="italic">ery</hi>e of them by thorders of this house viz comons pencions vacations
-                     fire roulles vnto Mr Doctors intertaynment toward the charges of sport<hi rend="italic">es</hi>
-                     before her Ma<hi rend="italic">ies</hi>tie and all other dueties whatsoever otherwise from thensforth
+                     &amp; eu<ex>ery</ex>e of them by thorders of this house viz comons pencions vacations
+                     fire roulles vnto Mr Doctors intertaynment toward the charges of sport<ex>es</ex>
+                     before her Ma<ex>ies</ex>tie and all other dueties whatsoever otherwise from thensforth
                      to be out of comons and so to remayne if they reforme not themselves vntill
                      the last day of Iune next comynge and who so shall not before that tyme
-                     conforme himself therin to be then ^⎡c⎤sforth no longer fellowe of this societie
+                     conforme himself therin to be then ^<add place="above">c</add>sforth no longer fellowe of this societie
                      but ipso facto to be expelled the same</ab>
                   <table>
                      <row>
-                        <cell>Andrewes W<hi rend="italic">illiam</hi></cell>
-                        <cell>Dove</cell>
-                        <cell>Muskett</cell>
-                        <cell>Smyth Ia<hi rend="italic">mes</hi></cell>
+                        <cell><persName n="William Andrewes">Andrewes W<ex>illiam</ex></persName></cell>
+                        <cell><persName n="Thomas Dove">Dove</persName></cell>
+                        <cell><persName n="Simon? Muskett">Muskett</persName></cell>
+                        <cell><persName n="James Smith">Smyth Ia<ex>mes</ex></persName></cell>
                      </row>
                      <row>
-                        <cell>Abnett</cell>
-                        <cell>Escourt Iu<hi rend="italic">nior</hi></cell>
-                        <cell>Morris Ed<hi rend="italic">ward</hi></cell>
+                        <cell><persName n="William Abnett">Abnett</persName></cell>
+                        <cell><persName n="Edmund Escourt, the younger">Escourt Iu<ex>nior</ex></persName></cell>
+                        <cell><persName n="Edward Morris">Morris Ed<ex>ward</ex></persName></cell>
                         <cell>Sheaffeild</cell>
                      </row>
                      <row>
-                        <cell>Bowne</cell>
-                        <cell>Ellis Ed<hi rend="italic">ward</hi></cell>
-                        <cell>Marshall</cell>
-                        <cell>Spurling Ia<hi rend="italic">mes</hi></cell>
+                        <cell><persName n="Abraham Bowne">Bowne</persName></cell>
+                        <cell><persName n="Edward Ellis">Ellis Ed<ex>ward</ex></persName></cell>
+                        <cell><persName n="John Marshall">Marshall</persName></cell>
+                        <cell><persName n="James Spurling">Spurling Ia<ex>mes</ex></persName></cell>
                      </row>
                      <row>
-                        <cell>Bing G<hi rend="italic">eorge</hi></cell>
-                        <cell>Ellis W<hi rend="italic">illiam</hi></cell>
-                        <cell>Marshe</cell>
-                        <cell>Tyldesley T<hi rend="italic">homas</hi></cell>
+                        <cell><persName n="George Bing">Bing G<ex>eorge</ex></persName></cell>
+                        <cell><persName n="William Ellis">Ellis W<ex>illiam</ex></persName></cell>
+                        <cell><persName n="Thomas Marshe">Marshe</persName></cell>
+                        <cell><persName n="Thomas Tildesley">Tyldesley T<ex>homas</ex></persName></cell>
                      </row>
                      <row>
-                        <cell>Bold T<hi rend="italic">homas</hi></cell>
-                        <cell>Ellis B<hi rend="italic">ernard</hi></cell>
-                        <cell>Newton</cell>
-                        <cell>[Tylney Ro<hi rend="italic">bert]</hi></cell>
+                        <cell><persName n="Thomas Bold">Bold T<ex>homas</ex></persName></cell>
+                        <cell><persName n="Bernard Ellis">Ellis B<ex>ernard</ex></persName></cell>
+                        <cell><persName n="... Newton">Newton</persName></cell>
+                        <cell><persName n="Robert Tilney"><del>Tylney Ro<ex>bert</ex></del></persName></cell>
                      </row>
                      <row>
-                        <cell>Burton B<hi rend="italic">artyn</hi></cell>
-                        <cell>ffleetwod H<hi rend="italic"></hi></cell>
-                        <cell>Pepps T<hi rend="italic">homas</hi> sen<hi rend="italic">ior</hi></cell>
-                        <cell>Vaughan T<hi rend="italic">homas</hi></cell>
+                        <cell><persName n="Bartyn Burton">Burton B<ex>artyn</ex></persName></cell>
+                        <cell><persName n="Henry Fleetwood">ffleetwod H<ex></ex></persName></cell>
+                        <cell><persName n="Thomas Pepys, the elder">Pepps T<ex>homas</ex> sen<ex>ior</ex></persName></cell>
+                        <cell><persName n="Thomas Vaughan">Vaughan T<ex>homas</ex></persName></cell>
                      </row>
                      <row>
-                        <cell>Brickett</cell>
-                        <cell>°mort<hi rend="italic">uus</hi>° Goad</cell>
-                        <cell>Piggott Io<hi rend="italic">hn</hi></cell>
-                        <cell>Whetstone</cell>
+                        <cell><persName n="John Brickett">Brickett</persName></cell>
+                        <cell><handShift/>mort<ex>uus</ex> <persName n="Christopher Goad">Goad</persName><handShift/></cell>
+                        <cell><persName n="John Piggott">Piggott Io<ex>hn</ex></persName></cell>
+                        <cell><persName n="Francis Whetston">Whetstone</persName></cell>
                      </row>
                      <row>
-                        <cell>Brigg<hi rend="italic">es</hi></cell>
-                        <cell>Hendon</cell>
-                        <cell>Piggott Ra<hi rend="italic">lph</hi></cell>
-                        <cell>Williamson</cell>
+                        <cell><persName n="Oliver Briggs">Brigg<ex>es</ex></persName></cell>
+                        <cell><persName n="Edmund or Edward Hendon">Hendon</persName></cell>
+                        <cell><persName n="Ralph Piggott">Piggott Ra<ex>lph</ex></persName></cell>
+                        <cell><persName n="Richard Williamson">Williamson</persName></cell>
                      </row>
                      <row>
-                        <cell>°mort<hi rend="italic">uus</hi>° Conyers</cell>
-                        <cell>Haye Io<hi rend="italic">hn</hi></cell>
-                        <cell>Rothwell</cell>
+                        <cell><handShift/>mort<ex>uus</ex><handShift/> <persName n="John Conyers">Conyers</persName></cell>
+                        <cell><persName n="John Haye">Haye Io<ex>hn</ex></persName></cell>
+                        <cell><persName n="William Rothwell">Rothwell</persName></cell>
                         <cell></cell>
                      </row>
                      <row>
-                        <cell>Clark Io<hi rend="italic">hn</hi> sen<hi rend="italic">ior</hi></cell>
-                        <cell>Lamploughe</cell>
-                        <cell>Ritche</cell>
+                        <cell><persName n="John Clark, the elder">Clark Io<ex>hn</ex> sen<ex>ior</ex></persName></cell>
+                        <cell><persName n="Thomas Lamphew">Lamploughe</persName></cell>
+                        <cell><persName n="Robert Rich; check: may be Baron Rich">Ritche</persName></cell>
                         <cell></cell>
                      </row>
                      <row>
-                        <cell>Colwell</cell>
-                        <cell>Lacy</cell>
-                        <cell>Roult Ed<hi rend="italic">ward</hi></cell>
+                        <cell><persName n="Thomas Colwell">Colwell</persName></cell>
+                        <cell><persName n="Henry Lacy">Lacy</persName></cell>
+                        <cell><persName n="Edward Rolt">Roult Ed<ex>ward</ex></persName></cell>
                         <cell></cell>
                      </row>
                      <row>
-                        <cell>Castell Ro<hi rend="italic">bert</hi> sen<hi rend="italic">ior</hi></cell>
-                        <cell>Lancaster T<hi rend="italic">homas</hi></cell>
-                        <cell>Smalpage</cell>
+                        <cell><persName n="Robert Castell, the elder">Castell Ro<ex>bert</ex> sen<ex>ior</ex></persName></cell>
+                        <cell><persName n="Thomas Lancaster">Lancaster T<ex>homas</ex></persName></cell>
+                        <cell><persName n="T. Smalpage">Smalpage</persName></cell>
                         <cell></cell>
                      </row>
                      <row>
-                        <cell>Doughtie</cell>
-                        <cell>Leett Io<hi rend="italic">hn</hi></cell>
-                        <cell>Smith Io<hi rend="italic">hn</hi> Iuni<hi rend="italic">or</hi></cell>
+                        <cell><persName n="Thomas Doughtie">Doughtie</persName></cell>
+                        <cell><persName n="John Leett or Leeke">Leett Io<ex>hn</ex></persName></cell>
+                        <cell><persName n="John Smith, the younger">Smith Io<ex>hn</ex> Iuni<ex>or</ex></persName></cell>
                         <cell></cell>
                      </row>
                      <row>
-                        <cell>Davenport Hugo</cell>
+                        <cell><persName n="Hugo Davenport">Davenport Hugo</persName></cell>
                         <cell></cell>
                         <cell></cell>
                         <cell></cell>
                      </row>
-                  </table>
-                           
-               <div type="margin">
-                  <div>
-                     <ab>All gent<hi rend="italic">lemen</hi> out of the Commons warned to come into Com<hi rend="italic">m</hi>on<hi rend="italic">es</hi> &amp; beare share of all Com<hi rend="italic">m</hi>on Charges</ab>
-                  </div>
-                  <div>
-                     <ab>"Nota"</ab>
-                  </div>
-               </div>
-                  
-                  <gap reason="omitted"/>  
-               </div>
+                  </table>  
             </div>
-            
-            <div type="transcription">
-               <div>
-                  <head>f 216v <supplied>(1 July)</supplied></head>
-                  <pb n="f216v" type="folio"/>
-                  
-                  <gap reason="omitted"/>
-                  
+               <gap reason="omitted"/>              
+            <div>
+                  <head>f 216v <date when-iso="1595-07-01"><supplied>(1 July)</supplied></date></head>
+                  <pb n="f216v" type="folio"/>                  
+                  <gap reason="omitted"/>                  
                   <ab>At this pencion it is ordered that all these gentlemen whose names are
-                     subscribed shalbe out of this [hou] societie of this house for ther non payment
-                     of Comons and other dueties and for the breache of An order mayd in pencion the xxj<hi rend="sup">th</hi> of May Anno 37⎡o⎤ last past for the reformation of those and sundry disorders being publiquely set vp in the vsuall place of the said hall for y<hi rend="italic">a</hi>t purpose</ab>
-                  
+                     subscribed shalbe out of this <del>hou</del> societie of this house for ther non payment
+                     of Comons and other dueties and for the breache of An order mayd in pencion the xxj<hi rend="superscript">th</hi> of May Anno 37<add place="above">o</add> last past for the reformation of those and sundry disorders being publiquely set vp in the vsuall place of the said hall for y<ex>a</ex>t purpose</ab>
+<!-- fill in persNames here -->                  
                   <table>
                      <row>
-                        <cell>Andrewes W<hi rend="italic">illiam</hi></cell>
-                        <cell>Goad ºmort<hi rend="italic">uus</hi>º</cell>
+                        <cell>Andrewes W<ex>illiam</ex></cell>
+                        <cell>Goad <handShift/>mort<ex>uus</ex><handShift/></cell>
                         <cell>Stafferton</cell>
                      </row>
                      <row>
                         <cell>Abnett</cell>
-                        <cell>Haye Io<hi rend="italic">hn</hi></cell>
-                        <cell>Smyth Io<hi rend="italic">hn</hi> Iu<hi rend="italic">nior</hi></cell>
+                        <cell>Haye Io<ex>hn</ex></cell>
+                        <cell>Smyth Io<ex>hn</ex> Iu<ex>nior</ex></cell>
                      </row>
                      <row>
                         <cell>Bowne</cell>
-                        <cell>Lacy Ro<hi rend="italic">bert</hi></cell>
-                        <cell>[Sheaffeild]</cell>
+                        <cell>Lacy Ro<ex>bert</ex></cell>
+                        <cell><del>Sheaffeild</del></cell>
                      </row>                        
                      <row>
-                        <cell>ºrestoredº Brickett</cell>
-                        <cell>Lancaster T<hi rend="italic">homas</hi></cell>
-                        <cell>[Tyldesley T<hi rend="italic">homas</hi>]</cell>
+                        <cell><handShift/>restored<handShift/> Brickett</cell>
+                        <cell>Lancaster T<ex>homas</ex></cell>
+                        <cell>[Tyldesley T<ex>homas</ex>]</cell>
                      </row>
                      <row>
-                        <cell>Conyers ºmort<hi rend="italic">uus</hi>º</cell>
+                        <cell>Conyers <handShift/>mort<ex>uus</ex><handShift/></cell>
                         <cell>Leett</cell>
-                        <cell>[Tylney Ro<hi rend="italic">bert</hi>]</cell>
+                        <cell><del>Tylney Ro<ex>bert</ex></del></cell>
                      </row>
                      <row>
-                        <cell>Clark Io<hi rend="italic">hn</hi> senior</cell>
+                        <cell>Clark Io<ex>hn</ex> senior</cell>
                         <cell>Marshall</cell>
-                        <cell>Vaughan T<hi rend="italic">homas</hi></cell>
+                        <cell>Vaughan T<ex>homas</ex></cell>
                      </row>
                      <row>
                         <cell>Colwell</cell>
-                        <cell>Pepps T<hi rend="italic">homas</hi> sen<hi rend="italic">ior</hi></cell>
+                        <cell>Pepps T<ex>homas</ex> sen<ex>ior</ex></cell>
                         <cell>Whetston</cell>
                      </row>
                      <row>
-                        <cell>ºrestoredº Castell Ro<hi rend="italic">bert</hi> sen<hi rend="italic">ior</hi></cell>
-                        <cell>Piggott Ra<hi rend="italic">lph</hi></cell>
+                        <cell><handShift/>restored<handShift/> Castell Ro<ex>bert</ex> sen<ex>ior</ex></cell>
+                        <cell>Piggott Ra<ex>lph</ex></cell>
                         <cell>Williamson</cell>
                      </row>
                      <row>
-                        <cell>[⟨...⟩]</cell>
-                        <cell>Piggott Io<hi rend="italic">hn</hi></cell>
+                        <cell><del>⟨...⟩</del></cell>
+                        <cell>Piggott Io<ex>hn</ex></cell>
                         <cell></cell>
                      </row>
                      <row>
-                        <cell>[⟨...⟩]</cell>
+                        <cell><del>⟨...⟩</del></cell>
                         <cell>Ritche</cell>
                         <cell></cell>
                      </row>
                      <row>
                         <cell></cell>
-                        <cell>Rolt Ed<hi rend="italic">ward</hi></cell>
+                        <cell>Rolt Ed<ex>ward</ex></cell>
                         <cell></cell>
                      </row>
                   </table>
-                  
-                  <ab>At the same pencion it is ordered that Mr Lany<note>Mr Lany: treasurer</note> the recever of thadmittance money shall pay vnto Mr Mills out of the same Admittance Money the some of xl li. over and besid<hi rend="italic">es</hi> the four pound remaynyng in the hand<hi rend="italic">es</hi> of the said Mr Mills for the admission of Mr Evers into the fellowshippe of this house which money the said Mr Mills receaved of the said Mr Evers all which is toward the discharg of the some of A [C mark<hi rend="italic">es</hi>] C Mark<hi rend="italic">es</hi> disbursed by the said Mr Mills at the instance of the readers of this house towardes the disport<hi rend="italic">es</hi>
-                     ^⎡before her maiestie⎤ at shrovetyd last past<note>shrovetyd last past: 2–4 March 1594/5</note></ab>
-                  <gap reason="omitted"/>
-               </div>
-               
-               <div type="transcription">
-                  <div>
-                     <head>f 217 <supplied>(8 July)</supplied></head>
-                     <pb n="f217" type="folio"/>
-                     
+            <note type="marginal">Mr Mills ^<add place="above">lent</add> the House C marks</note>
+                  <ab>At the same pencion it is ordered that <persName n="?">Mr Lany</persName><note>Mr Lany: treasurer</note> the recever of thadmittance money shall pay vnto <persName n="?">Mr Mills</persName> out of the same Admittance Money the some of xl li. over and besid<ex>es</ex> the four pound remaynyng in the hand<ex>es</ex> of the said <persName n="?">Mr Mills</persName> for the admission of <persName n="?">Mr Evers</persName> into the fellowshippe of this house which money the said <persName n="?">Mr Mill</persName>s receaved of the said <persName n="?">Mr Evers</persName> all which is toward the discharg of the some of A <del>C mark<ex>es</ex></del> C Mark<ex>es</ex> disbursed by the said Mr Mills at the instance of the readers of this house towardes the disport<ex>es</ex> ^<add place="above">before <persName n="Queen Elizabeth I">her maiestie</persName></add> at shrovetyd last past<note>2–4 March 1594/5</note></ab>
+            </div>
+               <gap reason="omitted"/>
+            <div>
+               <head>f 217 <date when-iso="1595-07-08"><supplied>(8 July)</supplied></date></head>
+                     <pb n="f217" type="folio"/>                     
                      <gap reason="omitted"/>
-                     <ab>The remanant of the debt due to Mr Mills being xvij li. vj s. viij d. yt ys ordred that Mr Nightingale shall make payment of to the said Mr Mills out of the Admyttance money/</ab>
-                  </div>
-                  <div type="margin">
-                     <ab>The reman<hi rend="italic">ant</hi> of Mr Mills money Lent allowed</ab>
-                  </div>
-               </div>
-            </div>
+                     <note type="marginal">The reman<ex>ant</ex> of Mr Mills money Lent allowed</note>
+                     <ab>The remanant of the debt due to Mr Mills being xvij li. vj s. viij d. yt ys ordred that Mr Nightingale shall make payment of to the said Mr Mills out of the Admyttance money/</ab>                  
          </div>
-                  
+         </div>                  
       </body>
    </text>
    
-   <text ana="taxon:grays_inn" type="record" n="1589-90">
-      <body xml:lang="eng">
-         <head>
-            <date from-iso="1589" to-iso="1590">1589-90</date>
-            <seg ana="docu:RLGIPB1" corresp="docu:IC1 p. 115">RLGIPB1</seg></head>
-         <div type="transcription">
-            <div>
-            <head>f 198v* <supplied>(28 January) (Pension orders)</supplied></head>
-            <pb n="f198v*" type="folio"/>
-            
-            <gap reason="omitted"/>
-            
-            <ab>Att this there is allowed to the musitians vij li. for the losse of the last christenmas Lykewise for the banquett made by mr Trott mr Smyth &amp; mr Lamploughe v li. is allowed.</ab>
-            
-            <gap reason="omitted"/>
-         </div>
-         </div>
-         <div type="margin">
-            <ab>Musitic<hi rend="italic">i</hi>ons allowed</ab>
-         </div>
-      </body>
-   </text>
-
-   <text ana="taxon:grays_inn" type="record" n="1594-5">
-      <body xml:lang="eng">
-         <head>
-            <date from-iso="1594" to-iso="1595">1594-5</date>
-            <seg ana="docu:RLGIPB1" corresp="docu:IC1 pp. 121-2">RLGIPB1</seg></head>
-         <div type="transcription">
-            <div>
-               <head>f 215v* <supplied>(11 February) (Pension orders)</supplied></head>
-               <pb n="f215v*" type="folio"/>
-               
-               <gap reason="omitted"/>
-               
-               <ab>It ys orderyd that Mr Will<hi rend="italic">ia</hi>m Mills shalbe intreatyd to delyuer vnto Mr Will<hi rend="italic">ia</hi>m Iohnson &amp; Mr Edward Morrys the some of one hvndryd mark<hi rend="italic">es</hi></ab>
-               
-               <gap reason="omitted"/>
-            </div>
-         </div>
-         <div type="margin">
-            <div>
-               <ab>Mr William Mills to Lend C markes</ab>
-            </div>
-         </div>
-      </body>
-   </text>
-   
-   <text ana="taxon:grays_inn" type="record" n="1596-7">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
          <head>
             <date from-iso="1596" to-iso="1597">1596-7</date>
-            <seg ana="docu:RLGIPB1" corresp="docu:IC1 p. 127">RLGIPB1</seg></head>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 127">RLGIP1</seg></head>
          <div type="transcription">
-            <div>
-               <head>f 225* <supplied>(10 November) (Pension orders)</supplied></head>
-               
+               <head>f 225 <date when-iso="1596-11-10"><supplied>(10 November) (Pension orders)</supplied></date></head>
+            <pb n="f225" type="folio"/>
+            <note type="editorial" n="endnote">Could the reference to 34 Elizabeth (l.22) (1591–2) be a mistaken reference to 37 Elizabeth, 1594–5, and the events described in Gesta Grayorum (see Appendixes 1 and 6.1)?</note>
                <gap reason="omitted"/>
-               <ab>It is ordred that Mr Lany<note>Mr Lany: treasurer</note> shall pay vnto Mr Iohnson out of the admittance money the som<hi rend="italic">m</hi> of iij li. xvij s. &amp; x d. in full discharge of all the Charges remanent for the Christmas sport<hi rend="italic">es</hi> Anno 34° [Anno] Eliz<hi rend="italic">abethe</hi> Regine</ab>
-               <gap reason="omitted"/>
-            </div>
+               <ab>It is ordred that <persName n="John Lany">Mr Lany</persName><note>Mr Lany: treasurer</note> shall pay vnto <persName n="John Johnson">Mr Iohnson</persName> out of the admittance money the som<ex>m</ex> of iij li. xvij s. &amp; x d. in full discharge of all the Charges remanent for the Christmas sport<ex>es</ex> Anno 34<handShift/> <del>Anno</del> Eliz<ex>abethe</ex> Regine</ab>
+               <gap reason="omitted"/>            
          </div>
       </body>
    </text>
 
-   <text ana="taxon:grays_inn" type="record" n="1597-8">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
          <head>
             <date from-iso="1597" to-iso="1598">1597-8</date>
-            <seg ana="docu:RLGIPB1" corresp="docu:IC1 p. 128">RLGIPB1</seg></head>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 128">RLGIP1</seg></head>
          <div type="transcription">
             <head>f 234v <supplied>(4 July) (Pension orders)</supplied></head>
             
             <gap reason="omitted"/>
-            <ab>It is also ordered that the arerages of the Musicians money beinge vj li. xij s. shalbee likewise paide by M<hi rend="italic">aste</hi>r Tresorer if hee have money sufficient in his hand<hi rend="italic">es</hi></ab>
+            <ab>It is also ordered that the arerages of the Musicians money beinge vj li. xij s. shalbee likewise paide by M<ex>aste</ex>r Tresorer if hee have money sufficient in his hand<ex>es</ex></ab>
             <gap reason="omitted"/>
          </div>
       </body>
    </text>
 
-   <text ana="taxon:grays_inn" type="record" n="1599-1600">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
          <head>
             <date from-iso="1599" to-iso="1600">1599-1600</date>
-            <seg ana="docu:RLGIPB1" corresp="docu:IC1 p. 132">RLGIPB1</seg></head>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 132">RLGIP1</seg></head>
          <div type="transcription">   
-            <head>f 245 <supplied>(11 February) (Pension orders)</supplied></head>
-            <pb n="f245" type="folio"/>
-            
+            <head>f 245 <date when-iso="1600-02-11"><supplied>(11 February) (Pension orders)</supplied></date></head>
+            <pb n="f245" type="folio"/>            
             <gap reason="omitted"/>
-            <ab>Item there is allowed vnto the Music<hi rend="italic">i</hi>ons in respect they had entred into the Christmas service &amp; were discharged therefore ther is allowed vnto them vij li.</ab>
+            <ab>Item there is allowed vnto the Music<ex>i</ex>ons in respect they had entred into the Christmas service &amp; were discharged therefore ther is allowed vnto them vij li.</ab>
             <gap reason="omitted"/>
          </div>
       </body>
    </text>
    
-   <text ana="taxon:grays_inn" type="record" n="1600-1">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
          <head>
             <date from-iso="1600" to-iso="1601">1600-1</date>
-            <seg ana="docu:RLGIPB1" corresp="docu:IC1 p. 133">RLGIPB1</seg></head>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 133">RLGIP1</seg></head>
          <div type="transcription">
             <div>
-               <head>f 251 <supplied>(10 February) (Pension orders)</supplied></head>
-               <pb n="f251" type="folio"/>
-               
+               <head>f 251 <date when-iso="1601-02-10"><supplied>(10 February) (Pension orders)</supplied></date></head>
+               <pb n="f251" type="folio"/>               
                <gap reason="omitted"/>
                <ab>Att this Pencion yt is ordered that the Steward shall paye vnto the Musicians vij li. for their service this Last Christmas./</ab>
                <gap reason="omitted"/>
@@ -1004,253 +869,221 @@
       </body>
    </text>
 
-   <text ana="taxon:grays_inn" type="record" n="1603-4">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
          <head>
             <date from-iso="1603" to-iso="1604">1603-4</date>
-            <seg ana="docu:RLGIPB1" corresp="docu:IC1 p. 136">RLGIPB1</seg></head>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 136">RLGIP1</seg></head>
          <div type="transcription">
             <div>
-               <head>f 261v* <supplied>(7 February) (Pension orders)</supplied></head>
-               <pb n="f261v*" type="folio"/>
-               
-               <gap reason="omitted"/>
-               
-               <ab>Mr Michell &amp; the music<hi rend="italic">i</hi>ons are allowed xl s. for their attendance of Candlemas daie, albeit they then did not p<hi rend="italic">er</hi>forme their service in respect of the late infection</ab>
+               <head>f 261v <date when-iso="1604-02-07"><supplied>(7 February) (Pension orders)</supplied></date></head>
+               <pb n="f261v" type="folio"/>
+               <note type="editorial" n="endnote">Mr Michell was ‘the Musition of the howse’ at Gray’s Inn (see printed Inns of Court, volume 1, p 190, l.26).</note><!-- this note is no longer necessary, since John Mitchell is tagged in both records -->               
+               <gap reason="omitted"/>               
+               <ab><persName n="John Mitchell" cert="medium" resp="#AHN1">Mr Michell</persName> &amp; the music<ex>i</ex>ons are allowed xl s. for their attendance of Candlemas daie, albeit they then did not p<ex>er</ex>forme their service in respect of the late infection</ab>
             </div>
          </div>
       </body>
    </text>
    
-   <text ana="taxon:grays_inn" type="record" n="1606-7">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
             <head>
                <date from-iso="1606" to-iso="1607">1606-7</date>
-               <seg ana="docu:RLGIPB1" corresp="docu:IC1 p. 138">RLGIPB1</seg></head>
+               <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 138">RLGIP1</seg></head>
             <div type="transcription">
-               <div>
-                  <head>f 276v <supplied>(4 February) (Pension orders)</supplied></head>
-               <pb n="f276v" type="folio"/>
-               
-               <gap reason="omitted"/>
-                  
-                 <ab>It is ordred that the xl s. w<hi rend="italic">hi</hi>ch the Steward is to paie to the Music<hi rend="italic">i</hi>ons shalbee made eight pownd<hi rend="italic">es</hi> to bee payde by m<hi rend="italic">aste</hi>r Treasorer</ab>
-               <gap reason="omitted"/>
-               </div>
+                  <head>f 276v <date when-iso="1607-02-04"><supplied>(4 February) (Pension orders)</supplied></date></head>
+               <pb n="f276v" type="folio"/>              
+               <gap reason="omitted"/>                  
+                 <ab>It is ordred that the xl s. w<ex>hi</ex>ch the Steward is to paie to the Music<ex>i</ex>ons shalbee made eight pownd<ex>es</ex> to bee payde by m<ex>aste</ex>r Treasorer</ab>
+               <gap reason="omitted"/>               
             </div>
          </body>
    </text>
    
-   <text ana="taxon:grays_inn" type="record" n="1607-8">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
          <head>
             <date from-iso="1607" to-iso="1608">1607-8</date>
-            <seg ana="docu:RLGIPB1" corresp="docu:IC1 p. 140">RLGIPB1</seg></head>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 140">RLGIP1</seg></head>
          <div type="transcription">
-            <div>
-               <head>f 278v <supplied>(27 November) (Pension orders)</supplied></head>
-               <pb n="f278v" type="folio"/>
-               
+               <head>f 278v <date when-iso="1608-11-27"><supplied>(27 November) (Pension orders)</supplied></date></head>
+               <pb n="f278v" type="folio"/>               
                <gap reason="omitted"/>
-               <ab>Att this penc<hi rend="italic">i</hi>on the Music<hi rend="italic">i</hi>ons are allowed to haue 4 li. for their wages from Alhallowtide vntill Christmas to bee paid by the Treasorer</ab>
-               <gap reason="omitted"/>
-            </div>
+               <ab>Att this penc<ex>i</ex>on the Music<ex>i</ex>ons are allowed to haue 4 li. for their wages from Alhallowtide vntill Christmas to bee paid by the Treasorer</ab>
+               <gap reason="omitted"/>            
          </div>
       </body>
    </text>
    
-   <text ana="taxon:grays_inn" type="record" n="1609-10">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
          <head>
             <date from-iso="1609" to-iso="1610">1609-10</date>
-            <seg ana="docu:RLGIPB1" corresp="docu:IC1 p. 144">RLGIPB1</seg></head>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 144">RLGIP1</seg></head>
          <div type="transcription">
-            <div>
-               <head>f 287 <supplied>(24 January) (Pension orders)</supplied></head>
-               <pb n="f287" type="folio"/>
-               
+               <head>f 287 <date when-iso="1610-01-24"><supplied>(24 January) (Pension orders)</supplied></date></head>
+               <pb n="f287" type="folio"/>   
+               <note type="marginal">for mussick</note>
                <gap reason="omitted"/>
                <ab>Att this pencion 3 li. 6 s. 8 d. is allowed to the musitions in regard they did not serve here att hallowtide nor any tyme els the last terme by reason of the sicknes and were dischardged of their service here this last Christmas</ab>
-            </div>
-            <div type="margin">
-               <ab>for mussick</ab>
-            </div>
          </div>
       </body>
    </text>
    
-   <text ana="taxon:grays_inn" type="record" n="1612-13">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
          <head>
             <date from-iso="1612" to-iso="1613">1612-13</date>
-            <seg ana="docu:RLGIPB1" corresp="docu:IC1 p. 148-51">RLGIPB1</seg></head>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 148-51">RLGIP1</seg></head>
          <div type="transcription">
             <div>
-               <head>f 298* <supplied>(27 January) (Pension orders)</supplied></head>
-               <pb n="f298*" type="folio"/>
-               
+               <head>f 298 <date when-iso="1613-01-27"><supplied>(27 January) (Pension orders)</supplied></date></head>
+               <pb n="f298" type="folio"/>
+               <note type="editorial" n="endnote">The ‘maske’ (p 148, l.11), Beaumont’s <hi rend="italic">Masque of the Inner Temple and Gray’s Inn</hi>, was performed in the Banqueting House, Whitehall, on 20 February 1612/13, following the marriage of Princess Elizabeth and the count palatine. The current order seems designed to guarantee that Gray’s Inn will raise funds at the same rate as its partner, the Inner Temple.<lb/>
+                  The ‘maskinge apparrel’ (p 149, l.37) featured in this and subsequent entries was worn by Inns of Court gentlemen in their equestrian procession or ‘riding’: see Introduction, p xxvi–xxvii.</note>     
+               <note type="marginal">An assesse toward a Maske.</note>
                <gap reason="omitted"/>
-               <ab>At this Penc<hi rend="italic">i</hi>on the Readers ar prised every man 4 li. the Ancient<hi rend="italic">es</hi> and such as ar at this tyme to be Called ancient<hi rend="italic">es</hi> at 2 li. 10 s. the baristers at 40 s. the Studient<hi rend="italic">es</hi> at 20 s. towardes the maske out of w<hi rend="italic">hi</hi>ch monye [so much] so much to be Collected as the Inner Temple doth alowe</ab>
+               <div>
+               <ab>At this Penc<ex>i</ex>on the Readers ar prised every man 4 li. the Ancient<ex>es</ex> and such as ar at this tyme to be Called ancient<ex>es</ex> at 2 li. 10 s. the baristers at 40 s. the Studient<ex>es</ex> at 20 s. towardes the maske out of w<ex>hi</ex>ch monye [so much] so much to be Collected as the <orgName n="Inner Temple">Inner Temple</orgName> doth alowe</ab>  
+               <ab><persName n="William Gerrard">Mr Will<ex>ia</ex>m Gerrad</persName> electted Treasorer ffor the Maske and such thinges to be bought as <persName n="Francis Bacon">M<ex>ast</ex>er Solicitor</persName><note type="foot">Francis Bacon</note> shall thinke ffitt and the Prises to be concidered of by the overseers appointed all Prises as they shall alowe of to be paid by <persName n="Francis Bacon">M<ex>ast</ex>er Solicitors</persName> warrente</ab>
+               </div>
                
-               <ab>Mr Will<hi rend="italic">ia</hi>m Gerrad electted Treasorer ffor the Maske and such thinges to be bought as M<hi rend="italic">ast</hi>er Solicitor<note>Master Solicitor: Francis Bacon</note> shall thinke ffitt and the Prises to be concidered of by the overseers appointed all Prises as they shall alowe of to be paid by M<hi rend="italic">ast</hi>er Solicitors warrente</ab>
-            <div type="margin">
-               <ab>An assesse toward a Maske.</ab>
-            </div>
-            </div>
-            <div>
-               <head>f 298v* <supplied>(4 February)</supplied></head>
-               <pb n="f298v*" type="folio"/>
-               
+               <div>
+               <head>f 298v <date when-iso="1613-02-04"><supplied>(4 February)</supplied></date></head>
+               <pb n="f298v" type="folio"/>                            
                <gap reason="omitted"/>
-               <ab>At this Penc<hi rend="italic">i</hi>on it is Ordered that every gent<hi rend="italic">leman</hi> of this societie taxed to the Charge of the Kings Maske having a Chamber in the howse shall not by munday next<note>munday next: 8 February 1612/13</note> pay his taxac<hi rend="italic">i</hi>on his Chamber is ipso ffacto fforffeated &amp; to be sesed to the vse of the howse and yf any man taxed havinge noe Chamber shall not pay his taxac<hi rend="italic">i</hi>on as affores<hi rend="italic">ai</hi>d is ipso ffacto expulsed the howse</ab>
-               
-               <ab>ffurther it is Ordered that if the taxe alredie made for the maske will not be sufficient to discharge the [howse] same then it is nowe Ordered that at the next Penc<hi rend="italic">i</hi>on ffurther Order shalbe taken for Leviinge of so much as shalbe suffitient beffore beffor<note>beffore beffor: dittography</note> saterday com senight<note>aterday com senight: 20 February 1612/13</note> and a Penc<hi rend="italic">i</hi>on to be holden one munday next<note>munday next: 15 February 1612/13</note> in that behalffe</ab>
-            <div type="margin">
-               <ab>eu<hi rend="italic">er</hi>y gent<hi rend="italic">leman</hi> to pay his taxacion to the maske, or to loose chamber or expelled.</ab>
-            </div>
-         </div>
+                  <note type="marginal">eu<ex>er</ex>y gent<ex>leman</ex> to pay his taxacion to the maske, or to loose chamber or expelled.</note>
+               <ab>At this Penc<ex>i</ex>on it is Ordered that every gent<ex>leman</ex> of this societie taxed to the Charge of the Kings Maske having a Chamber in the howse shall not by munday next<note>munday next: 8 February 1612/13</note> pay his taxac<ex>i</ex>on his Chamber is ipso ffacto fforffeated &amp; to be sesed to the vse of the howse and yf any man taxed havinge noe Chamber shall not pay his taxac<ex>i</ex>on as affores<ex>ai</ex>d is ipso ffacto expulsed the howse</ab>               
+               <ab>ffurther it is Ordered that if the taxe alredie made for the maske will not be sufficient to discharge the [howse] same then it is nowe Ordered that at the next Penc<ex>i</ex>on ffurther Order shalbe taken for Leviinge of so much as shalbe suffitient beffore beffor<note>beffore beffor: dittography</note> saterday com senight<note>aterday com senight: 20 February 1612/13</note> and a Penc<ex>i</ex>on to be holden one munday next<note>munday next: 15 February 1612/13</note> in that behalffe</ab>
+               </div>
          <div>
-            <head>f 299* <supplied>(8 February)</supplied></head>
-            <pb n="f299*" type="folio"/>
-            
+            <head>f 299 <date when-iso="1613-02-08"><supplied>(8 February)</supplied></date></head>
+            <pb n="f299" type="folio"/>            
             <gap reason="omitted"/>
-            <ab>It is [⟨...⟩] agreed at this Penc<hi rend="italic">i</hi>on that it shalbe concidered what gent<hi rend="italic">lemen</hi> are fitt to Contribute voluntary toward<hi rend="italic">es</hi> the mask besid<hi rend="italic">es</hi> the taxe allredi sett &amp; then Collector<hi rend="italic">es</hi> to be assined ffor the gatheringe of the voluntary Contribuc<hi rend="italic">ion</hi></ab>
-         </div>
-            <div type="margin">
-               <ab>Voluntary Contribution toward the maske beside the Tax.</ab>
-            </div>
+            <note type="marginal">Voluntary Contribution toward the maske beside the Tax.</note>
+            <ab>It is <del><damage/></del> agreed at this Penc<ex>i</ex>on that it shalbe concidered what gent<ex>lemen</ex> are fitt to Contribute voluntary toward<ex>es</ex> the mask besid<ex>es</ex> the taxe allredi sett &amp; then Collector<ex>es</ex> to be assined ffor the gatheringe of the voluntary Contribuc<ex>ion</ex></ab>
          </div>
          
          <div>
-            <head>f 299v* <supplied>(2 March) (Cupboard order)</supplied></head>
-            <pb n="f299v*" type="folio"/>
+            <head>f 299v <date when-iso="1613-03-02"><supplied>(2 March) (Cupboard order)</supplied></date></head>
+            <pb n="f299v" type="folio"/>
               
               <gap reason="omitted"/>
-               <ab>Wher it was Ordered that wheras Mr Hansbie hath lent 40 li. &amp; Mr Wallor &amp; Mr Mosley ether of them 30 li. for the generall vse of Graies Inne toward<hi rend="italic">es</hi> the discharginge of the maske that every of these gent<hi rend="italic">lemen</hi> shall have ther severall somes of money repaid them againe by the howse at the end of the terme next ensuinge</ab>
-            <ab>And it is ffurther Ordered that if any gent<hi rend="italic">lemen</hi> shall herafter Lend any money for this purpose that he or thay shall have ther money repaid them againe by the howse at the end of the next terme as affores<hi rend="italic">ai</hi>d</ab>
-            <gap reason="omitted"/>
+               <ab>Wher it was Ordered that wheras <persName n="Ralph Hansbie">Mr Hansbie</persName> hath lent 40 li. &amp; <persName n="... Waller">Mr Wallor</persName> &amp; <persName n="Edward Mosely">Mr Mosley</persName> ether of them 30 li. for the generall vse of <placeName n="Gray's Inn as location">Graies Inne</placeName> toward<ex>es</ex> the discharginge of the maske that every of these gent<ex>lemen</ex> shall have ther severall somes of money repaid them againe by the howse at the end of the terme next ensuinge</ab>
+            <ab>And it is ffurther Ordered that if any gent<ex>lemen</ex> shall herafter Lend any money for this purpose that he or thay shall have ther money repaid them againe by the howse at the end of the next terme as affores<ex>ai</ex>d</ab>
          </div>
+            <gap reason="omitted"/>
          <div>
-            <head><supplied>(8 May) (Pension orders)</supplied></head>
+            <head><date when-iso="1613-05-08"><supplied>(8 May) (Pension orders)</supplied></date></head>
             <ab>
-               It is Ordered at this Penc<hi rend="italic">i</hi>on that they w<hi rend="italic">hi</hi>ch ^⎡have⎤ not paid their money
-               seaced vppo<hi rend="italic">n</hi> them towardes the Kinges Maske accordinge to the fformer Order shall pay the same beffore the assention day next<note>the assention day next: 13 May 1613</note> vnto the severalie Collectors therof, vnder Losse of ther Chambers that have Chambers in the howse whether they be howse Chambers or Lease Chambers and vnder paine of Expulsion of such out of the Howse as have noe Chambers, Neverthelesse such as nether are nor shalbe in Commons nor in nor neer the towne this terme nor any p<hi rend="italic">a</hi>rt therof shall have Libertie to pay their s<hi rend="italic">ai</hi>d moneis vntill the second saterday in the next terme<note>the second ... next terme: 26 June 1613</note> vppo<hi rend="italic">n</hi> the penalties affores<hi rend="italic">ai</hi>d</ab>
+               It is Ordered at this Penc<ex>i</ex>on that they w<ex>hi</ex>ch ^<add place="above">have</add> not paid their money
+               seaced vppo<ex>n</ex> them towardes the Kinges Maske accordinge to the fformer Order shall pay the same beffore the assention day next<note type="foot">13 May 1613</note> vnto the severalie Collectors therof, vnder Losse of ther Chambers that have Chambers in the howse whether they be howse Chambers or Lease Chambers and vnder paine of Expulsion of such out of the Howse as have noe Chambers, Neverthelesse such as nether are nor shalbe in Commons nor in nor neer the towne this terme nor any p<ex>a</ex>rt therof shall have Libertie to pay their s<ex>ai</ex>d moneis vntill the second saterday in the next terme<note type="foot">26 June 1613</note> vppo<ex>n</ex> the penalties affores<ex>ai</ex>d</ab>
          </div>
          <div>
-            <head>f300 <supplied>(12May)</supplied></head>
-            <pb n="f300" type="folio"/>
-            
+            <head>f300 <date when-iso="1613-05-12"><supplied>(12 May)</supplied></date></head>
+            <pb n="f300" type="folio"/>            
             <gap reason="omitted"/>
-            <ab>At this Penc<hi rend="italic">i</hi>on it is Ordered that Mr Barker one of the Readers of this howse shalbe ffreed and discharged from all taxes &amp; paiment<hi rend="italic">es</hi> heerafter to be made for and towardes the maske &amp; solemnities in Regard that he hath willingly paid iiij li. accordinge to the Levie mad the Last terme when he was absent</ab>
+            <ab>At this Penc<ex>i</ex>on it is Ordered that <persName n="Samuel Barker">Mr Barker</persName> one of the Readers of this howse shalbe ffreed and discharged from all taxes &amp; paiment<ex>es</ex> heerafter to be made for and towardes the maske &amp; solemnities in Regard that he hath willingly paid iiij li. accordinge to the Levie mad the Last terme when he was absent</ab>
             <gap reason="omitted"/>
          </div>
          <div>
-            <head>ff 301–1v* <supplied>(18 May) (Cupboard order)</supplied></head>
-            <pb n="ff301-1v*" type="folio"/>
-            
+            <head>ff 301–1v <date when-iso="1613-05-18"><supplied>(18 May) (Cupboard order)</supplied></date></head>
+            <pb n="ff301-1v" type="folio"/>       
             <gap reason="omitted"/>
             <ab>
-               It was Ordered that the gent<hi rend="italic">lemen</hi> Late Actors in the maske at the Court shall bring in all ther maskinge apparrel w<hi rend="italic">hi</hi>ch they had of the Howse Charge at or beffore the first [next] pencion in the next terme or els the value therof as the Readers then shall thinke ffitt</ab>
-            <gap reason="omitted"/>
+               It was Ordered that the gent<ex>lemen</ex> Late Actors in the maske at the Court shall bring in all ther maskinge apparrel w<ex>hi</ex>ch they had of the Howse Charge at or beffore the first <del>next</del> pencion in the next terme or els the value therof as the Readers then shall thinke ffitt</ab>
          </div>
+            <gap reason="omitted"/>
+               
+         <div>
+            <head><date when-iso="1613-06-16"><supplied>(16 June) (Pension orders)</supplied></date></head>
+            <ab>
+               It is ordered at this Pencion that every one of the Revelors in the Late Maske at the Court shall bringe in ther masking apparrell and deliver it to <persName n="Francis Eure">S<ex>ir</ex> ffran<ex>cis</ex> Evre</persName> at his Chamber in <placeName n="Gray's Inn as location">Graies Inne</placeName> one Saterdaye next<note type="foot">19 June 1613</note> or before or els euery one of the s<ex>ai</ex>d Revelors makinge defavlt therof shall pay vnto the same <persName n="Francis Eure">S<ex>ir</ex> ffran<ex>cis</ex> Evre</persName> at his Chamber affores<ex>ai</ex>d the full some xxx li. one Munday next<note type="foot">21 June 1613</note> before eleven of the Clocke in the forenone to the vse of the Societie of <orgName n="Gray's Inn as organization">Graies Inne</orgName> in Leue of the same apparrell or els Incure such censure as may ensue.</ab>
+            
+            <ab>It is also Ordered at this Penc<ex>i</ex>on that wheras by Order mad in Penc<ex>i</ex>on the eight day of Maye 1613 it was Ordained that every gent<ex>leman</ex> of this Societie then being in Or nere the towne should paye his taxac<ex>i</ex>on imposed vppon him by assenc<ex>i</ex>on day then next affter w<ex>hi</ex>ch is now past<note type="foot">13 June 1613</note> and also that every gent<ex>leman</ex> of this Societie then not in nor nere the Towne so as he by <del><damage/></del> intendment Could not have convenient notice in so short a tyme to accomplish the Order affores<ex>ai</ex>d should Likewyse p<ex>er</ex>forme the same by the second saterday in Trinitie terme then next <del><damage/></del> insuinge<note type="foot">26 June 1613</note> w<ex>hi</ex>ch is Likewyse Now past Therfore in respect defavlt is made by divers gent<ex>lemen</ex> of this Societie as well then p<ex>re</ex>sent as absent it is Now Ordered at this Penc<ex>i</ex>on that the Penc<ex>i</ex>oner doe ffourthwith execut the s<ex>ai</ex>d Order ffor Seisinge of Chambers both vppo<ex>n</ex> such as were then absent by reason ther tyme given them is now expired &amp; also vppo<ex>n</ex> those that were then p<ex>re</ex>sent having not paid ther seu<ex>er</ex>all taxac<ex>i</ex>ons according to ther severall rankes and that without further pr<ex>o</ex>crastinac<ex>i</ex>on or delay</ab>
+         </div>
+            <gap reason="omitted"/>
          
          <div>
-            <head><supplied>(16 June) (Pension orders)</supplied></head>
-            <ab>
-               It is ordered at this Pencion that every one of the Revelors in the Late Maske at the Court shall bringe in ther masking apparrell and deliver it to S<hi rend="italic">ir</hi> ffran<hi rend="italic">cis</hi> Evre at his Chamber in Graies Inne one Saterdaye next<note>Saterdaye next: 19 June 1613</note> or before or els euery one of the s<hi rend="italic">ai</hi>d Revelors makinge defavlt therof shall pay vnto the same S<hi rend="italic">ir</hi> ffran<hi rend="italic">cis</hi> Evre at his Chamber affores<hi rend="italic">ai</hi>d the full some xxx li. one Munday next<note>Munday next: 21 June 1613</note> before eleven of the Clocke in the forenone to the vse of the Societie of Graies Inne in Leue of the same apparrell or els Incure such censure as may ensue. |</ab>
-            
-            <ab>It is also Ordered at this Penc<hi rend="italic">i</hi>on that wheras by Order mad in Penc<hi rend="italic">i</hi>on the eight day of Maye 1613 it was Ordained that every gent<hi rend="italic">leman</hi> of this Societie then being in Or nere the towne should paye his taxac<hi rend="italic">i</hi>on imposed vppon him by assenc<hi rend="italic">i</hi>on day then next affter w<hi rend="italic">hi</hi>ch is now past<note>assencion ... past: 13 June 1613</note> and also that every gent<hi rend="italic">leman</hi> of this Societie then not in nor nere the Towne so as he by [⟨.⟩] intendment Could not have convenient notice in so short a tyme to accomplish the Order affores<hi rend="italic">ai</hi>d should Likewyse p<hi rend="italic">er</hi>forme the same by the second saterday in Trinitie terme then next [⟨.⟩] insuinge<note>the second ... insuinge: 26 June 1613</note> w<hi rend="italic">hi</hi>ch is Likewyse Now past Therfore in respect defavlt is made by divers gent<hi rend="italic">lemen</hi> of this Societie as well then p<hi rend="italic">re</hi>sent as absent it is Now Ordered at this Penc<hi rend="italic">i</hi>on that the Penc<hi rend="italic">i</hi>oner doe ffourthwith execut the s<hi rend="italic">ai</hi>d Order ffor Seisinge of Chambers both vppo<hi rend="italic">n</hi> such as were then absent by reason ther tyme given them is now expired &amp; also vppo<hi rend="italic">n</hi> those that were then p<hi rend="italic">re</hi>sent having not paid ther seu<hi rend="italic">er</hi>all taxac<hi rend="italic">i</hi>ons according to ther severall rankes and that without further pr<hi rend="italic">o</hi>crastinac<hi rend="italic">i</hi>on or delay</ab>
-            <gap reason="omitted"/>
-         </div>
-         
-         <div>
-            <head>f 302* <supplied>(22 June)</supplied></head>
-            <pb n="f302*" type="folio"/>
+            <head>f 302 <date when-iso="1613-06-22"><supplied>(22 June)</supplied></date></head>
+            <pb n="f302" type="folio"/>
             
             <gap reason="omitted"/>
-            <ab>At this Penc<hi rend="italic">i</hi>on it is allso Ordered that wheras before the Maske Lateley performed at the Court before his Ma<hi rend="italic">ies</hi>tie yt was by the Order of this Howse as by the Orders of all the other Howses of Court amongst them for themselves Ordered that the Maskers should affter the p<hi rend="italic">er</hi>formance of that s<hi rend="italic">er</hi>vice bring in ther Maskings suit<hi rend="italic">es</hi> wherby some p<hi rend="italic">ro</hi>fitt might be made of them to ease the great Charge w<hi rend="italic">hi</hi>ch was expended and in great p<hi rend="italic">ar</hi>te resteth yet vnpaid And wheras the Maskers of the Howse fforbearinge to bringe them in according to the s<hi rend="italic">ai</hi>d Order yt was affter the severall answeres of some of them recorded in Open pencion againe Ordered that they should bringe them in by a Certaine day of this terme or ells every one of them makinge default to aunswere Thirtie pound<hi rend="italic">es</hi> in Leuie therof every of ther s<hi rend="italic">ai</hi>d sut<hi rend="italic">es</hi> having Cost the Howse above
-               <pb />
-               a Hundred Markes w<hi rend="italic">hi</hi>ch they have Contemptuously neglectted and refused to p<hi rend="italic">er</hi>forme, Albeit none of them did Contribute any thing to the s<hi rend="italic">ai</hi>d Charge as also were alowed all other ther necessarie Charg<hi rend="italic">es</hi> expended therabout<hi rend="italic">es</hi> wherfore for as much as It is not thought ffitt that any gent<hi rend="italic">lemen</hi> of this Howse should make profitt of the howse in that manor in p<hi rend="italic">ar</hi>ticuler as also that if the s<hi rend="italic">ai</hi>d Maskinge apparell should not be brought in accordinge to the Order ther must be a generall newe taxacion of the hole howse to paie the severall debtes behind &amp; vnpaide</ab>
-            <ab>It is therfore ordered that everye of the said severale maskers nowe beinge in towne shall for ther said Contempt<hi rend="italic">es</hi> be presently Cast into Com<hi rend="italic">m</hi>ons and put out againe and so to Continewe accordinge to the Order of the Howse vntill they ^⎡have⎤ p<hi rend="italic">er</hi>formed the s<hi rend="italic">ai</hi>d Last Order And that such of them as ^⎡ar⎤now owt of Towne shall p<hi rend="italic">er</hi>forme the same Order at or before Hollamas next at w<hi rend="italic">hi</hi>ch tyme such of them as shalbe found failinge in the p<hi rend="italic">er</hi>formance of the s<hi rend="italic">ai</hi>d Order that is to say aswell those that are Cast into Com<hi rend="italic">m</hi>ons and out againe to the others, are then fourthw<hi rend="italic">i</hi>th expelled this societie for ther willfull Contempt<hi rend="italic">es</hi> of the governmente of this Howse and ther Inconciderate dealinge and the gen<hi rend="italic">er</hi>all wronges to every member therof</ab>
-         </div>
-         <div type="margin">
-            <ab>for Bringing in the Masking suits.</ab>
-         </div>
-         <div type="margin">
-            <ab>or pay 30 li. a peece w<hi rend="italic">hi</hi>ch cost the house C markes a peece.</ab>
-         </div>
-         <div type="margin">
-            <ab>The Maskers refused, although none of them paid toward the tax, &amp; had all theire other charges borne necessarie therabout<hi rend="italic">es</hi>.</ab>
-         </div>
-         <div type="margin">
-            <ab>therfore put out of Commons &amp;c./</ab>
-         </div>
-            
+            <note type="marginal">for Bringing in the Masking suits.</note>
+            <ab>At this Penc<ex>i</ex>on it is allso Ordered that wheras before the Maske Lateley performed at the Court before <persName n="King James I">his Ma<ex>ies</ex>tie</persName> yt was by the Order of this Howse as by the Orders of all the other Howses of Court amongst them for themselves Ordered that the Maskers should affter the p<ex>er</ex>formance of that s<ex>er</ex>vice bring in ther Maskings suit<ex>es</ex> wherby some p<ex>ro</ex>fitt might be made of them to ease the great Charge w<ex>hi</ex>ch was expended and in great p<ex>ar</ex>te resteth yet vnpaid And wheras the Maskers of the Howse fforbearinge to bringe them in according to the s<ex>ai</ex>d Order yt was affter the severall answeres of some of them recorded in 
+               <note type="marginal">or pay 30 li. a peece w<ex>hi</ex>ch cost the house C markes a peece.</note>
+               Open pencion againe Ordered that they should bringe them in by a Certaine day of this terme or ells every one of them makinge default to aunswere Thirtie pound<ex>es</ex> in Leuie therof every of ther s<ex>ai</ex>d sut<ex>es</ex> having Cost the Howse above a Hundred Markes w<ex>hi</ex>ch they have Contemptuously neglectted and refused to p<ex>er</ex>forme, Albeit none of them did Contribute any thing to the s<ex>ai</ex>d Charge as also were alowed all other ther necessarie Charg<ex>es</ex> expended therabout<ex>es</ex> wherfore for as much as It is not thought ffitt that any gent<ex>lemen</ex> of this Howse should make profitt of the howse in that manor in p<ex>ar</ex>ticuler as also that if the s<ex>ai</ex>d Maskinge apparell should not be brought in accordinge to the Order ther must be a generall newe taxacion of the hole howse to paie the severall debtes behind &amp; vnpaide</ab>
+            <note type="marginal">The Maskers refused, although none of them paid toward the tax, &amp; had all theire other charges borne necessarie therabout<ex>es</ex>. therfore put out of Commons &amp;c./</note>
+            <ab>It is therfore ordered that everye of the said severale maskers nowe beinge in towne shall for ther said Contempt<ex>es</ex> be presently Cast into Com<ex>m</ex>ons and put out againe and so to Continewe accordinge to the Order of the Howse vntill they ^<add place="above">have</add> p<ex>er</ex>formed the s<ex>ai</ex>d Last Order And that such of them as ^<add place="above">ar</add> now owt of Towne shall p<ex>er</ex>forme the same Order at or before Hollamas next at w<ex>hi</ex>ch tyme such of them as shalbe found failinge in the p<ex>er</ex>formance of the s<ex>ai</ex>d Order that is to say aswell those that are Cast into Com<ex>m</ex>ons and out againe to the others, are then fourthw<ex>i</ex>th expelled this societie for ther willfull Contempt<ex>es</ex> of the governmente of this Howse and ther Inconciderate dealinge and the gen<ex>er</ex>all wronges to every member therof</ab>
+         </div>  
+               
          <div>
-            <head>23 Iunij 1613</head>
+            <head><date when-iso="1613-06-23"><supplied>23 Iunij 1613</supplied></date></head>
             <ab>It is thought ffitt by these Readers whose names ar vnder written that the draught of the Order towchinge the Maskers apparrell be revewed and the publishinge of it be staied tell ⎡the⎤ next terme</ab>
             <table>
                <row>
-                  <cell>ffranc<hi rend="italic">is</hi> Bacon Mil<hi rend="italic">itis</hi></cell>
-                  <cell>Henry Yelverton</cell>
-                  <cell>Edw<hi rend="italic">ard</hi> Bolt</cell>
+                  <cell><persName n="Francis Bacon">ffranc<ex>is</ex> Bacon Mil<ex>itis</ex></persName></cell>
+                  <cell><persName n="Henry Yelverton">Henry Yelverton</persName></cell>
+                  <cell><persName n="Edward Bolt">Edw<ex>ard</ex> Bolt</persName></cell>
                </row>
                <row>
-                  <cell>Cle<hi rend="italic">ment</hi> Goldsmith</cell>
-                  <cell>Tho<hi rend="italic">mas</hi> Chamberline</cell>
+                  <cell><persName n="Clement Goldsmith">Cle<ex>ment</ex> Goldsmith</persName></cell>
+                  <cell><persName n="Thomas Chamberlain">Tho<ex>mas</ex> Chamberline</persName></cell>
                   <cell></cell>
                </row>
                <row>
-                  <cell>Henry ffinch</cell>
-                  <cell>Lanc<hi rend="italic">elot</hi> Lovelace</cell>
-                  <cell>Humfray Davenpo<hi rend="italic">rt</hi></cell>
+                  <cell><persName n="Henry Finch">Henry ffinch</persName></cell>
+                  <cell><persName n="Lancelot Lovelace">Lanc<ex>elot</ex> Lovelace</persName></cell>
+                  <cell><persName n="Humphrey Davenport">Humfray Davenpo<ex>rt</ex></persName></cell>
                </row>
                <row>
-                  <cell>Tho<hi rend="italic">mas</hi> Hughes</cell>
+                  <cell><persName n="Thomas Hughes">Tho<ex>mas</ex> Hughes</persName></cell>
                   <cell></cell>
-                  <cell>Armiger Lector</cell>
+                  <cell><persName n="Armiger Lector">Armiger Lector</persName></cell>
                </row>
             </table>
          </div>
+            </div>
+         </div>
       </body>
    </text>
-             
-   <text ana="taxon:grays_inn" type="record" n="1613-14">
+          
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
          <head>
             <date from-iso="1613" to-iso="1614">1613-14</date>
-            <seg ana="docu:RLGIPB1" corresp="docu:IC1 pp. 172-4">RLGIPB1</seg></head>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 pp. 172-4">RLGIP1</seg></head>
          <div type="transcription">
-            <div>
-               <head>ff 303–3v <supplied>(15 November) (Pension orders)</supplied></head>
+               <head>ff 303–3v <date when-iso="1614-11-15"><supplied>(15 November) (Pension orders)</supplied></date></head>
                <pb n="ff303-3v" type="folio"/>
                
                <gap reason="omitted"/>
-               <ab>At this Penc<hi rend="italic">i</hi>on it is Ordered that wheras at a penc<hi rend="italic">i</hi>on holden the 22 of</ab>
+               <ab>At this Penc<ex>i</ex>on it is Ordered that wheras at a penc<ex>i</ex>on holden the 22 of</ab>
                
-               <ab>Iune 1613 for the bringinge in of the Maskinge apparrell it was Ordered as foloweth that is to say, it is Ordered that wheras befor⟨.⟩  the maske latly p<hi rend="italic">er</hi>formed at the Court before his Maiestie it was by the Order of this howse as by the Orders of all the other howses of Court amongst them for them selves Ordered that the Maskers should after the p<hi rend="italic">er</hi>formance of that service bring in ther Maskinge sut<hi rend="italic">es</hi> wherby some p<hi rend="italic">ro</hi>fit might be made of them to ease the greate Charge w<hi rend="italic">hi</hi>ch was expended and in great p<hi rend="italic">ar</hi>te resteth yet vnpaid &amp; wheras the Maskers of the howse forbearinge to bringe them in accordinge to the s<hi rend="italic">ai</hi>d Order it was after the severall aunswers of som of them recorded in Open Penc<hi rend="italic">i</hi>on againe &amp; againe Ordered that they should bring them in by a Certaine day of this terme or els every one of them making default to aunswer thirtie pound<hi rend="italic">es</hi> in Lew therof every of ther s<hi rend="italic">ai</hi>d suit<hi rend="italic">es</hi> having Cost the howse above a hundred Marks w<hi rend="italic">hi</hi>ch they haue Contemptuously neglected and refused to performe albeit none of them did Contribute any thinge to the s<hi rend="italic">ai</hi>d Charge as also were allowed all other ther necessarie Charges expended therabout<hi rend="italic">es</hi> wherfore for asmuch as itt is not thought fitt that any gent<hi rend="italic">lemen</hi> of this howse should make p<hi rend="italic">ro</hi>fitt of the howse in that manor in p<hi rend="italic">ar</hi>ticulor as also that if the s<hi rend="italic">ai</hi>d Maskinge apparrell should not be brought in accordinge to the s<hi rend="italic">ai</hi>d Order ther must be a gener<hi rend="italic">all</hi> new taxac<hi rend="italic">i</hi>on of the hole howse to pay the severall debt<hi rend="italic">es</hi> behind and vnpaid, Yt is therfor Ordered that every of the s<hi rend="italic">ai</hi>d severall Maskers nowe being in towne shall for ther s<hi rend="italic">ai</hi>d contemptes be p<hi rend="italic">re</hi>sently Cast into Com<hi rend="italic">m</hi>ons and put out againe &amp; so to Continewe accordinge to the Order of this howse vntill they have performe<note>performe: for performed</note> the s<hi rend="italic">ai</hi>d last Order and that such of them as ar now owt of towne shall p<hi rend="italic">er</hi>forme the same Order at or before Hallomas Next at w<hi rend="italic">hi</hi>ch tyme such of them as shalbe found failinge in the p<hi rend="italic">er</hi>formance of the s<hi rend="italic">ai</hi>d Order that is to say as well those that are Cast into Com<hi rend="italic">m</hi>ons and out againe as the others Ar then fourthwith expelled the societie for ther willfull Contempt<hi rend="italic">es</hi> of the government of this howse and ther Inconciderat dealing and the generall wronges to every member therof |</ab>
+               <ab>Iune 1613 for the bringinge in of the Maskinge apparrell it was Ordered as foloweth that is to say, it is Ordered that wheras befor⟨.⟩  the maske latly p<ex>er</ex>formed at the Court before his Maiestie it was by the Order of this howse as by the Orders of all the other howses of Court amongst them for them selves Ordered that the Maskers should after the p<ex>er</ex>formance of that service bring in ther Maskinge sut<ex>es</ex> wherby some p<ex>ro</ex>fit might be made of them to ease the greate Charge w<ex>hi</ex>ch was expended and in great p<ex>ar</ex>te resteth yet vnpaid &amp; wheras the Maskers of the howse forbearinge to bringe them in accordinge to the s<ex>ai</ex>d Order it was after the severall aunswers of som of them recorded in Open Penc<ex>i</ex>on againe &amp; againe Ordered that they should bring them in by a Certaine day of this terme or els every one of them making default to aunswer thirtie pound<ex>es</ex> in Lew therof every of ther s<ex>ai</ex>d suit<ex>es</ex> having Cost the howse above a hundred Marks w<ex>hi</ex>ch they haue Contemptuously neglected and refused to performe albeit none of them did Contribute any thinge to the s<ex>ai</ex>d Charge as also were allowed all other ther necessarie Charges expended therabout<ex>es</ex> wherfore for asmuch as itt is not thought fitt that any gent<ex>lemen</ex> of this howse should make p<ex>ro</ex>fitt of the howse in that manor in p<ex>ar</ex>ticulor as also that if the s<ex>ai</ex>d Maskinge apparrell should not be brought in accordinge to the s<ex>ai</ex>d Order ther must be a gener<ex>all</ex> new taxac<ex>i</ex>on of the hole howse to pay the severall debt<ex>es</ex> behind and vnpaid, Yt is therfor Ordered that every of the s<ex>ai</ex>d severall Maskers nowe being in towne shall for ther s<ex>ai</ex>d contemptes be p<ex>re</ex>sently Cast into Com<ex>m</ex>ons and put out againe &amp; so to Continewe accordinge to the Order of this howse vntill they have performe<note>performe: for performed</note> the s<ex>ai</ex>d last Order and that such of them as ar now owt of towne shall p<ex>er</ex>forme the same Order at or before Hallomas Next at w<ex>hi</ex>ch tyme such of them as shalbe found failinge in the p<ex>er</ex>formance of the s<ex>ai</ex>d Order that is to say as well those that are Cast into Com<ex>m</ex>ons and out againe as the others Ar then fourthwith expelled the societie for ther willfull Contempt<ex>es</ex> of the government of this howse and ther Inconciderat dealing and the generall wronges to every member therof |</ab>
                
-               <ab>Now at this Penc<hi rend="italic">i</hi>on the said former Order is fully Confirmed and further it is Ordered that forasmuch as the tyme is expired within w<hi rend="italic">hi</hi>ch the same should have been p<hi rend="italic">er</hi>formed that the said former Order shall neverthelesse by or before Munday next<note>Munday next: 22 November 1613</note> be p<hi rend="italic">er</hi>formed or els the s<hi rend="italic">ai</hi>d Order shalbe fourthwith afterwardes put in execuc<hi rend="italic">i</hi>on</ab>
+               <ab>Now at this Penc<ex>i</ex>on the said former Order is fully Confirmed and further it is Ordered that forasmuch as the tyme is expired within w<ex>hi</ex>ch the same should have been p<ex>er</ex>formed that the said former Order shall neverthelesse by or before Munday next<note>Munday next: 22 November 1613</note> be p<ex>er</ex>formed or els the s<ex>ai</ex>d Order shalbe fourthwith afterwardes put in execuc<ex>i</ex>on</ab>
                <gap reason="omitted"/>
-            </div>
+            
             <div>
                <head><supplied>(17 November)</supplied></head>
                
                <ab>At this Pencion it is Ordered that wheras divers gentlemen of this Societie</ab>
                
-               <ab>hath not paid the severall soms of money taxed vppo<hi rend="italic">n</hi> them towardes the discharge of the Charges of the Late Maske, and by former Orders such of them as have Chambers should forfett ther Chambers and that they should be seised by the Penc<hi rend="italic">i</hi>on to the vse of the howse, and such of them as have noe Chambers should be expulsed, That if these gent<hi rend="italic">lemen</hi> w<hi rend="italic">hi</hi>ch have not hitherto paid ther severall taxes and money vppo<hi rend="italic">n</hi> them seis<hi rend="italic">ed</hi> towardes the said Maske shall not paie the same before the accompt<hi rend="italic">es</hi> vppon Saterday Next<note>Saterday Next: 20 November 1613</note> to Sir ffran<hi rend="italic">cis</hi> Eure knight that then every one of them Makinge default heerin shall have the s<hi rend="italic">ai</hi>d former Order strickly executed vppo<hi rend="italic">n</hi> them w<hi rend="italic">i</hi>thout any further delaye</ab>
+               <ab>hath not paid the severall soms of money taxed vppo<ex>n</ex> them towardes the discharge of the Charges of the Late Maske, and by former Orders such of them as have Chambers should forfett ther Chambers and that they should be seised by the Penc<ex>i</ex>on to the vse of the howse, and such of them as have noe Chambers should be expulsed, That if these gent<ex>lemen</ex> w<ex>hi</ex>ch have not hitherto paid ther severall taxes and money vppo<ex>n</ex> them seis<ex>ed</ex> towardes the said Maske shall not paie the same before the accompt<ex>es</ex> vppon Saterday Next<note>Saterday Next: 20 November 1613</note> to Sir ffran<ex>cis</ex> Eure knight that then every one of them Makinge default heerin shall have the s<ex>ai</ex>d former Order strickly executed vppo<ex>n</ex> them w<ex>i</ex>thout any further delaye</ab>
                <gap reason="omitted"/>
             </div>
             <div>
                <head><supplied>(21 November)</supplied></head>
-               <ab>At this Penc<hi rend="italic">i</hi>on it is Ordered that the execuc<hi rend="italic">i</hi>on of [of] all the Orders here to fore made against the maskers for &amp; towchinge the apparrell for the [Maskers] Maskinge is spared and remitted at this Penc<hi rend="italic">i</hi>on</ab>
+               <ab>At this Penc<ex>i</ex>on it is Ordered that the execuc<ex>i</ex>on of [of] all the Orders here to fore made against the maskers for &amp; towchinge the apparrell for the [Maskers] Maskinge is spared and remitted at this Penc<ex>i</ex>on</ab>
             </div>
             <div>
                <head>f 304 <supplied>(22 November)</supplied></head>
                <pb n="f304" type="folio"/>
                
                <gap reason="omitted"/>
-               <ab>At this Penc<hi rend="italic">i</hi>on it is Ordered that all the admittance money of this terme now in the Steward<hi rend="italic">es</hi> handes and all the admittance money to be paied vnto the Steward the next Terme shalbe paid to S<hi rend="italic">i</hi>r ffran<hi rend="italic">cis</hi> Evre by the Steward towardes the debt<hi rend="italic">es</hi> Owinge for the Maskers apparrell and the Owld Steward to acompt to S<hi rend="italic">i</hi>r ffrancis Evre and to paie him also what is in his hand<hi rend="italic">es</hi></ab>
+               <ab>At this Penc<ex>i</ex>on it is Ordered that all the admittance money of this terme now in the Steward<ex>es</ex> handes and all the admittance money to be paied vnto the Steward the next Terme shalbe paid to S<ex>i</ex>r ffran<ex>cis</ex> Evre by the Steward towardes the debt<ex>es</ex> Owinge for the Maskers apparrell and the Owld Steward to acompt to S<ex>i</ex>r ffrancis Evre and to paie him also what is in his hand<ex>es</ex></ab>
                <gap reason="omitted"/>
             </div>
             <div type="margin">
@@ -1258,140 +1091,124 @@
             </div>
             <div>
                <head><supplied>(3 February)</supplied></head>
-               <ab>It is at this Penc<hi rend="italic">i</hi>on also Ordered that all money ffor admittances shall ffrom hence ffourth be paid over to S<hi rend="italic">i</hi>r ffran<hi rend="italic">cis</hi> Evre to be imployed ffor the satisfactio<hi rend="italic">n</hi> of the remaining debt<hi rend="italic">es</hi> of the howse for the Maske till the debt<hi rend="italic">es</hi> be fully satisfied</ab>
+               <ab>It is at this Penc<ex>i</ex>on also Ordered that all money ffor admittances shall ffrom hence ffourth be paid over to S<ex>i</ex>r ffran<ex>cis</ex> Evre to be imployed ffor the satisfactio<ex>n</ex> of the remaining debt<ex>es</ex> of the howse for the Maske till the debt<ex>es</ex> be fully satisfied</ab>
                <gap reason="omitted"/>
             </div>
          </div>
       </body>
    </text>
 
-   <text ana="taxon:grays_inn" type="record" n="1614-15">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
          <head>
             <date from-iso="1614" to-iso="1615">1614-15</date>
-            <seg ana="docu:RLGIPB1" corresp="docu:IC1 p. 182">RLGIPB1</seg></head>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 182">RLGIP1</seg></head>
          <div type="transcription">
-            <div>
-               <head>f 304 <supplied>(8 November) (Cupboard order)</supplied></head>
-               <pb n="f304" type="folio"/>
-               
+               <head>f 304 <date when-iso="1614-11-08"><supplied>(8 November) (Cupboard order)</supplied></date></head>
+               <pb n="f304" type="folio"/>              
                <gap reason="omitted"/>
-               <ab>Eightly for that the disorders in the Christmas tyme may booth infecte the mynds and p<hi rend="italic">re</hi>iudice the estats &amp; fortunes of the younger gent<hi rend="italic">lemen</hi> in the same Societies It is Therfore Ordered that ther shalbe com<hi rend="italic">m</hi>ons off the howse kept in every howse of Court duringe the Crismas and that none shall play in the severall halls at the dice except he be a gent<hi rend="italic">leman</hi> of the sam Societie &amp; in Com<hi rend="italic">m</hi>ons &amp; the benefitt of the boxes to goo to the Butlers of every howse Respectively.</ab>
-               <gap reason="omitted"/>
-            </div>
+               <ab>Eightly for that the disorders in the Christmas tyme may booth infecte the mynds and p<ex>re</ex>iudice the estats &amp; fortunes of the younger gent<ex>lemen</ex> in the same Societies It is Therfore Ordered that ther shalbe com<ex>m</ex>ons off the howse kept in every howse of Court duringe the Crismas and that none shall play in the severall halls at the dice except he be a gent<ex>leman</ex> of the sam Societie &amp; in Com<ex>m</ex>ons &amp; the benefitt of the boxes to goo to the Butlers of every howse Respectively.</ab>
+               <gap reason="omitted"/>            
          </div>
       </body>
    </text>
    
-   <text ana="taxon:grays_inn" type="record" n="1615-6">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
          <head>
             <date from-iso="1615" to-iso="1616">1615-6</date>
-            <seg ana="docu:RLGIPB1" corresp="docu:IC1 p. 185">RLGIPB1</seg></head>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 185">RLGIP1</seg></head>
          <div type="transcription">
-            <div>
-               <head>f 312v <supplied>(31 January) (Pension orders)</supplied></head>
-               <pb n="f312v" type="folio"/>
-               
+               <head>f 312v <date when-iso="1615-01-31"><supplied>(31 January) (Pension orders)</supplied></date></head>
+               <pb n="f312v" type="folio"/>               
                <gap reason="omitted"/>
-               <ab>At this Penc<hi rend="italic">i</hi>on it is Ordered that [that] the Musitions to have ther Ordinary allowance during Comons was broke vpe as they vsualy have had at other tymes</ab>
+            <note type="marginal">Musitians granted their Ordinary allowance, though Com<ex>m</ex>ons were broke vp</note>
+               <ab>At this Penc<ex>i</ex>on it is Ordered that [that] the Musitions to have ther Ordinary allowance during Comons was broke vpe as they vsualy have had at other tymes</ab>
                <gap reason="omitted"/>
-            </div>
-            <div type="margin">
-               <ab>Musitians granted their Ordinary allowance, though Com<hi rend="italic">m</hi>ons were broke vp</ab>
-            </div>
          </div>
       </body>
    </text>
 
-   <text ana="taxon:grays_inn" type="record" n="1616-17">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
          <head>
             <date from-iso="1616" to-iso="1617">1616-17</date>
-            <seg ana="docu:RLGIPB1" corresp="docu:IC1 pp. 189-90">RLGIPB1</seg></head>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 pp. 189-90">RLGIP1</seg></head>
          <div type="transcription">
             <div>
-               <head>f 314* <supplied>(17 October) (Pension orders)</supplied></head>
-               <pb n="f314*" type="folio"/>
-               
-               <ab>At this Penc<hi rend="italic">i</hi>on every Reador Ancient Barrister and other gent<hi rend="italic">leman</hi> that shalbe in the Towne betwene this and the end of Hillary terme or have any Chamber in the howse other of the house or by lease ortherwyse<note>ortherwyse: for otherwyse</note> shal pay towards the Barriors intended to be p<hi rend="italic">re</hi>sented before his Ma<hi rend="italic">ies</hi>ti shall pay affter these Rats and p<hi rend="italic">ro</hi>porc<hi rend="italic">i</hi>ons followinge Every Reador or Ancient of the Bench xl s. every Ancient vnder the Bench xxx s. Every Barrister xx s. &amp; Every other gent<hi rend="italic">lemen</hi> xiij s. iiij d.</ab>
-               
-               <ab>[Ther is apointed for]<lb/>
-                  Mr Newton is appointed Collector of the Readors &amp; Ancients Mr Griffeth [for] of the Barristers<lb/>
-                  And Mr wrightington of the yonge gent<hi rend="italic">lemen</hi> vnder the Barr</ab>
+               <head>f 314 <date when-iso="1616-10-17"><supplied>(17 October) (Pension orders)</supplied></date></head>
+               <pb n="f314" type="folio"/>
+            <note type="editorial" n="endnote">The ‘Barriors’ (l.18 and subsequently) was a martial exercise presented jointly by the four Inns of Court to celebrate the investiture of Prince Charles as prince of Wales, at the Banqueting House, Whitehall, 4 November 1616: see Appendix 6.1 (under ‘Barriers’).</note>
+            <note type="marginal">A Taxe for the Charge of the Barriors.</note>
+               <ab>At this Penc<ex>i</ex>on every Reador Ancient Barrister and other gent<ex>leman</ex> that shalbe in the Towne betwene this and the end of Hillary terme or have any Chamber in the howse other of the house or by lease ortherwyse<note type="foot">for otherwyse</note> shal pay towards the Barriors intended to be p<ex>re</ex>sented before <persName n="King James I">his Ma<ex>ies</ex>ti</persName> shall pay affter these Rats and p<ex>ro</ex>porc<ex>i</ex>ons followinge Every Reador or Ancient of the Bench xl s. every Ancient vnder the Bench xxx s. Every Barrister xx s. &amp; Every other gent<ex>lemen</ex> xiij s. iiij d.</ab>               
+               <list>
+                  <item><del>Ther is apointed for</del></item>
+                  <item><persName n="... Newton">Mr Newton</persName> is appointed Collector of the Readors &amp; Ancients</item> 
+                  <item><persName n="John Gryffyth">Mr Griffeth</persName> <del>for</del> of the Barristers</item>
+                  <item>And <persName>Mr wrightington</persName> of the yonge gent<ex>lemen</ex> vnder the Barr</item>
+               </list>
+            </div>
                <gap reason="omitted"/>              
-            </div>
-            <div type="margin">
-               <ab>A Taxe for the Charge of the Barriors.</ab>
-            </div>
-            
+
             <div>
-               <head>f 314v <supplied>(8 November)</supplied></head>
+               <head>f 314v <date when-iso="1616-11-08"><supplied>(8 November)</supplied></date></head>
                <pb n="f314v" type="folio"/>
                   
                   <gap reason="omitted"/>
                <ab>
-                  At this Penc<hi rend="italic">i</hi>on it is Ordered that all such gent<hi rend="italic">lemen</hi> of this Societie as are be hinde with ther taxacion towardes the barriers p<hi rend="italic">er</hi>formed at the Courte yf they be in Com<hi rend="italic">m</hi>ons they shall pay ther taxac<hi rend="italic">i</hi>on before fryday dinnor or els to put fourth of Com<hi rend="italic">m</hi>ons, and that such as are forth of Com<hi rend="italic">m</hi>ons shal pay ther taxac<hi rend="italic">i</hi>on before the next Penc<hi rend="italic">i</hi>on in the next weeke and those w<hi rend="italic">hi</hi>ch shall not paye the same before the next penc<hi rend="italic">i</hi>on in the next weeke if they have howse Chambers or Chambers by lease in the howse shall forfet ther Chambers and if they have no Chambers then they shalbe forth<note>shalbe forth: for shalbe put forth</note> of the howse</ab>
+                  At this Penc<ex>i</ex>on it is Ordered that all such gent<ex>lemen</ex> of this Societie as are be hinde with ther taxacion towardes the barriers p<ex>er</ex>formed at the Courte yf they be in Com<ex>m</ex>ons they shall pay ther taxac<ex>i</ex>on before fryday dinnor or els to put fourth of Com<ex>m</ex>ons, and that such as are forth of Com<ex>m</ex>ons shal pay ther taxac<ex>i</ex>on before the next Penc<ex>i</ex>on in the next weeke and those w<ex>hi</ex>ch shall not paye the same before the next penc<ex>i</ex>on in the next weeke if they have howse Chambers or Chambers by lease in the howse shall forfet ther Chambers and if they have no Chambers then they shalbe forth<note type="foot">for shalbe put forth</note> of the howse</ab>
                <gap reason="omitted"/>
             </div>
             
             <div>
-               <head>f 315 <supplied>(18 November)</supplied></head>
+               <head>f 315 <date when-iso="1616-11-18"><supplied>(18 November)</supplied></date></head>
                <pb n="f315" type="folio"/>
                
                <gap reason="omitted"/>
-               <ab>It is Ordered at this Penc<hi rend="italic">i</hi>on that 12 of the Ancientest Comonors that ar behind w<hi rend="italic">it</hi>h ther taxac<hi rend="italic">i</hi>on towards the barriors shall appeare before the Readors at the tables end to morrowe at Dinnor to shewe Cause why they pay it not and yf they do not pay nor shall give satisfactio<hi rend="italic">n</hi> why they doe it not, That they shall stand expelled fourth of this Societie And so all the rest of the Ancient Barristers and other gent<hi rend="italic">lemen</hi> to appeare by 12 a day every day affter the other till they have all appeared and be in the same Case</ab>
+               <note type="marginal">such gent<ex>lemen</ex> to appere before the Bench in the hall, as pay not their taxe to the Barriors.</note>
+               <ab>It is Ordered at this Penc<ex>i</ex>on that 12 of the Ancientest Comonors that ar behind w<ex>it</ex>h ther taxac<ex>i</ex>on towards the barriors shall appeare before the Readors at the tables end to morrowe at Dinnor to shewe Cause why they pay it not and yf they do not pay nor shall give satisfactio<ex>n</ex> why they doe it not, That they shall stand expelled fourth of this Societie And so all the rest of the Ancient Barristers and other gent<ex>lemen</ex> to appeare by 12 a day every day affter the other till they have all appeared and be in the same Case</ab>
                <gap reason="omitted"/>
-            </div>
-            <div type="margin">
-               <ab>such gent<hi rend="italic">lemen</hi> to appere before the Bench in the hall, as pay not their taxe to the Barriors.</ab>
             </div>
             
             <div>
-               <head><supplied>(21 January)</supplied></head>
-               
-               <ab>At this Penc<hi rend="italic">i</hi>on it is Ordered that all the moneys that shalbe Rec<hi rend="italic">eive</hi>d this terme for admissio<hi rend="italic">ns</hi> shalbe paid and deliu<hi rend="italic">er</hi>ed to Sir Thomas Tildesley to be Imployed towardes the satisfactio<hi rend="italic">n</hi> of such as have Lent moneyes towards the p<hi rend="italic">er</hi>formance of the Barriors</ab>
+               <head><date when-iso="1617-01-21"><supplied>(21 January)</supplied></date></head>
+               <note type="marginal">Admittances this Terme for the Barriors.</note>
+               <ab>At this Penc<ex>i</ex>on it is Ordered that all the moneys that shalbe Rec<ex>eive</ex>d this terme for admissio<ex>ns</ex> shalbe paid and deliu<ex>er</ex>ed to <persName n="Thomas Tyldesley">Sir Thomas Tildesley</persName> to be Imployed towardes the satisfactio<ex>n</ex> of such as have Lent moneyes towards the p<ex>er</ex>formance of the Barriors</ab>
                <gap reason="omitted"/>
             </div>
-            
-            <div type="margin">
-               <ab>Admittances this Terme for the Barriors.</ab>
-            </div>
-         </div>
          
          <div>
-            <head>f 315v <supplied>(21 May)</supplied></head>
-            <pb n="f315v" type="folio"/>
-            
+            <head>f 315v <date when-iso="1617-05-21"><supplied>(21 May)</supplied></date></head>
+            <pb n="f315v" type="folio"/>            
             <gap reason="omitted"/>
-            <ab>At this Penc<hi rend="italic">i</hi>on it is Ordered that the moneys this terme Rec<hi rend="italic">eive</hi>d for admittances shall goe and be imployed towards the payment of the Readors of such moneys as they have lent for the settinge forth of Barriors w<hi rend="italic">hi</hi>ch is yet behinde</ab>
+            <ab>At this Penc<ex>i</ex>on it is Ordered that the moneys this terme Rec<ex>eive</ex>d for admittances shall goe and be imployed towards the payment of the Readors of such moneys as they have lent for the settinge forth of Barriors w<ex>hi</ex>ch is yet behinde</ab>
             
-            <ab>It is Ordered at this Penc<hi rend="italic">i</hi>on that Mr Michell the Musition of the howse shall have allowed vnto him duringe his liffe five Markes to be p<hi rend="italic">ai</hi>d every midsomer terme out of the first admittance money that shalbe that terme rec<hi rend="italic">eiv</hi>ed</ab>
+            <note type="marginal">3 l. 6 s. 5 d. p<ex>er</ex> Ann<ex>um</ex> allow to Michell the Musitian p<ex>er</ex> vit<ex>am</ex>.</note>
+            <ab>It is Ordered at this Penc<ex>i</ex>on that <persName n="John Mitchell" cert="medium" resp="#AHN1">Mr Michell</persName> the Musition of the howse shall have allowed vnto him duringe his liffe five Markes to be p<ex>ai</ex>d every midsomer terme out of the first admittance money that shalbe that terme rec<ex>eiv</ex>ed</ab>
             <gap reason="omitted"/>
          </div>
-         <div type="margin">
-            <ab>3 l. 6 s. 5 d. p<hi rend="italic">er</hi> Ann<hi rend="italic">um</hi> allow to Michell the Musitian p<hi rend="italic">er</hi> vit<hi rend="italic">am</hi>.</ab>         
          </div>
       </body>
    </text>
 
-   <text ana="taxon:grays_inn" type="record" n="1618-19">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
          <head>
             <date from-iso="1618" to-iso="1619">1618-19</date>
-            <seg ana="docu:RLGIPB1" corresp="docu:IC1 p. 203">RLGIPB1</seg></head>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 203">RLGIP1</seg></head>
          <div type="transcription">
             <div>
-               <head>f [i]* <supplied>22 October 1618</supplied></head>
-               <pb n="f[i]*" type="folio"/>
+               <head>f <del>i</del> <supplied>22 October 1618</supplied></head>
+               <pb n="f i" type="folio"/>
+               <note type="editorial" n="endnote">‘Thomas Adson’ is possibly an error for John Adson (see printed Inns of Court, Volume 1, Introduction, p xxx).</note>
                
                <ab>The Names of such as ar allowed by the Readors and have vndertaken to serve this howse with Musicke for this next yeare following for the Owld wages</ab>
                <list>
-                  <item>Thomas Adson</item>
-                  <item>Thomas Cordwell</item>
-                  <item>Iohn Amaria [of ] Oneslowe</item> 
-                  <item>Rob<hi rend="italic">er</hi>t Ammery</item>
-                  <item>Will<hi rend="italic">ia</hi>m Tallice</item>
+                  <item><persName n="Thomas Adson - but possibly John Adson" resp="#AHN1" role="musician">Thomas Adson</persName></item>
+                  <item><persName n="Thomas Cordwell" role="musician">Thomas Cordwell</persName></item>
+                  <item><persName n="John Amaria of Onslow" role="musician">Iohn Amaria <del>of</del> Oneslowe</persName></item> 
+                  <item><persName n="Robert Ammery" role="musician">Rob<ex>er</ex>t Ammery</persName></item>
+                  <item><persName n="William Tallice" role="musician">Will<ex>ia</ex>m Tallice</persName></item>
                </list>
                <gap reason="omitted"/>
             </div>
@@ -1399,156 +1216,323 @@
       </body>
    </text>
 
-   <text ana="taxon:grays_inn" type="record" n="1623-4">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
          <head>
             <date from-iso="1623" to-iso="1624">1623-4</date>
-            <seg ana="docu:RLGIPB1" corresp="docu:IC1 p. 211">RLGIPB1</seg></head>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 211">RLGIP1</seg></head>
          <div type="transcription">
-            <div>
-               <head>f 351v <supplied>(28 January) (Pension orders)</supplied></head>
+               <head>f 351v <date when-iso="1624-01-28"><supplied>(28 January) (Pension orders)</supplied></date></head>
                <pb n="f351v" type="folio"/>
-               
+            <note type="marginal" rend="right">Aorder for mussit<ex>i</ex>ons</note>               
                <gap reason="omitted"/>
-               <ab>The musisions [Petic<hi rend="italic">i</hi>on] have five poundes allowed them for the Last Crismas notw<hi rend="italic">i</hi>thstand Com<hi rend="italic">m</hi>ons were [vp] broke vp and they did no servise</ab>
-            </div>
-         </div>
-         <div type="margin">
-            <ab>® Aorder for mussit<hi rend="italic">i</hi>ons</ab>
+               <ab>The musisions [Petic<ex>i</ex>on] have five poundes allowed them for the Last Crismas notw<ex>i</ex>thstand Com<ex>m</ex>ons were [vp] broke vp and they did no servise</ab>            
          </div>
       </body>
    </text>
  
-   <text ana="taxon:grays_inn" type="record" n="1631-2">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
          <head>
             <date from-iso="1631" to-iso="1632">1631-2</date>
-            <seg ana="docu:RLGIPB1" corresp="docu:IC1 p. 229">RLGIPB1</seg></head>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 229">RLGIP1</seg></head>
          <div type="transcription">
-            <div>
-               <head>f 390v* <supplied>(3 February) (Pension orders)</supplied></head>
-               <pb n="f390v*" type="folio"/>
-               
+               <head>f 390v <date when-iso="1631-02-03"><supplied>(3 February) (Pension orders)</supplied></date></head>
+               <pb n="f390v" type="folio"/>
+               <note type="editorial" n="endnote">Both the ‘Ante-maske’ and ‘Bakers reuells’ remain unaccounted for. On the one hand the most recent Gray’s Inn masque otherwise recorded is the <hi rend="italic">Masque of Mountebanks</hi> of 2 and 19 February 1617/18 (see Appendix 6.1). On the other hand no Inn of Court presented a masque to Charles I prior to 1633–4 (see p 240, ll.4–6). Perhaps Gray’s Inn organized an entertainment this year for performance in its own hall but not repeated at court.</note>
+               <gap reason="omitted"/>               
+               <ab>The charge of the Hall &amp; the Ante-maske to be cast into Com<ex>m</ex>ons./</ab>
                <gap reason="omitted"/>
-               
-               <ab>The charge of the Hall &amp; the Ante-maske to be cast into Com<hi rend="italic">m</hi>ons./</ab>
-               <gap reason="omitted"/>
-            </div>
+         </div>
+         <div>            
+            <head><date when-iso="1631-02-06"><supplied>(6 February)</supplied></date></head>
+            <note type="marginal">Bakers Reuells to be kept this t<ex>er</ex>me onely.</note>
+            <ab>It is ordered that Bakers reuells may be kept from henceforth this Terme time not w<ex>i</ex>thstanding former orders to the contrary saterday night next excepted, prouided alwayes that it be noe precident for any time after this Terme</ab>
+            <gap reason="omitted"/>
          </div>
       </body>
    </text>
 
-   <text ana="taxon:grays_inn" type="record" n="1633-4">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
          <head>
             <date from-iso="1633" to-iso="1634">1633-4</date>
-            <seg ana="docu:RLGIPB1" corresp="docu:IC1 pp. 234-5">RLGIPB1</seg></head>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 pp. 234-5">RLGIP1</seg></head>
          <div type="transcription">
             <div>
-               <head>ff 401–1v* <supplied>(9–14 November) (Pension orders)</supplied></head>
+               <head>ff 401–1v <date from-iso="1633-11-09" to-iso="1633-11-14"><supplied>(9–14 November) (Pension orders)</supplied></date></head>
                <pb n="ff401-1v" type="folio"/>
-               
+               <note type="editorial" n="endnote">The lower outside corner of the folio has been torn with much loss of text. Enough remains to show that the order was for an assessment toward the furnishing of the forthcoming masque, Shirley’s <hi rend="italic">Triumph of Peace</hi> (see Appendix 6.1).</note>              
                <gap reason="omitted"/>
-               <ab>It is agreed that towards the furni ⟨...⟩  now intended ther shall bee levyed  ⟨...⟩<lb/>  
-                  the Bench &amp; of eu<hi rend="italic">er</hi>y Barronet or  ⟨...⟩  the house 4 li. a man of euery  ⟨...⟩<lb/>  
-                  eu<hi rend="italic">er</hi>y Barrister 40 s. &amp; of eu<hi rend="italic">er</hi>y yo ⟨...⟩  presently of ech that is in towne  ⟨...⟩<lb/>  
-                  house mr Godbold amp; mr Rumsey  ⟨...⟩  for the Bench and knights  ⟨...⟩ <lb/> 
-                  will<hi rend="italic">iam</hi> Ward for the Auncients./<lb/>
-mr newdegate &amp; mr Rutter for  ⟨...⟩  <lb/>
-                  mr Gulston mr wentworth &amp; mr  ⟨...⟩  |<lb/></ab>
+               <list>
+                  <item>It is agreed that towards the furni <damage/>  now intended ther shall bee levyed  <damage/></item> 
+                  <item>the Bench &amp; of eu<ex>er</ex>y Barronet or  <damage/> the house 4 li. a man of euery  <damage/></item>
+                  <item>eu<ex>er</ex>y Barrister 40 s. &amp; of eu<ex>er</ex>y yo <damage/>  presently of ech that is in towne  <damage/></item>
+                  <item>house <persName n="John Godbold">mr Godbold</persName> &amp; <persName n="Edward Rumsey">mr Rumsey</persName>  <damage/>  for the Bench and knights  <damage/></item>
+                  <item><persName n="William Ward">will<ex>iam</ex> Ward</persName> for the Auncients./</item>
+                  <item><persName n="John or Richard Newdigate">mr newdegate</persName> &amp; <persName n="John Rutter">mr Rutter</persName> for  <damage/> </item>
+                  <item><persName n="Joseph Gulston">mr Gulston</persName> <persName n="Samuel Wentworth">mr wentworth</persName> &amp; mr  <damage/></item>
+
                
-               <ab>And mr whitfeld is chosen Treasuror to whom these Collectors are to pay there monyes collected weekely</ab>
+               <item>And <persName n="Ralph Whitfield, the younger">mr whitfeld</persName> is chosen Treasuror to whom these Collectors are to pay there monyes collected weekely</item>
                
-               <ab>And power is giuen to mr whitfeld mr Brereton &amp; mr dauison the three com<hi rend="italic">m</hi>ittees of this house for the Maske together with the other com<hi rend="italic">m</hi>ittees of the [three] other houses to agree w<hi rend="italic">i</hi>th the s<hi rend="italic">ai</hi>d other com<hi rend="italic">m</hi>ittees of such things as they shall thinke fitt about the accomodation of the Maske./</ab>
+               <item>And power is giuen to <persName n="Ralph Whitfield, the younger">mr whitfeld</persName> <persName n="Peter Brereton">mr Brereton</persName> &amp; <persName n="Ralph, Samuel, or Thomas Davison">mr dauison</persName> the three com<ex>m</ex>ittees of this house for the Maske together with the other com<ex>m</ex>ittees of the <del>three</del> other houses to agree w<ex>i</ex>th the s<ex>ai</ex>d other com<ex>m</ex>ittees of such things as they shall thinke fitt about the accomodation of the Maske./</item>
+               </list>
                <gap reason="omitted"/>
             </div>
             <div>
-               <head><supplied>(14 November)</supplied></head>
-               <ab>mr Iones mr Hooker &amp; mr Page three of the Attorneyes of  ⟨...⟩ hamber are to pay 3 li. a man towards the maske  ⟨...⟩  the chambers they hold there, &amp; the Clarke  ⟨...⟩amber to pay 4 li. &amp; the Custos Breuiums<note>10/ Breuiums: <hi rend="italic">for</hi> Breuium</note>  ...  in respect of his office &amp; the Clarke  ...  in respect of his office in Grayes  ⟨...⟩  in aunchients Collections &amp; the 4<hi rend="sup">ers</hi>  ⟨...⟩  Collections./</ab>
-                  
-<ab>⟨...⟩  towards the maske are to pay  ⟨...⟩  seu<hi rend="italic">er</hi>all collectors thereof by this day  ⟨...⟩  there seu<hi rend="italic">er</hi>all Chambers to bee seased for  ⟨...⟩  forfeited./.</ab>
-
-<ab>⟨...⟩  bee assistants and to pay there vacac<hi rend="italic">i</hi>ons  ⟨...⟩  in &amp; as they accept the said assistancey  ⟨...⟩ nd to present names of assistance  ⟨...⟩  Pencions the fower maskers &amp; the 25  ⟨...⟩  house that are to present the Masque  ⟨...⟩nd to bee exempted from the [Collection]  ⟨...⟩ to the Masque./</ab>
+               <head><date when-iso="1633-11-14"><supplied>(14 November)</supplied></date></head>
+               <list>
+                  <item><persName n="... Jones">mr Iones</persName> <persName n="William Hooker">mr Hooker</persName> &amp; <persName n="Edward Page">mr Page</persName> three of the Attorneyes of <damage/> hamber are to pay 3 li. a man towards the maske  <damage/>  the chambers they hold there, &amp; the Clarke  <damage/>amber to pay 4 li. &amp; the Custos Breuiums<note type="foot">for Breuium</note>   <damage/>  in respect of his office &amp; the Clarke  <damage/>  in respect of his office in Grayes  <damage/> in aunchients Collections &amp; the 4<hi rend="superscript">ers</hi>  <damage/>  Collections./</item>
+                  <item><damage/> towards the maske are to pay  <damage/> seu<ex>er</ex>all collectors thereof by this day <damage/> there seu<ex>er</ex>all Chambers to bee seased for <damage/> forfeited./.</item>
+                  <item><damage/> bee assistants and to pay there vacac<ex>i</ex>ons <damage/> in &amp; as they accept the said assistancey <damage/>nd to present names of assistance  <damage/> Pencions the fower maskers &amp; the 25 <damage/> house that are to present the Masque <damage/>nd to bee exempted from the <del>Collection</del> <damage/> to the Masque./</item>
+               </list>
             </div>
             <div>
-               <head>ff 402v–3 <supplied>(18 November)</supplied></head>
-               <pb n="ff402v-3" type="folio"/>
-               
+               <head>ff 402v–3 <date when-iso="1633-11-18"><supplied>(18 November)</supplied></date></head>
+               <pb n="ff402v-3" type="folio"/>               
                <gap reason="omitted"/>
-               <ab>It is Ordred that if any gent<hi rend="italic">leman</hi> taxed to the masque shall faile to pay his
-                  tax before Thursday next<note>Thursday next: 21 November 1633</note> that then his Chamber if hee haue ^⎡a Chamber⎤shallbe seased as forfited And hee put out of Com<hi rend="italic">m</hi>ons; And if hee haue noe Chamber &amp; bee in Com<hi rend="italic">m</hi>ons then hee shallbe put out of Com<hi rend="italic">m</hi>ons &amp; pay duble taxe. And if hee bee not in Com<hi rend="italic">m</hi>ons hee shalbee Cast into Com<hi rend="italic">m</hi>ons &amp; kept in till hee haue payd his taxe double./</ab>
-               
-               <ab>It is Ordred that mr Will<hi rend="italic">ia</hi>m Greeke shall for refuseinge to bee an Assistant pay a fine of 50 li./</ab>
-
-<ab>It is Ordred that mr Edward Ascough bee discharged of his being an Assistant./</ab>
-
-<ab>It is Ordred that mr Will<hi rend="italic">ia</hi>m Iackson &amp; mr Richard Proctor bee called Assistants &amp; are to bee warned to attend at the next Penc<hi rend="italic">i</hi>on</ab>
-               <gap reason="omitted"/>
+               <list>
+                  <item>It is Ordred that if any gent<ex>leman</ex> taxed to the masque shall faile to pay his
+                  tax before Thursday next<note type="foot">21 November 1633</note> that then his Chamber if hee haue ^<add place="above">a Chamber</add> shallbe seased as forfited And hee put out of Com<ex>m</ex>ons; And if hee haue noe Chamber &amp; bee in Com<ex>m</ex>ons then hee shallbe put out of Com<ex>m</ex>ons &amp; pay duble taxe. And if hee bee not in Com<ex>m</ex>ons hee shalbee Cast into Com<ex>m</ex>ons &amp; kept in till hee haue payd his taxe double./</item>
+                  <item>It is Ordred that <persName n="William Greeke">mr Will<ex>ia</ex>m Greeke</persName> shall for refuseinge to bee an Assistant pay a fine of 50 li./</item>
+                  <item>It is Ordred that <persName n="Edward Ascough">mr Edward Ascough</persName> bee discharged of his being an Assistant./</item>
+                  <item>It is Ordred that <persName n="William Jackson">mr Will<ex>ia</ex>m Iackson</persName> &amp; <persName n="Richard Proctor">mr Richard Proctor</persName> bee called Assistants &amp; are to bee warned to attend at the next Penc<ex>i</ex>on</item>
+               </list>
             </div>
+               <gap reason="omitted"/>
+            <div>
+            <head><date when-iso="1633-11-21"><supplied>(21 November)</supplied></date></head>
+            <list>
+               <item>It is orderd that <persName n="William Jackson">mr Will<ex>ia</ex>m Iackson</persName> bee discharged of his being an Assistant</item>
+               <item><persName n="John Onby">Mr Iohn Onby</persName> is called an Assistant &amp; is to attend at the next Penc<ex>i</ex>on./.</item>
+               <item><persName n="Richard Proctor">Mr Richard Proctor</persName> hath accepted of his being Assistant</item>
+               <item>It is ordred that the Collectors for the masque shall on Satterday<note type="foot">23 November 1633</note> dinner p<ex>re</ex>sent the names of all such as haue not payd there tax, to the end that such as haue chambers in the house may haue the Chambers seased as forfayted &amp; bee put out of Com<ex>m</ex>ons vntill they pay there respectiue taxes. And such as haue noe Chambers to bee put out of commons vntill they <add place="above">shall</add> pay there taxes duble And such as bee not in Com<ex>m</ex>ons shall bee cast into com<ex>m</ex>ons &amp; kept in vntill they pay there respectiue taxes duble./</item>
+            </list>
+            <gap reason="omitted"/>
             
-            <!-- keep going for more pages! -->
+            <div>
+            <head> <date when-iso="1633-11-26"><supplied>(26 November)</supplied></date></head>
+               <list>
+                  <item>It is Ordred that <persName n="Abraham or John Rutter">Mr Rutter</persName> bee added to the Com<ex>m</ex>ittees to the Masque to assist them therein./</item>
+                  <item> It is Ordred that <persName n="Whitfield">mr Whitfeld</persName> may deliu<ex>er</ex> out any of the moneys w<ex>hi</ex>ch hee shall receiue towards the Masque vppon warrants to him to bee directed &amp; seig<del><damage/></del>ned by any three of the Com<ex>m</ex>ittees for the fower Howses of Court and that such deliu<ex>ery</ex> vppon such warrant shallbe a discharge to him; neuerthelesse it is ordred hee may issue out any some not exceedinge xl s. &amp; the same shallbe allowed him hee takeinge a receipt for the same vnder the p<ex>ar</ex>ties hands that receues the same of him respectiuely.</item>
+               </list>
+            <gap reason="omitted"/>
+            <div>
+               <head>f 403v <date when-iso="1634-01-23"><supplied>(23 January)</supplied></date></head>
+            <gap reason="omitted"/>
+               <list>
+                  <item>It is ordred that towards the furnishing of the masque to be p<ex>re</ex>sented at Co<ex>ur</ex>t ther shallbe leuied more then is form<ex>er</ex>ly taxed of eu<ex>er</ex>y man halfe soe much as was formerly taxed vppon him; All these to bee leuied p<ex>re</ex>sently vnder the former penallty by the former Collectors respectiuely &amp; payd to the Tr<ex>easu</ex>rer for the masque prouided that this tax shall not extend to any gent<ex>leman</ex> that is a <del>Rider</del> Masquer or shall Ryde to p<ex>re</ex>sent the masque at Court./.</item>
+               </list>
+            </div>
+               <gap reason="omitted"/>
+               
+               <div>
+            
+            <head><date when-iso="1634-01-29"><supplied>(29 January)</supplied></date></head>
+                  <list>
+                     <item>All gent<ex>lemen</ex> of this societie that are taxed to paye towards the masque are to make payment before ffryday<note type="foot">31 January 1633/4</note> at night or otherwise they shall pay double &amp; their Chambers to be seized./</item>
+                  </list>
+               </div>
+               <gap reason="omitted"/>
+               
+               <div>
+                  
+            <head><date when-iso="1634-02-04"><supplied>(4 February)</supplied></date></head>
+                  <list>
+                     <item>It is ordered that all those who shall not pay their taxes for the masque form<ex>er</ex>ly sett, before Thirsday<note type="foot">6 February 1633/4</note> at noone next shall pay double taxes &amp; their Chambers to be fourthw<ex>i</ex>th seized &amp; if they haue noe Chambers in the house then they are to be cast into Com<ex>m</ex>ons &amp; continued in Com<ex>m</ex>ons vntill they shall pay their taxes double, &amp; the Collectors are to p<ex>re</ex>sent the names vpon Thirsday<note type="foot">6 February 1633/4</note> at night of all such as shall not then haue paid their said taxes.</item>
+                  </list>
+               </div>
+                  
+            <gap reason="omitted"/>
+               
+               <div>
+            
+            <head><date when-iso="1634-02-05"><supplied>(5 February)</supplied></date></head>
+                  <list>
+                     <item>It is Orderd that towards the finishing of the masque &amp; the new p<ex>re</ex>sentment therof to the <persName n="King James I">King</persName> &amp; <persName n="Queen Anne of Denmark">Queenes M<ex>aies</ex>tie</persName>, ther shall be levyed more then is form<ex>er</ex>ly taxed, soe much more as was taxed on them at the penc<ex>i</ex>on holden the xxiij day of Ianuary last: All the said monyes to be paid vpon the former penalties to the former Collectors only <persName n="John Heilen">mr Heilen</persName> is to Collect in the place of <persName n="Samuel Wentworth">mr Wentworth</persName> who is out of Towne &amp; the Collectors are to pay the monyes Collected as they shall be Collected to the Tr<ex>easur</ex>er for the masque/. Prouided this Tax shall not extend to any gent<ex>leman</ex> <damage/> is a masquer or Rydes to p<ex>re</ex>sent the Masque./</item>
+                  </list>
+               </div>
+               
+               <div>
+            
+            <head>f404v <date when-iso="1634-05-05"><supplied>(5 May)</supplied></date></head>
+            <gap reason="omitted"/>
+                  <list>
+                     <item>It is Ordered that all the gent<ex>lemen</ex> of this societie shall before the end of this Terme pay their payments for the last masque or in default therof to be expelled this societie./</item>
+                  </list>
+               </div>
+            <gap reason="omitted"/>
+               
+               <div>
+            
+            <head>f405 <date when-iso="1634-05-12"><supplied>(12 May)</supplied></date></head>
+            <gap reason="omitted"/>
+                  <list>
+                     <item>These gent<ex>lemen</ex> following are put out of Com<ex>m</ex>ons for not appeerance at this Penc<ex>i</ex>on &amp; not payment of their taxac<ex>i</ex>ons for the late masque vid<ex>elicet</ex>. <persName n="... Burwell, the younger">Mr Burwell</persName> Iu<ex>nior</ex> <persName n="Earl George">Mr Earl George</persName>, <persName n="... Richardson, the younger">Mr Richardson</persName>./</item>
+                     <item>It is also orderd that all the gent<ex>lemen</ex> of the house who do not pay their taxac<ex>i</ex>ons for the late masque before Thirsday next,<note type="foot">6 February 1633/4</note> their Chambers are to be seized to the vse of the house./</item>
+                  </list>
+               </div>
+            <gap reason="omitted"/>
+               <div>
+            <head><date when-iso="1634-05-16"><supplied>(16 May)</supplied></date></head>
+                  <list>
+                     <item>The Collectors by too morrow at din<ex>n</ex>er are to p<ex>re</ex>sent the names of such as haue not p<ex>ai</ex>d their taxac<ex>i</ex>ons for the masque, &amp; to be p<ex>ro</ex>ceeded against, according to the last order./</item>
+                  </list>
+               </div>
+             
+             <div>
+            <head>f 405v</head>
+                <ab>These Gentlemen vnder written are cast into Com<ex>m</ex>ons and to be put out of Com<ex>m</ex>ons vntill they haue paide their double Taxes to the Masque vid<ex>elicet</ex>.</ab>
+                
+                <table>
+                   <row>
+                      <cell><persName n="John Carrill">Mr Carrill</persName></cell>
+                      <cell><persName n="John Roch">Mr Roch Iohn</persName></cell>
+                      <cell><persName n="Edmund Fernely">Mr ffernely</persName></cell>
+                   </row>
+                   <row>
+                      <cell><persName n="William Deere">Deere</persName></cell>
+                      <cell><persName n="Phillip Roch">Roch Phillip</persName></cell>
+                      <cell><persName n="Cuthbert Ogle">Ogle Cuthbert</persName></cell>
+                   </row>
+                   <row>
+                      <cell><persName n="Thomas Dixie, the younger">Dixie Iunior</persName></cell>
+                      <cell><persName n="Thomas Southland">Southland</persName></cell>
+                      <cell><persName n="Robert Remington">Remington Robert</persName></cell>
+                   </row>
+                   <row>
+                      <cell><persName n="Richard or William Grimstone">Grimstone</persName></cell>
+                      <cell><persName n="John Taylor">Tailour Iohn</persName></cell>
+                      <cell><persName n="... Richardson, the younger">Richardson Iunior</persName></cell>
+                   </row>
+                   <row>
+                      <cell><persName n="John Smith">Smith Iohn</persName></cell>
+                      <cell><persName n="... Walsh">Walsh</persName></cell>
+                      <cell><persName n="Thomas Cotton">Cotton Thomas</persName></cell>
+                   </row>
+                   <row>
+                      <cell><del><persName n="Henry Morgan, the younger">Morgan Henry Iunior</persName></del></cell>
+                      <cell><persName n="Tobias Rose">Rose Tobias</persName></cell>
+                      <cell></cell>
+                   </row>
+                </table>
+            
+                <ab>These Gentlemen vnderwritten are to paie ther double Taxes to the Masque before Wednesday<note type="foot">21 May 1634</note> Dinner or to be expeld the Howse</ab>
+                <list>
+                   <item><persName n="Bacon Walpole">Mr Walpoole Bacon</persName></item>
+                   <item><persName n="George Sewster">Sewster George</persName></item>
+                   <item><persName n="Thomas Bate">Bate Thomas</persName> and his Castings in./ Or his Bond to be sued</item>
+                </list>
+            
+            <note type="marginal"><persName n="William Hughes">Hughes William</persName><lb/> <persName n="John Warren">Warren Iohn</persName></note>
+            <ab><persName n="William Hughes">Mr William Hughes</persName> and <persName n="John Warren">Mr Iohn Warrens</persName> Chambers to be seised for there Commons and there Taxes./</ab>
+            
+            <ab>It is ordered that <persName n="... Lawrence">Mr Lawrence</persName>, <persName n="Dudley North">Mr North Dudley</persName>, <persName n="... Steward, the elder">Mr Stewards Senior</persName> et <persName n="... Steward, the younger">Iunior</persName>, <persName n="Edward Spencer">Mr Spencer Edward</persName> <persName n="Humphrey Mackworth">Mr Humphry Mackworth</persName>, <persName n="Simeon Brograve">Mr Simeon Brograue</persName>, <persName n="Henry Goldsmith">Mr Henry Goldsmith</persName> <persName n="Thomas Proctor, the elder">Mr Thomas Procter Senior</persName>, <persName n="Robert Tylney">Mr Tilney Senior</persName>, <persName n="... Revet, the elder">Mr Reuet Senior</persName>, <persName n="Thomas Marsh">Mr Thomas Marsh</persName>, <persName n="Henry Dewell, the elder">Mr Dewell senior</persName>, and <persName n="Thomas Cole">Mr Thomas Cole</persName>, theire Chambers shalbe seised for theire Taxacions to the Masque, and to paie double</ab>
+             </div>
+            <gap reason="omitted"/>
+            <div>
+            <head>f 406v <date when-iso="1634-06-11"><supplied>(11 June)</supplied></date></head>
+            <gap reason="omitted"/>
+               <list>
+                  <item><persName n="James Necton">Mr Necton</persName> to paie a double Taxe towards the Maske for his Contempt in
+            refusinge to paie his Taxacion vppon request</item>
+                  <item><persName n="Tobias Rose">Mr Tobias Rose</persName> to paie his Taxacion double of the Maske if he doth not paie
+                     his former taxacion by ffridaie next.<note type="foot">13 June 1634</note></item>
+                  <item><persName n="Francis Angeir">Mr Angeirs</persName> Chamber to be seised for not paiement of his Taxacion
+            and Mr Carrills in like manner.</item>
+                  <item><persName n="George or Richard Benefeild">Mr Benefeild</persName> his Chamber to be seised for not payment of his Taxacion</item>
+                  <item><persName n="William Polly, the younger">Mr Polly Iunior</persName> his Chamber to be seised for the like</item>
+                  <item><persName n="John Pecke">Mr Pecke</persName> the like.</item>
+                  <item><persName n="Cuthbert Ogle">Mr Ogle</persName> the like</item>
+                  <item><persName n="John Walpole">Mr Walpoole Iohn</persName> the like</item>
+                  <item><persName n="John Taylor">Mr Tailor Iohn</persName> the like.</item>
+                  <item><persName n="Bacon Walpole">Mr Bacon Walpoole</persName> if he doth not paie before ffridaie<note type="foot">13 June 1634</note> to be cast and kept
+            in Commons vntill he paie double</item>
+                  <item><persName n="John Skeirne">Mr Skeirne</persName> to be put out of Commons and paie double if he doth not paie
+            on[t] ffridaie next</item>
+                  <item><persName n="Christopher Blewcok">Mr Blewcoks</persName> Chamber to be seised for the like</item>
+                  <item><persName n="Thomas Cotton">Mr Thomas Cotton</persName> to be cast into Commons for the like,</item>
+                  <item><persName n="Patrick or Peter Chamberlain">Mr Chamberlaines</persName> Chamber to be seised and to paie double</item>
+                  <item><persName n="John Ford">Mr fforde</persName> the like</item>
+                  <item><persName n="Thomas Faldo">Mr Thomas ffaldoe</persName> the like</item>
+                  <item><persName n="William Gerrard">Mr William Gerrard</persName> the like</item>
+                  <item><persName n="James Harvey">Mr Iames Harvie</persName> the like</item>
+                  <item><persName n="Edward Fisher">Sir Edward fisher</persName> the like</item>
+                  <item><persName n="Thomas Hammon">Mr Thomas Hammon</persName> the like</item>
+                  <item><persName n="James Heath">Mr Heath</persName> the like</item>
+                  <item><persName n="Nicholas Fisher">Mr Nicholas ffisher</persName> <del><damage/></del> And <persName>Mr Tomline</persName> the like./.</item>
+                  <item>The Cheife Butler is to send notice to all the Benchers and auncients ^<add place="above">&amp;c:</add>
+            who haue not paied there Taxacions ^ towards the masque to paie the same with speed.</item>
+               </list>
+            </div>
+               <gap reason="omitted"/>
+            </div>
+            </div>
          </div>
       </body>
    </text>
 
-   <text ana="taxon:grays_inn" type="record" n="1634-5">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
          <head>
             <date from-iso="1634" to-iso="1635">1634-5</date>
-            <seg ana="docu:RLGIPB1" corresp="docu:IC1 p. 325">RLGIPB1</seg></head>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 325">RLGIP1</seg></head>
          <div type="transcription">
             <div>
-               <head>f 407 <supplied>(10 October) (Pension orders)</supplied></head>
-               
+               <head>f 407 <date when-iso="1634-10-10"><supplied>(10 October) (Pension orders)</supplied></date></head>            
                <gap reason="omitted"/>
-               <ab>Com<hi rend="italic">m</hi>ittees to take the Accompts of Mr Whitefield concerninge the Masque money.<lb/>
-Mr Gerrard, Mr Rumsey, Mr Pheasante &amp; Mr Brickenden or two of them./</ab>
+               <list>
+                  <item>Com<ex>m</ex>ittees to take the Accompts of <persName n="Ralph Whitfield" role="father of Ralph">Mr Whitefield</persName> concerninge the Masque money.</item>
+                  <item><persName n="William Gerrard">Mr Gerrard</persName>, <persName n="Edward Rumsey">Mr Rumsey</persName>, <persName n="... Phesant">Mr Pheasante</persName> &amp; <persName n="... Brickenden">Mr Brickenden</persName> or two of them./</item>
+               </list>
                <gap reason="omitted"/>
             </div>
             
             <div>
-               <head><supplied>(12 November)</supplied></head>
-               <ab>The former Orders for such as haue not paide their partes to the charge to the late masque are renued and to bee put in execuc<hi rend="italic">i</hi>on.<lb/>
-Mr Osbaldeston and Mr Rumsey are for this Societie to meete with the rest of the Com<hi rend="italic">m</hi>ittees for the Masque/</ab>
+               <head><date when-iso="1634-11-12"><supplied>(12 November)</supplied></date></head>
+               <list>
+                  <item>The former Orders for such as haue not paide their partes to the charge to the late masque are renued and to bee put in execuc<ex>i</ex>on.</item>
+                  <item><persName n="Osbaldeston">Mr Osbaldeston</persName> and <persName n="Edward Rumsey">Mr Rumsey</persName> are for this Societie to meete with the rest of the Com<ex>m</ex>ittees for the Masque/</item>
+               </list>
                <gap reason="omitted"/>
             </div>
          </div>
       </body>
    </text>
 
-   <text ana="taxon:grays_inn" type="record" n="1635-6">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
          <head>
             <date from-iso="1635" to-iso="1636">1635-6</date>
-            <seg ana="docu:RLGIPB1" corresp="docu:IC1 p. 338">RLGIPB1</seg></head>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 338">RLGIP1</seg></head>
          <div type="transcription">
-            <div>
-               <head>f 410 <supplied>(29 January) (Pension orders)</supplied></head>
-               <pb n="f410" type="folio"/>
-               
+               <head>f 410 <date when-iso="1636-01-29"><supplied>(29 January) (Pension orders)</supplied></date></head>
+               <pb n="f410" type="folio"/>               
                <gap reason="omitted"/>
-               <ab>The account for the maske exhibited by m<hi rend="italic">aste</hi>r serieant whitfeild is allowed, &amp; m<hi rend="italic">aste</hi>r serieant discharged therof/</ab>
-<ab>Mr Reve &amp; mr Bryan are to take mr Rumseyes account touching the masque./ The moneyes behind by any gent<hi rend="italic">lemen</hi> toward the masque are to be gathered &amp; Collected this Terme by Iohn Pecke the Butler or former orders therin to be put in execuc<hi rend="italic">i</hi>on if payment be not made./</ab>
+               <list>
+                  <item>The account for the maske exhibited by <persName n="Ralph Whitfield" role="son of Ralph">m<ex>aste</ex>r serieant whitfeild</persName> is allowed, &amp; m<ex>aste</ex>r serieant discharged therof/</item>
+                  <item><persName n="Augustine or Henry Reve">Mr Reve</persName> &amp; <persName n="Joseph or William Bryan">mr Bryan</persName> are to take mr Rumseyes account touching the masque./</item> 
+                  <item>The moneyes behind by any gent<ex>lemen</ex> toward the masque are to be gathered &amp; Collected this Terme by <persName n="John Pecke" role="butler">Iohn Pecke</persName> the Butler or former orders therin to be put in execuc<ex>i</ex>on if payment be not made./</item>
+               </list>
                <gap reason="omitted"/>
-            </div>
+            
          </div>
       </body>
    </text>
 
-   <text ana="taxon:grays_inn" type="record" n="1640-1">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
          <head>
             <date from-iso="1640" to-iso="1641">1640-1</date>
-            <seg ana="docu:RLGIPB1" corresp="docu:IC1 p. 359">RLGIPB1</seg></head>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 359">RLGIP1</seg></head>
          <div type="transcription">
-            <div>
-               <head>f 427* <supplied>(1 June) (Pension orders)</supplied></head>
+               <head>f 427* <date when-iso="1640-06-01"><supplied>(1 June) (Pension orders)</supplied></date></head>
                <pb n="f427*" type="folio"/>
-               
+            <note type="editorial" n="endnote">No explanation is given for the appointment of Parker as master of the revels. Appointments to this office do not otherwise occur in Gray’s Inn accounts.</note>
                <gap reason="omitted"/>
-               <ab>Mr Parker M<hi rend="italic">aste</hi>r of the Revells°, in Mr Edw<hi rend="italic">ard</hi> Page his Roome.°†<lb/>
-      It is ordered that Mr Henry Parker shall bee M<hi rend="italic">aste</hi>r of the Revells in the Roome of Mr Edward Page.</ab>
-            </div>
+               <note type="marginal"><persName n="Henry Parker">Mr Parker</persName> M<ex>aste</ex>r of the Revells<handShift/>, in <persName n="Edward Page">Mr Edw<ex>ard</ex> Page</persName> his Roome.<handShift/></note>
+      <ab>It is ordered that <persName n="Henry Parker">Mr Henry Parker</persName> shall bee M<ex>aste</ex>r of the Revells in the Roome of <persName n="Edward Page">Mr Edward Page</persName>.</ab>     
          </div>
       </body>
    </text>
