@@ -239,12 +239,24 @@
       <body xml:lang="eng">
          <head>Inns of Court
             <date from-iso="YYYY" to-iso="YYYY">YYYY-YYYY</date>
-            <seg ana="taxon:RL1234" corresp="docu:RLPIC1 pp. numbers">six number code</seg></head>
+            <seg ana="taxon:RLITP2" corresp="docu:RLPIC1 pp. 151-2">RLITP2</seg></head>
          <div type="transcription">
-            <head> sheet or folio<supplied>supplied from text</supplied></head>
-            <pb n="1" type="sheet"/>
-
+            <head>f 112<supplied>(4 May)</supplied></head>
+            <pb n="f 112" type="folio"/>
+            <note type="editorial">The phrase ‘late showe and sportes’ (p 151, l.41) refers to Beaumont’s <hi rend="italic">Masque of the Inner Temple and Gray’s Inn</hi>, performed in the Banqueting House, Whitehall, on 20 February 1612/13, following the marriage of Princess Elizabeth and the count palatine. The figure ‘xijC li.’(£1200), if doubled to allow for Gray’s Inn’s share, tallies roughly with the total of £2255 8s 11d calculated by Orbison (ed), <hi rend="italic">Collections</hi> 12, p 7, to have been the cost of George Chapman’s masque presented by the Middle Temple and Lincoln’s Inn for the same occasion.</note>
+            <gap reason="omitted"/>
+            
+            <ab>fforasmuche it is found by experience That the vtterbarresters, of this howse, as alsoe other gentl<ex>emen</ex> vnder the barre doe vsually vnder hand &amp; secretlie contrarie to the Statut<ex>es</ex> &amp; orders of this howse, make sale of theire Chambers, for great som<ex>m</ex>es of money, and convert the same to theire owne privat vse to the great p<ex>re</ex>iudice and state of this howse And for that contrariewise It is seen from the experience of other howses of Courte, that throughe sale made of Chambers by the governors of such howse muche benefitt and proffitte hath growne to the general state of the same: with furderance and due content of the Student<ex>es</ex> there, And forasmuche as this howse att this p<ex>re</ex>sent is muche indebted by reason of the late showe and sport<ex>es</ex> made by the gentl<ex>emen</ex> of this howse before his highnes att whitehall Amountinge in Charges vnto the howse (over and besides the stocke of this howse,) not soe litle as xij<hi rend="superscript">C</hi> li. which requires somme extraordynarie and unwonted course of supply, but noe meanes<note type="foot">for no meanes are as yet</note> as yet discerned therein soe fittinge as suche husbandlye course of admittanc<ex>es</ex>, Be it therefore enacted att this present ^<add place="above">parliament</add> that hencefourth all admittanc<ex>es</ex> into anye Chamber or Chambers of this howse in possession or Reverc<ex>io</ex>n (other then Bench<ex>er</ex>s Chambers priviledged by acte of p<ex>ar</ex>liam<ex>en</ex>t) shalbe made from tyme to tyme by acte of p<ex>ar</ex>liam<ex>en</ex>t, and not by the Thr<ex>easour</ex>er of this ^<add place="above">howse</add> allone as heretofore haue ben, and that all admittanc<ex>es</ex> otherwise had or made shalbe <del><damage/></del> voyde, And it is furder enacted that vppon everye suche admittance by acte of p<ex>ar</ex>liament the p<ex>ar</ex>tie or p<ex>ar</ex>ties to be admitted shall over and above the former vsuall &amp; accustomed fine for an admittance paye vnto the Thr<ex>easour</ex>er of this howse suche furder som<ex>m</ex>e or som<ex>m</ex>es of money for such Chamber or Chambers as shalbe then assessed and sett downe for suche admittanc<ex>es</ex> as the worth of the chamber or chambers will in the iudgem<ex>en</ex>t of such p<ex>ar</ex>liament afford to be sold betweene p<ex>ar</ex>tie and p<ex>ar</ex>tie, Nevertheles it is alsoe furder enacted that everye p<ex>er</ex>son soe admitted and payinge suche somme of money shall att any tyme after vppon his surrender of suche his interest in suche Chamber or Chambers, wherein he shall stand soe admitted as aforesaid, haue repaide backe vnto him by the Thr<ex>easour</ex>er of this howse three full p<ex>ar</ex>t<ex>es</ex> in foure p<ex>ar</ex>t<ex>es</ex> devided of the wholl fine or som<ex>m</ex>e of money w<ex>hi</ex>ch he shall haue soe formerlie paid and disbursed as aforesaid, And this acte to be sufficient warrant and discharge to suche Thr<ex>easour</ex>er for the tyme beinge in that behaulf,: Provided alwayes that this acte or anie thinge therein contayned shall not extend to anye Chamber, Chambers, or Rowmes, wherein anye of this Socyetie haue anie graunt by anye acte of p<ex>ar</ex>liament, but that everye suche p<ex>er</ex>son and p<ex>er</ex>sons theire executors and assignes shall haue Contynue and enioye there said Chambers and Romes, whereof and wherein they stand soe admitted with all priviledg<ex>es</ex> and benefitt<ex>es</ex> in as lardge and beneficiall manner to all purposes as the same were graunted vnto them or to anie other vnder whome they Clayme the same by force of anye acte of p<ex>ar</ex>liament heretofore made anye thinge in this acte to the contrarie notwithstandinge/</ab>
          </div>
+         
+         <div>
+            <head>f 120<supplied>(10 July)</supplied></head>
+            <pb n="f 120" type="folio"/>
+            <gap reason="omitted"/>
+            <ab>At this Parliament yt is ordered that Mr Lumley the drap<ex>er</ex> shallbe paid fower pownd<ex>es</ex> twelve shilling<ex>es</ex> &amp; sixe pence, for scarlett ymployed for the Marshall at the Maske</ab>
+            <gap reason="omitted"/>
+         </div>
+         
       </body>
    </text>
   

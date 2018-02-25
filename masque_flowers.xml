@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="REED.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="eng"> 
    <teiHeader>
@@ -247,8 +247,10 @@
             <head>sigs A3-C4<supplied>Masque of Flowers</supplied></head>
             <pb n="A3-C4" type="sheet"/>
             
-            <ab>TO THE VERIE HOnorable Knight, Sir FRANCIS BACON, his Maiesties Attorney generall.</ab>
-            <ab>Honourable Sir;</ab>
+            <opener>
+               TO THE VERIE HOnorable Knight, Sir FRANCIS BACON, his Maiesties Attorney generall.
+            <salute>Honourable Sir;</salute>
+            </opener>
             <ab>THis last Maske, presented by Gentlemen of Graies Inne, before his Maiestie,
                in honor of the marriage, and happy alliance betweene two such principall persons of the kingdome, as are the Earle of Suffolke<note type="foot">Thomas Howard, father of Frances, the bride</note>, and the Earle of Sommerset<note type="foot">Robert Ker, the bridegroom</note>, hath receiued such grace from his Maiestie, the Queene and Prince, and such approbation from the generall. As it may well deserue to
                bee repeated to those that were present, and represented to those that were absent, by committing the same to the Presse, as others haue been. The dedication of it could not be doubtfull, you hauing beene the Principall, 10 and in effect the onely person, that did both incourage and warrant the Gentlemen, to shew their good affection towards so noble a Coniunction, in
@@ -267,10 +269,11 @@
                  <cell>T. B.|</cell>
             </row>
            </table><note type="foot">these initials remain unidentified but probably belong to men of Gray’s Inn</note>
-            </ab>
+            </ab></div>
             
-            <ab>The Deuice of the Maske</ab>
-            <ab>THe Sunne willing to doe honour to a Marriage, betweene two noble
+
+            <div><head>The Deuice of the Maske</head>
+<ab>THe Sunne willing to doe honour to a Marriage, betweene two noble
                persons of the greatest Island of his vniuersall Empire, writeth his Letter of Commission to the two Seasons of the yeare, the Winter and the Spring, to visite and present them on his part, directing the Winter to present them with sports, such as are commonly called by the name of Christmasse sportes, or Carnaual sportes, and the Spring, with other sportes of more Magnificence.</ab>
             <ab>And more especially, that Winter for his part take knowledge of a certaine Challenge which had beene lately sent and accepted betweene Silenus and 5 Kanasha vpon this point; That Wine was more woorthy then Tobacco, and did more cheere and relieue the spirits of man. This to be tried at two weapons, at Song and at Dance, and requiring the Winter to giue order that the same Challenge be performed in the dayes of Solemnitie of the same Marriage.</ab>
             <ab>The same Letter containeth a second Speciall direction to the Spring, that whereas of ancient time certaine beautifull youths had bin transformed from Men to Flowers, and had so continued till this time, that now they should
@@ -278,29 +281,87 @@
             <ab>All this is accordingly performed, and first the two Seasons Inuierno and Primauera come in, and receiue their dispatch from the Sunne, by Gallus the Sunnes Messenger: Thereupon Winter brings in the Challenge, consisting
             of two Anticke-Maskes, the Anticke-Maske of the Song, and the Anticke- Maske of the Dance.</ab>
             <ab>Then the Spring brings in the Maske it selfe, and there is first seene in the fabrique, a faire Garden vpon a descending Ground, and at the height thereof there is a stately long Arbour or Bower arched vppon Pillars, wherein the Maskers are placed, but are not discouered at the first, but there appeare onely certaine great tufts of flowers betwixt the Collumnes. Those flowers 25 vpon the Charme doe vanish, and so the Maskers appeare euery one in the space or inter-columne of his Arch.</ab>
-            <ab>The Maske.</ab>
-            <ab>AT the entrance of the King, at the lower end of the Banquetting house, appeared a Trauers painted in Perspectiue, like the wall of a Cittie, with battlements, ouer which were seene the Tops of houses. In the middle
-            whereof was a great gate, and on either side a Temple, the one dedicated to Silenus, and the other to Kawasha, in either of which opened a little gate.</ab>
-            <ab>Out of the great gate, in the middle of the Citty, entred Inuierno or Winter, attired like an old man, in |<note type="foot">start of sig B1</note> a short gowne of silke shagge, like withered grasse all frosted and snowed ouer, and his Cappe, Gowne, Gamashes, and Mittins furred crimson, with long white haire and beard, hung with Icecicles, he marcheth vp to the middle of the Hall, and looks round about him.</ab>
+            </div>
+         
+         <div>                  
+            <head>The Maske.</head>
+            <stage>AT the entrance of the King, at the lower end of the Banquetting house, appeared a Trauers painted in Perspectiue, like the wall of a Cittie, with battlements, ouer which were seene the Tops of houses. In the middle
+            whereof was a great gate, and on either side a Temple, the one dedicated to Silenus, and the other to Kawasha, in either of which opened a little gate.<lb/>
+            Out of the great gate, in the middle of the Citty, entred Inuierno or Winter, attired like an old man, in |<note type="foot">start of sig B1</note> a short gowne of silke shagge, like withered grasse all frosted and snowed ouer, and his Cappe, Gowne, Gamashes, and Mittins furred crimson, with long white haire and beard, hung with Icecicles, he marcheth vp to the middle of the Hall, and looks round about him.</stage>
             
-            <note type="marginal">® Inuierno.</note>
+            <sp><speaker>Inuierno.</speaker>
+               <l>Why thus it should be; such a night as this</l>
+               <l>Puts downe a thousand weary longsome dayes</l>
+               <l>Of Somer, when a Sunne, and Moone, and Stars</l>
+               <l>Are mette within the Pallace of a King,</l>
+               <l>In seuerall glory shining each on other,</l>
+               <l>With raies of comfort, and benigne Aspects</l>
+               <l>When hearts are warme: tis for the seely birds</l>
+               <l>To sacrifice their Pipes vnto the Spring,</l>
+               <l>And let the Pilgrim blesse the Summers day,</l>
+               <l>But Courts, and Youth, and Ladies needs must praise </l>
+               <l>The Winters raine.</l>
             
-            <lg>
-               Why thus it should be; such a night as this
-               Puts downe a thousand weary longsome dayes
-               Of Somer, when a Sunne, and Moone, and Stars
-               Are mette within the Pallace of a King,
-               In seuerall glory shining each on other,
-               With raies of comfort, and benigne Aspects
-               When hearts are warme: tis for the seely birds
-               To sacrifice their Pipes vnto the Spring,
-               And let the Pilgrim blesse the Summers day,
-               But Courts, and Youth, and Ladies needs must praise 
-               The Winters raine.
-            </lg>
+            </sp>
             
-            <ab>While Inuierno was thus speaking, entreth the Spring or Primauera, attired like a Nymph, a high tire on her head, Antike with knottes of faire haire, and Cobweb Lawnes rising one aboue an other, garnished with Flowers to some 15 height, and behinde, falling downe in a pendant: an vpper-body of cloth of siluer florie, naked necke, and breast, decked with Pearls: a kertle of yellow cloth of gold, brancht with leaues, a mantle of greene and siluer stuffe, cut out in leaues, white buskins tied with greene ribands, fringed with flowers.</ab>
-            <ab>Shee ouertaking Inuierno, clappes him on the shoulder. |</ab>
+            <stage>While Inuierno was thus speaking, entreth the Spring or Primauera, attired like a Nymph, a high tire on her head, Antike with knottes of faire haire, and Cobweb Lawnes rising one aboue an other, garnished with Flowers to some 15 height, and behinde, falling downe in a pendant: an vpper-body of cloth of siluer florie, naked necke, and breast, decked with Pearls: a kertle of yellow cloth of gold, brancht with leaues, a mantle of greene and siluer stuffe, cut out in leaues, white buskins tied with greene ribands, fringed with flowers.<lb/>
+            Shee ouertaking Inuierno, clappes him on the shoulder. |</stage>
+            
+            <sp><speaker>Primauera.</speaker>
+               <l>Primauera.</l>
+               <l>Inuierno? Primauera?</l><note type="foot">they exchange greetings</note>
+            </sp>
+            
+            <sp><speaker>Inuierno.</speaker>
+               <l>Whats that I see? why, how dare you approach?</l>
+               <l>In Ianus month, D’ye meane to giue the lie</l>
+                  <l>To all the Almanackes that are come forth?</l>
+                  <l>As if they had not lide enough besides,</l>
+                  <l>Prouoke me not, flie hence you wanton gerle,</l>
+                  <l>Stay not one minute.</l>
+            </sp>
+            
+            <sp><speaker>Primauera.</speaker>
+               <l>Good olde lad! I know you a merry one</l>
+                  <l>Within doores: bluster not, Ile choose thee for</l>
+                  <l>My Valentine, and tell thee tales and riddles</l>
+                  <l>These liuelong nights: Th’art euer borrowing</l>
+                  <l>Some dayes of me, then let this one day passe,</l>
+                  <l>Good frost-beard now. But stay, me thinks I see</l>
+                  <l>The Trumpet of the Sun, hee’l stint this strife.</l>
+            </sp>
+            
+            <stage>Gallus comes in Post, attired like a Post: in yellow damaske doublet and bases, the doublet close wings, cut like feathers, a Powch of carnation Sattin, wherein was his packet hung in a Bawdricke of the same, a paire of yellow bootes, spurres with one long pricke like a Cocke, a little Hatte of yellow Damaske, with a plume of red Feathers like a Crest.</stage>
+            
+            <sp><speaker>Inuierno.</speaker>
+               <l>Gallus mine owne braue Bird! welcome in troth,</l> 
+                  <l>Thou art no peeping creature that attends</l>
+                  <l>This gawdy wench, Thou wakest the feathered houres, </l>
+                  <l>And call’st to labour, Tell vs, whats the newes? |</l>
+            </sp>
+            
+            <sp><speaker>Primauera.</speaker>
+               <l>What, crest and spurre! welcome, thou com’st in time, </l>
+                  <l>Winter hath almost giu’n me the agew, faith</l>
+                  <l>He is so bitter, but thou shalt end our quarrell.</l>
+            </sp>
+            
+            <sp><speaker>Gallus.</speaker>
+               <l>Seasons both, God saue you in your times,</l>
+               <l>I know you both so well, as if I should</l>
+               <l>Giue leaue for you to chirpe, and you to chat:</l>
+               <l>How you make all things greene,</l>
+               <l>And you make all things fat.</l>
+               <l>Time would away: peace then, read this dispatch,</l>
+               <l>For I must backe to my accustomed watch.</l>
+            </sp>
+            
+            <stage>Winter reades the Letter.<lb/>
+               The Letter superscribed:<lb/>
+            <sp><speaker>The Letter</speaker>
+               <p>To our faithfull and neuer-fayling Quarter-waiters, Inuierno, and Primauera.</p>
+               <p>WEe haue taken knowledge of a Marriage to bee solemized betweene two noble Persons, in the principall Island of our vniuersall Empire, vnto which we are pleased to doe honour, and thereupon haue directed our seueral Letters to you the Seasons of the yeare to visit, and present them on your part. To this purpose we would haue you Inuierno to present them with such sports as are commonly knowne by the name of Christmasse sports, or Carnaual sports: and you Primauera, with sports of a more delicate nature, either of you according to your qualitie. And | for your better instruction and enablement towards the due execution of this your Commission, We require you Inuierno, That whereas we vnderstaad<note type="foot">for vnderstand</note> that Silenus hath lately sent a Challenge to Kawasha, vpon this point, to maintaine,<note type="foot">second n is turned letter or foul case</note> That Wine is more woorthie then Tobacco, and cheereth mans spirit more, The same to be tried at two seuerall weapons, Song, and Dance; which Challenge the said Kawasha hath also accepted, you take order that the said Challenge be performed at this Marriage, taking your conuenient time. And we require you Primauera for your part, That whereas of auncient time there were certaine faire Youthes turned into Flowers, which haue so continued vntil this time, that you deale with Flora by vertue of this Commission, That they be now returned to Men, and present a Dance at this Marriage. Heereof faile you not.</p>
+               <p>Giuen at our Pallace your Lord and Master, I, the Sunne.</p>
             
 
                
