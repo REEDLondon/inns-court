@@ -233,73 +233,57 @@
       </profileDesc>
       <revisionDesc>
          <!-- Add new major milestone changes to top -->
-         <change when="2018-02-24" who="#KM">created document</change>
-         <change when="2018-03-05" who="#KM">added 2 letters to document</change>
+         <change when="2018-03-05" who="#KM">created document</change>
       </revisionDesc>
    </teiHeader>
    
    <text ana="taxon:letter" type="record">
       <body xml:lang="eng">
-         <head>Letter of John Chamberlain to Sir Dudley Carleton
-            <date when-iso="1613-02-25">1613-02-25</date>
-            <seg ana="taxon:RLC007" corresp="taxon:RLPIC2 pp. 691">RLC007</seg></head>
+         <head>Letter of Sidney Montagu to Sir Edward Montagu
+            <date when-iso="1613-01-27">1613-01-27</date>
+            <seg ana="taxon:RLC008" corresp="taxon:RLPIC2 pp. 686">RLC008</seg></head>
          <div type="transcription">
-            <head>ff <del>1-1v</del><supplied>(25 February)</supplied></head>
-            <pb n="ff 1-1v" type="folio"/>
-            
-            <ab>...our reuells and triumphes within doores gaue great contentment beeing both daintie and curious in deuise and sumptuous in shew. Specially <orgName n="Inns of Court">the ynnes of court</orgName> whose two maskes stoode them in better then 4000 li. | besides the gallantrie and expence of priuate gentlemen, that were but ante-ambulones, and went only to accompanie them. and our <orgName role="member" n="Gray's Inn">Grayes ynne men</orgName> and the <orgName role="member" n="Inner Templers">ynner Templers</orgName> were nothing discouraged for all the first dodge, but on Saterday last<note type="foot">20 February 1612/13</note> performed theyre parts exceeding well, and w<ex>i</ex>th great applause and approbation both from the <persName n="James I">king</persName> and all the companie. the next night<note type="foot">21 February 1612/13</note> the <del>the</del> King inuited the maskers w<ex>i</ex>th theyre assistants to the number of forty to a solemne supper in the new mariage roome where they were well treated and much graced w<ex>i</ex>th kissing his ma<ex>ies</ex>tes hands, and euery one hauyng a particular accoglienza<gloss resp="#KM">This is Italian for hospitality:SOURCE</gloss> from him the king husbanded the matter so well that this feast was not his owne cost, but he and his companie went yt vpon a <del><damage/>...</del> of running at the ring of the <persName>Prince</persName> and his nine followers, who payed thirty pound a man: The <persName n="James I">K<ex>ing</ex></persName> <persName n="Anne of Denmark">Q<ex>ueen</ex></persName> <persName n="Frederick V of the Palatinate">P<ex>rince</ex> Palatin</persName> and <persName n="Elizabeth Stuart, Queen of Bohemia">Lady Elizabeth</persName> sat at a table by themselues: and the great Lords and Ladies w<ex>i</ex>th the maskers (aboue fowrescore in all) sat at another long table, so that there was no roome for them that made the feast but they were faine to be lookers on. w<ex>hi</ex>ch the young <persName>Lady Rich</persName> tooke no great pleasure in to see her <persName>husband</persName> (who was one that payed not so much as a rincke for his monie<note type="foot">closing parenthesis omitted</note>. The <persName role="ambassadors">ambassadors</persName> that were at this wedding and shewes were the <persName>French Venetian Count Henry</persName> and <persName>Caron</persName> for the States. the <persName>Spaniard</persName> was, or wold be sicke, and the <persName>archdukes ambassador</persName> beeing inuited for the second day made a sullen excuse: and those that were present were not altogether so pleased, but that I heare euery one had some puntilo of disgust....</ab>
-            
-         </div>
-      </body>
-   </text>
-   
-   <text ana="taxon:letter" type="record">
-      <body xml:lang="eng">
-         <head>Letter of John Chamberlain to Sir Dudley Carleton
-            <date when-iso="1613-12-23">1613-12-23</date>
-            <seg ana="taxon:RLC007" corresp="taxon:RLPIC2 pp. 692">RLC007</seg></head>
-         <div type="transcription">
-            <head>ff <del>1-1v</del><supplied>(23 December)</supplied></head>
-            <pb n="ff 1-1v" type="folio"/>
-            
-            <ab>...<persName n="Sir Francis Bacon">Sir Fran<ex>cis</ex> Bacon</persName> prepares a maske<note type="foot">The Masque of Flowers, 6 January 1613/14</note> to honor this mariage<note type="foot">ie, that of Robert Ker, earl of Somerset, and Lady Frances Howard on 26 December 1613</note> w<ex>hi</ex>ch will stand him in aboue 2000 li., and though he haue ben offered some helpe by the house, ^<add place="above">and</add> specially by master Sollicitor <persName n="Sir Henry Yelverton" role="master solicitor">S<ex>i</ex>r Hen<ex>ry</ex> Yeluerton</persName>, who wold haue sent him 500 li., yet he wold not accept yt, but offers them the whole charge with the honor: mary his obligations are such as well to <persName n="James I">his Ma<ex>ies</ex>tie</persName> as to the great Lord, and to the whole <orgName>house of Howards</orgName> as he can admit no partners. in the mean time his house and land at <placeName n="Gorhamhury">Goramberie</placeName> (by <placeName n="St. Albans">St Albons</placeName>) is gon some say to the <persName>earle of Somerset</persName> others to the <persName>earle of Suffolk</persName>, but his bountie is no whit abated, for he feasts the whole <orgName>vniuersitie of Cambrige</orgName>. this christmas, and hath sent warrants to his friends and acquaintaunce far and neere to furnish him w<ex>i</ex>th venison to bestow on the colleges. he caries a great port as well in his traine as in his apparell and other wayes, and liue sat a great charge, and yet he pretends he will take no fees nor entermeddle in mercenarie causes, but wholy applie himself to the kinges affaires....</ab>                
-
-
-         </div>
-      </body>
-   </text>
-   
-   <text ana="taxon:letter" type="record">
-      <body xml:lang="eng">
-         <head>Letter of John Chamberlain to Sir Dudley Carleton
-            <date when-iso="1614-01-05">1614-01-05</date>
-            <seg ana="docu:RLC007" corresp="docu:RLPIC2 pp. 692-3">RLC007</seg></head>
-         <div type="transcription">
-            <head>ff [1v-2]<supplied>(5 January)</supplied></head>
+            <head>single sheet <supplied>(27 January)</supplied></head>
             <pb n="1" type="sheet"/>
             
-            <ab>...The <persName n="Sir Thomas Middleton" role="Lord Mayor of London">L<ex>ord</ex> mayor<note type="foot">Sir Thomas Middleton</note></persName> was sent to by the <persName n="King James I">K<ex>ing</ex></persName> to entertain this new maried couple w<ex>i</ex>th theyre frends and followers, but he making an excuse that his house was too litle to receue them, yt was not accepted, but word sent backe that he might commaund the biggest hall in the towne: wherupon calling a counsaile yt was resolved to do yt at the charge of the citie in the <placeName n="Merchant Taylors' Hall">marchanttaylers hall</placeName> vpon fowre dayes warning, and thether they went yesternight about sixe a clocke, thorough <placeName n="Cheapside">cheapside</placeName> all by torch-light, accompanied by the <persName n="Thomas Howard, first earl of Suffolk" cert="high" resp="KM">father</persName> and <persName n="Katherine Knyvett" cert="high" resp="KM">mother</persName> of the <persName n="Lady Frances Howard">bride</persName>, and all the Lords and Ladies about the court. the men were well mounted and richly arrayed making a goodly shew, the women all in coaches. I do not heare yet how all things passed there, for I haue not ben abrode, only I vnderstand that after supper they had a play and a maske and after that a banket. the bride had a goodly new rich coach, w<ex>hi</ex>ch could not be furnished w<ex>i</ex>th fowre horses to theyre mind, so that <persName n="Sir Ralph Winwood" cert="medium" resp="KM">S<ex>i</ex>r Rafe winwod</persName> was moued <del>t</del> on sonday night<note type="foot">2 January 1613/14</note> to lend his, (those that you may remember he had here fowre or fiue yeares ago, and are as fayre or fayrer then euer they were:) he made aunswer thatfri yt was not for such a Lady to vse any thing borrowed and therfore the next morning presented them to <persName>the great Lord</persName>, who made some difficultie at first to receue them of guift, but only as lent for this solemnitie of going through the <placeName n="London">citie</placeName>, but in the end tooke them in very goode part. M<ex>aste</ex>r atturneyes<note type="foot">ie, Sir Francis Bacon’s</note> maske is for to morrow, and for a conclusion of christmas and these shewes together, for the K<ex>ing</ex> sayes he wilbe gon toward <placeName>Roiston</placeName> vpon friday<note type="foot">7 January 1613/14</note>. before the holy-dayes the <persName role="French Ambassador">french</persName> and <persName role="Venetian Ambassador">venetian ambassadors</persName><note type="foot"><persName>Samuel Spifame</persName>, <persName>Seigneur des Bisseaux</persName>, and <persName>Antonio Foscarini</persName>,<persName>Don Diego di Sarmiento de Acuna</persName></note> were inuited to this maske, w<ex>i</ex>th excuse that they could not be so well at the first vpon the marriage night, for auoyding competition of place and precedence with the <persName n="Ferdinand de Boiscot" role="ambassador">Spanish ambassador</persName> who had neuer seen any of our shewes before: but the best maske was reserved for them. the <persName>french</persName> seemed to take yt well enough: but the <persName>venetian</persName> stormed he shold be excluded and the <persName role="Archdukes">archdukes</persName> admitted, who he presumed wold not | once make offer to take place where he was… </ab>              
-            
-            <!-- This is a problem. There seem to be 2 different Spanish Ambassadors at the event. See footnotes to printed lines 16-17 and 19 #KM -->
-         </div>
+            <ab>...There is no matter of Newes styrringe heere, but greate preparac<ex>i</ex>on for the makinge of fyre woorkes and Maskes againste the mariadge<note type="foot">ie, of <persName n="Elizabeth Stuart, Queen of Bohemia">Princess Elizabeth</persName> and the <persName n="Frederick V of the Palatinate">elector Frederick</persName> on 14 February 1612/13</note>. This howse is Rated 50 s. a bencher, 30 s. a barrester, and 15 s. the reste towards the Maske. The L<ex>ords</ex> haue the mariadge night this howse and <placeName n="Lincoln's Inn">Lyncoln<ex>es</ex> Inn</placeName> <del>the</del> Mundaie night<note type="foot">15 February 1612/13</note> and <placeName n="Gray's Inn">Grayes Inne</placeName> and the <placeName n="Inner Temple">Inner Temple</placeName> Tewsdaie night<note type="foot">16 February 1612/13</note>. <persName>Nedd Palmer</persName> our Cosin is one for our howse....
+               ...</ab>
+         </div>      
       </body>
-   </text>   
+   </text>
+ 
+   <text ana="taxon:letter" type="record">
+      <body xml:lang="eng">
+         <head>Letter of Sidney Montagu to Sir Edward Montagu
+            <date when-iso="1613-02-11">1613-02-11</date>
+            <seg ana="taxon:RLC008" corresp="taxon:RLPIC2 pp. 687">RLC008</seg></head>
+         <div type="transcription">
+            <head>single sheet <supplied>(11 February)</supplied></head>
+            <pb n="1" type="sheet"/>
+            
+            <ab>...Heere is Now all preparinge for shewes; to Morrow they beginne; god sende theme well ended; I shall not forth of this towne this next weeke... ...</ab>
+            
+         </div>      
+      </body>
+   </text>
    
    <text ana="taxon:letter" type="record">
       <body xml:lang="eng">
-         <head>Letter of John Chamberlain to Sir Dudley Carleton
-            <date when-iso="1616-10-12">1616-10-12</date>
-            <seg ana="docu:RLC007" corresp="docu:RLPIC2 pp. 694">RLC007</seg></head>
+         <head>Letter of Sidney Montagu to Sir Edward Montagu
+            <date when-iso="1613-02-13">1613-02-13</date>
+            <seg ana="taxon:RLC008" corresp="taxon:RLPIC2 pp. 687">RLC008</seg></head>
          <div type="transcription">
-            <head>f [1]<supplied>(12 October)</supplied></head>
-            <pb n="1" type="folio"/>
-   
-            <ab>...the <persName n="Charles I">Princes</persName>creation is apointed to be the fowrth of the next moneth w<ex>i</ex>th much solemnitie of tilting barriers, and a maske <del><damage/></del><note type="foot">forby;MSdamaged</note> the <placeName n="the Inns of Court">ynnes of cowrt</placeName>....</ab>
-        
-         </div>
+            <head>single sheet <supplied>(13 February)</supplied></head>
+            <pb n="1" type="sheet"/>
+            
+            <ab>...vppon Thursdaie<note type="foot">11 February 1612/13</note> at night after supper, was the greate fyre woorke. I heare no body admyre them though suerlie the were chargeable thinges. This afternoone hath beene the sea fight w<ex>i</ex>th some 15 or 16 Pynesses, and half a score Galleyes, who passed vp by the Courte and so ^<add place="above">to</add> take a Turkishe Castle buylte neere <placeName n="Lambeth">Lambeth</placeName> w<ex>hi</ex>ch hath beene no smale charge, if to no greate purpose. Now the masking sportes shall follow... ...</ab>
+
+         </div>      
       </body>
-   </text>   
+   </text>
 </TEI>
+
+
 
 
 
