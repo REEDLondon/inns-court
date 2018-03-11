@@ -239,49 +239,20 @@
    
    <text ana="taxon:letter" type="record">
       <body xml:lang="eng">
-         <head>Letter of Sidney Montagu to Sir Edward Montagu
-            <date when-iso="1613-01-27">1613-01-27</date>
-            <seg ana="taxon:RLC008" corresp="taxon:RLPIC2 pp. 686">RLC008</seg></head>
+         <head>Letter of Sir Charles Montagu to Sir Edward Montagu
+            <date when-iso="1613-02-16">1613-02-16</date>
+            <seg ana="taxon:RLC010" corresp="taxon:RLPIC2 pp. 687">RLC010</seg></head>
          <div type="transcription">
-            <head>single sheet <supplied>(27 January)</supplied></head>
+            <head>single sheet <supplied>(16 February)</supplied></head>
             <pb n="1" type="sheet"/>
             
-            <ab>...There is no matter of Newes styrringe heere, but greate preparac<ex>i</ex>on for the makinge of fyre woorkes and Maskes againste the mariadge<note type="foot">ie, of <persName n="Elizabeth Stuart, Queen of Bohemia">Princess Elizabeth</persName> and the <persName n="Frederick V of the Palatinate">elector Frederick</persName> on 14 February 1612/13</note>. This howse is Rated <measure type="currency">50 s.</measure> a bencher, <measure type="currency">30 s.</measure> a barrester, and <measure type="currency">15 s.</measure> the reste towards the Maske. The L<ex>ords</ex> haue the mariadge night this howse and <placeName n="Lincoln's Inn">Lyncoln<ex>es</ex> Inn</placeName> <del>the</del> Mundaie night<note type="foot">15 February 1612/13</note> and <placeName n="Gray's Inn">Grayes Inne</placeName> and the <placeName n="Inner Temple">Inner Temple</placeName> Tewsdaie night<note type="foot">16 February 1612/13</note>. <persName>Nedd Palmer</persName> our Cosin is one for our howse....
-               ...</ab>
-         </div>      
-      </body>
-   </text>
- 
-   <text ana="taxon:letter" type="record">
-      <body xml:lang="eng">
-         <head>Letter of Sidney Montagu to Sir Edward Montagu
-            <date when-iso="1613-02-11">1613-02-11</date>
-            <seg ana="taxon:RLC008" corresp="taxon:RLPIC2 pp. 687">RLC008</seg></head>
-         <div type="transcription">
-            <head>single sheet <supplied>(11 February)</supplied></head>
-            <pb n="1" type="sheet"/>
-            
-            <ab>...Heere is Now all preparinge for shewes; to Morrow they beginne; god sende theme well ended; I shall not forth of this towne this next weeke... ...</ab>
-            
-         </div>      
-      </body>
-   </text>
-   
-   <text ana="taxon:letter" type="record">
-      <body xml:lang="eng">
-         <head>Letter of Sidney Montagu to Sir Edward Montagu
-            <date when-iso="1613-02-13">1613-02-13</date>
-            <seg ana="taxon:RLC008" corresp="taxon:RLPIC2 pp. 687">RLC008</seg></head>
-         <div type="transcription">
-            <head>single sheet <supplied>(13 February)</supplied></head>
-            <pb n="1" type="sheet"/>
-            
-            <ab>...vppon Thursdaie<note type="foot">11 February 1612/13</note> at night after supper, was the greate fyre woorke. I heare no body admyre them though suerlie the were chargeable thinges. This afternoone hath beene the sea fight w<ex>i</ex>th some 15 or 16 Pynesses, and half a score Galleyes, who passed vp by the Courte and so ^<add place="above">to</add> take a Turkishe Castle buylte neere <placeName n="Lambeth">Lambeth</placeName> w<ex>hi</ex>ch hath beene no smale charge, if to no greate purpose. Now the masking sportes shall follow... ...</ab>
-
-         </div>      
+            <ab>...of thes great stirs at court I can not tell how to write the ar soe many, all w<ex>hi</ex>ch you shall have shortly in print, nether have I bene a beholder of any of them, only I saw the<ex>m</ex> maryed In the caple, w<ex>hi</ex>ch was In english<note type="foot">en corrected from other letters</note>, and the <persName>paulsgrave</persName> answered to all the words In the common prayer booke in english very distinctly: the <orgName n="Inns of Court" type="members">Iner court<note type="foot">ie, Inns of Court</note> gent<ex>lemen</ex></orgName> have plesed the <persName n="James I">King</persName> exceedingly w<ex>i</ex>th ther brave masks:...</ab>
+           
+         </div>
       </body>
    </text>
 </TEI>
+
 
 
 

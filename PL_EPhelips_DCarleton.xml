@@ -233,55 +233,27 @@
       </profileDesc>
       <revisionDesc>
          <!-- Add new major milestone changes to top -->
-         <change when="2018-03-05" who="#KM">created document</change>
+         <change when="2018-03-11" who="#KM">created document</change>
       </revisionDesc>
    </teiHeader>
    
    <text ana="taxon:letter" type="record">
       <body xml:lang="eng">
-         <head>Letter of Sidney Montagu to Sir Edward Montagu
-            <date when-iso="1613-01-27">1613-01-27</date>
-            <seg ana="taxon:RLC008" corresp="taxon:RLPIC2 pp. 686">RLC008</seg></head>
+         <head>Letter of Sir Edward Phelips to Sir Dudley Carelton
+            <date when-iso="1613-02-25">1613-02-25</date>
+            <seg ana="taxon:RLC012" corresp="taxon:RLPIC2 pp. 690">RLC012</seg></head>
          <div type="transcription">
-            <head>single sheet <supplied>(27 January)</supplied></head>
-            <pb n="1" type="sheet"/>
+            <head>f <del>1</del><supplied>(25 February)</supplied></head>
+            <pb n="f 1" type="sheet"/>
             
-            <ab>...There is no matter of Newes styrringe heere, but greate preparac<ex>i</ex>on for the makinge of fyre woorkes and Maskes againste the mariadge<note type="foot">ie, of <persName n="Elizabeth Stuart, Queen of Bohemia">Princess Elizabeth</persName> and the <persName n="Frederick V of the Palatinate">elector Frederick</persName> on 14 February 1612/13</note>. This howse is Rated <measure type="currency">50 s.</measure> a bencher, <measure type="currency">30 s.</measure> a barrester, and <measure type="currency">15 s.</measure> the reste towards the Maske. The L<ex>ords</ex> haue the mariadge night this howse and <placeName n="Lincoln's Inn">Lyncoln<ex>es</ex> Inn</placeName> <del>the</del> Mundaie night<note type="foot">15 February 1612/13</note> and <placeName n="Gray's Inn">Grayes Inne</placeName> and the <placeName n="Inner Temple">Inner Temple</placeName> Tewsdaie night<note type="foot">16 February 1612/13</note>. <persName>Nedd Palmer</persName> our Cosin is one for our howse....
-               ...</ab>
-         </div>      
-      </body>
-   </text>
- 
-   <text ana="taxon:letter" type="record">
-      <body xml:lang="eng">
-         <head>Letter of Sidney Montagu to Sir Edward Montagu
-            <date when-iso="1613-02-11">1613-02-11</date>
-            <seg ana="taxon:RLC008" corresp="taxon:RLPIC2 pp. 687">RLC008</seg></head>
-         <div type="transcription">
-            <head>single sheet <supplied>(11 February)</supplied></head>
-            <pb n="1" type="sheet"/>
+            <ab>I cannot but acknowledg with all thanckfullnes (My hono<ex>ra</ex>ble and much esteemed good frend) yo<ex>u</ex>r kinde remembring of him whoe longe hath and ever will both acknowledge yo<ex>u</ex>r vertues and owe yow much Loue; The Coldnese of this English time affordeth not much worthie the passage by Sea, but that o<ex>u</ex>r well liked of marriage was solemnized the 14<add place="above">th</add> of this p<ex>rese</ex>nte moneth of ffebr<ex>uary</ex> Wherat all <persName type="Ambassadors">foraine Embassadors</persName> (the Spanish only excepted) were p<ex>rese</ex>nte. And soe were they Mundaie and tuesday<note type="foot">15 and 16 February 1612/13</note> following The marriage was accompanied with much Noblenesse and Royalty Thursdaie and Satturdaie<note type="foot">11 and 13 February 1612/13</note> before with firework<ex>es</ex> and shippfight<ex>es</ex> vpon <placeName n="The Thames">Thames</placeName>, Sunday night<note type="foot">14 February 1612/13</note> with <title>the Erles and Ladyes Maske</title> Munday night<note type="foot">15 February 1612/13</note> with <title n="The Memorable Masque">the Maske of the Middle Temple and Lyncolnes Inn</title> whoe came through the streete on greate horses w<ex>hi</ex>ch with the sumptuousnesse of the Maske the device therof with the requisite performance hadd the price and praise of all others. On Tuesday night<note type="foot">16 February 1612/13</note> was the Maske of the Inner Temple and Greys Inn readie for the performance of their Maske ther com<ex>m</ex>ing and shewe being by water but they retourned that night without execuc<ex>i</ex>on But on satturday night<note type="foot">20 February 1612/13</note> after they performed the same w<ex>i</ex>th good approbac<ex>i</ex>on; On Sunday night<note type="foot">21 February 1612/13</note> after the <persName n="James I">Kinge</persName> feasted the <orgName n="Inns of Court">Innes of Courte</orgName> w<ex>i</ex>th a greate deale of ioye and comforte himself sitting at the same Boorde, Soe that I may well write yow that never <persName n="James I">Kinge</persName> was more gloriouslie and Royally served by them, nor they more honored or graced by <persName n="James I">a Soueraigne</persName>.... </ab>
             
-            <ab>...Heere is Now all preparinge for shewes; to Morrow they beginne; god sende theme well ended; I shall not forth of this towne this next weeke... ...</ab>
-            
-         </div>      
-      </body>
-   </text>
-   
-   <text ana="taxon:letter" type="record">
-      <body xml:lang="eng">
-         <head>Letter of Sidney Montagu to Sir Edward Montagu
-            <date when-iso="1613-02-13">1613-02-13</date>
-            <seg ana="taxon:RLC008" corresp="taxon:RLPIC2 pp. 687">RLC008</seg></head>
-         <div type="transcription">
-            <head>single sheet <supplied>(13 February)</supplied></head>
-            <pb n="1" type="sheet"/>
-            
-            <ab>...vppon Thursdaie<note type="foot">11 February 1612/13</note> at night after supper, was the greate fyre woorke. I heare no body admyre them though suerlie the were chargeable thinges. This afternoone hath beene the sea fight w<ex>i</ex>th some 15 or 16 Pynesses, and half a score Galleyes, who passed vp by the Courte and so ^<add place="above">to</add> take a Turkishe Castle buylte neere <placeName n="Lambeth">Lambeth</placeName> w<ex>hi</ex>ch hath beene no smale charge, if to no greate purpose. Now the masking sportes shall follow... ...</ab>
-
-         </div>      
+           
+         </div>
       </body>
    </text>
 </TEI>
+
 
 
 
