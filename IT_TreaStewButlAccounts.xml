@@ -235,16 +235,151 @@
       </revisionDesc>
    </teiHeader>
 
-   <text ana="taxon:letter" type="record">
+   <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
-         <head>Inns of Court
-            <date from-iso="YYYY" to-iso="YYYY">YYYY-YYYY</date>
-            <seg ana="taxon:RL1234" corresp="taxon:RLPIC1 pp. numbers">six number code</seg></head>
+         <head>
+            <date from-iso="1612" to-iso="1613">1612-1613</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RLPIC1 pp. 153, 176">RLITTS</seg></head>
          <div type="transcription">
-            <head> sheet or folio<supplied>supplied from text</supplied></head>
-            <pb n="number" type="sheet"/>
-
+            <head>f 72v <supplied>(1 November - 1 November) (Payments)</supplied></head>
+            <pb n="f 72v" type="folio"/>
+            <gap reason="omitted"/>
+            <table>
+               <row>
+                  <cell>Item payd for 2 staffe torches on Alhallonday</cell>
+                  <cell>ij s.</cell>
+               </row>
+               <gap reason="omitted"/>
+               <row>
+                  <cell>Item payd to Musitians for theyr ffee the same day</cell>
+                  <cell>xx s.</cell>
+               </row>
+               <row>
+                  <cell>Item payd for a playe the same day</cell>
+                  <cell>v li.</cell>
+               </row>
+               <gap reason="omitted"/>
+               <row>
+                  <cell>Item payd to the Musitions for their ffee the v<hi rend="superscript">th</hi> of November</cell>
+                  <cell>xiij s. iiij d.</cell>
+               </row>
+               <row>
+                  <cell>Item payd for a play on Candlemas day</cell>
+                  <cell>vj li. xiij s. iiij d.</cell>                  
+               </row>
+               <row>
+                  <cell>Item payd to another company of players w<ex>hi</ex>ch were appointed to play heere the same day</cell>
+                  <cell>xxx s.</cell>
+               </row>
+               <row>
+                  <cell>Item p<ex>ay</ex>d for 2 staffe torches the same day</cell>
+                  <cell>ij s.</cell>
+               </row>
+               <gap reason="omitted"/>
+               <row>
+                  <cell>Item p<ex>ay</ex>d for ye Musitians fee the same day</cell>
+                  <cell>xx s.</cell>
+               </row>
+               <row>
+                  <cell>Item payd for one dosen of torches for the Revells in Mich<ex>aelm</ex>as terme 1612</cell>
+                  <cell>x s.</cell>
+               </row>               
+            </table>
          </div>
+         <div type="endnote">
+            <ab>Apparently two different companies were booked for the same afternoon (‘another company of players,’ p 153, l.14), the second of which did not perform. If so, this is the only instance in the Inner Temple records of a company of players being paid for not performing.</ab>
+         </div>
+            
+         <div type="transcription">
+            <head>f 73 <supplied></supplied></head>
+            <pb n="f 73" type="folio"/>
+            <gap reason="omitted"/>
+            <table>
+               <row>
+                  <cell>It<ex>em</ex> payd for 6 torches for the benchers to see the maske at Elye house</cell>
+                  <cell>v s.</cell>
+               </row>
+               <row>
+                  <cell>It<ex>em</ex> payd for 2 torches another tyme to goe to Item payd for 2 torches another tyme to goe to</cell>
+                  <cell>ij s.</cell>
+               </row>
+            </table>
+            <gap reason="omitted"/>
+         </div>
+         <div type="endnote">
+            <ab>No masque is known to have been performed at Ely House, the bishop of Ely’s town residence in Holborn, this year. The ‘maske at Elye house’ (p 153, l.25) was possibly a rehearsal of Beaumont’s masque (see Chambers, <hi rend="italic">Elizabethan Stage</hi>, vol 3, 235).</ab>
+         </div>
+         
+         <div type="transcription">
+            <head>f 75v <supplied></supplied></head>
+            <pb n="f 75v" type="folio"/>
+            <gap reason="omitted"/>
+            <table>
+               <row>
+                  <cell>Item paid to Mr Lewes Hele at 2 seu<ex>er</ex>all tymes toward<ex>es</ex> the maske busines</cell>
+                  <cell>lxx li.</cell>
+               </row>
+               <row>
+                  <cell>Item paid to Mr ffenner towarde the same busines</cell>
+                  <cell>x li.</cell>
+               </row>
+               <row>
+                  <cell>Item paid to a messinger w<ex>hi</ex>ch Mr ffenner p<ex>ro</ex>vided ^<add place="above">to fetch Mr Beamont</add></cell>
+               </row>
+               <gap reason="omitted"/>
+               <row>
+                  <cell>Item paid to Iohn Hodgkins for boate hyer to and fro to Winchester howse about the maske busines</cell>
+                  <cell>ij s. vj d.</cell>
+               </row>
+            </table>
+         </div>
+         
+         <div type="endnote">            
+            <ab>Winchester House (p 153, l.39) was the residence of the bishop of Winchester in Southwark. It was from Southwark that the Inner Temple and Gray’s Inn masquers proceeded by water to Whitehall, the theme of the masque being the marriage of the Rivers Thames and Rhine.</ab>
+         </div>
+         
+         <div type="transcription">
+            <head>f 82 <supplied>(1 November - 1 November) (Payments)</supplied></head>
+            <pb n="f 82" type="folio"/>
+            <gap reason="omitted"/>
+            <table>
+               <row>
+                  <cell>It<ex>e</ex>m paid for a play vpon all saint<ex>es</ex> day 1613</cell>
+                  <cell>vj li. xiij s. iiij d.</cell>
+               </row>
+               <row>
+                  <cell>It<ex>e</ex>m p<ex>ai</ex>d for 2 staffe torches ye same day</cell>
+                  <cell>ij s.</cell>
+               </row>
+               <gap reason="omitted"/>
+               <row>
+                  <cell>It<ex>e</ex>m p<ex>ai</ex>d for the Music<ex>io</ex>ns ffee ye same day</cell>
+                  <cell>xx s.</cell>
+               </row>
+               <row>
+                  <cell>It<ex>e</ex>m p<ex>ai</ex>d for theyr ffee on the fifte of Novemb<ex>er</ex></cell>
+                  <cell>xiij s. iiij d.</cell>
+               </row>
+               <gap reason="omitted"/>
+               <row>
+                  <cell>It<ex>e</ex>m p<ex>ai</ex>d for a play one Candlemas day 1613</cell>
+                  <cell>vj li. xiij s. iiij d.</cell>
+               </row>
+               <row>
+                  <cell>It<ex>e</ex>m for 2 staffe torches the same day</cell>
+                  <cell>ij s.</cell>
+               </row>
+               <gap reason="omitted"/>
+               <row>
+                  <cell>It<ex>e</ex>m p<ex>ai</ex>d for the Musitions ffee the same day</cell>
+                  <cell>xx s.</cell>
+               </row>
+               <gap reason="omitted"/>
+            </table>
+         </div>
+                   
+
+
       </body>
    </text>
   

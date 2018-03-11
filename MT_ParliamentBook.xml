@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="REED.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="eng"> 
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            
+            <title type="main">Inns of Court</title>
+
+            
+            <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>
+            <funder><orgName>CANARIE</orgName></funder> 
+            
+            <funder><orgName>British Academy, London, UK</orgName></funder>
+            <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>            
+            <funder><orgName>National Endowment for the Humanities, Washington, DC, United States of
+               America</orgName></funder>
+            <funder><orgName>Social Sciences and Humanities Research Council, Ottawa,
+               Canada</orgName></funder>
+            
+		 <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
+		 <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
+            
+            <respStmt>
+               <persName xml:id="CB">Carolyn Black</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Project Manager</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>John Bradley</persName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Susan Brown</persName> 
+               <orgName>University of Guelph</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="KC">Kathy Chung</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>REED Research Associate, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>William Cooke</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>English Glossarian</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="JC">James Cummings</persName>
+               <orgName>Newcastle University</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+               <resp>TEI Schema Designer, Technical Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Matthew Davies</persName>
+               <orgName>University of London, Birkbeck College</orgName> <!-- confirm -->
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="PG">Patrick Gregory</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Associate Editor</resp> <!-- confirm -->
+               <resp>Paleographer, Translator</resp> <!-- confirm -->
+            </respStmt>
+            <respStmt>
+               <persName>Tanya Hagen</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Bibliographer, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="JAKA1">Diane K. Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>Principal Investigator, NHPRC-Mellon Digital Edition Publishing Cooperatives Planning Grant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Alexandra F. Johnston</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>REED Founder and Senior Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>David Kathman</persName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Sally-Beth MacLean</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Principal Investigator, SSHRC grant; Director of Research and General Editor</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Maureen Maclean</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="KM">Kimberley Martin</persName>
+               <orgName>University of Guelph</orgName>
+               <resp>NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Christopher Matusiak</persName>
+               <orgName>Ithaca College</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="JN">Jamie Norrish</persName>
+               <resp>Programmer, EATS developer, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Dorothy Porter</persName>
+               <orgName>University of Pennsylvania</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Arleane Ralph</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Paleographer</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Suzanne Westfall</persName>
+               <orgName>Lafayette College</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board Member</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Abigail Ann Young</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Latin Glossarian</resp>
+            </respStmt>
+            
+         </titleStmt>
+         <editionStmt>
+            <edition>Print version, published <date when-iso="2010">2010</date>. Electronic edition, anticipated publication <date when-iso="2018">2018</date></edition>
+         </editionStmt>
+         
+         <publicationStmt>
+            <authority><orgName>Records of Early English Drama (REED)</orgName>
+               <address>
+                  <addrLine>University of Toronto</addrLine>
+                  <addrLine>170 St George Street, Suite 810</addrLine>
+                  <addrLine>Toronto, Ontario, Canada</addrLine>
+                  <addrLine>M5R 2M8</addrLine>
+               </address>
+            </authority>
+            
+            <publisher>D.S. Brewer, Cambridge, an imprint of Boydell &amp; Brewer Ltd./Boydell &amp; Brewer Ltd.</publisher>
+            <pubPlace>Rochester, NY</pubPlace>
+            <date>2010</date>
+            <idno type="other">978-1-84384-259-0</idno>
+            
+            <availability>
+               <p>Copyright <orgName>Records of Early English Drama (REED)</orgName>,
+                  <date>2017</date></p>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a
+                  Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA
+                  4.0) licence.</licence>
+            </availability>
+         </publicationStmt>
+         
+         <seriesStmt>
+            <title>Records of Early English Drama</title>
+         </seriesStmt>
+         <sourceDesc>
+            <p>This publication constitutes a remediation of the printed Inns of Court collection. Information on original sources for transcriptions can be accessed via the Document Descriptions.</p>
+            <p>For a full list of REED collections, editors, executive board members, and staff, please visit http://reed.utoronto.ca/people</p>       
+         </sourceDesc>
+      </fileDesc>
+      
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="taxon" matchPattern="([A-Za-z0-9_-]+)"
+               replacementPattern="../taxonomy.xml#$1">
+               <p>Private URIs using the <code>taxon</code> prefix are pointers to entities in the
+                  taxonomy.xml file. For example, <code>taxon:church</code> dereferences to
+                  <code>taxonomy.xml#church</code>.</p>
+            </prefixDef>
+            <prefixDef ident="gloss" matchPattern="([A-Za-z0-9_-]+)"
+               replacementPattern="../glossary.xml#$1">
+               <p>Private URIs using the <code>gloss</code> prefix are pointers to entities in the
+                  glossary.xml file. For example, <code>gloss:histrio-1</code> dereferences to
+                  <code>glossary.xml#histrio-1</code>.</p>
+            </prefixDef>
+         </listPrefixDef>
+         
+         <projectDesc>
+            <p>Records of Early English Drama (REED) is an international scholarly project that is
+               establishing for the first time the context from which the drama of Shakespeare and his
+               contemporaries grew. Founded in 1976, REED has worked since then to locate, transcribe,
+               and edit historical documents containing evidence of drama, secular music, and other
+               communal entertainment and ceremony from the Middle Ages until 1642, when the Puritans
+               closed the London theatres.</p>
+         </projectDesc>
+      </encodingDesc>
+      
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">English</language>
+            <language ident="lat">Latin</language>
+            <language ident="fra">Anglo-French</language>
+         </langUsage>
+         <settingDesc>
+            <place>
+               <placeName>London</placeName> 
+            </place>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <!-- Add new major milestone changes to top -->
+         <change when="2018-03-10" who="#JAKA1">created document</change>
+      </revisionDesc>
+   </teiHeader>
+
+   <text ana="taxon:middle_temple" type="record">
+      <body xml:lang="eng">
+         <head>Middle Temple Parliament Book
+            <date from-iso="1612" to-iso="1613">1612-13</date>
+            <seg ana="taxon:RLMTPB" corresp="taxon:RLPIC1 pp. 159-61">RLMTPB</seg></head>
+         <div type="transcription">
+            <head>f 44<supplied>(27 November)</supplied></head>
+            <pb n="f 44" type="folio"/>
+            <gap reason="omitted"/>
+            <table>
+               <row>
+                  <cell>Ordinatu<ex>m</ex> est ad hoc p<ex>ar</ex>liamentu<ex>m</ex> q<ex>uo</ex>d festu<ex>m</ex> Natalis Do<ex>mi</ex>ni solempnit<ex>er</ex> (non grande) celerabit<ex>ur</ex><note type="foot">for celebrabitur</note> Et q<ex>uo</ex>d Com<ex>m</ex>unie continuabunt<ex>ur</ex> vsq<ex>ue</ex> ad proximu<ex>m</ex> Terminu<ex>m</ex> et allocat<ex>ur</ex> hic com<ex>m</ex>orantib<ex>us</ex> vna biga Carbonu<ex>m</ex> et quadragint<ex>a</ex> solid<ex>i</ex> pro salario Musicoru<ex>m</ex> ante hac consuet<ex>o</ex>, Et preteria allocat<ex>ur</ex> pro Com<ex>m</ex>unijs</cell>
+                  <cell>iij li.</cell>
+               </row>
+            </table>
+            <gap reason="omitted"/>           
+         </div>
+         
+         <div type="translation">
+            <table>
+               <row>
+                  <cell>At this parliament it was ordered that the feast of Christmas will be celebrated solemnly, not grandly, and that commons will be continued up until next term; and one cart-load of coals is allowed for those remaining here and 40s for the musicians’ salary (as has been) previously customary, and in addition allowed for the commons</cell>
+                  <cell>£3</cell>
+               </row>
+            </table>
+         </div>
+
+         <div type="transcription">
+            <head>f 48v<supplied>(21 February)</supplied></head>
+            <pb n="f 48v" type="folio"/>
+            <gap reason="omitted"/>   
+            <ab>
+               <persName n="Inigo Jones">Inigo Iones</persName> ar<ex>miger</ex> admissus est in Societatem Medij Templi Specialiter ex assensu <persName n="Robert Davies">Rob<ex>er</ex>ti Davyes</persName> ar<ex>migeri</ex> Modo Lectoris et alioru<ex>m</ex> M<ex>agist</ex>ror<ex>um</ex> de Banco
+               <gap reason="omitted"/>
+            </ab>
+            <note type="marginal"><persName n="Inigo Jones">Iones. I<ex>nigo</ex></persName> ar<ex>miger</ex> ad<ex>missus</ex>
+               </note>
+            <gap reason="omitted"/>
+         </div>
+         <div type="translation">
+            <ab>
+               <persName n="Inigo Jones">Inigo Jones</persName>, esquire, has been admitted specially into the society of the Middle Temple by the assent of <persName n="Robert Davies">Robert Davies</persName>, esquire, reader at present, and (by the assent) of other benchers.
+            </ab>
+            <note type="marginal"><persName n="Inigo Jones">Jones, Inigo</persName>, esquire, admitted</note>
+
+         <note type="editorial">
+            <ab>
+               Inigo Iones’ (p 159, l.34): Jones’s special admission is also recorded on a loose sheet (see p 164).
+            </ab>
+         </note>
+         </div>
+
+         <div type="transcription">
+            <head>f 54<supplied>(11 June)</supplied></head>
+            <pb n="f 48v" type="folio"/>
+            <gap reason="omitted"/>   
+            <ab>
+               <note type="marginal">A gen<ex>er</ex>all Taxac<ex>i</ex>on</note> fforasmvch as at this tyme the howse standeth indebted in dyvers somes of money amounting in the whole to the some of six hundred pound<ex>es</ex> and moore, wheareof a greate parte of the said some of six hundred pound<ex>es</ex> ys owing vnto dyvers artificers in this Cittye, such as are not able to forbeare their money but to their greate losse or vndoing, ffor avoyding of all such inconveniences w<ex>hi</ex>ch maye heereafter grow by reason of the said debt, The <note type="marginal">inf<ex>ra</ex> hic. b.</note> Ma<ex>ste</ex>rs of the Bench have at this present p<ex>ar</ex>liam<ex>en</ex>t decreed and so ordered that there shalbe forthw<ex>i</ex>th anoth<ex>e</ex>r taxacion presently levyed thorowgh owt this howse, vid<ex>e</ex>l<ex>ice</ex>t everye one of the M<ex>aste</ex>rs of the Bench to paye iij li., and everye one of the Ma<ex>ste</ex>rs of the vtterbarr to paye xl s., and everye oth<ex>e</ex>r gent<ex>leman</ex> of this ffellowshipp to paye xx s.
+            </ab>
+            <ab>
+               Provided that all such gent<ex>lemen</ex> of this howse that have bynn admytted since the first daye of Easter Tearme last, and all others to be admitted heereafter shalbe free from this tax./
+            </ab>
+            <gap reason="omitted"/>
+
+         <note type="editorial">
+            <ab>
+               Although the taxation (p 160, l.4m) is not explicitly tied to the masque of this year, reference to ‘dyvers artificers in this Cittye’ (p 160, l.6) points unequivocally in that direction.
+            </ab>
+         </note>
+         </div>
+         
+         <div type="transcription">
+            <head>f 54v<supplied>(16 June)</supplied></head>
+            <pb n="f 54v" type="folio"/>
+            <gap reason="omitted"/>   
+            <ab>   
+               <note type="marginal">Taxac<ex>i</ex>on</note> Whereas at the p<ex>ar</ex>liam<ex>en</ex>t holden the xj<hi rend="superscript">th</hi> daye of this instant moneth of Iune, Yt was then ordered by all the M<ex>aste</ex>rs of the Bench, that there showld be an oth<ex>e</ex>r taxacion presently levyed thorowgh owt this howse vid<ex>e</ex>l<ex>ice</ex>t every <del>every</del> one of the M<ex>aste</ex>rs of the Bench to paye iij li., and every one of the M<ex>aste</ex>rs of the vtterbarr to paye xl s., and every other gent<ex>leman</ex> of <note type="marginal">sup<ex>ra</ex> hic. a.</note> this ffellowshipp to paye xx s., Synce which tyme the M<ex>aste</ex>rs of the Bench vnderstanding the vnwillingnes of the gentlemen to be taxed at such greate somes, and the saide M<ex>aster</ex>s of the Bench willing to ease them as mvche as in them lyeth, have ordered that wheareas the M<ex>aste</ex>rs of the Bench weare taxed at iij li. a peece, to be now but l s. a peece which ys forth with to be payde, and everye vtterbarrister which was to paye xl s. ys now to paye but xxx s. the one half thereof to be payde before sundaye next,<note type="foot">20 June 1613</note> and the other half to be payde before the ffeastdaye of all Saint<ex>es</ex> next comming, And every other gent<ex>lemen</ex> of this ffellowshipp which was, to paye xx s. a peece ys nowe to paye but xv s. the one half thereof to be payde before Sundaye next,<note type="foot">20 June 1613</note> and the other half to be payde before the ffeastdaye of all Saynt<ex>es</ex> next commyng as aforesayde, and all gent<ex>lemen</ex> that are Attorneys or practisers of the house to paye xx s. a peece, the one half thereof to be payde before before Sundaye next<note type="foot">20 June 1613</note> and the other half thereof to be paide before the feast of all Sayntes next commyng as aforesayde, And further wheareas dy<damage>..</damage>rs gent<ex>lemen</ex> of this ffellowshipp have vsually come into Commons in the vacacion tymes, and not in the Tearme tymes onelye to avoyde the payment of duetyes. Yt ys therefore further ordered that all such gent<ex>lemen</ex> that now are in Common<ex>es</ex>, or that shall come into Commons at anye tyme heereafter, shall not goe owt of Commons before they have payde all such some or somes by them due as aforesayde./
+            </ab>
+            <gap reason="omitted"/>
+         </div>
+         
+         <div type="transcription">
+            <head>f 55<supplied>(18 June)</supplied></head>
+            <pb n="f 55" type="folio"/>
+            <gap reason="omitted"/>   
+            <ab>
+               <note type="marginal">infr<ex>a</ex> 67.b.</note> Whereas Edward Powell gent<ex>lemen</ex> one of the ffellowes of this howse hathe of his voluntary mynde lent vnto the ffellowshipp of this howse <del>the</del> toward<ex>es</ex> the defraying of the chardg of the late Maske the some of fiftye pound<ex>es</ex> curraunt money, ffor repayment whereof the M<ex>aste</ex>rs of the Benche have at this present p<ex>ar</ex>liam<ex>en</ex>t with one consent decreed and so ordered that the <note type="marginal"><persName n="Edward Powell">Powell</persName> lent 50 li.</note> saide some of fyftye pound<ex>es</ex> shalbe repayd vnto the saide <persName n="Edward Powell">Edward Powell</persName> his executors or assignes at the ende of six monethes next after the date of this present p<ex>ar</ex>liament./
+            </ab>
+         </div>
+
+         <div type="transcription">
+            <head>f 55v<supplied></supplied></head>
+            <pb n="f 55v" type="folio"/>
+            <gap reason="omitted"/>   
+            <ab>
+               <note type="marginal">Baldwines, Barkers, &amp; Blunt<ex>es</ex> bond disch<ex>arged</ex></note> And further wheareas <persName n="Richard Baldwin">Richard Baldwin</persName>, <persName n="Francis Barker">ffrauncis Barker</persName>, &amp; <persName n="Arthur Blunt">Arthur Blunt</persName>, Officers of this howse at ye instance of the right wor<ex>shipfu</ex>ll the Masters of the Bench of this howse, doe stand ioyntly and seu<ex>er</ex>ally bound in one obligacion bearing date the xv<hi rend="superscript">th</hi> daye of ffebruary last past vnto S<ex>i</ex>r Thomas Temple of <placeName n="Stauntonbury, Buckinghamshire">Stauntonbury in the Countye of Buck<ex>inghamshire</ex></placeName> knight in the some of fower hundred pound<ex>es</ex> of lawfull money of England, with condicion for the paym<ex>ent</ex> of two hundred and fifteene pound<ex>es</ex> one the xviij<hi rend="superscript">th</hi> daye of November next ensuing, as by the same obligacion and condicion more at large yt doth and maye appeare, which money was imployed toward<ex>es</ex> the defraying of the charge of the late maske, Now the Ma<ex>ste</ex>rs of the Bench have at this present p<ex>ar</ex>liam<ex>en</ex>t with one consent and agreem<ex>en</ex>t, decreed &amp; soe ordered that the saide <del>of</del> som<ex>m</ex>e of CCxv li. shalbe repayde vnto the sayde S<ex>i</ex>r Thomas Temple his executors or assignes one the saide xviij<hi rend="italic">th</hi> daye of November and according to the tenor and effect of the sayde obligacion &amp; condicion,
+            </ab>
+         
+         <note type="editorial"> 
+            <ab>
+               The ‘late Maske’ (p 161, l.13) is Chapman’s <hi rend="italic">Memorable Masque</hi>. Hopwood, <hi rend="italic">Middle Temple Records</hi>, vol 2, pp 566–7, and Orbison (ed), <hi rend="italic">Collections</hi> 12, pp 5, 23, misread the entry on f 55v (p 161) to say that the Temple lent £215, not £400.
+            </ab>
+         </note>
+         </div>
+      </body>
+   </text>
+   
+   <text ana="taxon:middle_temple" type="record">
+      <body xml:lang="eng">
+         <head>Middle Temple Parliament Book
+            <date from-iso="1613" to-iso="1614">1613-14</date>
+            <seg ana="taxon:RLMTPB" corresp="taxon:RLPIC1 pp. 177-8">RLMTPB</seg></head>
+         <div type="transcription">
+            <head>f 63<supplied>(26 November)</supplied></head>
+            <pb n="f 63" type="folio"/>
+            <gap reason="omitted"/>
+            <table>
+               <row>
+                  <cell>Ordinatum est ad hoc p<ex>ar</ex>liamentu<ex>m</ex> q<ex>uo</ex>d ffestu<ex>m</ex> Natalis d<ex>omi</ex>ni solempnit<ex>er</ex> (non grande<note type="foot">closing parenthesis omitted</note> celebrabit<ex>u</ex>r, Et q<ex>uo</ex>d Com<ex>m</ex>unie continuabunt<ex>ur</ex> vsque ad proximu<ex>m</ex> Terminu<ex>m</ex> et allocat<ex>ur</ex> hic Com<ex>m</ex>orantib<ex>us</ex> vna biga Carbonu<ex>m</ex> et quadragint<ex>a</ex> solid<ex>i</ex> pro salario Musicoru<ex>m</ex> ante hac consuet<ex>o</ex>, Et preteria allocatur pro Com<ex>m</ex>unijs</cell>
+                  <cell>iij li.</cell>
+               </row>
+            </table>
+            <gap reason="omitted"/>
+         </div>
+         <div type="translation">
+            <gap reason="omitted"/>
+            <table>
+               <row>
+                  <cell>It was ordered at this parliament that the feast of Christmas will be celebrated solemnly, not grandly, and that commons will be continued up until next term; and one cart-load of coals is allowed for those remaining here and 40s for the musicians’ salary (as has been) previously customary, and in addition allowed for the commons</cell>
+                  <cell>£3</cell>
+               </row>
+            </table>
+            <gap reason="omitted"/>
+         </div>
+         
+         <div type="transcription">
+            <head>f 66<supplied>(28 January)</supplied></head>
+            <pb n="f 66" type="folio"/>
+            <gap reason="omitted"/>
+            
+            <ab>
+               <note type="marginal">Disinge, Cardinge, &amp; Lo<ex>rds</ex> of Misrule</note> Whereas dyvers act<ex>es</ex> of parliament of this howse have formerly bynn made vid<ex>e</ex>l<ex>icet</ex> 27<hi rend="superscript">o</hi> 33<hi rend="superscript">o</hi> et 34<hi rend="superscript">to</hi> Elizabeth against dising, carding, owtcrise in the night setting vp of of<note type="foot">dittography</note> Lo<ex>rds</ex> of Misrule, breaking vpp of Chamber doores and oth<ex>er</ex> disorders, as in the said seu<ex>er</ex>all actes of p<ex>ar</ex>liam<ex>en</ex>t more at large ys specified, And wheareas <persName n="Mr Watson" role="Lord of Misrule">mr Watson</persName>, <persName n="William Angell">mr Angell</persName>, <persName n="John Argent">mr Argent</persName>, and <persName n="Simon Spatchurst">mr Spatchurst Iun<ex>ior</ex></persName>, have not withstanding the saide <del>seu<ex>er</ex>all</del> act<ex>es</ex> of P<ex>ar</ex>liam<ex>en</ex>t and ordinanc<ex>es</ex> with others as yet to the Ma<ex>ste</ex>rs of the Bench vnknowne, contemptuously vppon the vij<hi rend="superscript">th</hi> daye of this instant moneth of Ianuary sett vpp the saide <persName n="Mr Watson" role="Lord of Misrule">mr Watson</persName> for their Lord of Misrule, broken open Chamber doores as well within the howse as owt of the howse, made owtcrise in the night w<ex>i</ex>th striking vpp of drumes and blowing of hornes aswell within the howse as in the street<ex>es</ex> and comytted other disorders., Yt ys therefore thowght fytt and so ordered by all the M<ex>aste</ex>rs of the Bench at this p<ex>ar</ex>liament that <persName n="Mr Watson" role="Lord of Misrule">mr Watson</persName> and <persName n="William Angell">mr Angell</persName> shall paye for their offenc<ex>es</ex> to the Treasurer of this howse to the vse of this howse for their saide disorders the some of six pound<ex>es</ex> thirteene shilling<ex>es</ex> and fower pence a peece, and that the saide <persName n="John Argent">mr Argent</persName> shall paye for his offence the some of fyve pound<ex>es</ex> and <persName n="Simon Spatchurst">Mr Spatchurst</persName> to paye for his offence in going abroade with the Lo<ex>rd</ex> of Misrule the some of <note type="marginal">infra 67.b.</note> fyve m<ex>ar</ex>kes, In w<ex>hi</ex>ch case they are onely fined and not expelled the howse, because as they pretend they knew not of the saide former statut<ex>es</ex>, And yf the saide seu<ex>er</ex>all somes be not payde before Mundaye night next,<note type="foot">31 January 1613/14</note> that then they to be expulsed owt of this howse and fellowshipp/               
+            </ab>
+            <gap reason="omitted"/>
+         <note type="editorial">
+            <ab>
+               For the acts of parliament referenced in ll.21–4, see pp 118–19 and endnote, which is this ...
+            </ab>
+            <ab>
+               The order of 25 November, 27 Elizabeth (1584) (ll.3–4) occurs on f 171v, flagged in the margin, ‘Card<ex>es</ex> dice &amp; Candlemas Lorde:/’:
+               <quote>It ys ordered y<ex>a</ex>t none shall play at dice nor cardes w<ex>i</ex>t<ex>h</ex> in this howse, neyther in the hall, nor in the chambers, at any tyme of the yeare, vppon payne to be expulsed the howse, And also y<ex>a</ex>t no out cries in the night be made, nor chamb<ex>er</ex>s broken open by any gent<ex>lemen</ex> of this house, as by Lorde of Candlemas night or suche Lyke mysorder vppon payne of puttinge out of <del>the hous</del> com<ex>m</ex>ons for such offence</quote>
+               This entry contains a marginal reference to a still earlier entry on f 150, dated 9 February 1583/4 and flagged by the marginal note ‘Dycesinge’: ‘And Likwise hit ys ordeyned that in the feaste of Christmas hensfourth no Dicesinge within this saide house be had and vsed, vppo<ex>n</ex> payne of puttinge of such p<ex>er</ex>sone or p<ex>er</ex>sons out of Commons w<ex>hi</ex>ch shall practise the same.’ A similar entry, ff 207–7v, for 6 February 1589/90, concerns unspecified disorders which occurred four days earlier on ‘Candlemas night.’ Three of these entries are referenced in a much later entry, dated 28 January 1613/14 (see p 177).
+            </ab>
+         </note>
+         </div>
+
+         <div type="transcription">
+            <head>f 67v<supplied>(11 February)</supplied></head>
+            <pb n="f 67v" type="folio"/>
+            <gap reason="omitted"/>
+            
+            <ab>
+               <note type="marginal">sup<ex>ra</ex> 66.a</note> And further whereas at the first p<ex>ar</ex>liam<ex>en</ex>t of this Hillary Tearme, <persName n="Mr Watson" role="Lord of Misrule">mr Watson</persName>, <persName n="William Angell">mr Angell</persName>, <persName n="John Argent">mr Argent</persName>, and <persName n="Simon Spatchurst">mr Spatchurst Iun<ex>ior</ex></persName> weare fined, for dyvers Misdemeanors and disorders by them com<ex>m</ex>ytted this last Christmas, as by the sayde act of p<ex>ar</ex>liam<ex>en</ex>t yt dothe and maye appeare, more at large,/ Nowe <note type="marginal">Watson, Angell Argent &amp; Spatchurst resto<ex>red</ex></note> for asmvch as the sayde mr Watson, mr Angell mr Argent, and mr Spatchurst have at this p<ex>ar</ex>liam<ex>en</ex>t submitted themselves to the M<ex>aste</ex>rs of the Benche <del>at th</del> acknowledging their seu<ex>er</ex>all offencers<note type="foot">for offences</note> in breaking of the Lawes and orders of this howse formerly made, The M<ex>aste</ex>rs of the Bench at this p<ex>ar</ex>liam<ex>en</ex>t by the Mediation of the right Wor<ex>shipfu</ex>ll Sir Edward Phelipps knight M<ex>aste</ex>r of the Rolls, have accepted of their saide submissions, and therevppon p<ex>ar</ex>doned all their fines, and restored them into this howse and fellowshipp and to their former antiquities, anye acte or order of this howse to the contrarye notwithstanding./
+            </ab>
+               <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
+         
+</TEI>
