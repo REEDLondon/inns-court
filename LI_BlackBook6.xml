@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="REED.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="eng">  
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            
+            <title type="main">Inns of Court</title>
+
+            
+            <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>
+            <funder><orgName>CANARIE</orgName></funder> 
+            
+            <funder><orgName>British Academy, London, UK</orgName></funder>
+            <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>            
+            <funder><orgName>National Endowment for the Humanities, Washington, DC, United States of
+               America</orgName></funder>
+            <funder><orgName>Social Sciences and Humanities Research Council, Ottawa,
+               Canada</orgName></funder>
+            
+		 <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
+		 <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
+            
+            <respStmt>
+               <persName xml:id="CB">Carolyn Black</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Project Manager</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>John Bradley</persName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Susan Brown</persName> 
+               <orgName>University of Guelph</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="KC">Kathy Chung</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>REED Research Associate, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>William Cooke</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>English Glossarian</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="JC">James Cummings</persName>
+               <orgName>Newcastle University</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+               <resp>TEI Schema Designer, Technical Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Matthew Davies</persName>
+               <orgName>University of London, Birkbeck College</orgName> <!-- confirm -->
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="PG">Patrick Gregory</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Associate Editor</resp> <!-- confirm -->
+               <resp>Paleographer, Translator</resp> <!-- confirm -->
+            </respStmt>
+            <respStmt>
+               <persName>Tanya Hagen</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Bibliographer, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="JAKA1">Diane K. Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>Principal Investigator, NHPRC-Mellon Digital Edition Publishing Cooperatives Planning Grant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Alexandra F. Johnston</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>REED Founder and Senior Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>David Kathman</persName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Sally-Beth MacLean</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Principal Investigator, SSHRC grant; Director of Research and General Editor</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Maureen Maclean</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="KM">Kimberley Martin</persName>
+               <orgName>University of Guelph</orgName>
+               <resp>NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Christopher Matusiak</persName>
+               <orgName>Ithaca College</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="JN">Jamie Norrish</persName>
+               <resp>Programmer, EATS developer, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Dorothy Porter</persName>
+               <orgName>University of Pennsylvania</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Arleane Ralph</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Paleographer</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Suzanne Westfall</persName>
+               <orgName>Lafayette College</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board Member</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Abigail Ann Young</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Latin Glossarian</resp>
+            </respStmt>
+            
+         </titleStmt>
+         <editionStmt>
+            <edition>Print version, published <date when-iso="2010">2010</date>. Electronic edition, anticipated publication <date when-iso="2018">2018</date></edition>
+         </editionStmt>
+         
+         <publicationStmt>
+            <authority><orgName>Records of Early English Drama (REED)</orgName>
+               <address>
+                  <addrLine>University of Toronto</addrLine>
+                  <addrLine>170 St George Street, Suite 810</addrLine>
+                  <addrLine>Toronto, Ontario, Canada</addrLine>
+                  <addrLine>M5R 2M8</addrLine>
+               </address>
+            </authority>
+            
+            <publisher>D.S. Brewer, Cambridge, an imprint of Boydell &amp; Brewer Ltd./Boydell &amp; Brewer Ltd.</publisher>
+            <pubPlace>Rochester, NY</pubPlace>
+            <date>2010</date>
+            <idno type="other">978-1-84384-259-0</idno>
+            
+            <availability>
+               <p>Copyright <orgName>Records of Early English Drama (REED)</orgName>,
+                  <date>2017</date></p>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a
+                  Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA
+                  4.0) licence.</licence>
+            </availability>
+         </publicationStmt>
+         
+         <seriesStmt>
+            <title>Records of Early English Drama</title>
+         </seriesStmt>
+         <sourceDesc>
+            <p>This publication constitutes a remediation of the printed Inns of Court collection. Information on original sources for transcriptions can be accessed via the Document Descriptions.</p>
+            <p>For a full list of REED collections, editors, executive board members, and staff, please visit http://reed.utoronto.ca/people</p>       
+         </sourceDesc>
+      </fileDesc>
+      
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="taxon" matchPattern="([A-Za-z0-9_-]+)"
+               replacementPattern="../taxonomy.xml#$1">
+               <p>Private URIs using the <code>taxon</code> prefix are pointers to entities in the
+                  taxonomy.xml file. For example, <code>taxon:church</code> dereferences to
+                  <code>taxonomy.xml#church</code>.</p>
+            </prefixDef>
+            <prefixDef ident="gloss" matchPattern="([A-Za-z0-9_-]+)"
+               replacementPattern="../glossary.xml#$1">
+               <p>Private URIs using the <code>gloss</code> prefix are pointers to entities in the
+                  glossary.xml file. For example, <code>gloss:histrio-1</code> dereferences to
+                  <code>glossary.xml#histrio-1</code>.</p>
+            </prefixDef>
+         </listPrefixDef>
+         
+         <projectDesc>
+            <p>Records of Early English Drama (REED) is an international scholarly project that is
+               establishing for the first time the context from which the drama of Shakespeare and his
+               contemporaries grew. Founded in 1976, REED has worked since then to locate, transcribe,
+               and edit historical documents containing evidence of drama, secular music, and other
+               communal entertainment and ceremony from the Middle Ages until 1642, when the Puritans
+               closed the London theatres.</p>
+         </projectDesc>
+      </encodingDesc>
+      
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">English</language>
+            <language ident="lat">Latin</language>
+            <language ident="fra">Anglo-French</language>
+         </langUsage>
+         <settingDesc>
+            <place>
+               <placeName>London</placeName> 
+            </place>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <!-- Add new major milestone changes to top -->
+         <change when="2018-02-03" who="#JAKA1">created document</change>
+      </revisionDesc>
+   </teiHeader>
+
+   <text ana="taxon:letter" type="record">
+      <body xml:lang="eng">
+         <head>Inns of Court
+            <date from-iso="1612" to-iso="1613">1612-13</date>
+            <seg ana="taxon:RLLIB6" corresp="taxon:RLPIC1 pp. 154-9">RLLIB6</seg></head>
+         <div type="transcription">
+            <head>f 505v<supplied>(26 November) (Christmas officers)</supplied></head>
+            <pb n="f 505v" type="folio"/>
+            <gap reason="omitted"/>
+            <table>
+               <row>
+                  <cell>Master of the Revells</cell>
+                  <cell>Mr Stevens./<lb/>
+                     Mr Sanderson./</cell> 
+               </row>
+            </table>
+            <gap reason="omitted"/>
+         </div>
+
+         <div type="transcription">
+            <head>f 506v<supplied>(26 January) (Council orders)</supplied></head>
+            <pb n="f 506v" type="folio"/>
+            <gap reason="omitted"/>
+            <ab>
+               At this Councell every one of the M<ex>aste</ex>rs of the bench and the Assotiatt<ex>es</ex> therevnto are rated and taxed to paie the somme of ffower pounds towards the Charge of the Maske that is intended to be p<ex>re</ex>sented by the gent<ex>lemen</ex> of this howse and of the middle Temple at his Maiesties Courte <del>of</del> <add place="above">at</add> whitehall vppon the ffourtenth<note type="foot">for fifteenth</note> daie of ffebr<damage>.</damage>arij next at the marriage of the Ladie Elizabeth her grace with the Counte<del>e</del> Palentine of Rhene And every vtterbarrester of this howse is rated to paie towards the same the som<ex>m</ex>e of ffiftie shillings and every other gent<ex>leman</ex> of this howse vnder the barr the som<ex>m</ex>e of Thirty shillings/
+            </ab>
+            <gap reason="omitted"/>
+         </div>
+         
+         <div type="endnote">
+            <ab>
+               Chapman’s <hi rend="italic">Memorable Masque</hi> (p 154, l.12) was performed in Whitehall Palace hall on 15 February 1612/13, the day after the marriage of Princess Elizabeth and the count palatine.
+            </ab>
+         </div>
+         
+         <div type="transcription">
+            <head>f 509<supplied>(12 February)</supplied></head>
+            <pb n="f 509" type="folio"/>
+            <gap reason="omitted"/>  
+            <ab>
+               The M<ex>aste</ex>rs of the Bench and others that haue lent and shall lend any mony
+               towards the Charges of the maske to be p<ex>re</ex>sented at the Courte at the marriage L J
+               of the Ladie Elizabeth her grace with the Counte<del>e</del>^<add place="above">e</add> Palentine of Rhene shalbe repaid there mony soe lent at such tyme <del>at such tyme</del> as the same can be gotten vpp./
+            </ab>
+            <gap reason="omitted"/>
+         </div>
+
+         <div type="transcription">
+            <head>f 510v<supplied>(30 April)</supplied></head>
+            <pb n="f 510v" type="folio"/>
+            <gap reason="omitted"/>  
+            <ab>
+               Whereas Mr Pyne now deceased sometymes one of the M<ex>aste</ex>rs of the bench haue given tenne pounds towards the building of the new Chappell the same to be paid when the said Chappell shalbe in building And Mr Pyne his sonne being an vtterbarrester of this howse being his executor is Content to deliu<ex>er</ex> the said Tenne pounds to the M<ex>aste</ex>rs of the bench they to vse the same at theire pleasure till the said Chappell shalbe in building and then the same to be imployed towards the building of the said Chappell It is therefore ordered that the said tenne pounds shalbe received by Mr Spencer the appointed Trea<ex>sure</ex>r for for<note type="foot">dittography</note> the monyes to be Collected for the late maske presented to the kings Ma<ex>ies</ex>ties Courte at whithall at the marriage of the Ladie Elizabeth her grace w<ex>i</ex>th the Counte Palentine of Rhene./
+            </ab>
+            <ab>
+               Mr Cheeke is to lend towards the Charge of the said maske the som<ex>m</ex>e of tenne pounds to be paid by him to Mr Spencer by theise daie seaven night<note type="foot">7 May 1613</note> w<ex>hi</ex>ch money to be repaid assone as Conveniently may be
+            </ab>
+            <ab>
+               Mr Rob<ex>er</ex>te Riche is to lend the like som<ex>m</ex>e of tenne pounds for that p<ex>ur</ex>pose to be paid as aforesaid and to be repaid as aforesaid./
+            </ab>
+         </div>
+         
+         <div type="transcription">
+            <head>f 511<supplied>(4 May)</supplied></head>
+            <pb n="f 511" type="folio"/>
+            <gap reason="omitted"/>  
+            <ab>         
+               Mr Randall is to lend towards the maske the som<ex>m</ex>e of xx <del>li.</del> <add place="above">marks</add> and
+               the same to be paid to Mr Spencer by this daie seavennight<note type="foot">11 May 1613</note> And the same xx <del>li.</del> <add place="above">marks</add> to be <del>paid</del> repaid to Mr Randall as soone as mony can Conveniently be gotten vpp./
+            </ab>
+            <gap reason="omitted"/>
+         </div>
+         
+         <div type="transcription">
+            <head>f 512<supplied>(11 May)</supplied></head>
+            <pb n="f 512" type="folio"/>
+            <gap reason="omitted"/>  
+            <ab>
+               Mr Cheeke and Mr Palmer are seu<ex>er</ex>ally to lend the seu<ex>er</ex>all som<ex>m</ex>es of x li. towards the charge of the late Maske and then to paie the same before the end of this terme to Mr Spencer or els w<ex>hi</ex>ch of them then shall fayle in payment to fforfaite xl s. to the vse of the howse and for default of payment of the said x li. the chamber of him that shall make default to be sequestred to the vse of the howse./
+            </ab>
+            <gap reason="omitted"/>
+         </div>
+         
+         <div type="transcription">
+            <head>f 513<supplied>(13 May)</supplied></head>
+            <pb n="f 513" type="folio"/>
+            <gap reason="omitted"/>  
+            <ab>
+               It appeareth by a petition now exhibited by Roger Garners that he is paid by the Cheife Butler the som<ex>m</ex>e of iij li. p<ex>ar</ex>cell of the som<ex>m</ex>e of vj li. ix s. ij d. w<ex>hi</ex>ch he had laid out to Mr Long for one of the Masking suites w<ex>hi</ex>ch som<ex>m</ex>e of iij li. M<ex>ast</ex>er Trea<ex>sure</ex>r shalbe allowed vppon his accounte./
+            </ab>
+            <gap reason="omitted"/>
+         </div>
+
+         <div type="transcription">
+            <head>ff 526-7v<supplied></supplied></head>
+            <pb n="f 526-7v" type="folio"/>
+            <gap reason="omitted"/>  
+            <ab>
+               The Charge of Mr Ch<ex>rist</ex>ofer Brooke Expenditor for the Maske
+            </ab>
+            <table>
+               <row>
+               <cell>Received<note type="foot">i corrected from v</note> at seuerall tymes from the 27th of Ianuary: 1612 vntill the 16th of Iune 1613: of Mr Spencer Threasurer for the reiciptes and disbursmentes towards the Maske at Courte</cell>
+                  <cell>1122 li.</cell>
+               </row>
+               <row>
+                  <cell><seg type="signed">Thomas Spencer</seg></cell>
+               </row>
+               <row>
+                  <cell>Received of the deputie Trea<ex>sure</ex>r of the Temple</cell>
+                  <cell>60 li.</cell>
+               </row>
+               <row>
+                  <cell rend="right">Mr Brooke his accompt of the disbursments of the same./</cell>
+                  <cell>l 182</cell>
+               </row>
+               <row>
+                  <cell>Inprimis, to Thomas Watson Taylor for stuff<ex>es</ex> &amp; Lace</cell>
+                  <cell>50 li.</cell>
+               </row>
+               <row>
+                  <cell>Item to Thomas Pitt<ex>es</ex> Butler for overplus of the Maskers Diet and fier</cell>
+                  <cell>10 li.</cell>
+               </row>
+               <row>
+                  <cell>Item to Mr Anton Mercer for diu<ex>er</ex>se p<ex>ar</ex>cells of Clothe of Silver</cell>
+                  <cell>182 li. 13 s.</cell>
+               </row>
+               <row>
+                  <cell>It<ex>e</ex>m to Mr Smith mercer dwelling in St Martins for 144 yards of gold stuffe at 7 s. a yard, 8 s. odd mony abated,<note type="foot">ie, 1008s was rounded to the nearest pound</note> 50 li. for 6 yards<note
+                      type="foot">for 60</note> of fflaunders Sattin at 5 s. a yard 15 li.</cell>
+                  <cell>65 li.</cell>
+               </row>
+               <row>
+                  <cell>Item to Mr Morrice Imbroderer for Imbrodering worke</cell>
+                  <cell>100 li.</cell>
+               </row>
+               <row>
+                  <cell>ffor the som<ex>m</ex>es abouesaid disbursed Mr Spencer tooke acquittanc<ex>es</ex></cell>
+                  <cell>407 li. 13 s./</cell>
+               </row>
+               <row>
+                  <cell>Item more to Thomas Watson Taylor for makeing all the maskeing app<ex>ar</ex>ell and for lyning<ex>es</ex> and other thinges by him disbursed and sett downe in his bill</cell>
+                  <cell>40 li.</cell>
+               </row>
+               <row>
+                  <cell>Item more to Thomas Pitt<ex>es</ex> Butler for overplus of the Maskers dyett and fyer</cell>
+                  <cell>16 li.</cell>
+               </row>
+               <row>
+                  <cell>Item more to Mr Morrice Imbroderer for Imbrodering worke in his Bill</cell>
+                  <cell>120 li.</cell>
+               </row>
+               <row>
+                  <cell>Item to Mr Barlowe Imbroderer for the like worke</cell>
+                  <cell><del>55 li.</del> 55 li./</cell>
+               </row>
+               <row>
+                  <cell>Item to Mr Inigoe Iohnes towards the workes for the Hall and streete</cell>
+                  <cell>100 li.</cell>
+               </row>
+               <row>
+                  <cell>Item to Mr Rob<ex>er</ex>te Iohnson for musicke and song<ex>es</ex></cell>
+                  <cell>45 li.</cell>
+               </row>
+               <row>
+                  <cell>Item to Mr Rob<ex>er</ex>te Iohnes Haberdasher for ffeathers and Triminge of suit<ex>es</ex> and head attires</cell>
+                  <cell>190 li.</cell>
+               </row>
+               <row>
+                  <cell>Item to Iohn Banck<ex>es</ex> Coachmaker for Caroches hier and Coachmakers worke</cell>
+                  <cell>10 li.</cell>
+               </row>
+               <row>
+                  <cell>Item to the Trumpetters</cell>
+                  <cell>10 li.</cell>
+               </row>
+               <row>
+                  <cell>Item to Charles Hilyarde<note type="foot">ie, Helliar, a porter</note> for a hatt band and feather</cell>
+                  <cell>10 s.</cell>
+               </row>
+               <row>
+                  <cell>Item to the Actors musicions &amp;c for gloues Ribbin and other thinges the maske nighte</cell>
+                  <cell>3 li.</cell>
+               </row>
+               <row>
+                  <cell>Item rewards to Coachmen for ffower Coaches</cell>
+                  <cell>12 s.</cell>
+               </row>
+               <row>
+                  <cell>Item to a Porter for going to S<ex>i</ex>r Norrice Bartlett<ex>es</ex> howse
+                     for horses and saddles</cell>
+                  <cell>6 d.</cell>
+               </row>
+               <row>
+                  <cell>Item to Baughan<note type="foot">B corrected from Mr</note> one of the Marshall<ex>es</ex> for buying him hatt and feather</cell>
+                  <cell><del>6 d.</del> 6 s.</cell>
+               </row>
+               <row>
+                  <cell>Item to <del>a</del> 3 porters for ffetching Horses</cell>
+                  <cell>1s. 6d.</cell>
+               </row>
+               <row>
+                  <cell>Item for horsemeate at the <del>At</del> Antilopp<note type="foot">he Antelope Inn on the south side
+                     of Holborn</note> for 4 horses one night and to the Osteler</cell>
+                  <cell>5s. 8d.</cell>
+               </row>
+               <row>
+                  <cell>Item for bringing a greate saddle</cell>
+                  <cell>6 d.</cell>
+               </row>
+               <row>
+                  <cell>Item to a porter for going home w<ex>i</ex>th horses</cell>
+                  <cell>1 s.</cell>
+               </row>
+               <row>
+                  <cell>Item for one dozen of white Torches</cell>
+                  <cell>12 s.</cell>
+               </row>
+               <row>
+                  <cell>Item to Mr Maunder Taylor to hyer horses w<ex>i</ex>thall</cell>
+                  <cell>6 s.</cell>
+               </row>
+               <row>
+                  <cell>Item for twelue dozen of point<ex>es</ex></cell>
+                  <cell>18 s.</cell>
+               </row>
+               <row>
+                  <cell>Item to Mr Ingrams man for buying him<note type="foot">ie, Mr Ingram</note> a hatt band and feather</cell>
+                  <cell>5 s.</cell>
+               </row>
+               <row>
+                  <cell>Item for Heming<ex>es</ex> boy<note type="foot">William Heminges, 10-year-old son
+                     of John Heminges, actor-manager of the king’s men</note> for a payre stockinges<note type="foot">for payre of stockinges (?)</note> 8 s. for a payre of white shoos 3 s. 8 d. a payre of gloues 16 d. Carnation Ribben 2 s. 6 d.</cell>
+                  <cell>15 s.</cell>
+               </row>
+               <row>
+                  <cell>Item to the players of Tabers and pipes</cell>
+                  <cell>11 s.</cell>
+               </row>
+               <row>
+                  <cell>Item to 3 porters for Carrying Torches and attending</cell>
+                  <cell>6s. 4d.</cell>
+               </row>
+               <row>
+                  <cell>Item to Thomas the Porter</cell>
+                  <cell>1 s. 4 d.</cell>
+               </row>
+               <row>
+                  <cell>Item to Baugham one of the Marshalls</cell>
+                  <cell>10 s.</cell>
+               </row>
+               <row>
+                  <cell>Item for Torches</cell>
+                  <cell>13 li.</cell>
+               </row>
+               <row>
+                  <cell>Item to Robert the Porter for his paynes</cell>
+                  <cell>1 s. 6 d.</cell>
+               </row>
+               <row>
+                  <cell>Item to ffrauncis Pearson for 80 backe<note type="foot">for blacke (?)</note> Capps</cell>
+                  <cell>5 li. 10 s.</cell>
+               </row>
+               <row>
+                  <cell>Item to Mr Tristram w<ex>hi</ex>ch he disbursed for hier of 13 horses and three mens attendance</cell>
+                  <cell>1 li. 9 s.</cell>
+               </row>
+               <row>
+                  <cell>Item more to Mr Tristram<note type="foot">John Tristram, barrister</note> w<ex>hi</ex>ch he disbursed for 18 paire of gantlett gloves at three shilling<ex>es</ex> a payre 2 li. <del><damage/></del> 14 s. To ffower Torche bearers 4 s.</cell>
+                  <cell>2 li. 18 s.</cell>
+               </row>
+               <row>
+                  <cell>Item to Robert Barwicke for three Tyers</cell>
+                  <cell>1 li. 10 s.</cell>
+               </row>
+               <row>
+                  <cell>Item to 9<del><damage/></del> <add place="above">4</add><note type="foot">eading doubtful: possibly 90 corrected to 94</note> backe<note type="foot">for blacke (?)</note> boyes</cell>
+                  <cell>4 li. 10 s.</cell>
+               </row>
+               <row>
+                  <cell>Item to the groomes<note type="foot">g corrected from another letter</note> of the king<ex>es</ex> stables</cell>
+                  <cell>3 li.</cell>
+               </row>
+               <row>
+                  <cell>Item to Mr Hamerton for the music<ex>i</ex>ons and Actors dinner the Maskeing daie</cell>
+                  <cell><del>3</del> 4 li.</cell>
+               </row>
+               <row>
+                  <cell>Item to Mr Goodman w<ex>hi</ex>ch he disbursed for 14 payre of shoos for the Baboones 1 li. 15 s. for 12 payre of gloues 14 s. to a Coachman 2 s.</cell>
+                  <cell>2 li. <del>ij</del> 11 s.</cell>
+               </row>
+               <row>
+                  <cell>Item for pins</cell>
+                  <cell>1 s.</cell>
+               </row>
+               <row>
+                  <cell>Item to Mr Hackwells man w<ex>hi</ex>ch he disbursed for howse Roome for horses and bread and beare 3 s. for bringing 2 horses 12 d. to a Coachman 5 s. for bringing 3 horses 2 s. to a Coachman 2 s. 6 d. for horse meate 1 s. 9 d. for pins 12 d.</cell>
+                  <cell>16 s. 3 d.</cell>
+               </row>
+               <row>
+                  <cell>Item to the vizard maker</cell>
+                  <cell>23 li.</cell>
+               </row>
+               <row>
+                  <cell>Item to the Saddler for yellowe footeclothes and bridles</cell>
+                  <cell>8 li.</cell>
+               </row>
+               <row>
+                  <cell>Item to Richard Ansell the king<ex>es</ex> matlayer</cell>
+                  <cell>2 li.</cell>
+               </row>
+               <row>
+                  <cell>Item to Thomas Brewer Cordiner for 27 payre of buskins makinge</cell>
+                  <cell>10 li. 10 s.</cell>
+               </row>
+               <row>
+                  <cell>Item to Hudson the Oversee<del>r</del>re of Carpenters for his paynes for beating downe Master Attorney walls 5 s. and to his men for the like and other worke 3 s. 4 d.</cell>
+                  <cell>8 s. 4 d.</cell>
+               </row>
+               <row>
+                  <cell>Item to the king<ex>es</ex> vshers of the Hall</cell>
+                  <cell>l li.</cell>
+               </row>
+               <row>
+                  <cell>Item to Thomas Cutting Iohn Dowland and Phillip Rosseter for playing of Lutes every one of them 2 li. 10 s.</cell>
+                  <cell>7 li. 10 s.</cell>
+               </row>
+               <row>
+                  <cell>Item to Mr Thomas fforde for playing of Lute 2 li. 10 s. and more for setting song<ex>es</ex> vsed at the maske 5 li., and for Mathias Iohnson for singing 2 li.</cell>
+                  <cell>9 li. 10 s./</cell>
+               </row>
+               <row>
+                  <cell>9 li. 10 s./</cell>
+               </row>
+               <row>
+                  <cell>Item to Iohn Sturte Robert Taylor Rob<ex>e</ex>rte Dowland Thomas Davies for playing of Lutes every one of them 2 li.</cell>
+                  <cell>8 li.</cell>
+               </row>
+               <row>
+                  <cell>Item to Mr Ionas<note type="foot">Jonas Wrench, musician to Prince Henry</note> and Mr Mynars two of the music<ex>io</ex>ns for the maske</cell>
+                  <cell>6 li. 13 s. 8 d.</cell>
+               </row>
+               <row>
+                  <cell>Item to Thomas Daye for (blank)</cell>
+                  <cell>3 li. 6 s. 8 d.</cell>
+               </row>
+               <row>
+                  <cell>Item to 7 singing men v<ex>izt.</ex> Iohn Drue Will<ex>ia</ex>m Godball Iohn ffrost Davies one of the Queresters Marke Thwaites Walter Porter and Richard Ball every one of them, 2 li. saving Davies whoe had bout<note type="foot">for but</note> 1 li. 13 s.</cell>
+                  <cell>13 li. 13 s.</cell>
+               </row>
+               <row>
+                  <cell>Item to Mrs Iohnes<note type="foot">Joan, Judith, or Mary Jones, sisters of Inigo Jones</note> for her brother Mr Inego Iohnes</cell>
+                  <cell>10 li.</cell>
+               </row>
+               <row>
+                  <cell rend="right">Sum<ex>m</ex>a totalis of the money disbursed is</cell>
+                  <cell>1146 li. 8 s. 11 d.</cell>
+               </row>
+               <row>
+                  <cell rend="right">Whereof abated 60 li. and the money disbursed by Lincolnes Inne onely amount<ex>es</ex> to</cell>
+                  <cell>1086 li. 8 s. 11 d.</cell>
+               </row>
+               <row>
+                  <cell rend="right">Ramanet vndisbursed</cell>
+                  <cell>35 li. 11 s. 1 d.</cell>
+               </row>               
+            </table>
+            <ab>Examinat<ex>ur</ex> et allocatur p<ex>er</ex></ab>
+            <list>
+               <item>Thom<ex>as</ex> Bedingfeild</item>
+               <item>W<ex>illia</ex>m Rauenscroft</item>
+               <item>Will<ex>iam</ex> Iones</item>
+            </list>
+            <ab>We haue sene an acquittance for ffiftie pounds paid to Inigoe Iones: and we are satisfied that the other 50 li. was paid thoughe there was noe acquittance shewed</ab>
+            <ab>Some of the petty paymentes wee haue allowed thoughe there were noe acquittances taken and we haue seene acquittances for the rest./</ab>
+            <list>
+               <item>Tho<ex>mas</ex> Bedingfeild</item>
+               <item>W<ex>illia</ex>m Ravencroft</item>
+               <item>Will<ex>iam</ex> Iones/</item>
+            </list>                    
+         </div>
+         <div type="endnote">
+            <ab>
+               Christopher Brooke (p 155, l.36) of Lincoln’s Inn served as general treasurer for the masque presented jointly with the Middle Temple, an arrangement repeated in 1633–4 for all four Inns. Brooke’s accounts, which are remarkably comprehensive, should be compared to loose papers from the Middle Temple, and to the text of the masque printed in Appendix 2. Thomas Pittes (p 156, l.10) was under- butler and chief butler from 1603 until 1623, when he was sacked for embezzlement (LI Arch: A1a7, Black Book 7, f 88). The ‘workes for the Hall and streete’ (p 156, ll.29–30) were the scenery for the stage in the palace hall and the triumphal chariots for the procession from the city to Whitehall. On Richard Ansell (p 158, l.12), the king’s matmaker, see also Appendix 5, pp 718–19.
+            </ab>
+            <ab>
+               ‘Item to Hudson the Oversee[r]re of Carpenters ...’ (p 158, ll.15–17) has strayed from the building accounts on ff 522–3v for new lodgings for the attorney general, Sir Henry Hobart.</ab>
+            <ab>
+               Of the musicians listed on p 158, ll.19–32, most appear in court records for 1612–13 as members of either Prince Henry’s servants or the gentlemen of the Chapel: see Andrew Ashbee (ed), <hi rend="italic">Records of English Court Music</hi>, vol 4 (Snodland, Kent, 1991). The exceptions are Robert Dowland, Thomas Davies, William Godball, and Mark Thwaites, who may have been borrowed from other bands and choirs.
+            </ab>
+         </div>
+         
+         <div type="transcription">
+            <head>f 585v<supplied>(26 November - 26 November) (Treasurer's receipts)</supplied></head>
+            <pb n="f 585v" type="folio"/>
+            <ab>Et de ix li. ij s. viij d. recept<ex>is</ex> de eodem Ioh<ex>ann</ex>e p<ex>ro</ex> Surplusag<ex>ia</ex> Rotul<ex>orum</ex> Musicor<ex>um</ex> et Carbono<ex>rum</ex>...</ab>
+            <gap reason="omitted"/>  
+         </div>  
+         
+         <div type="translation">
+            <ab>And (the accountant renders account) of £9 2s 8d received from the same John for the balance due from the musicians’ rolls and for coals...</ab>
+               <gap reason="omitted"/>
+         </div>
+               
+                          
+      </body>
+   </text>
+  
+</TEI>
