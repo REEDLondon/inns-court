@@ -243,10 +243,10 @@
             <date when-iso="1613-01-19">1613-01-19</date>
             <seg ana="taxon:RLC013" corresp="taxon:RLPIC2 pp. 693">RLC013</seg></head>
          <div type="transcription">
-            <head> f <del>1</del> <supplied>(16 February)</supplied></head>
+            <head> f <del>1</del> <supplied>(19 January)</supplied></head>
             <pb n=" f 1" type="folio"/>
             
-            <ab>...Of this Christmas also euery day hath had it parte in the celebration of the marriage of your noble cosin the <persName n="Frances Howard" resp="#KM" cert="high">Lady Frances</persName> to the <persName n="Robert Carr" resp="#KM" cert="high">Earle of Summerset</persName>, being highly graced by both <persName n="James I">there Maiesties</persName> with many fauers, &amp; much honor donn them <del>of</del> in all kindes, such as if the late great marriage had not bene before it. I might well say hath not bene the liter. All men striueing to doe <del>&amp;</del> honor &amp; seruice to them in one kinde or other For besides two maskes in <placeName>the Court</placeName> one of great Lords the other of gentlemen. A third came from the Ins of Court men, as a present of there seruice....</ab>
+            <ab>...Of this Christmas also euery day hath had it parte in the celebration of the marriage of y<ex>our</ex> noble cosin the <persName n="Frances Howard" resp="#KM" cert="high">Lady Frances</persName> to the <persName n="Robert Carr" resp="#KM" cert="high">Earle of Sum<ex>m</ex>erset</persName>, being highly graced by both <persName n="James I">there Ma<ex>ie</ex>st<ex>ies</ex></persName> with many fauers, &amp; much honor don<ex>n</ex> them <del>of</del> in all kindes, such as if the late great marriage had not bene before it. I might well say hath not bene the liter. All men striueing to doe <del>&amp;</del> honor &amp; seruice to them in one kinde or other For besides two maskes in <placeName>the Court</placeName> one of great Lords the other of gentlemen. A third came from the <orgName n="Inns of Court">Ins of Court</orgName> men, as a present of there seruice....</ab>
                
                
          </div>
