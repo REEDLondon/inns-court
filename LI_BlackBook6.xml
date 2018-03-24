@@ -639,7 +639,20 @@
             <ab>And (the accountant renders account) of £9 2s 8d received from the same John for the balance due from the musicians’ rolls and for coals...</ab>
                <gap reason="omitted"/>
          </div>
-               
+
+         <div type="transcription">
+            <head>f 596<supplied>(27 November 1613–28 November 1614) (Treasurer’s receipts)</supplied></head>
+            <pb n="f 596" type="folio"/>
+            <gap reason="omitted"/>
+            <ab>
+               <note type="marginal" rend="right">Surplusag<ex>e</ex> Rotulor<ex>um</ex></note> Et de ix li. ij s. viij d. recept<ex>is</ex> de eodem Ioh<ex>ann</ex>e p<ex>ro</ex> Surplusag<ex>ia</ex> Rotul<ex>orum</ex> Musicor<ex>um</ex> et Carbono<ex>rum</ex>...</ab>
+            <gap reason="omitted"/>  
+         </div>  
+         
+         <div type="translation">
+            <ab>And (the accountant renders account) of £9 2s 8d received from the same John for the balance due from the musicians’ rolls and for coals...</ab>
+            <gap reason="omitted"/>
+         </div>
                           
       </body>
    </text>
