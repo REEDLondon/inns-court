@@ -249,10 +249,9 @@
                   <cell><note type="marginal">1</note> Me<ex>moran</ex>d<ex>um</ex> that in the moneth of ffebruary <add place="above">about ye xvjth</add> Anno 1613<note type="foot">for 1612 (ie, 1612/13)</note> Receaved of the right wor<ex>rshipfu</ex>ll S<ex>i</ex>r Henry Mountague Knight Recorder of the Citty of London to the vse of the ffellowshipp of the howse of the middle Temple the some of one hundreth mark<ex>es</ex> Currant money I saye receaved as above written</cell>
                   <cell>lxvj li. xiij s. iiij d.</cell>
                </row>
-               <row>
-                  <cell><seg type="signed">Richard Baldwin Subth<ex>reasu</ex>rer</seg></cell>
-               </row>
             </table>
+               
+            <ab><seg type="signed">Richard Baldwin Subth<ex>reasu</ex>rer</seg></ab>
             
             
             <note type="editorial">
@@ -269,21 +268,14 @@
       <body xml:lang="eng">
          <head>Middle Temple Receipt
             <date from-iso="1612" to-iso="1613">1612-13</date>
-            <seg ana="taxon:RLMTR1" corresp="taxon:RLPIC1 p. 164">RLMTR1</seg></head>
+            <seg ana="taxon:RLMTR2" corresp="taxon:RLPIC1 p. 164">RLMTR2</seg></head>
          <div type="transcription">
             <head>single sheet<supplied></supplied></head>
             <pb n="MT.7/MAA/35" type="sheet"/>
-            <table>
-               <row>
-                  <cell>xviij<hi rend="superscript">o</hi> die ffebruarij Anno D<ex>omi</ex>ni 1613.</cell>
-               </row>
-               <row>
-                  <cell>Receaved the daye and yeare above written of mr Edward Powell the som<ex>m</ex>e of fifty poundes currant money, As money lent to the vse of the ffellowshipp of the howse of the Middle Temple for six monethes and to be repayd to the sayd Edward Powell at thend of the sayd six monethes I saye receaved <note type="marginal">4</note> to the vse of the sayd fellowshipp the some of l li.</cell>
-               </row>
-               <row>
-                  <cell><seg type="signed">Richard Baldwin Subth<ex>reasu</ex>rer</seg></cell>
-               </row>
-            </table>
+            
+            <ab rend="center">xviij<hi rend="superscript">o</hi> die ffebruarij Anno D<ex>omi</ex>ni 1613.<note type="foot">for 1612 (ie, 1612/13)</note></ab>
+             <ab>Receaved the daye and yeare above written of mr Edward Powell the som<ex>m</ex>e of fifty poundes currant money, As money lent to the vse of the ffellowshipp of the howse of the Middle Temple for six monethes and to be repayd to the sayd Edward Powell at thend of the sayd six monethes I saye receaved <note type="marginal">4</note> to the vse of the sayd fellowshipp the some of l li.</ab>
+               <ab><seg type="signed">Richard Baldwin Subth<ex>reasu</ex>rer</seg></ab>
             
             <note type="editorial">
                <ab>
@@ -293,5 +285,323 @@
          </div>
       </body>
    </text>
-  
+
+   <text ana="taxon:middle_temple" type="record">
+      <body xml:lang="eng">
+         <head>Middle Temple Receipt
+            <date from-iso="1612" to-iso="1613">1612-13</date>
+            <seg ana="taxon:RLMTR3" corresp="taxon:RLPIC1 p. 164">RLMTR3</seg></head>
+         <div type="transcription">
+            <head>single sheet<supplied></supplied></head>
+            <pb n="MT.7/MAA/6" type="sheet"/>
+            
+            <ab>26<hi rend="sup">o</hi> ffebr<ex>uarij</ex> 1612</ab>
+            <table>
+               <row>
+                  <cell>Receaued of mr Richard Baldwyn to the vse of the
+                     fellowshipp &amp; societie of the Middle Temple the som<ex>m</ex>e
+                     of six pound<ex>es</ex> thirteene shilling<ex>es</ex> and fower pence by the
+                     appointm<ex>en</ex>t of my master Richard Martyn Esq<ex>uier</ex> I say
+                     rec<ex>eaue</ex>d</cell>
+                  <cell>6 li. 13 s. 4 d.</cell>
+               </row>
+            </table>
+            
+            <ab><seg type="signed">Nich<ex>olas</ex> Herman/</seg></ab>
+                        
+            <note type="editorial">
+               <ab>This receipt is recorded in MT Arch: MT.7/MAA/29, single sheet (see p 179).</ab>
+            </note>
+         </div>
+      </body>
+   </text>
+
+   <text ana="taxon:middle_temple" type="record">
+      <body xml:lang="eng">
+         <head>Middle Temple Receipt
+            <date from-iso="1612" to-iso="1613">1612-13</date>
+            <seg ana="taxon:RLMTR4" corresp="taxon:RLPIC1 pp. 164-5">RLMTR4</seg></head>
+         <div type="transcription">
+            <head>single sheet<supplied></supplied></head>
+            <pb n="MT.7/MAA/7" type="sheet"/>
+            
+            <ab>primo die Martij Anno d<ex>omi</ex>ni 1612</ab>
+            <ab>Receaued by me Christopher Brooke the daye and yeare above written, of Richard Baldwin vndertreasurer of the Middle Temple the some of three score pound<ex>es</ex> Currant money toward<ex>es</ex> the two Maskes of the Middle Temple and Lyncolns Inn.</ab>
+            <ab><seg type="signed">By me Chr<ex>istopher</ex> Brooke</seg></ab>
+            
+            
+            <note type="editorial">
+               <ab>This payment is recorded in MT Arch: MT.7/MAA/29, single sheet (see p 179); it is also referenced in Lincoln’s Inn Black Book 6 (LI Arch: A1a6, f 526), where Richard Baldwin is called ‘the deputie Treasurer of the Temple’ (p 156, l.5). The ‘two Maskes’ are probably the one masque performed jointly by the two Inns.</ab>
+            </note>
+         </div>
+      </body>
+   </text>
+
+   <text ana="taxon:middle_temple" type="record">
+      <body xml:lang="eng">
+         <head>Middle Temple Receipt
+            <date from-iso="1612" to-iso="1613">1612-13</date>
+            <seg ana="taxon:RLMTR5" corresp="taxon:RLPIC1 p. 168">RLMTR5</seg></head>
+         <div type="transcription">
+            <head>single sheet<supplied></supplied></head>
+            <pb n="MT.7/MAA/14" type="sheet"/>
+            
+            <ab>Iune the xvj<hi rend="sup">th</hi> Anno 1613</ab>
+            
+            <table>
+               <row>
+                  <cell><note type="marginal">2</note> Receaved the daye &amp; yeare above written of Iohn Ho<del>k</del>pkyns the some of one hundreth pound<ex>es</ex> Currant money beeing p<ex>ar</ex>te of the money by him collected vppon the taxacion Rowles toward<ex>es</ex> the late maske I saye receaved to the vse of the ffellowshipp of the sayd howse the some of</cell>
+                  <cell>C li.</cell>
+               </row>
+            </table>
+            <ab><seg type="signed">Richard Baldwin Subth<ex>esaurari</ex>o</seg></ab>
+            
+            <note type="editorial">
+               <ab>The number ‘2’ in the margin corresponds to MT Arch: MT.7/MAA/25, single sheet (see p 172).</ab>
+            </note>
+         </div>
+      </body>
+   </text>
+
+   <text ana="taxon:middle_temple" type="record">
+      <body xml:lang="eng">
+         <head>Middle Temple Receipt
+            <date from-iso="1612" to-iso="1613">1612-13</date>
+            <seg ana="taxon:RLMTR6" corresp="taxon:RLPIC1 p. 168">RLMTR6</seg></head>
+         <div type="transcription">
+            <head>single sheet<supplied></supplied></head>
+            <pb n="MT.7/MAA/15" type="sheet"/>
+            
+            <ab>xvij<hi rend="sup">mo</hi> die Iunij Anno 1613</ab>
+            <ab>Receaved the daye &amp; yeare above written of Io<ex>hn</ex> Hopkyns money w<ex>hi</ex>ch he receaved of the Rowles toward<ex>es</ex> the late Maske of the some of one hundred pound<ex>es</ex></ab>
+            <ab><seg type="signed">Richard Baldwin Subth<ex>esaurari</ex>o</seg></ab>
+         </div>
+      </body>
+   </text>
+            
+   <text ana="taxon:middle_temple" type="record">
+      <body xml:lang="eng">
+         <head>Middle Temple Receipt
+            <date from-iso="1612" to-iso="1613">1612-13</date>
+            <seg ana="taxon:RLMTR7" corresp="taxon:RLPIC1 pp. 168-9">RLMTR7</seg></head>
+         <div type="transcription">
+            <head>single sheet<supplied></supplied></head>
+            <pb n="MT.7/MAA/16" type="sheet"/>
+            
+            <ab>xviij die Iunij Anno 1613</ab>
+            
+            <table>
+               <row>
+                  <cell><note type="marginal">3</note> Receaved the daye &amp; yeare above written of Iohn Hopkyns in p<ex>ar</ex>te of the some of the taxacions or contributions toward<ex>es</ex> the late Maske the some of fiftye pound<ex>es</ex> Curraunt Money I saye receaved</cell>
+                  <cell>1 li.</cell>
+               </row>
+            </table>
+            <ab><seg type="signed">Richard Baldwin Subth<ex>esaurari</ex>o</seg></ab>
+            
+            <note type="editorial">
+               <ab>The number ‘3’ in the margin corresponds to MT Arch: MT.7/MAA/25, single sheet (see p 172).</ab>
+            </note>
+         </div>
+      </body>
+   </text>
+
+   <text ana="taxon:middle_temple" type="record">
+      <body xml:lang="eng">
+         <head>Middle Temple Receipt
+            <date from-iso="1612" to-iso="1613">1612-13</date>
+            <seg ana="taxon:RLMTR8" corresp="taxon:RLPIC1 p. 169">RLMTR8</seg></head>
+         <div type="transcription">
+            <head>single sheet<supplied></supplied></head>
+            <pb n="MT.7/MAA/17" type="sheet"/>
+            
+            <ab>Iune the xviij<hi rend="sup">th</hi> Anno 1613</ab>
+            <table>
+               <row>
+                  <cell>Receaved the daye and yeare above written of Io<ex>hn</ex> Hopkyns the some of l li. in p<ex>ar</ex>te of the money by him collected vppon the taxacion Rowles toward<ex>es</ex> the late maske I saye receaved the some of</cell>
+                  <cell>1 li.</cell>
+               </row>
+            </table>
+            <ab><seg type="signed">Richard Baldwin Subth<ex>esaurari</ex>o</seg></ab>
+            <ab>Receaved more the <del type="other">..</del> daye of August 1613 of Io<ex>hn</ex> Hopkins toward<ex>es</ex>
+               the sayde maske the some of x li.</ab>
+         </div>
+      </body>
+   </text>
+            
+   <text ana="taxon:middle_temple" type="record">
+      <body xml:lang="eng">
+         <head>Middle Temple Receipt
+            <date from-iso="1612" to-iso="1613">1612-13</date>
+            <seg ana="taxon:RLMTR9" corresp="taxon:RLPIC1 p. 169">RLMTR9</seg></head>
+         <div type="transcription">
+            <head>single sheet<supplied></supplied></head>
+            <pb n="MT.7/MAA/18" type="sheet"/>
+            
+            <ab>19<hi rend="sup">o</hi> Iunij 1613</ab>
+            <table>
+               <row>
+                  <cell>Rec<ex>eaue</ex>d the day and yeare aboue said <del>b<damage>.</damage></del> of mr Richard Baldwyn sub Treasurer of the Middle Temple by mee Nicholas Herman servant to Richard Martyn of the said Middle Temple Esq<ex>uier</ex> the some of one hundred pound<ex>es</ex> of lawfull money of England and is toward<ex>es</ex> the Charges of the late Masque I say receaued</cell>
+                  <cell>100 li.</cell>
+               </row>
+            </table>
+            
+            <ab><seg type="signed">Nich<ex>olas</ex> Herman/</seg></ab>            
+                        
+            <note type="editorial">
+               <ab>This receipt is recorded in MT Arch: MT.7/MAA/29, single sheet (see p 179).</ab>
+            </note>
+         </div>
+      </body>
+   </text>
+
+   <text ana="taxon:middle_temple" type="record">
+      <body xml:lang="eng">
+         <head>Middle Temple Receipt
+            <date from-iso="1612" to-iso="1613">1612-13</date>
+            <seg ana="taxon:RLMTR10" corresp="taxon:RLPIC1 p. 170">RLMTR10</seg></head>
+         <div type="transcription">
+            <head>single sheet<supplied></supplied></head>
+            <pb n="MT.7/MAA/19" type="sheet"/>
+            
+            <ab>26<hi rend="sup">o</hi> Iunij 1613</ab>
+            <table>
+               <row>
+                  <cell>Rec<ex>eive</ex>d by mee Nicholas Herman servant to Richard Martyn of the Middle Temple London Esq<ex>uier</ex> of Richard <del>Martyn</del> <add place="above">Baldwyn</add> gent<ex>leman</ex> Sub-treasurer of the Middle Temple the som<ex>m</ex>e of fifty pound<ex>es</ex> of lawfull money of England and is toward<ex>es</ex> the Charge of the late Masque I say Rec<ex>eive</ex>d</cell>
+                  <cell>50 li.</cell>
+               </row>
+            </table>
+            
+            <ab><seg type="signed">Nich<ex>olas</ex> Herman/</seg></ab>                       
+            
+            <note type="editorial">
+               <ab>This receipt is recorded in MT Arch: MT.7/MAA/29, single sheet (see p 179).</ab>
+            </note>
+         </div>
+      </body>
+   </text>
+            
+   <text ana="taxon:middle_temple" type="record">
+      <body xml:lang="eng">
+         <head>Middle Temple Receipt
+            <date from-iso="1612" to-iso="1613">1612-13</date>
+            <seg ana="taxon:RLMTR11" corresp="taxon:RLPIC1 p. 170">RLMTR11</seg></head>
+         <div type="transcription">
+            <head>single sheet<supplied></supplied></head>
+            <pb n="MT.7/MAA/20" type="sheet"/>
+            
+            <ab>28<hi rend="sup">o</hi> Iunij 1613</ab>
+            <table>
+               <row>
+                  <cell>Rec<ex>eive</ex>d the Day and yeare aboue said by mee Nicholas Herman servant to the wor<ex>rshipfu</ex>ll Richard Martyn of the Middle Temple Esq<ex>uier</ex> of mr Richard Baldwyn Sub-Treasurer of the said Middle Temple the som<ex>m</ex>e of fiftie pound<ex>es</ex> of lawfull money of England and is toward<ex>es</ex> the Charge of the late Masque I say Rec<ex>eive</ex>d</cell>
+                  <cell>50 li.</cell>
+               </row>
+            </table>
+            <ab><seg type="signed">Nich<ex>olas</ex> Herman/</seg></ab>                       
+            
+            <note type="editorial">
+               <ab>This receipt is recorded in MT Arch: MT.7/MAA/29, single sheet (see p 179).</ab>
+            </note>
+         </div>
+      </body>
+   </text>
+   
+   <text ana="taxon:middle_temple" type="record">
+      <body xml:lang="eng">
+         <head>Middle Temple Receipt
+            <date from-iso="1612" to-iso="1613">1612-13</date>
+            <seg ana="taxon:RLMTR12" corresp="taxon:RLPIC1 p. 171">RLMTR12</seg></head>
+         <div type="transcription">
+            <head>single sheet<supplied></supplied></head>
+            <pb n="MT.7/MAA/23" type="sheet"/>
+            
+            <ab>xxv<hi rend="sup">to</hi> die Augusti Anno D<ex>omi</ex>ni 1613</ab>
+            <ab><note type="marginal">5</note> Receaved the daye and yeare above written of Io<ex>hn</ex> Hopkyns in a further some of money <del>mo</del> toward<ex>es</ex> the late maske the som<ex>m</ex>e of tenn pound<ex>es</ex> Currant money</ab>
+            <ab><seg type="signed">Richard Baldwin Subth<ex>esaurari</ex>o</seg></ab>
+            
+            <note type="editorial">
+               <ab>The number ‘5’ in the margin corresponds to MT Arch: MT.7/MAA/25, single sheet (see p 172).</ab>
+            </note>
+         </div>
+      </body>
+   </text>
+
+   <text ana="taxon:middle_temple" type="record">
+      <body xml:lang="eng">
+         <head>Middle Temple Receipt
+            <date from-iso="1613" to-iso="1614">1613-14</date>
+            <seg ana="taxon:RLMTR13" corresp="taxon:RLPIC1 p. 178">RLMTR13</seg></head>
+         <div type="transcription">
+            <head>single sheet<supplied></supplied></head>
+            <pb n="MT.7/MAA/28" type="sheet"/>
+            
+            <ab>16<hi rend="sup">o</hi> Die Octobr<ex>is</ex> 1613</ab>
+            <table>
+               <row>
+                  <cell>Rec<ex>eaue</ex>d by mee Nicholas Herman servant to Richard Martyn of the Middle Temple Esq<ex>uier</ex> of mr Richard Baldwyn sub Tr<ex></ex>er of the said house the som<ex>m</ex>e of thirteene pound<ex>es</ex> six shilling<ex>es</ex> and eight pence of Currant money toward<ex>es</ex> further Charge of the late maske I say receaued</cell>
+                  <cell>xiij li. 6 s. 8 d.</cell>
+               </row>
+            </table>
+            <ab><seg type="signed">Nich<ex>olas</ex> Herman//</seg></ab>                        
+            
+            <note type="editorial">
+               <ab>This receipt is recorded in MT Arch: MT.7/MAA/29, single sheet (see p 179).</ab>
+            </note>
+         </div>
+      </body>
+   </text>
+            
+   <text ana="taxon:middle_temple" type="record">
+      <body xml:lang="eng">
+         <head>Middle Temple Receipt
+            <date from-iso="1613" to-iso="1614">1613-14</date>
+            <seg ana="taxon:RLMTR14" corresp="taxon:RLPIC1 pp. 178-9">RLMTR14</seg></head>
+         <div type="transcription">
+            <head>single sheet<supplied></supplied></head>
+            <pb n="MT.7/MAA/31" type="sheet"/>
+            
+            <ab>5<hi rend="sup">o</hi> November 1613</ab>
+            <table>
+               <row>
+                  <cell>Rec<ex>eaue</ex>d by mee Nich<ex>olas</ex> Herman servant to Richard Martyn Esq<ex>uier</ex> of mr Baldwyn toward<ex>es</ex> the further Charge of the late masque the som<ex>m</ex>e of twenty pound<ex>es</ex> I say receaued</cell>
+                  <cell>20 li.</cell>
+               </row>
+            </table>
+            
+            <ab><seg type="signed">Nich<ex>olas</ex> Herman//</seg></ab>
+            <note type="editorial">
+               <ab>This receipt is recorded in MT Arch: MT.7/MAA/29, single sheet (see p 179).</ab>
+            </note>
+         </div>
+      </body>
+   </text>
+
+   <text ana="taxon:middle_temple" type="record">
+      <body xml:lang="eng">
+         <head>Middle Temple Receipt
+            <date from-iso="1613" to-iso="1614">1613-14</date>
+            <seg ana="taxon:RLMTR15" corresp="taxon:RLPIC1 p. 180">RLMTR15</seg></head>
+         <div type="transcription">
+            <head>single sheet<supplied></supplied></head>
+            <pb n="MT.7/MAA/27" type="sheet"/>
+            
+            <ab>Money receaved this present Michaelmas Tearme <del>L</del> of mr Barker w<ex>hi</ex>ch he receaved of the two taxacion Rowles, <del>the</del></ab>
+            <table>
+               <row>
+                  <cell>The first receipt</cell>
+                  <cell>Ciij<hi rend="sup">xx</hi> li.</cell>
+               </row>
+               <row>
+                  <cell>The second receipt</cell>
+                  <cell>xx li.</cell>
+               </row>
+            </table>
+            
+            <note type="editorial">
+               <ab>For the two taxation rolls, see MT Arch: MT.7/MAA/22, single sheet (p 171).</ab>
+            </note>
+         </div>
+      </body>
+   </text>
+
+
 </TEI>
