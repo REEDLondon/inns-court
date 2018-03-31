@@ -233,35 +233,29 @@
       </profileDesc>
       <revisionDesc>
          <!-- Add new major milestone changes to top -->
-         <change when="2018-03-11" who="#KM">created document</change>
+         <change when="2018-03-05" who="#KM">created document</change>
       </revisionDesc>
    </teiHeader>
    
    <text ana="taxon:letter" type="record">
       <body xml:lang="eng">
-         <head>Letter of Sir Edward Phelips to Sir Dudley Carleton
-            <date when-iso="1613-02-25">1613-02-25</date>
-            <seg ana="taxon:RLC012" corresp="taxon:RLPIC2 pp. 690">RLC012</seg></head>
+         <head>Middle Temple Letter of Masters of the Bench to Sir Edawrd Phelips
+            <date when-iso="1613">1613</date> #after 14th of May, 1614 - how to put this in? KM
+            <seg ana="taxon:RLMTL2" corresp="taxon:RLPIC2 pp. 165">RLMTL2</seg></head>
          <div type="transcription">
-            <head>f <del>1</del><supplied>(25 February)</supplied></head>
-            <pb n="f 1" type="folio"/>
+            <head> single sheet </head>
+            <pb n="1" type="sheet"/>
             
-            <ab>I cannot but acknowledg with all thanckfullnes (My hono<ex>ra</ex>ble and much esteemed good frend) yo<ex>u</ex>r kinde remembring of him whoe longe hath and ever will both acknowledge yo<ex>u</ex>r vertues and owe yow much Loue; The Coldnese of this English time affordeth not much worthie the passage by Sea, but that o<ex>u</ex>r well liked of marriage was solemnized the 14<add place="above">th</add> of this p<ex>rese</ex>nte moneth of ffebr<ex>uary</ex> Wherat all <persName type="Ambassadors">foraine Embassadors</persName> (the Spanish only excepted) were p<ex>rese</ex>nte. And soe were they Mundaie and tuesday<date>15 and 16 February 1612/13</date> following The marriage was accompanied with much Noblenesse and Royalty Thursdaie and Satturdaie<date>11 and 13 February 1612/13</date> before with firework<ex>es</ex> and shippfight<ex>es</ex> vpon <placeName n="The Thames">Thames</placeName>, Sunday night<date>14 February 1612/13</date> with <title>the Erles and Ladyes Maske</title> Munday night<date>15 February 1612/13</date> with <title n="The Memorable Masque">the Maske of the Middle Temple and Lyncolnes Inn</title> whoe came through the streete on greate horses w<ex>hi</ex>ch with the sumptuousnesse of the Maske the device therof with the requisite performance hadd the price and praise of all others. On Tuesday night<date>16 February 1612/13</date> was the <title n="Masque of the Inner Temple and Gray's Inn">Maske of the Inner Temple and Greys Inn</title> readie for the performance of their Maske ther com<ex>m</ex>ing and shewe being by water but they retourned that night without execuc<ex>i</ex>on But on satturday night<date>20 February 1612/13</date> after they performed the same w<ex>i</ex>th good approbac<ex>i</ex>on; On Sunday night<note type="foot">21 February 1612/13</note> after the <persName n="James I">Kinge</persName> feasted the <orgName n="Inns of Court">Innes of Courte</orgName> w<ex>i</ex>th a greate deale of ioye and comforte himself sitting at the same Boorde, Soe that I may well write yow that never <persName n="James I">Kinge</persName> was more gloriouslie and Royally served by them, nor they more honored or graced by <persName n="James I">a Soueraigne</persName>.... </ab>
+            <ab> To the right worshipfull <persName n="Edward Phelips">Sir Edward Phelipps</persName> knight master of the Rolls.
+               The peticion of the Benchers of the <orgName>Middle Temple</orgName>.
+               
+               Wheareas six masking sutes for six gent<ex>lemen</ex> of our howse weare provided at ye charge of the howse, and p<ex>ro</ex>mised after the maske ended to be redeliu<ex>er</ex>ed againe to the howse, sythens w<ex>hi</ex>ch tyme all the said gent<ex>lemen</ex> have redeliuered &amp; promised to redeliver their saide sutes excepting onlye <persName n="Humphrey Peters">mr Humfry Peter<ex>es</ex></persName> who doth absolutely refuse to deliver the same, whearefore our desire ys that you wilbe pleased to call the saide <persName n="Humphrey Peters">mr Peters</persName> before you and to take such order with him for the delivery of the saide sute as in yo<ex>u</ex>r wisedome you shall thinck meete/
+              
+              °Lett <persName n="Humphrey Peters">mr peters</persName> presently come vnto me for I hold his deniall very strange
+              (signed) <persName n="Edward Phelips">Phelipps</persName>° </ab>
             
-           
-         </div>
+            
+         </div>      
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
