@@ -231,9 +231,49 @@
       </profileDesc>
       <revisionDesc>
          <!-- Add new major milestone changes to top -->
+         <change when="2018-04-23" who="#KC">start adding records to file</change>
          <change when="2018-02-03" who="#JAKA1">created document</change>
       </revisionDesc>
    </teiHeader>
+   
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1610" to-iso="1611" cert="medium">1610-11</date>
+            <seg ana="taxon:RLITPB2" corresp="taxon:RPCIC p. 145">RLITPB2</seg></head>
+         <div type="transcription">
+            <head>f 99<supplied>(10 February)</supplied></head>
+            <pb n="f 99" type="folio"/> 
+            
+            <gap reason="omitted"/>
+            
+            <ab>
+               <note type="marginal" place="margin_left">Private Comons taken awaie in Christmas</note> Whereas, great disorders doe 
+               growe in this howse and greate losse and
+               detryment to many yonge gent<ex>lemen</ex> fellowes of the same, by reason of
+               kepinge pryvate Commons in Christmas It is at this parliament ordered
+               That from henceforth there shalbee noe pryvate Commons kept in this
+               howse in the tyme of Christmas, but that the Comons of the howse shall
+               henceforth bee contynued dureing Christmas tyme as in other tymes of the
+               yeare without any dyceinge or other disorder. Neither shall there bee any
+               Lorde or breaking vpp of any mans Chamber vppon payne that every person
+               hwich hereafter shall attempt any such thinge shall incurre the danger and
+               penaltie of the former orders in that behalf heretofore made./
+               
+               <note type="marginal" place="margin_left"> Noe playes one festyvall days.</note> And for that great diso
+               rder &amp; scurrilytie is brought into this howse by lewde
+               &amp; lasciuious playes. It is likewise ordered in this parliament that from
+               henceforth there shalbe no more playes in this howse either vpon the ffeast
+               of all Sainctes or Candlemas day, but the same from henceforth to bee vtterly
+               taken awaie and abolyshed
+               <gap reason="omitted"/>
+               
+            </div>
+            
+            <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>            
 
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
