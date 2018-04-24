@@ -231,14 +231,77 @@
       </profileDesc>
       <revisionDesc>
          <!-- Add new major milestone changes to top -->
+         <change when="2018-04-23" who="#KC">start adding records to file</change>
          <change when="2018-02-03" who="#JAKA1">created document</change>
       </revisionDesc>
    </teiHeader>
+   
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date when-iso="1611" cert="medium">1610/11</date> <!-- KC: might need to confirm with Carolyn about this tagging. This record would be 10 Feb 1610 to them and 10 Feb 1611 to us modern people because new year started from 25 March at the time. -->
+            <seg ana="taxon:RLITPB2" corresp="taxon:RPCIC p. 145">RLITPB2</seg></head>
+         <div type="transcription">
+            <head>f 99<supplied>(10 February)</supplied></head>
+            <pb n="f 99" type="folio"/> 
+            
+            <gap reason="omitted"/>
+            
+            <ab>
+               Whereas, <note type="marginal" place="margin_left">Private Comons taken awaie in Christmas</note> great disorders doe growe in this howse and greate losse and
+               detryment to many yonge gent<ex>lemen</ex> fellowes of the same, by reason of
+               kepinge pryvate Com<ex>m</ex>ons in Chr<ex>is</ex>tmas It is at this p<ex>ar</ex>liam<ex>en</ex>t ordered
+               That from henceforth there shalbee noe pryvate Com<ex>m</ex>ons kept in this
+               howse in the tyme of Chr<ex>istmas</ex>, but that the Comons of the howse shall
+               henceforth bee contynued dureing Chr<ex>istmas</ex> tyme as in other tymes of the
+               yeare w<ex>i</ex>thout any dyceinge or other disorder. Neither shall there bee any
+               Lorde or breaking vpp of any mans Chamber vppon payne that every p<ex>e</ex>rson
+               w<ex>hi</ex>ch hereaft<ex>er</ex> shall attempt any such thinge shall incurre the danger and
+               penaltie of the form<ex>er</ex> orders in that behalf heretofore made./
+            </ab>
+            
+            <ab> 
+               And <note type="marginal" place="margin_left"> Noe playes one festyvall days.</note>for that great disorder &amp; scurrilytie is brought into this howse by lewde
+               &amp; lasciuious playes. It is likewise ordered in this p<ex>ar</ex>liam<ex>en</ex>t that from
+               henceforth there shalbe no more playes in this howse either vpon the ffeast
+               of all S<ex>ain</ex>ct<ex>es</ex> or Candlemas day, but the same from henceforth to bee vtterly
+               taken awaie and abolyshed
+            </ab>
+            
+               <gap reason="omitted"/>
+
+         </div>
+      </body>
+   </text>           
+   
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date when-iso="1611" cert="medium">1611</date>  
+            <seg ana="taxon:RLITPB2" corresp="taxon:RPCIC p. 146-7">RLITPB2</seg>
+         </head>
+         
+         <div type="transcription">
+            <head>f 105v<supplied>(24 November)</supplied></head>
+            <pb n="f 99" type="folio"/> 
+            
+            <gap reason="omitted"/>
+            
+            <ab>
+               Where[of] <note type="marginal" place="margin_left">The order for layinge downe of playes repealed.</note>of late yeares vpon the two festivall dayes of All S<ex>ain</ex>t<ex>es</ex> and Candlemasse playes haue beene vsed after dinne<ex>r</ex> for recreacion w<ex>hi</ex>ch haue lately beene layd downe by order in Parliament It is now ordered that the same order shall henceforth stand repealed.
+            </ab>
+            
+             <gap reason="omitted"/>
+               
+         </div>
+      </body>
+   </text>    
+   
 
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date when-iso="1612" cert="medium">1612</date>
+            <date when-iso="1613" cert="medium">1613</date>
             <seg ana="taxon:RLITP2" corresp="taxon:RLPIC1 pp. 151-2">RLITPB2</seg></head>
          <div type="transcription">
             <head>f 112v<supplied>(4 May)</supplied></head>
@@ -249,7 +312,7 @@
             </ab>
          </div>
          
-         <div type="translation">
+         <div type="endnote">  
             <ab>The phrase ‘late showe and sport<ex>es</ex>’ (p 151, l.41) refers to Beaumont’s <hi rend="italic">Masque of the Inner Temple and Gray’s Inn</hi>, performed in the Banqueting House, Whitehall, on 20 February 1612/13, following the marriage of Princess Elizabeth and the count palatine. The figure ‘xij<hi rend="superscript">C</hi> li.’(£1200), if doubled to allow for Gray’s Inn’s share, tallies roughly with the total of £2255 8s 11d calculated by Orbison (ed), <hi rend="italic">Collections</hi> 12, p 7, to have been the cost of George Chapman’s masque presented by the Middle Temple and Lincoln’s Inn for the same occasion.</ab>
          </div>
                
