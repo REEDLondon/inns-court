@@ -239,7 +239,7 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1610" to-iso="1611" cert="medium">1610-11</date>
+            <date when-iso="1611" cert="medium">1610/11</date> <!-- KC: might need to confirm with Carolyn about this tagging. This record would be 10 Feb 1610 to them and 10 Feb 1611 to us modern people because new year started from 25 March at the time. -->
             <seg ana="taxon:RLITPB2" corresp="taxon:RPCIC p. 145">RLITPB2</seg></head>
          <div type="transcription">
             <head>f 99<supplied>(10 February)</supplied></head>
@@ -277,7 +277,7 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1611" to-iso="1612" cert="medium">1611-12</date>
+            <date when-iso="1611" cert="medium">1611</date>  
             <seg ana="taxon:RLITPB2" corresp="taxon:RPCIC p. 146-7">RLITPB2</seg>
          </head>
          
@@ -296,13 +296,6 @@
          </div>
       </body>
    </text>    
-   
-   
-   
-   
-   
-   
-   
    
 
    <text ana="taxon:inner_temple" type="record">
