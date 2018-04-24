@@ -272,7 +272,38 @@
 
          </div>
       </body>
-   </text>            
+   </text>           
+   
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1611" to-iso="1612" cert="medium">1611-12</date>
+            <seg ana="taxon:RLITPB2" corresp="taxon:RPCIC p. 146-7">RLITPB2</seg>
+         </head>
+         
+         <div type="transcription">
+            <head>f 105v<supplied>(24 November)</supplied></head>
+            <pb n="f 99" type="folio"/> 
+            
+            <gap reason="omitted"/>
+            
+            <ab>
+               Where[of] <note type="marginal" place="margin_left">The order for layinge downe of playes repealed.</note>of late yeares vpon the two festivall dayes of All S<ex>ain</ex>t<ex>es</ex> and Candlemasse playes haue beene vsed after dinne<ex>r</ex> for recreacion w<ex>hi</ex>ch haue lately beene layd downe by order in Parliament It is now ordered that the same order shall henceforth stand repealed.
+            </ab>
+            
+             <gap reason="omitted"/>
+               
+         </div>
+      </body>
+   </text>    
+   
+   
+   
+   
+   
+   
+   
+   
 
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
