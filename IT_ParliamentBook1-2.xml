@@ -331,7 +331,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1633" to-iso="1634" cert="medium">1633-4</date>
-            <seg ana="taxon:RLITPB2" corresp="taxon:RPCIC p. 140-3">RLITPB2</seg>
+            <seg ana="taxon:RLITPB2" corresp="taxon:RPCIC p. 240-3">RLITPB2</seg>
          </head>
          
          <div type="transcription">
@@ -394,6 +394,16 @@
             </ab>
             <gap reason="omitted"/>
        </div>
+   
+      <div type="editorial">
+         <ab>
+         The statement that no masque or show had been presented to the monarch by any Inn since the
+         accession of Charles I (p 240, ll.4–6) means that any Inn of Court masque since 1625 was presented
+         only at home: see the apparent masque at Gray’s Inn, 1631–2 (p 229, ll.5, 9, and endnote).
+         The sale of mock ‘Offices’ (beginning p 240, l.29) must be counted among the more ingenious
+         fund-raising schemes for Christmas revels.
+         </ab>
+      </div>
    
        <div type="transcription">
           <head>f 222v<supplied>(9 February)</supplied></head>
