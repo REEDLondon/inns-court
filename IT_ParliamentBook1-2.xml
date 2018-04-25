@@ -239,7 +239,7 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date when-iso="1611" cert="medium">1610/11</date> <!-- KC: might need to confirm with Carolyn about this tagging. This record would be 10 Feb 1610 to them and 10 Feb 1611 to us modern people because new year started from 25 March at the time. -->
+            <date from-iso="1610" to-iso="1611" cert="medium">1610-11</date> <!-- KC: might need to confirm with Carolyn about this tagging. This is the date range of the record accounting year.  The actual date of the record would be 10 Feb 1610 to them and 10 Feb 1611 to us modern people because new year started from 25 March at the time. -->
             <seg ana="taxon:RLITPB2" corresp="taxon:RPCIC p. 145">RLITPB2</seg></head>
          <div type="transcription">
             <head>f 99<supplied>(10 February)</supplied></head>
@@ -277,12 +277,12 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date when-iso="1611" cert="medium">1611</date>  
+            <date from-iso="1611" to-iso="1612" cert="medium">1611-12</date>  
             <seg ana="taxon:RLITPB2" corresp="taxon:RPCIC p. 146-7">RLITPB2</seg>
          </head>
          
          <div type="transcription">
-            <head>f 105v<supplied>(24 November)</supplied></head>
+            <head>f 105v<supplied>(24 November)</supplied></head> <!-- KC: actual record date is 24 Nov 1611 -->
             <pb n="f 99" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -301,10 +301,10 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date when-iso="1613" cert="medium">1613</date>
+            <date from-iso="1612" to-iso="1613" cert="medium">1612-13</date>
             <seg ana="taxon:RLITP2" corresp="taxon:RLPIC1 pp. 151-2">RLITPB2</seg></head>
          <div type="transcription">
-            <head>f 112v<supplied>(4 May)</supplied></head>
+            <head>f 112v<supplied>(4 May)</supplied></head>  <!-- KC: this makes actual record date 4 May 1613 -->
             <pb n="f 112v" type="folio"/>
             <gap reason="omitted"/>
             <ab>
