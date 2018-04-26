@@ -283,7 +283,75 @@
       </body>
    </text>
    
-   
+   <!-- KC: 1507-8 record -->
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1507" to-iso="1508" cert="medium">1507-8</date>
+            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 32">RLITPB1</seg></head>
+         <div type="transcription">
+            <head>f 18<supplied>(1 November) (Christmas officers)</supplied></head>
+            <pb n="18" type="folio"/> 
+            
+            <gap reason="omitted"/>
+            
+            <table>
+               <row>
+                  <cell>M<ex>agist</ex>ri de Revels</cell>
+                  <cell>Brice<lb/>Tate<lb/>Haddon<lb/>Plunket<lb/></cell>
+               </row><note type="foot">Brice...Plunket: <hi rend="italic">braced pointing to the left at</hi> Magistratri de Revels</note>
+            </table>
+            <gap reason="omitted"/>
+         </div>
+            
+          <div type="transcription">
+               <head>f 19<supplied>(6 February)</supplied></head>
+               <pb n="19" type="folio"/> 
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Brice &amp; Haddon am<ex>er</ex>ciant<ex>ur</ex> q<ex>ui</ex>libet vj s. <del>vij</del> viij d.
+                        q<ex>uia</ex> fecer<ex>unt</ex> defect<ex>um</ex> in officiu<ex>m</ex> m<ex>agist</ex>ror<ex>um</ex> del
+                        Revels ad f<ex>estum</ex> Nat<ex>alis</ex> in A<ex>nn</ex>o xxiij &amp; vlt<ex>er</ex>ius q<ex>uo</ex>d
+                        fac<ex>iant</ex> contribuc<ex>i</ex>one<ex>m</ex> Plunket &amp; Tate qui fecer<ex>unt</ex> <del>d</del>
+                        q<ex>uo</ex>d ad offic<ex>ium</ex> p<ex>er</ex>tenuit</cell>
+                     <cell><del>xvj</del> xiij li. ii<damage><gap unit="chars" extent="3"/></damage></cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+             
+             <div type="editorial">
+                <ab>
+                   Folios damaged by post–World War II fire; the dates are supplied from Inderwick.
+                </ab>
+             </div>             
+         </div>
+      </body>
+   </text>
+            
+   <!-- KC: 1508-9 record -->           
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1508" to-iso="1509" cert="medium">1508-9</date>
+            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 33">RLITPB1</seg></head>
+         <div type="transcription">
+            <head>f 20v<supplied>(2 November) (Christmas officers)</supplied></head>
+            <pb n="20" type="folio"/> 
+            
+            <gap reason="omitted"/>
+            
+            <table>
+               <row>
+                  <cell>Masters de lez Revell<ex>es</ex></cell>
+                  <cell>Dane<ex>ers</ex> T<ex>homas</ex><lb/>Gerard<lb/>SentAubyn<lb/>Wye<lb/></cell>
+               </row><note type="foot">Danuers...Wye: <hi rend="italic">braced pointing to the left at</hi> Masters fe lez Revelle</note>
+            </table>
+            <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
+
    
    <!-- KC: 1610-11 record -->  
    <text ana="taxon:inner_temple" type="record">
@@ -345,6 +413,7 @@
              <gap reason="omitted"/>
                
          </div>
+   
       </body>
    </text>    
    
