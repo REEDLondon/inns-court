@@ -351,6 +351,44 @@
          </div>
       </body>
    </text>
+   
+   <!-- KC: 1509-10 record -->           
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1509" to-iso="1510" cert="medium">1509-10</date>
+            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 34">RLITPB1</seg></head>
+         <div type="transcription">
+            <head>f 22<supplied>(2 November) (Christmas officers)</supplied></head>
+            <pb n="22" type="folio"/> 
+            
+            <gap reason="omitted"/>
+            
+            <table>
+               <row>
+                  <cell>Masters <note type="marginal" place="margin_left">A<ex>nn</ex>o primo</note>dez Reuells</cell>
+                  <cell><del>Primyer</del><lb/>Babyngton R<lb/><del>Dracott<ex>es</ex></del><del><damage><gap unit="chars" extent="3"/></damage></del><lb/>Tyndale<lb/>Thymbelby<lb/>Woodye</cell>
+                  <cell>no<ex>n</ex> exercer<ex>un</ex>t officiu<ex>m</ex> eor<ex>um</ex></cell>
+               </row>
+            </table>
+            <gap reason="omitted"/>
+            <div type="transcription">
+               <head>f 22v<supplied>(3 February)</supplied></head>
+               <pb n="22v" type="folio"/> 
+               
+               <gap reason="omitted"/>
+               <!-- KC: stopped here -->
+               <ab>Dracotes <note type="marginal" place="margin_left">It<ex>em</ex></note>amerciatur [k..l] ad vj s. viij d. quia non [assumpsk..l] assumpsit
+                  super se officium Magistri dez Reuels in festo Natalis domini k…l</ab>
+               
+               
+               
+            </div>
+         </div>
+      </body>
+   </text>
+   
+   
 
    
    <!-- KC: 1610-11 record -->  
