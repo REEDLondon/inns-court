@@ -244,7 +244,7 @@
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 30">RLITPB1</seg></head>
          <div type="transcription">
             <head>f 14<supplied>(November) (Christmas officers)</supplied></head>
-            <pb n="f 99" type="folio"/> 
+            <pb n="99" type="folio"/> 
             
             <gap reason="omitted"/>
             
@@ -260,10 +260,28 @@
       </body>
    </text>
 
-
-   
-   
-   
+  <!-- KC: 1506-7 record -->
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1506" to-iso="1507" cert="medium">1506-7</date>
+            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 31">RLITPB1</seg></head>
+         <div type="transcription">
+            <head>f 16<supplied>(2 November) (Christmas officers)</supplied></head>
+            <pb n="16" type="folio"/> 
+            
+            <gap reason="omitted"/>
+            
+            <table>
+               <row>
+                  <cell>M<ex>agist</ex>ri pur les Revelles</cell><cell><supplied>(blank)</supplied></cell>
+               </row>
+            </table>
+            
+            <gap reason="ommitted"/>
+         </div>
+      </body>
+   </text>
    
    
    
@@ -341,7 +359,7 @@
             <pb n="112v" type="folio"/>
             <gap reason="omitted"/>
             <ab>
-               fforasmuche it is found by experience That the vtterbarresters, of this howse, as alsoe other gentl<ex>emen</ex> vnder the barre doe vsually vnder hand &amp; secretlie contrarie to the Statut<ex>es</ex> &amp; orders of this howse, make sale of theire Chambers, for great som<ex>m</ex>es of money, and convert the same to theire owne privat vse to the great p<ex>re</ex>iudice and state of this howse And for that contrariewise It is seen from the experience of other howses of Courte, that throughe sale made of Chambers by the governors of such howse muche benefitt and proffitte hath growne to the gen<ex>er</ex>al state of the same: with furderance and due content of the Student<ex>es</ex> there, And forasmuche as this howse att this p<ex>re</ex>sent is muche indebted by reason of the late showe and sport<ex>es</ex> made by the gentl<ex>emen</ex> of this howse before his highnes att whitehall Amountinge in Charges vnto the howse (over and besides the stocke of this howse,) not soe litle as xij<hi rend="superscript">C</hi> li. which requires somme extraordynarie and unwonted course of supply, but noe meanes as yet discerned therein soe fittinge as suche husbandlye course of admittanc<ex>es</ex>, Be it therefore enacted att this p<ex>re</ex>sent ^<add place="above">parliament</add> that hencefourth all admittanc<ex>es</ex> into anye Chamber or Chambers of this howse in possession or Reverc<ex>i</ex>on (other then Bench<ex>er</ex>s Chambers priviledged by acte of p<ex>ar</ex>liam<ex>en</ex>t) shalbe made from tyme to tyme by acte of p<ex>ar</ex>liam<ex>en</ex>t, and not by the Th<ex>reasour</ex>er of this ^<add place="above">howse</add> allone as heretofore haue ben, and that all admittances otherwise had or made shalbe <del><damage/></del> voyde, And it is furder enacted that vppon everye suche admittance by acte of p<ex>ar</ex>liament the p<ex>ar</ex>tie or p<ex>ar</ex>ties to be admitted shall over and above the former vsuall &amp; accustomed fine for an admittance paye vnto the Th<ex>reasour</ex>er of this howse suche furder som<ex>m</ex>e or som<ex>m</ex>es of money for such Chamber or Chambers as shalbe then assessed and sett downe for suche admittanc<ex>es</ex> as the worth of the chamber or chambers will in the iudgement of such p<ex>ar</ex>liament afford to be sold betweene p<ex>ar</ex>tie and p<ex>ar</ex>tie, Nevertheles it is alsoe furder enacted that everye p<ex>er</ex>son soe admitted and payinge suche som<ex>m</ex>e of money shall att any tyme after vppon his surrender of suche his interest in suche Chamber or Chambers, wherein he shall stand soe admitted as aforesaid, haue repaide backe vnto him by the Th<ex>reasour</ex>er of this howse three full p<ex>ar</ex>t<ex>es</ex> in foure p<ex>ar</ex>t<ex>es</ex> devided of the wholl fine or som<ex>m</ex>e of money which he shall haue soe formerlie paid and disbursed as aforesaid, And this acte to be sufficient warrant and discharge to suche Th<ex>reasour</ex>er for the tyme beinge in that behaulf,: Provided alwayes that this acte or anie thinge therein contayned shall not extend to anye Chamber, Chambers, or Rowmes, wherein anye of this Socyetie haue anie graunt by anye acte of p<ex>ar</ex>liament, but that everye suche p<ex>er</ex>son and p<ex>er</ex>sons theire executors and assignes shall haue Contynue and enioye there said Chambers and Romes, whereof and wherein they stand soe admitted with all priviledg<ex>es</ex> and benefitt<ex>es</ex> in as lardge and beneficiall manner to all purposes as the same were graunted vnto them or to anie other vnder whome they Clayme the same by force of anye acte of p<ex>ar</ex>liament heretofore made anye thinge in this acte to the contrarie notwithstandinge/
+               fforasmuche it is found by experience That the vtterbarresters, of this howse, as alsoe other gentl<ex>emen</ex> vnder the barre doe vsually vnder hand &amp; secretlie contrarie to the Statut<ex>es</ex> &amp; orders of this howse, make sale of theire Chambers, for great som<ex>m</ex>es of money, and convert the same to theire owne privat vse to the great p<ex>re</ex>iudice and state of this howse And for that contrariewise It is seen from the experience of other howses of Courte, that throughe sale made of Chambers by the governors of such howse muche benefitt and proffitte hath growne to the gen<ex>er</ex>al state of the same: with furderance and due content of the Student<ex>es</ex> there, And forasmuche as this howse att this p<ex>re</ex>sent is muche indebted by reason of the late showe and sport<ex>es</ex> made by the gentl<ex>emen</ex> of this howse before his highnes att whitehall Amountinge in Charges vnto the howse (over and besides the stocke of this howse,) not soe litle as xij<hi rend="superscript">C</hi> li. which requires somme extraordynarie and unwonted course of supply, but noe meanes as yet <note type="foot">noe meanes as yet:<hi rend="italc">for</hi> no meanes are as yet</note>discerned therein soe fittinge as suche husbandlye course of admittanc<ex>es</ex>, Be it therefore enacted att this p<ex>re</ex>sent ^<add place="above">parliament</add> that hencefourth all admittanc<ex>es</ex> into anye Chamber or Chambers of this howse in possession or Reverc<ex>i</ex>on (other then Bench<ex>er</ex>s Chambers priviledged by acte of p<ex>ar</ex>liam<ex>en</ex>t) shalbe made from tyme to tyme by acte of p<ex>ar</ex>liam<ex>en</ex>t, and not by the Th<ex>reasour</ex>er of this ^<add place="above">howse</add> allone as heretofore haue ben, and that all admittances otherwise had or made shalbe <del><damage/></del> voyde, And it is furder enacted that vppon everye suche admittance by acte of p<ex>ar</ex>liament the p<ex>ar</ex>tie or p<ex>ar</ex>ties to be admitted shall over and above the former vsuall &amp; accustomed fine for an admittance paye vnto the Th<ex>reasour</ex>er of this howse suche furder som<ex>m</ex>e or som<ex>m</ex>es of money for such Chamber or Chambers as shalbe then assessed and sett downe for suche admittanc<ex>es</ex> as the worth of the chamber or chambers will in the iudgement of such p<ex>ar</ex>liament afford to be sold betweene p<ex>ar</ex>tie and p<ex>ar</ex>tie, Nevertheles it is alsoe furder enacted that everye p<ex>er</ex>son soe admitted and payinge suche som<ex>m</ex>e of money shall att any tyme after vppon his surrender of suche his interest in suche Chamber or Chambers, wherein he shall stand soe admitted as aforesaid, haue repaide backe vnto him by the Th<ex>reasour</ex>er of this howse three full p<ex>ar</ex>t<ex>es</ex> in foure p<ex>ar</ex>t<ex>es</ex> devided of the wholl fine or som<ex>m</ex>e of money which he shall haue soe formerlie paid and disbursed as aforesaid, And this acte to be sufficient warrant and discharge to suche Th<ex>reasour</ex>er for the tyme beinge in that behaulf,: Provided alwayes that this acte or anie thinge therein contayned shall not extend to anye Chamber, Chambers, or Rowmes, wherein anye of this Socyetie haue anie graunt by anye acte of p<ex>ar</ex>liament, but that everye suche p<ex>er</ex>son and p<ex>er</ex>sons theire executors and assignes shall haue Contynue and enioye there said Chambers and Romes, whereof and wherein they stand soe admitted with all priviledg<ex>es</ex> and benefitt<ex>es</ex> in as lardge and beneficiall manner to all purposes as the same were graunted vnto them or to anie other vnder whome they Clayme the same by force of anye acte of p<ex>ar</ex>liament heretofore made anye thinge in this acte to the contrarie notwithstandinge/
             </ab>
          </div>
          
