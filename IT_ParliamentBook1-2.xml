@@ -283,7 +283,7 @@
       </body>
    </text>
    
-   <!-- KC: 1507-8 RLITPB1 record -->
+   <!-- KC: 1507-8 RLITPB1 record. Brace example. -->
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
@@ -430,10 +430,9 @@
                   in soc<ex>ietate</ex>m secundum ordinem p<ex>re</ex>t<ex>er</ex> 
                   exonoret<ex>ur</ex> de M<ex>agistro</ex> de Revell<ex>es</ex>
                   &amp; de offic<ex>io</ex> Pincerni</ab>
-               
+    
                <gap reason="omitted"/>
             </div>
-           
            
             <div type="editorial">
                <ab> The names of the four masters of the revels are entered again at the foot of f 26: 'lacton,
@@ -444,9 +443,37 @@
       </body>
    </text>
             
+   <!-- KC: 1511-12 RLITPB1 record. Brace example. -->
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1511" to-iso="1512" cert="medium">1511-12</date>
+            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 38">RLITPB1</seg></head>
+         <div type="transcription">
+            <head>f 28<supplied>(10 November) (Christmas officers)</supplied></head>
+            <pb n="28" type="folio"/> 
             
+            <gap reason="omitted"/>
+            
+            <table>
+               <row>
+                  <cell>M<ex>agistri</ex> de Revell<ex>es</ex></cell>
+                  <cell>White<lb/>Mores<lb/>Danvers<lb/>Warde<lb/></cell>
+               </row><note type="foot">Mores...Warde: <hi rend="italic">braced pointing to the left at</hi> Magistri de Revelles</note>
+            </table>
+            <gap reason="omitted"/>
+         </div>
+           
+         <div type="editorial">
+            <ab>The names of the four masters of the revels are repeated on f 28v.</ab>
+         </div>
+         
+      </body>
+   </text>
+         
+        
    
-
+<!-- KC: ================================================== -->
    
    <!-- KC: 1610-11 RLITPB1 record -->  
    <text ana="taxon:inner_temple" type="record">
