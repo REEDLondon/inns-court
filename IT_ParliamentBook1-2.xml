@@ -377,8 +377,8 @@
                <pb n="22v" type="folio"/> 
                
                <gap reason="omitted"/>
-               <ab>Dracotes <note type="marginal" place="margin_left">It<ex>em</ex></note>am<ex>er</ex>c<ex>iatur</ex> <del><gap unit="chars" extent="2"></gap></del> ad vj s. viij d. q<ex>ui</ex>a no<ex>n</ex> <del>assumps<gap unit="chars" extent="2"/></del> assumpsit
-                  sup<ex>er</ex> se offic<ex>ium</ex> M<ex>agist</ex>ri dez Reuels in festo Nat<ex>alis</ex> d<ex>om</ex>ini <gap unit="chars" extent="3"/>
+               <ab>Dracotes <note type="marginal" place="margin_left">It<ex>em</ex></note>am<ex>er</ex>c<ex>iatur</ex> <del><damage><gap unit="chars" extent="2"></gap></damage></del> ad vj s. viij d. q<ex>ui</ex>a no<ex>n</ex> <del>assumps<damage><gap unit="chars" extent="2"/></damage></del> assumpsit
+                  sup<ex>er</ex> se offic<ex>ium</ex> M<ex>agist</ex>ri dez Reuels in festo Nat<ex>alis</ex> d<ex>om</ex>ini <damage><gap unit="chars" extent="3"/></damage>
                </ab>
                <gap reason="omitted"/>
             </div>
@@ -559,6 +559,57 @@
          
       </body>
    </text>
+   
+   <!-- KC: 1516=-17 RLITPB1 record -->
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1516" to-iso="1517" cert="medium">1516-17</date>
+            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 43">RLITPB1</seg>
+         </head>
+         <div type="transcription">
+            <head>f 36v<supplied>(2 November) (Christmas officers)</supplied></head>
+            <pb n="36v" type="folio"/> 
+            
+            <gap reason="omitted"/>
+            
+            <table>
+               <row>
+                  <cell><lb/>M<ex>agist</ex>ri de Revell<ex>is</ex></cell>
+                  <cell>Newton<lb/>Martyn<lb/>Barret<lb/></cell>
+               </row>
+            </table>
+            
+            <gap reason="omitted"/>
+         </div>
+         
+         <div type="transcription">
+            <head>f 38<supplied>(5 February)</supplied></head>
+            <pb n="38" type="folio"/> 
+            
+            <gap reason="omitted"/>
+            <ab><damage><gap unit="chars" extent="3"/></damage>Natal<ex>is</ex> d<ex>omi</ex>ni &amp; no<ex>n</ex> ex<ex>er</ex>cuit officium 
+               p<ex>re</ex>d<ex>ictum</ex> It<ex>em</ex> decret<ex>um</ex> e<ex>st</ex> q<ex>uo</ex>d ip<ex>s</ex>e soluet trib<ex>us</ex> socijs suis M<ex>agist</ex>r<ex>is</ex> Reuell<ex>orum</ex> porc<ex>i</ex>o<ex>n</ex>em suum
+            </ab>
+            <ab>Et si<ex>m</ex>iliter q<ex>uo</ex>d soluet xvj d. sinescallo p<ex>ro</ex>
+               co<ex>mmun</ex>ib<ex>us</ex> suis tu<ex>n</ex>c sup<ex>er</ex>
+               ip<ex>sum</ex> imposit<ex>is</ex>
+            </ab>
+            
+            <gap reason="omitted"/>
+            
+            <div type="editorial">
+               <ab>Folio damaged by post-World War II fire; Symondson (see the footnoted 
+                  reading supplied from Inderwick) is not among the masters of the revels 
+                  listed on f 36v.
+              </ab>
+            </div>
+
+         </div>
+         
+      </body>
+   </text>
+   
    
    
    
