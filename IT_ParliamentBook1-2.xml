@@ -236,7 +236,7 @@
       </revisionDesc>
    </teiHeader>
    
-  <!-- KC: 1505-6 record -->
+  <!-- KC: 1505-6 RLITPB1 record -->
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
@@ -260,7 +260,7 @@
       </body>
    </text>
 
-  <!-- KC: 1506-7 record -->
+   <!-- KC: 1506-7 RLITPB1 record -->
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
@@ -283,7 +283,7 @@
       </body>
    </text>
    
-   <!-- KC: 1507-8 record -->
+   <!-- KC: 1507-8 RLITPB1 record -->
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
@@ -329,7 +329,7 @@
       </body>
    </text>
             
-   <!-- KC: 1508-9 record -->           
+   <!-- KC: 1508-9 RLITPB1 record -->           
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
@@ -352,7 +352,7 @@
       </body>
    </text>
    
-   <!-- KC: 1509-10 record -->           
+   <!-- KC: 1509-10 RLITPB1 record -->           
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
@@ -378,11 +378,10 @@
                
                <gap reason="omitted"/>
                <!-- KC: stopped here -->
-               <ab>Dracotes <note type="marginal" place="margin_left">It<ex>em</ex></note>amerciatur [k..l] ad vj s. viij d. quia non [assumpsk..l] assumpsit
-                  super se officium Magistri dez Reuels in festo Natalis domini k…l</ab>
-               
-               
-               
+               <ab>Dracotes <note type="marginal" place="margin_left">It<ex>em</ex></note>am<ex>er</ex>c<ex>iatur</ex> <del><gap unit="chars" extent="2"></gap></del> ad vj s. viij d. q<ex>ui</ex>a no<ex>n</ex> <del>assumps<gap unit="chars" extent="2"/></del> assumpsit
+                  sup<ex>er</ex> se offic<ex>ium</ex> M<ex>agist</ex>ri dez Reuels in festo Nat<ex>alis</ex> d<ex>om</ex>ini <gap unit="chars" extent="3"/>
+               </ab>
+               <gap reason="omitted"/>
             </div>
          </div>
       </body>
@@ -391,7 +390,7 @@
    
 
    
-   <!-- KC: 1610-11 record -->  
+   <!-- KC: 1610-11 RLITPB1 record -->  
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
@@ -430,7 +429,7 @@
       </body>
    </text>           
    
-   <!-- KC: 1611-12 record -->
+   <!-- KC: 1611-12 RLITPB1 record -->
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
@@ -455,7 +454,7 @@
       </body>
    </text>    
    
-<!-- KC: 1612-13 record; added by DKJ -->
+   <!-- KC: 1612-13 RLITPB1 record; added by DKJ -->
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
@@ -484,7 +483,7 @@
       </body>
    </text>
   
-   <!-- 1633-34 record -->
+   <!-- KC: 1633-34 RLITPB1 record -->
     <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
