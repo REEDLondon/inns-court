@@ -443,7 +443,7 @@
       </body>
    </text>
             
-   <!-- KC: 1511-12 RLITPB1 record. Brace example. -->
+   <!-- KC: 1511-12 RLITPB1 record -->
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
@@ -471,7 +471,96 @@
       </body>
    </text>
          
-        
+   <!-- KC: 1512-13 RLITPB1 record -->
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1512" to-iso="1513" cert="medium">1512-13</date>
+            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 39">RLITPB1</seg></head>
+         <div type="transcription">
+            <head>f 30<supplied>(11 November) (Christmas officers)</supplied></head>
+            <pb n="30" type="folio"/> 
+            
+            <gap reason="omitted"/>
+            
+            <table>
+               <row>
+                  <cell>Prouse<lb/>Burdon<lb/>ffitzsymond<lb/>Shyrlok<lb/></cell>
+                  <cell><lb></lb>M<ex>agist</ex>ri de Reuell<ex>is</ex> erga ff<ex>estu</ex>m Nat<ex>alis</ex> d<ex>omi</ex>ni</cell>
+               </row><note type="foot">Prouse...Shyrlok: <hi rend="italic">braced pointing to the right at</hi> Magistri de Reuellis...domini.</note>
+            </table>
+            <gap reason="omitted"/>
+         </div>
+         
+         <div type="editorial">
+            <ab>Folio damaged by post-World War II fire; the date is supplied from Inderwick.</ab>
+         </div>
+         
+      </body>
+   </text>
+   
+   <!-- KC: 1514-15 RLITPB1 record -->
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1514" to-iso="1514" cert="medium">1514-15</date>
+            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 42">RLITPB1</seg>
+         </head>
+         <div type="transcription">
+            <head>f 33<supplied>(19 November) (Christmas officers)</supplied></head>
+            <pb n="33" type="folio"/> 
+            
+            <gap reason="omitted"/>
+            
+            <table>
+               <row>
+                  <cell>Ma<ex>gist</ex>ri de Revell<ex>is</ex></cell>
+                  <cell>Pygott<lb/>Reede<lb/>Blagge<lb/>Denny<lb/></cell>
+               </row><note type="foot">Pygott...Denny: <hi rend="italic">braced pointing to the left at</hi> Magistri de Revellis</note>
+            </table>
+            
+            <gap reason="omitted"/>
+         </div>
+         
+         <div type="editorial">
+            <ab>Earlier on the same folio occurs an entry under 1 November listing as masters of the revels only 'Verney,'
+               'Rede,' and 'B <supplied>(blank)</supplied>.'</ab>
+         </div>
+         
+      </body>
+   </text>
+   
+   <!-- KC: 1515-16 RLITPB1 record -->
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1515" to-iso="1516" cert="medium">1515-16</date>
+            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 43">RLITPB1</seg>
+         </head>
+         <div type="transcription">
+            <head>f 34v<supplied>(2 November) (Christmas officers)</supplied></head>
+            <pb n="34v" type="folio"/> 
+            
+            <gap reason="omitted"/>
+            
+            <table>
+               <row>
+                  <cell><lb/>M<ex>agist</ex>r<ex>i</ex> Revell<ex>orum</ex></cell>
+                  <cell>Onley<lb/>Daunce<lb/>Coope<lb/>Martyne<lb/></cell>
+               </row>
+            </table>
+            
+            <gap reason="omitted"/>
+         </div>
+         
+         <div type="editorial">
+            <ab>Folio damaged by post-World War II fire; the date is supplied from Inderwick.</ab>
+         </div>
+         
+      </body>
+   </text>
+   
+   
    
 <!-- KC: ================================================== -->
    
