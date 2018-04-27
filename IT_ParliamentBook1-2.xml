@@ -588,7 +588,8 @@
             <pb n="38" type="folio"/> 
             
             <gap reason="omitted"/>
-            <ab><damage><gap unit="chars" extent="3"/></damage>Natal<ex>is</ex> d<ex>omi</ex>ni &amp; no<ex>n</ex> ex<ex>er</ex>cuit officium 
+            <ab><damage><gap unit="chars" extent="3"/></damage><note type="foot"><damage><gap unit="chars" extent="3"/></damage>: <hi rend="italic">damaged by fire; Inderwick,</hi> Calendar, <hi rend="italic">vol 1, p 39, reads</hi> Order that Symondson, who was elected
+               one of the masters of the revels at</note>Natal<ex>is</ex> d<ex>omi</ex>ni &amp; no<ex>n</ex> ex<ex>er</ex>cuit officium 
                p<ex>re</ex>d<ex>ictum</ex> It<ex>em</ex> decret<ex>um</ex> e<ex>st</ex> q<ex>uo</ex>d ip<ex>s</ex>e soluet trib<ex>us</ex> socijs suis M<ex>agist</ex>r<ex>is</ex> Reuell<ex>orum</ex> porc<ex>i</ex>o<ex>n</ex>em suum
             </ab>
             <ab>Et si<ex>m</ex>iliter q<ex>uo</ex>d soluet xvj d. sinescallo p<ex>ro</ex>
