@@ -299,8 +299,8 @@
             <table>
                <row>
                   <cell>M<ex>agist</ex>ri de Revels</cell>
-                  <cell>Brice<lb/>Tate<lb/>Haddon<lb/>Plunket<lb/></cell>
-               </row><note type="foot">Brice...Plunket: <hi rend="italic">braced pointing to the left at</hi> Magistratri de Revels</note>
+                  <cell>Brice<lb/>Tate<lb/>Haddon<lb/>Plunket<note type="foot">Brice...Plunket: <hi rend="italic">braced pointing to the left at</hi> Magistratri de Revels</note></cell>
+               </row>
             </table>
             <gap reason="omitted"/>
          </div>
@@ -346,8 +346,8 @@
             <table>
                <row>
                   <cell>Masters de lez Revell<ex>es</ex></cell>
-                  <cell>Dane<ex>ers</ex> T<ex>homas</ex><lb/>Gerard<lb/>SentAubyn<lb/>Wye<lb/></cell>
-               </row><note type="foot">Danuers...Wye: <hi rend="italic">braced pointing to the left at</hi> Masters fe lez Revelle</note>
+                  <cell>Dane<ex>ers</ex> T<ex>homas</ex><lb/>Gerard<lb/>SentAubyn<lb/>Wye<note type="foot">Danuers...Wye: <hi rend="italic">braced pointing to the left at</hi> Masters fe lez Revelle</note></cell>
+               </row>
             </table>
             <gap reason="omitted"/>
          </div>
@@ -462,8 +462,8 @@
             <table>
                <row>
                   <cell>M<ex>agistri</ex> de Revell<ex>es</ex></cell>
-                  <cell>White<lb/>Mores<lb/>Danvers<lb/>Warde<lb/></cell>
-               </row><note type="foot">Mores...Warde: <hi rend="italic">braced pointing to the left at</hi> Magistri de Revelles</note>
+                  <cell>White<lb/>Mores<lb/>Danvers<lb/>Warde<note type="foot">Mores...Warde: <hi rend="italic">braced pointing to the left at</hi> Magistri de Revelles</note></cell>
+               </row>
             </table>
             <gap reason="omitted"/>
          </div>
@@ -489,9 +489,9 @@
             
             <table>
                <row>
-                  <cell>Prouse<lb/>Burdon<lb/>ffitzsymond<lb/>Shyrlok<lb/></cell>
+                  <cell>Prouse<lb/>Burdon<lb/>ffitzsymond<lb/>Shyrlok<note type="foot">Prouse...Shyrlok: <hi rend="italic">braced pointing to the right at</hi> Magistri de Reuellis...domini.</note></cell>
                   <cell><lb></lb>M<ex>agist</ex>ri de Reuell<ex>is</ex> erga ff<ex>estu</ex>m Nat<ex>alis</ex> d<ex>omi</ex>ni</cell>
-               </row><note type="foot">Prouse...Shyrlok: <hi rend="italic">braced pointing to the right at</hi> Magistri de Reuellis...domini.</note>
+               </row>
             </table>
             <gap reason="omitted"/>
          </div>
@@ -519,8 +519,8 @@
             <table>
                <row>
                   <cell>Ma<ex>gist</ex>ri de Revell<ex>is</ex></cell>
-                  <cell>Pygott<lb/>Reede<lb/>Blagge<lb/>Denny<lb/></cell>
-               </row><note type="foot">Pygott...Denny: <hi rend="italic">braced pointing to the left at</hi> Magistri de Revellis</note>
+                  <cell>Pygott<lb/>Reede<lb/>Blagge<lb/>Denny<note type="foot">Pygott...Denny: <hi rend="italic">braced pointing to the left at</hi> Magistri de Revellis</note></cell>
+               </row>
             </table>
             
             <gap reason="omitted"/>
@@ -630,8 +630,8 @@
             <table>
                <row>
                   <cell><lb/><lb/>Magistri de Revellis</cell>
-                  <cell>lucus<note type="foot">lucas: <hi rend="italic">apparently added in same hand to replace</hi>ludlowe</note><lb/>Talbot<lb/>Plonket<lb/>Cruge<lb/><del>ludlowe</del></cell>
-               </row><note type="foot">lucas...<del>ludlowe</del>: <hi rend="italic">braced pointing to the left at</hi> Magistri de Revellis</note>
+                  <cell>lucus<note type="foot">lucas: <hi rend="italic">apparently added in same hand to replace</hi>ludlowe</note><lb/>Talbot<lb/>Plonket<lb/>Cruge<lb/><del>ludlowe</del><note type="foot">lucas...<del>ludlowe</del>: <hi rend="italic">braced pointing to the left at</hi> Magistri de Revellis</note></cell>
+               </row>
             </table>
             
             <gap reason="omitted"/>
@@ -678,8 +678,8 @@
             <table>
                <row>
                   <cell><lb/>Magistri de Revels</cell>
-                  <cell>White Iun<ex>ior</ex><lb/>Dacres<lb/><del>Lathom</del><lb/><del>Perpoynt</del></cell>
-               </row><note type="foot">White Iun<ex>ior</ex>...<del>Perpoynt</del>: <hi rend="italic">braced pointing to the left at</hi> Magistri de Revels</note>
+                  <cell>White Iun<ex>ior</ex><lb/>Dacres<lb/><del>Lathom</del><lb/><del>Perpoynt</del><note type="foot">White Iun<ex>ior</ex>...<del>Perpoynt</del>: <hi rend="italic">braced pointing to the left at</hi> Magistri de Revels</note></cell>
+               </row>
             </table>
             
             <gap reason="omitted"/>
@@ -697,8 +697,8 @@
             <table>
                <row>
                   <cell>Et pr<ex>o</ex> eis ad idem Offic<ex>ium</ex> elect<ex>i</ex> sunt</cell>
-                  <cell rend="right">Prestall<lb/>Trasy</cell>
-               </row><note type="foot">Et p<ex>ro</ex> eis...sunt: <hi rend="italic">braced pointing to the right at</hi> Prestall...Trasy</note>
+                  <cell rend="right">Prestall<lb/>Trasy<note type="foot">Et p<ex>ro</ex> eis...sunt: <hi rend="italic">braced pointing to the right at</hi> Prestall...Trasy</note></cell>
+               </row>
             </table>
             
             <gap reason="omitted"/>
@@ -726,9 +726,9 @@
             
             <table>
                <row>
-                  <cell><lb/>Magistri de Reuell<ex>is</ex> p<ex>ro</ex>  tempor<ex>e</ex><lb/>Natiuitat<ex>is</ex> D<ex>omi</ex>ni p<ex>ro</ex>x<ex>imi</ex></cell>
+                  <cell><lb/>Magistri de Reuell<ex>is</ex> p<ex>ro</ex>  tempor<ex>e</ex><lb/>Natiuitat<ex>is</ex> D<ex>omi</ex>ni p<ex>ro</ex>x<ex>imi</ex><note type="foot">Magistri...Proximi: <hi rend="italic">braced pointing to the right at</hi> Chaworth...Hylman</note></cell>
                   <cell>Chaworth<lb/>Latheam<lb/>Halys Iun<ex>ior</ex><lb/>Hylman</cell>
-               </row><note type="foot">Magistri...Proximi: <hi rend="italic">braced pointing to the right at</hi> Chaworth...Hylman</note>
+               </row>
             </table>
             
             <gap reason="omitted"/>
@@ -920,9 +920,9 @@
                   
                   <table>
                      <row>
-                        <cell>Inglich <del>holles</del><lb/>goodale<lb/>Bowll<ex>es</ex><lb/>Hollys</cell>
+                        <cell>Inglich <del>holles</del><lb/>goodale<lb/>Bowll<ex>es</ex><lb/>Hollys<note type="foot">Inglich <del>holles</del>...Hollys: <hi rend="italic">braced pointing to the right at</hi> Magistri reuelorum.</note></cell>
                         <cell><lb></lb>Magistri reuel<ex>orum</ex></cell>
-                     </row><note type="foot">Inglich <del>holles</del>...Hollys: <hi rend="italic">braced pointing to the right at</hi> Magistri reuelorum.</note>
+                     </row>
                   </table>
                   <gap reason="omitted"/>
                </div>
@@ -1021,7 +1021,32 @@
       </body>
    </text>
             
-   
+   <!-- KC: 1542-3 RLITPB1 record -->
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1542" to-iso="1543" cert="medium">1542-3</date>
+            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 68">RLITPB1</seg></head>
+         <div type="transcription">
+            <head>f 120v<supplied>(14 November) (Christmas officers)</supplied></head>
+            <pb n="120v" type="folio"/> 
+            
+            <gap reason="omitted"/>
+            
+            <table>
+               <row>
+                  <cell>Robert<ex>es</ex><lb/><del>Hanche</del><lb/>
+                     <del>Tufton</del><lb/>Smyth ff<lb/>Whyte<lb/>Dyllon
+                     <note type="foot">Robert<ex>es</ex>...Dyllon: <hi rend="italic">braced pointing 
+                        to the right at</hi> Masters of the Revells</note></cell>
+                  <cell><lb></lb>Mast<ex>ers</ex> of the Revells</cell>
+               </row>
+            </table>
+            <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
+         
    
    
    
