@@ -870,7 +870,7 @@
             <gap reason="omitted"/>  
             
             <ab>It<ex>em</ex> ordinat<ex>um</ex> fuit <add place="above">q<ex>uod</ex></add> 
-               Comitiua Int<ex>er</ex>ioris Templ<damage><gap unit="chars" extant="1"/></damage> qui custodiet
+               Comitiua Int<ex>er</ex>ioris Templ<damage><gap unit="chars" extent="1"/></damage> qui custodiet
                Co<ex>mmun</ex>es tempore Natal<ex>is</ex> d<ex>omi</ex>ni p<ex>ro</ex> futur<ex>o</ex> allocent<ex>ur</ex> vn<ex>us</ex> <add place="above">le</add> bore &amp;
                pro<ex></ex> lez stipend de <add place="above">lez</add> mynstrellys te<ex>mpore</ex> Natal<ex>is</ex> d<ex>omi</ex>ni xxx s. &amp; p<ex>ro</ex> vno
                Cariete de lez Cooles p<ex>ro</ex> focali<ex>o</ex>…
@@ -881,9 +881,95 @@
       </body>
    </text>
    
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1533" to-iso="1534" cert="medium">1533-4</date>
+            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 61">RLITPB1</seg>
+         </head>
+         <div type="transcription">
+            <head>f 100v<supplied>(1 November) (Christmas officers)</supplied></head>
+            <pb n="100v" type="folio"/> 
+            
+            <gap reason="omitted"/>
+            
+            <table>
+               <row>
+                  <cell><lb/>M<ex>agis</ex>tri Revell<ex>orum</ex></cell>
+                  <cell>Holys<lb/>ffermo<ex>ur</ex> Iun<ex>ior</ex><lb/>Talbot<lb/>Talbot</cell>
+               </row>
+            </table>
+            
+            <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
+         
+         <!-- KC: 1534-5 RLITPB1 record -->
+         <text ana="taxon:inner_temple" type="record">
+            <body xml:lang="eng">
+               <head>
+                  <date from-iso="1534" to-iso="1535" cert="medium">1534-5</date>
+                  <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 39">RLITPB1</seg>
+               </head>
+               <div type="transcription">
+                  <head>f 103<supplied>(10 November) (Christmas officers)</supplied></head>
+                  <pb n="103" type="folio"/> 
+                  
+                  <gap reason="omitted"/>
+                  
+                  <table>
+                     <row>
+                        <cell>Inglich <del>holles</del><lb/>goodale<lb/>Bowll<ex>es</ex><lb/>Hollys</cell>
+                        <cell><lb></lb>Magistri reuel<ex>orum</ex></cell>
+                     </row><note type="foot">Inglich <del>holles</del>...Hollys: <hi rend="italic">braced pointing to the right at</hi> Magistri reuelorum.</note>
+                  </table>
+                  <gap reason="omitted"/>
+               </div>
+               
+               <div type="transcription">
+                  <head><supplied>(20 December)</supplied></head>
+       
+                  <ab>Ad hunc p<ex>ar</ex>liame<ex>n</ex>tu<ex>m</ex> Ioh<ex>ann</ex>es Charlys elect<ex>us</ex> 
+                     est vnus Magistror<ex>um</ex> Reuelor<ex>um</ex> pro defect<ex>u</ex> 
+                     de Bowll<ex>es</ex> prouiso q<ex>uo</ex>d si Bowll<ex>es</ex> fecerit 
+                     defalt<damage><gap unit="chars" extent="2"/></damage>
+                     q<ex>uo</ex>d tunc ipse portabit on<ex>er</ex>a Charlys
+                  </ab>                 
+                  <gap reason="omitted"/>
+               </div>
+               
+               <div type="editorial">
+                  <ab>Folio damaged by post-World War II fire; the date is supplied from Inderwick.</ab>
+               </div>
+            </body>
+         </text>
    
-   
-   
+   <!-- KC: 1538-9 RLITPB1 record -->
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1538" to-iso="1539" cert="medium">1538-9</date>
+            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 65">RLITPB1</seg>
+         </head>
+         <div type="transcription">
+            <head>f 112<supplied>(17 November) (Christmas officers)</supplied></head>
+            <pb n="112" type="folio"/> 
+            
+            <gap reason="omitted"/>
+            <ab><del>luson &amp; Wade Palmer <del>T</del> Smyth <add place="above"><del>Tho</del></add> masters of the reuellys</del></ab>
+            
+            <table>
+               <row>
+                  <cell>Masters of the Reuerllys</cell>
+                  <cell>luson<lb/>Wade<lb/>Palmer<lb/>Smyth</cell>
+               </row>
+            </table>
+               
+               <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
    
    
    
