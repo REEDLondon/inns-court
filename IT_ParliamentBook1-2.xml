@@ -1047,7 +1047,54 @@
       </body>
    </text>
          
-   
+   <!-- KC: 1544-5 RLITPB1 record -->
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1544" to-iso="1545" cert="medium">1544-5</date>
+            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 69">RLITPB1</seg></head>
+         <div type="transcription">
+            <head>f 125<supplied>(16 November) (Christmas officers)</supplied></head>
+            <pb n="120v" type="folio"/> 
+            
+            <gap reason="omitted"/>
+            
+            <table>
+               <row>
+                  <cell>M<ex>r</ex> Smyth ff<lb/>M<ex>r</ex>Dillon<lb/>
+                     M<ex>r</ex> White<lb/>M<ex>r</ex> Netherffeld
+                     <note type="foot">M<ex>r</ex> Smyth ff...Netherffeld: <hi rend="italic">braced pointing 
+                        to the right at</hi> Masters of the revells</note></cell>
+                  <cell><lb/>M<ex>aste</ex>r of the revell<ex>es</ex></cell>
+               </row>
+            </table>
+            <gap reason="omitted"/>
+         </div>
+         
+         <div type="transcription">
+            <head>f 125v<supplied>(28 January)</supplied></head>
+            <pb n="125v" type="folio"/>
+            
+            <gap reason="omitted"/>
+            <table>
+               <row>
+                  <cell>Smyth ff ffor the M<ex>aster</ex> of revell<ex>es</ex></cell>
+                  <cell rend="right">v li.</cell>
+               </row>
+            </table>
+            <gap reason="omitted"/>
+            
+            <ab>M<ex>emoran</ex>d<ex>um</ex><note type="marginal" place="margin_left">Allowaunces to
+               the gentlem<damage><gap unit="chars" extent="2"/></damage> 
+               &amp; the officers</note> it is ordred &amp; agreed at this p<ex>ar</ex>leament that the company
+               beinge here at Cristmas last schall haue allowed &amp; paied to them by the
+               Thezaur<ex>er</ex>s xxx s. ffor a bore &amp; mynstrells &amp; a lode off Colez &amp; thoffic<ex>er</ex>s
+               to haue their com<ex>men</ex> allowau<ex>n</ex>c<ex>es</ex> besid<ex>es</ex>
+            </ab>
+            <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
    
    
    
