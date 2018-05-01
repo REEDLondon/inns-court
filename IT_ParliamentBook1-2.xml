@@ -971,7 +971,56 @@
       </body>
    </text>
    
-   
+   <!-- KC: 1539-40 RLITPB1 record -->
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1539" to-iso="1540" cert="medium">1539-40</date>
+            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 66">RLITPB1</seg>
+         </head>
+         <div type="transcription">
+            <head>f 114<supplied>(3 November) (Christmas officers)</supplied></head>
+            <pb n="114" type="folio"/> 
+
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Masters of the Reuellys</cell>
+                     <cell><del>Trau<ex>er</ex>sse</del> Trau<ex>er</ex>sse<lb/>
+                     <del>Trauersse</del><lb/>
+                        <del>Cooly</del> <add place="above"><damage><gap unit="chars" extent="2"/></damage>et p<ex>ro</ex> defect<ex>u</ex> Deneham</add><lb/>
+                     ffox<lb/><del><damage><gap unit="chars" extent="3"/></damage></del> <del>luson</del> Merys<lb/><del>Payne R</del></cell>
+                     <cell>xl s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div type="transcription">
+               <head>f 114v<supplied>(16 November)</supplied></head>
+               <pb n="114v" type="folio"/>
+               <gap reason="omitted"/>
+               
+               <ab>Ad hu<ex>n</ex>c p<ex>ar</ex>liamentu<ex>m</ex> Ioh<ex>annes</ex> 
+                  Tofton vnus Comitiui exoneratu<ex>s</ex> de
+                  vacacione Natal<ex>is</ex> d<ex>omi</ex>ni A<ex>nn</ex>o xxxj<hi rend="superscript">o</hi>o 
+                  H<ex>enrici</ex> viij<hi rend="superscript">o</hi> &amp; de offic<ex>io</ex> vnius
+                  Maiestror<ex>um</ex> de le revell<ex>es</ex> ad d<ex>i</ex>c<ex>t</ex>u<ex>m</ex> 
+                  festu<ex>m</ex> natal<ex>is</ex> d<ex>omi</ex>ni &amp; p<ex>ro</ex> hoc dedit
+                  Cometiue int<ex>er</ex>ior<ex>is</ex> Temple iij li. vj s. viij d. Sol<ex>uti</ex> 
+                  ad manu<ex>m</ex> Dauid brook
+                  Tezerarij &amp;c</ab>
+               
+               <gap reason="omitted"/>
+            </div>
+         
+         <div type="editorial">
+            <ab>The date of this parliament is given as 14 November in Inderwick (p 122); however, this has been
+               cancelled in the MS and corrected to 16 November (f 114).</ab> <!-- KC: cross-ref pagination --><!-- KC: "MS" in small caps -->
+         </div>
+      </body>
+   </text>
+            
    
    
    
