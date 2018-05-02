@@ -233,29 +233,28 @@
       </profileDesc>
       <revisionDesc>
          <!-- Add new major milestone changes to top -->
-         <change when="2018-03-05" who="#KM">created document</change>
+         <change when="2018-04-26" who="#KM">created document</change>
       </revisionDesc>
    </teiHeader>
    
    <text ana="taxon:letter" type="record">
       <body xml:lang="eng">
-         <head>Middle Temple Letter of Masters of the Bench to Sir Edawrd Phelips
-            <date when-iso="1613">1613</date> #after 14th of May, 1614 - how to put this in? KM
-            <seg ana="taxon:RLMTL2" corresp="taxon:RLPIC2 pp. 165">RLMTL2</seg></head>
+         <head>Jorge de Montemayor, Diana of George of Montemayor
+            <date when-iso="1598">1598</date> 
+            <seg ana="taxon:RLC018" corresp="taxon:RLC018 pp. 130">RLC017</seg></head>
          <div type="transcription">
-            <head> single sheet </head>
-            <pb n="1" type="sheet"/>
+            <head>sig a2<supplied>(Bartholomew Yong's dedication to Penelope Devereux, Lady Rich)</supplied> </head>
+            <pb n="1"/>
             
-            <ab rend="center"> To the right wor<ex>shipfu</ex>ll <persName n="Edward Phelips">Sir Edward Phelipps</persName> knight m<ex>aste</ex>r of the Rolls.
-               The peticion of the <persName n="Benchers of the Middle Temple">Benchers of the <orgName>Middle Temple</orgName></persName>.</ab>
-               
-               <ab>Wheareas six masking sutes for <persName>six gent<ex>lemen</ex> of our howse</persName> weare provided at ye charge of the howse, and p<ex>ro</ex>mised after the maske ended to be redeliu<ex>er</ex>ed againe to <placeName>the howse</placeName>, sythens w<ex>hi</ex>ch tyme all the said gent<ex>lemen</ex> have redeliu<ex>er</ex>ed &amp; promised to redeliver their saide sutes excepting onlye <persName n="Humphrey Peters">mr Humfry Peter<ex>es</ex></persName> who doth absolutely refuse to deliver the same, whearefore our desire ys that you wilbe pleased to call the saide <persName n="Humphrey Peters">mr Peters</persName> before you and to take such order w<ex>i</ex>th him for the delivery of the saide sute as in yo<ex>u</ex>r wisedome you shall thinck meete/</ab>
-              
-              <ab><handShift/>Lett <persName n="Humphrey Peters">mr peters</persName> presently come vnto me for I hold his deniall very strange
-              (signed) <persName n="Edward Phelips">Phelipps</persName>° </ab>
-            
-            
-         </div>      
+            <gap reason="omitted"/>
+            <ab>...But as certaine yeares past (my <persName n="Penelope Devereux, Lady Rich">Honorable good Lady</persName>) in a publike shewe at the <placeName n="Middle Temple">Middle Temple</placeName>, where your Honorable presence with many noble Lordes and faire Ladies graced and beautified those sportes, it befell to my lot in that woorthie assemblie, vnwoorthily to performe the part of a French Oratour by a deducted speech in the same toong, and that amongst so many good conceits and such generall skill in toongs, all the while I was rehearsing it, there was not any, whose mature iudgement and censure in that language I feared and suspected more then <persName n="Penelope Devereux, Lady Rich">your Ladiship</persName>s, whose attentiue eare and eie daunted my imagination with the apprehension of my disabilitie, and your Ladiships perfect knowledge in the same...</ab>
+         </div>   
       </body>
    </text>
 </TEI>
+
+
+
+
+
+

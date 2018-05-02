@@ -233,29 +233,30 @@
       </profileDesc>
       <revisionDesc>
          <!-- Add new major milestone changes to top -->
-         <change when="2018-03-05" who="#KM">created document</change>
+         <change when="2018-04-26" who="#KM">created document</change>
       </revisionDesc>
    </teiHeader>
    
    <text ana="taxon:letter" type="record">
       <body xml:lang="eng">
-         <head>Middle Temple Letter of Masters of the Bench to Sir Edawrd Phelips
-            <date when-iso="1613">1613</date> #after 14th of May, 1614 - how to put this in? KM
-            <seg ana="taxon:RLMTL2" corresp="taxon:RLPIC2 pp. 165">RLMTL2</seg></head>
+         <head>Letter of Sir John Popham, Lord Chief Justice, to Sir Robert Cecil
+            <date when-iso="1601-02">1601-02</date> 
+            <seg ana="taxon:RLC019" corresp="taxon:RLC019 pp. 135">RLC019</seg></head>
          <div type="transcription">
-            <head> single sheet </head>
-            <pb n="1" type="sheet"/>
-            
-            <ab rend="center"> To the right wor<ex>shipfu</ex>ll <persName n="Edward Phelips">Sir Edward Phelipps</persName> knight m<ex>aste</ex>r of the Rolls.
-               The peticion of the <persName n="Benchers of the Middle Temple">Benchers of the <orgName>Middle Temple</orgName></persName>.</ab>
-               
-               <ab>Wheareas six masking sutes for <persName>six gent<ex>lemen</ex> of our howse</persName> weare provided at ye charge of the howse, and p<ex>ro</ex>mised after the maske ended to be redeliu<ex>er</ex>ed againe to <placeName>the howse</placeName>, sythens w<ex>hi</ex>ch tyme all the said gent<ex>lemen</ex> have redeliu<ex>er</ex>ed &amp; promised to redeliver their saide sutes excepting onlye <persName n="Humphrey Peters">mr Humfry Peter<ex>es</ex></persName> who doth absolutely refuse to deliver the same, whearefore our desire ys that you wilbe pleased to call the saide <persName n="Humphrey Peters">mr Peters</persName> before you and to take such order w<ex>i</ex>th him for the delivery of the saide sute as in yo<ex>u</ex>r wisedome you shall thinck meete/</ab>
-              
-              <ab><handShift/>Lett <persName n="Humphrey Peters">mr peters</persName> presently come vnto me for I hold his deniall very strange
-              (signed) <persName n="Edward Phelips">Phelipps</persName>° </ab>
-            
-            
-         </div>      
+            <head>f<del>1</del><supplied>(8 February)</supplied></head>
+            <pb n="1" type="folio"/>
+          
+            <ab><persName n="Robert Cecil">S<ex>i</ex>r</persName> I haue so dealt w<ex>i</ex>t<ex>h</ex> some of the <persName>Benchers</persName> off the <orgName n="Middle Temple">mydle Temple</orgName> as I haue brought that the house wylbe wylling to Beare CC m<ex>ar</ex>k<ex>es</ex> toward<ex>es</ex> the Charg off what ys wysshed to be donne to <persName n="Elizabeth I">her ma<ex>ies</ex>t<ex>ies</ex></persName> good lykyng/ and if the <persName>yong gentylmen</persName> wylbe drawen in to p<ex>er</ex>forme what ys off their p<ex>ar</ex>t<ex>es</ex> I hope yt wylbe effected/ some off the yong men haue their humors 
+               <lb/>But I hope that wylbe overruled for I send for them, assone as other Busyness of <persName n="Elizabeth I">her ma<ex>ies</ex>t<ex>ie</ex></persName> ys dyspatched.
+               <lb/>But the au<ex>n</ex>cyent<ex>es</ex> of the house who wysshe all to be donne to <persName n="Elizabeth I">her ma<ex>ies</ex>t<ex>ies</ex></persName> 
+               <lb/>Best Content do depend vpon yo<ex>u</ex>r good favor yf any thyng throughe yong mens error shold [haue] not haue that Carryege in the Corse off yt as they wold wysshe yt myght not <add place="above">yet</add> be Imputed vnto them...</ab>
+         </div>   
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
