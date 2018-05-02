@@ -1268,6 +1268,39 @@
       </body>
    </text>
    
+   <!-- KC: 1561-2 RLITPB1 record -->
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1561" to-iso="1562" cert="medium">1561-2</date>
+            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 84-5">RLITPB1</seg></head>
+         <div type="transcription">
+            <head>f 164<supplied>(4 February)</supplied></head>
+            <pb n="164" type="folio"/> 
+            
+            <gap reason="omitted"/>
+             <ab>
+                It is ordered yat Masters with guynes lucas manser &amp;c shall take &amp; bryng
+                into this howse at the nex<damage><gap unit="chars" extent="1"/></damage> 
+                P<ex>ar</ex>le<ex>ment</ex> a Rekenyng of all So<ex>mmes</ex> of mony
+                layd owt by any in Chr<ex>istmas</ex> tymes or at Candelmas for any maskes. playes.
+                disgysyng<ex>es</ex> or other lyke
+             </ab>
+            <gap reason="omitted"/>
+         </div>
+         
+         <div type="transcription">
+            <head>f 164v</head>
+            <pb n="164v" type="folio"/>
+            
+            <gap reason="omitted"/>
+            <ab><damage><gap unit="chars" extent="3"/></damage> last set forth by him.
+            </ab>
+            
+         </div>
+      </body>
+   </text>
+   
    
    
    
