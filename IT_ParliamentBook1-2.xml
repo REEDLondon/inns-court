@@ -1232,6 +1232,48 @@
       </body>
    </text>
    
+   <!-- KC: 1555-6 RLITPB1 record -->
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1555" to-iso="1556" cert="medium">1555-6</date>
+            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 79">RLITPB1</seg></head>
+         <div type="transcription">
+            <head>f 139<supplied>(20 November)</supplied></head>
+            <pb n="139" type="folio"/> 
+            
+            <gap reason="omitted"/>
+            
+            <ab>M<ex>emoran</ex>d<ex>um</ex> yt ys ordered at this p<ex>re</ex>sent p<ex>ar</ex>liament that no graund
+               Christenmas shalbe kept in this house for this yere for that the house hathe
+               byn at greate charge in buildynge of a newe kytchen and other charges
+               besyd<ex>es</ex> so <del>by reason</del> by reason of those Charges to the Companye hyt
+               was thought good not to charge them therewithe any further/</ab> 
+            
+            <gap reason="omitted"/>
+            
+            <ab>M<ex>emoran</ex>d<ex>um</ex> that <del>leeke</del> Mr Raphe leeke <del>ys</del> for the Sum<ex>m</ex>e of xl s. <del>ys</del>
+               payd to the Thresorer ys dyscharged of the office of one of the M<ex>a</ex>sters
+               of the Revel<damage><gap unit="chars" extent="3"/></damage> <damage><gap unit="chars" extent="3"/></damage> appereth in the dogget of vacac<ex>i</ex>ons where he was
+               am<ex>er</ex>cyd v li. <damage><gap unit="chars" extent="3"/></damage> default for not exercysing of the sayd office &amp;c.
+            </ab>
+         </div>
+         <div type="editorial">
+            <ab>No Inner Temple appointments to the office of master of the revels 
+               are recorded for this or subsequent years. Christmas officers hereafter 
+               are limited to marshals, stewards, and butlers. Compare to
+               Middle Temple, where such records cease at the end of the reign of Mary.
+            </ab>
+         </div>
+      </body>
+   </text>
+   
+   
+   
+   
+   
+   
+   
    
    
    
