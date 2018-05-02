@@ -1203,7 +1203,34 @@
       </body>
    </text>
             
+   <!-- KC: 1554-5 RLITPB1 record -->
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1554" to-iso="1555" cert="medium">1554-5</date>
+            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 77">RLITPB1</seg></head>
+         <div type="transcription">
+            <head>f 135v<supplied>(4 October) (Christmas officers)</supplied></head>
+            <pb n="135v" type="folio"/> 
             
+            <gap reason="omitted"/>
+            
+            <table>
+               <row>
+                  <cell>M<ex>agist</ex>ri Reveloru<ex>m</ex></cell>
+                  <cell><lb/>Cusacke<lb/>Peny<lb/>Arthure<lb/>Keble</cell>
+               </row>
+            </table>
+            
+            <gap reason="omitted"/>
+         </div>
+         
+         <div type="editorial">
+            <ab>This entry occurs first on f 135 among unformatted entries, is there cancelled, 
+               and has been rewritten here in the traditional layout.</ab>
+         </div>
+      </body>
+   </text>
    
    
    
