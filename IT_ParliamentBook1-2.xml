@@ -1175,6 +1175,27 @@
       </body>
    </text>
    
+   <!-- KC: 1553-4 RLITPB1 record -->
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1553" to-iso="1554" cert="medium">1553-4</date>
+            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 76">RLITPB1</seg></head>
+         <div type="transcription">
+            <head>f 132<supplied>(19 November) (Christmas officers)</supplied></head>
+            <pb n="132" type="folio"/> 
+            
+            <gap reason="omitted"/>
+            
+            <table>
+               <row>
+                  <cell>Magistri reveloru<ex>m</ex><note type="foot">Magistri reveloru<ex>m</ex>: <hi rend="italic">braced pointing right to</hi>Magistri...kebell</note></cell>
+                  <cell>M<ex>agistri</ex> cusacke/ skiddye evans et kebell</cell>
+               </row>
+            </table>
+            
+            <gap reason="omitted"/>
+            
             
    
    
