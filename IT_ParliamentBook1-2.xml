@@ -1638,13 +1638,6 @@
       </body>
    </text>
   
-  
-  
-  
-  
-  
-  <!-- KC: ==================================== -->
-  
    <!-- KC: 1633-34 RLITPB1 record -->
     <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
@@ -1661,16 +1654,18 @@
             
             <ab>
                Whereas <note type="marginal" place="margin_left">Ayde Rolle for
-                  the Masque</note>there having bene no rep<ex>re</ex>sentac<ex>i</ex>on of any Maske or other Shewe
-   before the Kings Ma<ex>ies</ex>tie by the fower Inns of Court or any of them sythence
-   his Highnesse accesse vnto the Crowne, a Consultac<ex>i</ex>on hath bene latelie had
-   by the severall Benchers in theire severall howses touching the same Wherevpon
-   it is vnanimous<damage><gap unit="chars" extent="2"/></damage> agreed by them, that a 
+                  the Masque</note>there having bene no rep<ex>re</ex>sentac<ex>i</ex>on of any 
+               Maske or other Shewe
+               before the Kings Ma<ex>ies</ex>tie by the fower Inns of Court or any of them sythence
+               his Highnesse accesse vnto the Crowne, a Consultac<ex>i</ex>on hath bene latelie had
+               by the severall Benchers in theire severall howses touching the same Wherevpon
+                it is vnanimous<damage><gap unit="chars" extent="2"/></damage> agreed by them, that a 
                Maske shall bee ioynt<damage><gap unit="chars" extent="2"/></damage> presented
-   in this next Christmas before his Ma<ex>ies</ex>tie, att the equall charges of the sai<damage><gap unit="chars" extent="1"/></damage>
-   fower howses. It is therefore nowe ordered and enacted att this p<ex>ar</ex>liament
-   That for the raysing and leavying of moneys toward<ex>es</ex> the defraying of the said
-   Charge everie ffellowe of this howse shall bee taxed to paye as followeth, vizt./
+                  in this next Christmas before his Ma<ex>ies</ex>tie, att the equall charges of 
+               the sai<damage><gap unit="chars" extent="1"/></damage>
+                fower howses. It is therefore nowe ordered and enacted att this p<ex>ar</ex>liament
+                That for the raysing and leavying of moneys toward<ex>es</ex> the defraying of the said
+                  Charge everie ffellowe of this howse shall bee taxed to paye as followeth, vizt./
             </ab>
             <ab>
    Everie Bencher of this howse to paye the sum<ex>m</ex>e of five powndes.<lb/>
@@ -1832,4 +1827,89 @@
              </div>
           </body>
       </text>
+   
+   <!-- KC: 1634-5 RLITPB2 record -->
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1634" to-iso="1635" cert="medium">1634-5</date>
+            <seg ana="taxon:RLITPB2" corresp="taxon:RLPIC1 pp 325-6">RLITPB2</seg>
+         </head>
+         <div type="transcription">
+            <head>f 229<supplied>(23 November)</supplied></head>  <!-- KC: date 1634 -->
+            <pb n="229" type="folio"/>
+            <gap reason="omitted"/>  <!-- KC: resume here -->
+            <ab>
+               fforasmuch<note type="marginal" place="margin_left">Order for M<ex>aste</ex>r
+                  Tr<ex>easur</ex>er to disburse 170 li. towardes ye Masq<ex>ue</ex></note> as it appeared this present parliament, by the relacion of Mr
+               Willys one of the Benchers of this Howse whoe hath beene employed and
+               trusted in the disbursinge of diuers sommes of money towardes the Masque
+               which was presented before his Maiestie that over and besides such summes of
+               money as haue beene delivered vnto him by the Cheife butler of this Howse
+               which hee collected vppon the saide Rolle and such other monyes as hee the
+               said Mr Willys hath [held] had from the late Treasurer of this Howse out of
+               the howse stock hee hath occasion for ye expendinge of one hundred and
+               seaventy poundes more for the cleere and absolute defrayinge of all charges
+               of the said Masque soe farre forth as concerneth this howse, It is therefore
+               ordered that Master Treasurer shall deliver vnto the said Mr Willys out of
+               the Stock of the Howse the said somme of 170 li. and this present act shalbe
+               a sufficient warrant &amp; discharge to the said Master Treasurer for ye deliuery
+               thereof hee takinge a receipt from the said Mr Willys for ye same./.
+            </ab>
+   
+            <ab>
+               It <note type="marginal" place="margin_left">Refered vnto the Committees
+                  for ye masque for [re] rewardes</note>is referred to the Committees 
+               for ye Masque to consider whatt rewardes
+               are fitt to be bestowed on Sir Richard Sheltons and Mr Willys men for
+               their paines about the masque busines that Mr Willys his accompt may
+               be finished, And the Committees are desired to make their Report the
+               first parliament of the next Terme touchinge the said Rewardes, and
+               his Accomptes./
+            </ab>
+            <gap reason="omitted"/>
+         </div>
+            
+            <div type="transcription">
+               <head>f 229v <supplied>(25 January)</supplied></head> <!-- KC: date 1634/5 REED slash yr -->
+               <pb n="229v" type="folio"/>
+               <gap reason="omitted"/>
+               <ab>
+                  Accordinge<note type="marginal" place="margin_left">Mr Willis
+                     discharged of all accomptes touchinge ye masque</note> to an 
+                  order of the last parliament the Committees for the Masque
+                  did now make their Report and produced the Accompt which they had
+                  taken of Mr Willys Treasurer for ye Masque whereby it appeared that ye
+                  disbursementes of Lye saidJ Mr Willys doe equall his receiptes. It is therefore
+                  ordered that the said Mr Willys be absolutely freed and discharged of all
+                  further accomptes touchinge the same. And this Society doth acknowledge
+                  his greate care and paines in the faithfull performance of that trust./
+               </ab>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div type="transcription">
+               <head>f 230v <supplied>8 February</supplied></head> <!-- KC: date 1634/5 REED slash yr -->
+               <pb n="230v" type="folio"/>
+               <gap reason="omitted"/>
+               <ab>
+                  <hi rend="center">Order to repay the Riders at ye Masque</hi>
+               </ab>
+               <ab type="indent">
+                  It is at this parliament thought fitt &amp; Ordered That Master Treasurer shall
+                  deliuer unto Mr Pope, and Mr ffinche and such other of the fellowes of this
+                  Society (whoe after they had paid vppon the Aide Rolle for ye Masque were
+                  riders at ye solempnity) such sommes of money as they paid vppon the said
+                  Rolle or for hire of Saddles which have not LalreadyJ beene repaid vnto them./
+               </ab>
+               <gap reason="omitted"/>
+            </div>
+      </body>
+   </text>
+   
+   
+   
+   
+   
+   
 </TEI>
