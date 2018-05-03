@@ -1518,7 +1518,41 @@
       </body>
    </text>
   
-  
+   <!-- KC: 1616-7 RLITPB2 record -->
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1616" to-iso="1617" cert="medium">1616-17</date>
+            <seg ana="taxon:RLITPB2" corresp="taxon:RLPIC1 pp. 190-1">RLITPB2</seg>
+         </head>
+         <div type="transcription">
+            <head>f 133<supplied>(6 November)</supplied></head>  <!-- KC: date 1616 -->
+            <pb n="133" type="folio"/>
+            <gap reason="omitted"/>
+            <ab>
+               Wheras fforty of the Gentlemen of the Innes of Co<ex>u</ex>rt (wherof Ten of this
+               Society<note type="foot">(whereof ... Society: <hi rend="italics">closing parenthesis omitted</hi></note> were appoynted to be Barryers at the Co<ex>u</ex>rt the ffowrth of this
+               instant November in honor of the Creation of Charles Prince of wales
+               w<ex>hi</ex>ch they have p<ex>er</ex>formed accordingly fforasmuch as the Chardge therof
+               being great is to be defrayed by the gen<ex>er</ex>all taxac<ex>i</ex>on of this house: It is
+               nowe at this p<ex>ar</ex>liam<ex>en</ex>t ordered That eu<ex>er</ex>y Bencher of this house shall
+               paye toward<ex>es</ex> the same chardge xxx s., eu<ex>er</ex>y vtter Barrester above Seaven
+               yeres standing of the Barr shall paye xx s. and euery vtter Barrester vnder
+               7. yeres standing of the Barr xv s. And all other the Gentlemen of this
+               house w<ex>hi</ex>ch have beene in Co<ex>m</ex>mons in this house within one yere or shall
+               come into Co<ex>m</ex>mons w<ex>i</ex>thin halfe a yeare, or have any Chambers within
+               this house shall paye x s. a peece. And further That all such as houlde any
+               Offices w<ex>i</ex>thin this house shall paye a Third p<ex>ar</ex>te of the som<ex>m</ex>e they were
+               Chardged with or their saide offices towardes the late maske p<ex>er</ex>formed by
+               the Gentlemen of this house together with the Gentlemen of Grayes Inne
+               after the marriadge of the Ladie Elizabeth the King<ex>es</ex> Ma<ex>ies</ex>t<ex>ies</ex> daughter
+               Provided always That the Gentlemen that p<ex>er</ex>formed the saide Barryers be
+               not Chardged by this Act.
+            </ab>
+            <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
   
   
   
