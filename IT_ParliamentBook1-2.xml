@@ -1554,7 +1554,89 @@
       </body>
    </text>
   
-  
+   <!-- KC: 1627-8 RLITPB2 record -->
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1627" to-iso="1628" cert="medium">1627-8</date>
+            <seg ana="taxon:RLITPB2" corresp="taxon:RLPIC1 pp. 217">RLITPB2</seg>
+         </head>
+         <div type="transcription">
+            <head>f 178<supplied>(10 February)</supplied></head>  <!-- KC: date 1627/8 REED slash yr -->
+            <pb n="178" type="folio"/>
+            <gap reason="omitted"/>
+            <ab>
+               At<note type="marginal" place="margin_left">Touchinge
+                  chri<ex>stm</ex>as</note> this parliament it is specially given in char<damage>
+                     <gap unit="chars" extent="3"/></damage> that order be given at
+               Alhallontide next touchin<damage><gap unit="chars" extent="1"/></damage> 
+               the well orderinge of Christmas./
+            </ab>
+         </div>
+         
+         <div type="editorial">
+            <ab>
+               This tentative order is an initial reaction to the events described by Hamon L’Estrange (see pp 219–20)
+               <!-- KC: cross-ref pagination -->
+               and by Joseph Mede's letters of 12 and 19 January 1627/8 (see Appendix 4). For the final orders (23
+               November 1628), see pp 220–1. <!-- KC: cross-ref pagination -->
+            </ab>
+         </div>
+      </body>
+   </text>
+   
+   <!-- KC: 1628-9 RLITPB2 record -->
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1628" to-iso="1629" cert="medium">1628-9</date>
+            <seg ana="taxon:RLITPB2" corresp="taxon:RLPIC1 pp. 220-1">RLITPB2</seg>
+         </head>
+         <div type="transcription">
+            <head>f 182<supplied>(23 November)</supplied></head>  <!-- KC: date 1628 -->
+            <pb n="182" type="folio"/>
+            <gap reason="omitted"/>
+            <ab>
+               Whereas<note type="marginal" place="margin_left">Orders concern<ex>ing</ex>
+                  Christmas/</note> by a former order of this Parliament herebefore menc<ex>i</ex>oned, the
+               Comittees therin named concerning Christmas Com<ex>m</ex>ons were to make
+               theire Reporte to the Table and therevpon such further order was to bee
+               made as before appeareth<lb/>
+               Nowe vpon theire Reporte made these orders are agreed by the Table to bee
+               enacted as followeth vizt./<lb/>
+               That Christmas Com<ex>m</ex>ons shall continue by the space of three week<ex>es</ex> onlie
+               and no longer according to the ancient vsage and Custome of this house.<lb/>
+               That the Gentlemen who shall bee Tre<ex>asure</ex>rs or Steward<ex>es</ex> in the tyme of
+               Christmas shall bee answearable to paye the Baker Brewer Chandler and all
+               other Officers that shall serve the howse with necessarie provisions during
+               that tyme./<lb/>
+               That no Stranger nor any of this Societie that hathe not bene in the ordinarie
+               Com<ex>m</ex>ons of this howse within two yeares laste paste or standeth as putt extra
+               per mandatu<ex>m</ex> or ne recipiatur shall bee admitted to take any Repaste or to
+               bee in Com<ex>m</ex>ons in the tyme of Christmas./<lb/>
+               That there shall not bee anie drincking of healths during the said tyme of
+               Christmas Com<ex>m</ex>ons nor any wyne brought in or drunck but in the tyme of
+               meales And then no Vintner or other stranger to attende in the Halle but
+               onlie the Officers of the howse And that no Tobacco shall bee solde or vttered
+               within this howse during the said tyme of Christmas./<lb/>
+               That no play shall bee continued within the howse after twelve of the Clock
+               vpon anie Saturday night during the said tyme of three week<ex>es</ex> nor after twelve
+               of the Clock on Christmas Eve att night./<lb/>
+               That there shall not bee anie goeing abroade out of the Circuit of this howse
+               or without any of the Gates by any Lorde or other Gent<ex>leman</ex> to breake open
+               any howse or chamber or to take any thinge in the name of Rent or a distresse./
+            </ab>
+         </div>
+         
+         <div type="editorial">
+            <ab>
+               These orders are a reaction to the events described most vividly in Joseph Mede’s letters of 12 and 19
+               January 1627/8 (Appendix 4). For the original order (10 February 1627/8), see p 217, ll.25–6. A ‘play’
+               (p 220, l.41) refers to games of chance including dice. <!-- KC: cross-ref pagination -->
+            </ab>
+         </div>
+      </body>
+   </text>
   
   
   
