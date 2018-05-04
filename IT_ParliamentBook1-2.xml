@@ -240,10 +240,10 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1505" to-iso="1506" cert="medium">1505-6</date>
+            <date from-iso="1505-09-29" to-iso="1506-09-29" cert="medium">1505-6</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 30">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 14<supplied>(November) (Christmas officers)</supplied></head><!-- KC: date 1505 -->
+            <head>f 14<supplied>(November 1505) (Christmas officers)</supplied></head>
             <pb n="99" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -264,10 +264,10 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1506" to-iso="1507" cert="medium">1506-7</date>
+            <date from-iso="1506-09-29" to-iso="1507-09-29" cert="medium">1506-7</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 31">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 16<supplied>(2 November) (Christmas officers)</supplied></head>
+            <head>f 16<supplied>(2 November 1507) (Christmas officers)</supplied></head>
             <!-- KC: date 2 Nov 1507 -->
             <pb n="16" type="folio"/> 
             
@@ -289,10 +289,10 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1507" to-iso="1508" cert="medium">1507-8</date>
+            <date from-iso="1507-09-29" to-iso="1508-09-29" cert="medium">1507-8</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 32">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 18<supplied>(1 November) (Christmas officers)</supplied></head><!-- KC: date 1 Nov 1507 -->
+            <head>f 18<supplied>(1 November 1507) (Christmas officers)</supplied></head>
             <pb n="18" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -300,14 +300,14 @@
             <table>
                <row>
                   <cell>M<ex>agist</ex>ri de Revels</cell>
-                  <cell>Brice<lb/>Tate<lb/>Haddon<lb/>Plunket<note type="foot">Brice ... Plunket: <hi rend="italic">braced pointing to the left at</hi> Magistratri de Revels</note></cell>
+                  <cell>Brice<lb/>Tate<lb/>Haddon<lb/>Plunket<note type="foot">Brice ... Plunket: <hi rend="italic">braced pointing to the left at</hi> M<ex>agist</ex>ri de Revels</note></cell>
                </row>
             </table>
             <gap reason="omitted"/>
          </div>
             
           <div type="transcription">
-             <head>f 19<supplied>(6 February)</supplied></head><!-- KC: date 1507/8 REED slash yr. Might need to confirm with Carolyn about this tagging. This is the date range of the record accounting year.  The actual date of the record would be 10 Feb 1610 to them and 10 Feb 1611 to us modern people because new year started from 25 March at the time.  -->
+             <head>f 19<supplied>(6 February 1507/8)</supplied></head>
                <pb n="19" type="folio"/> 
                <gap reason="omitted"/>
                <table>
@@ -336,10 +336,10 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1508" to-iso="1509" cert="medium">1508-9</date>
+            <date from-iso="1508-09-29" to-iso="1509-09-29" cert="medium">1508-9</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 33">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 20v<supplied>(2 November) (Christmas officers)</supplied></head><!-- KC: date 2 Nov 1508 -->
+            <head>f 20v<supplied>(2 November 1508) (Christmas officers)</supplied></head>
             <pb n="20" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -347,7 +347,7 @@
             <table>
                <row>
                   <cell>Masters de lez Revell<ex>es</ex></cell>
-                  <cell>Dane<ex>ers</ex> T<ex>homas</ex><lb/>Gerard<lb/>SentAubyn<lb/>Wye<note type="foot">Danuers ... Wye: <hi rend="italic">braced pointing to the left at</hi> Masters fe lez Revelle</note></cell>
+                  <cell>Dane<ex>ers</ex> T<ex>homas</ex><lb/>Gerard<lb/>SentAubyn<lb/>Wye<note type="foot">Danuers ... Wye: <hi rend="italic">braced pointing to the left at</hi> Masters de lez Revelle</note></cell>
                </row>
             </table>
             <gap reason="omitted"/>
@@ -359,10 +359,10 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1509" to-iso="1510" cert="medium">1509-10</date>
+            <date from-iso="1509-09-29" to-iso="1510-09-29" cert="medium">1509-10</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 34">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 22<supplied>(2 November) (Christmas officers)</supplied></head><!-- KC: date 2 Nov 1509 -->
+            <head>f 22<supplied>(2 November 1509) (Christmas officers)</supplied></head>
             <pb n="22" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -378,7 +378,7 @@
          </div>
          
           <div type="transcription">
-             <head>f 22v<supplied>(3 February)</supplied></head><!-- KC: date 1509/10 REED slash yr -->
+             <head>f 22v<supplied>(3 February 1509/10)</supplied></head>
                <pb n="22v" type="folio"/> 
                
                <gap reason="omitted"/>
@@ -399,10 +399,10 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1510" to-iso="1511" cert="medium">1510-11</date>
+            <date from-iso="1510-09-29" to-iso="1511-09-29" cert="medium">1510-11</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 36">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 25v<supplied>(3 November) (Christmas officers)</supplied></head><!-- KC: date 1510 -->
+            <head>f 25v<supplied>(3 November 1510) (Christmas officers)</supplied></head>
             <pb n="25v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -425,7 +425,7 @@
          </div>
             
             <div type="transcription">
-               <head>f 26v<supplied>(3 February)</supplied></head><!-- KC: date 1510/11 REED slash yr -->
+               <head>f 26v<supplied>(3 February 1510/11)</supplied></head>
                <pb n="26v" type="folio"/> 
                
                <gap reason="omitted"/>
@@ -452,10 +452,10 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1511" to-iso="1512" cert="medium">1511-12</date>
+            <date from-iso="1511-09-29" to-iso="1512-09-29" cert="medium">1511-12</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 38">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 28<supplied>(10 November) (Christmas officers)</supplied></head><!-- KC: date 1511 -->
+            <head>f 28<supplied>(10 November 1511) (Christmas officers)</supplied></head>
             <pb n="28" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -480,10 +480,10 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1512" to-iso="1513" cert="medium">1512-13</date>
+            <date from-iso="1512-09-29" to-iso="1513-09-29" cert="medium">1512-13</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 39">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 30<supplied>(11 November) (Christmas officers)</supplied></head><!-- KC: date 1512 -->
+            <head>f 30<supplied>(11 November 1512) (Christmas officers)</supplied></head>
             <pb n="30" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -508,11 +508,11 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1514" to-iso="1514" cert="medium">1514-15</date>
+            <date from-iso="1514-09-29" to-iso="1514-09-29" cert="medium">1514-15</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 42">RLITPB1</seg>
          </head>
          <div type="transcription">
-            <head>f 33<supplied>(19 November) (Christmas officers)</supplied></head><!-- KC: date 1514 -->
+            <head>f 33<supplied>(19 November 1514) (Christmas officers)</supplied></head>
             <pb n="33" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -539,11 +539,11 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1515" to-iso="1516" cert="medium">1515-16</date>
+            <date from-iso="1515-09-29" to-iso="1516-09-29" cert="medium">1515-16</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 43">RLITPB1</seg>
          </head>
          <div type="transcription">
-            <head>f 34v<supplied>(2 November) (Christmas officers)</supplied></head><!-- KC: date 1515 -->
+            <head>f 34v<supplied>(2 November 1515) (Christmas officers)</supplied></head>
             <pb n="34v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -569,11 +569,11 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1516" to-iso="1517" cert="medium">1516-17</date>
+            <date from-iso="1516-09-29" to-iso="1517-09-29" cert="medium">1516-17</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 44">RLITPB1</seg>
          </head>
          <div type="transcription">
-            <head>f 36v<supplied>(2 November) (Christmas officers)</supplied></head><!-- KC: date 1516 -->
+            <head>f 36v<supplied>(2 November 1516) (Christmas officers)</supplied></head>
             <pb n="36v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -589,7 +589,7 @@
          </div>
          
          <div type="transcription">
-            <head>f 38<supplied>(5 February)</supplied></head><!-- KC: 1517 -->
+            <head>f 38<supplied>(5 February 1517)</supplied></head>
             <pb n="38" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -619,11 +619,11 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1518" to-iso="1519" cert="medium">1518-19</date>
+            <date from-iso="1518-09-29" to-iso="1519-09-29" cert="medium">1518-19</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 46">RLITPB1</seg>
          </head>
          <div type="transcription">
-            <head>f 42<supplied>(1 November) (Christmas officers)</supplied></head><!-- KC: date 1518 -->
+            <head>f 42<supplied>(1 November 1518) (Christmas officers)</supplied></head>
             <pb n="42" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -631,14 +631,14 @@
             <table>
                <row>
                   <cell><lb/><lb/>Magistri de Revellis</cell>
-                  <cell>lucus<note type="foot">lucas: <hi rend="italic">apparently added in same hand to replace</hi>ludlowe</note><lb/>Talbot<lb/>Plonket<lb/>Cruge<lb/><del>ludlowe</del><note type="foot">lucas ... <del>ludlowe</del>: <hi rend="italic">braced pointing to the left at</hi> Magistri de Revellis</note></cell>
+                  <cell>lucus<note type="foot">lucas: <hi rend="italic">apparently added in same hand to replace</hi> ludlowe</note><lb/>Talbot<lb/>Plonket<lb/>Cruge<lb/><del>ludlowe</del><note type="foot">lucas ... <del>ludlowe</del>: <hi rend="italic">braced pointing to the left at</hi> Magistri de Revellis</note></cell>
                </row>
             </table>
             
             <gap reason="omitted"/>
          </div>
          <div type="transcription">
-            <head>f 42v<supplied>(14 November)</supplied></head><!-- KC: date 1518 -->
+            <head>f 42v<supplied>(14 November 1518)</supplied></head>
             <pb n="42v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -667,11 +667,11 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1519" to-iso="1520" cert="medium">1519-20</date>
+            <date from-iso="1519-09-29" to-iso="1520-09-29" cert="medium">1519-20</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 48">RLITPB1</seg>
          </head>
          <div type="transcription">
-            <head>f 46<supplied>(2 November) (Christmas officers)</supplied></head><!-- KC: date 1519 -->
+            <head>f 46<supplied>(2 November 1519) (Christmas officers)</supplied></head>
             <pb n="46" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -687,7 +687,7 @@
          </div>
          
          <div type="transcription">
-            <head>f 46v<supplied>(13 November)</supplied></head><!-- KC: date 1519 -->
+            <head>f 46v<supplied>(13 November 1519)</supplied></head>
             <pb n="46v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -716,11 +716,11 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1520" to-iso="1521" cert="medium">1520-1</date>
+            <date from-iso="1520-09-29" to-iso="1521-09-29" cert="medium">1520-1</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 49-50">RLITPB1</seg>
          </head>
          <div type="transcription">
-            <head>f 69<supplied>(2 November) (Christmas officers)</supplied></head><!-- KC: date 1520 -->
+            <head>f 69<supplied>(2 November 1520) (Christmas officers)</supplied></head>
             <pb n="69" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -760,12 +760,11 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1522" to-iso="1523" cert="medium">1522-3</date>
+            <date from-iso="1522-09-29" to-iso="1523-09-29" cert="medium">1522-3</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 51">RLITPB1</seg>
          </head>
          <div type="transcription">
-            <head>f 78<supplied>(4 February) (List of fines)</supplied></head>  
-            <!-- KC: date 1523 -->
+            <head>f 78<supplied>(4 February 1523) (List of fines)</supplied></head>  
             <pb n="78" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -786,11 +785,11 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1523" to-iso="1524" cert="medium">1523-4</date>
+            <date from-iso="1523-09-29" to-iso="1524-09-29" cert="medium">1523-4</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 52">RLITPB1</seg>
          </head>
          <div type="transcription">
-            <head>f 80<supplied>(30 November)</supplied></head><!-- KC: date 1523 -->
+            <head>f 80<supplied>(30 November 1523)</supplied></head>
             <pb n="80" type="folio"/> 
             
             <gap reason="omitted"/>      
@@ -803,7 +802,7 @@
          </div>
          
          <div type="transcription">
-           <head><supplied>(21 December)</supplied></head>
+           <head><supplied>(21 December 1523)</supplied></head>
             <ab>Concord<ex>atum</ex> e<ex>st</ex> q<ex>uo</ex>d Societas <del>ha<ex>ber</ex>ent</del> h<ex>ab</ex>u<ex>er</ex>int p<ex>ro</ex> <del>purific</del> ‸<!-- KC: caret --><add place="above">te<ex>mpore</ex>
                Nat<ex>alis</ex> d<ex>omi</ex>ni</add> vnu<ex>m</ex> apru<ex>m</ex> p<ex>re</ex>ter a Sheld &amp; ij round<ex>es</ex> Et q<ex>uo</ex>d co<ex>mmun</ex>es
                computant<ex>ur</ex> Septimati<ex>m</ex> Et q<ex>uo</ex>d illi qui su<ex>n</ex>t co<ex>mmun</ex>itores on<ex>er</ex>ent<ex>ur</ex> de
@@ -813,7 +812,7 @@
          </div>
          
          <div type="transcription">
-            <head>f 82v<supplied>(27 November) (Christmas officers)</supplied></head><!-- KC: date 1523 -->
+            <head>f 82v<supplied>(27 November 1523) (Christmas officers)</supplied></head>
             <pb n="82v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -835,11 +834,11 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1526" to-iso="1527" cert="medium">1526-7</date>
+            <date from-iso="1526-09-29" to-iso="1527-09-29" cert="medium">1526-7</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 54">RLITPB1</seg>
          </head>
          <div type="transcription">
-            <head>f 87v<supplied>(27 November) (Christmas officers)</supplied></head><!-- KC: date 1526 -->
+            <head>f 87v<supplied>(27 November 1526) (Christmas officers)</supplied></head>
             <pb n="87v" type="folio"/> 
             
             <gap reason="omitted"/>                 
@@ -861,11 +860,11 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1527" to-iso="1528" cert="medium">1527-8</date>
+            <date from-iso="1527-09-29" to-iso="1528-09-29" cert="medium">1527-8</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 54">RLITPB1</seg>
          </head>
          <div type="transcription">
-            <head>f 89<supplied>(24 November)</supplied></head><!-- KC: date 1527 -->
+            <head>f 89<supplied>(24 November 1527)</supplied></head>
             <pb n="89" type="folio"/> 
             
             <gap reason="omitted"/>  
@@ -885,11 +884,11 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1533" to-iso="1534" cert="medium">1533-4</date>
+            <date from-iso="1533-09-29" to-iso="1534-09-29" cert="medium">1533-4</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 61">RLITPB1</seg>
          </head>
          <div type="transcription">
-            <head>f 100v<supplied>(1 November) (Christmas officers)</supplied></head><!-- KC: date 1533 -->
+            <head>f 100v<supplied>(1 November 1533) (Christmas officers)</supplied></head>
             <pb n="100v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -910,11 +909,11 @@
          <text ana="taxon:inner_temple" type="record">
             <body xml:lang="eng">
                <head>
-                  <date from-iso="1534" to-iso="1535" cert="medium">1534-5</date>
+                  <date from-iso="1534-09-29" to-iso="1535-09-29" cert="medium">1534-5</date>
                   <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 39">RLITPB1</seg>
                </head>
                <div type="transcription">
-                  <head>f 103<supplied>(10 November) (Christmas officers)</supplied></head><!-- KC: date 1534 -->
+                  <head>f 103<supplied>(10 November 1534) (Christmas officers)</supplied></head>
                   <pb n="103" type="folio"/> 
                   
                   <gap reason="omitted"/>
@@ -929,7 +928,7 @@
                </div>
                
                <div type="transcription">
-                  <head><supplied>(20 December)</supplied></head>
+                  <head><supplied>(20 December 1534)</supplied></head>
        
                   <ab>Ad hunc p<ex>ar</ex>liame<ex>n</ex>tu<ex>m</ex> Ioh<ex>ann</ex>es Charlys elect<ex>us</ex> 
                      est vnus Magistror<ex>um</ex> Reuelor<ex>um</ex> pro defect<ex>u</ex> 
@@ -950,11 +949,11 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1538" to-iso="1539" cert="medium">1538-9</date>
+            <date from-iso="1538-09-29" to-iso="1539" cert="medium">1538-9</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 65">RLITPB1</seg>
          </head>
          <div type="transcription">
-            <head>f 112<supplied>(17 November) (Christmas officers)</supplied></head><!-- KC: date 1538 -->
+            <head>f 112<supplied>(17 November 1538) (Christmas officers)</supplied></head>
             <pb n="112" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -976,11 +975,11 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1539" to-iso="1540" cert="medium">1539-40</date>
+            <date from-iso="1539-09-29" to-iso="1540-09-29" cert="medium">1539-40</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 66">RLITPB1</seg>
          </head>
          <div type="transcription">
-            <head>f 114<supplied>(3 November) (Christmas officers)</supplied></head><!-- KC: date 1539 -->
+            <head>f 114<supplied>(3 November 1539) (Christmas officers)</supplied></head>
             <pb n="114" type="folio"/> 
 
                <gap reason="omitted"/>
@@ -998,7 +997,7 @@
             </div>
             
             <div type="transcription">
-               <head>f 114v<supplied>(16 November)</supplied></head><!-- KC: date 1539 -->
+               <head>f 114v<supplied>(16 November 1539)</supplied></head>
                <pb n="114v" type="folio"/>
                <gap reason="omitted"/>
                
@@ -1026,10 +1025,10 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1542" to-iso="1543" cert="medium">1542-3</date>
+            <date from-iso="1542-09-29" to-iso="1543-09-29" cert="medium">1542-3</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 68">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 120v<supplied>(14 November) (Christmas officers)</supplied></head><!-- KC: date 1542 -->
+            <head>f 120v<supplied>(14 November 1542) (Christmas officers)</supplied></head>
             <pb n="120v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1052,10 +1051,10 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1544" to-iso="1545" cert="medium">1544-5</date>
+            <date from-iso="1544-09-29" to-iso="1545-09-29" cert="medium">1544-5</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 69">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 125<supplied>(16 November) (Christmas officers)</supplied></head><!-- KC: date 1544 -->
+            <head>f 125<supplied>(16 November 1544) (Christmas officers)</supplied></head>
             <pb n="120v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1073,7 +1072,7 @@
          </div>
          
          <div type="transcription">
-            <head>f 125v<supplied>(28 January)</supplied></head><!-- KC: date 1544/5 REED slash yr -->
+            <head>f 125v<supplied>(28 January 1544/5)</supplied></head>
             <pb n="125v" type="folio"/>
             
             <gap reason="omitted"/>
@@ -1101,10 +1100,10 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1545" to-iso="1546" cert="medium">1545-6</date>
+            <date from-iso="1545-09-29" to-iso="1546-09-29" cert="medium">1545-6</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 70">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 48v<supplied>(3 February) (Fines for not exercising offices)</supplied></head> <!-- KC: date 1545/6 REED slash yr -->
+            <head>f 48v<supplied>(3 February 1545/6) (Fines for not exercising offices)</supplied></head> 
             <pb n="48v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1131,10 +1130,10 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1546" to-iso="1547" cert="medium">1546-7</date>
+            <date from-iso="1546-09-29" to-iso="1547-09-29" cert="medium">1546-7</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 70">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 51<supplied>(7 November) (Christmas officers)</supplied></head><!-- KC: date 1546 -->
+            <head>f 51<supplied>(7 November 1546) (Christmas officers)</supplied></head>
             <pb n="51" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1160,10 +1159,10 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1552" to-iso="1553" cert="medium">1552-3</date>
+            <date from-iso="1552-09-29" to-iso="1553-09-29" cert="medium">1552-3</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 76">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 129<supplied>(20 November) (Christmas officers)</supplied></head> <!-- KC: date 1552 -->
+            <head>f 129<supplied>(20 November 1552) (Christmas officers)</supplied></head> 
             <pb n="129" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1180,10 +1179,10 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1553" to-iso="1554" cert="medium">1553-4</date>
+            <date from-iso="1553-09-29" to-iso="1554-09-29" cert="medium">1553-4</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 76">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 132<supplied>(19 November) (Christmas officers)</supplied></head> <!-- KC: date 1553 -->
+            <head>f 132<supplied>(19 November 1553) (Christmas officers)</supplied></head> 
             <pb n="132" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1208,10 +1207,10 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1554" to-iso="1555" cert="medium">1554-5</date>
+            <date from-iso="1554-09-29" to-iso="1555-09-29" cert="medium">1554-5</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 77">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 135v<supplied>(4 October) (Christmas officers)</supplied></head> <!-- KC: 1554 -->
+            <head>f 135v<supplied>(4 October 1554) (Christmas officers)</supplied></head> 
             <pb n="135v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1237,10 +1236,10 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1555" to-iso="1556" cert="medium">1555-6</date>
+            <date from-iso="1555-09-29" to-iso="1556-09-29" cert="medium">1555-6</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 79">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 139<supplied>(20 November)</supplied></head> <!-- KC: date 1555 -->
+            <head>f 139<supplied>(20 November 1555)</supplied></head> 
             <pb n="139" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1273,10 +1272,10 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1561" to-iso="1562" cert="medium">1561-2</date>
+            <date from-iso="1561-09-29" to-iso="1562-09-29" cert="medium">1561-2</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 84-5">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 164<supplied>(4 February)</supplied></head> <!-- KC: date 1561/2 REED slash yr -->
+            <head>f 164<supplied>(4 February 1561/2)</supplied></head> 
             <pb n="164" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1305,10 +1304,10 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1577" to-iso="1578" cert="medium">1577-8</date>
+            <date from-iso="1577-09-29" to-iso="1578-09-29" cert="medium">1577-8</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 101">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 204v<supplied>(15 June)</supplied></head> <!-- KC: date 1578 -->
+            <head>f 204v<supplied>(15 June 1578)</supplied></head> 
             <pb n="204v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1333,10 +1332,10 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1582" to-iso="1583" cert="medium">1582-3</date>
+            <date from-iso="1582-09-29" to-iso="1583-09-29" cert="medium">1582-3</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 106">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 220v<supplied>(27 January)</supplied></head> <!-- KC: date 1582/3 REED slash yr -->
+            <head>f 220v<supplied>(27 January 1582/3)</supplied></head> 
             <pb n="220v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1361,10 +1360,10 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1589" to-iso="1590" cert="medium">1589-90</date>
+            <date from-iso="1589-09-29" to-iso="1590-09-29" cert="medium">1589-90</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 115">RLITPB2</seg></head>
          <div type="transcription">
-            <head>f 11<supplied>(8 February)</supplied></head> <!-- KC: date 1589/90 REED slash yr -->
+            <head>f 11<supplied>(8 February 1589/90)</supplied></head> 
             <pb n="11" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1391,10 +1390,10 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1610" to-iso="1611" cert="medium">1610-11</date>
+            <date from-iso="1610-09-29" to-iso="1611-09-29" cert="medium">1610-11</date>
             <seg ana="taxon:RLITPB2" corresp="taxon:RPCIC p. 145">RLITPB2</seg></head>
          <div type="transcription">
-            <head>f 99<supplied>(10 February)</supplied></head> <!-- KC: date 1610/11 REED slash yr-->
+            <head>f 99<supplied>(10 February 1610/11)</supplied></head> 
             <pb n="99" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1430,12 +1429,12 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1611" to-iso="1612" cert="medium">1611-12</date>  
+            <date from-iso="1611-09-29" to-iso="1612-09-29" cert="medium">1611-12</date>  
             <seg ana="taxon:RLITPB2" corresp="taxon:RPCIC p. 146-7">RLITPB2</seg>
          </head>
          
          <div type="transcription">
-            <head>f 105v<supplied>(24 November)</supplied></head> <!-- KC: date 1611 -->
+            <head>f 105v<supplied>(24 November 1611)</supplied></head> 
             <pb n="105v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1455,11 +1454,11 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1612" to-iso="1613" cert="medium">1612-13</date>
+            <date from-iso="1612-09-29" to-iso="1613-09-29" cert="medium">1612-13</date>
             <seg ana="taxon:RLITPB2" corresp="taxon:RLPIC1 pp. 151-2">RLITPB2</seg>
          </head>
          <div type="transcription">
-            <head>f 112v<supplied>(4 May)</supplied></head>  <!-- KC: date 1613 -->
+            <head>f 112v<supplied>(4 May 1613)</supplied></head>  
             <pb n="112v" type="folio"/>
             <gap reason="omitted"/>
             <ab>
@@ -1472,7 +1471,7 @@
          </div>
                
          <div type="transcription">
-            <head>f 120<supplied>(10 July)</supplied></head>
+            <head>f 120<supplied>(10 July 1613)</supplied></head>
             <pb n="120" type="folio"/>
             <gap reason="omitted"/>
             <ab>At this Parliament yt is ordered that Mr Lumley the drap<ex>er</ex> shallbe paid fower pownd<ex>es</ex> twelve shilling<ex>es</ex> &amp; sixe pence, for scarlett ymployed for the Marshall at the Maske</ab>
@@ -1485,11 +1484,11 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1615" to-iso="1616" cert="medium">1615-16</date>
+            <date from-iso="1615-09-29" to-iso="1616-09-29" cert="medium">1615-16</date>
             <seg ana="taxon:RLITPB2" corresp="taxon:RLPIC1 pp. 185-6">RLITPB2</seg>
          </head>
          <div type="transcription">
-            <head>f 129v<supplied>(21 April)</supplied></head>  <!-- KC: date 1616 -->
+            <head>f 129v<supplied>(21 April 1616)</supplied></head>  
             <pb n="129v" type="folio"/>
             <gap reason="omitted"/>
             <ab>
@@ -1522,11 +1521,11 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1616" to-iso="1617" cert="medium">1616-17</date>
+            <date from-iso="1616-09-29" to-iso="1617-09-29" cert="medium">1616-17</date>
             <seg ana="taxon:RLITPB2" corresp="taxon:RLPIC1 pp. 190-1">RLITPB2</seg>
          </head>
          <div type="transcription">
-            <head>f 133<supplied>(6 November)</supplied></head>  <!-- KC: date 1616 -->
+            <head>f 133<supplied>(6 November 1616)</supplied></head>  
             <pb n="133" type="folio"/>
             <gap reason="omitted"/>
             <ab>
@@ -1558,11 +1557,11 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1627" to-iso="1628" cert="medium">1627-8</date>
+            <date from-iso="1627-09-29" to-iso="1628-09-29" cert="medium">1627-8</date>
             <seg ana="taxon:RLITPB2" corresp="taxon:RLPIC1 pp. 217">RLITPB2</seg>
          </head>
          <div type="transcription">
-            <head>f 178<supplied>(10 February)</supplied></head>  <!-- KC: date 1627/8 REED slash yr -->
+            <head>f 178<supplied>(10 February 1627/8)</supplied></head>  
             <pb n="178" type="folio"/>
             <gap reason="omitted"/>
             <ab>
@@ -1589,11 +1588,11 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1628" to-iso="1629" cert="medium">1628-9</date>
+            <date from-iso="1628-09-29" to-iso="1629-09-29" cert="medium">1628-9</date>
             <seg ana="taxon:RLITPB2" corresp="taxon:RLPIC1 pp. 220-1">RLITPB2</seg>
          </head>
          <div type="transcription">
-            <head>f 182<supplied>(23 November)</supplied></head>  <!-- KC: date 1628 -->
+            <head>f 182<supplied>(23 November 1628)</supplied></head>  
             <pb n="182" type="folio"/>
             <gap reason="omitted"/>
             <ab>
@@ -1642,12 +1641,12 @@
     <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1633" to-iso="1634" cert="medium">1633-4</date>
+            <date from-iso="1633-09-29" to-iso="1634-09-29" cert="medium">1633-4</date>
             <seg ana="taxon:RLITPB2" corresp="taxon:RPCIC p. 240-3">RLITPB2</seg>
          </head>
          
          <div type="transcription">
-            <head>f 219-19v<supplied>(12 November)</supplied></head> <!-- KC: date 1633 -->
+            <head>f 219-19v<supplied>(12 November 1633)</supplied></head> 
             <pb n="219-19v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1725,7 +1724,7 @@
       </div>
    
        <div type="transcription">
-          <head>f 222v<supplied>(9 February)</supplied></head> <!-- KC: date 1633/4 REED slash yr -->
+          <head>f 222v<supplied>(9 February 1633/4)</supplied></head> 
           <pb n="222" type="folio"/> 
  
                <gap reason="omitted"/>
@@ -1755,7 +1754,7 @@
        </div>
           
           <div type="transcription">
-             <head>f 223<supplied>(27 April)</supplied></head> <!-- KC: date 1634 -->
+             <head>f 223<supplied>(27 April 1634)</supplied></head> 
              <pb n="223" type="folio"/> 
              
              <gap reason="omitted"/>
@@ -1797,7 +1796,7 @@
           </div>
          
              <div type="transcription">
-                <head>f 224v<supplied>(22 June)</supplied></head> <!-- KC: date 1634 -->
+                <head>f 224v<supplied>(22 June 1634)</supplied></head> 
                 <pb n="224" type="folio"/> 
                 
                 <gap reason="omitted"/>
@@ -1832,11 +1831,11 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1634" to-iso="1635" cert="medium">1634-5</date>
+            <date from-iso="1634-09-29" to-iso="1635-09-29" cert="medium">1634-5</date>
             <seg ana="taxon:RLITPB2" corresp="taxon:RLPIC1 pp 325-6">RLITPB2</seg>
          </head>
          <div type="transcription">
-            <head>f 229<supplied>(23 November)</supplied></head>  <!-- KC: date 1634 -->
+            <head>f 229<supplied>(23 November 1634)</supplied></head>  
             <pb n="229" type="folio"/>
             <gap reason="omitted"/>  <!-- KC: resume here -->
             <ab>
@@ -1871,7 +1870,7 @@
          </div>
             
             <div type="transcription">
-               <head>f 229v <supplied>(25 January)</supplied></head> <!-- KC: date 1634/5 REED slash yr -->
+               <head>f 229v <supplied>(25 January 1634/5)</supplied></head> 
                <pb n="229v" type="folio"/>
                <gap reason="omitted"/>
                <ab>
@@ -1889,7 +1888,7 @@
             </div>
             
             <div type="transcription">
-               <head>f 230v <supplied>8 February</supplied></head> <!-- KC: date 1634/5 REED slash yr -->
+               <head>f 230v <supplied>(8 February 1634/5)</supplied></head> 
                <pb n="230v" type="folio"/>
                <gap reason="omitted"/>
                <ab>
