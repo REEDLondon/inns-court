@@ -231,17 +231,26 @@
       </profileDesc>
    </teiHeader>
    
-   <text ana="taxon:letter" type="record">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Inns of Court
-            <date from-iso="YYYY" to-iso="YYYY">YYYY-YYYY</date>
-            <seg ana="taxon:RL1234" corresp="taxon:RLPIC1 pp. numbers">six number code</seg></head>
+         <head>
+            <date from-iso="1635-09-29" to-iso="1636-09-29">1635-6</date>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 338">RLGIP1</seg></head>
          <div type="transcription">
-            <head> sheet or folio<supplied>supplied from text</supplied></head>
-            <pb n="number" type="sheet"/>
+            <head>f 410 <date when-iso="1636-01-29"><supplied>(29 January 1635/6) (Pension orders)</supplied></date></head>
+            <pb n="410" type="folio"/>               
+            <gap reason="omitted"/>
+            <list>
+               <item>The account for the maske exhibited by <persName n="Ralph Whitfield" role="son of Ralph">m<ex>aste</ex>r serieant whitfeild</persName> is allowed, &amp; m<ex>aste</ex>r serieant discharged therof/</item>
+               <item><persName n="Augustine or Henry Reve">Mr Reve</persName> &amp; <persName n="Joseph or William Bryan">mr Bryan</persName> are to take mr Rumseyes account touching the masque./</item> 
+               <item>The moneyes behind by any gent<ex>lemen</ex> toward the masque are to be gathered &amp; Collected this Terme by <persName n="John Pecke" role="butler">Iohn Pecke</persName> the Butler or former orders therin to be put in execuc<ex>i</ex>on if payment be not made./</item>
+            </list>
+            <gap reason="omitted"/>
             
          </div>
       </body>
    </text>
+   
+   
    
 </TEI>

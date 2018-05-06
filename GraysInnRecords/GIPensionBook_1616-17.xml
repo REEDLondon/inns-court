@@ -231,15 +231,65 @@
       </profileDesc>
    </teiHeader>
    
-   <text ana="taxon:letter" type="record">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Inns of Court
-            <date from-iso="YYYY" to-iso="YYYY">YYYY-YYYY</date>
-            <seg ana="taxon:RL1234" corresp="taxon:RLPIC1 pp. numbers">six number code</seg></head>
+         <head>
+            <date from-iso="1616-09-29" to-iso="1617-09-29">1616-17</date>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 pp. 189-90">RLGIP1</seg></head>
          <div type="transcription">
-            <head> sheet or folio<supplied>supplied from text</supplied></head>
-            <pb n="number" type="sheet"/>
+            <div>
+               <head>f 314 <date when-iso="1616-10-17"/><supplied>(17 October 1616) (Pension orders)</supplied></head>
+               <pb n="314" type="folio"/>
+
+               <note type="marginal">A Taxe for the Charge of the Barriors.</note>
+               <ab>At this Penc<ex>i</ex>on every Reador Ancient Barrister and other gent<ex>leman</ex> that shalbe in the Towne betwene this and the end of Hillary terme or have any Chamber in the howse other of the house or by lease ortherwyse<note type="foot">ortherwyse: <hi rend="italic">for</hi> otherwyse</note> shal pay towards the Barriors intended to be p<ex>re</ex>sented before <persName n="King James I">his Ma<ex>ies</ex>ti</persName> shall pay affter these Rats and p<ex>ro</ex>porc<ex>i</ex>ons followinge Every Reador or Ancient of the Bench xl s. every Ancient vnder the Bench xxx s. Every Barrister xx s. &amp; Every other gent<ex>lemen</ex> xiij s. iiij d.</ab>               
+               <list>
+                  <item><del>Ther is apointed for</del></item>
+                  <item><persName n="... Newton">Mr Newton</persName> is appointed Collector of the Readors &amp; Ancients</item> 
+                  <item><persName n="John Gryffyth">Mr Griffeth</persName> <del>for</del> of the Barristers</item>
+                  <item>And <persName>Mr wrightington</persName> of the yonge gent<ex>lemen</ex> vnder the Barr</item>
+               </list>
+               <note type="editorial" n="endnote">The ‘Barriors’ (l.18 and subsequently) was a martial exercise presented jointly by the four Inns of Court to celebrate the investiture of Prince Charles as prince of Wales, at the Banqueting House, Whitehall, 4 November 1616: see Appendix 6.1 (under ‘Barriers’).</note>
+            </div>
+            <gap reason="omitted"/>              
             
+            <div>
+               <head>f 314v <date when-iso="1616-11-08"/><supplied>(8 November 1616)</supplied></head>
+               <pb n="314v" type="folio"/>
+               
+               <gap reason="omitted"/>
+               <ab>
+                  At this Penc<ex>i</ex>on it is Ordered that all such gent<ex>lemen</ex> of this Societie as are be hinde with ther taxacion towardes the barriers p<ex>er</ex>formed at the Courte yf they be in Com<ex>m</ex>ons they shall pay ther taxac<ex>i</ex>on before fryday dinnor or els to put fourth of Com<ex>m</ex>ons, and that such as are forth of Com<ex>m</ex>ons shal pay ther taxac<ex>i</ex>on before the next Penc<ex>i</ex>on in the next weeke and those w<ex>hi</ex>ch shall not paye the same before the next penc<ex>i</ex>on in the next weeke if they have howse Chambers or Chambers by lease in the howse shall forfet ther Chambers and if they have no Chambers then they shalbe forth<note type="foot">shalbe forth: <hi rend="italic">for</hi> shalbe put forth</note> of the howse</ab>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 315 <date when-iso="1616-11-18"/><supplied>(18 November 1616)</supplied></head>
+               <pb n="315" type="folio"/>
+               
+               <gap reason="omitted"/>
+               <note type="marginal" rend="left">such gent<ex>lemen</ex> to appere before the Bench in the hall, as pay not their taxe to the Barriors.</note>
+               <ab>It is Ordered at this Penc<ex>i</ex>on that 12 of the Ancientest Comonors that ar behind w<ex>it</ex>h ther taxac<ex>i</ex>on towards the barriors shall appeare before the Readors at the tables end to morrowe at Dinnor to shewe Cause why they pay it not and yf they do not pay nor shall give satisfactio<ex>n</ex> why they doe it not, That they shall stand expelled fourth of this Societie And so all the rest of the Ancient Barristers and other gent<ex>lemen</ex> to appeare by 12 a day every day affter the other till they have all appeared and be in the same Case</ab>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head><date when-iso="1617-01-21"/><supplied>(21 January 1616/17)</supplied></head>
+               <note type="marginal" rend="left">Admittances this Terme for the Barriors.</note>
+               <ab>At this Penc<ex>i</ex>on it is Ordered that all the moneys that shalbe Rec<ex>eive</ex>d this terme for admissio<ex>ns</ex> shalbe paid and deliu<ex>er</ex>ed to <persName n="Thomas Tyldesley">Sir Thomas Tildesley</persName> to be Imployed towardes the satisfactio<ex>n</ex> of such as have Lent moneyes towards the p<ex>er</ex>formance of the Barriors</ab>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 315v <date when-iso="1617-05-21"/><supplied>(21 May 1617)</supplied></head>
+               <pb n="315v" type="folio"/>            
+               <gap reason="omitted"/>
+               <ab>At this Penc<ex>i</ex>on it is Ordered that the moneys this terme Rec<ex>eive</ex>d for admittances shall goe and be imployed towards the payment of the Readors of such moneys as they have lent for the settinge forth of Barriors w<ex>hi</ex>ch is yet behinde</ab>
+               
+               <note type="marginal">3 l. 6 s. 5 d. p<ex>er</ex> Ann<ex>um</ex> allow to Michell the Musitian p<ex>er</ex> vit<ex>am</ex>.</note>
+               <ab>It is Ordered at this Penc<ex>i</ex>on that <persName n="John Mitchell" cert="medium" resp="#AHN1">Mr Michell</persName> the Musition of the howse shall have allowed vnto him duringe his liffe five Markes to be p<ex>ai</ex>d every midsomer terme out of the first admittance money that shalbe that terme rec<ex>eiv</ex>ed</ab>
+               <gap reason="omitted"/>
+            </div>
          </div>
       </body>
    </text>

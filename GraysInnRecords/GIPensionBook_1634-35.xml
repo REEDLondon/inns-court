@@ -231,15 +231,31 @@
       </profileDesc>
    </teiHeader>
    
-   <text ana="taxon:letter" type="record">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Inns of Court
-            <date from-iso="YYYY" to-iso="YYYY">YYYY-YYYY</date>
-            <seg ana="taxon:RL1234" corresp="taxon:RLPIC1 pp. numbers">six number code</seg></head>
+         <head>
+            <date from-iso="1634-09-29" to-iso="1635-09-29">1634-5</date>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 325">RLGIP1</seg></head>
          <div type="transcription">
-            <head> sheet or folio<supplied>supplied from text</supplied></head>
-            <pb n="number" type="sheet"/>
+            <div>
+               <head>f 407 <date when-iso="1634-10-10"><supplied>(10 October 1634) (Pension orders)</supplied></date></head>   
+               <pb n="407" type="folio"/>
+               <gap reason="omitted"/>
+               <list>
+                  <item>Com<ex>m</ex>ittees to take the Accompts of <persName n="Ralph Whitfield" role="father of Ralph">Mr Whitefield</persName> concerninge the Masque money.</item>
+                  <item><persName n="William Gerrard">Mr Gerrard</persName>, <persName n="Edward Rumsey">Mr Rumsey</persName>, <persName n="... Phesant">Mr Pheasante</persName> &amp; <persName n="... Brickenden">Mr Brickenden</persName> or two of them./</item>
+               </list>
+               <gap reason="omitted"/>
+            </div>
             
+            <div>
+               <head><date when-iso="1634-11-12"><supplied>(12 November 1634)</supplied></date></head>
+               <list>
+                  <item>The former Orders for such as haue not paide their partes to the charge to the late masque are renued and to bee put in execuc<ex>i</ex>on.</item>
+                  <item><persName n="Osbaldeston">Mr Osbaldeston</persName> and <persName n="Edward Rumsey">Mr Rumsey</persName> are for this Societie to meete with the rest of the Com<ex>m</ex>ittees for the Masque/</item>
+               </list>
+               <gap reason="omitted"/>
+            </div>
          </div>
       </body>
    </text>

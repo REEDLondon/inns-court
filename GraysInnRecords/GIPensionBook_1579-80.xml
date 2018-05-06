@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="REED.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
-
+<?xml-model href="../REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../REED.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="eng"> 
    <teiHeader>
       <fileDesc>
@@ -231,15 +229,64 @@
       </profileDesc>
    </teiHeader>
    
-   <text ana="taxon:letter" type="record">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Inns of Court
-            <date from-iso="YYYY" to-iso="YYYY">YYYY-YYYY</date>
-            <seg ana="taxon:RL1234" corresp="taxon:RLPIC1 pp. numbers">six number code</seg></head>
+         <head>
+            <date from-iso="1579-09-29" to-iso="1580-09-29">1579-80</date>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 pp. 102-3">RLGIP1</seg></head>
          <div type="transcription">
-            <head> sheet or folio<supplied>supplied from text</supplied></head>
-            <pb n="number" type="sheet"/>
-            
+               <head>ff 144–4v <date when-iso="1579-02-05"><supplied>(5 February 1579/80) (Paid to <persName n="... Ladyman">Ladyman</persName>)</supplied></date></head>                
+               <pb n="144-4v" type="folio"/>               
+               <gap reason="omitted"/>
+               
+               <table>
+                  <row>
+                     <cell>ffor x fott of borde to amende the gate against candelmas and for xxxij fott to make an ende of the pale</cell>
+                     <cell>ij s. viij d.</cell>
+                  </row>
+                  <row>
+                     <cell>ffor C of nayles about that worke</cell>
+                     <cell>vj d.</cell>
+                  </row>
+                  <row>
+                     <cell>ffor a dayes worke in doinge of it</cell>
+                     <cell>xiiij d.</cell>
+                  </row>
+                  <row>
+                     <cell>ffor ij q<ex>uarters</ex> to amende the tressells and the formes in the hall against Candlemas day</cell>
+                     <cell>vj d.</cell>
+                  </row>
+                  <row>
+                     <cell>ffor Six fott of borde for yt</cell>
+                     <cell>vj d.</cell>
+                  </row>
+                  <row>
+                     <cell>ffor j dayes worke</cell>
+                     <cell>viiij d. |</cell>
+                  </row>
+                  <row>
+                     <cell>ffor a plancke to make a forme in the hall the morrowe after Candellmas day</cell>
+                     <cell>xij d.</cell>
+                  </row>
+                  <row>
+                     <cell>for fower single q<ex>uar</ex>t<ex>er</ex>s to make the same forme newe and to amende other formes Broken at the playe</cell>
+                     <cell>xij d.</cell>
+                  </row>
+                  <row>
+                     <cell>ffor vij fott of borde</cell>
+                     <cell>iiij d.</cell>
+                  </row>
+                  <row>
+                     <cell>ffor di. C of nayles</cell>
+                     <cell>iij d.</cell>
+                  </row>
+                  <row>
+                     <cell>ffor a dayes worke about it</cell>
+                     <cell>xiiij d.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            <note type="editorial" n="endnote">Only the eighth item cited here (p 103, ll.1–3), and by implication the seventh, are certainly associ- ated with a play.</note>
          </div>
       </body>
    </text>

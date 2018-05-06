@@ -231,14 +231,17 @@
       </profileDesc>
    </teiHeader>
    
-   <text ana="taxon:letter" type="record">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Inns of Court
-            <date from-iso="YYYY" to-iso="YYYY">YYYY-YYYY</date>
-            <seg ana="taxon:RL1234" corresp="taxon:RLPIC1 pp. numbers">six number code</seg></head>
+         <head>
+            <date from-iso="1603-09-29" to-iso="1604-09-29">1603-4</date>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 136">RLGIP1</seg></head>
          <div type="transcription">
-            <head> sheet or folio<supplied>supplied from text</supplied></head>
-            <pb n="number" type="sheet"/>
+               <head>f 261v <date when-iso="1604-02-07"><supplied>(7 February 1603/4) (Pension orders)</supplied></date></head>
+               <pb n="261v" type="folio"/>         
+               <gap reason="omitted"/>               
+               <ab><persName n="John Mitchell" cert="medium" resp="#AHN1">Mr Michell</persName> &amp; the music<ex>i</ex>ons are allowed xl s. for their attendance of Candlemas daie, albeit they then did not p<ex>er</ex>forme their service in respect of the late infection</ab>
+               <note type="editorial" n="endnote">Mr Michell was ‘the Musition of the howse’ at Gray’s Inn (see printed <title>Inns of Court</title>, volume 1, p 190, l.26).</note>      
             
          </div>
       </body>

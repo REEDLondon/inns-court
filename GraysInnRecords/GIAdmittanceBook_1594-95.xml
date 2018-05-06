@@ -231,15 +231,90 @@
       </profileDesc>
    </teiHeader>
    
-   <text ana="taxon:letter" type="record">
-      <body xml:lang="eng">
-         <head>Inns of Court
-            <date from-iso="YYYY" to-iso="YYYY">YYYY-YYYY</date>
-            <seg ana="taxon:RL1234" corresp="taxon:RLPIC1 pp. numbers">six number code</seg></head>
+   <text ana="taxon:grays_inn" type="record">
+      <body xml:lang="lat">
+         <head> 
+            <date from-iso="1594-09-29" to-iso="1595-09-29" cert="high">1594-5</date>
+            <seg ana="taxon:RLGIAB" corresp="RLIPIC1 pp. 124-5">RLGIAB</seg></head>
          <div type="transcription">
-            <head> sheet or folio<supplied>supplied from text</supplied></head>
-            <pb n="number" type="sheet"/>
-            
+               <head>p 295 <date when-iso="1595-02-02"/><supplied>(2 February 1594/5)</supplied></head>
+               <pb n="295" type="page"/>               
+               <list>
+                  <item> <persName n="Edward Devereux">Edward Deuoraxe</persName> de <placeName n="Castle Bromwich, Warwickshire">Castell Bromwiche in Comitate warwici</placeName> admiss<expan>us</expan> est in societat<ex>em</ex> hui<ex>us</ex> hospitij nostri <date when-iso="1594-02-02">ij die ffeb<ex>ruarij</ex></date> anno supradict<ex>o</ex>
+                     <seg type="signed" rend="center"><persName n="Henry Helmes">H<ex>enricus</ex> Princeps.</persName></seg></item>                                    
+                  <item><persName n="Francis Dethicke">ffrancisc<ex>us</ex> Dethicke</persName> de <del>admiss</del> <note type="foot">de <del>admiss</del>: de <hi rend="italic">created from</hi> d <hi rend="italic">of cancelled</hi> admiss <hi rend="italic">with</hi> e <hi rend="italic">written over</hi> m</note> <placeName n="Newhall, Derbyshire">Newhall in Comitate Darbye</placeName> admiss<ex>us</ex> est in societatem hui<ex>us</ex> hospitij eode<ex>m</ex> die 
+                     <seg type="signed" rend="center"><persName n="Henry Helmes">H<ex>enricus</ex> P<ex>rinceps</ex></persName>.</seg></item>
+                  <item><persName n="William Pope">Guillelm<ex>us</ex> Poape</persName> de <placeName n="Wroxton, Oxfordshire">Roxton in Comitate Oxoniæ</placeName> admiss<ex>us</ex> est in societate<ex>m</ex> hui<ex>us</ex> hospitij eodem die
+                  </item>                                   
+                  <item><note type="marginal" rend="left">Extra hospiciu<ex>m</ex></note><del><persName n="Francis East">ffranciscus East</persName> de <space/> in <placeName n="Cambridgeshire">Comitate Cantabrigiæ</placeName> admiss<ex>us</ex> est in societatem hospitij nostri eod<ex>em</ex> die</del> extra hospitiu<ex>m</ex> <del>pr<ex>o</ex></del> in plena pencione tent<ex>us</ex> decimo octavo die Iunij A<ex>nn</ex>o 38 Elizabeth Regine: 
+                     <seg type="signed" rend="center"><persName n="Henry Helmes">Henric<ex>us</ex> Pr<ex>incep</ex>s Purpoole</persName>.</seg></item>
+               </list>
+               <gap reason="omitted"/>
+            <note type="editorial" n="endnote">Prominent among those granted honorary admission by Henry Helmes, Prince of Purpoole, were John Lyly (p 125, l.7), almost certainly the playwright, and John Spencer (p 125, l.14), lord mayor of London (see ODNB for both men). A pane of stained glass commemorating Spencer’s membership survives in the hall of Gray’s Inn.</note>
+         </div>
+            <div type="translation">
+               <head>p 295 <date when-iso="1595-02-02"/><supplied>(2 February 1594/5)</supplied></head>
+               <pb n="295" type="page"/>    
+               <list>
+                  <item>Edward Devereux of Bromwich Castle in the county of Warwick has been admitted into the society of this our Inn on 2 February in the abovesaid year.
+                  <seg type="signed" rend="center"><persName n="Henry Helmes">Henry, prince (of Purpoole)</persName></seg></item>
+                  <item>Francis Dethicke of New Hall in Derbyshire has been admitted into the society of this Inn on the same day in the abovesaid year.
+                     <seg type="signed" rend="center"><persName n="Henry Helmes">Henry, prince (of Purpoole)</persName></seg></item>
+                  <item>William Pope of Roxton in the county of Oxford has been admitted into the society of this Inn on the same day.
+                  </item>                  
+                  <item><note type="marginal" rend="left">Outside the Inn</note><del>Francis East of <space/> in the county of Cambridge has been admitted into the society of our Inn on the same day.</del> He (is) kept outside the Inn in full pension on 18 June in the thirty-eighth year (of the reign) of Queen Elizabeth.
+                     <seg type="signed" rend="center"><persName n="Henry Helmes">Henry, prince (of Purpoole)</persName></seg></item>
+               </list>
+               <gap reason="omitted"/>
+               <note type="editorial" n="endnote">Prominent among those granted honorary admission by Henry Helmes, Prince of Purpoole, were John Lyly (p 125, l.7), almost certainly the playwright, and John Spencer (p 125, l.14), lord mayor of London (see ODNB for both men). A pane of stained glass commemorating Spencer’s membership survives in the hall of Gray’s Inn.</note>
+            </div>
+         
+            <div type="transcription">
+               <head><date when-iso="1595-12-25"/><supplied>(25 December 1595)</supplied></head>
+               <pb n="295" type="page"/>
+               
+               <list>
+                  <item><persName n="John Cook">Ihoannes Cooke</persName> &amp; <persName n="Edward Cook">Edwardus Cooke</persName> de <placeName n="Westminster, London">Westminster</placeName> admissi<ex>us</ex> sunt in societate<ex>m</ex> hui<ex>us</ex> hospitij xxv die Decembris anno Elizabeth Regine xxx vij
+                     <seg type="signed" rend="center"><persName n="Henry Helmes">Henry Pr<ex>incep</ex>s Purpoole</persName></seg> </item>                  
+                  <item><persName n="Phillip Wentworth">Phillippus Waintworth</persName> de <placeName n="Cotton, Suffolk">Cotton in Comitate Suffolciæ</placeName> <persName n="Anthony Fletcher">Anthonius ffletcher</persName> de <placeName n="Cockermouth, Cumbria">Cockermouth in Comitate Comber<ex>landia</ex>e</placeName> <persName n="Thomas Thomkins">Thomas Thomkins</persName> de <placeName n="London">Civitate Londini</placeName> <persName n="John Lily" cert="high" resp="#AHN1" role="playwright">Ihoannes Lillie</persName> de <placeName n="London">Civitate Londini</placeName> <persName n="Thomas Smith">Thomas Smith</persName> de <placeName n="Framingham, Suffolk">fram<ex>m</ex>ingha<ex>m</ex> in Comitate Suffolk</placeName> admissi sunt in societatem huius hospitij die &amp; anno supradictis
+                     <seg type="signed"><persName n="Henry Helmes">Henry Pr<ex>inceps</ex> Purpoole</persName></seg></item>
+               </list>
+            </div>
+            <div type="translation">
+               <head><date when-iso="1594-12-25"/><supplied>(25 December 1594)</supplied></head>
+               <pb n="295" type="page"/>
+               <list>
+                  <item>John Cooke and Edward Cooke of Westminster were admitted into the society of this Inn on 25 December in the thirty-seventh year (of the reign) of Queen Elizabeth.
+                     <seg type="signed" rend="center"><persName n="Henry Helmes">Henry, Prince of Purpoole</persName></seg></item>
+                  <item>Philip Wentworth of Cotton in the county of Suffolk, Anthony Fletcher of Cockermouth in the county of Cumberland, Thomas Thomkins of the city of London, John Lyly of the city of London, (and) Thomas Smyth of Framingham in the county of Suffolk were admitted into the society of this Inn on the abovesaid day and (in the abovesaid) year.
+                     <seg type="signed" rend="center"><persName n="Henry Helmes">Henry, Prince of Purpoole</persName></seg></item>
+               </list>      
+            </div>
+         
+         <div type="transcription">
+            <head>p 298 <date when-iso="1595-01-06"/><supplied>(6 January 1595/6)</supplied></head>
+               <pb n="298" type="page"/>              
+               <list>
+                  <item><persName n="John Spencer" resp="#AHN1" role="Mayor of London"
+                     >Iohan<ex>nes</ex> Spencer</persName> Maior ciuitatis London<ex>i</ex>
+                     admissus est in societatem huius Hospitij sexto die Ianuarij. Anno
+                     d<ex>o</ex>m<ex>inae</ex> Reginae Eliz<ex>abethae</ex> 37<hi rend="superscript"
+                        >o</hi>
+                     <seg type="signed" rend="center"><persName n="Henry Helmes">Henrie Helmes Pr<ex>incep</ex>s
+                        Purpool</persName></seg></item>
+               </list>
+               <gap reason="omitted"/>
+            <note type="editorial" n="endnote"> Prominent among those granted honorary admission by Henry Helmes, Prince of Purpoole, were John Lyly, almost certainly the playwright, and John Spencer, lord mayor of London (see ODNB for both men). A pane of stained glass commemorating Spencer’s membership survives in the hall of Gray’s Inn.</note>
+         </div>
+         <div type="translation">
+            <head>p 298 <date when-iso="1595-01-06"/><supplied>(6 January 1595/6)</supplied></head>
+            <pb n="298" type="page"/>  
+            <list>
+               <item>John Spencer, mayor of the city of London, has been admitted into the society of this Inn on 6 January in the thirty-seventh year (of the reign) of the lady, Queen Elizabeth.
+                  <seg type="signed" rend="center">Henry Helmes, Prince of Purpoole</seg></item>
+            </list>
+            <gap reason="omitted"/>
+            <note type="editorial" n="endnote"> Prominent among those granted honorary admission by Henry Helmes, Prince of Purpoole, were John Lyly, almost certainly the playwright, and John Spencer, lord mayor of London (see ODNB for both men). A pane of stained glass commemorating Spencer’s membership survives in the hall of Gray’s Inn.</note>
          </div>
       </body>
    </text>

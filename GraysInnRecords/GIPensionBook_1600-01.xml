@@ -231,15 +231,19 @@
       </profileDesc>
    </teiHeader>
    
-   <text ana="taxon:letter" type="record">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Inns of Court
-            <date from-iso="YYYY" to-iso="YYYY">YYYY-YYYY</date>
-            <seg ana="taxon:RL1234" corresp="taxon:RLPIC1 pp. numbers">six number code</seg></head>
+         <head>
+            <date from-iso="1600-09-29" to-iso="1601-09-29">1600-1</date>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 133">RLGIP1</seg></head>
          <div type="transcription">
-            <head> sheet or folio<supplied>supplied from text</supplied></head>
-            <pb n="number" type="sheet"/>
-            
+            <div>
+               <head>f 251 <date when-iso="1601-02-10"><supplied>(10 February 1600/1) (Pension orders)</supplied></date></head>
+               <pb n="251" type="folio"/>               
+               <gap reason="omitted"/>
+               <ab>Att this Pencion yt is ordered that the Steward shall paye vnto the Musicians vij li. for their service this Last Christmas./</ab>
+               <gap reason="omitted"/>
+            </div>
          </div>
       </body>
    </text>

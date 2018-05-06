@@ -231,15 +231,18 @@
       </profileDesc>
    </teiHeader>
    
-   <text ana="taxon:letter" type="record">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Inns of Court
-            <date from-iso="YYYY" to-iso="YYYY">YYYY-YYYY</date>
-            <seg ana="taxon:RL1234" corresp="taxon:RLPIC1 pp. numbers">six number code</seg></head>
+         <head>
+            <date from-iso="1615-09-29" to-iso="1616-09-29">1615-6</date>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 185">RLGIP1</seg></head>
          <div type="transcription">
-            <head> sheet or folio<supplied>supplied from text</supplied></head>
-            <pb n="number" type="sheet"/>
-            
+            <head>f 312v <date when-iso="1616-01-31"><supplied>(31 January 1615/16) (Pension orders)</supplied></date></head>
+            <pb n="312v" type="folio"/>               
+            <gap reason="omitted"/>
+            <note type="marginal" rend="left">Musitians granted their Ordinary allowance, though Com<ex>m</ex>ons were broke vp</note>
+            <ab>At this Penc<ex>i</ex>on it is Ordered that <del>that</del> the Musitions to have ther Ordinary allowance during Comons was broke vpe as they vsualy have had at other tymes</ab>
+            <gap reason="omitted"/>
          </div>
       </body>
    </text>

@@ -231,14 +231,20 @@
       </profileDesc>
    </teiHeader>
    
-   <text ana="taxon:letter" type="record">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Inns of Court
-            <date from-iso="YYYY" to-iso="YYYY">YYYY-YYYY</date>
-            <seg ana="taxon:RL1234" corresp="taxon:RLPIC1 pp. numbers">six number code</seg></head>
+         <head>
+            <date from-iso="1612-09-29" to-iso="1613-09-29">1613-14</date>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 pp. 148-151">RLGIP1</seg></head>
          <div type="transcription">
-            <head> sheet or folio<supplied>supplied from text</supplied></head>
-            <pb n="number" type="sheet"/>
+            <head>f 298 <date when-iso="1613-01-27"><supplied>(27 January 1612/13) (Pension orders)</supplied></date></head>
+            <pb n="298" type="folio"/>
+         <div type="transcription">
+            <gap reason="omitted"/>
+            <note type="marginal" rend="left">An assesse toward a Maske.</note>
+            <ab>At this Penc<ex>i</ex>on the Readers ar prised every man 4 li. the Ancient<ex>es</ex> and such as ar at this tyme to be Called ancient<ex>es</ex> at 2 li. 10 s. the baristers at 40 s. the Studient<ex>es</ex> at 20 s. toward<ex>es</ex> the maske out of w<ex>hi</ex>ch monye <del>so much</del> so much to be Collected as the Inner Temple doth alowe</ab>
+            <ab>
+            
             
          </div>
       </body>

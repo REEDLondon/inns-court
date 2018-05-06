@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="REED.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../REED.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 
+<?xml-model href="../REED.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="eng"> 
    <teiHeader>
       <fileDesc>
@@ -231,15 +232,39 @@
       </profileDesc>
    </teiHeader>
    
-   <text ana="taxon:letter" type="record">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Inns of Court
-            <date from-iso="YYYY" to-iso="YYYY">YYYY-YYYY</date>
-            <seg ana="taxon:RL1234" corresp="taxon:RLPIC1 pp. numbers">six number code</seg></head>
+         <head>
+            <date from-iso="1580-09-29" to-iso="1581-09-29">1580-1</date>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 104">RLGIP1</seg></head>
          <div type="transcription">
-            <head> sheet or folio<supplied>supplied from text</supplied></head>
-            <pb n="number" type="sheet"/>
+            <head>f 155 <date from-iso="1580-02-13" to-iso="1581-02-13"><supplied>(13 February 1579/80 – 13 February 1580/1) (Disbursements)</supplied></date></head>
+            <pb n="155" type="folio"/>              
+            <gap reason="omitted"/>
             
+            <table>
+               <row>
+                  <cell>Ite<ex>m</ex> for Bord<ex>es</ex> Cut for stoles and seat<ex>es</ex> for the play at Shorvetyde<note>Shorvetyde: <hi rend="italic">5–7 February 1580/1</hi></note></cell>
+                  <cell>v s.</cell>
+               </row>
+               <row>
+                  <cell>It<ex>em</ex> for j hundrethe of sixe peny neyles</cell>
+                  <cell>vj d.</cell>
+               </row>
+               <row>
+                  <cell>It<ex>em</ex> for j half dayes work for ij of the Carpenters men about the seat<ex>es</ex></cell>
+                  <cell>xiiij d.</cell>
+               </row>
+               <row>
+                  <cell>It<ex>em</ex> for half a dayes worke for ij of the Carpenters men in mending and settinge vp the Tables and formes in the hall after the playe</cell>
+                  <cell>xiiij d.</cell>
+               </row>
+               <row>
+                  <cell>It<ex>em</ex> to the pewterer for vessell lost now at Candlemas vid<ex>elicet </ex>on Charger one iij li. platter 4 myddell platters viij sallett dyshes one pye platt on sawser on great wrowght dyshe weying xxxij li.</cell>
+                  <cell>xj s. iiij d.</cell>
+               </row>
+            </table>
+            <gap reason="omitted"/>            
          </div>
       </body>
    </text>

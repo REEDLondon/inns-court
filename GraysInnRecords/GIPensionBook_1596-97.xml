@@ -231,15 +231,18 @@
       </profileDesc>
    </teiHeader>
    
-   <text ana="taxon:letter" type="record">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Inns of Court
-            <date from-iso="YYYY" to-iso="YYYY">YYYY-YYYY</date>
-            <seg ana="taxon:RL1234" corresp="taxon:RLPIC1 pp. numbers">six number code</seg></head>
+         <head>
+            <date from-iso="1596-09-29" to-iso="1597-09-29">1596-7</date>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 127">RLGIP1</seg></head>
          <div type="transcription">
-            <head> sheet or folio<supplied>supplied from text</supplied></head>
-            <pb n="number" type="sheet"/>
-            
+            <head>f 225 <date when-iso="1596-11-10"><supplied>(10 November 1596) (Pension orders)</supplied></date></head>
+            <pb n="225" type="folio"/>
+            <gap reason="omitted"/>
+            <ab>It is ordred that <persName n="John Lany">Mr Lany</persName><note>Mr Lany: treasurer</note> shall pay vnto <persName n="John Johnson">Mr Iohnson</persName> out of the admittance money the som<ex>m</ex> of iij li. xvij s. &amp; x d. in full discharge of all the Charges remanent for the Christmas sport<ex>es</ex> Anno 34<handShift/> <del>Anno</del> Eliz<ex>abethe</ex> Regine</ab>
+            <gap reason="omitted"/>  
+            <note type="editorial" n="endnote">Could the reference to 34 Elizabeth (l.22) (1591–2) be a mistaken reference to 37 Elizabeth, 1594–5, and the events described in <title>Gesta Grayorum</title> (see Appendixes 1 and 6.1)?</note>
          </div>
       </body>
    </text>

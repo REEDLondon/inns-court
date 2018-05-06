@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="REED.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
-
+<?xml-model href="../REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../REED.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="eng"> 
    <teiHeader>
       <fileDesc>
@@ -231,15 +229,52 @@
       </profileDesc>
    </teiHeader>
    
-   <text ana="taxon:letter" type="record">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Inns of Court
-            <date from-iso="YYYY" to-iso="YYYY">YYYY-YYYY</date>
-            <seg ana="taxon:RL1234" corresp="taxon:RLPIC1 pp. numbers">six number code</seg></head>
+         <head>
+            <date from-iso="1613-09-29" to-iso="1614-09-29">1613-14</date>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 pp. 172-4">RLGIP1</seg></head>
          <div type="transcription">
-            <head> sheet or folio<supplied>supplied from text</supplied></head>
-            <pb n="number" type="sheet"/>
+            <head>ff 303–3v <date when-iso="1613-11-15"><supplied>(15 November 1613) (Pension orders)</supplied></date></head>
+            <pb n="303-3v" type="folio"/>
             
+            <gap reason="omitted"/>
+            <ab>At this Penc<ex>i</ex>on it is Ordered that wheras at a penc<ex>i</ex>on holden the 22 of</ab>
+            
+            <ab>Iune 1613 for the bringinge in of the Maskinge apparrell it was Ordered as foloweth that is to say, it is Ordered that wheras befor⟨.⟩  the maske latly p<ex>er</ex>formed at the Court before his Maiestie it was by the Order of this howse as by the Orders of all the other howses of Court amongst them for them selves Ordered that the Maskers should after the p<ex>er</ex>formance of that service bring in ther Maskinge sut<ex>es</ex> wherby some p<ex>ro</ex>fit might be made of them to ease the greate Charge w<ex>hi</ex>ch was expended and in great p<ex>ar</ex>te resteth yet vnpaid &amp; wheras the Maskers of the howse forbearinge to bringe them in accordinge to the s<ex>ai</ex>d Order it was after the severall aunswers of som of them recorded in Open Penc<ex>i</ex>on againe &amp; againe Ordered that they should bring them in by a Certaine day of this terme or els every one of them making default to aunswer thirtie pound<ex>es</ex> in Lew therof every of ther s<ex>ai</ex>d suit<ex>es</ex> having Cost the howse above a hundred Marks w<ex>hi</ex>ch they haue Contemptuously neglected and refused to performe albeit none of them did Contribute any thinge to the s<ex>ai</ex>d Charge as also were allowed all other ther necessarie Charges expended therabout<ex>es</ex> wherfore for asmuch as itt is not thought fitt that any gent<ex>lemen</ex> of this howse should make p<ex>ro</ex>fitt of the howse in that manor in p<ex>ar</ex>ticulor as also that if the s<ex>ai</ex>d Maskinge apparrell should not be brought in accordinge to the s<ex>ai</ex>d Order ther must be a gener<ex>all</ex> new taxac<ex>i</ex>on of the hole howse to pay the severall debt<ex>es</ex> behind and vnpaid, Yt is therfor Ordered that every of the s<ex>ai</ex>d severall Maskers nowe being in towne shall for ther s<ex>ai</ex>d contemptes be p<ex>re</ex>sently Cast into Com<ex>m</ex>ons and put out againe &amp; so to Continewe accordinge to the Order of this howse vntill they have performe<note type="foot">performe: <hi rend="italic">for</hi> performed</note> the s<ex>ai</ex>d last Order and that such of them as ar now owt of towne shall p<ex>er</ex>forme the same Order at or before Hallomas Next at w<ex>hi</ex>ch tyme such of them as shalbe found failinge in the p<ex>er</ex>formance of the s<ex>ai</ex>d Order that is to say as well those that are Cast into Com<ex>m</ex>ons and out againe as the others Ar then fourthwith expelled the societie for ther willfull Contempt<ex>es</ex> of the government of this howse and ther Inconciderat dealing and the generall wronges to every member therof |</ab>
+            
+            <ab>Now at this Penc<ex>i</ex>on the said former Order is fully Confirmed and further it is Ordered that forasmuch as the tyme is expired within w<ex>hi</ex>ch the same should have been p<ex>er</ex>formed that the said former Order shall neverthelesse by or before Munday next<note type="foot">Munday next: <hi rend="italic">22 November 1613</hi></note> be p<ex>er</ex>formed or els the s<ex>ai</ex>d Order shalbe fourthwith afterwardes put in execuc<ex>i</ex>on</ab>
+            <gap reason="omitted"/>
+            
+            <div>
+               <head><date when-iso="1613-11-17"/><supplied>(17 November 1613)</supplied></head>
+               
+               <ab>At this Pencion it is Ordered that wheras divers gentlemen of this Societie</ab>
+               
+               <ab>hath not paid the severall soms of money taxed vppo<ex>n</ex> them towardes the discharge of the Charges of the Late Maske, and by former Orders such of them as have Chambers should forfett ther Chambers and that they should be seised by the Penc<ex>i</ex>on to the vse of the howse, and such of them as have noe Chambers should be expulsed, That if these gent<ex>lemen</ex> w<ex>hi</ex>ch have not hitherto paid ther severall taxes and money vppo<ex>n</ex> them seis<ex>ed</ex> towardes the said Maske shall not paie the same before the accompt<ex>es</ex> vppon Saterday Next<note type="foot">Saterday Next: <hi rend="italic">20 November 1613</hi></note> to Sir ffran<ex>cis</ex> Eure knight that then every one of them Makinge default heerin shall have the s<ex>ai</ex>d former Order strickly executed vppo<ex>n</ex> them w<ex>i</ex>thout any further delaye</ab>
+               <gap reason="omitted"/>
+            </div>
+            <div>
+
+               <head><date when-iso="1613-11-21"/><supplied>(21 November 1613)</supplied></head>
+               <ab>At this Penc<ex>i</ex>on it is Ordered that the execuc<ex>i</ex>on of [of] all the Orders here to fore made against the maskers for &amp; towchinge the apparrell for the [Maskers] Maskinge is spared and remitted at this Penc<ex>i</ex>on</ab>
+            </div>
+            <div>
+               <head>f 304<date when-iso="1613-11-22"/> <supplied>(22 November 1613)</supplied></head>
+               <pb n="304" type="folio"/>
+               
+               <gap reason="omitted"/>
+               <ab>At this Penc<ex>i</ex>on it is Ordered that all the admittance money of this terme now in the Steward<ex>es</ex> handes and all the admittance money to be paied vnto the Steward the next Terme shalbe paid to S<ex>i</ex>r ffran<ex>cis</ex> Evre by the Steward towardes the debt<ex>es</ex> Owinge for the Maskers apparrell and the Owld Steward to acompt to S<ex>i</ex>r ffrancis Evre and to paie him also what is in his hand<ex>es</ex></ab>
+               <gap reason="omitted"/>
+            </div>
+            <div type="margin">
+               <ab>Admittances to pay, the debtes arrere for the Maske.</ab>
+            </div>
+            <div>
+               <head><date when-iso="1614-02-03"/><supplied>(3 February 1613/14)</supplied></head>
+               <ab>It is at this Penc<ex>i</ex>on also Ordered that all money ffor admittances shall ffrom hence ffourth be paid over to S<ex>i</ex>r ffran<ex>cis</ex> Evre to be imployed ffor the satisfactio<ex>n</ex> of the remaining debt<ex>es</ex> of the howse for the Maske till the debt<ex>es</ex> be fully satisfied</ab>
+               <gap reason="omitted"/>
+            </div>
          </div>
       </body>
    </text>

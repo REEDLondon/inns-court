@@ -231,15 +231,18 @@
       </profileDesc>
    </teiHeader>
    
-   <text ana="taxon:letter" type="record">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Inns of Court
-            <date from-iso="YYYY" to-iso="YYYY">YYYY-YYYY</date>
-            <seg ana="taxon:RL1234" corresp="taxon:RLPIC1 pp. numbers">six number code</seg></head>
+         <head>
+            <date from-iso="1597" to-iso="1598">1597-8</date>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 128">RLGIP1</seg></head>
          <div type="transcription">
-            <head> sheet or folio<supplied>supplied from text</supplied></head>
-            <pb n="number" type="sheet"/>
+            <head>f 234v <supplied>(4 July 1598) (Pension orders)</supplied></head>
+            <pb n="234v" type="folio"/>
             
+            <gap reason="omitted"/>
+            <ab>It is also ordered that the arerages of the Musicians money beinge vj li. xij s. shalbee likewise paide by M<ex>aste</ex>r Tresorer if hee have money sufficient in his hand<ex>es</ex></ab>
+            <gap reason="omitted"/>
          </div>
       </body>
    </text>

@@ -231,15 +231,28 @@
       </profileDesc>
    </teiHeader>
    
-   <text ana="taxon:letter" type="record">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Inns of Court
-            <date from-iso="YYYY" to-iso="YYYY">YYYY-YYYY</date>
-            <seg ana="taxon:RL1234" corresp="taxon:RLPIC1 pp. numbers">six number code</seg></head>
+         <head>
+            <date from-iso="1618-09-29" to-iso="1619-09-29">1618-19</date>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 203">RLGIP1</seg></head>
          <div type="transcription">
-            <head> sheet or folio<supplied>supplied from text</supplied></head>
-            <pb n="number" type="sheet"/>
-            
+            <div>
+               <head>f <del>i</del><date when-iso="16-10-22"/></head>
+               <pb type="folio"/>
+               <ab rend="center">22 October 1618</ab>
+               <ab>The Names of such as ar allowed by the Readors and have vndertaken to serve this howse with Musicke for this next yeare following for the Owld wages</ab>
+               <list>
+                  <item><persName n="Thomas Adson - but possibly John Adson" resp="#AHN1" role="musician">Thomas Adson</persName></item>
+                  <item><persName n="Thomas Cordwell" role="musician">Thomas Cordwell</persName></item>
+                  <item><persName n="John Amaria of Onslow" role="musician">Iohn Amaria <del>of</del> Oneslowe</persName></item> 
+                  <item><persName n="Robert Ammery" role="musician">Rob<ex>er</ex>t Ammery</persName></item>
+                  <item><persName n="William Tallice" role="musician">Will<ex>ia</ex>m Tallice</persName></item>
+               </list>
+               <gap reason="omitted"/>
+               <note type="editorial" n="endnote">‘Thomas Adson’ is possibly an error for John Adson (see printed <title>Inns of Court</title>, Volume 1, Introduction, p xxx).</note>
+                              
+            </div>
          </div>
       </body>
    </text>

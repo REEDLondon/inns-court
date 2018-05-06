@@ -231,16 +231,20 @@
       </profileDesc>
    </teiHeader>
    
-   <text ana="taxon:letter" type="record">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Inns of Court
-            <date from-iso="YYYY" to-iso="YYYY">YYYY-YYYY</date>
-            <seg ana="taxon:RL1234" corresp="taxon:RLPIC1 pp. numbers">six number code</seg></head>
+         <head>
+            <date from-iso="1640-09-29" to-iso="1641-09-29">1640-1</date>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 359">RLGIP1</seg></head>
          <div type="transcription">
-            <head> sheet or folio<supplied>supplied from text</supplied></head>
-            <pb n="number" type="sheet"/>
-            
+            <head>f 427 <date when-iso="1640-06-01"><supplied>(1 June 1641) (Pension orders)</supplied></date></head>
+            <pb n="427" type="folio"/>
+            <gap reason="omitted"/>
+            <note type="marginal"><persName n="Henry Parker">Mr Parker</persName> M<ex>aste</ex>r of the Revells<handShift/>, in <persName n="Edward Page">Mr Edw<ex>ard</ex> Page</persName> his Roome.<handShift/></note>
+            <ab>It is ordered that <persName n="Henry Parker">Mr Henry Parker</persName> shall bee M<ex>aste</ex>r of the Revells in the Roome of <persName n="Edward Page">Mr Edward Page</persName>.</ab>             
+            <note type="editorial">No explanation is given for the appointment of Parker as master of the revels. Appointments to this office do not otherwise occur in Gray’s Inn accounts.</note>
          </div>
+            
       </body>
    </text>
    

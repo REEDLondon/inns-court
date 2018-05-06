@@ -231,16 +231,20 @@
       </profileDesc>
    </teiHeader>
    
-   <text ana="taxon:letter" type="record">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Inns of Court
-            <date from-iso="YYYY" to-iso="YYYY">YYYY-YYYY</date>
-            <seg ana="taxon:RL1234" corresp="taxon:RLPIC1 pp. numbers">six number code</seg></head>
+         <head>
+            <date from-iso="1589-09-29" to-iso="1590-09-29">1589-90</date>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 115">RLGIP1</seg></head>
          <div type="transcription">
-            <head> sheet or folio<supplied>supplied from text</supplied></head>
-            <pb n="number" type="sheet"/>
-            
+            <head>f 198v <date when-iso="1590-01-28"/><supplied>(28 January 1589/90) (Pension orders)</supplied></head>
+            <pb n="198v" type="folio"/>
+            <gap reason="omitted"/>
+            <note type="marginal">Musitic<ex>i</ex>ons allowed</note>
+            <ab>Att this<note type="foot">Att this: <hi rend="italic">ie, at this pension</hi></note> there is allowed to the musitians vij li. for the losse of the last christenmas Lykewise for the banquett made by <persName n="Nicholas Trott">mr Trott</persName> <persName n="... Smyth">mr Smyth</persName> &amp; <persName n="Thomas Lamphew">mr Lamploughe</persName> v li. is allowed.</ab>               
+            <gap reason="omitted"/>            
          </div>
+         <note type="editorial" n="endnote">The musicians recovered only £7 of the £8 plus 26s 8d that they normally received for their activities over Christmas.</note>                       
       </body>
    </text>
    

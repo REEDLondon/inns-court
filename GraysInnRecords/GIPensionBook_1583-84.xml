@@ -231,15 +231,37 @@
       </profileDesc>
    </teiHeader>
    
-   <text ana="taxon:letter" type="record">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Inns of Court
-            <date from-iso="YYYY" to-iso="YYYY">YYYY-YYYY</date>
-            <seg ana="taxon:RL1234" corresp="taxon:RLPIC1 pp. numbers">six number code</seg></head>
+         <head>
+            <date from-iso="1583-09-29" to-iso="1584-09-29">1583-4</date>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RLPIC1 p. 106-7">RLGIP1</seg></head>
          <div type="transcription">
-            <head> sheet or folio<supplied>supplied from text</supplied></head>
-            <pb n="number" type="sheet"/>
-            
+            <head>f 177v<date from-iso="1583-01-28" to-iso="1584-01-31"/> <supplied>(28 January 1582/3 - 31 January 1583/4) (Money laid out)</supplied></head>
+            <pb n="177v" type="folio"/>
+            <gap reason="omitted"/>
+            <table>
+               <row>
+                  <cell>It<ex>e</ex>m to the music<ex>i</ex>ans for their wages</cell>
+                  <cell>xl s.</cell>
+               </row>
+            </table>
+            <gap reason="omitted"/>
+            <note type="editorial" n="endnote">A connection between the four song-books and Gray’s Inn revels is suggested by a similar reference in the Gray’s Inn Ledger Books 1584–5 (p 108, l.3). After this year accounts occur not in the Pension Book but in the Ledger Book.</note>
+         </div>
+         
+         <div type="transcription">
+            <head>f 184<date from-iso="1583-03-31" to-iso="1584-04-19"/> <supplied>(31 March 1583-19 April 1584) (Disbursements)</supplied></head>
+               <pb n="184" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item of ij s. vj d. paied for iiij Songe Book<ex>e</ex>s for the gent<ex>lemen</ex> to sing by</cell>
+                     <cell>ij s. vj d.</cell>
+                  </row>
+               </table>
+               <note type="editorial" n="endnote">Scholars consulted on these song-books (Steven W. May and musicologists David Fallows and John Milsom) agree that there is no obvious candidate for an English secular song-book of this date available in multiple (including printed) copies, but they note the possibility of foreign chansons or madrigals, arrangements of metrical psalms, contemporary five-part music, second-hand prints or manuscripts, bespoke manuscripts, or music written into books printed as blank scores (see STC : 7567.5).
+               </note>
          </div>
       </body>
    </text>

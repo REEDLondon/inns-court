@@ -231,15 +231,19 @@
       </profileDesc>
    </teiHeader>
    
-   <text ana="taxon:letter" type="record">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Inns of Court
-            <date from-iso="YYYY" to-iso="YYYY">YYYY-YYYY</date>
-            <seg ana="taxon:RL1234" corresp="taxon:RLPIC1 pp. numbers">six number code</seg></head>
+         <head>
+            <date from-iso="1587-09-29" to-iso="1588-09-29">1587-8</date>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 pp. 110-11">RLGIP1</seg></head>
          <div type="transcription">
-            <head> sheet or folio<supplied>supplied from text</supplied></head>
-            <pb n="number" type="sheet"/>
             
+            <head>f 192 <date when-iso="1587-01-23"><supplied>(23 January) (Pension orders)</supplied></date></head>
+            <pb n="192" type="folio"/>
+            <gap reason="omitted"/>
+            <ab>Att this penc<ex>i</ex>on there was allowed out of the stocke of the house, toward<ex>es</ex> the charg<ex>es</ex> of the comedy or shew sett forth by the gentlemen of the house this last christenmas xx<hi rend="superscript">tie</hi> mark<ex>es</ex> with this p<ex>ro</ex>viso that ffrom henceforth noe allowanc, be made out of the stock of the house for such lyke occasion vnlesse yt ryste vpon some such charge, agreed vpon by the reders of the house before;<add place="above">And</add> this xx mark<ex>es</ex> is to be payd out of the admyttance money.</ab>                  
+            <gap reason="omitted"/>
+            <note type="editorial" n="endnote">The ‘comedy or shew’ (p 110, l.39) was presumably the lost Roman comedy called, for want of a formal title, ‘Sylla Dictator’: see Appendix 6.2. As many as three plays may have been performed over the year, as set out in Appendix 8.</note>            
          </div>
       </body>
    </text>

@@ -8,66 +8,54 @@
       <fileDesc>
          <titleStmt>
             
-            <title type="main">Inns of Court</title>
-            
-            
+            <title type="main">Inns of Court</title>            
             <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>
-            <funder><orgName>CANARIE</orgName></funder> 
-            
+            <funder><orgName>CANARIE</orgName></funder>             
             <funder><orgName>British Academy, London, UK</orgName></funder>
             <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>            
             <funder><orgName>National Endowment for the Humanities, Washington, DC, United States of
                America</orgName></funder>
             <funder><orgName>Social Sciences and Humanities Research Council, Ottawa,
-               Canada</orgName></funder>
-            
-            <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
-            <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
-            
+               Canada</orgName></funder>            
+		 <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
+		 <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>            
             <respStmt>
                <persName xml:id="CB">Carolyn Black</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>Project Manager</resp>
-            </respStmt>
-            
+            </respStmt>            
             <respStmt>
                <persName>John Bradley</persName>
                <resp>NHPRC-Mellon Project Team Member</resp>
-            </respStmt>
-            
+            </respStmt>            
             <respStmt>
                <persName>Susan Brown</persName> 
                <orgName>University of Guelph</orgName>
                <resp>NHPRC-Mellon Project Team Member</resp>
-            </respStmt>
-            
+            </respStmt>            
             <respStmt>
                <persName xml:id="KC">Kathy Chung</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>REED Research Associate, NHPRC-Mellon Project Consultant</resp>
-            </respStmt>
-            
+            </respStmt>            
             <respStmt>
                <persName>William Cooke</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>English Glossarian</resp>
-            </respStmt>
-            
+            </respStmt>            
             <respStmt>
                <persName xml:id="JC">James Cummings</persName>
                <orgName>Newcastle University</orgName>
                <resp>Records of Early English Drama (REED) Executive Board</resp>
                <resp>NHPRC-Mellon Project Team Member</resp>
                <resp>TEI Schema Designer, Technical Consultant</resp>
-            </respStmt>
-            
+            </respStmt>            
             <respStmt>
                <persName>Matthew Davies</persName>
                <orgName>University of London, Birkbeck College</orgName> <!-- confirm -->
                <resp>Records of Early English Drama (REED) Executive Board</resp>
                <resp>NHPRC-Mellon Project Team Member</resp>
-            </respStmt>
-            
+            </respStmt>            
             <respStmt>
                <persName xml:id="PG">Patrick Gregory</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
@@ -78,86 +66,72 @@
                <persName>Tanya Hagen</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>Bibliographer, NHPRC-Mellon Project Consultant</resp>
-            </respStmt>
-            
+            </respStmt>            
             <respStmt>
                <persName xml:id="JAKA1">Diane K. Jakacki</persName>
                <orgName>Bucknell University</orgName>
                <resp>Records of Early English Drama (REED) Executive Board</resp>
                <resp>Principal Investigator, NHPRC-Mellon Digital Edition Publishing Cooperatives Planning Grant</resp>
-            </respStmt>
-            
+            </respStmt>            
             <respStmt>
                <persName>Alexandra F. Johnston</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>REED Founder and Senior Consultant</resp>
-            </respStmt>
-            
+            </respStmt>            
             <respStmt>
                <persName>David Kathman</persName>
                <resp>NHPRC-Mellon Project Team Member</resp>
-            </respStmt>
-            
+            </respStmt>            
             <respStmt>
                <persName>Sally-Beth MacLean</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>Principal Investigator, SSHRC grant; Director of Research and General Editor</resp>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-            
             <respStmt>
                <persName>Maureen Maclean</persName>
                <orgName>Bucknell University</orgName>
                <resp>REED London research assistant, 2018</resp>
-            </respStmt>
-            
+            </respStmt>            
             <respStmt>
                <persName xml:id="KM">Kimberley Martin</persName>
                <orgName>University of Guelph</orgName>
                <resp>NHPRC-Mellon Project Consultant</resp>
-            </respStmt>
-            
+            </respStmt>            
             <respStmt>
                <persName>Christopher Matusiak</persName>
                <orgName>Ithaca College</orgName>
                <resp>NHPRC-Mellon Project Team Member</resp>
-            </respStmt>
-            
+            </respStmt>            
             <respStmt>
                <persName xml:id="JN">Jamie Norrish</persName>
                <resp>Programmer, EATS developer, NHPRC-Mellon Project Consultant</resp>
-            </respStmt>
-            
+            </respStmt>            
             <respStmt>
                <persName>Dorothy Porter</persName>
                <orgName>University of Pennsylvania</orgName>
                <resp>NHPRC-Mellon Project Team Member</resp>
-            </respStmt>
-            
+            </respStmt>           
             <respStmt>
                <persName>Arleane Ralph</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>Paleographer</resp>
-            </respStmt>
-            
+            </respStmt>            
             <respStmt>
                <persName>Suzanne Westfall</persName>
                <orgName>Lafayette College</orgName>
                <resp>Records of Early English Drama (REED) Executive Board Member</resp>
                <resp>NHPRC-Mellon Project Team Member</resp>
-            </respStmt>
-            
+            </respStmt>            
             <respStmt>
                <persName>Abigail Ann Young</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>Latin Glossarian</resp>
-            </respStmt>
-            
+            </respStmt>            
          </titleStmt>
          <editionStmt>
             <edition>Print version, published <date when-iso="2010">2010</date>. Electronic edition, anticipated publication <date when-iso="2018">2018</date></edition>
-         </editionStmt>
-         
+         </editionStmt>         
          <publicationStmt>
             <authority><orgName>Records of Early English Drama (REED)</orgName>
                <address>
@@ -166,13 +140,11 @@
                   <addrLine>Toronto, Ontario, Canada</addrLine>
                   <addrLine>M5R 2M8</addrLine>
                </address>
-            </authority>
-            
+            </authority>            
             <publisher>D.S. Brewer, Cambridge, an imprint of Boydell &amp; Brewer Ltd./Boydell &amp; Brewer Ltd.</publisher>
             <pubPlace>Rochester, NY</pubPlace>
             <date>2010</date>
-            <idno type="other">978-1-84384-259-0</idno>
-            
+            <idno type="other">978-1-84384-259-0</idno>            
             <availability>
                <p>Copyright <orgName>Records of Early English Drama (REED)</orgName>,
                   <date>2017</date></p>
@@ -180,8 +152,7 @@
                   Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA
                   4.0) licence.</licence>
             </availability>
-         </publicationStmt>
-         
+         </publicationStmt>         
          <seriesStmt>
             <title>Records of Early English Drama</title>
          </seriesStmt>
@@ -189,8 +160,7 @@
             <p>This publication constitutes a remediation of the printed Inns of Court collection. Information on original sources for transcriptions can be accessed via the Document Descriptions.</p>
             <p>For a full list of REED collections, editors, executive board members, and staff, please visit http://reed.utoronto.ca/people</p>       
          </sourceDesc>
-      </fileDesc>
-      
+      </fileDesc>      
       <encodingDesc>
          <listPrefixDef>
             <prefixDef ident="taxon" matchPattern="([A-Za-z0-9_-]+)"
@@ -205,8 +175,7 @@
                   glossary.xml file. For example, <code>gloss:histrio-1</code> dereferences to
                   <code>glossary.xml#histrio-1</code>.</p>
             </prefixDef>
-         </listPrefixDef>
-         
+         </listPrefixDef>         
          <projectDesc>
             <p>Records of Early English Drama (REED) is an international scholarly project that is
                establishing for the first time the context from which the drama of Shakespeare and his
@@ -214,9 +183,16 @@
                and edit historical documents containing evidence of drama, secular music, and other
                communal entertainment and ceremony from the Middle Ages until 1642, when the Puritans
                closed the London theatres.</p>
+            <p>REED London, developing from REED, in partnership
+               with the Canadian Writing Research Collaboratory (CWRC) and supported by Bucknell
+               University, aims to establish an openly accessible online scholarly and pedagogical resource of
+               London-centric documentary, editorial, and bibliographic materials related to performance,
+               theatre, and music spanning the period 1100-1642. With support from an NHPRC-Mellon
+               Planning Grant for Digital Edition Publishing Cooperatives, REED London is creating new
+               environments for scholarly presentation of archival materials gathered from legal, ecclesiastical,
+               civic, political, and personal archival sources in and around London. </p>
          </projectDesc>
-      </encodingDesc>
-      
+      </encodingDesc>      
       <profileDesc>
          <langUsage>
             <language ident="eng">English</language>
@@ -230,18 +206,28 @@
          </settingDesc>
       </profileDesc>
    </teiHeader>
-   
-   <text ana="taxon:letter" type="record">
+
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Inns of Court
-            <date from-iso="YYYY" to-iso="YYYY">YYYY-YYYY</date>
-            <seg ana="taxon:RL1234" corresp="taxon:RLPIC1 pp. numbers">six number code</seg></head>
+         <head>
+            <date from-iso="1570-04-14" to-iso="1571-06-03">1570-1</date>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 94">RLGIP1</seg></head>
          <div type="transcription">
-            <head> sheet or folio<supplied>supplied from text</supplied></head>
-            <pb n="number" type="sheet"/>
-            
+            <div>
+               <head>f 28 <date from-iso="1570-04-14" to-iso="1571-06-03"><supplied>(14 May 1570–3 June 1571) (Disbursements)</supplied></date></head>
+               <pb n="28" type="folio"/>
+               
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item to the carpenter for mendynge tables and trestles this winter broken with revelles at sundrye tymes</cell>
+                     <cell>0 10 0</cell>
+                  </row>
+               </table>
+            </div>
+            <gap reason="omitted"/>
          </div>
       </body>
    </text>
-   
+  
 </TEI>

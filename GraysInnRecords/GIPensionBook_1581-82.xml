@@ -231,15 +231,21 @@
       </profileDesc>
    </teiHeader>
    
-   <text ana="taxon:letter" type="record">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="eng">
-         <head>Inns of Court
-            <date from-iso="YYYY" to-iso="YYYY">YYYY-YYYY</date>
-            <seg ana="taxon:RL1234" corresp="taxon:RLPIC1 pp. numbers">six number code</seg></head>
+         <head>
+            <date from-iso="1581-09-29" to-iso="1582-09-29">1581-2</date>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 105">RLGIP1</seg></head>
          <div type="transcription">
-            <head> sheet or folio<supplied>supplied from text</supplied></head>
-            <pb n="number" type="sheet"/>
-            
+            <head>f 161v <supplied>(Steward’s accounts)</supplied></head>
+            <pb n="161v" type="folio"/>            
+            <gap reason="omitted"/>
+            <table>
+               <row>
+                  <cell>It<ex>e</ex>m p<ex>ai</ex>d to the musicions this yere more then I r<ex>eceived</ex></cell>
+                  <cell>viij s. x d.</cell>
+               </row>
+            </table>
          </div>
       </body>
    </text>
