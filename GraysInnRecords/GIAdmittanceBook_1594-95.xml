@@ -234,7 +234,7 @@
    <text ana="taxon:grays_inn" type="record">
       <body xml:lang="lat">
          <head> 
-            <date from-iso="1594-09-29" to-iso="1595-09-29" cert="high">1594-5</date>
+            <date from-iso="1594-09-29" to-iso="1595-09-29">1594-5</date>
             <seg ana="taxon:RLGIAB" corresp="RLIPIC1 pp. 124-5">RLGIAB</seg></head>
          <div type="transcription">
                <head>p 295 <date when-iso="1595-02-02"/><supplied>(2 February 1594/5)</supplied></head>
