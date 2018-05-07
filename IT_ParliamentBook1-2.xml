@@ -323,11 +323,9 @@
                <gap reason="omitted"/>
           </div>
              
-             <div type="editorial">
-                <ab>
+             <note type="editorial">
                    Folios damaged by post-World War II fire; the dates are supplied from Inderwick.
-                </ab>
-             </div>             
+             </note>             
 
       </body>
    </text>
@@ -388,9 +386,9 @@
                <gap reason="omitted"/>
             </div>
             
-            <div type="editorial">
-               <ab>Folio damaged by post-World War II fire; the date is supplied from Inderwick.</ab>
-            </div>
+            <note type="editorial">
+               Folio damaged by post-World War II fire; the date is supplied from Inderwick.
+            </note>
             
       </body>
    </text>
@@ -439,11 +437,10 @@
                <gap reason="omitted"/>
             </div>
            
-            <div type="editorial">
-               <ab> The names of the four masters of the revels are entered again at the foot of f 26: 'lacton,
+            <note type="editorial">
+               The names of the four masters of the revels are entered again at the foot of f 26: 'lacton,
                   Godolphyn, Lambourn,' and 'E Gyfford.'
-               </ab>
-            </div>
+            </note>
          
       </body>
    </text>
@@ -469,9 +466,9 @@
             <gap reason="omitted"/>
          </div>
            
-         <div type="editorial">
-            <ab>The names of the four masters of the revels are repeated on f 28v.</ab>
-         </div>
+         <note type="editorial">
+            The names of the four masters of the revels are repeated on f 28v.
+         </note>
          
       </body>
    </text>
@@ -497,9 +494,9 @@
             <gap reason="omitted"/>
          </div>
          
-         <div type="editorial">
-            <ab>Folio damaged by post-World War II fire; the date is supplied from Inderwick.</ab>
-         </div>
+         <note type="editorial">
+            Folio damaged by post-World War II fire; the date is supplied from Inderwick.
+         </note>
          
       </body>
    </text>
@@ -527,10 +524,10 @@
             <gap reason="omitted"/>
          </div>
          
-         <div type="editorial">
-            <ab>Earlier on the same folio occurs an entry under 1 November listing as masters of the revels only 'Verney,'
-               'Rede,' and 'B <supplied>(blank)</supplied>.'</ab>
-         </div>
+         <note type="editorial">
+            Earlier on the same folio occurs an entry under 1 November listing as masters of the revels only 'Verney,'
+               'Rede,' and 'B <supplied>(blank)</supplied>.'
+         </note>
          
       </body>
    </text>
@@ -556,12 +553,11 @@
             </table>
             
             <gap reason="omitted"/>
-         </div>
          
-         <div type="editorial">
-            <ab>Folio damaged by post-World War II fire; the date is supplied from Inderwick.</ab>
-         </div>
-         
+         <note type="editorial">
+            Folio damaged by post-World War II fire; the date is supplied from Inderwick.
+         </note>
+      </div>
       </body>
    </text>
    
@@ -939,7 +935,7 @@
                   <gap reason="omitted"/>
                </div>
                
-               <div type="editorial">
+               <div type="editorial">  <!-- KC: resume here -->
                   <ab>Folio damaged by post-World War II fire; the date is supplied from Inderwick.</ab>
                </div>
             </body>
