@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="REED.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="eng"> 
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            
+            <title type="main">Inns of Court</title>
+            
+            
+            <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>
+            <funder><orgName>CANARIE</orgName></funder> 
+            
+            <funder><orgName>British Academy, London, UK</orgName></funder>
+            <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>            
+            <funder><orgName>National Endowment for the Humanities, Washington, DC, United States of
+               America</orgName></funder>
+            <funder><orgName>Social Sciences and Humanities Research Council, Ottawa,
+               Canada</orgName></funder>
+            
+            <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
+            <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
+            
+            <respStmt>
+               <persName xml:id="CB">Carolyn Black</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Project Manager</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>John Bradley</persName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Susan Brown</persName> 
+               <orgName>University of Guelph</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="KC">Kathy Chung</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>REED Research Associate, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>William Cooke</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>English Glossarian</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="JC">James Cummings</persName>
+               <orgName>Newcastle University</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+               <resp>TEI Schema Designer, Technical Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Matthew Davies</persName>
+               <orgName>University of London, Birkbeck College</orgName> <!-- confirm -->
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="PG">Patrick Gregory</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Associate Editor</resp> <!-- confirm -->
+               <resp>Paleographer, Translator</resp> <!-- confirm -->
+            </respStmt>
+            <respStmt>
+               <persName>Tanya Hagen</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Bibliographer, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="JAKA1">Diane K. Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>Principal Investigator, NHPRC-Mellon Digital Edition Publishing Cooperatives Planning Grant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Alexandra F. Johnston</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>REED Founder and Senior Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>David Kathman</persName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Sally-Beth MacLean</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Principal Investigator, SSHRC grant; Director of Research and General Editor</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Maureen Maclean</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="KM">Kimberley Martin</persName>
+               <orgName>University of Guelph</orgName>
+               <resp>NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Christopher Matusiak</persName>
+               <orgName>Ithaca College</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="JN">Jamie Norrish</persName>
+               <resp>Programmer, EATS developer, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Dorothy Porter</persName>
+               <orgName>University of Pennsylvania</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Arleane Ralph</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Paleographer</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Suzanne Westfall</persName>
+               <orgName>Lafayette College</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board Member</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Abigail Ann Young</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Latin Glossarian</resp>
+            </respStmt>
+            
+         </titleStmt>
+         <editionStmt>
+            <edition>Print version, published <date when-iso="2010">2010</date>. Electronic edition, anticipated publication <date when-iso="2018">2018</date></edition>
+         </editionStmt>
+         
+         <publicationStmt>
+            <authority><orgName>Records of Early English Drama (REED)</orgName>
+               <address>
+                  <addrLine>University of Toronto</addrLine>
+                  <addrLine>170 St George Street, Suite 810</addrLine>
+                  <addrLine>Toronto, Ontario, Canada</addrLine>
+                  <addrLine>M5R 2M8</addrLine>
+               </address>
+            </authority>
+            
+            <publisher>D.S. Brewer, Cambridge, an imprint of Boydell &amp; Brewer Ltd./Boydell &amp; Brewer Ltd.</publisher>
+            <pubPlace>Rochester, NY</pubPlace>
+            <date>2010</date>
+            <idno type="other">978-1-84384-259-0</idno>
+            
+            <availability>
+               <p>Copyright <orgName>Records of Early English Drama (REED)</orgName>,
+                  <date>2017</date></p>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a
+                  Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA
+                  4.0) licence.</licence>
+            </availability>
+         </publicationStmt>
+         
+         <seriesStmt>
+            <title>Records of Early English Drama</title>
+         </seriesStmt>
+         <sourceDesc>
+            <p>This publication constitutes a remediation of the printed Inns of Court collection. Information on original sources for transcriptions can be accessed via the Document Descriptions.</p>
+            <p>For a full list of REED collections, editors, executive board members, and staff, please visit http://reed.utoronto.ca/people</p>       
+         </sourceDesc>
+      </fileDesc>
+      
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="taxon" matchPattern="([A-Za-z0-9_-]+)"
+               replacementPattern="../taxonomy.xml#$1">
+               <p>Private URIs using the <code>taxon</code> prefix are pointers to entities in the
+                  taxonomy.xml file. For example, <code>taxon:church</code> dereferences to
+                  <code>taxonomy.xml#church</code>.</p>
+            </prefixDef>
+            <prefixDef ident="gloss" matchPattern="([A-Za-z0-9_-]+)"
+               replacementPattern="../glossary.xml#$1">
+               <p>Private URIs using the <code>gloss</code> prefix are pointers to entities in the
+                  glossary.xml file. For example, <code>gloss:histrio-1</code> dereferences to
+                  <code>glossary.xml#histrio-1</code>.</p>
+            </prefixDef>
+         </listPrefixDef>
+         
+         <projectDesc>
+            <p>Records of Early English Drama (REED) is an international scholarly project that is
+               establishing for the first time the context from which the drama of Shakespeare and his
+               contemporaries grew. Founded in 1976, REED has worked since then to locate, transcribe,
+               and edit historical documents containing evidence of drama, secular music, and other
+               communal entertainment and ceremony from the Middle Ages until 1642, when the Puritans
+               closed the London theatres.</p>
+         </projectDesc>
+      </encodingDesc>
+      
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">English</language>
+            <language ident="lat">Latin</language>
+            <language ident="fra">Anglo-French</language>
+         </langUsage>
+         <settingDesc>
+            <place>
+               <placeName>London</placeName> 
+            </place>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   
+   <text ana="taxon:grays_inn" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1594-09-29" to-iso="1595-09-29">1594-5</date>
+            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 pp. 121-4">RLGIP1</seg></head>
+         <div type="transcription">
+            <div>
+               <head>f 215v <date when-iso="1595-02-11"><supplied>(11 February 1594/5) (Pension orders)</supplied></date></head>
+               <pb n="215v" type="folio"/>
+               <gap reason="omitted"/>              
+               <note type="marginal" rend="left">Mr Wil<ex>ia</ex>m Mills to Lend C markes</note>
+               <ab>It ys orderyd that <persName n="William Mills">Mr Will<ex>ia</ex>m Mills</persName> shalbe intreatyd to delyuer vnto <persName n="William Johnson">Mr Will<ex>ia</ex>m Iohnson</persName> &amp; <persName n="Edward Morris">Mr Edward Morrys</persName> the some of one hvndryd mark<ex>es</ex> to be layd out &amp; bestowyd vppon the Gentlemen for ther sport<ex>es</ex> &amp; shewes this Shrovetyde<note type="foot">Shrovetyde, shrovetyd, shrouetide: <hi rend="italic">2–4 March 1594/5</hi></note> at the Court before the Queenes Ma<ex>ies</ex>tie, the same hvndryd m<ex>a</ex>rk<ex>es</ex> to be payd agayne to the sayd Mr Mills hys Exec<ex>utors</ex> or Assign<ex>es</ex> before thend of the next Term</ab>
+            <gap reason="omitted"/>
+               <note type="marginal" rend="left">a Tax for shewes &amp; sport<ex>es</ex> before her Ma<ex>iest</ex>ie at shrouetide<note type="foot">Shrovetyde, shrovetyd, shrouetide: <hi rend="italic">2–4 March 1594/5</hi></note></note>
+               <table>
+                  <row>
+                     <cell>At this pencion it is ordred y<ex>a</ex>t every Reader of this house toward<ex>es</ex> the charges of the shewes and desport<ex>es</ex> before her Maiestie at shrovetyd<note type="foot">Shrovetyde, shrovetyd, shrouetide: <hi rend="italic">2–4 March 1594/5</hi></note> last past shall pay tenne shilling<ex>es</ex> &amp; eu<ex>ery</ex>e Auncient vj s. viij d. &amp; eu<ex>ery</ex>e vterbarester v s. euerye other gentleman of this societie iiij s. before thend of this terme whether they be in comons or lying in the house or About the same house &amp; this collection to contynew tyll thend of the next terme And the house toward<ex>es</ex> the Aforsaid charges is to Allowe out of the publique Stock of the said house the some of</cell>
+                     <cell>xxx li.</cell>
+                  </row>
+               </table>
+               <note type="editorial" n="endnote">The ‘sportes &amp; shewes this Shrovetyde<note type="foot">2–4 March 1594/5</note> at the Court before the Queenes Maiestie’ were doubtless related to The Masque of Proteus (see printed Inns of Court Volume 2, Appendix 6.1).</note>               
+               
+            </div>
+            <gap reason="omitted"/>
+            <div>
+               <head>f216 <date when-iso="1595-05-21"><supplied>(21 May 1595)</supplied></date></head>
+               <pb n="216" type="folio"/>                  
+               <gap reason="omitted"/>
+               <note type="marginal" rend="left">All gent<ex>lemen</ex> out of the Commons warned to come into Com<ex>m</ex>on<ex>es</ex> &amp; beare share of all Com<ex>m</ex>on Charges<lb/>
+                  "Nota"</note>
+               <ab>Att this penc<ex>i</ex>on it is ordered that in Respect of the great charges at this tyme
+                  lying vpon the house and your Exceeding great necligences in discharging
+                  of your dueties that all those whose names be subscribed being ordynariely
+                  lyers out of comons &amp; all others of this societie being in or About London
+                  shall before the last day of this instant moneth of may resort into comons &amp;
+                  discharge suche money and other dueties as be due or Assessed vpon them
+                  &amp; eu<ex>ery</ex>e of them by thorders of this house viz comons pencions vacations
+                  fire roulles vnto Mr Doctors intertaynment toward the charges of sport<ex>es</ex>
+                  before her Ma<ex>ies</ex>tie and all other dueties whatsoever otherwise from thensforth
+                  to be out of comons and so to remayne if they reforme not themselves vntill
+                  the last day of Iune next comynge and who so shall not before that tyme
+                  conforme himself therin to be then ^<add place="above">c</add>sforth no longer fellowe of this societie
+                  but ipso facto to be expelled the same</ab>
+               <table>
+                  <row>
+                     <cell><persName n="William Andrewes">Andrewes W<ex>illiam</ex></persName></cell>
+                     <cell><persName n="Thomas Dove">Dove</persName></cell>
+                     <cell><persName n="Simon? Muskett">Muskett</persName></cell>
+                     <cell><persName n="James Smith">Smyth Ia<ex>mes</ex></persName></cell>
+                  </row>
+                  <row>
+                     <cell><persName n="William Abnett">Abnett</persName></cell>
+                     <cell><persName n="Edmund Escourt, the younger">Escourt Iu<ex>nior</ex></persName></cell>
+                     <cell><persName n="Edward Morris">Morris Ed<ex>ward</ex></persName></cell>
+                     <cell>Sheaffeild</cell>
+                  </row>
+                  <row>
+                     <cell><persName n="Abraham Bowne">Bowne</persName></cell>
+                     <cell><persName n="Edward Ellis">Ellis Ed<ex>ward</ex></persName></cell>
+                     <cell><persName n="John Marshall">Marshall</persName></cell>
+                     <cell><persName n="James Spurling">Spurling Ia<ex>mes</ex></persName></cell>
+                  </row>
+                  <row>
+                     <cell><persName n="George Bing">Bing G<ex>eorge</ex></persName></cell>
+                     <cell><persName n="William Ellis">Ellis W<ex>illiam</ex></persName></cell>
+                     <cell><persName n="Thomas Marshe">Marshe</persName></cell>
+                     <cell><persName n="Thomas Tildesley">Tyldesley T<ex>homas</ex></persName></cell>
+                  </row>
+                  <row>
+                     <cell><persName n="Thomas Bold">Bold T<ex>homas</ex></persName></cell>
+                     <cell><persName n="Bernard Ellis">Ellis B<ex>ernard</ex></persName></cell>
+                     <cell><persName n="... Newton">Newton</persName></cell>
+                     <cell><persName n="Robert Tilney"><del>Tylney Ro<ex>bert</ex></del></persName></cell>
+                  </row>
+                  <row>
+                     <cell><persName n="Bartyn Burton">Burton B<ex>artyn</ex></persName></cell>
+                     <cell><persName n="Henry Fleetwood">ffleetwod H<ex></ex></persName></cell>
+                     <cell><persName n="Thomas Pepys, the elder">Pepps T<ex>homas</ex> sen<ex>ior</ex></persName></cell>
+                     <cell><persName n="Thomas Vaughan">Vaughan T<ex>homas</ex></persName></cell>
+                  </row>
+                  <row>
+                     <cell><persName n="John Brickett">Brickett</persName></cell>
+                     <cell><handShift/>mort<ex>uus</ex> <persName n="Christopher Goad">Goad</persName><handShift/></cell>
+                     <cell><persName n="John Piggott">Piggott Io<ex>hn</ex></persName></cell>
+                     <cell><persName n="Francis Whetston">Whetstone</persName></cell>
+                  </row>
+                  <row>
+                     <cell><persName n="Oliver Briggs">Brigg<ex>es</ex></persName></cell>
+                     <cell><persName n="Edmund or Edward Hendon">Hendon</persName></cell>
+                     <cell><persName n="Ralph Piggott">Piggott Ra<ex>lph</ex></persName></cell>
+                     <cell><persName n="Richard Williamson">Williamson</persName></cell>
+                  </row>
+                  <row>
+                     <cell><handShift/>mort<ex>uus</ex><handShift/> <persName n="John Conyers">Conyers</persName></cell>
+                     <cell><persName n="John Haye">Haye Io<ex>hn</ex></persName></cell>
+                     <cell><persName n="William Rothwell">Rothwell</persName></cell>
+                     <cell></cell>
+                  </row>
+                  <row>
+                     <cell><persName n="John Clark, the elder">Clark Io<ex>hn</ex> sen<ex>ior</ex></persName></cell>
+                     <cell><persName n="Thomas Lamphew">Lamploughe</persName></cell>
+                     <cell><persName n="Robert Rich; check: may be Baron Rich">Ritche</persName></cell>
+                     <cell></cell>
+                  </row>
+                  <row>
+                     <cell><persName n="Thomas Colwell">Colwell</persName></cell>
+                     <cell><persName n="Henry Lacy">Lacy</persName></cell>
+                     <cell><persName n="Edward Rolt">Roult Ed<ex>ward</ex></persName></cell>
+                     <cell></cell>
+                  </row>
+                  <row>
+                     <cell><persName n="Robert Castell, the elder">Castell Ro<ex>bert</ex> sen<ex>ior</ex></persName></cell>
+                     <cell><persName n="Thomas Lancaster">Lancaster T<ex>homas</ex></persName></cell>
+                     <cell><persName n="T. Smalpage">Smalpage</persName></cell>
+                     <cell></cell>
+                  </row>
+                  <row>
+                     <cell><persName n="Thomas Doughtie">Doughtie</persName></cell>
+                     <cell><persName n="John Leett or Leeke">Leett Io<ex>hn</ex></persName></cell>
+                     <cell><persName n="John Smith, the younger">Smith Io<ex>hn</ex> Iuni<ex>or</ex></persName></cell>
+                     <cell></cell>
+                  </row>
+                  <row>
+                     <cell><persName n="Hugo Davenport">Davenport Hugo</persName></cell>
+                     <cell></cell>
+                     <cell></cell>
+                     <cell></cell>
+                  </row>
+               </table>  
+            </div>
+            <gap reason="omitted"/>              
+            <div>
+               <head>f 216v <date when-iso="1595-07-01"><supplied>(1 July 1595)</supplied></date></head>
+               <pb n="216v" type="folio"/>                  
+               <gap reason="omitted"/>                  
+               <ab>At this pencion it is ordered that all these gentlemen whose names are
+                  subscribed shalbe out of this <del>hou</del> societie of this house for ther non payment
+                  of Comons and other dueties and for the breache of An order mayd in pencion the xxj<hi rend="superscript">th</hi> of May Anno 37<add place="above">o</add> last past for the reformation of those and sundry disorders being publiquely set vp in the vsuall place of the said hall for y<ex>a</ex>t purpose</ab>             
+               <table>
+                  <row>
+                     <cell>Andrewes W<ex>illiam</ex></cell>
+                     <cell>Goad <handShift/>mort<ex>uus</ex><handShift/></cell>
+                     <cell>Stafferton</cell>
+                  </row>
+                  <row>
+                     <cell>Abnett</cell>
+                     <cell>Haye Io<ex>hn</ex></cell>
+                     <cell>Smyth Io<ex>hn</ex> Iu<ex>nior</ex></cell>
+                  </row>
+                  <row>
+                     <cell>Bowne</cell>
+                     <cell>Lacy Ro<ex>bert</ex></cell>
+                     <cell><del>Sheaffeild</del></cell>
+                  </row>                        
+                  <row>
+                     <cell><handShift/>restored<handShift/> Brickett</cell>
+                     <cell>Lancaster T<ex>homas</ex></cell>
+                     <cell>[Tyldesley T<ex>homas</ex>]</cell>
+                  </row>
+                  <row>
+                     <cell>Conyers <handShift/>mort<ex>uus</ex><handShift/></cell>
+                     <cell>Leett</cell>
+                     <cell><del>Tylney Ro<ex>bert</ex></del></cell>
+                  </row>
+                  <row>
+                     <cell>Clark Io<ex>hn</ex> senior</cell>
+                     <cell>Marshall</cell>
+                     <cell>Vaughan T<ex>homas</ex></cell>
+                  </row>
+                  <row>
+                     <cell>Colwell</cell>
+                     <cell>Pepps T<ex>homas</ex> sen<ex>ior</ex></cell>
+                     <cell>Whetston</cell>
+                  </row>
+                  <row>
+                     <cell><handShift/>restored<handShift/> Castell Ro<ex>bert</ex> sen<ex>ior</ex></cell>
+                     <cell>Piggott Ra<ex>lph</ex></cell>
+                     <cell>Williamson</cell>
+                  </row>
+                  <row>
+                     <cell><del>⟨...⟩</del></cell>
+                     <cell>Piggott Io<ex>hn</ex></cell>
+                     <cell></cell>
+                  </row>
+                  <row>
+                     <cell><del>⟨...⟩</del></cell>
+                     <cell>Ritche</cell>
+                     <cell></cell>
+                  </row>
+                  <row>
+                     <cell></cell>
+                     <cell>Rolt Ed<ex>ward</ex></cell>
+                     <cell></cell>
+                  </row>
+               </table>
+               <note type="marginal" rend="left">Mr Mills <add place="above">lent</add> the House C marks</note>
+               <ab>At the same pencion it is ordered that <persName n="?">Mr Lany</persName><note>Mr Lany: <hi rend="italic">treasurer</hi></note> the recever of thadmittance money shall pay vnto Mr Mills out of the same Admittance Money the some of xl li. over and besid<ex>es</ex> the four pound remaynyng in the hand<ex>es</ex> of the said Mr Mills for the admission of <persName n="?">Mr Evers</persName> into the fellowshippe of this house which money the said Mr Mills receaved of the said Mr Evers all which is toward the discharg of the some of A <del>C mark<ex>es</ex></del> C Mark<ex>es</ex> disbursed by the said Mr Mills at the instance of the readers of this house towardes the disport<ex>es</ex> <add place="above">before <persName n="Queen Elizabeth I">her maiestie</persName></add> at shrovetyd last past<note>shrovetyd last past: <hi rend="italic">2–4 March 1594/5</hi></note></ab>
+            </div>
+            <gap reason="omitted"/>
+            <div>
+               <head>f 217 <date when-iso="1595-07-08"><supplied>(8 July 1595)</supplied></date></head>
+               <pb n="217" type="folio"/>                     
+               <gap reason="omitted"/>
+               <note type="marginal" rend="left">The reman<ex>ant</ex> of Mr Mills money Lent allowed</note>
+               <ab>The remanant of the debt due to Mr Mills being xvij li. vj s. viij d. yt ys ordred that Mr Nightingale shall make payment of to<note type="foot">of to: <hi rend="italic">for</hi> of the same to</note> the said Mr Mills out of the Admyttance money/</ab>                  
+            </div>
+         </div>                  
+      </body>
+   </text>
+   
+   
+</TEI>
