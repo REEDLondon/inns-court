@@ -345,7 +345,7 @@
             <table>
                <row>
                   <cell>Masters de lez Revell<ex>es</ex></cell>
-                  <cell>Dane<ex>ers</ex> T<ex>homas</ex><lb/>Gerard<lb/>SentAubyn<lb/>Wye<note type="foot">Danuers ... Wye: <hi rend="italic">braced pointing to the left at</hi> Masters de lez Revelle</note></cell>
+                  <cell>Dane<ex>ers</ex> T<ex>homas</ex><lb/>Gerard<lb/>SentAubyn<lb/>Wye<note type="foot">Danu<ex>er</ex>s ... Wye: <hi rend="italic">braced pointing to the left at</hi> Masters de lez Revell<ex>es</ex></note></cell>
                </row>
             </table>
             <gap reason="omitted"/>
@@ -460,7 +460,7 @@
             <table>
                <row>
                   <cell>M<ex>agistri</ex> de Revell<ex>es</ex></cell>
-                  <cell>White<lb/>Mores<lb/>Danvers<lb/>Warde<note type="foot">Mores ... Warde: <hi rend="italic">braced pointing to the left at</hi> Magistri de Revelles</note></cell>
+                  <cell>White<lb/>Mores<lb/>Danvers<lb/>Warde<note type="foot">Mores ... Warde: <hi rend="italic">braced pointing to the left at</hi> M<ex>agistri</ex> de Revell<ex>es</ex></note></cell>
                </row>
             </table>
             <gap reason="omitted"/>
@@ -487,7 +487,7 @@
             
             <table>
                <row>
-                  <cell>Prouse<lb/>Burdon<lb/>ffitzsymond<lb/>Shyrlok<note type="foot">Prouse ... Shyrlok: <hi rend="italic">braced pointing to the right at</hi> Magistri de Reuellis ... domini.</note></cell>
+                  <cell>Prouse<lb/>Burdon<lb/>ffitzsymond<lb/>Shyrlok<note type="foot">Prouse ... Shyrlok: <hi rend="italic">braced pointing to the right at</hi> M<ex>agist</ex>ri ... d<ex>omi</ex>ni.</note></cell>
                   <cell><lb></lb>M<ex>agist</ex>ri de Reuell<ex>is</ex> erga ff<ex>estu</ex>m Nat<ex>alis</ex> d<ex>omi</ex>ni</cell>
                </row>
             </table>
@@ -517,7 +517,7 @@
             <table>
                <row>
                   <cell>Ma<ex>gist</ex>ri de Revell<ex>is</ex></cell>
-                  <cell>Pygott<lb/>Reede<lb/>Blagge<lb/>Denny<note type="foot">Pygott ... Denny: <hi rend="italic">braced pointing to the left at</hi> Magistri de Revellis</note></cell>
+                  <cell>Pygott<lb/>Reede<lb/>Blagge<lb/>Denny</cell>
                </row>
             </table>
             
@@ -589,7 +589,7 @@
             <pb n="38" type="folio"/> 
             
             <gap reason="omitted"/>
-            <ab><damage><gap unit="chars" extent="3"/></damage><note type="foot"><damage><gap unit="chars" extent="3"/></damage>: <hi rend="italic">damaged by fire; Inderwick,</hi> Calendar, <hi rend="italic">vol 1, p 39, reads</hi> Order that Symondson, who was elected
+            <ab><damage><gap unit="chars" extent="3"/></damage><note type="foot"><damage><gap unit="chars" extent="3"/></damage>: <hi rend="italic">damaged by fire; Inderwick,</hi> <title>Calendar</title>, <hi rend="italic">vol 1, p 39, reads</hi> Order that Symondson, who was elected
                one of the masters of the revels at</note>Natal<ex>is</ex> d<ex>omi</ex>ni &amp; no<ex>n</ex> ex<ex>er</ex>cuit officium 
                p<ex>re</ex>d<ex>ictum</ex> It<ex>em</ex> decret<ex>um</ex> e<ex>st</ex> q<ex>uo</ex>d ip<ex>s</ex>e soluet trib<ex>us</ex> socijs suis M<ex>agist</ex>r<ex>is</ex> Reuell<ex>orum</ex> porc<ex>i</ex>o<ex>n</ex>em suum
             </ab>
@@ -723,7 +723,7 @@
             
             <table>
                <row>
-                  <cell><lb/>Magistri de Reuell<ex>is</ex> p<ex>ro</ex>  tempor<ex>e</ex><lb/>Natiuitat<ex>is</ex> D<ex>omi</ex>ni p<ex>ro</ex>x<ex>imi</ex><note type="foot">Magistri ... Proximi: <hi rend="italic">braced pointing to the right at</hi> Chaworth ... Hylman</note></cell>
+                  <cell><lb/>Magistri de Reuell<ex>is</ex> p<ex>ro</ex>  tempor<ex>e</ex><lb/>Natiuitat<ex>is</ex> D<ex>omi</ex>ni p<ex>ro</ex>x<ex>imi</ex><note type="foot">Magistri ... p<ex>ro</ex>x<ex>imi</ex>: <hi rend="italic">braced pointing to the right at</hi> Chaworth ... Hylman</note></cell>
                   <cell>Chaworth<lb/>Latheam<lb/>Halys Iun<ex>ior</ex><lb/>Hylman</cell>
                </row>
             </table>
@@ -916,7 +916,7 @@
                   
                   <table>
                      <row>
-                        <cell>Inglich <del>holles</del><lb/>goodale<lb/>Bowll<ex>es</ex><lb/>Hollys<note type="foot">Inglich <del>holles</del> ... Hollys: <hi rend="italic">braced pointing to the right at</hi> Magistri reuelorum.</note></cell>
+                        <cell>Inglich <del>holles</del><lb/>goodale<lb/>Bowll<ex>es</ex><lb/>Hollys<note type="foot">Inglich ... Hollys: <hi rend="italic">braced pointing to the right at</hi> Magistri reuel<ex>orum</ex>.</note></cell>
                         <cell><lb></lb>Magistri reuel<ex>orum</ex></cell>
                      </row>
                   </table>
@@ -985,8 +985,8 @@
                      <cell><del>Trau<ex>er</ex>sse</del> Trau<ex>er</ex>sse<lb/>
                      <del>Trauersse</del><lb/>
                         <del>Cooly</del> <add place="above"><damage><gap unit="chars" extent="2"/></damage>et p<ex>ro</ex> defect<ex>u</ex> Deneham</add><lb/>
-                     ffox<lb/><del><damage><gap unit="chars" extent="3"/></damage></del> <del>luson</del> Merys<lb/><del>Payne R</del></cell>
-                     <cell>xl s.</cell>
+                        ffox<lb/><del><damage><gap unit="chars" extent="3"/></damage></del> <del>luson</del> Merys<note type="foot"><del>Trauersse</del> ... Merys: <hi rend="italic">braced pointing to the right at</hi> xl s.</note><lb/><del>Payne R</del></cell>
+                     <cell><lb/><lb/><lb/><lb/>xl s.</cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -1034,7 +1034,7 @@
                   <cell>Robert<ex>es</ex><lb/><del>Hanche</del><lb/>
                      <del>Tufton</del><lb/>Smyth ff<lb/>Whyte<lb/>Dyllon
                      <note type="foot">Robert<ex>es</ex> ... Dyllon: <hi rend="italic">braced pointing 
-                        to the right at</hi> Masters of the Revells</note></cell>
+                        to the right at</hi> Mast<ex>ers</ex> of the Revells</note></cell>
                   <cell><lb></lb>Mast<ex>ers</ex> of the Revells</cell>
                </row>
             </table>
@@ -1060,7 +1060,7 @@
                   <cell>M<ex>r</ex> Smyth ff<lb/>M<ex>r</ex>Dillon<lb/>
                      M<ex>r</ex> White<lb/>M<ex>r</ex> Netherffeld
                      <note type="foot">M<ex>r</ex> Smyth ff ... Netherffeld: <hi rend="italic">braced pointing 
-                        to the right at</hi> Masters of the revells</note></cell>
+                        to the right at </hi>M<ex>aste</ex>r of the revell<ex>es</ex></note></cell>
                   <cell><lb/>M<ex>aste</ex>r of the revell<ex>es</ex></cell>
                </row>
             </table>
@@ -1136,9 +1136,9 @@
             
             <table>
                <row>
-                  <cell>Mr leke<lb/>Mr lee<lb/>Mr Maxney sen<ex>ior</ex><lb/>Mr p<ex>re</ex>dyeux Iuin<ex>ior</ex><note type="foot">Mr leke ... Mr P<ex>re</ex>dyeux Iuin<ex>ior</ex>: <hi rend="italic">braced pointing right to</hi>Masters of the revelles</note>
+                  <cell>Mr leke<lb/>Mr lee<lb/>Mr Maxney sen<ex>ior</ex><lb/>Mr p<ex>re</ex>dyeux Iuin<ex>ior</ex><note type="foot">Mr leke ... Mr p<ex>re</ex>dyeux Iuin<ex>ior</ex>: <hi rend="italic">braced pointing to the right at</hi>M<ex>aster</ex>s of the revell<ex>es</ex></note>
                   </cell>
-                  <cell><lb/>M<ex>asters</ex> of the revell<ex>es</ex></cell>
+                  <cell><lb/>M<ex>aster</ex>s of the revell<ex>es</ex></cell>
                </row>
             </table>
             
@@ -1185,7 +1185,7 @@
             
             <table>
                <row>
-                  <cell>Magistri reveloru<ex>m</ex><note type="foot">Magistri reveloru<ex>m</ex>: <hi rend="italic">braced pointing right to</hi>Magistri ... kebell</note></cell>
+                  <cell>Magistri reveloru<ex>m</ex><note type="foot">Magistri reveloru<ex>m</ex>: <hi rend="italic">braced pointing right to</hi>M<ex>agistri</ex> ... kebell</note></cell>
                   <cell>M<ex>agistri</ex> cusacke/ skiddye evans et kebell</cell>
                </row>
             </table>
