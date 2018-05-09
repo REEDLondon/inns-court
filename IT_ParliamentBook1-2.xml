@@ -2001,9 +2001,42 @@
       </body>
    </text>
    
-   
-   
-   
-   
-   
+   <!-- KC: 1638-9 RLITPB2 record -->
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1638-09-29" to-iso="1639-09-29" cert="medium">1638-9</date>
+            <seg ana="taxon:RLITPB2" corresp="taxon:RLPIC1 pp 352">RLITPB2</seg>
+         </head>
+         <div type="transcription">
+            <div>
+               <head>ff 15v-16 <date when-iso="1639-05-05"></date><supplied>(5 May 1639)</supplied></head>  
+               <pb n="15v-16" type="folio"/>
+               
+               <gap reason="omitted"/>
+               
+               <ab>
+                  Att<note type="marginal" place="margin_left">Composic<ex>i</ex>on
+                     granted to Mr Iohn Iohnson for his vacac<ex>i</ex>ons &amp;c:</note> 
+                  this P<ex>ar</ex>liament Mr Iohn Iohnson one of the 5 vtterbarristers of this
+                  house preferred his humble petic<ex>i</ex>on To this effect: That whereas it was his
+                  misfortune to receave a dangerous hurt on his head, whereby he could not
+                  after his Call to the Barr keepe any of his Vacac<ex>i</ex>ons, And also that in regard
+                  hee had byn a Reveller in the Howse &amp; | had, <del>and had</del> at the tyme of the
+                  great Masque disbursed out of his owne purse 5 li. for hire of a horse and
+                  furniture, besides xx s. which hee paid vpon the Aide Roll, the which was
+                  never repaid him, as it was to oth<ex>er</ex>s in the like case. He therefore praied a
+                  fauorable composic<ex>i</ex>on for all his Vacac<ex>i</ex>ons, &amp; Amerciam<ex>en</ex>t<ex>es</ex> within the time
+                  of his being a Vacac<ex>i</ex>oner Vtter barrister. Whereupon in favour to the said
+                  Mr Iohnson in respect of his p<ex>ar</ex>ticuler Case before sett forth: A Composic<ex>i</ex>on
+                  is graunted vnto him for all his Vacac<ex>i</ex>ons and Amerciam<ex>en</ex>t<ex>es</ex> aforesaid for
+                  the som<ex>m</ex>e of Twelue pounde. Butt this not to be drawne into p<ex>re</ex>sident<note type="foot">p<ex>re</ex>sident: <hi rend="italic">for </hi>precedent</note> for
+                  any other hereafter./<gap reason="omitted"/>
+               </ab>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+      </body>
+   </text>
+  
 </TEI>
