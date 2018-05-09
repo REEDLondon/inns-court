@@ -243,7 +243,7 @@
             <date from-iso="1505-09-29" to-iso="1506-09-29" cert="medium">1505-6</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 30">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 14<supplied>(November 1505) (Christmas officers)</supplied></head>
+            <head>f 14 <date when-iso="1505-11"></date><supplied>(November 1505) (Christmas officers)</supplied></head>
             <pb n="99" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -267,8 +267,7 @@
             <date from-iso="1506-09-29" to-iso="1507-09-29" cert="medium">1506-7</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 31">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 16<supplied>(2 November 1507) (Christmas officers)</supplied></head>
-            <!-- KC: date 2 Nov 1507 -->
+            <head>f 16 <date when-iso="1506-11-02"></date><supplied>(2 November 1506) (Christmas officers)</supplied></head>
             <pb n="16" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -292,7 +291,7 @@
             <date from-iso="1507-09-29" to-iso="1508-09-29" cert="medium">1507-8</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 32">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 18<supplied>(1 November 1507) (Christmas officers)</supplied></head>
+            <head>f 18 <date when-iso="1507-11-01"></date><supplied>(1 November 1507) (Christmas officers)</supplied></head>
             <pb n="18" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -307,7 +306,7 @@
          </div>
             
           <div type="transcription">
-             <head>f 19<supplied>(6 February 1507/8)</supplied></head>
+             <head>f 19 <date when-iso="1507/8-02-06"></date><supplied>(6 February 1507/8)</supplied></head> <!-- KC: REED slash year -->
                <pb n="19" type="folio"/> 
                <gap reason="omitted"/>
                <table>
@@ -337,7 +336,7 @@
             <date from-iso="1508-09-29" to-iso="1509-09-29" cert="medium">1508-9</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 33">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 20v<supplied>(2 November 1508) (Christmas officers)</supplied></head>
+            <head>f 20v <date when-iso="1508-11-02"></date><supplied>(2 November 1508) (Christmas officers)</supplied></head>
             <pb n="20" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -360,7 +359,7 @@
             <date from-iso="1509-09-29" to-iso="1510-09-29" cert="medium">1509-10</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 34">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 22<supplied>(2 November 1509) (Christmas officers)</supplied></head>
+            <head>f 22 <date when-iso="1509-11-02"></date><supplied>(2 November 1509) (Christmas officers)</supplied></head>
             <pb n="22" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -376,7 +375,7 @@
          </div>
          
           <div type="transcription">
-             <head>f 22v<supplied>(3 February 1509/10)</supplied></head>
+             <head>f 22v <date when-iso="1509/10-02-03"></date><supplied>(3 February 1509/10)</supplied></head> <!-- KC: REED slash year -->
                <pb n="22v" type="folio"/> 
                
                <gap reason="omitted"/>
@@ -400,7 +399,7 @@
             <date from-iso="1510-09-29" to-iso="1511-09-29" cert="medium">1510-11</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 36">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 25v<supplied>(3 November 1510) (Christmas officers)</supplied></head>
+            <head>f 25v <date when-iso="1510-11-03"></date><supplied>(3 November 1510) (Christmas officers)</supplied></head>
             <pb n="25v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -423,7 +422,7 @@
          </div>
             
             <div type="transcription">
-               <head>f 26v<supplied>(3 February 1510/11)</supplied></head>
+               <head>f 26v <date when-iso="1510/11-02-03"></date><supplied>(3 February 1510/11)</supplied></head> <!-- KC: REED slash year -->
                <pb n="26v" type="folio"/> 
                
                <gap reason="omitted"/>
@@ -452,7 +451,7 @@
             <date from-iso="1511-09-29" to-iso="1512-09-29" cert="medium">1511-12</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 38">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 28<supplied>(10 November 1511) (Christmas officers)</supplied></head>
+            <head>f 28 <date when-iso="1511-11-10"></date><supplied>(10 November 1511) (Christmas officers)</supplied></head>
             <pb n="28" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -480,7 +479,7 @@
             <date from-iso="1512-09-29" to-iso="1513-09-29" cert="medium">1512-13</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 39">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 30<supplied>(11 November 1512) (Christmas officers)</supplied></head>
+            <head>f 30 <date when-iso="1512-11-11"></date><supplied>(11 November 1512) (Christmas officers)</supplied></head>
             <pb n="30" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -509,7 +508,7 @@
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 42">RLITPB1</seg>
          </head>
          <div type="transcription">
-            <head>f 33<supplied>(19 November 1514) (Christmas officers)</supplied></head>
+            <head>f 33 <date when-iso="1514-11-19"></date><supplied>(19 November 1514) (Christmas officers)</supplied></head>
             <pb n="33" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -540,7 +539,7 @@
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 43">RLITPB1</seg>
          </head>
          <div type="transcription">
-            <head>f 34v<supplied>(2 November 1515) (Christmas officers)</supplied></head>
+            <head>f 34v <date when-iso="1515-11-02"></date><supplied>(2 November 1515) (Christmas officers)</supplied></head>
             <pb n="34v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -569,7 +568,7 @@
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 44">RLITPB1</seg>
          </head>
          <div type="transcription">
-            <head>f 36v<supplied>(2 November 1516) (Christmas officers)</supplied></head>
+            <head>f 36v <date when-iso="1516-11-02"></date><supplied>(2 November 1516) (Christmas officers)</supplied></head>
             <pb n="36v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -585,7 +584,7 @@
          </div>
          
          <div type="transcription">
-            <head>f 38<supplied>(5 February 1517)</supplied></head>
+            <head>f 38 <date when-iso="1516/7-02-05"></date><supplied>(5 February 1516/7)</supplied></head> <!-- KC: REED slash year -->
             <pb n="38" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -619,9 +618,9 @@
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 46">RLITPB1</seg>
          </head>
          <div type="transcription">
-            <head>f 42<supplied>(1 November 1518) (Christmas officers)</supplied></head>
+            <head>f 42 <date when-iso="1518-11-01"></date><supplied>(1 November 1518) (Christmas officers)</supplied></head>
             <pb n="42" type="folio"/> 
-            
+         
             <gap reason="omitted"/>
             
             <table>
@@ -634,7 +633,7 @@
             <gap reason="omitted"/>
          </div>
          <div type="transcription">
-            <head>f 42v<supplied>(14 November 1518)</supplied></head>
+            <head>f 42v <date when-iso="1518-11-14"></date><supplied>(14 November 1518)</supplied></head>
             <pb n="42v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -667,7 +666,7 @@
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 48">RLITPB1</seg>
          </head>
          <div type="transcription">
-            <head>f 46<supplied>(2 November 1519) (Christmas officers)</supplied></head>
+            <head>f 46 <date when-iso="1519-11-02"></date><supplied>(2 November 1519) (Christmas officers)</supplied></head>
             <pb n="46" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -683,7 +682,7 @@
          </div>
          
          <div type="transcription">
-            <head>f 46v<supplied>(13 November 1519)</supplied></head>
+            <head>f 46v <date when-iso="1519-11-13"></date><supplied>(13 November 1519)</supplied></head>
             <pb n="46v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -716,7 +715,7 @@
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 49-50">RLITPB1</seg>
          </head>
          <div type="transcription">
-            <head>f 69<supplied>(2 November 1520) (Christmas officers)</supplied></head>
+            <head>f 69 <date when-iso="1520-11-02"></date><supplied>(2 November 1520) (Christmas officers)</supplied></head>
             <pb n="69" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -760,7 +759,7 @@
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 51">RLITPB1</seg>
          </head>
          <div type="transcription">
-            <head>f 78<supplied>(4 February 1523) (List of fines)</supplied></head>  
+            <head>f 78 <date when-iso="1522/3-02-04"></date><supplied>(4 February 1522/3) (List of fines)</supplied></head>  <!-- KC: REED slash year -->
             <pb n="78" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -785,7 +784,7 @@
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 52">RLITPB1</seg>
          </head>
          <div type="transcription">
-            <head>f 80<supplied>(30 November 1523)</supplied></head>
+            <head>f 80 <date when-iso="1523-11-30"></date><supplied>(30 November 1523)</supplied></head>
             <pb n="80" type="folio"/> 
             
             <gap reason="omitted"/>      
@@ -798,7 +797,7 @@
          </div>
          
          <div type="transcription">
-           <head><supplied>(21 December 1523)</supplied></head>
+           <head><date when-iso="1523-12-21"></date><supplied>(21 December 1523)</supplied></head>
             <ab>Concord<ex>atum</ex> e<ex>st</ex> q<ex>uo</ex>d Societas <del>ha<ex>ber</ex>ent</del> h<ex>ab</ex>u<ex>er</ex>int p<ex>ro</ex> <del>purific</del> ‸<!-- KC: caret --><add place="above">te<ex>mpore</ex>
                Nat<ex>alis</ex> d<ex>omi</ex>ni</add> vnu<ex>m</ex> apru<ex>m</ex> p<ex>re</ex>ter a Sheld &amp; ij round<ex>es</ex> Et q<ex>uo</ex>d co<ex>mmun</ex>es
                computant<ex>ur</ex> Septimati<ex>m</ex> Et q<ex>uo</ex>d illi qui su<ex>n</ex>t co<ex>mmun</ex>itores on<ex>er</ex>ent<ex>ur</ex> de
@@ -808,7 +807,7 @@
          </div>
          
          <div type="transcription">
-            <head>f 82v<supplied>(27 November 1523) (Christmas officers)</supplied></head>
+            <head>f 82v <date when-iso="1523-11-27"></date><supplied>(27 November 1523) (Christmas officers)</supplied></head>
             <pb n="82v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -834,7 +833,7 @@
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 54">RLITPB1</seg>
          </head>
          <div type="transcription">
-            <head>f 87v<supplied>(27 November 1526) (Christmas officers)</supplied></head>
+            <head>f 87v <date when-iso="1526-11-27"></date><supplied>(27 November 1526) (Christmas officers)</supplied></head>
             <pb n="87v" type="folio"/> 
             
             <gap reason="omitted"/>                 
@@ -860,7 +859,7 @@
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 54">RLITPB1</seg>
          </head>
          <div type="transcription">
-            <head>f 89<supplied>(24 November 1527)</supplied></head>
+            <head>f 89 <date when-iso="1527-11-24"></date><supplied>(24 November 1527)</supplied></head>
             <pb n="89" type="folio"/> 
             
             <gap reason="omitted"/>  
@@ -884,7 +883,7 @@
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 61">RLITPB1</seg>
          </head>
          <div type="transcription">
-            <head>f 100v<supplied>(1 November 1533) (Christmas officers)</supplied></head>
+            <head>f 100v <date when-iso="1533-11-01"></date><supplied>(1 November 1533) (Christmas officers)</supplied></head>
             <pb n="100v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -909,7 +908,7 @@
                   <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 39">RLITPB1</seg>
                </head>
                <div type="transcription">
-                  <head>f 103<supplied>(10 November 1534) (Christmas officers)</supplied></head>
+                  <head>f 103 <date when-iso="1534-11-10"></date><supplied>(10 November 1534) (Christmas officers)</supplied></head>
                   <pb n="103" type="folio"/> 
                   
                   <gap reason="omitted"/>
@@ -924,7 +923,7 @@
                </div>
                
                <div type="transcription">
-                  <head><supplied>(20 December 1534)</supplied></head>
+                  <head><date when-iso="1534-12-20"></date><supplied>(20 December 1534)</supplied></head>
        
                   <ab>Ad hunc p<ex>ar</ex>liame<ex>n</ex>tu<ex>m</ex> Ioh<ex>ann</ex>es Charlys elect<ex>us</ex> 
                      est vnus Magistror<ex>um</ex> Reuelor<ex>um</ex> pro defect<ex>u</ex> 
@@ -949,7 +948,7 @@
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 65">RLITPB1</seg>
          </head>
          <div type="transcription">
-            <head>f 112<supplied>(17 November 1538) (Christmas officers)</supplied></head>
+            <head>f 112 <date when-iso="1538-11-17"></date><supplied>(17 November 1538) (Christmas officers)</supplied></head>
             <pb n="112" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -975,7 +974,7 @@
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 66">RLITPB1</seg>
          </head>
          <div type="transcription">
-            <head>f 114<supplied>(3 November 1539) (Christmas officers)</supplied></head>
+            <head>f 114 <date when-iso="1539-11-03"></date><supplied>(3 November 1539) (Christmas officers)</supplied></head>
             <pb n="114" type="folio"/> 
 
                <gap reason="omitted"/>
@@ -993,7 +992,7 @@
             </div>
             
             <div type="transcription">
-               <head>f 114v<supplied>(16 November 1539)</supplied></head>
+               <head>f 114v <date when-iso="1539-11-16"></date><supplied>(16 November 1539)</supplied></head>
                <pb n="114v" type="folio"/>
                <gap reason="omitted"/>
                
@@ -1024,7 +1023,7 @@
             <date from-iso="1542-09-29" to-iso="1543-09-29" cert="medium">1542-3</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 68">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 120v<supplied>(14 November 1542) (Christmas officers)</supplied></head>
+            <head>f 120v <date when-iso="1542-11-14"></date><supplied>(14 November 1542) (Christmas officers)</supplied></head>
             <pb n="120v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1050,7 +1049,7 @@
             <date from-iso="1544-09-29" to-iso="1545-09-29" cert="medium">1544-5</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 69">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 125<supplied>(16 November 1544) (Christmas officers)</supplied></head>
+            <head>f 125 <date when-iso="1544-11-16"></date><supplied>(16 November 1544) (Christmas officers)</supplied></head>
             <pb n="120v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1068,7 +1067,7 @@
          </div>
          
          <div type="transcription">
-            <head>f 125v<supplied>(28 January 1544/5)</supplied></head>
+            <head>f 125v <date when-iso="1544/5-01-28"></date><supplied>(28 January 1544/5)</supplied></head> <!-- KC: REED slash year -->
             <pb n="125v" type="folio"/>
             
             <gap reason="omitted"/>
@@ -1099,7 +1098,7 @@
             <date from-iso="1545-09-29" to-iso="1546-09-29" cert="medium">1545-6</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 70">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 48v<supplied>(3 February 1545/6) (Fines for not exercising offices)</supplied></head> 
+            <head>f 48v <date when-iso="1545/6-02-03"></date><supplied>(3 February 1545/6) (Fines for not exercising offices)</supplied></head>  <!-- KC: REED slash year -->
             <pb n="48v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1129,7 +1128,7 @@
             <date from-iso="1546-09-29" to-iso="1547-09-29" cert="medium">1546-7</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 70">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 51<supplied>(7 November 1546) (Christmas officers)</supplied></head>
+            <head>f 51 <date when-iso="1546-11-07"></date><supplied>(7 November 1546) (Christmas officers)</supplied></head>
             <pb n="51" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1158,7 +1157,7 @@
             <date from-iso="1552-09-29" to-iso="1553-09-29" cert="medium">1552-3</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 76">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 129<supplied>(20 November 1552) (Christmas officers)</supplied></head> 
+            <head>f 129 <date when-iso="1552-11-20"></date><supplied>(20 November 1552) (Christmas officers)</supplied></head> 
             <pb n="129" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1178,7 +1177,7 @@
             <date from-iso="1553-09-29" to-iso="1554-09-29" cert="medium">1553-4</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 76">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 132<supplied>(19 November 1553) (Christmas officers)</supplied></head> 
+            <head>f 132 <date when-iso="1553-11-19"></date><supplied>(19 November 1553) (Christmas officers)</supplied></head> 
             <pb n="132" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1206,7 +1205,7 @@
             <date from-iso="1554-09-29" to-iso="1555-09-29" cert="medium">1554-5</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 77">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 135v<supplied>(4 October 1554) (Christmas officers)</supplied></head> 
+            <head>f 135v <date when-iso="1554-10-04"></date><supplied>(4 October 1554) (Christmas officers)</supplied></head> 
             <pb n="135v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1235,7 +1234,7 @@
             <date from-iso="1555-09-29" to-iso="1556-09-29" cert="medium">1555-6</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 79">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 139<supplied>(20 November 1555)</supplied></head> 
+            <head>f 139 <date when-iso="1555-11-20"></date><supplied>(20 November 1555)</supplied></head> 
             <pb n="139" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1271,7 +1270,7 @@
             <date from-iso="1561-09-29" to-iso="1562-09-29" cert="medium">1561-2</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 84-5">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 164<supplied>(4 February 1561/2)</supplied></head> 
+            <head>f 164 <date when-iso="1561/2-02-04"></date><supplied>(4 February 1561/2)</supplied></head> <!-- KC: REED slash year -->
             <pb n="164" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1303,7 +1302,7 @@
             <date from-iso="1577-09-29" to-iso="1578-09-29" cert="medium">1577-8</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 101">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 204v<supplied>(15 June 1578)</supplied></head> 
+            <head>f 204v <date when-iso="1578-06-15"></date><supplied>(15 June 1578)</supplied></head> 
             <pb n="204v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1331,7 +1330,7 @@
             <date from-iso="1582-09-29" to-iso="1583-09-29" cert="medium">1582-3</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 106">RLITPB1</seg></head>
          <div type="transcription">
-            <head>f 220v<supplied>(27 January 1582/3)</supplied></head> 
+            <head>f 220v <date when-iso="1582/3-01-27"></date><supplied>(27 January 1582/3)</supplied></head> <!-- KC: REED slash year -->
             <pb n="220v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1359,7 +1358,7 @@
             <date from-iso="1589-09-29" to-iso="1590-09-29" cert="medium">1589-90</date>
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 115">RLITPB2</seg></head>
          <div type="transcription">
-            <head>f 11<supplied>(8 February 1589/90)</supplied></head> 
+            <head>f 11 <date when-iso="1589/90-02-08"></date><supplied>(8 February 1589/90)</supplied></head>  <!-- KC: REED slash year -->
             <pb n="11" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1389,7 +1388,7 @@
             <date from-iso="1610-09-29" to-iso="1611-09-29" cert="medium">1610-11</date>
             <seg ana="taxon:RLITPB2" corresp="taxon:RPCIC p. 145">RLITPB2</seg></head>
          <div type="transcription">
-            <head>f 99<supplied>(10 February 1610/11)</supplied></head> 
+            <head>f 99 <date when-iso="1610/11-02-10"></date><supplied>(10 February 1610/11)</supplied></head> <!-- KC: REED slash year -->
             <pb n="99" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1430,7 +1429,7 @@
          </head>
          
          <div type="transcription">
-            <head>f 105v<supplied>(24 November 1611)</supplied></head> 
+            <head>f 105v <date when-iso="1611-11-24"></date><supplied>(24 November 1611)</supplied></head> 
             <pb n="105v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1454,7 +1453,7 @@
             <seg ana="taxon:RLITPB2" corresp="taxon:RLPIC1 pp. 151-2">RLITPB2</seg>
          </head>
          <div type="transcription">
-            <head>f 112v<supplied>(4 May 1613)</supplied></head>  
+            <head>f 112v <date when-iso="1613-05-04"></date><supplied>(4 May 1613)</supplied></head>  
             <pb n="112v" type="folio"/>
             <gap reason="omitted"/>
             <ab>
@@ -1463,11 +1462,11 @@
          </div>
          
          <div type="editorial">  
-            <ab>The phrase ‘late showe and sport<ex>es</ex>’ (p 151, l.41) refers to Beaumont’s <hi rend="italic">Masque of the Inner Temple and Gray’s Inn</hi>, performed in the Banqueting House, Whitehall, on 20 February 1612/13, following the marriage of Princess Elizabeth and the count palatine. The figure ‘xij<hi rend="superscript">C</hi> li.’(£1200), if doubled to allow for Gray’s Inn’s share, tallies roughly with the total of £2255 8s 11d calculated by Orbison (ed), <hi rend="italic">Collections</hi> 12, p 7, to have been the cost of George Chapman’s masque presented by the Middle Temple and Lincoln’s Inn for the same occasion.</ab> <!-- KC: cross-ref pagination -->
+            <ab>The phrase ‘late showe and sport<ex>es</ex>’ (p 151, l.41) refers to Beaumont’s <title>Masque of the Inner Temple and Gray’s Inn</title>, performed in the Banqueting House, Whitehall, on 20 February 1612/13, following the marriage of Princess Elizabeth and the count palatine. The figure ‘xij<hi rend="superscript">C</hi> li.’(£1200), if doubled to allow for Gray’s Inn’s share, tallies roughly with the total of £2255 8s 11d calculated by Orbison (ed), <title>Collections</title> 12, p 7, to have been the cost of George Chapman’s masque presented by the Middle Temple and Lincoln’s Inn for the same occasion.</ab> <!-- KC: cross-ref pagination -->
          </div>
                
          <div type="transcription">
-            <head>f 120<supplied>(10 July 1613)</supplied></head>
+            <head>f 120 <date when-iso="1613-07-10"></date><supplied>(10 July 1613)</supplied></head>
             <pb n="120" type="folio"/>
             <gap reason="omitted"/>
             <ab>At this Parliament yt is ordered that Mr Lumley the drap<ex>er</ex> shallbe paid fower pownd<ex>es</ex> twelve shilling<ex>es</ex> &amp; sixe pence, for scarlett ymployed for the Marshall at the Maske</ab>
@@ -1484,7 +1483,7 @@
             <seg ana="taxon:RLITPB2" corresp="taxon:RLPIC1 pp. 185-6">RLITPB2</seg>
          </head>
          <div type="transcription">
-            <head>f 129v<supplied>(21 April 1616)</supplied></head>  
+            <head>f 129v <date when-iso="1616-04-21"></date><supplied>(21 April 1616)</supplied></head>  
             <pb n="129v" type="folio"/>
             <gap reason="omitted"/>
             <ab>
@@ -1521,7 +1520,7 @@
             <seg ana="taxon:RLITPB2" corresp="taxon:RLPIC1 pp. 190-1">RLITPB2</seg>
          </head>
          <div type="transcription">
-            <head>f 133<supplied>(6 November 1616)</supplied></head>  
+            <head>f 133 <date when-iso="1616-11-06"></date><supplied>(6 November 1616)</supplied></head>  
             <pb n="133" type="folio"/>
             <gap reason="omitted"/>
             <ab>
@@ -1557,7 +1556,7 @@
             <seg ana="taxon:RLITPB2" corresp="taxon:RLPIC1 pp. 217">RLITPB2</seg>
          </head>
          <div type="transcription">
-            <head>f 178<supplied>(10 February 1627/8)</supplied></head>  
+            <head>f 178 <date when-iso="1627/8-02-10"></date><supplied>(10 February 1627/8)</supplied></head>  <!-- KC: REED slash year -->
             <pb n="178" type="folio"/>
             <gap reason="omitted"/>
             <ab>
@@ -1588,7 +1587,7 @@
             <seg ana="taxon:RLITPB2" corresp="taxon:RLPIC1 pp. 220-1">RLITPB2</seg>
          </head>
          <div type="transcription">
-            <head>f 182<supplied>(23 November 1628)</supplied></head>  
+            <head>f 182 <date when-iso="1628-11-23"></date><supplied>(23 November 1628)</supplied></head>  
             <pb n="182" type="folio"/>
             <gap reason="omitted"/>
             <ab>
@@ -1642,7 +1641,7 @@
          </head>
          
          <div type="transcription">
-            <head>f 219-19v<supplied>(12 November 1633)</supplied></head> 
+            <head>f 219-19v <date when-iso="1633-11-12"></date><supplied>(12 November 1633)</supplied></head> 
             <pb n="219-19v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1720,7 +1719,7 @@
       </div>
    
        <div type="transcription">
-          <head>f 222v<supplied>(9 February 1633/4)</supplied></head> 
+          <head>f 222v <date when-iso="1633/4-02-09"></date><supplied>(9 February 1633/4)</supplied></head> <!-- KC: REED slash year -->
           <pb n="222" type="folio"/> 
  
                <gap reason="omitted"/>
@@ -1750,7 +1749,7 @@
        </div>
           
           <div type="transcription">
-             <head>f 223<supplied>(27 April 1634)</supplied></head> 
+             <head>f 223 <date when-iso="1634-04-27"></date><supplied>(27 April 1634)</supplied></head> 
              <pb n="223" type="folio"/> 
              
              <gap reason="omitted"/>
@@ -1792,7 +1791,7 @@
           </div>
          
              <div type="transcription">
-                <head>f 224v<supplied>(22 June 1634)</supplied></head> 
+                <head>f 224v <date when-iso="1634-06-22"></date><supplied>(22 June 1634)</supplied></head> 
                 <pb n="224" type="folio"/> 
                 
                 <gap reason="omitted"/>
@@ -1831,7 +1830,7 @@
             <seg ana="taxon:RLITPB2" corresp="taxon:RLPIC1 pp 325-6">RLITPB2</seg>
          </head>
          <div type="transcription">
-            <head>f 229<supplied>(23 November 1634)</supplied></head>  
+            <head>f 229 <date when-iso="1634-11-23"></date><supplied>(23 November 1634)</supplied></head>  
             <pb n="229" type="folio"/>
             <gap reason="omitted"/>  <!-- KC: resume here -->
             <ab>
@@ -1866,7 +1865,7 @@
          </div>
             
             <div type="transcription">
-               <head>f 229v <supplied>(25 January 1634/5)</supplied></head> 
+               <head>f 229v <date when-iso="1634/5-01-25"></date><supplied>(25 January 1634/5)</supplied></head> <!-- KC: REED slash year -->
                <pb n="229v" type="folio"/>
                <gap reason="omitted"/>
                <ab>
@@ -1884,7 +1883,7 @@
             </div>
             
             <div type="transcription">
-               <head>f 230v <supplied>(8 February 1634/5)</supplied></head> 
+               <head>f 230v <date when-iso="1634/5-02-08"></date><supplied>(8 February 1634/5)</supplied></head> <!-- KC: REED slash year -->
                <pb n="230v" type="folio"/>
                <gap reason="omitted"/>
                <ab>
