@@ -327,7 +327,7 @@
                <gap reason="omitted"/>
           </div>
              
-             <note type="editorial">
+             <note type="editorial" n="endnote">
                    Folios 18, 19 damaged by post-World War II fire; the dates are supplied from Inderwick.
              </note>             
          </div>
@@ -394,7 +394,7 @@
             </div>
          </div>
             
-            <note type="editorial">
+            <note type="editorial" n="endnote">
                Folio damaged by post-World War II fire; the date is supplied from Inderwick.
             </note>  <!-- KC: endnote refers to f 22 only -->
             
@@ -447,7 +447,7 @@
             </div>
          </div>
            
-            <note type="editorial">
+            <note type="editorial" n="endnote">
                The names of the four masters of the revels are entered again at the foot of f 26: 'lacton,
                   Godolphyn, Lambourn,' and 'E Gyfford.'
             </note>  <!-- KC: endnote refers to f25v only -->
@@ -476,7 +476,7 @@
             <gap reason="omitted"/>
          </div>
            
-         <note type="editorial">
+         <note type="editorial" n="endnote">
             The names of the four masters of the revels are repeated on f 28v.
          </note>
          
@@ -506,7 +506,7 @@
          </div>
          </div>
          
-         <note type="editorial">
+         <note type="editorial" n="endnote">
             Folio damaged by post-World War II fire; the date is supplied from Inderwick.
          </note>
          
@@ -538,7 +538,7 @@
             </div>
          </div>
          
-         <note type="editorial">
+         <note type="editorial" n="endnote">
             Earlier on the same folio occurs an entry under 1 November listing as masters of the revels only 'Verney,'
                'Rede,' and 'B <supplied>(blank)</supplied>.'
          </note>
@@ -571,7 +571,7 @@
            </div>
          </div>
         
-         <note type="editorial">
+         <note type="editorial" n="endnote">
             Folio damaged by post-World War II fire; the date is supplied from Inderwick.
          </note>
          
@@ -620,7 +620,7 @@
          </div>
          </div>
             
-            <note type="editorial">
+            <note type="editorial" n="endnote">
                Folio damaged by post-World War II fire; Symondson (see the footnoted 
                   reading supplied from Inderwick) is not among the masters of the revels 
                   listed on f 36v.
@@ -673,7 +673,7 @@
          </div>
          </div>
      
-     <note type="editorial">
+     <note type="editorial" n="endnote">
         Folio damaged by post-World War II fire; the date is supplied from Inderwick.
      </note> <!-- KC: endnote refers to f 42v only -->
      
@@ -724,7 +724,7 @@
          </div>
          </div>
             
-            <note type="editorial">
+            <note type="editorial" n="endnote">
                Folio damaged by post-World War II fire; the date is supplied from Inderwick.
             </note>
 
@@ -769,7 +769,7 @@
            </div>
          </div>
             
-            <note type="editorial">
+            <note type="editorial" n="endnote">
                Folios 69, 69v damaged by post-World War II fire; the date is supplied from Inderwick.
                <!-- KC: endote refers to f 69, 69v. "69, 69v" added after word "Folio" for clarify. -->
             </note>
@@ -797,7 +797,7 @@
             </div>
          </div>
          
-         <note type="editorial">
+         <note type="editorial" n="endnote">
             <ab>Folio damaged by post-World War II fire; the date is supplied from Inderwick.</ab>
          </note>
          
@@ -970,7 +970,7 @@
                </div>
               </div>
                
-               <note type="editorial"> 
+               <note type="editorial" n="endnote"> 
                   Folio damaged by post-World War II fire; the date is supplied from Inderwick.
                </note>
             </body>
@@ -1049,7 +1049,7 @@
             </div>
          </div>
                
-               <note type="editorial">  <!-- KC: resume here for editorial notes -->
+               <note type="editorial" n="endnote">
                   The date of this parliament is given as 14 November in Inderwick (p 122); however, this has been
                   cancelled in the MS and corrected to 16 November (f 114). <!-- KC: this endnote refers to f114v only --><!-- KC: cross-ref pagination --><!-- KC: "MS" in small caps -->
                </note>
@@ -1160,7 +1160,7 @@
              <gap reason="omitted"/>
             </div>
          </div>
-         <note type="editorial">
+         <note type="editorial" n="endnote">
             As ff 34–54 of the acts of parliament are misbound, foliation breaks here with seriatim 
                order. There is no list of appointments for this year. Folio damaged by post-World War II fire; 
                the date is supplied from Inderwick.
@@ -1192,7 +1192,7 @@
             <gap reason="omitted"/>
             </div>
          </div>
-         <note type="editorial">
+         <note type="editorial" n="endnote">
             As ff 34–54 of the acts of parliament are misbound, foliation breaks 
                here with seriatim order.
          </note>
@@ -1245,7 +1245,7 @@
             </div>
          </div>
             
-            <note type="editorial">
+            <note type="editorial" n="endnote">
                Folio damaged by post-World War II fire; the date is supplied from Inderwick.
             </note>
       </body>
@@ -1275,7 +1275,7 @@
             </div>
          </div>
          
-         <note type="editorial">
+         <note type="editorial" n="endnote">
             This entry occurs first on f 135 among unformatted entries, is there cancelled, 
                and has been rewritten here in the traditional layout.
          </note>
@@ -1310,7 +1310,7 @@
             </ab>
             </div>
          </div>
-         <note type="editorial">
+         <note type="editorial" n="endnote">
             No Inner Temple appointments to the office of master of the revels 
                are recorded for this or subsequent years. Christmas officers hereafter 
                are limited to marshals, stewards, and butlers. Compare to
@@ -1375,7 +1375,7 @@
             <gap reason="omitted"/>
             </div>
          </div>
-         <note type="editorial">
+         <note type="editorial" n="endnote">
             The marginal note is a cross-reference to a payment made to 
                musicians on 27 January 1582/3 (see p 106). <!-- KC: cross-ref pagination -->
          </note>
@@ -1404,7 +1404,7 @@
             </ab> 
             </div>
          </div>
-         <note type="editorial">
+         <note type="editorial" n="endnote">
             Folio damaged in post–World War II fire; the date is supplied from 
                Inderwick. The cross-reference is to the 1577–8 entry (p 101). 
             <!-- KC: cross-ref pagination -->
@@ -1526,7 +1526,7 @@
             </ab>
             </div>
          
-         <note type="editorial">  
+         <note type="editorial" n="endnote">  
             The phrase ‘late showe and sport<ex>es</ex>’ (p 151, l.41) refers to Beaumont’s <title>Masque of the Inner Temple and Gray’s Inn</title>, performed in the Banqueting House, Whitehall, on 20 February 1612/13, following the marriage of Princess Elizabeth and the count palatine. The figure ‘xij<hi rend="superscript">C</hi> li.’(£1200), if doubled to allow for Gray’s Inn’s share, tallies roughly with the total of £2255 8s 11d calculated by Orbison (ed), <title>Collections</title> 12, p 7, to have been the cost of George Chapman’s masque presented by the Middle Temple and Lincoln’s Inn for the same occasion. <!-- KC: cross-ref pagination -->
          </note>
                
@@ -1573,7 +1573,7 @@
             </div>
          </div>
          
-         <note type="editorial">
+         <note type="editorial" n="endnote">
             The 'maske' (p 186, l.1)<!-- KC: cross-ref pagination --> was William Browne’s <title>Masque of Ulysses and Circe</title>, performed in the Inner
                Temple Hall on 13 January 1613/14 (see Appendix 6.1).
          </note>
@@ -1640,7 +1640,7 @@
             </div>
          </div>
          
-         <note type="editorial">
+         <note type="editorial" n="endnote">
                This tentative order is an initial reaction to the events described by Hamon L’Estrange (see pp 219–20)
                <!-- KC: cross-ref pagination -->
                and by Joseph Mede's letters of 12 and 19 January 1627/8 (see Appendix 4). For the final orders (23
@@ -1694,7 +1694,7 @@
             </div>
          </div>
          
-         <note type="editorial">
+         <note type="editorial" n="endnote">
                These orders are a reaction to the events described most vividly in Joseph Mede’s letters of 12 and 19
                January 1627/8 (Appendix 4). For the original order (10 February 1627/8), see p 217, ll.25–6. A ‘play’
                (p 220, l.41) refers to games of chance including dice. <!-- KC: cross-ref pagination -->
@@ -1779,7 +1779,7 @@
             <gap reason="omitted"/>
             </div>
      
-      <note type="editorial">
+      <note type="editorial" n="endnote">
          The statement that no masque or show had been presented to the monarch by any Inn since the
          accession of Charles I (p 240, ll.4–6) means that any Inn of Court masque since 1625 was presented
          only at home: see the apparent masque at Gray’s Inn, 1631–2 (p 229, ll.5, 9, and endnote).
@@ -1903,7 +1903,7 @@
             <div>
                <head>f 229 <date when-iso="1634-11-23"></date><supplied>(23 November 1634)</supplied></head>  
             <pb n="229" type="folio"/>
-            <gap reason="omitted"/>  <!-- KC: resume here -->
+            <gap reason="omitted"/>  <!-- KC: resume here for adding more records-->
             <ab>
                fforasmuch<note type="marginal" place="margin_left">Order for M<ex>aste</ex>r
                   Tr<ex>easur</ex>er to disburse 170 li. towardes ye Masq<ex>ue</ex></note> as it appeared this present parliament, by the relacion of Mr
