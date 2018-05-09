@@ -1972,7 +1972,34 @@
       </body>
    </text>
    
-   
+   <!-- KC: 1636-7 RLITPB2 record -->
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1636-09-29" to-iso="1637-09-29" cert="medium">1636-7</date>
+            <seg ana="taxon:RLITPB2" corresp="taxon:RLPIC1 pp 344">RLITPB2</seg>
+         </head>
+         <div type="transcription">
+            <div>
+               <head>f 247v <date when-iso="1637-05-21"></date><supplied>(21 May 1637)</supplied></head>  
+               <pb n="247v" type="folio"/>
+               <gap reason="omitted"/>
+               
+               <ab>
+                  Vppon<note type="marginal" place="margin_left">40 s. Allowed to Henry ffeild
+                     ye Music<ex>i</ex>on./</note> the humble Petic<ex>i</ex>on of Henry ffeild music<ex>i</ex>on to haue the former
+                  allowance of xx s. a day for Alhollands and Candlemas dayes last past in
+                  the time of the discontinuance of Com<ex>m</ex>ons, in regard hee hath beene an
+                  auncient servant to this Howse and hee and his Company were ready the
+                  same dayes to have p<ex>re</ex>sented their service if it might haue beene receiued,
+                  It is accordingly Ordered vnto him./
+               </ab>
+               
+               <gap reason="omitted"/>
+            </div>
+         </div>
+      </body>
+   </text>
    
    
    
