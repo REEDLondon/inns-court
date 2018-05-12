@@ -244,17 +244,17 @@
             <date when-iso="1613-12-26">1613-12-26</date>
             <seg ana="docu:RLPH003" corresp="docu:RLPCI1 p. 181">RLPH003</seg></head>
          <div type="transcription">
-            <head>p 928 col 1<supplied></supplied></head>
-            <pb n="928 col 1" type="page"/>
+            <head>p 928 col 1</head>
+            <pb n="928" type="page"/>
             
             <div>
                <note type="marginal">The Earle of Somerset married.</note>
                <ab>The 26. of December, 1613 <persName n="Robert Ker">Robert earle of Somerset</persName> married the <persName n="Frances Howard">lady Francis Howard</persName> daughter to <persName n="Thomas Howard">ye earle of Suffolke</persName> ... &amp; vpon Tewsday the 4. of Ianuary, <persName n="Frances Howard">the Bride</persName>, &amp; <persName n="Robert Ker">Bridegroome</persName>, being accompanied with  <persName n="Esmé Stuart">the duke of Lenox</persName>, <persName n="Henry Howard">the Lord priuie Seale</persName>, <persName n="Thomas Howard" cert="medium" resp="#AHN1">the lord Chamberlayne</persName>, the earles of <persName n="Edward Somerset">Worcester</persName>, <persName n="William Herbert">Pembroke</persName>, <persName n="Philip Herbert">Montgomery</persName>, &amp; others, and with many honorable Barons, knights, &amp; gentlemen of qualitie, came to <placeName n="Merchant Taylor's Hall">marchant-taylers hall</placeName>, where the <persName n="Thomas Myddleton" role="Lord Mayor of London">Lord Maior</persName>, &amp; Aldermenne, of London, in their Scarlet robes, entertayned them with hearty welcome, &amp; feasted them with all magnificence: ... &amp; about 3. a clock in the morning they returned to <placeName n="Whitehall">white hall</placeName>, and vppon twelfe night there was a maske of gentlemen of <orgName n="Gray's Inn">Grayes Inne</orgName>....</ab>
             </div>
             
-            <div type="endnote">
-               <ab>Nobility named here include Robert Ker, sixth earl of Somerset; his bride Frances Howard; Esmé Stuart, third duke of Lennox; Henry Howard, ninth earl of Northampton, lord privy seal; Edward Somerset, eleventh earl of Worcester; William Herbert, twenty-second earl of Pembroke; and Philip Herbert, first earl of Montgomery. As the current lord chamberlain was Robert Ker himself, reference is probably to the former holder of the office, Thomas Howard, eleventh earl of Suffolk, the bride’s father.</ab><!-- Have made the choice not to tag the names in the endnote. This could be done in CWRC-Writer -->
-            </div>
+            <note type="editorial" n="endnote">Nobility named here include Robert Ker, sixth earl of Somerset; his bride Frances Howard; Esmé Stuart, third duke of Lennox; Henry Howard, ninth earl of Northampton, lord privy seal; Edward Somerset, eleventh earl of Worcester; William Herbert, twenty-second earl of Pembroke; and Philip Herbert, first earl of Montgomery. As the current lord chamberlain was Robert Ker himself, reference is probably to the former holder of the office, Thomas Howard, eleventh earl of Suffolk, the bride’s father.
+               <!-- Have made the choice not to tag the names in the endnote. This could be done in CWRC-Writer -->
+            </note>
                
 
          </div>
