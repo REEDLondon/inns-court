@@ -3,56 +3,71 @@
 <?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="eng"> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="eng">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            
+
             <title type="main">Inns of Court</title>
-            
-            
-            <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>
-            <funder><orgName>CANARIE</orgName></funder> 
-            
-            <funder><orgName>British Academy, London, UK</orgName></funder>
-            <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>            
-            <funder><orgName>National Endowment for the Humanities, Washington, DC, United States of
-               America</orgName></funder>
-            <funder><orgName>Social Sciences and Humanities Research Council, Ottawa,
-               Canada</orgName></funder>
-            
-            <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
-            <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
-            
+
+
+            <funder>
+               <orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName>
+            </funder>
+            <funder>
+               <orgName>CANARIE</orgName>
+            </funder>
+
+            <funder>
+               <orgName>British Academy, London, UK</orgName>
+            </funder>
+            <funder>
+               <orgName>Jackman Foundation, Toronto, Canada</orgName>
+            </funder>
+            <funder>
+               <orgName>National Endowment for the Humanities, Washington, DC, United States of
+                  America</orgName>
+            </funder>
+            <funder>
+               <orgName>Social Sciences and Humanities Research Council, Ottawa, Canada</orgName>
+            </funder>
+
+            <editor resp="print">
+               <persName xml:id="AHN1">Alan H. Nelson</persName>
+            </editor>
+            <editor resp="print">
+               <persName>John R. Elliott, Jr.</persName>
+            </editor>
+
             <respStmt>
                <persName xml:id="CB">Carolyn Black</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>Project Manager</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>John Bradley</persName>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-            
+
             <respStmt>
-               <persName>Susan Brown</persName> 
+               <persName>Susan Brown</persName>
                <orgName>University of Guelph</orgName>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName xml:id="KC">Kathy Chung</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>REED Research Associate, NHPRC-Mellon Project Consultant</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>William Cooke</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>English Glossarian</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName xml:id="JC">James Cummings</persName>
                <orgName>Newcastle University</orgName>
@@ -60,106 +75,113 @@
                <resp>NHPRC-Mellon Project Team Member</resp>
                <resp>TEI Schema Designer, Technical Consultant</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Matthew Davies</persName>
-               <orgName>University of London, Birkbeck College</orgName> <!-- confirm -->
+               <orgName>University of London, Birkbeck College</orgName>
+               <!-- confirm -->
                <resp>Records of Early English Drama (REED) Executive Board</resp>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName xml:id="PG">Patrick Gregory</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
-               <resp>Associate Editor</resp> <!-- confirm -->
-               <resp>Paleographer, Translator</resp> <!-- confirm -->
+               <resp>Associate Editor</resp>
+               <!-- confirm -->
+               <resp>Paleographer, Translator</resp>
+               <!-- confirm -->
             </respStmt>
             <respStmt>
                <persName>Tanya Hagen</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>Bibliographer, NHPRC-Mellon Project Consultant</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName xml:id="JAKA1">Diane K. Jakacki</persName>
                <orgName>Bucknell University</orgName>
                <resp>Records of Early English Drama (REED) Executive Board</resp>
-               <resp>Principal Investigator, NHPRC-Mellon Digital Edition Publishing Cooperatives Planning Grant</resp>
+               <resp>Principal Investigator, NHPRC-Mellon Digital Edition Publishing Cooperatives
+                  Planning Grant</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Alexandra F. Johnston</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>REED Founder and Senior Consultant</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>David Kathman</persName>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Sally-Beth MacLean</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
-               <resp>Principal Investigator, SSHRC grant; Director of Research and General Editor</resp>
+               <resp>Principal Investigator, SSHRC grant; Director of Research and General
+                  Editor</resp>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Maureen Maclean</persName>
                <orgName>Bucknell University</orgName>
                <resp>REED London research assistant, 2018</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName xml:id="KM">Kimberley Martin</persName>
                <orgName>University of Guelph</orgName>
                <resp>NHPRC-Mellon Project Consultant</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Christopher Matusiak</persName>
                <orgName>Ithaca College</orgName>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName xml:id="JN">Jamie Norrish</persName>
                <resp>Programmer, EATS developer, NHPRC-Mellon Project Consultant</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Dorothy Porter</persName>
                <orgName>University of Pennsylvania</orgName>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Arleane Ralph</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>Paleographer</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Suzanne Westfall</persName>
                <orgName>Lafayette College</orgName>
                <resp>Records of Early English Drama (REED) Executive Board Member</resp>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Abigail Ann Young</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>Latin Glossarian</resp>
             </respStmt>
-            
+
          </titleStmt>
          <editionStmt>
-            <edition>Print version, published <date when-iso="2010">2010</date>. Electronic edition, anticipated publication <date when-iso="2018">2018</date></edition>
+            <edition>Print version, published <date when-iso="2010">2010</date>. Electronic edition,
+               anticipated publication <date when-iso="2018">2018</date></edition>
          </editionStmt>
-         
+
          <publicationStmt>
-            <authority><orgName>Records of Early English Drama (REED)</orgName>
+            <authority>
+               <orgName>Records of Early English Drama (REED)</orgName>
                <address>
                   <addrLine>University of Toronto</addrLine>
                   <addrLine>170 St George Street, Suite 810</addrLine>
@@ -167,56 +189,60 @@
                   <addrLine>M5R 2M8</addrLine>
                </address>
             </authority>
-            
-            <publisher>D.S. Brewer, Cambridge, an imprint of Boydell &amp; Brewer Ltd./Boydell &amp; Brewer Ltd.</publisher>
+
+            <publisher>D.S. Brewer, Cambridge, an imprint of Boydell &amp; Brewer Ltd./Boydell &amp;
+               Brewer Ltd.</publisher>
             <pubPlace>Rochester, NY</pubPlace>
             <date>2010</date>
             <idno type="other">978-1-84384-259-0</idno>
-            
+
             <availability>
                <p>Copyright <orgName>Records of Early English Drama (REED)</orgName>,
-                  <date>2017</date></p>
-               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a
-                  Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA
-                  4.0) licence.</licence>
+                     <date>2017</date></p>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed
+                  under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+                  (CC BY-NC-SA 4.0) licence.</licence>
             </availability>
          </publicationStmt>
-         
+
          <seriesStmt>
             <title>Records of Early English Drama</title>
          </seriesStmt>
          <sourceDesc>
-            <p>This publication constitutes a remediation of the printed Inns of Court collection. Information on original sources for transcriptions can be accessed via the Document Descriptions.</p>
-            <p>For a full list of REED collections, editors, executive board members, and staff, please visit http://reed.utoronto.ca/people</p>       
+            <p>This publication constitutes a remediation of the printed Inns of Court collection.
+               Information on original sources for transcriptions can be accessed via the Document
+               Descriptions.</p>
+            <p>For a full list of REED collections, editors, executive board members, and staff,
+               please visit http://reed.utoronto.ca/people</p>
          </sourceDesc>
       </fileDesc>
-      
+
       <encodingDesc>
          <listPrefixDef>
             <prefixDef ident="taxon" matchPattern="([A-Za-z0-9_-]+)"
                replacementPattern="../taxonomy.xml#$1">
                <p>Private URIs using the <code>taxon</code> prefix are pointers to entities in the
                   taxonomy.xml file. For example, <code>taxon:church</code> dereferences to
-                  <code>taxonomy.xml#church</code>.</p>
+                     <code>taxonomy.xml#church</code>.</p>
             </prefixDef>
             <prefixDef ident="gloss" matchPattern="([A-Za-z0-9_-]+)"
                replacementPattern="../glossary.xml#$1">
                <p>Private URIs using the <code>gloss</code> prefix are pointers to entities in the
                   glossary.xml file. For example, <code>gloss:histrio-1</code> dereferences to
-                  <code>glossary.xml#histrio-1</code>.</p>
+                     <code>glossary.xml#histrio-1</code>.</p>
             </prefixDef>
          </listPrefixDef>
-         
+
          <projectDesc>
             <p>Records of Early English Drama (REED) is an international scholarly project that is
-               establishing for the first time the context from which the drama of Shakespeare and his
-               contemporaries grew. Founded in 1976, REED has worked since then to locate, transcribe,
-               and edit historical documents containing evidence of drama, secular music, and other
-               communal entertainment and ceremony from the Middle Ages until 1642, when the Puritans
-               closed the London theatres.</p>
+               establishing for the first time the context from which the drama of Shakespeare and
+               his contemporaries grew. Founded in 1976, REED has worked since then to locate,
+               transcribe, and edit historical documents containing evidence of drama, secular
+               music, and other communal entertainment and ceremony from the Middle Ages until 1642,
+               when the Puritans closed the London theatres.</p>
          </projectDesc>
       </encodingDesc>
-      
+
       <profileDesc>
          <langUsage>
             <language ident="eng">English</language>
@@ -225,98 +251,189 @@
          </langUsage>
          <settingDesc>
             <place>
-               <placeName>London</placeName> 
+               <placeName>London</placeName>
             </place>
          </settingDesc>
       </profileDesc>
    </teiHeader>
-   
+
    <text ana="taxon:grays_inn" type="record">
       <body xml:lang="lat">
-         <head> 
+         <head>
             <date from-iso="1594-09-29" to-iso="1595-09-29">1594-5</date>
-            <seg ana="taxon:RLGIAB" corresp="RLIPIC1 pp. 124-5">RLGIAB</seg></head>
+            <seg ana="taxon:RLGIAB" corresp="RLIPIC1 pp. 124-5">RLGIAB</seg>
+         </head>
          <div type="transcription">
-               <head>p 295 <date when-iso="1595-02-02"/><supplied>(2 February 1594/5)</supplied></head>
-               <pb n="295" type="page"/>               
-               <list>
-                  <item> <persName n="Edward Devereux">Edward Deuoraxe</persName> de <placeName n="Castle Bromwich, Warwickshire">Castell Bromwiche in Comitate warwici</placeName> admiss<expan>us</expan> est in societat<ex>em</ex> hui<ex>us</ex> hospitij nostri <date when-iso="1594-02-02">ij die ffeb<ex>ruarij</ex></date> anno supradict<ex>o</ex>
-                     <seg type="signed" rend="center"><persName n="Henry Helmes">H<ex>enricus</ex> Princeps.</persName></seg></item>                                    
-                  <item><persName n="Francis Dethicke">ffrancisc<ex>us</ex> Dethicke</persName> de <del>admiss</del> <note type="foot">de <del>admiss</del>: de <hi rend="italic">created from</hi> d <hi rend="italic">of cancelled</hi> admiss <hi rend="italic">with</hi> e <hi rend="italic">written over</hi> m</note> <placeName n="Newhall, Derbyshire">Newhall in Comitate Darbye</placeName> admiss<ex>us</ex> est in societatem hui<ex>us</ex> hospitij eode<ex>m</ex> die 
-                     <seg type="signed" rend="center"><persName n="Henry Helmes">H<ex>enricus</ex> P<ex>rinceps</ex></persName>.</seg></item>
-                  <item><persName n="William Pope">Guillelm<ex>us</ex> Poape</persName> de <placeName n="Wroxton, Oxfordshire">Roxton in Comitate Oxoniæ</placeName> admiss<ex>us</ex> est in societate<ex>m</ex> hui<ex>us</ex> hospitij eodem die
-                  </item>                                   
-                  <item><note type="marginal" rend="left">Extra hospiciu<ex>m</ex></note><del><persName n="Francis East">ffranciscus East</persName> de <space/> in <placeName n="Cambridgeshire">Comitate Cantabrigiæ</placeName> admiss<ex>us</ex> est in societatem hospitij nostri eod<ex>em</ex> die</del> extra hospitiu<ex>m</ex> <del>pr<ex>o</ex></del> in plena pencione tent<ex>us</ex> decimo octavo die Iunij A<ex>nn</ex>o 38 Elizabeth Regine: 
-                     <seg type="signed" rend="center"><persName n="Henry Helmes">Henric<ex>us</ex> Pr<ex>incep</ex>s Purpoole</persName>.</seg></item>
-               </list>
-               <gap reason="omitted"/>
-            <note type="editorial" n="endnote">Prominent among those granted honorary admission by Henry Helmes, Prince of Purpoole, were John Lyly (p 125, l.7), almost certainly the playwright, and John Spencer (p 125, l.14), lord mayor of London (see ODNB for both men). A pane of stained glass commemorating Spencer’s membership survives in the hall of Gray’s Inn.</note>
-         </div>
-            <div type="translation">
-               <head>p 295 <date when-iso="1595-02-02"/><supplied>(2 February 1594/5)</supplied></head>
-               <pb n="295" type="page"/>    
-               <list>
-                  <item>Edward Devereux of Bromwich Castle in the county of Warwick has been admitted into the society of this our Inn on 2 February in the abovesaid year.
-                  <seg type="signed" rend="center"><persName n="Henry Helmes">Henry, prince (of Purpoole)</persName></seg></item>
-                  <item>Francis Dethicke of New Hall in Derbyshire has been admitted into the society of this Inn on the same day in the abovesaid year.
-                     <seg type="signed" rend="center"><persName n="Henry Helmes">Henry, prince (of Purpoole)</persName></seg></item>
-                  <item>William Pope of Roxton in the county of Oxford has been admitted into the society of this Inn on the same day.
-                  </item>                  
-                  <item><note type="marginal" rend="left">Outside the Inn</note><del>Francis East of <space/> in the county of Cambridge has been admitted into the society of our Inn on the same day.</del> He (is) kept outside the Inn in full pension on 18 June in the thirty-eighth year (of the reign) of Queen Elizabeth.
-                     <seg type="signed" rend="center"><persName n="Henry Helmes">Henry, prince (of Purpoole)</persName></seg></item>
-               </list>
-               <gap reason="omitted"/>
-               <note type="editorial" n="endnote">Prominent among those granted honorary admission by Henry Helmes, Prince of Purpoole, were John Lyly (p 125, l.7), almost certainly the playwright, and John Spencer (p 125, l.14), lord mayor of London (see ODNB for both men). A pane of stained glass commemorating Spencer’s membership survives in the hall of Gray’s Inn.</note>
-            </div>
-         
-            <div type="transcription">
-               <head><date when-iso="1595-12-25"/><supplied>(25 December 1595)</supplied></head>
-               <pb n="295" type="page"/>
-               
-               <list>
-                  <item><persName n="John Cook">Ihoannes Cooke</persName> &amp; <persName n="Edward Cook">Edwardus Cooke</persName> de <placeName n="Westminster, London">Westminster</placeName> admissi<ex>us</ex> sunt in societate<ex>m</ex> hui<ex>us</ex> hospitij xxv die Decembris anno Elizabeth Regine xxx vij
-                     <seg type="signed" rend="center"><persName n="Henry Helmes">Henry Pr<ex>incep</ex>s Purpoole</persName></seg> </item>                  
-                  <item><persName n="Phillip Wentworth">Phillippus Waintworth</persName> de <placeName n="Cotton, Suffolk">Cotton in Comitate Suffolciæ</placeName> <persName n="Anthony Fletcher">Anthonius ffletcher</persName> de <placeName n="Cockermouth, Cumbria">Cockermouth in Comitate Comber<ex>landia</ex>e</placeName> <persName n="Thomas Thomkins">Thomas Thomkins</persName> de <placeName n="London">Civitate Londini</placeName> <persName n="John Lily" cert="high" resp="#AHN1" role="playwright">Ihoannes Lillie</persName> de <placeName n="London">Civitate Londini</placeName> <persName n="Thomas Smith">Thomas Smith</persName> de <placeName n="Framingham, Suffolk">fram<ex>m</ex>ingha<ex>m</ex> in Comitate Suffolk</placeName> admissi sunt in societatem huius hospitij die &amp; anno supradictis
-                     <seg type="signed"><persName n="Henry Helmes">Henry Pr<ex>inceps</ex> Purpoole</persName></seg></item>
-               </list>
-            </div>
-            <div type="translation">
-               <head><date when-iso="1594-12-25"/><supplied>(25 December 1594)</supplied></head>
+            <div>
+               <head>p 295 <date when-iso="1595-02-02"/><supplied>(2 February
+                  1594/5)</supplied></head>
                <pb n="295" type="page"/>
                <list>
-                  <item>John Cooke and Edward Cooke of Westminster were admitted into the society of this Inn on 25 December in the thirty-seventh year (of the reign) of Queen Elizabeth.
-                     <seg type="signed" rend="center"><persName n="Henry Helmes">Henry, Prince of Purpoole</persName></seg></item>
-                  <item>Philip Wentworth of Cotton in the county of Suffolk, Anthony Fletcher of Cockermouth in the county of Cumberland, Thomas Thomkins of the city of London, John Lyly of the city of London, (and) Thomas Smyth of Framingham in the county of Suffolk were admitted into the society of this Inn on the abovesaid day and (in the abovesaid) year.
-                     <seg type="signed" rend="center"><persName n="Henry Helmes">Henry, Prince of Purpoole</persName></seg></item>
-               </list>      
+                  <item>
+                     <persName n="Edward Devereux">Edward Deuoraxe</persName> de <placeName
+                        n="Castle Bromwich, Warwickshire">Castell Bromwiche in Comitate
+                        warwici</placeName> admiss<expan>us</expan> est in societat<ex>em</ex>
+                        hui<ex>us</ex> hospitij nostri <date when-iso="1594-02-02">ij die
+                           ffeb<ex>ruarij</ex></date> anno supradict<ex>o</ex>
+                     <seg type="signed" rend="center"><persName n="Henry Helmes">H<ex>enricus</ex>
+                           Princeps.</persName></seg></item>
+                  <item><persName n="Francis Dethicke">ffrancisc<ex>us</ex> Dethicke</persName> de
+                        <del>admiss</del>
+                     <note type="foot">de <del>admiss</del>: de <hi rend="italic">created from</hi>
+                        d <hi rend="italic">of cancelled</hi> admiss <hi rend="italic">with</hi> e
+                           <hi rend="italic">written over</hi> m</note>
+                     <placeName n="Newhall, Derbyshire">Newhall in Comitate Darbye</placeName>
+                        admiss<ex>us</ex> est in societatem hui<ex>us</ex> hospitij eode<ex>m</ex>
+                     die <seg type="signed" rend="center"><persName n="Henry Helmes"
+                              >H<ex>enricus</ex> P<ex>rinceps</ex></persName>.</seg></item>
+                  <item><persName n="William Pope">Guillelm<ex>us</ex> Poape</persName> de
+                        <placeName n="Wroxton, Oxfordshire">Roxton in Comitate Oxoniæ</placeName>
+                        admiss<ex>us</ex> est in societate<ex>m</ex> hui<ex>us</ex> hospitij eodem
+                     die </item>
+                  <item><note type="marginal" rend="left">Extra
+                           hospiciu<ex>m</ex></note><del><persName n="Francis East">ffranciscus
+                           East</persName> de <space/> in <placeName n="Cambridgeshire">Comitate
+                           Cantabrigiæ</placeName> admiss<ex>us</ex> est in societatem hospitij
+                        nostri eod<ex>em</ex> die</del> extra hospitiu<ex>m</ex>
+                     <del>pr<ex>o</ex></del> in plena pencione tent<ex>us</ex> decimo octavo die
+                     Iunij A<ex>nn</ex>o 38 Elizabeth Regine: <seg type="signed" rend="center"
+                           ><persName n="Henry Helmes">Henric<ex>us</ex> Pr<ex>incep</ex>s
+                           Purpoole</persName>.</seg></item>
+               </list>
+               <gap reason="omitted"/>
+               <note type="editorial" n="endnote">Prominent among those granted honorary admission
+                  by Henry Helmes, Prince of Purpoole, were John Lyly (p 125, l.7), almost certainly
+                  the playwright, and John Spencer (p 125, l.14), lord mayor of London (see ODNB for
+                  both men). A pane of stained glass commemorating Spencer’s membership survives in
+                  the hall of Gray’s Inn.</note>
             </div>
-         
-         <div type="transcription">
-            <head>p 298 <date when-iso="1595-01-06"/><supplied>(6 January 1595/6)</supplied></head>
-               <pb n="298" type="page"/>              
+
+            <div>
+               <head>
+                  <date when-iso="1595-12-25"/>
+                  <supplied>(25 December 1595)</supplied>
+               </head>
+               <pb n="295" type="page"/>
+
+               <list>
+                  <item><persName n="John Cook">Ihoannes Cooke</persName> &amp; <persName
+                        n="Edward Cook">Edwardus Cooke</persName> de <placeName
+                        n="Westminster, London">Westminster</placeName> admissi<ex>us</ex> sunt in
+                        societate<ex>m</ex> hui<ex>us</ex> hospitij xxv die Decembris anno Elizabeth
+                     Regine xxx vij <seg type="signed" rend="center"><persName n="Henry Helmes"
+                           >Henry Pr<ex>incep</ex>s Purpoole</persName></seg>
+                  </item>
+                  <item><persName n="Phillip Wentworth">Phillippus Waintworth</persName> de
+                        <placeName n="Cotton, Suffolk">Cotton in Comitate Suffolciæ</placeName>
+                     <persName n="Anthony Fletcher">Anthonius ffletcher</persName> de <placeName
+                        n="Cockermouth, Cumbria">Cockermouth in Comitate
+                        Comber<ex>landia</ex>e</placeName>
+                     <persName n="Thomas Thomkins">Thomas Thomkins</persName> de <placeName
+                        n="London">Civitate Londini</placeName>
+                     <persName n="John Lily" cert="high" resp="#AHN1" role="playwright">Ihoannes
+                        Lillie</persName> de <placeName n="London">Civitate Londini</placeName>
+                     <persName n="Thomas Smith">Thomas Smith</persName> de <placeName
+                        n="Framingham, Suffolk">fram<ex>m</ex>ingha<ex>m</ex> in Comitate
+                        Suffolk</placeName> admissi sunt in societatem huius hospitij die &amp; anno
+                     supradictis <seg type="signed"><persName n="Henry Helmes">Henry
+                              Pr<ex>inceps</ex> Purpoole</persName></seg></item>
+               </list>
+            </div>
+
+            <div>
+               <head>p 298 <date when-iso="1595-01-06"/><supplied>(6 January
+                  1595/6)</supplied></head>
+               <pb n="298" type="page"/>
                <list>
                   <item><persName n="John Spencer" resp="#AHN1" role="Mayor of London"
-                     >Iohan<ex>nes</ex> Spencer</persName> Maior ciuitatis London<ex>i</ex>
+                           >Iohan<ex>nes</ex> Spencer</persName> Maior ciuitatis London<ex>i</ex>
                      admissus est in societatem huius Hospitij sexto die Ianuarij. Anno
-                     d<ex>o</ex>m<ex>inae</ex> Reginae Eliz<ex>abethae</ex> 37<hi rend="superscript"
-                        >o</hi>
-                     <seg type="signed" rend="center"><persName n="Henry Helmes">Henrie Helmes Pr<ex>incep</ex>s
-                        Purpool</persName></seg></item>
+                        d<ex>o</ex>m<ex>inae</ex> Reginae Eliz<ex>abethae</ex> 37<hi
+                        rend="superscript">o</hi>
+                     <seg type="signed" rend="center"><persName n="Henry Helmes">Henrie Helmes
+                              Pr<ex>incep</ex>s Purpool</persName></seg></item>
                </list>
                <gap reason="omitted"/>
-            <note type="editorial" n="endnote"> Prominent among those granted honorary admission by Henry Helmes, Prince of Purpoole, were John Lyly, almost certainly the playwright, and John Spencer, lord mayor of London (see ODNB for both men). A pane of stained glass commemorating Spencer’s membership survives in the hall of Gray’s Inn.</note>
+               <note type="editorial" n="endnote"> Prominent among those granted honorary admission
+                  by Henry Helmes, Prince of Purpoole, were John Lyly, almost certainly the
+                  playwright, and John Spencer, lord mayor of London (see ODNB for both men). A pane
+                  of stained glass commemorating Spencer’s membership survives in the hall of Gray’s
+                  Inn.</note>
+            </div>
          </div>
+
+
          <div type="translation">
-            <head>p 298 <date when-iso="1595-01-06"/><supplied>(6 January 1595/6)</supplied></head>
-            <pb n="298" type="page"/>  
-            <list>
-               <item>John Spencer, mayor of the city of London, has been admitted into the society of this Inn on 6 January in the thirty-seventh year (of the reign) of the lady, Queen Elizabeth.
-                  <seg type="signed" rend="center">Henry Helmes, Prince of Purpoole</seg></item>
-            </list>
-            <gap reason="omitted"/>
-            <note type="editorial" n="endnote"> Prominent among those granted honorary admission by Henry Helmes, Prince of Purpoole, were John Lyly, almost certainly the playwright, and John Spencer, lord mayor of London (see ODNB for both men). A pane of stained glass commemorating Spencer’s membership survives in the hall of Gray’s Inn.</note>
+            <div>
+               <head>p 295 <date when-iso="1595-02-02"/><supplied>(2 February
+                  1594/5)</supplied></head>
+               <pb n="295" type="page"/>
+               <list>
+                  <item>Edward Devereux of Bromwich Castle in the county of Warwick has been
+                     admitted into the society of this our Inn on 2 February in the abovesaid year.
+                        <seg type="signed" rend="center"><persName n="Henry Helmes">Henry, prince
+                           (of Purpoole)</persName></seg></item>
+                  <item>Francis Dethicke of New Hall in Derbyshire has been admitted into the
+                     society of this Inn on the same day in the abovesaid year. <seg type="signed"
+                        rend="center"><persName n="Henry Helmes">Henry, prince (of
+                           Purpoole)</persName></seg></item>
+                  <item>William Pope of Roxton in the county of Oxford has been admitted into the
+                     society of this Inn on the same day. </item>
+                  <item><note type="marginal" rend="left">Outside the Inn</note><del>Francis East of
+                        <space/> in the county of Cambridge has been admitted into the society of
+                        our Inn on the same day.</del> He (is) kept outside the Inn in full pension
+                     on 18 June in the thirty-eighth year (of the reign) of Queen Elizabeth. <seg
+                        type="signed" rend="center"><persName n="Henry Helmes">Henry, prince (of
+                           Purpoole)</persName></seg></item>
+               </list>
+               <gap reason="omitted"/>
+               <note type="editorial" n="endnote">Prominent among those granted honorary admission
+                  by Henry Helmes, Prince of Purpoole, were John Lyly (p 125, l.7), almost certainly
+                  the playwright, and John Spencer (p 125, l.14), lord mayor of London (see ODNB for
+                  both men). A pane of stained glass commemorating Spencer’s membership survives in
+                  the hall of Gray’s Inn.</note>
+            </div>
+
+            <div>
+               <head>
+                  <date when-iso="1594-12-25"/>
+                  <supplied>(25 December 1594)</supplied>
+               </head>
+               <pb n="295" type="page"/>
+               <list>
+                  <item>John Cooke and Edward Cooke of Westminster were admitted into the society of
+                     this Inn on 25 December in the thirty-seventh year (of the reign) of Queen
+                     Elizabeth. <seg type="signed" rend="center"><persName n="Henry Helmes">Henry,
+                           Prince of Purpoole</persName></seg></item>
+                  <item>Philip Wentworth of Cotton in the county of Suffolk, Anthony Fletcher of
+                     Cockermouth in the county of Cumberland, Thomas Thomkins of the city of London,
+                     John Lyly of the city of London, (and) Thomas Smyth of Framingham in the county
+                     of Suffolk were admitted into the society of this Inn on the abovesaid day and
+                     (in the abovesaid) year. <seg type="signed" rend="center"><persName
+                           n="Henry Helmes">Henry, Prince of Purpoole</persName></seg></item>
+               </list>
+            </div>
+
+            <div>
+               <head>p 298 <date when-iso="1595-01-06"/><supplied>(6 January
+                  1595/6)</supplied></head>
+               <pb n="298" type="page"/>
+               <list>
+                  <item>John Spencer, mayor of the city of London, has been admitted into the
+                     society of this Inn on 6 January in the thirty-seventh year (of the reign) of
+                     the lady, Queen Elizabeth. <seg type="signed" rend="center">Henry Helmes,
+                        Prince of Purpoole</seg></item>
+               </list>
+               <gap reason="omitted"/>
+               <note type="editorial" n="endnote"> Prominent among those granted honorary admission
+                  by Henry Helmes, Prince of Purpoole, were John Lyly, almost certainly the
+                  playwright, and John Spencer, lord mayor of London (see ODNB for both men). A pane
+                  of stained glass commemorating Spencer’s membership survives in the hall of Gray’s
+                  Inn.</note>
+            </div>
          </div>
+
       </body>
    </text>
-   
+
 </TEI>

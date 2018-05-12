@@ -237,12 +237,14 @@
             <date from-iso="1576-09-29" to-iso="1577-09-29">1576-7</date>
             <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 99">RLGIP1</seg></head>
          <div type="transcription">
+            <div>
             <head>f 70v <date when-iso="1577-01-30"><supplied>(30 January 1576/7) (Pension orders)</supplied></date></head>
             <pb n="70v" type="folio"/>
             
             <gap reason="omitted"/>
             <ab>Also it is further ordered that <persName n="Robert Shute">Mr Shutt</persName> one of the Tresorers shall paye to the Steward six poundes for <persName n="Mr. Revell">Mr Revell</persName> his two last vacac<ex>i</ex>ons and eight pound<ex>es</ex> for iiij weikes allowed to the gentlemen at xl s. a weike &amp; xxvj s. viij d. for the musicions in christynmas whiche somme comethe to xv li. <del>viij</del> vj s. viij d.</ab>
-            <gap reason="omitted"/>               
+            <gap reason="omitted"/>  
+            </div>
          </div>
       </body>
    </text>

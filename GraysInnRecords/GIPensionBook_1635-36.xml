@@ -237,6 +237,7 @@
             <date from-iso="1635-09-29" to-iso="1636-09-29">1635-6</date>
             <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 338">RLGIP1</seg></head>
          <div type="transcription">
+            <div>
             <head>f 410 <date when-iso="1636-01-29"><supplied>(29 January 1635/6) (Pension orders)</supplied></date></head>
             <pb n="410" type="folio"/>               
             <gap reason="omitted"/>
@@ -246,6 +247,7 @@
                <item>The moneyes behind by any gent<ex>lemen</ex> toward the masque are to be gathered &amp; Collected this Terme by <persName n="John Pecke" role="butler">Iohn Pecke</persName> the Butler or former orders therin to be put in execuc<ex>i</ex>on if payment be not made./</item>
             </list>
             <gap reason="omitted"/>
+            </div>
             
          </div>
       </body>
