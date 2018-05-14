@@ -236,6 +236,7 @@
       </revisionDesc>
    </teiHeader>
    
+
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
@@ -243,7 +244,7 @@
             <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 137-8">RLITTS</seg></head>
          <div type="transcription">
             <div>
-               <head>f 2 <date from-iso="1605-11-01" to-iso="1606-11-01"></date><supplied>( 1 November - 1 November) (All Payments)</supplied></head>
+               <head>f 2 <date from-iso="1605-11-01" to-iso="1606-11-01"></date><supplied>( 1 November - 1 November) (All Payments)</supplied></head> <!-- KC: we don't supply dates in the 1 Nov to 1 Nov line unless it is ambiguious, e.g. 1 Nov 1605 to 2 Nov 1606 -->
                <pb n="2" type="folio"/> 
          
                <gap reason="omitted"/>
@@ -297,7 +298,84 @@
    </text>
    
    
-   
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1606-09-29" to-iso="1607-09-29" cert="medium">1606-7</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 139">RLITTS</seg></head>
+         <div type="transcription">
+            <div>
+               <head>f 12v <date from-iso="1606-11-01" to-iso="1607-11-01"></date><supplied>( 1 November - 1 November) (All Payments)</supplied></head>
+               <pb n="12v" type="folio"/> 
+               
+               <gap reason="omitted"/>   
+               
+               <table>
+                  <row>
+                     <cell>Item paid to the Music<ex>i</ex>ons for their fee on
+                        Alhollandaie 1606</cell>
+                     <cell>xx s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 13 </head>
+               <pb n="13" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>I
+                        tem paid for 2 staffetorches for the revells on
+                        Candlemas Even</cell>
+                     <cell>ij s.</cell>
+                  </row>
+                  <row>
+                     <cell>Item paid for a play on Candlemas Daye 1606</cell>
+                     <cell>v li.</cell>
+                  </row>
+                  <gap reason="omitted"/>
+                  <row>
+                     <cell>Item paid to the Music<ex>i</ex>ons for their ffee the
+                        same daie</cell>
+                     <cell>xx s.</cell>
+                  </row>
+                  <gap reason="omitted"/>
+                  <row>
+                     <cell>Item paid for 4 staff torches for the Revells the
+                        same daie</cell>
+                     <cell>iiij s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 13v </head>
+               <pb n="13v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item paid to Raphe Smyth the Carpenter <gap reason="omitted"/> for pullinge
+                        downe the gallery in the hall where the Musicons<note type="foot">Musicons: <hi rend="italic">for</hi> Music<ex>i</ex>ons<hi rend="italic">abbreviation mark missing</hi></note> vse
+                        to staund</cell>
+                     <cell>ij s. vj d.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <note type="editorial" n="endnote">
+                  <ab>While 'the gallery in the hall where the Musicons vse to staund' is mentioned nowhere else, a 'Mussick
+                     Roome' is mentioned in Inner Temple records beginning in 1614–15 (see p 183). These references may
+                     be compared to a place for musicians recorded for Lincoln's Inn records beginning in 1632–3 (see
+                     p 232, ll.15–16). Musical structures of both Inns are discussed in the Introduction, p xxviii–xxxii.
+                  </ab> <!-- KC: cross-reference pagination -->
+               </note>
+            </div>
+         </div>
+      </body>
+   </text>
+
    
    
    
