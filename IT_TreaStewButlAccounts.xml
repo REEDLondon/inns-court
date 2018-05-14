@@ -231,10 +231,79 @@
       </profileDesc>
       <revisionDesc>
          <!-- Add new major milestone changes to top -->
+         <change when="2018-05-14" who="#KC">added records to file</change>
          <change when="2018-02-03" who="#JAKA1">created document</change>
       </revisionDesc>
    </teiHeader>
-
+   
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1605-09-29" to-iso="1606-09-29" cert="medium">1605-6</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 137-8">RLITTS</seg></head>
+         <div type="transcription">
+            <div>
+               <head>f 2 <date from-iso="1605-11-01" to-iso="1606-11-01"></date><supplied>( 1 November - 1 November) (All Payments)</supplied></head>
+               <pb n="2" type="folio"/> 
+         
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>It<ex>e</ex>m p<ex>ai</ex>d for a play on Allhollanday Anno D<ex>omi</ex>ni 1605</cell>
+                     <cell>v li.</cell>
+                  </row>
+                  <gap reason="omitted"/>
+                  <row>
+                     <cell>It<ex>e</ex>m p<ex>ai</ex>d to the Musytyons the same daye</cell>
+                     <cell>xx s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 2v</head>
+               <pb n="2v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>It<ex>e</ex>m p<ex>ai</ex>d for iiij<hi rend="superscript">or</hi> staftorches for Revell<ex>es</ex> the Satterdaye
+                        before Candlemas daye<note type="foot">Satterdaye
+                           before Candlemas daye: <hi rend="italic">26 January 1605/6</hi></note></cell>
+                     <cell>iiij s.</cell>
+                  </row>
+                  <row>
+                     <cell>It<ex>e</ex>m p<ex>ai</ex>d for a Play on Candlemas day
+                        laste 1605</cell>
+                     <cell>v li.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 3</head>
+               <table>
+                  <row>
+                     <cell>It<ex>e</ex>m p<ex>ai</ex>d to the Musyc<ex>i</ex>ons the same daye</cell>
+                     <cell>xx s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+         </div>
+      </body>
+   </text>
+   
+   
+   
+   
+   
+   
+   
+<!-- =============================================== -->   
+<!-- KC: record added by Diane Jakacki -->
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
