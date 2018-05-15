@@ -557,6 +557,7 @@
                <head>f 55v <date from-iso="1610-11-01" to-iso="1611-11-01"></date><supplied>( 1 November - 1 November) (All payments)</supplied></head>
                <pb n="55v" type="folio"/> 
                <gap reason="omitted"/>      
+               
                <table>
                   <row>
                      <cell>Item paid for a play on Alhallonday Anno
@@ -568,6 +569,7 @@
                      <cell>xx s.</cell>
                   </row>
                </table>
+               
                <gap reason="omitted"/>
                <table>
                   <row>
@@ -579,7 +581,9 @@
                   <cell>ij s.</cell>
                </row>
                </table>
-               <gap reason="omitted"/><table>
+               
+               <gap reason="omitted"/>
+               <table>
                   <row>
                      <cell>Item paid for a play on Candlemas day last</cell>
                      <cell> v li.</cell>
@@ -590,6 +594,7 @@
                   </row>
                </table>
                <gap reason="omitted"/>
+               
                <table>
                   <row>
                      <cell> It<ex>em</ex> paid for 2 staffe torches the same day</cell>
