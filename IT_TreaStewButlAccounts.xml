@@ -433,11 +433,76 @@
                </div>
          </div>
       </body>
+   </text>              
+               
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1608-09-29" to-iso="1609-09-29" cert="medium">1608-9</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 142">RLITTS</seg></head>
+         
+         <div type="transcription">
+            
+            <div>
+               <head>f 36 <date from-iso="1608-11-01" to-iso="16098-11-01"></date><supplied>( 1 November - 1 November) (All payments)</supplied></head>
+               <pb n="36" type="folio"/> 
+               <gap reason="omitted"/>    
+               <table>
+                  <row>
+                     <cell>Ite<ex>m</ex> paid for a play on Allhollen Daie anno
+                        d<ex>omi</ex>ni 1608</cell>
+                     <cell>iiij li. xv s.</cell>
+                  </row>
+               </table>
+            </div>
+            
+            <div>
+               <head>f 36v</head>
+               <pb n="36v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Ite<ex>m</ex> paid to the music<ex>i</ex>ons the same daie</cell>
+                     <cell>xx s.</cell>
+                  </row>
+                  <row>
+                     <cell>Ite<ex>m</ex> paid for 3 do<ex>ssen</ex> 3 torches spent this whole
+                        yeare at Revells at x s. the dozen</cell>
+                     <cell>xxxij s. vj d.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 37v</head>
+               <pb n="37v" type="folio"/>
+               <gap reason="omitted"/>
+               
+               <table>
+                  <row>
+                     <cell>Ite<ex>m</ex> given to the gent<ex>lemens</ex> Revelles in Mich<ex>aelm</ex>as
+                        Terme 3 revelling night<ex>es</ex></cell>
+                     <cell>iij li.</cell>
+                  </row>
+                     <gap reason="omitted"/>
+                  <row>
+                     <cell>Ite<ex>m</ex> paied for a play on Candlemas Daie laste 1608</cell>
+                     <cell>v li.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+               
+            </div>    
+      </body>
    </text>
                
-   
-   
-   
+
+
+
+
+
 <!-- =============================================== -->   
 <!-- KC: record added by Diane Jakacki -->
    <text ana="taxon:inner_temple" type="record">
