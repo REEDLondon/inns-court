@@ -493,7 +493,6 @@
                </table>
                <gap reason="omitted"/>
             </div>
-               
             </div>    
       </body>
    </text>
@@ -546,7 +545,64 @@
       </body>
    </text>
                
-               
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1610-09-29" to-iso="1611-09-29" cert="medium">1610-11</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 146">RLITTS</seg></head>
+         
+         <div type="transcription">
+            
+            <div>
+               <head>f 55v <date from-iso="1610-11-01" to-iso="1611-11-01"></date><supplied>( 1 November - 1 November) (All payments)</supplied></head>
+               <pb n="55v" type="folio"/> 
+               <gap reason="omitted"/>      
+               <table>
+                  <row>
+                     <cell>Item paid for a play on Alhallonday Anno
+               D<ex>omi</ex>ni 1610</cell> 
+                     <cell>vj li.</cell>
+                  </row>
+                  <row>
+                     <cell>It<ex>em</ex> paid for Musick the same day</cell> 
+                     <cell>xx s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item paid for Musicke the 5 No<ex>vember</ex> 1610</cell> 
+                     <cell>xiij s. iiij d.</cell>
+                  </row>
+               <row>
+                  <cell>Item paid for two staffe torches the same day</cell> 
+                  <cell>ij s.</cell>
+               </row>
+               </table>
+               <gap reason="omitted"/><table>
+                  <row>
+                     <cell>Item paid for a play on Candlemas day last</cell>
+                     <cell> v li.</cell>
+                  </row>
+                  <row>
+                     <cell>It<ex>em</ex> paid for musicke the same day</cell>
+                     <cell> xx s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell> It<ex>em</ex> paid for 2 staffe torches the same day</cell>
+                     <cell>ij s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+         </div>
+      </body>
+   </text>
+ 
                
                
                
