@@ -607,7 +607,72 @@
          </div>
       </body>
    </text>
- 
+   
+   
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1611-09-29" to-iso="1612-09-29" cert="medium">1611-12</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 147">RLITTS</seg></head>
+         
+         <div type="transcription">
+            
+            <div>
+               <head>f 64-4v <date from-iso="1611-11-01" to-iso="1612-11-01"></date><supplied>( 1 November - 1 November) (All payments)</supplied></head>
+               <pb n="64-4v" type="folio"/> 
+               <gap reason="omitted"/>       
+               <table>
+                  <row>
+                     <cell>Item paid for 2 staffe torches vppon Alhollowday</cell>
+                     <cell>ij s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>It<ex>em</ex> paid to the Musicions for their ffee the same day</cell>
+                     <cell>xx s.</cell>
+                  </row>
+                  <row>
+                     <cell>It<ex>em</ex> paid for a Consort of Musicke the same day</cell>
+                     <cell>l s.</cell>
+                  </row>
+                  <row>
+                     <cell>It<ex>em</ex> for Antick<ex>es</ex> or puppitt<ex>es</ex> the same day</cell>
+                     <cell>xl s.</cell>
+                  </row>
+                  <row>
+                     <cell>It<ex>em</ex> paid for the Music<ex>i</ex>ons ffee the 5 of N<ex>ovember</ex></cell>
+                     <cell>xiij s. iiij d.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item paid for 2 staffe torches on Candlemas day</cell>
+                     <cell>ij s. |</cell>
+                  </row>
+                  <row>
+                     <cell>Item paid for a play the same day</cell>
+                     <cell>vj li.</cell>
+                  </row>
+                  <row>
+                     <cell>Item paid for Musicke the same day</cell>
+                     <cell>xx s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <note type="editorial" n="endnote">
+                  Antics and puppets, plus the consort, seem to have replaced the customary play on All Saints' Day, due
+                  to the ban on the performance of the play.
+               </note>
+            </div>
+            
+         </div>
+      </body>
+   </text>
+               
+               
                
                
                
