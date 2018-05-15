@@ -444,7 +444,7 @@
          <div type="transcription">
             
             <div>
-               <head>f 36 <date from-iso="1608-11-01" to-iso="16098-11-01"></date><supplied>( 1 November - 1 November) (All payments)</supplied></head>
+               <head>f 36 <date from-iso="1608-11-01" to-iso="1609-11-01"></date><supplied>( 1 November - 1 November) (All payments)</supplied></head>
                <pb n="36" type="folio"/> 
                <gap reason="omitted"/>    
                <table>
@@ -498,7 +498,60 @@
       </body>
    </text>
                
-
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1609-09-29" to-iso="1610-09-29" cert="medium">1609-10</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 144">RLITTS</seg></head>
+         
+         <div type="transcription">
+            
+            <div>
+               <head>f 47v <date from-iso="1609-11-01" to-iso="1610-11-01"></date><supplied>( 1 November - 1 November) (All payments)</supplied></head>
+               <pb n="36" type="folio"/> 
+               <gap reason="omitted"/>    
+               <table>
+                  <row>
+                     <cell>It<ex>em</ex> paid for a play on Alholand day 1609</cell>
+                     <cell>v li.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 48</head>
+               <pb n="48" type="folio"/>
+               <table>
+                  <row>
+                     <cell>Item paid for musicke the same day</cell>
+                     <cell>xx s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>It<ex>em</ex> paid for a play on Candlemas day</cell>
+                     <cell>v li.</cell>
+                  </row>
+                  <row>
+                     <cell>It<ex>em</ex> paid for musicke the same day</cell>
+                     <cell>xx s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+         </div>
+      </body>
+   </text>
+               
+               
+               
+               
+               
+               
+               
 
 
 
@@ -581,8 +634,7 @@
                No masque is known to have been performed at Ely House, the bishop of Ely's town residence in Holborn, this year. The 'maske at Elye house' (p 153, l.25) was possibly a rehearsal of Beaumont's masque (see Chambers, <title>Elizabethan Stage</title>, vol 3, 235).   <!-- KC: Cross-reference pagination -->
             </note>
          </div>
-         
-         
+            
          <div>
             <head>f 75v <supplied></supplied></head>
             <pb n="f 75v" type="folio"/>
