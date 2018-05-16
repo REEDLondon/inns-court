@@ -911,15 +911,114 @@
                   <gap reason="omitted"/>
                   <note type="editorial" n="endnote">
                      It is not clear exactly what was being reimbursed or rewarded by the payment on f 94v. The round
-                     sum would suggest a reward rather than a reimbursement. The spending of domus money suggests                         that the student revellers performed before an invited audience whom the Inn wished to impress.                           (See Bulstrode Whitelocke’s description of organizing the revels at Middle Temple 1628–9, pp 223–6.)
+                     sum would suggest a reward rather than a reimbursement. The spending of domus money suggests                         that the student revellers performed before an invited audience whom the Inn wished to impress.                           (See Bulstrode Whitelocke’s description of organizing the revels at Middle Temple 1628-9, pp 223-6.)
                   </note>  <!-- KC: cross-reference pagination -->
                </div>
          </div>
       </body>
    </text>
   
-  
-  
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1615-09-29" to-iso="1616-09-29" cert="medium">1615-16</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 186-7">RLITTS</seg></head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 103v <date from-iso="1615-11-01" to-iso="1616-11-01"></date><supplied>(1 November - 1 November) (Payments)</supplied></head>
+               <pb n="103v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item p<ex>ay</ex>d to the Kinges Ma<ex>ies</ex>tie servant<ex>es</ex> for a play
+                        vpon Allhallon day 1615</cell>
+                     <cell rend="right">v li.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item p<ex>ay</ex>d for 2 staffe torches the same day</cell>
+                     <cell rend="right">ij s.</cell>
+                  </row>
+                  <row>
+                     <cell>Item p<ex>ay</ex>d to Iohn Hopper for ye Musitions fee ye
+                        same day</cell>
+                     <cell rend="right">xx s.</cell>
+                  </row>
+                  <row>
+                     <cell>Item p<ex>ay</ex>d for the Musitions fee the 5<hi rend="superscript">th</hi> of November</cell>
+                     <cell rend="right">xiij s. iiij d.</cell>
+                  </row>
+                  <row>
+                     <cell>Item p<ex>ay</ex>d for 2 dosen of torches for reuells the 5 12
+                        18 &amp; 25 of November<note type="foot">5 12 18 &amp; 25 of November: <hi rend="italic">the first two were Tuesday nights, the second two Monday nights</hi></note></cell>
+                     <cell rend="right">xx s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 104</head>
+               <pb n="104" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item p<ex>ay</ex>d for a play vpon Candlemas day</cell>
+                     <cell rend="right">vj li. xiij s. iiij d.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item p<ex>ay</ex>d for the musitions fee the same day</cell>
+                     <cell rend="right">xx s.</cell>
+                  </row>
+                  <row>
+                     <cell>Item p<ex>ay</ex>d to<note type="foot">to: <hi rend="italic">for</hi> for</note> 2 staffe torches the same day</cell>
+                     <cell rend="right">ij s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               
+               <div>
+                  <head>f 106v</head>
+                  <pb n="106v" type="folio"/>
+                  <gap reason="omitted"/>
+                  <table>
+                     <row>
+                        <cell>Item p<ex>ay</ex>d to Nicholas Polhill for a debt rem<ex>aining</ex>
+                           due vnto him from this house aboute ye maske
+                           to court</cell>
+                        <cell rend="right">xx li.</cell>
+                     </row>
+                  </table>
+                  <note type="editorial" n="endnote">
+                     <!-- @en 186-7 -->
+                  </note>  <!-- KC: cross-reference -->
+               </div>
+               
+               <div>
+                  <head>f 108</head>
+                  <pb n="108" type="folio"/>
+                  <gap reason="omitted"/>
+                  <table>
+                     <row>
+                        <cell>Item p<ex>ay</ex>d to mr Iordan of the bench towarde the
+                           charge of the barryers</cell>
+                        <cell rend="right">L li.</cell>
+                     </row>
+                  </table>
+                  <gap reason="omitted"/>
+                  <note type="editorial" n="endnote">
+                     <!-- @en 186-7 -->
+                  </note>  <!-- KC: cross-reference -->
+               </div>
+               
+            </div>
+               
   
   
   
