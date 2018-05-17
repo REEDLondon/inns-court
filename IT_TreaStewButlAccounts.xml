@@ -1146,8 +1146,57 @@
       </body>
    </text>
    
-   
-   
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1617-09-29" to-iso="1618-09-29" cert="medium">1617-18</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 201-2">RLITTS</seg></head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 126v <date from-iso="1617-11-01" to-iso="1618-11-01"></date><supplied>(1 November - 1 November) (Payments)</supplied></head>
+               <pb n="126v" type="folio"/>   
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell></cell>
+                     <cell rend="right">li.</cell>
+                     <cell rend="right">s.</cell>
+                     <cell rend="right">d.</cell>
+                  </row><row>
+                     <cell>Imprimis paid for a play on Alhollon day</cell>
+                     <cell rend="right">6</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">0</cell>
+                  </row>
+                  <row>
+                     <cell>It<ex>em</ex> paid paid<note type="foot">paid paid: <hi rend="italic">dittography</hi></note> for a playe on Candlemas daye</cell>
+                     <cell rend="right">6</cell>
+                     <cell rend="right">013</cell>
+                     <cell rend="right">4</cell>
+                  </row>
+                  <row>
+                     <cell>It<ex>em</ex> paid to the Musitions for the fifte of november</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">13</cell>
+                     <cell rend="right">4</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>It<ex>em</ex> paid to the Musitions for a yere ffee</cell>
+                     <cell rend="right">2</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">0</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+      </body>
+   </text>
+               
    
    
    
