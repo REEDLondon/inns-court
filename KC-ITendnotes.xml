@@ -235,19 +235,108 @@
       </revisionDesc>
    </teiHeader>
    
+ <text>
+    <body>
+       <div type="endnote">
+             <p>@en 139 IT Arch: FIN/1/1 f 13v</p>
+          <p>While 'the gallery in the hall where the Musicons vse to staund' is mentioned nowhere else, a 'Mussick
+          Roome' is mentioned in Inner Temple records beginning in 1614-15 (see p 183). These references may
+          be compared to a place for musicians recorded for Lincoln's Inn records beginning in 1632-3 (see
+          p 232, ll.15-16). Musical structures of both Inns are discussed in the Introduction, p xxviii-xxxii.</p>
+          <!-- KC: Cross-ref -->
+       </div>
+    </body>
+ </text>  
+   
+   <text>
+      <body>
+         <div type="endnote">
+               <p>@en 141 IT Arch: FIN/1/1 f 23v</p>
+               <p>The 'Oxford Tragedye' is otherwise unknown: see Appendix 6.3.</p>
+         </div>
+      </body>
+   </text>
+   
+   <text>
+      <body>
+         <div type="endnote">
+               <p>@en 147 IT Arch: FIN/1/1 ff 64-4v</p>
+               <p>Antics and puppets, plus the consort, seem to have replaced the customary play on All Saints' Day, due
+               to the ban on the performance of the play.</p>
+         </div>
+      </body>
+   </text>
+   
+   <text>
+      <body>
+         <div type="endnote">
+            <p>@en 151-2 IT Arch: PAR/1/2 f 112v</p>
+            <p>The phrase 'late showe and sportes' (p 151, l.41) refers to Beaumont’s <title>Masque of the Inner Temple and
+               Gray’s Inn</title>, performed in the Banqueting House, Whitehall, on 20 February 1612/13, following the
+               marriage of Princess Elizabeth and the count palatine. The figure 'xijC li.'(£1200), if doubled to allow
+               for Gray’s Inn's share, tallies roughly with the total of £2255 8s 11d calculated by Orbison (ed), <title>Collections</title>
+               12, p 7, to have been the cost of George Chapman’s masque presented by the Middle Temple and
+               Lincoln's Inn for the same occasion.</p>
+         </div>
+      </body>
+   </text>
+   
+   
+   <text>
+      <body>
+         <div type="endnote">
+            <p>@en 153 IT Arch: FIN/1/1 ff 72v, 73, 75v</p> 
+               <p>Apparently two different companies were booked for the same afternoon ('another company of players,'
+               p 153, l.14), the second of which did not perform. If so, this is the only instance in the Inner Temple
+               records of a company of players being paid for not performing.</p>
+               <p>No masque is known to have been performed at Ely House, the bishop of Ely's town residence in
+               Holborn, this year. The 'maske at Elye house' (p 153, l.25) was possibly a rehearsal of Beaumont's
+               masque (see Chambers, <title>Elizabethan Stage</title>, vol 3, 235).</p>
+               <p>Winchester House (p 153, l.39) was the residence of the bishop of Winchester in Southwark. It was
+               from Southwark that the Inner Temple and Gray's Inn masquers proceeded by water to Whitehall, the
+               theme of the masque being the marriage of the Rivers Thames and Rhine.</p>
+            <!-- KC: Cross-ref -->
+         </div>
+      </body>
+   </text>
+   
+   <text>
+      <body>
+         <div type="endnote">
+            <p>@en 182 IT Arch: FIN/1/1 ff 91v, 92, 94v</p>           <!-- KC: Cross-ref -->
+               <p>The phrase 'the Kinges Maiesties servantes' (l.18, see also l.28) is the earliest indication of which playing company performed at the Inner Temple. Under one name or another (including the 'Blackfryers
+               Players' in 1629-30: see p 226, l.40) this company - Shakespeare's company - performed at the Inner
+               Temple from this year forward, and perhaps earlier. But in 1601-2 the same company evidently played
+               at the Middle Temple: see Appendix 6.3, <title>Twelfth Night</title>.</p>
+               <p>It is not clear exactly what was being reimbursed or rewarded by the payment on f 94v. The round
+               sum would suggest a reward rather than a reimbursement. The spending of domus money suggests
+               that the student revellers performed before an invited audience whom the Inn wished to impress. (See
+               Bulstrode Whitelocke's description of organizing the revels at Middle Temple 1628-9, pp 223-6.)</p>
+         </div>
+      </body>
+   </text>
+   
+   
 <text>
    <body>
       <div type="endnote">
-         <ab>@en 186-7 IT Arch: FIN/1/1 ff 106v, 108
-         The 'maske to court' (p 186, ll.38-9), that is, the masque that was taken to court, was Beaumont's
+          <p>@en 186-7 IT Arch: FIN/1/1 ff 106v, 108</p>
+         <p>The 'maske to court' (p 186, ll.38-9), that is, the masque that was taken to court, was Beaumont's
          <title>Masque of the Inner Temple and Gray's Inn</title>, performed in the Banqueting House, Whitehall, on 20
          February 1612/13. The 'barryers' (p 187, l.4) may be an anticipatory (or misdated) reference to the
-         barriers entertainment held on 4 November 1616 (see Appendix 6.1).</ab> <!-- Cross-ref -->
+         barriers entertainment held on 4 November 1616 (see Appendix 6.1).</p>
+         <!-- KC: Cross-ref -->
       </div>
    </body>
 </text>
    
-  
+   <text>
+      <body>
+         <div type="endnote">
+            <p></p>
+         </div>
+      </body>
+   </text>
   
   
   
