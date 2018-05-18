@@ -1425,8 +1425,48 @@
       </body>
    </text>
    
-   
-   
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1622-09-29" to-iso="1623-09-29" cert="medium">1622-3</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 210">RLITTS</seg>
+         </head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 160v <date from-iso="1622-11-01" to-iso="1623-11-01"></date><supplied>(1 November - 1 November) (Payments)</supplied>
+               </head>
+               <pb n="160v" type="folio"/> 
+               <gap reason="omitted"/>   
+               <table>
+                  <row>
+                     <cell>Item p<ex>ai</ex>d for a play all S<ex>ain</ex>t<ex>es</ex> day</cell>
+                     <cell rend="right">7</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">0</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item to the Music<ex>i</ex>ons for their wages this yeare</cell>
+                     <cell rend="right">2</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">0</cell>
+                  </row>
+                  <row>
+                     <cell>It<ex>e</ex>m to them more for playeng the fifte of November</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">13</cell>
+                     <cell rend="right">4</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+      </body>
+   </text>
+               
    
    
    
