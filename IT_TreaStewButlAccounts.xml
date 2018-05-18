@@ -1200,7 +1200,7 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1618-09-29" to-iso="1619-09-29" cert="medium">1618-9</date>
+            <date from-iso="1618-09-29" to-iso="1619-09-29" cert="medium">1618-19</date>
             <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 203">RLITTS</seg></head>
          
          <div type="transcription">
@@ -1249,6 +1249,51 @@
       </body>
    </text>
                
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1619-09-29" to-iso="1620-09-29" cert="medium">1619-20</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 205">RLITTS</seg></head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 141 <date from-iso="1619-11-01" to-iso="1620-11-01"></date><supplied>(1 November - 1 November) (Payments)</supplied></head>
+               <pb n="141" type="folio"/> 
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item paid for a play on Allhollonday 1619</cell>
+                     <cell rend="right">7</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">0</cell>
+                  </row>
+                  <row>
+                     <cell>Item for a play on Candlemas day last 1619.</cell>
+                     <cell rend="right">7</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">0</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item paid to the Musitians for there whole yeares fee</cell>
+                     <cell rend="right">2</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">0</cell>
+                  </row>
+                  <row>
+                     <cell>Item to them more for the fift of Nouember</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">13</cell>
+                     <cell rend="right">4</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+      </body>
+   </text>
    
    
    
