@@ -231,14 +231,31 @@
       </profileDesc>
    </teiHeader>
 
-   <text ana="taxon:letter" type="record">
+   <text ana="taxon:bibliography" type="endnote">
       <body xml:lang="eng">
-         <head>Inns of Court
-            <date from-iso="YYYY" to-iso="YYYY">YYYY-YYYY</date>
-            <seg ana="taxon:RL1234" corresp="taxon:RLPIC1 pp. numbers">six number code</seg></head>
-         <div type="transcription">
-            <head> sheet or folio<supplied>supplied from text</supplied></head>
+         <head>            
+            <seg ana="taxon:RLPIC1" corresp="#4-5"/></head>
+         <div type="note">
+            <head></head>
             <pb n="number" type="sheet"/>
+            <div>
+               <ab>Dugdale summarizes this entry: see Appendix 11. Apparently Lincoln’s Inn had earlier observed or tolerated revels on many holidays, including the feasts of Saints William, Hugh, Edmund, Peter, and Thomas. These multiple holidays were now rationalized down to four, including two which persisted well into the seventeenth century: All Hallows (1 November) and the Purification of the Virgin or Candlemas (2 February). This entry is referenced by a table-of-contents type notation on f 11, annotated ‘4 Reuells fo: 20.a’ with the following summary:</ab>
+               <table>
+                  <row>
+                     <cell></cell>
+                     <cell>St Williams</cell>
+                     <cell></cell>
+                  </row>
+                  <row>
+                     <cell>All hallens</cell>
+                     <cell>St Hughes</cell>
+                     <cell>Reuells</cell>
+                  </row>
+                  <row>
+                     <cell>
+               
+               
+            </div>
 
          </div>
       </body>
