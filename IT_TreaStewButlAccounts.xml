@@ -1344,6 +1344,56 @@
       </body>
    </text>
    
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1621-09-29" to-iso="1622-09-29" cert="medium">1621-22</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 209">RLITTS</seg></head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 154v <date from-iso="1621-11-01" to-iso="1622-11-01"></date><supplied>(1 November - 1 November) (Payments)</supplied></head>
+               <pb n="154v" type="folio"/> 
+               <gap reason="omitted"/>   
+               <table>
+                  <row>
+                     <cell>It<ex>em</ex> paid to the Kinges players for two plaies on
+                        Allhallonday &amp; Candlemas day last</cell>
+                     <cell rend="right">14</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">0</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 155</head>
+               <pb n="155" type="folio"/>
+               <table>
+                  <row>
+                     <cell></cell>
+                     <cell rend="right">li.</cell>
+                     <cell rend="right">s.</cell>
+                     <cell rend="right">d.</cell>
+                  </row>
+                  <row>
+                     <cell>It<ex>em</ex> to the Musitians for their ffee for this yeere &amp; the
+                        5<hi rend="superscript">th</hi> of Novemb<ex>er</ex></cell>
+                     <cell rend="right">2</cell>
+                     <cell rend="right">13</cell>
+                     <cell rend="right">4</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>               
+            </div>
+         </div>
+      </body>
+   </text>
+   
+   
+   
+   
    
    
    
