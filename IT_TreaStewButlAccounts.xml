@@ -1708,7 +1708,77 @@
       </body>
    </text>
    
-   
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1627-09-29" to-iso="1628-09-29" cert="medium">1627-8</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 217-8">RLITTS</seg>
+         </head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 192 <date from-iso="1627-11-03" to-iso="1628-11-03"></date><supplied>(3 November - 3 November) (Payments)</supplied>
+               </head>
+               <pb n="192" type="folio"/>       
+               <gap reason="omitted"/>  
+               <table>
+                  <row>
+                     <cell>Item to the Cockpitt plaiers for a play on
+                        Candlemas day</cell>
+                     <cell rend="right">vij li.</cell>
+                  </row>
+                  <row>
+                     <cell>Item more to the kings plaiers for a play
+                        on Alhallonday</cell>
+                     <cell rend="right">vij li.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>  
+               <table>
+                  <row>
+                     <cell>Item to the Musitians for theire wages this yeare</cell>
+                     <cell rend="right">xl s.</cell>
+                  </row>
+                  <row>
+                     <cell>Item more to them for attending on the 5<hi rend="superscript">th</hi>
+                        of November</cell>
+                     <cell rend="right">xiij s. iiij d.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <note type="editorial" n="endnote">
+                  <!-- KC: @en 217 IT Arch: FIN1/1 f 192 -->
+               </note>
+            </div>
+            
+            <div>
+               <head>f 193</head>
+               <pb n="193" type="folio"/>
+            <gap reason="omitted"/>  
+            <table>
+               <row>
+                  <cell>Item paied more to him<note type="foot">him: <hi rend="italic">William White, the chandler</hi></note> for a dozen of Torches on
+                     the 5<hi rend="superscript">th</hi> of November 1627 when the plaie was</cell>
+                  <cell rend="right"></cell>
+               </row>
+               <row>
+                  <cell>Item for 3 lincks then</cell>
+                  <cell rend="right"></cell>
+               </row>
+               <row>
+                  <cell>Item for two Torches on Candlemas day 4 Torches in
+                     the Lent Vacac<ex>i</ex>on. &amp; 4 Torches in the Somer Vacac<ex>i</ex>on</cell>
+                  <cell rend="right"></cell>
+               </row>
+            </table>
+            <note type="editorial" n="endnote">
+               <!-- KC: @en 218 IT Arch: FIN/1/1 f 193 -->
+               <!-- KC: cross-ref -->
+            </note>
+            </div>
+         </div>
+      </body>
+   </text>
                
    
    
