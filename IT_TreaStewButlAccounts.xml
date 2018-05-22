@@ -1544,8 +1544,73 @@
       </body>
    </text>
                
-   
-   
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1625-09-29" to-iso="1626-09-29" cert="medium">1625-6</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 214">RLITTS</seg>
+         </head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 177v <date from-iso="1626-01-13" to-iso="1626-11-03"></date><supplied>(13 January 1625/6 - 3 November 1626) (Payments)</supplied>
+               </head>
+               <pb n="177v" type="folio"/>       
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item payed to the Players for a Playe on Allhallon
+                        day last</cell>
+                     <cell rend="right">vij li.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 178v </head>
+               <pb n="178v" type="folio"/>
+               <table>
+                  <row>
+                     <cell>Item to the Musitians for their ffee for Candlemas
+                        Day and Alhallon day, and the v<hi rend="superscript">th</hi> of November 1626</cell>
+                     <cell rend="right">liij s. iiij d.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <note type="editorial" n="endnote">
+                  <!-- KC: @en 241 IT Arch: FIN/1/1 f 178v -->
+                  <!-- KC: cross-ref -->
+               </note>
+            </div>
+            
+            <div>
+               <head>f 179v</head>
+               <pb n="179v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item to him<note type="foot">him: <hi rend="italic">William White, the chandler</hi></note> for Torches to search the house in
+                        the two longe vaccac<ex>i</ex>ons and for Candlemas and
+                        Alhallon nights</cell>
+                     <cell rend="right">x s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>I
+                        tem for Porters to keepe the Hall dores on
+                        Alhallonday last</cell>
+                     <cell rend="right">iiij s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+      </body>
+   </text>
+               
    
    
    
