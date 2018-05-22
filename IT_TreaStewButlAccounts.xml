@@ -1468,6 +1468,59 @@
       </body>
    </text>
                
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1623-09-29" to-iso="1624-09-29" cert="medium">1623-4</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 211">RLITTS</seg>
+         </head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 165 <date from-iso="1623-11-01" to-iso="1624-11-01"></date><supplied>(1 November - 1 November) (Payments)</supplied>
+               </head>
+               <pb n="165" type="folio"/>    
+               <table>
+                  <row>
+                     <cell>Item for two playes on Allholland day and
+                        Candlemas day</cell>
+                     <cell rend="right">14</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">0</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item to the Musitians for their wages</cell>
+                     <cell rend="right">02</cell>
+                     <cell rend="right">13</cell>
+                     <cell rend="right">4</cell>
+                  </row>
+                  <row>
+                     <cell>Item ‸<add place="above">more</add> to them for playing on the fift
+                        of November</cell> <!-- KC: caret -->
+                     <cell rend="right">00</cell>
+                     <cell rend="right">13</cell>
+                     <cell rend="right">4</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+      </body>
+   </text>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
    
