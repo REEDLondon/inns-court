@@ -1511,8 +1511,39 @@
       </body>
    </text>
    
-   
-   
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1624-09-29" to-iso="1625-09-29" cert="medium">1624-5</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 212">RLITTS</seg>
+         </head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 170 <date from-iso="1624-11-03" to-iso="1626-01-13"></date><supplied>(3 November 1624 - 13 January 1625/6) (Payments)</supplied>
+               </head>
+               <pb n="170" type="folio"/>       
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item for a play on Candlemas Daie 1624</cell>
+                     <cell rend="right">7</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">0</cell>
+                  </row>
+                  <row>
+                     <cell>Item to the Musitians for their ffee y<ex>a</ex>t day</cell>
+                     <cell rend="right">1</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">0</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+      </body>
+   </text>
+               
    
    
    
