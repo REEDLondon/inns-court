@@ -1610,8 +1610,106 @@
       </body>
    </text>
                
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1626-09-29" to-iso="1627-09-29" cert="medium">1626-7</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 215">RLITTS</seg>
+         </head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 184 <date from-iso="1626-11-03" to-iso="1627-11-03"></date><supplied>(3 November - 3 November) (Payments)</supplied>
+               </head>
+               <pb n="184" type="folio"/>       
+               <gap reason="omitted"/>   
+               <table>
+                  <row>
+                     <cell>Item to the Kings Ma<ex>ies</ex>ties plaiers for a playe
+                        on Candlemas day last</cell>
+                     <cell rend="right">vij li.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 184v</head>
+               <pb n="184v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item to the gent<ex>lemen</ex> that were Revellers on
+                        Candlemas Day and Candlemas Eaven last by
+                        M<ex>aster</ex> Thr<ex>easour</ex>ers allowance</cell>
+                     <cell rend="right">xl s.</cell>
+                  </row>
+                  <row>
+                     <cell>Item to the Musique for theire Wages this yeare</cell>
+                     <cell rend="right">xl s.</cell>
+                  </row>
+                  <row>
+                     <cell>Item more to them for playinge on the fifth
+                        of November</cell>
+                     <cell rend="right">xiij s. iiij d.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 185</head>
+               <pb n="185" type="folio"/>
+               <table>
+                  <row>
+                     <cell>Item payed for the play on Alhallon Day last</cell>
+                     <cell rend="right">vij li.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item more to him<note type="foot">him: <hi rend="italic">William White, the chandler</hi></note> for 12 Torches for the Revells
+                        att Candlemas for two nights</cell>
+                     <cell rend="right">x s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item for two Torches for Alhollon Day last</cell>
+                     <cell rend="right">xviij d.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 185v</head>
+               <pb n="185" type="folio"/>
+               <gap reason="omitted"/>    
+               <table>
+                  <row>
+                     <cell>Item to the Players for theire play on the 5th
+                        of November 1627.</cell>
+                     <cell rend="right"></cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <ab>Item <gap reason="omitted"/> for porters to keepe the hall doors on Candlemas day and <del>all</del>
+                        Alhallon day viij s. <gap reason="omitted"/></ab>
+               <gap reason="omitted"/>
+               <note type="editorial" n="endnote">
+                  <!-- KC: @en 215 IT Arch: FIN/1/1 f 185v -->
+                  <!-- KC: cross-ref -->
+               </note>
+            </div>
+         </div>
+      </body>
+   </text>
    
    
+               
    
    
    
