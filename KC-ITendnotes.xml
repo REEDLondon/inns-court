@@ -353,6 +353,17 @@
       </body>
    </text>
    
+   
+   <text>
+      <body>
+         <div type="endnote">
+            <p>@en 217 IT Arch: FIN1/1 f 192</p>
+            <p>The 'Cockpitt plaiers' were Queen Henrietta’s men.</p>
+         </div>
+      </body>
+   </text>
+   
+   
    <text>
       <body>
          <div type="endnote">
@@ -363,6 +374,16 @@
          </div>
       </body>
    </text>
+
+
+   <text>
+      <body>
+         <div type="endnote">
+            <p></p>
+         </div>
+      </body>
+   </text>
+   
    
    <text>
       <body>
@@ -371,7 +392,33 @@
          </div>
       </body>
    </text>
-  
+   
+   
+   <text>
+      <body>
+         <div type="endnote">
+            <p></p>
+         </div>
+      </body>
+   </text>
+   
+   
+   <text>
+      <body>
+         <div type="endnote">
+            <p></p>
+         </div>
+      </body>
+   </text>
+   
+   
+   <text>
+      <body>
+         <div type="endnote">
+            <p></p>
+         </div>
+      </body>
+   </text>
   
   
 </TEI>
