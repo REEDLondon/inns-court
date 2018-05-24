@@ -1780,11 +1780,91 @@
       </body>
    </text>
                
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1628-09-29" to-iso="1629-09-29" cert="medium">1628-9</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 221">RLITTS</seg>
+         </head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 198v <date from-iso="1628-11-03" to-iso="1629-11-03"></date><supplied>(3 November - 3 November) (Payments)</supplied>
+               </head>
+               <pb n="198v" type="folio"/>    
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>I
+                        tem paied for a playe on Candlemas day last</cell>
+                     <cell rend="right">vij li.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item to the Musitians for attendinge on the 5th of
+                        November <del>last</del> ‸<add place="above">1628</add></cell>
+                     <cell rend="right">xiij s. iiij d.</cell>
+                  </row>
+                  <row>
+                     <cell>Item given to them by direction of M<ex>aster</ex> Tr<ex>easour</ex>er
+                        att the Bench Table in regard of theire extraordinarie
+                        Musicke on Candlemas night and some other nights</cell>
+                     <cell rend="right">xx s.</cell>
+                  </row>
+                  <row>
+                     <cell>Item to them more for theire ffee for the yeare last past</cell>
+                     <cell rend="right">xl s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <note type="editorial" n="endnote">
+                  <!-- KC: @en 221 IT Arch: FIN/1/1 f 198v -->
+                  <!-- KC: cross-ref -->
+               </note>
+            </div>
+         </div>
+      </body>
+   </text>
    
-   
-   
-   
-   
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1629-09-29" to-iso="1630-09-29" cert="medium">1629-30</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 226-7">RLITTS</seg>
+         </head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 205v <date from-iso="1629-11-03" to-iso="1630-11-03"></date><supplied>(3 November - 3 November) (Payments)</supplied>
+               </head>
+               <pb n="205v" type="folio"/>    
+               <table>
+                  <row>
+                     <cell>Item to the Musitians for attending on the 5<hi rend="superscript">th</hi>
+                        of November</cell>
+                     <cell rend="right">xiij s. iiij d.</cell>
+                  </row>
+                  <row>
+                     <cell>Item to the Blackfryers Players for a play on
+                        Candlemas day</cell>
+                     <cell rend="right">vij li.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item to the Musitians for their fee then<note type="foot">then: <hi rend="italic">Candlemas Day</hi></note></cell>
+                     <cell rend="right">xx s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+      </body>
+   </text>
+               
    
    
    
