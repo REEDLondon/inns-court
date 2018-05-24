@@ -1918,7 +1918,58 @@
       </body>
    </text>
                
-             
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1631-09-29" to-iso="1632-09-29" cert="medium">1631-2</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 229-30">RLITTS</seg>
+         </head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 220v <date from-iso="1631-11-03" to-iso="1632-11-03"></date><supplied>(3 November - 3 November) (Payments)</supplied>
+               </head>
+               <pb n="220v" type="folio"/>    
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item to the Musitians for theire ffee for Candlemas
+                        daye and Allhallondaye last</cell>
+                     <cell rend="right">002</cell>
+                     <cell rend="right">00</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+                  <row>
+                     <cell>Item more to them for attending on the 5<hi rend="supercript">th</hi> of
+                        November 1631</cell>
+                     <cell rend="right">000</cell>
+                     <cell rend="right">13</cell>
+                     <cell rend="right">04</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item to the Blackffriers Players for two Stageplayes
+                        acted here on those dayes<note type="foot">those dayes: <hi rend="italic">Candlemas and All Saints' Day</hi></note></cell>
+                     <cell rend="right">014</cell>
+                     <cell rend="right">00</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+                  <row>
+                     <cell>Item to fower Porters for keeping the Hall doares on
+                        Candlemas daye</cell>
+                     <cell rend="right">000</cell>
+                     <cell rend="right">04</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+      </body>
+   </text>
+               
              
              
              
