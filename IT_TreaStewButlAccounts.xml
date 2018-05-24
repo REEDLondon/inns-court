@@ -1970,7 +1970,64 @@
       </body>
    </text>
                
-             
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1632-09-29" to-iso="1633-09-29" cert="medium">1632-3</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 231-2">RLITTS</seg>
+         </head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 227v <date from-iso="1632-11-03" to-iso="1633-11-03"></date><supplied>(3 November - 3 November) (Payments)</supplied>
+               </head>
+               <pb n="227v" type="folio"/>    
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item to the Musitians for attending on the 5<hi rend="superscript">th</hi>
+                        of November last</cell>
+                     <cell rend="right">000</cell>
+                     <cell rend="right">13</cell>
+                     <cell rend="right">04</cell>
+                  </row>
+                  <row>
+                     <cell>Item to them for theire fee for Candlemas daye and
+                        Alhallowe daye last</cell>
+                     <cell rend="right">002</cell>
+                     <cell rend="right">00</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item to the Blackffriers players for two playes acted
+                        here on those dayes<note type="foot">those dayes: <hi rend="italic">Candlemas and All Saints' Day</hi></note></cell>
+                     <cell rend="right">014</cell>
+                     <cell rend="right">00</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+                  <row>
+                     <cell>Item to fower porters for keeping the hall dores on
+                        Candlemas daye last</cell>
+                     <cell rend="right">000</cell>
+                     <cell rend="right">04</cell>
+                     <cell rend="right">0</cell>
+                  </row>
+                  <row>
+                     <cell>Item to fower porters for keeping the hall dores on
+                        Alhallowedaye last</cell>
+                     <cell rend="right">000</cell>
+                     <cell rend="right">04</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <note type="editorial" n="endnote">
+                  <!-- KC: @en 132-2 IT Arch: FIN/1/1 f 227v -->
+               </note>
+               
              
              
              
