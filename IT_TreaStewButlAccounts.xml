@@ -1868,7 +1868,66 @@
          </div>
       </body>
    </text>
+             
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1630-09-29" to-iso="1631-09-29" cert="medium">1630-1</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 228">RLITTS</seg>
+         </head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 212 <date from-iso="1630-11-03" to-iso="1631-11-03"></date><supplied>(3 November - 3 November) (Payments)</supplied>
+               </head>
+               <pb n="212" type="folio"/>    
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item paid to the Musitians by order att the Bench
+                        Table vpon their petic<ex>i</ex>on, their fee for the last yeere,
+                        although noe Reavells weere held in the house</cell>
+                     <cell rend="right">002</cell>
+                     <cell rend="right">00</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+                  <row>
+                     <cell>Item paid to the Blackefryers plaiers for a Playe on
+                        Alhollondaie last,</cell>
+                     <cell rend="right">07</cell>
+                     <cell rend="right">00</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item to Will<ex>ia</ex>m ffoster for a new horne for
+                        the Pannierman</cell>
+                     <cell rend="right">001</cell>
+                     <cell rend="right">00</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <note type="editorial" n="endnote">
+                  <!-- KC: @en 228 IT Arch: FIN/1/1 f 212 -->
+               </note>
+            </div>
+         </div>
+      </body>
+   </text>
                
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
    
    
    
