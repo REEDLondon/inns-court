@@ -231,156 +231,1245 @@
       </profileDesc>
       <revisionDesc>
          <!-- Add new major milestone changes to top -->
+         <change when="2018-05-14" who="#KC">added records to file</change>
          <change when="2018-02-03" who="#JAKA1">created document</change>
       </revisionDesc>
    </teiHeader>
+   
 
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1612" to-iso="1613">1612-1613</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RLPIC1 pp. 153, 176">RLITTS</seg></head>
+            <date from-iso="1605-09-29" to-iso="1606-09-29" cert="medium">1605-6</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 137-8">RLITTS</seg>
+         </head>
          <div type="transcription">
-            <head>f 72v <supplied>(1 November - 1 November) (Payments)</supplied></head>
-            <pb n="f 72v" type="folio"/>
+            <div>
+               <head>f 2 <date from-iso="1605-11-01" to-iso="1606-11-01"></date><supplied>( 1 November - 1 November) (All payments)</supplied>
+               </head> <!-- KC: we don't supply year dates in the 1 Nov to 1 Nov line unless it is ambiguious, e.g. 1 Nov 1605 to 2 Nov 1606 -->
+               <pb n="2" type="folio"/> 
+         
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>It<ex>e</ex>m p<ex>ai</ex>d for a play on Allhollanday Anno D<ex>omi</ex>ni 1605</cell>
+                     <cell rend="right">v li.</cell>
+                  </row>
+                  <gap reason="omitted"/>
+                  <row>
+                     <cell>It<ex>e</ex>m p<ex>ai</ex>d to the Musytyons the same daye</cell>
+                     <cell rend="right">xx s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 2v</head>
+               <pb n="2v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>It<ex>e</ex>m p<ex>ai</ex>d for iiij<hi rend="superscript">or</hi> staftorches for Revell<ex>es</ex> the Satterdaye
+                        before Candlemas daye<note type="foot">Satterdaye
+                           before Candlemas daye: <hi rend="italic">26 January 1605/6</hi></note></cell>
+                     <cell rend="right">iiij s.</cell>
+                  </row>
+                  <row>
+                     <cell>It<ex>e</ex>m p<ex>ai</ex>d for a Play on Candlemas day
+                        laste 1605</cell>
+                     <cell rend="right">v li.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 3</head>
+               <table>
+                  <row>
+                     <cell>It<ex>e</ex>m p<ex>ai</ex>d to the Musyc<ex>i</ex>ons the same daye</cell>
+                     <cell rend="right">xx s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+         </div>
+      </body>
+   </text>
+   
+   
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1606-09-29" to-iso="1607-09-29" cert="medium">1606-7</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 139">RLITTS</seg>
+         </head>
+         <div type="transcription">
+            <div>
+               <head>f 12v <date from-iso="1606-11-01" to-iso="1607-11-01"></date><supplied>( 1 November - 1 November) (All payments)</supplied>
+               </head>
+               <pb n="12v" type="folio"/> 
+               
+               <gap reason="omitted"/>   
+               
+               <table>
+                  <row>
+                     <cell>Item paid to the Music<ex>i</ex>ons for their fee on
+                        Alhollandaie 1606</cell>
+                     <cell rend="right">xx s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 13 </head>
+               <pb n="13" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>I
+                        tem paid for 2 staffetorches for the revells on
+                        Candlemas Even</cell>
+                     <cell rend="right">ij s.</cell>
+                  </row>
+                  <row>
+                     <cell>Item paid for a play on Candlemas Daye 1606</cell>
+                     <cell rend="right">v li.</cell>
+                  </row>
+                  <gap reason="omitted"/>
+                  <row>
+                     <cell>Item paid to the Music<ex>i</ex>ons for their ffee the
+                        same daie</cell>
+                     <cell rend="right">xx s.</cell>
+                  </row>
+                  <gap reason="omitted"/>
+                  <row>
+                     <cell>Item paid for 4 staff torches for the Revells the
+                        same daie</cell>
+                     <cell rend="right">iiij s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 13v </head>
+               <pb n="13v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item paid to Raphe Smyth the Carpenter <gap reason="omitted"/> for pullinge
+                        downe the gallery in the hall where the Musicons<note type="foot">Musicons: <hi rend="italic">for</hi> Music<ex>i</ex>ons<hi rend="italic">abbreviation mark missing</hi></note> vse
+                        to staund</cell>
+                     <cell rend="right">ij s. vj d.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <note type="editorial" n="endnote">
+                  <!-- KC: @en 139 f 13v -->
+                  <ab>While 'the gallery in the hall where the Musicons vse to staund' is mentioned nowhere else, a 'Mussick
+                     Roome' is mentioned in Inner Temple records beginning in 1614–15 (see p 183). These references may
+                     be compared to a place for musicians recorded for Lincoln's Inn records beginning in 1632–3 (see
+                     p 232, ll.15–16). Musical structures of both Inns are discussed in the Introduction, p xxviii–xxxii.
+                  </ab> <!-- KC: cross-reference pagination -->
+               </note>
+            </div>
+         </div>
+      </body>
+   </text>
+
+
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1607-09-29" to-iso="1608-09-29" cert="medium">1607-8</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 141">RLITTS</seg>
+         </head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 23 <date from-iso="1607-11-01" to-iso="1608-11-01"></date><supplied>( 1 November - 1 November) (All payments)</supplied>
+               </head>
+               <pb n="23" type="folio"/> 
+               <gap reason="omitted"/>   
+               <table>
+                  <row>
+                     <cell>Item paid for the Musitions fee the same day<note type="foot">the same day: <hi rend="italic">All Hallows' Day</hi></note></cell>
+                     <cell rend="right">xx s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+               
+               <div>
+                  <head>f 23v </head>
+                  <pb n="23v" type="folio"/>
+                  <gap reason="omitted"/>
+                  <table>
+                     <row>
+                        <cell>Item paid for 2 staffe torches for the revells on
+                           Candlemas Even</cell>
+                        <cell rend="right">ij s.</cell>
+                     </row>
+                      <row>
+                         <cell>Item paid for a play on Candlemas Day called
+                            Oxford Tragedye</cell>
+                         <cell rend="right">v li.</cell>
+                      </row>
+                  </table>
+                   <gap reason="omitted"/>
+                  <table>
+                     <row>
+                        <cell>Item paid for 2 staffe torches the same daye</cell>
+                        <cell rend="right">ij s.</cell>
+                     </row>
+                     <row>
+                        <cell>Item paid to the Music<ex>i</ex>ons for their ffee the
+                           same Daye</cell>
+                        <cell rend="right">xx s.</cell>
+                     </row>
+                  </table>
+                  <gap reason="omitted"/>
+                 
+                  <note type="editorial" n="endnote">
+                     <!-- KC: @en 141 IT Arch: FIN/1/1 f 23v -->
+                     The 'Oxford Tragedye' is otherwise unknown: see Appendix 6.3.  <!-- KC: Cross-Reference -->
+                  </note>
+               </div>
+         </div>
+      </body>
+   </text>              
+               
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1608-09-29" to-iso="1609-09-29" cert="medium">1608-9</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 142">RLITTS</seg>
+         </head>
+         
+         <div type="transcription">
+            
+            <div>
+               <head>f 36 <date from-iso="1608-11-01" to-iso="1609-11-01"></date><supplied>( 1 November - 1 November) (All payments)</supplied>
+               </head>
+               <pb n="36" type="folio"/> 
+               <gap reason="omitted"/>    
+               <table>
+                  <row>
+                     <cell>Ite<ex>m</ex> paid for a play on Allhollen Daie anno
+                        d<ex>omi</ex>ni 1608</cell>
+                     <cell rend="right">iiij li. xv s.</cell>
+                  </row>
+               </table>
+            </div>
+            
+            <div>
+               <head>f 36v</head>
+               <pb n="36v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Ite<ex>m</ex> paid to the music<ex>i</ex>ons the same daie</cell>
+                     <cell rend="right">xx s.</cell>
+                  </row>
+                  <row>
+                     <cell>Ite<ex>m</ex> paid for 3 do<ex>ssen</ex> 3 torches spent this whole
+                        yeare at Revells at x s. the dozen</cell>
+                     <cell rend="right">xxxij s. vj d.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 37v</head>
+               <pb n="37v" type="folio"/>
+               <gap reason="omitted"/>
+               
+               <table>
+                  <row>
+                     <cell>Ite<ex>m</ex> given to the gent<ex>lemens</ex> Revelles in Mich<ex>aelm</ex>as
+                        Terme 3 revelling night<ex>es</ex></cell>
+                     <cell rend="right">iij li.</cell>
+                  </row>
+                     <gap reason="omitted"/>
+                  <row>
+                     <cell>Ite<ex>m</ex> paied for a play on Candlemas Daie laste 1608</cell>
+                     <cell rend="right">v li.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            </div>    
+      </body>
+   </text>
+               
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1609-09-29" to-iso="1610-09-29" cert="medium">1609-10</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 144">RLITTS</seg>
+         </head>
+         
+         <div type="transcription">
+            
+            <div>
+               <head>f 47v <date from-iso="1609-11-01" to-iso="1610-11-01"></date><supplied>( 1 November - 1 November) (All payments)</supplied>
+               </head>
+               <pb n="47v" type="folio"/> 
+               <gap reason="omitted"/>    
+               <table>
+                  <row>
+                     <cell>It<ex>em</ex> paid for a play on Alholand day 1609</cell>
+                     <cell rend="right">v li.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 48</head>
+               <pb n="48" type="folio"/>
+               <table>
+                  <row>
+                     <cell>Item paid for musicke the same day</cell>
+                     <cell rend="right">xx s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>It<ex>em</ex> paid for a play on Candlemas day</cell>
+                     <cell rend="right">v li.</cell>
+                  </row>
+                  <row>
+                     <cell>It<ex>em</ex> paid for musicke the same day</cell>
+                     <cell rend="right">xx s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+         </div>
+      </body>
+   </text>
+               
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1610-09-29" to-iso="1611-09-29" cert="medium">1610-11</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 146">RLITTS</seg>
+         </head>
+         
+         <div type="transcription">
+            
+            <div>
+               <head>f 55v <date from-iso="1610-11-01" to-iso="1611-11-01"></date><supplied>( 1 November - 1 November) (All payments)</supplied>
+               </head>
+               <pb n="55v" type="folio"/> 
+               <gap reason="omitted"/>      
+               
+               <table>
+                  <row>
+                     <cell>Item paid for a play on Alhallonday Anno
+               D<ex>omi</ex>ni 1610</cell> 
+                     <cell rend="right">vj li.</cell>
+                  </row>
+                  <row>
+                     <cell>It<ex>em</ex> paid for Musick the same day</cell> 
+                     <cell rend="right">xx s.</cell>
+                  </row>
+               </table>
+               
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item paid for Musicke the 5 No<ex>vember</ex> 1610</cell> 
+                     <cell rend="right">xiij s. iiij d.</cell>
+                  </row>
+               <row>
+                  <cell>Item paid for two staffe torches the same day</cell> 
+                  <cell rend="right">ij s.</cell>
+               </row>
+               </table>
+               
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item paid for a play on Candlemas day last</cell>
+                     <cell rend="right">v li.</cell>
+                  </row>
+                  <row>
+                     <cell>It<ex>em</ex> paid for musicke the same day</cell>
+                     <cell rend="right">xx s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               
+               <table>
+                  <row>
+                     <cell> It<ex>em</ex> paid for 2 staffe torches the same day</cell>
+                     <cell rend="right">ij s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+         </div>
+      </body>
+   </text>
+   
+   
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1611-09-29" to-iso="1612-09-29" cert="medium">1611-12</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 147">RLITTS</seg>
+         </head>
+         
+         <div type="transcription">
+            
+            <div>
+               <head>f 64-4v <date from-iso="1611-11-01" to-iso="1612-11-01"></date><supplied>( 1 November - 1 November) (Payments)</supplied>
+               </head>
+               <pb n="64-4v" type="folio"/> 
+               <gap reason="omitted"/>       
+               <table>
+                  <row>
+                     <cell>Item paid for 2 staffe torches vppon Alhollowday</cell>
+                     <cell rend="right">ij s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>It<ex>em</ex> paid to the Musicions for their ffee the same day</cell>
+                     <cell rend="right">xx s.</cell>
+                  </row>
+                  <row>
+                     <cell>It<ex>em</ex> paid for a Consort of Musicke the same day</cell>
+                     <cell rend="right">l s.</cell>
+                  </row>
+                  <row>
+                     <cell>It<ex>em</ex> for Antick<ex>es</ex> or puppitt<ex>es</ex> the same day</cell>
+                     <cell rend="right">xl s.</cell>
+                  </row>
+                  <row>
+                     <cell>It<ex>em</ex> paid for the Music<ex>i</ex>ons ffee the 5 of N<ex>ovember</ex></cell>
+                     <cell rend="right">xiij s. iiij d.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item paid for 2 staffe torches on Candlemas day</cell>
+                     <cell rend="right">ij s. |</cell>
+                  </row>
+                  <row>
+                     <cell>Item paid for a play the same day</cell>
+                     <cell rend="right">vj li.</cell>
+                  </row>
+                  <row>
+                     <cell>Item paid for Musicke the same day</cell>
+                     <cell rend="right">xx s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <note type="editorial" n="endnote">
+                  <!-- KC: @en 147 IT Arch: FIN/1/1 ff 64-4v -->
+                  Antics and puppets, plus the consort, seem to have replaced the customary play on All Saints' Day, due
+                  to the ban on the performance of the play.
+               </note>
+            </div>
+            
+         </div>
+      </body>
+   </text>
+               
+<!-- KC: record added by Diane Jakacki, revised by KC-->
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1612-09-29" to-iso="1613-09-29">1612-1613</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RLPIC1 pp. 153">RLITTS</seg>
+         </head>
+         <div type="transcription">
+            <div>
+               <head>f 72v <date from-iso="1612-11-01" to-iso="1613-11-01"></date><supplied>(1 November - 1 November) (Payments)</supplied>
+               </head>
+            <pb n="72v" type="folio"/>
             <gap reason="omitted"/>
             <table>
                <row>
                   <cell>Item payd for 2 staffe torches on Alhallonday</cell>
-                  <cell>ij s.</cell>
+                  <cell rend="right">ij s.</cell>
                </row>
                <gap reason="omitted"/>
                <row>
                   <cell>Item payd to Musitians for theyr ffee the same day</cell>
-                  <cell>xx s.</cell>
+                  <cell rend="right">xx s.</cell>
                </row>
                <row>
                   <cell>Item payd for a playe the same day</cell>
-                  <cell>v li.</cell>
+                  <cell rend="right">v li.</cell>
                </row>
                <gap reason="omitted"/>
                <row>
                   <cell>Item payd to the Musitions for their ffee the v<hi rend="superscript">th</hi> of November</cell>
-                  <cell>xiij s. iiij d.</cell>
+                  <cell rend="right">xiij s. iiij d.</cell>
                </row>
                <row>
                   <cell>Item payd for a play on Candlemas day</cell>
-                  <cell>vj li. xiij s. iiij d.</cell>                  
+                  <cell rend="right">vj li. xiij s. iiij d.</cell>                  
                </row>
                <row>
                   <cell>Item payd to another company of players w<ex>hi</ex>ch were appointed to play heere the same day</cell>
-                  <cell>xxx s.</cell>
+                  <cell rend="right">xxx s.</cell>
                </row>
                <row>
                   <cell>Item p<ex>ay</ex>d for 2 staffe torches the same day</cell>
-                  <cell>ij s.</cell>
+                  <cell rend="right">ij s.</cell>
                </row>
                <gap reason="omitted"/>
                <row>
                   <cell>Item p<ex>ay</ex>d for ye Musitians fee the same day</cell>
-                  <cell>xx s.</cell>
+                  <cell rend="right">xx s.</cell>
                </row>
                <row>
                   <cell>Item payd for one dosen of torches for the Revells in Mich<ex>aelm</ex>as terme 1612</cell>
-                  <cell>x s.</cell>
+                  <cell rend="right">x s.</cell>
                </row>               
             </table>
-         </div>
-         <div type="endnote">
-            <ab>Apparently two different companies were booked for the same afternoon (‘another company of players,’ p 153, l.14), the second of which did not perform. If so, this is the only instance in the Inner Temple records of a company of players being paid for not performing.</ab>
+       
+         <note type="editorial" n="endnote">
+            <!-- KC: @en 153 IT Arch: FIN/1/1 ff 72v, 73, 75v -->
+            <ab>Apparently two different companies were booked for the same afternoon ('another company of players,' p 153, l.14), the second of which did not perform. If so, this is the only instance in the Inner Temple records of a company of players being paid for not performing.</ab>   <!-- KC: Cross-reference pagination -->
+         </note>
          </div>
             
-         <div type="transcription">
-            <head>f 73 <supplied></supplied></head>
-            <pb n="f 73" type="folio"/>
+         <div>
+            <head>f 73 </head>
+            <pb n="73" type="folio"/>
             <gap reason="omitted"/>
             <table>
                <row>
                   <cell>It<ex>em</ex> payd for 6 torches for the benchers to see the maske at Elye house</cell>
-                  <cell>v s.</cell>
+                  <cell rend="right">v s.</cell>
                </row>
                <row>
                   <cell>It<ex>em</ex> payd for 2 torches another tyme to goe to Item payd for 2 torches another tyme to goe to</cell>
-                  <cell>ij s.</cell>
+                  <cell rend="right">ij s.</cell>
                </row>
             </table>
             <gap reason="omitted"/>
+            <note type="editorial" n="endnote">
+               <!-- KC: @en 153 IT Arch: FIN/1/1 ff 72v, 73, 75v -->
+               No masque is known to have been performed at Ely House, the bishop of Ely's town residence in Holborn, this year. The 'maske at Elye house' (p 153, l.25) was possibly a rehearsal of Beaumont's masque (see Chambers, <title>Elizabethan Stage</title>, vol 3, 235).   <!-- KC: Cross-reference pagination -->
+            </note>
          </div>
-         <div type="endnote">
-            <ab>No masque is known to have been performed at Ely House, the bishop of Ely’s town residence in Holborn, this year. The ‘maske at Elye house’ (p 153, l.25) was possibly a rehearsal of Beaumont’s masque (see Chambers, <hi rend="italic">Elizabethan Stage</hi>, vol 3, 235).</ab>
-         </div>
-         
-         <div type="transcription">
-            <head>f 75v <supplied></supplied></head>
-            <pb n="f 75v" type="folio"/>
+            
+         <div>
+            <head>f 75v </head>
+            <pb n="75v" type="folio"/>
             <gap reason="omitted"/>
             <table>
                <row>
                   <cell>Item paid to Mr Lewes Hele at 2 seu<ex>er</ex>all tymes toward<ex>es</ex> the maske busines</cell>
-                  <cell>lxx li.</cell>
+                  <cell rend="right">lxx li.</cell>
                </row>
                <row>
                   <cell>Item paid to Mr ffenner towarde the same busines</cell>
-                  <cell>x li.</cell>
+                  <cell rend="right">x li.</cell>
                </row>
                <row>
-                  <cell>Item paid to a messinger w<ex>hi</ex>ch Mr ffenner p<ex>ro</ex>vided ^<add place="above">to fetch Mr Beamont</add></cell>
+                  <cell>Item paid to a messinger w<ex>hi</ex>ch Mr ffenner p<ex>ro</ex>vided ‸<add place="above">to fetch Mr Beamont</add></cell>
                </row>
                <gap reason="omitted"/>
                <row>
                   <cell>Item paid to Iohn Hodgkins for boate hyer to and fro to Winchester howse about the maske busines</cell>
-                  <cell>ij s. vj d.</cell>
+                  <cell rend="right">ij s. vj d.</cell>
                </row>
             </table>
+            <note type="editorial" n="endnote">            
+               <!-- KC: @en 153 IT Arch: FIN/1/1 ff 72v, 73, 75v -->
+               Winchester House (p 153, l.39) was the residence of the bishop of Winchester in Southwark. It was from Southwark that the Inner Temple and Gray's Inn masquers proceeded by water to Whitehall, the theme of the masque being the marriage of the Rivers Thames and Rhine.  <!-- KC: Cross-reference -->
+            </note>
          </div>
-         
-         <div type="endnote">            
-            <ab>Winchester House (p 153, l.39) was the residence of the bishop of Winchester in Southwark. It was from Southwark that the Inner Temple and Gray’s Inn masquers proceeded by water to Whitehall, the theme of the masque being the marriage of the Rivers Thames and Rhine.</ab>
          </div>
+      </body>
+   </text>
+   
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1613-09-29" to-iso="1614-09-29" cert="medium">1613-14</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 176">RLITTS</seg>
+         </head>
          
          <div type="transcription">
-            <head>f 82 <supplied>(1 November - 1 November) (Payments)</supplied></head>
-            <pb n="f 82" type="folio"/>
+         <div>
+            <head>f 82 <date from-iso="1613-11-01" to-iso="1614-11-01"></date><supplied>(1 November - 1 November) (Payments)</supplied>
+            </head>
+            <pb n="82" type="folio"/>
             <gap reason="omitted"/>
             <table>
                <row>
                   <cell>It<ex>e</ex>m paid for a play vpon all saint<ex>es</ex> day 1613</cell>
-                  <cell>vj li. xiij s. iiij d.</cell>
+                  <cell rend="right">vj li. xiij s. iiij d.</cell>
                </row>
                <row>
                   <cell>It<ex>e</ex>m p<ex>ai</ex>d for 2 staffe torches ye same day</cell>
-                  <cell>ij s.</cell>
+                  <cell rend="right">ij s.</cell>
                </row>
                <gap reason="omitted"/>
                <row>
                   <cell>It<ex>e</ex>m p<ex>ai</ex>d for the Music<ex>io</ex>ns ffee ye same day</cell>
-                  <cell>xx s.</cell>
+                  <cell rend="right">xx s.</cell>
                </row>
                <row>
                   <cell>It<ex>e</ex>m p<ex>ai</ex>d for theyr ffee on the fifte of Novemb<ex>er</ex></cell>
-                  <cell>xiij s. iiij d.</cell>
+                  <cell rend="right">xiij s. iiij d.</cell>
                </row>
                <gap reason="omitted"/>
                <row>
                   <cell>It<ex>e</ex>m p<ex>ai</ex>d for a play one Candlemas day 1613</cell>
-                  <cell>vj li. xiij s. iiij d.</cell>
+                  <cell rend="right">vj li. xiij s. iiij d.</cell>
                </row>
                <row>
                   <cell>It<ex>e</ex>m for 2 staffe torches the same day</cell>
-                  <cell>ij s.</cell>
+                  <cell rend="right">ij s.</cell>
                </row>
                <gap reason="omitted"/>
                <row>
                   <cell>It<ex>e</ex>m p<ex>ai</ex>d for the Musitions ffee the same day</cell>
-                  <cell>xx s.</cell>
+                  <cell rend="right">xx s.</cell>
                </row>
                <gap reason="omitted"/>
             </table>
          </div>
-                   
-
-
+         </div>
       </body>
    </text>
   
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1614-09-29" to-iso="1615-09-29" cert="medium">1614-15</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 182">RLITTS</seg>
+         </head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 91v <date from-iso="1614-11-01" to-iso="1615-11-01"></date><supplied>(1 November - 1 November) (Payments)</supplied>
+               </head>
+               <pb n="91v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+               <row>
+                  <cell>Item p<ex>ay</ex>d to the Kinges Ma<ex>ies</ex>ties servant<ex>es</ex> for a
+                     play vpon allsaint<ex>es</ex> day 1614</cell>
+                  <cell rend="right">vj li.</cell>
+               </row>
+               </table>
+               <gap reason="omitted"/>
+               <note type="editorial" n="endnote">
+                  <!-- KC: @en 182 IT Arch: FIN/1/1 ff 91v, 92, 94v -->
+                  The phrase 'the Kinges Maiesties servantes' (l.18, see also l.28) is the earliest indication of which playing company performed at the Inner Temple. Under one name or another (including the 'Blackfryers
+                  Players' in 1629–30: see p 226, l.40) this company – Shakespeare's company – performed at the Inner
+                  Temple from this year forward, and perhaps earlier. But in 1601–2 the same company evidently played
+                  at the Middle Temple: see Appendix 6.3, <title>Twelfth Night</title>.
+               </note>  <!-- KC: cross-referene; also need to revise (can delete? check with Alan) references to "(l.18, see also l.28)" -->
+            </div>
+            
+            <div>
+               <head>f 92</head>
+                  <pb n="92" type="folio"/>
+                  <table>
+                     <row>
+                        <cell>Item p<ex>ay</ex>d for 2 staffe torches the same daye</cell>
+                        <cell rend="right">ij s.</cell>
+                     </row>
+                     <row>
+                        <cell>Item payd to Iohn Hopp<ex>er</ex> for the Musitions fee
+                           the same day</cell>
+                        <cell rend="right">xx s.</cell>
+                     </row>
+                  </table>
+                  <gap reason="omitted"/>
+                  <table>
+                     <row>
+                        <cell>I
+                           tem p<ex>ay</ex>d to his ma<ex>ies</ex>t<ex>ies</ex> s<ex>er</ex>vant<ex>es</ex> for a play vpon Candlemas 
+                           daye last past</cell>
+                        <cell rend="right">vj li. xiij s. iiij d.</cell>
+                     </row>
+                     <row>
+                        <cell>Item p<ex>ay</ex>d for 2 staffe torches the same day</cell>
+                        <cell rend="right">ij s.</cell>
+                     </row>
+                     <row>
+                        <cell>It<ex>em</ex> p<ex>ay</ex>d for ye musitions fee ye same day</cell>
+                        <cell rend="right">xx s.</cell>
+                     </row>
+                  </table>
+                  <gap reason="omitted"/>
+               <note type="editorial" n="endnote">
+                  <!-- KC: @en 182 IT Arch: FIN/1/1 ff 91v, 92, 94v -->
+                  The phrase 'the Kinges Maiesties servantes' (l.18, see also l.28) is the earliest indication of which playing company performed at the Inner Temple. Under one name or another (including the 'Blackfryers
+                  Players' in 1629–30: see p 226, l.40) this company – Shakespeare's company – performed at the Inner
+                  Temple from this year forward, and perhaps earlier. But in 1601–2 the same company evidently played
+                  at the Middle Temple: see Appendix 6.3, <title>Twelfth Night</title>.
+               </note>   <!-- KC: cross-referene; also need to revise (can delete? check with Alan) references to "(l.18, see also l.28)" -->
+               </div>
+               
+               <div>
+                  <head>f 94v</head>
+                  <pb n="94v" type="folio"/>
+                  <gap reason="omitted"/>
+                  <table>
+                     <row>
+                        <cell>Item p<ex>ay</ex>d to the gent<ex>lemen</ex> reuellars vpon Candlemas
+                           day at night</cell>
+                        <cell rend="right">xl s.</cell>
+                     </row>
+                  </table>
+                  <gap reason="omitted"/>
+                  <note type="editorial" n="endnote">
+                     <!-- KC: @en 182 IT Arch: FIN/1/1 ff 91v, 92, 94v -->
+                     It is not clear exactly what was being reimbursed or rewarded by the payment on f 94v. The round
+                     sum would suggest a reward rather than a reimbursement. The spending of domus money suggests 
+                     that the student revellers performed before an invited audience whom the Inn wished to impress. 
+                     (See Bulstrode Whitelocke’s description of organizing the revels at Middle Temple 1628-9, pp 223-6.)
+                  </note>  <!-- KC: cross-reference pagination -->
+               </div>
+         </div>
+      </body>
+   </text>
+  
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1615-09-29" to-iso="1616-09-29" cert="medium">1615-16</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 186-7">RLITTS</seg>
+         </head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 103v <date from-iso="1615-11-01" to-iso="1616-11-01"></date><supplied>(1 November - 1 November) (Payments)</supplied>
+               </head>
+               <pb n="103v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item p<ex>ay</ex>d to the Kinges Ma<ex>ies</ex>tie servant<ex>es</ex> for a play
+                        vpon Allhallon day 1615</cell>
+                     <cell rend="right">v li.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item p<ex>ay</ex>d for 2 staffe torches the same day</cell>
+                     <cell rend="right">ij s.</cell>
+                  </row>
+                  <row>
+                     <cell>Item p<ex>ay</ex>d to Iohn Hopper for ye Musitions fee ye
+                        same day</cell>
+                     <cell rend="right">xx s.</cell>
+                  </row>
+                  <row>
+                     <cell>Item p<ex>ay</ex>d for the Musitions fee the 5<hi rend="superscript">th</hi> of November</cell>
+                     <cell rend="right">xiij s. iiij d.</cell>
+                  </row>
+                  <row>
+                     <cell>Item p<ex>ay</ex>d for 2 dosen of torches for reuells the 5 12
+                        18 &amp; 25 of November<note type="foot">5 12 18 &amp; 25 of November: <hi rend="italic">the first two were Tuesday nights, the second two Monday nights</hi></note></cell>
+                     <cell rend="right">xx s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 104</head>
+               <pb n="104" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item p<ex>ay</ex>d for a play vpon Candlemas day</cell>
+                     <cell rend="right">vj li. xiij s. iiij d.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item p<ex>ay</ex>d for the musitions fee the same day</cell>
+                     <cell rend="right">xx s.</cell>
+                  </row>
+                  <row>
+                     <cell>Item p<ex>ay</ex>d to<note type="foot">to: <hi rend="italic">for</hi> for</note> 2 staffe torches the same day</cell>
+                     <cell rend="right">ij s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+               
+               <div>
+                  <head>f 106v</head>
+                  <pb n="106v" type="folio"/>
+                  <gap reason="omitted"/>
+                  <table>
+                     <row>
+                        <cell>Item p<ex>ay</ex>d to Nicholas Polhill for a debt rem<ex>aining</ex>
+                           due vnto him from this house aboute ye maske
+                           to court</cell>
+                        <cell rend="right">xx li.</cell>
+                     </row>
+                  </table>
+                  <note type="editorial" n="endnote">
+                     <!-- KC: @en 186-7 IT Arch: FIN/1/1 ff 106v, 108 -->
+                  </note>  <!-- KC: cross-reference -->
+               </div>
+               
+               <div>
+                  <head>f 108</head>
+                  <pb n="108" type="folio"/>
+                  <gap reason="omitted"/>
+                  <table>
+                     <row>
+                        <cell>Item p<ex>ay</ex>d to mr Iordan of the bench towarde the
+                           charge of the barryers</cell>
+                        <cell rend="right">L li.</cell>
+                     </row>
+                  </table>
+                  <gap reason="omitted"/>
+                  <note type="editorial" n="endnote">
+                     <!-- KC: @en 186-7 IT Arch: FIN/1/1 ff 106v, 108 -->
+                  </note>  <!-- KC: cross-reference -->
+               </div>
+         </div>
+      </body>
+   </text>
+               
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1616-09-29" to-iso="1617-09-29" cert="medium">1616-17</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 191-2">RLITTS</seg>
+         </head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 114 <date from-iso="1616-11-01" to-iso="1617-11-01"></date><supplied>(1 November - 1 November) (Payments)</supplied>
+               </head>
+               <pb n="114" type="folio"/>
+               <gap reason="omitted"/>  
+               <table>
+                  <row>
+                     <cell>It<ex>e</ex>m p<ex>ai</ex>d to the king<ex>es</ex> Maie<ex>s</ex>ti<ex>es</ex> servant<ex>es</ex> for a
+                        playe vpon Allhallon<del>tyde</del> day 1616</cell>
+                     <cell rend="right">vj li. xiij s. iiij d.</cell>
+                  </row>
+               </table>
+            </div>
+            
+            <div>
+               <head>f 114v</head>
+               <pb n="114v " type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>It<ex>e</ex>m paid for 2 staffe torches the same daye</cell>
+                     <cell rend="right">ij s.</cell>
+                  </row>
+                  <row>
+                     <cell>It<ex>e</ex>m paied to Iohn Hopper for the Musitions
+                        ffee the same day</cell>
+                     <cell rend="right">xx s.</cell>
+                  </row>
+                  <row>
+                     <cell>It<ex>e</ex>m paied ffor the Musitions ffee the ffift
+                        of November</cell>
+                     <cell rend="right"></cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 115v</head>
+               <pb n="115v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>It<ex>e</ex>m p<ex>ai</ex>d to ffrancis Lownds for the hyer of nap<ex>er</ex>ie
+                        and plate on Candlemas day</cell>
+                     <cell rend="right">xxvj s. viij d.</cell>
+                  </row>
+                  <row>
+                     <cell>It<ex>e</ex>m p<ex>ai</ex>d to Iohn Hopper for the Musitions ffee
+                        the same daye</cell>
+                     <cell rend="right">xx s.</cell>
+                  </row>
+                  <row>
+                     <cell>It<ex>e</ex>m p<ex>ai</ex>d for 2 staffe torches the same daye</cell>
+                     <cell rend="right">ij s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>It<ex>e</ex>m p<ex>ai</ex>d to Mr Brownlowe of the Bench for money
+                        borrowed toward<ex>es</ex> the Charge of Barryers</cell>
+                     <cell rend="right">l li.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 119</head>
+               <pb n="119" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>It<ex>e</ex>m p<ex>ai</ex>d to S<ex>i</ex>r Thomas Coventry for money lent
+                        toward<ex>es</ex> the barryers being parte of debt of l li.</cell>
+                     <cell rend="right">xx li.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+               
+            <div>
+               <head>f 119v</head>
+               <pb n="119v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>It<ex>e</ex>m p<ex>ai</ex>d to Sir Thomas Coventry</cell>
+                     <cell rend="right">xxx li.</cell>
+                  </row>
+                  <row>
+                     <cell>It<ex>e</ex>m p<ex>ai</ex>d to Mr Martyne of the Middle temple and to
+                        one Gilles a Taylor by the appoyntm<ex>en</ex>t of Mr Iorden</cell>
+                     <cell rend="right">xl li.</cell>
+                  </row>
+                  <row>
+                     <cell>It<ex>e</ex>m p<ex>ai</ex>d to Richard Mayer for Collectinge of the
+                        barryers money</cell>
+                     <cell rend="right">l s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+      </body>
+   </text>
+   
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1617-09-29" to-iso="1618-09-29" cert="medium">1617-18</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 201-2">RLITTS</seg>
+         </head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 126v <date from-iso="1617-11-01" to-iso="1618-11-01"></date><supplied>(1 November - 1 November) (Payments)</supplied>
+               </head>
+               <pb n="126v" type="folio"/>   
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell></cell>
+                     <cell rend="right">li.</cell>
+                     <cell rend="right">s.</cell>
+                     <cell rend="right">d.</cell>
+                  </row><row>
+                     <cell>Imprimis paid for a play on Alhollon day</cell>
+                     <cell rend="right">6</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">0</cell>
+                  </row>
+                  <row>
+                     <cell>It<ex>em</ex> paid paid<note type="foot">paid paid: <hi rend="italic">dittography</hi></note> for a playe on Candlemas daye</cell>
+                     <cell rend="right">6</cell>
+                     <cell rend="right">013</cell>
+                     <cell rend="right">4</cell>
+                  </row>
+                  <row>
+                     <cell>It<ex>em</ex> paid to the Musitions for the fifte of november</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">13</cell>
+                     <cell rend="right">4</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>It<ex>em</ex> paid to the Musitions for a yere ffee</cell>
+                     <cell rend="right">2</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">0</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+      </body>
+   </text>
+               
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1618-09-29" to-iso="1619-09-29" cert="medium">1618-19</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 203">RLITTS</seg>
+         </head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 134v <date from-iso="1618-11-01" to-iso="1619-11-01"></date><supplied>(1 November - 1 November) (Payments)</supplied>
+               </head>
+               <pb n="134v" type="folio"/>   
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>It<ex>e</ex>m paid to the musicians vppon Alhallond Day</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">13</cell>
+                     <cell rend="right">4</cell>
+                  </row>
+                  <row>
+                     <cell>It<ex>e</ex>m paid the v<hi rend="superscripte">th</hi> of November</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">13</cell>
+                     <cell rend="right">4</cell>
+                  </row>
+                  <row>
+                     <cell>It<ex>e</ex>m paid to them on Candlemas day</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">13</cell>
+                     <cell rend="right">4</cell>
+                  </row>
+                  <row>
+                     <cell>Item paid to them for their fee one whole yeare</cell>
+                     <cell rend="right">2</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">0</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>It<ex>e</ex>m paid for a play on Candlemas Day</cell>
+                     <cell rend="right">7</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">0</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+      </body>
+   </text>
+               
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1619-09-29" to-iso="1620-09-29" cert="medium">1619-20</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 205">RLITTS</seg>
+         </head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 141 <date from-iso="1619-11-01" to-iso="1620-11-01"></date><supplied>(1 November - 1 November) (Payments)</supplied>
+               </head>
+               <pb n="141" type="folio"/> 
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item paid for a play on Allhollonday 1619</cell>
+                     <cell rend="right">7</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">0</cell>
+                  </row>
+                  <row>
+                     <cell>Item for a play on Candlemas day last 1619.</cell>
+                     <cell rend="right">7</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">0</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item paid to the Musitians for there whole yeares fee</cell>
+                     <cell rend="right">2</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">0</cell>
+                  </row>
+                  <row>
+                     <cell>Item to them more for the fift of Nouember</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">13</cell>
+                     <cell rend="right">4</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+      </body>
+   </text>
+   
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1620-09-29" to-iso="1621-09-29" cert="medium">1620-21</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 206-7">RLITTS</seg>
+         </head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 146v <date from-iso="1620-11-01" to-iso="1621-11-01"></date><supplied>(1 November - 1 November) (Payments)</supplied>
+               </head>
+               <pb n="146v" type="folio"/> 
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>It<ex>e</ex>m p<ex>ai</ex>d for twoe plaies one all S<ex>ain</ex>t<ex>es</ex> &amp; candlemas day</cell>
+                     <cell rend="right">14</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">0</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>It<ex>e</ex>m p<ex>ai</ex>d to ye Musitions then<note type="foot">then: <hi rend="italic">All Saints' Day</hi></note></cell>
+                     <cell rend="right">1</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">0</cell>
+                  </row>
+                  <row>
+                     <cell>It<ex>e</ex>m p<ex>ai</ex>d to the Musitions for the fift day of No<ex>vem</ex>ber</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">13</cell>
+                     <cell rend="right">4</cell>
+                  </row>                  
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>It<ex>e</ex>m p<ex>ai</ex>d to ye Musitions then</cell>
+                     <cell rend="right">1</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">0</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+      </body>
+   </text>
+   
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1621-09-29" to-iso="1622-09-29" cert="medium">1621-2</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 209">RLITTS</seg>
+         </head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 154v <date from-iso="1621-11-01" to-iso="1622-11-01"></date><supplied>(1 November - 1 November) (Payments)</supplied>
+               </head>
+               <pb n="154v" type="folio"/> 
+               <gap reason="omitted"/>   
+               <table>
+                  <row>
+                     <cell>It<ex>em</ex> paid to the Kinges players for two plaies on
+                        Allhallonday &amp; Candlemas day last</cell>
+                     <cell rend="right">14</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">0</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 155</head>
+               <pb n="155" type="folio"/>
+               <table>
+                  <row>
+                     <cell></cell>
+                     <cell rend="right">li.</cell>
+                     <cell rend="right">s.</cell>
+                     <cell rend="right">d.</cell>
+                  </row>
+                  <row>
+                     <cell>It<ex>em</ex> to the Musitians for their ffee for this yeere &amp; the
+                        5<hi rend="superscript">th</hi> of Novemb<ex>er</ex></cell>
+                     <cell rend="right">2</cell>
+                     <cell rend="right">13</cell>
+                     <cell rend="right">4</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>               
+            </div>
+         </div>
+      </body>
+   </text>
+   
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1622-09-29" to-iso="1623-09-29" cert="medium">1622-3</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 210">RLITTS</seg>
+         </head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 160v <date from-iso="1622-11-01" to-iso="1623-11-01"></date><supplied>(1 November - 1 November) (Payments)</supplied>
+               </head>
+               <pb n="160v" type="folio"/> 
+               <gap reason="omitted"/>   
+               <table>
+                  <row>
+                     <cell>Item p<ex>ai</ex>d for a play all S<ex>ain</ex>t<ex>es</ex> day</cell>
+                     <cell rend="right">7</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">0</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item to the Music<ex>i</ex>ons for their wages this yeare</cell>
+                     <cell rend="right">2</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">0</cell>
+                  </row>
+                  <row>
+                     <cell>It<ex>e</ex>m to them more for playeng the fifte of November</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">13</cell>
+                     <cell rend="right">4</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+      </body>
+   </text>
+               
+   
+   
+   
+   
+   
 </TEI>
