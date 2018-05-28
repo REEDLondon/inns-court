@@ -357,7 +357,7 @@
             </div>
             
             <div>
-               <head>f 13v </head>
+               <head>f 13v <ptr type="endnote" target="endnote:RLE00119"/></head>
                <pb n="13v" type="folio"/>
                <gap reason="omitted"/>
                <table>
@@ -369,14 +369,6 @@
                   </row>
                </table>
                <gap reason="omitted"/>
-               <note type="editorial" n="endnote">
-                  <!-- KC: @en 139 f 13v -->
-                  <ab>While 'the gallery in the hall where the Musicons vse to staund' is mentioned nowhere else, a 'Mussick
-                     Roome' is mentioned in Inner Temple records beginning in 1614–15 (see p 183). These references may
-                     be compared to a place for musicians recorded for Lincoln's Inn records beginning in 1632–3 (see
-                     p 232, ll.15–16). Musical structures of both Inns are discussed in the Introduction, p xxviii–xxxii.
-                  </ab> <!-- KC: cross-reference pagination -->
-               </note>
             </div>
          </div>
       </body>
@@ -2027,6 +2019,10 @@
                <note type="editorial" n="endnote">
                   <!-- KC: @en 132-2 IT Arch: FIN/1/1 f 227v -->
                </note>
+            </div>
+         </div>
+      </body>
+   </text>
                
              
              
