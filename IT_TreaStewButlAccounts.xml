@@ -398,7 +398,7 @@
             </div>
                
                <div>
-                  <head>f 23v </head>
+                  <head>f 23v <ptr type="endnote" target="endnote:RLE00120"/></head>
                   <pb n="23v" type="folio"/>
                   <gap reason="omitted"/>
                   <table>
@@ -426,11 +426,6 @@
                      </row>
                   </table>
                   <gap reason="omitted"/>
-                 
-                  <note type="editorial" n="endnote">
-                     <!-- KC: @en 141 IT Arch: FIN/1/1 f 23v -->
-                     The 'Oxford Tragedye' is otherwise unknown: see Appendix 6.3.  <!-- KC: Cross-Reference -->
-                  </note>
                </div>
          </div>
       </body>
