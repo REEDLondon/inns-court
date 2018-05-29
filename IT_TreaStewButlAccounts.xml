@@ -1945,7 +1945,133 @@
       </body>
    </text>
                
-             
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1633-09-29" to-iso="1634-09-29" cert="medium">1633-4</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 243-3">RLITTS</seg>
+         </head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 234v <date from-iso="1633-11-03" to-iso="1634-11-03"></date><supplied>(3 November - 3 November) (Payments)</supplied>
+               </head>
+               <pb n="234v" type="folio"/> 
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell></cell>
+                     <cell rend="right">li.</cell>
+                     <cell rend="right">s.</cell>
+                     <cell rend="right">d.</cell>
+                  </row>
+                  <row>
+                     <cell>Item payed to Mr Thomas Willis one of the Benchers of
+                        this howse according to an Act of p<ex>ar</ex>liament made for that
+                        purpose as moneyes by him to bee disbursed toward<ex>es</ex> the
+                        charge of the Masque latelie p<ex>re</ex>sented before his Ma<ex>ies</ex>tie</cell>
+                     <cell rend="right">626</cell>
+                     <cell rend="right">00</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+               
+               <div>
+                  <head>f 235</head>
+                  <pb n="235" type="folio"/>
+                  <gap reason="omitted"/>
+                  <table>
+                     <row>
+                        <cell></cell>
+                        <cell rend="right">li.</cell>
+                        <cell rend="right">s.</cell>
+                        <cell rend="right">d.</cell>
+                     </row>
+                     <row>
+                        <cell>Item to the Musitians for attending vpon the 5<hi rend="superscript">th</hi> of
+                           November last</cell>
+                        <cell rend="right">000</cell>
+                        <cell rend="right">13</cell>
+                        <cell rend="right">04</cell>
+                     </row>
+                     <row>
+                        <cell>Item to them for theire fee for Candlemas and Alhallowe
+                           daye last</cell>
+                        <cell rend="right">002</cell>
+                        <cell rend="right">00</cell>
+                        <cell rend="right">00</cell>
+                     </row>
+                     <row>
+                        <cell>Item to fower Watchmen for watching the howse those
+                           two night<ex>es</ex><note type="foot">two night<ex>es</ex> … p<ex>re</ex>sented: <hi rend="italic">3 and 13 February 1633/4</hi></note> when the Masque was p<ex>re</ex>sented before
+                           his Ma<ex>ies</ex>tie</cell>
+                        <cell rend="right">000</cell>
+                        <cell rend="right">04</cell>
+                        <cell rend="right">00</cell>
+                     </row>      
+                  </table>
+                  <gap reason="omitted"/>
+               </div>
+               
+               <div>
+                  <head><ptr type="endnote" target="endnote:RLE00209"/><supplied>(Further payments)</supplied>
+</head>  <!-- KC: This supplied line is on p. 243; this div is part of f 235. 
+This is an unusual case of a "header" which doesn't have folio info in it.
+I tried not creating a separate div but file would not validate against existing
+schema witout a new div. The endnote is keyed to f 235 but it is about the porters, which is within the "Further payments" section. -->
+                  <table>
+                     <row>
+                        <cell>Item to the Blackfriers Players for a Play acted here vpon
+                           Alhallowe daye last</cell>
+                        <cell rend="right">007</cell>
+                        <cell rend="right">00</cell>
+                        <cell rend="right">00</cell>
+                     </row>
+                     <row>
+                        <cell>Item to fower Porters for keeping the Hall doares on
+                           Candlemas daye and Alhallowe daye last</cell>
+                        <cell rend="right">000</cell>
+                        <cell rend="right">08</cell>
+                        <cell rend="right">00</cell>
+                     </row>
+                  </table>
+                  <gap reason="omitted"/>
+               </div>
+               
+               <div>
+                  <head>ff 236v-7</head>
+                  <pb n="236v-7" type="folio"/>
+                  <gap reason="omitted"/>
+                  <table>
+                     <row>
+                        <cell>Item to a Labourer for digging the grownde and worke
+                           by him done about setting vpp the Rayles att the Temple
+                           gate when the masque went to Courte</cell>
+                        <cell rend="right">00</cell>
+                        <cell rend="right">01</cell>
+                        <cell rend="right">06 <pb/></cell>
+                     </row>
+                     <row>
+                        <cell>Item to a Pavier for worke done there</cell>
+                        <cell rend="right">000</cell>
+                        <cell rend="right">01</cell>
+                        <cell rend="right">06</cell>
+                     </row>
+                     <row>
+                        <cell>Item given to Mr Massies servant<ex>es</ex> att that tyme</cell>
+                        <cell rend="right">001</cell>
+                        <cell rend="right">00</cell>
+                        <cell rend="right">00</cell>
+                     </row>
+                  </table>
+                  <gap reason="omitted"/>
+               </div>
+         </div>
+      </body>
+   </text>
+               
              
              
              
