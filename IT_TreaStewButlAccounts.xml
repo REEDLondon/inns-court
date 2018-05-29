@@ -621,7 +621,7 @@
          <div type="transcription">
             
             <div>
-               <head>f 64-4v <date from-iso="1611-11-01" to-iso="1612-11-01"></date><supplied>( 1 November - 1 November) (Payments)</supplied>
+               <head>f 64-4v <ptr type="endnote" target="endnote:RLE00122"/><date from-iso="1611-11-01" to-iso="1612-11-01"></date><supplied>( 1 November - 1 November) (Payments)</supplied>
                </head>
                <pb n="64-4v" type="folio"/> 
                <gap reason="omitted"/>       
@@ -666,11 +666,6 @@
                   </row>
                </table>
                <gap reason="omitted"/>
-               <note type="editorial" n="endnote">
-                  <!-- KC: @en 147 IT Arch: FIN/1/1 ff 64-4v -->
-                  Antics and puppets, plus the consort, seem to have replaced the customary play on All Saints' Day, due
-                  to the ban on the performance of the play.
-               </note>
             </div>
             
          </div>
@@ -686,7 +681,7 @@
          </head>
          <div type="transcription">
             <div>
-               <head>f 72v <date from-iso="1612-11-01" to-iso="1613-11-01"></date><supplied>(1 November - 1 November) (Payments)</supplied>
+               <head>f 72v <ptr type="endnote" target="endnote:RLE00125"/><date from-iso="1612-11-01" to-iso="1613-11-01"></date><supplied>(1 November - 1 November) (Payments)</supplied>
                </head>
             <pb n="72v" type="folio"/>
             <gap reason="omitted"/>
@@ -731,15 +726,10 @@
                   <cell rend="right">x s.</cell>
                </row>               
             </table>
-       
-         <note type="editorial" n="endnote">
-            <!-- KC: @en 153 IT Arch: FIN/1/1 ff 72v, 73, 75v -->
-            <ab>Apparently two different companies were booked for the same afternoon ('another company of players,' p 153, l.14), the second of which did not perform. If so, this is the only instance in the Inner Temple records of a company of players being paid for not performing.</ab>   <!-- KC: Cross-reference pagination -->
-         </note>
          </div>
             
          <div>
-            <head>f 73 </head>
+            <head>f 73 <ptr type="endnote" target="endnote:RLE00125"/></head>
             <pb n="73" type="folio"/>
             <gap reason="omitted"/>
             <table>
@@ -753,14 +743,10 @@
                </row>
             </table>
             <gap reason="omitted"/>
-            <note type="editorial" n="endnote">
-               <!-- KC: @en 153 IT Arch: FIN/1/1 ff 72v, 73, 75v -->
-               No masque is known to have been performed at Ely House, the bishop of Ely's town residence in Holborn, this year. The 'maske at Elye house' (p 153, l.25) was possibly a rehearsal of Beaumont's masque (see Chambers, <title>Elizabethan Stage</title>, vol 3, 235).   <!-- KC: Cross-reference pagination -->
-            </note>
          </div>
             
          <div>
-            <head>f 75v </head>
+            <head>f 75v <ptr type="endnote" target="endnote:RLE00125"/></head>
             <pb n="75v" type="folio"/>
             <gap reason="omitted"/>
             <table>
@@ -781,10 +767,6 @@
                   <cell rend="right">ij s. vj d.</cell>
                </row>
             </table>
-            <note type="editorial" n="endnote">            
-               <!-- KC: @en 153 IT Arch: FIN/1/1 ff 72v, 73, 75v -->
-               Winchester House (p 153, l.39) was the residence of the bishop of Winchester in Southwark. It was from Southwark that the Inner Temple and Gray's Inn masquers proceeded by water to Whitehall, the theme of the masque being the marriage of the Rivers Thames and Rhine.  <!-- KC: Cross-reference -->
-            </note>
          </div>
          </div>
       </body>
@@ -851,7 +833,7 @@
          
          <div type="transcription">
             <div>
-               <head>f 91v <date from-iso="1614-11-01" to-iso="1615-11-01"></date><supplied>(1 November - 1 November) (Payments)</supplied>
+               <head>f 91v <ptr type="endnote" target="endnote:RLE00161"/><date from-iso="1614-11-01" to-iso="1615-11-01"></date><supplied>(1 November - 1 November) (Payments)</supplied>
                </head>
                <pb n="91v" type="folio"/>
                <gap reason="omitted"/>
@@ -863,17 +845,10 @@
                </row>
                </table>
                <gap reason="omitted"/>
-               <note type="editorial" n="endnote">
-                  <!-- KC: @en 182 IT Arch: FIN/1/1 ff 91v, 92, 94v -->
-                  The phrase 'the Kinges Maiesties servantes' (l.18, see also l.28) is the earliest indication of which playing company performed at the Inner Temple. Under one name or another (including the 'Blackfryers
-                  Players' in 1629–30: see p 226, l.40) this company – Shakespeare's company – performed at the Inner
-                  Temple from this year forward, and perhaps earlier. But in 1601–2 the same company evidently played
-                  at the Middle Temple: see Appendix 6.3, <title>Twelfth Night</title>.
-               </note>  <!-- KC: cross-referene; also need to revise (can delete? check with Alan) references to "(l.18, see also l.28)" -->
             </div>
             
             <div>
-               <head>f 92</head>
+               <head>f 92<ptr type="endnote" target="endnote:RLE00161"/></head>
                   <pb n="92" type="folio"/>
                   <table>
                      <row>
@@ -904,17 +879,10 @@
                      </row>
                   </table>
                   <gap reason="omitted"/>
-               <note type="editorial" n="endnote">
-                  <!-- KC: @en 182 IT Arch: FIN/1/1 ff 91v, 92, 94v -->
-                  The phrase 'the Kinges Maiesties servantes' (l.18, see also l.28) is the earliest indication of which playing company performed at the Inner Temple. Under one name or another (including the 'Blackfryers
-                  Players' in 1629–30: see p 226, l.40) this company – Shakespeare's company – performed at the Inner
-                  Temple from this year forward, and perhaps earlier. But in 1601–2 the same company evidently played
-                  at the Middle Temple: see Appendix 6.3, <title>Twelfth Night</title>.
-               </note>   <!-- KC: cross-referene; also need to revise (can delete? check with Alan) references to "(l.18, see also l.28)" -->
                </div>
                
                <div>
-                  <head>f 94v</head>
+                  <head>f 94v<ptr type="endnote" target="endnote:RLE00161"/></head>
                   <pb n="94v" type="folio"/>
                   <gap reason="omitted"/>
                   <table>
@@ -925,13 +893,6 @@
                      </row>
                   </table>
                   <gap reason="omitted"/>
-                  <note type="editorial" n="endnote">
-                     <!-- KC: @en 182 IT Arch: FIN/1/1 ff 91v, 92, 94v -->
-                     It is not clear exactly what was being reimbursed or rewarded by the payment on f 94v. The round
-                     sum would suggest a reward rather than a reimbursement. The spending of domus money suggests 
-                     that the student revellers performed before an invited audience whom the Inn wished to impress. 
-                     (See Bulstrode Whitelocke’s description of organizing the revels at Middle Temple 1628-9, pp 223-6.)
-                  </note>  <!-- KC: cross-reference pagination -->
                </div>
          </div>
       </body>
@@ -1006,7 +967,7 @@
             </div>
                
                <div>
-                  <head>f 106v</head>
+                  <head>f 106v<ptr type="endnote" target="endnote:RLE00163"/></head>
                   <pb n="106v" type="folio"/>
                   <gap reason="omitted"/>
                   <table>
@@ -1017,13 +978,10 @@
                         <cell rend="right">xx li.</cell>
                      </row>
                   </table>
-                  <note type="editorial" n="endnote">
-                     <!-- KC: @en 186-7 IT Arch: FIN/1/1 ff 106v, 108 -->
-                  </note>  <!-- KC: cross-reference -->
                </div>
                
                <div>
-                  <head>f 108</head>
+                  <head>f 108<ptr type="endnote" target="endnote:RLE00163"/></head>
                   <pb n="108" type="folio"/>
                   <gap reason="omitted"/>
                   <table>
@@ -1034,9 +992,6 @@
                      </row>
                   </table>
                   <gap reason="omitted"/>
-                  <note type="editorial" n="endnote">
-                     <!-- KC: @en 186-7 IT Arch: FIN/1/1 ff 106v, 108 -->
-                  </note>  <!-- KC: cross-reference -->
                </div>
          </div>
       </body>
@@ -1555,7 +1510,7 @@
             </div>
             
             <div>
-               <head>f 178v </head>
+               <head>f 178v<ptr type="endnote" target="endnote:RLE00181"/></head>
                <pb n="178v" type="folio"/>
                <table>
                   <row>
@@ -1565,10 +1520,6 @@
                   </row>
                </table>
                <gap reason="omitted"/>
-               <note type="editorial" n="endnote">
-                  <!-- KC: @en 241 IT Arch: FIN/1/1 f 178v -->
-                  <!-- KC: cross-ref -->
-               </note>
             </div>
             
             <div>
@@ -1672,8 +1623,8 @@
             </div>
             
             <div>
-               <head>f 185v</head>
-               <pb n="185" type="folio"/>
+               <head>f 185v<ptr type="endnote" target="endnote:RLE00182"/></head>
+               <pb n="185v" type="folio"/>
                <gap reason="omitted"/>    
                <table>
                   <row>
@@ -1686,10 +1637,6 @@
                <ab>Item <gap reason="omitted"/> for porters to keepe the hall doors on Candlemas day and <del>all</del>
                         Alhallon day viij s. <gap reason="omitted"/></ab>
                <gap reason="omitted"/>
-               <note type="editorial" n="endnote">
-                  <!-- KC: @en 215 IT Arch: FIN/1/1 f 185v -->
-                  <!-- KC: cross-ref -->
-               </note>
             </div>
          </div>
       </body>
@@ -1704,7 +1651,7 @@
          
          <div type="transcription">
             <div>
-               <head>f 192 <date from-iso="1627-11-03" to-iso="1628-11-03"></date><supplied>(3 November - 3 November) (Payments)</supplied>
+               <head>f 192 <ptr type="endnote" target="endnote:RLE00186"/><date from-iso="1627-11-03" to-iso="1628-11-03"></date><supplied>(3 November - 3 November) (Payments)</supplied>
                </head>
                <pb n="192" type="folio"/>       
                <gap reason="omitted"/>  
@@ -1733,13 +1680,10 @@
                   </row>
                </table>
                <gap reason="omitted"/>
-               <note type="editorial" n="endnote">
-                  <!-- KC: @en 217 IT Arch: FIN1/1 f 192 -->
-               </note>
             </div>
             
             <div>
-               <head>f 193</head>
+               <head>f 193<ptr type="endnote" target="endnote:RLE00187"/></head>
                <pb n="193" type="folio"/>
             <gap reason="omitted"/>  
             <table>
@@ -1758,10 +1702,6 @@
                   <cell rend="right"></cell>
                </row>
             </table>
-            <note type="editorial" n="endnote">
-               <!-- KC: @en 218 IT Arch: FIN/1/1 f 193 -->
-               <!-- KC: cross-ref -->
-            </note>
             </div>
          </div>
       </body>
@@ -1776,7 +1716,7 @@
          
          <div type="transcription">
             <div>
-               <head>f 198v <date from-iso="1628-11-03" to-iso="1629-11-03"></date><supplied>(3 November - 3 November) (Payments)</supplied>
+               <head>f 198v <ptr type="endnote" target="endnote:RLE00192"/><date from-iso="1628-11-03" to-iso="1629-11-03"></date><supplied>(3 November - 3 November) (Payments)</supplied>
                </head>
                <pb n="198v" type="folio"/>    
                <gap reason="omitted"/>
@@ -1806,10 +1746,6 @@
                   </row>
                </table>
                <gap reason="omitted"/>
-               <note type="editorial" n="endnote">
-                  <!-- KC: @en 221 IT Arch: FIN/1/1 f 198v -->
-                  <!-- KC: cross-ref -->
-               </note>
             </div>
          </div>
       </body>
@@ -1824,7 +1760,7 @@
          
          <div type="transcription">
             <div>
-               <head>f 205v <date from-iso="1629-11-03" to-iso="1630-11-03"></date><supplied>(3 November - 3 November) (Payments)</supplied>
+               <head>f 205v <ptr type="endnote" target="endnote:RLE00195"/><date from-iso="1629-11-03" to-iso="1630-11-03"></date><supplied>(3 November - 3 November) (Payments)</supplied>
                </head>
                <pb n="205v" type="folio"/>    
                <table>
@@ -1847,10 +1783,6 @@
                   </row>
                </table>
                <gap reason="omitted"/>
-               <note type="editorial" n="endnote">
-                  <!-- KC: @en 226-7 IT Arch: FIN/1/1 f 205v -->
-                  <!-- KC: cross-ref -->
-               </note>
             </div>
          </div>
       </body>
@@ -1865,7 +1797,7 @@
          
          <div type="transcription">
             <div>
-               <head>f 212 <date from-iso="1630-11-03" to-iso="1631-11-03"></date><supplied>(3 November - 3 November) (Payments)</supplied>
+               <head>f 212 <ptr type="endnote" target="endnote:RLE00198"/><date from-iso="1630-11-03" to-iso="1631-11-03"></date><supplied>(3 November - 3 November) (Payments)</supplied>
                </head>
                <pb n="212" type="folio"/>    
                <gap reason="omitted"/>
@@ -1897,9 +1829,6 @@
                   </row>
                </table>
                <gap reason="omitted"/>
-               <note type="editorial" n="endnote">
-                  <!-- KC: @en 228 IT Arch: FIN/1/1 f 212 -->
-               </note>
             </div>
          </div>
       </body>
@@ -1966,7 +1895,7 @@
          
          <div type="transcription">
             <div>
-               <head>f 227v <date from-iso="1632-11-03" to-iso="1633-11-03"></date><supplied>(3 November - 3 November) (Payments)</supplied>
+               <head>f 227v <ptr type="endnote" target="endnote:RLE00202"/><date from-iso="1632-11-03" to-iso="1633-11-03"></date><supplied>(3 November - 3 November) (Payments)</supplied>
                </head>
                <pb n="227v" type="folio"/>    
                <gap reason="omitted"/>
@@ -2011,9 +1940,6 @@
                   </row>
                </table>
                <gap reason="omitted"/>
-               <note type="editorial" n="endnote">
-                  <!-- KC: @en 132-2 IT Arch: FIN/1/1 f 227v -->
-               </note>
             </div>
          </div>
       </body>
