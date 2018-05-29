@@ -1949,7 +1949,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1633-09-29" to-iso="1634-09-29" cert="medium">1633-4</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 243-3">RLITTS</seg>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 243-4">RLITTS</seg>
          </head>
          
          <div type="transcription">
@@ -2072,7 +2072,109 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
       </body>
    </text>
                
-             
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1634-09-29" to-iso="1635-09-29" cert="medium">1634-5</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 326-7">RLITTS</seg>
+         </head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 242 <date from-iso="1634-11-03" to-iso="1635-11-03"></date><supplied>(3 November - 3 November) (Payments)</supplied>
+               </head>
+               <pb n="242" type="folio"/>            
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Imprimis paid to Mr Thomas Willys one of the bench<ex>ers</ex>
+                        of this Howse accordinge to an Act of Parliam<ex>en</ex>t for the
+                        discharge of such moneys as remayned vnpaid by him in
+                        the former yeare concerninge ye Masq<ex>ue</ex> p<ex>re</ex>sented before
+                        his Maiestie</cell>
+                     <cell rend="right">170</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">0</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item repaid by order in p<ex>ar</ex>liam<ex>en</ex>t to Mr Pope a Rider
+                        at the Masq<ex>ue</ex> twenty shillings w<ex>hi</ex>ch hee paid vppon the
+                        Aide Rolle to Mr Wyllys and alsoe thirty fiue shillings
+                        w<ex>hi</ex>ch hee disbursed for hire of a Saddle in toto</cell>
+                     <cell rend="right">002</cell>
+                     <cell rend="right">15</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+                  <row>
+                     <cell>Item to Mr Rouland Reinold<ex>es</ex> for ye like</cell>
+                     <cell rend="right">004</cell>
+                     <cell rend="right">06</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+                  <row>
+                     <cell>Item paid to Mr Iohn ffinch a Rider at the masq<ex>ue</ex> w<ex>hi</ex>ch
+                        hee paid vppon the Aide Rolle to Mr Willis</cell>
+                     <cell rend="right">001</cell>
+                     <cell rend="right">00</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+                  <row>
+                     <cell>Item repaid to Mr Carew a Masq<ex>ue</ex><note type="foot">a Masque: <hi rend="italic">for</hi> a rider at the Masque <hi rend="italic">(?)</hi></note> for ye like</cell>
+                     <cell rend="right">001</cell>
+                     <cell rend="right">00</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>ff 242v-3</head>
+               <pb n="242v-3" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item p<ex>ai</ex>d to the music<ex>i</ex>ons for their attendance vppon
+                        the fifth of November</cell>
+                     <cell rend="right">000</cell>
+                     <cell rend="right">13</cell>
+                     <cell rend="right">4 <pb/></cell>
+                  </row>
+                  <row>
+                     <cell>Item to them for their fee for Candlemas and alhollanday</cell>
+                     <cell rend="right">002</cell>
+                     <cell rend="right">00</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item To the Blackfriars players for a play here Acted on
+                        Candlemas day</cell>
+                     <cell rend="right">007</cell>
+                     <cell rend="right">00</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+                  <row>
+                     <cell>Item p<ex>ai</ex>d to foure porters for keepinge the Hall dores
+                        then and on alhollan day</cell>
+                     <cell rend="right">000</cell>
+                     <cell rend="right">08</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+      </body>
+   </text>
+               
+
+               
              
              
              
