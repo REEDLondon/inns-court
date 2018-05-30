@@ -2173,7 +2173,58 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
       </body>
    </text>
                
-<!-- KC: start here -->
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1635-09-29" to-iso="1636-09-29" cert="medium">1635-6</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 339">RLITTS</seg>
+         </head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 250v <date from-iso="1635-11-03" to-iso="1637-01-29"></date><supplied>(3 November 1635 - 29 January 1636/7) (Payments)</supplied>
+               </head>
+               <pb n="250v" type="folio"/>    
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item paid to the Music<ex>i</ex>ons for their Attendance
+                        vppon the 5<hi rend="italic">th</hi> of November 1635</cell>
+                     <cell rend="right">00</cell>
+                     <cell rend="right">13</cell>
+                     <cell rend="right">04</cell>
+                  </row>
+                  <row>
+                     <cell>Item to them for their fee for Candlemas day 1635</cell>
+                     <cell rend="right">01</cell>
+                     <cell rend="right">00</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+                  <row>
+                     <cell>Item to the Blackfriars Players for a play Acted heere
+                        on the same day</cell>
+                     <cell rend="right">07</cell>
+                     <cell rend="right">00</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item to foure Porters for keepinge the hall dores
+                        that day</cell>
+                     <cell rend="right">00</cell>
+                     <cell rend="right">04</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+      </body>
+   </text>
+   
+   
                
              
              
