@@ -2381,7 +2381,47 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
       </body>
    </text>
    
-   
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1639-09-29" to-iso="1640-09-29" cert="medium">1639-40</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 355-6">RLITTS</seg>
+         </head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 278v <date from-iso="1639-11-07" to-iso="1640-11-08"></date><supplied>(7 November 1639 - 8 November 1640) (Payments)</supplied>
+               </head>
+               <pb n="278v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item to the Musitians for their attendance on
+                        those dayes<note type="foot">those dayes: <hi rend="italic">Candlemas and All Saints' Day</hi></note></cell>
+                     <cell rend="right">02</cell>
+                     <cell rend="right">00</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+                  <row>
+                     <cell>Item to ffower Porters that kept the Hall dores
+                        those dayes</cell>
+                     <cell rend="right">00</cell>
+                     <cell rend="right">08</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+                  <row>
+                     <cell>Item to the Musitians for their attendance on the
+                        ffift of November</cell>
+                     <cell rend="right">01</cell>
+                     <cell rend="right">00</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+      </body>
+   </text>
              
              
    
