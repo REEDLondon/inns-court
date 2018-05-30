@@ -293,7 +293,7 @@
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 32">RLITPB1</seg></head>
          <div type="transcription">
             <div>
-            <head>f 18 <date when-iso="1507-11-01"></date><supplied>(1 November 1507) (Christmas officers)</supplied></head>
+               <head>f 18 <ptr type="endnote" target="endnote:RLE00027"/><date when-iso="1507-11-01"></date><supplied>(1 November 1507) (Christmas officers)</supplied></head>
             <pb n="18" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -305,14 +305,10 @@
                </row>
             </table>
             <gap reason="omitted"/>
-               
-               <note type="editorial" n="endnote">
-                  Folio damaged by post-World War II fire; the dates are supplied from Inderwick.
-               </note>  
          </div>
             
           <div>
-             <head>f 19 <date when-iso="1508-02-06"></date><supplied>(6 February 1507/8)</supplied></head> 
+             <head>f 19 <ptr type="endnote" target="endnote:RLE00027"/><date when-iso="1508-02-06"></date><supplied>(6 February 1507/8)</supplied></head> 
                <pb n="19" type="folio"/> 
                <gap reason="omitted"/>
                <table>
@@ -322,13 +318,10 @@
                         Revels ad f<ex>estum</ex> Nat<ex>alis</ex> in A<ex>nn</ex>o xxiij &amp; vlt<ex>er</ex>ius q<ex>uo</ex>d
                         fac<ex>iant</ex> contribuc<ex>i</ex>one<ex>m</ex> Plunket &amp; Tate qui fecer<ex>unt</ex> <del>d</del>
                         q<ex>uo</ex>d ad offic<ex>ium</ex> p<ex>er</ex>tenuit</cell>
-                     <cell rend="right"><del>xvj</del> xiij li. ii<damage><gap unit="chars" extent="3"/></damage></cell>  <!-- KC: this cell content is also bottom aligned. Not sure if we are doing that, and how -->
+                     <cell rend="right"><del>xvj</del> xiij li. ii<damage><gap unit="chars" extent="3"/></damage></cell>  
                   </row>
                </table>
                <gap reason="omitted"/>
-             <note type="editorial" n="endnote">
-                Folio damaged by post-World War II fire; the dates are supplied from Inderwick.
-             </note>  
           </div>        
          </div>
       </body>
@@ -365,7 +358,7 @@
             <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 34-5">RLITPB1</seg></head>
          <div type="transcription">
             <div>
-            <head>f 22 <date when-iso="1509-11-02"></date><supplied>(2 November 1509) (Christmas officers)</supplied></head>
+               <head>f 22 <ptr type="endnote" target="endnote:RLE00029"/><date when-iso="1509-11-02"></date><supplied>(2 November 1509) (Christmas officers)</supplied></head>
             <pb n="22" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -377,12 +370,7 @@
                   <cell>no<ex>n</ex> exercer<ex>un</ex>t officiu<ex>m</ex> eor<ex>um</ex></cell>
                </row>
             </table>
-            <gap reason="omitted"/>
-               
-             <note type="editorial" n="endnote">
-                Folio damaged by post-World War II fire; the date is supplied from Inderwick.
-             </note>  
-               
+            <gap reason="omitted"/>               
          </div>
          
           <div>
