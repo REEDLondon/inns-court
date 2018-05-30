@@ -231,6 +231,7 @@
       </profileDesc>
       <revisionDesc>
          <!-- Add new major milestone changes to top -->
+         <change when="2018-05-30" who="#KC">Completed adding records to file and first round of structural tagging. Needs proofing.</change>
          <change when="2018-05-14" who="#KC">added records to file</change>
          <change when="2018-02-03" who="#JAKA1">created document</change>
       </revisionDesc>
