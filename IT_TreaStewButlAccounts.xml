@@ -2470,9 +2470,31 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
       </body>
    </text>
                
-               
-   
-   
-   
-   
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1641-09-29" to-iso="1642-09-29" cert="medium">1641-2</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 361">RLITTS</seg>
+         </head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 289v <date from-iso="1641-11-03" to-iso="1642-11-03"></date><supplied>(3 November - 3 November) (Treasurer's payments)</supplied>
+               </head>
+               <pb n="289v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>It<ex>em</ex> to Will<ex>ia</ex>m Saunder ye Musitian for Musique
+                        5 Nov<ex>ember</ex> &amp; on Candlemas day</cell>
+                     <cell rend="right">02</cell>
+                     <cell rend="right">00</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+      </body>
+   </text>
 </TEI>
