@@ -2189,7 +2189,7 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
                <table>
                   <row>
                      <cell>Item paid to the Music<ex>i</ex>ons for their Attendance
-                        vppon the 5<hi rend="italic">th</hi> of November 1635</cell>
+                        vppon the 5<hi rend="superscript">th</hi> of November 1635</cell>
                      <cell rend="right">00</cell>
                      <cell rend="right">13</cell>
                      <cell rend="right">04</cell>
@@ -2285,9 +2285,103 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
       </body>
    </text>
              
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1637-09-29" to-iso="1638-09-29" cert="medium">1637-8</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 346">RLITTS</seg>
+         </head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 266 <ptr type="endnote" target="endnote:RLE00267"/><date from-iso="1637-11-03" to-iso="1638-11-03"></date><supplied>(3 November - 3 November) (Payments)</supplied>
+               </head>
+               <pb n="266" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item p<ex>ai</ex>d the Musicions <del>thei</del> for their attendance
+                        the 5<hi rend="superscript">th</hi> day of November last past</cell>
+                     <cell rend="right">00</cell>
+                     <cell rend="right">13</cell>
+                     <cell rend="right">04</cell>
+                  </row>
+                  <row>
+                     <cell>Item to them likewise for their fees for Candlemas and
+                        alhallow dayes last past</cell>
+                     <cell rend="right">02</cell>
+                     <cell rend="right">00</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+                  <row>
+                     <cell>Item paid by order at ye Table to the kinges players for
+                        2 playes acted heere vppon the same dayes</cell>
+                     <cell rend="right">20</cell>
+                     <cell rend="right">00</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+                  <row>
+                     <cell>It<ex>em</ex> to 4 porters for keepinge ye hall dores then</cell>
+                     <cell rend="right">00</cell>
+                     <cell rend="right">08</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+      </body>
+   </text>
              
-             
-             
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1638-09-29" to-iso="1639-09-29" cert="medium">1638-9</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 352">RLITTS</seg>
+         </head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 271v <date from-iso="1638-11-03" to-iso="1639-11-03"></date><supplied>(3 November - 3 November) (Payments)</supplied>
+               </head>
+               <pb n="271v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>It<ex>e</ex>m p<ex>ai</ex>d to the music<ex>i</ex>ons for their attendance the
+                        5<hi rend="italic">th</hi> day of Nov<ex>ember</ex> last past</cell>
+                     <cell rend="right">00</cell>
+                     <cell rend="right">13</cell>
+                     <cell rend="right">4</cell>
+                  </row>
+                  <row>
+                     <cell>It<ex>e</ex>m to them likewise for the<note>for the: <hi rend="italic">for</hi> for their</note> ffees for Candlemas day
+                        &amp; All Saint<ex>es</ex> day last past</cell>
+                     <cell rend="right">02</cell>
+                     <cell rend="right">00</cell>
+                     <cell rend="right">0</cell>
+                  </row>
+                  <row>
+                     <cell>It<ex>e</ex>m p<ex>ai</ex>d by order of the Table to the King<ex>es</ex> players for
+                        2 playes acted here vpon the same dayes</cell>
+                     <cell rend="right">20</cell>
+                     <cell rend="right">00</cell>
+                     <cell rend="right">0</cell>
+                  </row>
+                  <row>
+                     <cell>Item to 4 porters for keeping the hall doores those dayes</cell>
+                     <cell rend="right">00</cell>
+                     <cell rend="right">08</cell>
+                     <cell rend="right">0</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+      </body>
+   </text>
+   
+   
              
              
    
