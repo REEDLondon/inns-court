@@ -2224,8 +2224,66 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
       </body>
    </text>
    
-   
-               
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1636-09-29" to-iso="1637-09-29" cert="medium">1636-7</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 344-5">RLITTS</seg>
+         </head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 258v <ptr type="endnote" target="endnote:RLE00265"/><date from-iso="1637-01-29" to-iso="1637-11-03"></date><supplied>(29 January - 3 November 1637) (Payments)</supplied>
+               </head>
+               <pb n="258v" type="folio"/>      
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item to Henry ffeilde music<ex>i</ex>on in lieu for ye ffees for
+                        Alhollow &amp; Candlemas dayes when ye Com<ex>m</ex>ons of
+                        ye House discontinued granted vnto him in parliament</cell>
+                     <cell rend="right">02</cell>
+                     <cell rend="right">00</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 259</head>
+               <pb n="259" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item paid to ye Music<ex>i</ex>ons for their fee on alhallan day</cell>
+                     <cell rend="right">01</cell>
+                     <cell rend="right">00</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+                  <row>
+                     <cell>Item to ye Kings players for a play Acted hee<note type="foot">hee: <hi rend="italic">for</hi> heere</note> on
+                        the same day</cell>
+                     <cell rend="right">07</cell>
+                     <cell rend="right">00</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item to foure porters for keepinge the Hall dores
+                        y<ex>a</ex>t day</cell>
+                     <cell rend="right">00</cell>
+                     <cell rend="right">04</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+      </body>
+   </text>
              
              
              
