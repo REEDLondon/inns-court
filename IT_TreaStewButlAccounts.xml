@@ -2423,7 +2423,50 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
       </body>
    </text>
              
-             
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1640-09-29" to-iso="1641-09-29" cert="medium">1640-1</date>
+            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 359">RLITTS</seg>
+         </head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 285 <date from-iso="1640-11-08" to-iso="1641-11-03"></date><supplied>(8 November - 3 November) (Payments)</supplied>
+               </head>
+               <pb n="285" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Item to the Players of Blackfriers for a play here
+                        acted on Candlemas day last</cell>
+                     <cell rend="right">10</cell>
+                     <cell rend="right">00</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>I
+                        tem to the Musitions for theire attendance on
+                        those dayes<note>those dayes: <hi rend="italic">Candlemas and All Saints' Day</hi></note></cell>
+                     <cell rend="right">02</cell>
+                     <cell rend="right">00</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+                  <row>
+                     <cell>Item to the &#8248;<add place="above">4</add> Porters 
+                        that kept the Hall doores  <!-- KC: caret -->
+                        those dayes</cell>
+                     <cell rend="right">00</cell>
+                     <cell rend="right">08</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               
+               
    
    
    
