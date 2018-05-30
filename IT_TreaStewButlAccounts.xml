@@ -253,12 +253,12 @@
                <table>
                   <row>
                      <cell>It<ex>e</ex>m p<ex>ai</ex>d for a play on Allhollanday Anno D<ex>omi</ex>ni 1605</cell>
-                     <cell rend="right">v li.</cell>
+                     <cell rend="right"><measure type="currency">v li.</measure></cell>
                   </row>
                   <gap reason="omitted"/>
                   <row>
                      <cell>It<ex>e</ex>m p<ex>ai</ex>d to the Musytyons the same daye</cell>
-                     <cell rend="right">xx s.</cell>
+                     <cell rend="right"><measure type="currency">xx s.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -273,12 +273,12 @@
                      <cell>It<ex>e</ex>m p<ex>ai</ex>d for iiij<hi rend="superscript">or</hi> staftorches for Revell<ex>es</ex> the Satterdaye
                         before Candlemas daye<note type="foot">Satterdaye
                            before Candlemas daye: <hi rend="italic">26 January 1605/6</hi></note></cell>
-                     <cell rend="right">iiij s.</cell>
+                     <cell rend="right"><measure type="currency">iiij s.</measure></cell>
                   </row>
                   <row>
                      <cell>It<ex>e</ex>m p<ex>ai</ex>d for a Play on Candlemas day
                         laste 1605</cell>
-                     <cell rend="right">v li.</cell>
+                     <cell rend="right"><measure type="currency">v li.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -290,7 +290,7 @@
                <table>
                   <row>
                      <cell>It<ex>e</ex>m p<ex>ai</ex>d to the Musyc<ex>i</ex>ons the same daye</cell>
-                     <cell rend="right">xx s.</cell>
+                     <cell rend="right"><measure type="currency">xx s.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -319,7 +319,7 @@
                   <row>
                      <cell>Item paid to the Music<ex>i</ex>ons for their fee on
                         Alhollandaie 1606</cell>
-                     <cell rend="right">xx s.</cell>
+                     <cell rend="right"><measure type="currency">xx s.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -334,23 +334,23 @@
                      <cell>I
                         tem paid for 2 staffetorches for the revells on
                         Candlemas Even</cell>
-                     <cell rend="right">ij s.</cell>
+                     <cell rend="right"><measure type="currency">ij s.</measure></cell>
                   </row>
                   <row>
                      <cell>Item paid for a play on Candlemas Daye 1606</cell>
-                     <cell rend="right">v li.</cell>
+                     <cell rend="right"><measure type="currency">v li.</measure></cell>
                   </row>
                   <gap reason="omitted"/>
                   <row>
                      <cell>Item paid to the Music<ex>i</ex>ons for their ffee the
                         same daie</cell>
-                     <cell rend="right">xx s.</cell>
+                     <cell rend="right"><measure type="currency">xx s.</measure></cell>
                   </row>
                   <gap reason="omitted"/>
                   <row>
                      <cell>Item paid for 4 staff torches for the Revells the
                         same daie</cell>
-                     <cell rend="right">iiij s.</cell>
+                     <cell rend="right"><measure type="currency">iiij s.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -365,7 +365,7 @@
                      <cell>Item paid to Raphe Smyth the Carpenter <gap reason="omitted"/> for pullinge
                         downe the gallery in the hall where the Musicons<note type="foot">Musicons: <hi rend="italic">for</hi> Music<ex>i</ex>ons<hi rend="italic">abbreviation mark missing</hi></note> vse
                         to staund</cell>
-                     <cell rend="right">ij s. vj d.</cell>
+                     <cell rend="right"><measure type="currency">ij s. vj d.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -391,7 +391,7 @@
                <table>
                   <row>
                      <cell>Item paid for the Musitions fee the same day<note type="foot">the same day: <hi rend="italic">All Hallows' Day</hi></note></cell>
-                     <cell rend="right">xx s.</cell>
+                     <cell rend="right"><measure type="currency">xx s.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -405,24 +405,24 @@
                      <row>
                         <cell>Item paid for 2 staffe torches for the revells on
                            Candlemas Even</cell>
-                        <cell rend="right">ij s.</cell>
+                        <cell rend="right"><measure type="currency">ij s.</measure></cell>
                      </row>
                       <row>
                          <cell>Item paid for a play on Candlemas Day called
                             Oxford Tragedye</cell>
-                         <cell rend="right">v li.</cell>
+                         <cell rend="right"><measure type="currency">v li.</measure></cell>
                       </row>
                   </table>
                    <gap reason="omitted"/>
                   <table>
                      <row>
                         <cell>Item paid for 2 staffe torches the same daye</cell>
-                        <cell rend="right">ij s.</cell>
+                        <cell rend="right"><measure type="currency">ij s.</measure></cell>
                      </row>
                      <row>
                         <cell>Item paid to the Music<ex>i</ex>ons for their ffee the
                            same Daye</cell>
-                        <cell rend="right">xx s.</cell>
+                        <cell rend="right"><measure type="currency">xx s.</measure></cell>
                      </row>
                   </table>
                   <gap reason="omitted"/>
@@ -449,7 +449,7 @@
                   <row>
                      <cell>Ite<ex>m</ex> paid for a play on Allhollen Daie anno
                         d<ex>omi</ex>ni 1608</cell>
-                     <cell rend="right">iiij li. xv s.</cell>
+                     <cell rend="right"><measure type="currency">iiij li. xv s.</measure></cell>
                   </row>
                </table>
             </div>
@@ -461,12 +461,12 @@
                <table>
                   <row>
                      <cell>Ite<ex>m</ex> paid to the music<ex>i</ex>ons the same daie</cell>
-                     <cell rend="right">xx s.</cell>
+                     <cell rend="right"><measure type="currency">xx s.</measure></cell>
                   </row>
                   <row>
                      <cell>Ite<ex>m</ex> paid for 3 do<ex>ssen</ex> 3 torches spent this whole
-                        yeare at Revells at x s. the dozen</cell>
-                     <cell rend="right">xxxij s. vj d.</cell>
+                        yeare at Revells at <measure type="currency">x s.</measure> the dozen</cell>
+                     <cell rend="right"><measure type="currency">xxxij s. vj d.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -481,12 +481,12 @@
                   <row>
                      <cell>Ite<ex>m</ex> given to the gent<ex>lemens</ex> Revelles in Mich<ex>aelm</ex>as
                         Terme 3 revelling night<ex>es</ex></cell>
-                     <cell rend="right">iij li.</cell>
+                     <cell rend="right"><measure type="currency">iij li.</measure></cell>
                   </row>
                      <gap reason="omitted"/>
                   <row>
                      <cell>Ite<ex>m</ex> paied for a play on Candlemas Daie laste 1608</cell>
-                     <cell rend="right">v li.</cell>
+                     <cell rend="right"><measure type="currency">v li.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -512,7 +512,7 @@
                <table>
                   <row>
                      <cell>It<ex>em</ex> paid for a play on Alholand day 1609</cell>
-                     <cell rend="right">v li.</cell>
+                     <cell rend="right"><measure type="currency">v li.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -524,18 +524,18 @@
                <table>
                   <row>
                      <cell>Item paid for musicke the same day</cell>
-                     <cell rend="right">xx s.</cell>
+                     <cell rend="right"><measure type="currency">xx s.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
                <table>
                   <row>
                      <cell>It<ex>em</ex> paid for a play on Candlemas day</cell>
-                     <cell rend="right">v li.</cell>
+                     <cell rend="right"><measure type="currency">v li.</measure></cell>
                   </row>
                   <row>
                      <cell>It<ex>em</ex> paid for musicke the same day</cell>
-                     <cell rend="right">xx s.</cell>
+                     <cell rend="right"><measure type="currency">xx s.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -564,11 +564,11 @@
                   <row>
                      <cell>Item paid for a play on Alhallonday Anno
                D<ex>omi</ex>ni 1610</cell> 
-                     <cell rend="right">vj li.</cell>
+                     <cell rend="right"><measure type="currency">vj li.</measure></cell>
                   </row>
                   <row>
                      <cell>It<ex>em</ex> paid for Musick the same day</cell> 
-                     <cell rend="right">xx s.</cell>
+                     <cell rend="right"><measure type="currency">xx s.</measure></cell>
                   </row>
                </table>
                
@@ -576,11 +576,11 @@
                <table>
                   <row>
                      <cell>Item paid for Musicke the 5 No<ex>vember</ex> 1610</cell> 
-                     <cell rend="right">xiij s. iiij d.</cell>
+                     <cell rend="right"><measure type="currency">xiij s. iiij d.</measure></cell>
                   </row>
                <row>
                   <cell>Item paid for two staffe torches the same day</cell> 
-                  <cell rend="right">ij s.</cell>
+                  <cell rend="right"><measure type="currency">ij s.</measure></cell>
                </row>
                </table>
                
@@ -588,11 +588,11 @@
                <table>
                   <row>
                      <cell>Item paid for a play on Candlemas day last</cell>
-                     <cell rend="right">v li.</cell>
+                     <cell rend="right"><measure type="currency">v li.</measure></cell>
                   </row>
                   <row>
                      <cell>It<ex>em</ex> paid for musicke the same day</cell>
-                     <cell rend="right">xx s.</cell>
+                     <cell rend="right"><measure type="currency">xx s.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -600,7 +600,7 @@
                <table>
                   <row>
                      <cell> It<ex>em</ex> paid for 2 staffe torches the same day</cell>
-                     <cell rend="right">ij s.</cell>
+                     <cell rend="right"><measure type="currency">ij s.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -628,41 +628,41 @@
                <table>
                   <row>
                      <cell>Item paid for 2 staffe torches vppon Alhollowday</cell>
-                     <cell rend="right">ij s.</cell>
+                     <cell rend="right"><measure type="currency">ij s.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
                <table>
                   <row>
                      <cell>It<ex>em</ex> paid to the Musicions for their ffee the same day</cell>
-                     <cell rend="right">xx s.</cell>
+                     <cell rend="right"><measure type="currency">xx s.</measure></cell>
                   </row>
                   <row>
                      <cell>It<ex>em</ex> paid for a Consort of Musicke the same day</cell>
-                     <cell rend="right">l s.</cell>
+                     <cell rend="right"><measure type="currency">l s.</measure></cell>
                   </row>
                   <row>
                      <cell>It<ex>em</ex> for Antick<ex>es</ex> or puppitt<ex>es</ex> the same day</cell>
-                     <cell rend="right">xl s.</cell>
+                     <cell rend="right"><measure type="currency">xl s.</measure></cell>
                   </row>
                   <row>
                      <cell>It<ex>em</ex> paid for the Music<ex>i</ex>ons ffee the 5 of N<ex>ovember</ex></cell>
-                     <cell rend="right">xiij s. iiij d.</cell>
+                     <cell rend="right"><measure type="currency">xiij s. iiij d.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
                <table>
                   <row>
                      <cell>Item paid for 2 staffe torches on Candlemas day</cell>
-                     <cell rend="right">ij s. |</cell>
+                     <cell rend="right"><measure type="currency">ij s.</measure> |</cell>
                   </row>
                   <row>
                      <cell>Item paid for a play the same day</cell>
-                     <cell rend="right">vj li.</cell>
+                     <cell rend="right"><measure type="currency">vj li.</measure></cell>
                   </row>
                   <row>
                      <cell>Item paid for Musicke the same day</cell>
-                     <cell rend="right">xx s.</cell>
+                     <cell rend="right"><measure type="currency">xx s.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -688,42 +688,42 @@
             <table>
                <row>
                   <cell>Item payd for 2 staffe torches on Alhallonday</cell>
-                  <cell rend="right">ij s.</cell>
+                  <cell rend="right"><measure type="currency">ij s.</measure></cell>
                </row>
                <gap reason="omitted"/>
                <row>
                   <cell>Item payd to Musitians for theyr ffee the same day</cell>
-                  <cell rend="right">xx s.</cell>
+                  <cell rend="right"><measure type="currency">xx s.</measure></cell>
                </row>
                <row>
                   <cell>Item payd for a playe the same day</cell>
-                  <cell rend="right">v li.</cell>
+                  <cell rend="right"><measure type="currency">v li.</measure></cell>
                </row>
                <gap reason="omitted"/>
                <row>
                   <cell>Item payd to the Musitions for their ffee the v<hi rend="superscript">th</hi> of November</cell>
-                  <cell rend="right">xiij s. iiij d.</cell>
+                  <cell rend="right"><measure type="currency">xiij s. iiij d.</measure></cell>
                </row>
                <row>
                   <cell>Item payd for a play on Candlemas day</cell>
-                  <cell rend="right">vj li. xiij s. iiij d.</cell>                  
+                  <cell rend="right"><measure type="currency">vj li. xiij s. iiij d.</measure></cell>                  
                </row>
                <row>
                   <cell>Item payd to another company of players w<ex>hi</ex>ch were appointed to play heere the same day</cell>
-                  <cell rend="right">xxx s.</cell>
+                  <cell rend="right"><measure type="currency">xxx s.</measure></cell>
                </row>
                <row>
                   <cell>Item p<ex>ay</ex>d for 2 staffe torches the same day</cell>
-                  <cell rend="right">ij s.</cell>
+                  <cell rend="right"><measure type="currency">ij s.</measure></cell>
                </row>
                <gap reason="omitted"/>
                <row>
                   <cell>Item p<ex>ay</ex>d for ye Musitians fee the same day</cell>
-                  <cell rend="right">xx s.</cell>
+                  <cell rend="right"><measure type="currency">xx s.</measure></cell>
                </row>
                <row>
                   <cell>Item payd for one dosen of torches for the Revells in Mich<ex>aelm</ex>as terme 1612</cell>
-                  <cell rend="right">x s.</cell>
+                  <cell rend="right"><measure type="currency">x s.</measure></cell>
                </row>               
             </table>
          </div>
@@ -735,11 +735,11 @@
             <table>
                <row>
                   <cell>It<ex>em</ex> payd for 6 torches for the benchers to see the maske at Elye house</cell>
-                  <cell rend="right">v s.</cell>
+                  <cell rend="right"><measure type="currency">v s.</measure></cell>
                </row>
                <row>
                   <cell>It<ex>em</ex> payd for 2 torches another tyme to goe to Item payd for 2 torches another tyme to goe to</cell>
-                  <cell rend="right">ij s.</cell>
+                  <cell rend="right"><measure type="currency">ij s.</measure></cell>
                </row>
             </table>
             <gap reason="omitted"/>
@@ -752,11 +752,11 @@
             <table>
                <row>
                   <cell>Item paid to Mr Lewes Hele at 2 seu<ex>er</ex>all tymes toward<ex>es</ex> the maske busines</cell>
-                  <cell rend="right">lxx li.</cell>
+                  <cell rend="right"><measure type="currency">lxx li.</measure></cell>
                </row>
                <row>
                   <cell>Item paid to Mr ffenner towarde the same busines</cell>
-                  <cell rend="right">x li.</cell>
+                  <cell rend="right"><measure type="currency">x li.</measure></cell>
                </row>
                <row>
                   <cell>Item paid to a messinger w<ex>hi</ex>ch Mr ffenner p<ex>ro</ex>vided ‸<add place="above">to fetch Mr Beamont</add></cell>
@@ -764,7 +764,7 @@
                <gap reason="omitted"/>
                <row>
                   <cell>Item paid to Iohn Hodgkins for boate hyer to and fro to Winchester howse about the maske busines</cell>
-                  <cell rend="right">ij s. vj d.</cell>
+                  <cell rend="right"><measure type="currency">ij s. vj d.</measure></cell>
                </row>
             </table>
          </div>
@@ -788,34 +788,34 @@
             <table>
                <row>
                   <cell>It<ex>e</ex>m paid for a play vpon all saint<ex>es</ex> day 1613</cell>
-                  <cell rend="right">vj li. xiij s. iiij d.</cell>
+                  <cell rend="right"><measure type="currency">vj li. xiij s. iiij d.</measure></cell>
                </row>
                <row>
                   <cell>It<ex>e</ex>m p<ex>ai</ex>d for 2 staffe torches ye same day</cell>
-                  <cell rend="right">ij s.</cell>
+                  <cell rend="right"><measure type="currency">ij s.</measure></cell>
                </row>
                <gap reason="omitted"/>
                <row>
                   <cell>It<ex>e</ex>m p<ex>ai</ex>d for the Music<ex>io</ex>ns ffee ye same day</cell>
-                  <cell rend="right">xx s.</cell>
+                  <cell rend="right"><measure type="currency">xx s.</measure></cell>
                </row>
                <row>
                   <cell>It<ex>e</ex>m p<ex>ai</ex>d for theyr ffee on the fifte of Novemb<ex>er</ex></cell>
-                  <cell rend="right">xiij s. iiij d.</cell>
+                  <cell rend="right"><measure type="currency">xiij s. iiij d.</measure></cell>
                </row>
                <gap reason="omitted"/>
                <row>
                   <cell>It<ex>e</ex>m p<ex>ai</ex>d for a play one Candlemas day 1613</cell>
-                  <cell rend="right">vj li. xiij s. iiij d.</cell>
+                  <cell rend="right"><measure type="currency">vj li. xiij s. iiij d.</measure></cell>
                </row>
                <row>
                   <cell>It<ex>e</ex>m for 2 staffe torches the same day</cell>
-                  <cell rend="right">ij s.</cell>
+                  <cell rend="right"><measure type="currency">ij s.</measure></cell>
                </row>
                <gap reason="omitted"/>
                <row>
                   <cell>It<ex>e</ex>m p<ex>ai</ex>d for the Musitions ffee the same day</cell>
-                  <cell rend="right">xx s.</cell>
+                  <cell rend="right"><measure type="currency">xx s.</measure></cell>
                </row>
                <gap reason="omitted"/>
             </table>
@@ -841,7 +841,7 @@
                <row>
                   <cell>Item p<ex>ay</ex>d to the Kinges Ma<ex>ies</ex>ties servant<ex>es</ex> for a
                      play vpon allsaint<ex>es</ex> day 1614</cell>
-                  <cell rend="right">vj li.</cell>
+                  <cell rend="right"><measure type="currency">vj li.</measure></cell>
                </row>
                </table>
                <gap reason="omitted"/>
@@ -853,12 +853,12 @@
                   <table>
                      <row>
                         <cell>Item p<ex>ay</ex>d for 2 staffe torches the same daye</cell>
-                        <cell rend="right">ij s.</cell>
+                        <cell rend="right"><measure type="currency">ij s.</measure></cell>
                      </row>
                      <row>
                         <cell>Item payd to Iohn Hopp<ex>er</ex> for the Musitions fee
                            the same day</cell>
-                        <cell rend="right">xx s.</cell>
+                        <cell rend="right"><measure type="currency">xx s.</measure></cell>
                      </row>
                   </table>
                   <gap reason="omitted"/>
@@ -867,15 +867,15 @@
                         <cell>I
                            tem p<ex>ay</ex>d to his ma<ex>ies</ex>t<ex>ies</ex> s<ex>er</ex>vant<ex>es</ex> for a play vpon Candlemas 
                            daye last past</cell>
-                        <cell rend="right">vj li. xiij s. iiij d.</cell>
+                        <cell rend="right"><measure type="currency">vj li. xiij s. iiij d.</measure></cell>
                      </row>
                      <row>
                         <cell>Item p<ex>ay</ex>d for 2 staffe torches the same day</cell>
-                        <cell rend="right">ij s.</cell>
+                        <cell rend="right"><measure type="currency">ij s.</measure></cell>
                      </row>
                      <row>
                         <cell>It<ex>em</ex> p<ex>ay</ex>d for ye musitions fee ye same day</cell>
-                        <cell rend="right">xx s.</cell>
+                        <cell rend="right"><measure type="currency">xx s.</measure></cell>
                      </row>
                   </table>
                   <gap reason="omitted"/>
@@ -889,7 +889,7 @@
                      <row>
                         <cell>Item p<ex>ay</ex>d to the gent<ex>lemen</ex> reuellars vpon Candlemas
                            day at night</cell>
-                        <cell rend="right">xl s.</cell>
+                        <cell rend="right"><measure type="currency">xl s.</measure></cell>
                      </row>
                   </table>
                   <gap reason="omitted"/>
@@ -915,28 +915,28 @@
                   <row>
                      <cell>Item p<ex>ay</ex>d to the Kinges Ma<ex>ies</ex>tie servant<ex>es</ex> for a play
                         vpon Allhallon day 1615</cell>
-                     <cell rend="right">v li.</cell>
+                     <cell rend="right"><measure type="currency">v li.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
                <table>
                   <row>
                      <cell>Item p<ex>ay</ex>d for 2 staffe torches the same day</cell>
-                     <cell rend="right">ij s.</cell>
+                     <cell rend="right"><measure type="currency">ij s.</measure></cell>
                   </row>
                   <row>
                      <cell>Item p<ex>ay</ex>d to Iohn Hopper for ye Musitions fee ye
                         same day</cell>
-                     <cell rend="right">xx s.</cell>
+                     <cell rend="right"><measure type="currency">xx s.</measure></cell>
                   </row>
                   <row>
                      <cell>Item p<ex>ay</ex>d for the Musitions fee the 5<hi rend="superscript">th</hi> of November</cell>
-                     <cell rend="right">xiij s. iiij d.</cell>
+                     <cell rend="right"><measure type="currency">xiij s. iiij d.</measure></cell>
                   </row>
                   <row>
                      <cell>Item p<ex>ay</ex>d for 2 dosen of torches for reuells the 5 12
                         18 &amp; 25 of November<note type="foot">5 12 18 &amp; 25 of November: <hi rend="italic">the first two were Tuesday nights, the second two Monday nights</hi></note></cell>
-                     <cell rend="right">xx s.</cell>
+                     <cell rend="right"><measure type="currency">xx s.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -949,18 +949,18 @@
                <table>
                   <row>
                      <cell>Item p<ex>ay</ex>d for a play vpon Candlemas day</cell>
-                     <cell rend="right">vj li. xiij s. iiij d.</cell>
+                     <cell rend="right"><measure type="currency">vj li. xiij s. iiij d.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
                <table>
                   <row>
                      <cell>Item p<ex>ay</ex>d for the musitions fee the same day</cell>
-                     <cell rend="right">xx s.</cell>
+                     <cell rend="right"><measure type="currency">xx s.</measure></cell>
                   </row>
                   <row>
                      <cell>Item p<ex>ay</ex>d to<note type="foot">to: <hi rend="italic">for</hi> for</note> 2 staffe torches the same day</cell>
-                     <cell rend="right">ij s.</cell>
+                     <cell rend="right"><measure type="currency">ij s.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -975,7 +975,7 @@
                         <cell>Item p<ex>ay</ex>d to Nicholas Polhill for a debt rem<ex>aining</ex>
                            due vnto him from this house aboute ye maske
                            to court</cell>
-                        <cell rend="right">xx li.</cell>
+                        <cell rend="right"><measure type="currency">xx li.</measure></cell>
                      </row>
                   </table>
                </div>
@@ -988,7 +988,7 @@
                      <row>
                         <cell>Item p<ex>ay</ex>d to mr Iordan of the bench towarde the
                            charge of the barryers</cell>
-                        <cell rend="right">L li.</cell>
+                        <cell rend="right"><measure type="currency">L li.</measure></cell>
                      </row>
                   </table>
                   <gap reason="omitted"/>
@@ -1014,7 +1014,7 @@
                   <row>
                      <cell>It<ex>e</ex>m p<ex>ai</ex>d to the king<ex>es</ex> Maie<ex>s</ex>ti<ex>es</ex> servant<ex>es</ex> for a
                         playe vpon Allhallon<del>tyde</del> day 1616</cell>
-                     <cell rend="right">vj li. xiij s. iiij d.</cell>
+                     <cell rend="right"><measure type="currency">vj li. xiij s. iiij d.</measure></cell>
                   </row>
                </table>
             </div>
@@ -1026,12 +1026,12 @@
                <table>
                   <row>
                      <cell>It<ex>e</ex>m paid for 2 staffe torches the same daye</cell>
-                     <cell rend="right">ij s.</cell>
+                     <cell rend="right"><measure type="currency">ij s.</measure></cell>
                   </row>
                   <row>
                      <cell>It<ex>e</ex>m paied to Iohn Hopper for the Musitions
                         ffee the same day</cell>
-                     <cell rend="right">xx s.</cell>
+                     <cell rend="right"><measure type="currency">xx s.</measure></cell>
                   </row>
                   <row>
                      <cell>It<ex>e</ex>m paied ffor the Musitions ffee the ffift
@@ -1050,16 +1050,16 @@
                   <row>
                      <cell>It<ex>e</ex>m p<ex>ai</ex>d to ffrancis Lownds for the hyer of nap<ex>er</ex>ie
                         and plate on Candlemas day</cell>
-                     <cell rend="right">xxvj s. viij d.</cell>
+                     <cell rend="right"><measure type="currency">xxvj s. viij d.</measure></cell>
                   </row>
                   <row>
                      <cell>It<ex>e</ex>m p<ex>ai</ex>d to Iohn Hopper for the Musitions ffee
                         the same daye</cell>
-                     <cell rend="right">xx s.</cell>
+                     <cell rend="right"><measure type="currency">xx s.</measure></cell>
                   </row>
                   <row>
                      <cell>It<ex>e</ex>m p<ex>ai</ex>d for 2 staffe torches the same daye</cell>
-                     <cell rend="right">ij s.</cell>
+                     <cell rend="right"><measure type="currency">ij s.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -1067,7 +1067,7 @@
                   <row>
                      <cell>It<ex>e</ex>m p<ex>ai</ex>d to Mr Brownlowe of the Bench for money
                         borrowed toward<ex>es</ex> the Charge of Barryers</cell>
-                     <cell rend="right">l li.</cell>
+                     <cell rend="right"><measure type="currency">l li.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -1080,8 +1080,8 @@
                <table>
                   <row>
                      <cell>It<ex>e</ex>m p<ex>ai</ex>d to S<ex>i</ex>r Thomas Coventry for money lent
-                        toward<ex>es</ex> the barryers being parte of debt of l li.</cell>
-                     <cell rend="right">xx li.</cell>
+                        toward<ex>es</ex> the barryers being parte of debt of <measure type="currency">l li.</measure></cell>
+                     <cell rend="right"><measure type="currency">xx li.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -1094,17 +1094,17 @@
                <table>
                   <row>
                      <cell>It<ex>e</ex>m p<ex>ai</ex>d to Sir Thomas Coventry</cell>
-                     <cell rend="right">xxx li.</cell>
+                     <cell rend="right"><measure type="currency">xxx li.</measure></cell>
                   </row>
                   <row>
                      <cell>It<ex>e</ex>m p<ex>ai</ex>d to Mr Martyne of the Middle temple and to
                         one Gilles a Taylor by the appoyntm<ex>en</ex>t of Mr Iorden</cell>
-                     <cell rend="right">xl li.</cell>
+                     <cell rend="right"><measure type="currency">xl li.</measure></cell>
                   </row>
                   <row>
                      <cell>It<ex>e</ex>m p<ex>ai</ex>d to Richard Mayer for Collectinge of the
                         barryers money</cell>
-                     <cell rend="right">l s.</cell>
+                     <cell rend="right"><measure type="currency">l s.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -1134,30 +1134,30 @@
                      <cell rend="right">d.</cell>
                   </row><row>
                      <cell>Imprimis paid for a play on Alhollon day</cell>
-                     <cell rend="right">6</cell>
-                     <cell rend="right">0</cell>
-                     <cell rend="right">0</cell>
+                     <cell rend="right"><measure type="currency">6</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
                   </row>
                   <row>
                      <cell>It<ex>em</ex> paid paid<note type="foot">paid paid: <hi rend="italic">dittography</hi></note> for a playe on Candlemas daye</cell>
-                     <cell rend="right">6</cell>
-                     <cell rend="right">013</cell>
-                     <cell rend="right">4</cell>
+                     <cell rend="right"><measure type="currency">6</measure></cell>
+                     <cell rend="right"><measure type="currency">013</measure></cell>
+                     <cell rend="right"><measure type="currency">4</measure></cell>
                   </row>
                   <row>
                      <cell>It<ex>em</ex> paid to the Musitions for the fifte of november</cell>
-                     <cell rend="right">0</cell>
-                     <cell rend="right">13</cell>
-                     <cell rend="right">4</cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
+                     <cell rend="right"><measure type="currency">13</measure></cell>
+                     <cell rend="right"><measure type="currency">4</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
                <table>
                   <row>
                      <cell>It<ex>em</ex> paid to the Musitions for a yere ffee</cell>
-                     <cell rend="right">2</cell>
-                     <cell rend="right">0</cell>
-                     <cell rend="right">0</cell>
+                     <cell rend="right"><measure type="currency">2</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -1182,36 +1182,36 @@
                <table>
                   <row>
                      <cell>It<ex>e</ex>m paid to the musicians vppon Alhallond Day</cell>
-                     <cell rend="right">0</cell>
-                     <cell rend="right">13</cell>
-                     <cell rend="right">4</cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
+                     <cell rend="right"><measure type="currency">13</measure></cell>
+                     <cell rend="right"><measure type="currency">4</measure></cell>
                   </row>
                   <row>
                      <cell>It<ex>e</ex>m paid the v<hi rend="superscripte">th</hi> of November</cell>
-                     <cell rend="right">0</cell>
-                     <cell rend="right">13</cell>
-                     <cell rend="right">4</cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
+                     <cell rend="right"><measure type="currency">13</measure></cell>
+                     <cell rend="right"><measure type="currency">4</measure></cell>
                   </row>
                   <row>
                      <cell>It<ex>e</ex>m paid to them on Candlemas day</cell>
-                     <cell rend="right">0</cell>
-                     <cell rend="right">13</cell>
-                     <cell rend="right">4</cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
+                     <cell rend="right"><measure type="currency">13</measure></cell>
+                     <cell rend="right"><measure type="currency">4</measure></cell>
                   </row>
                   <row>
                      <cell>Item paid to them for their fee one whole yeare</cell>
-                     <cell rend="right">2</cell>
-                     <cell rend="right">0</cell>
-                     <cell rend="right">0</cell>
+                     <cell rend="right"><measure type="currency">2</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
                <table>
                   <row>
                      <cell>It<ex>e</ex>m paid for a play on Candlemas Day</cell>
-                     <cell rend="right">7</cell>
-                     <cell rend="right">0</cell>
-                     <cell rend="right">0</cell>
+                     <cell rend="right"><measure type="currency">7</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -1236,30 +1236,30 @@
                <table>
                   <row>
                      <cell>Item paid for a play on Allhollonday 1619</cell>
-                     <cell rend="right">7</cell>
-                     <cell rend="right">0</cell>
-                     <cell rend="right">0</cell>
+                     <cell rend="right"><measure type="currency">7</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
                   </row>
                   <row>
                      <cell>Item for a play on Candlemas day last 1619.</cell>
-                     <cell rend="right">7</cell>
-                     <cell rend="right">0</cell>
-                     <cell rend="right">0</cell>
+                     <cell rend="right"><measure type="currency">7</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
                <table>
                   <row>
                      <cell>Item paid to the Musitians for there whole yeares fee</cell>
-                     <cell rend="right">2</cell>
-                     <cell rend="right">0</cell>
-                     <cell rend="right">0</cell>
+                     <cell rend="right"><measure type="currency">2</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
                   </row>
                   <row>
                      <cell>Item to them more for the fift of Nouember</cell>
-                     <cell rend="right">0</cell>
-                     <cell rend="right">13</cell>
-                     <cell rend="right">4</cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
+                     <cell rend="right"><measure type="currency">13</measure></cell>
+                     <cell rend="right"><measure type="currency">4</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -1284,33 +1284,33 @@
                <table>
                   <row>
                      <cell>It<ex>e</ex>m p<ex>ai</ex>d for twoe plaies one all S<ex>ain</ex>t<ex>es</ex> &amp; candlemas day</cell>
-                     <cell rend="right">14</cell>
-                     <cell rend="right">0</cell>
-                     <cell rend="right">0</cell>
+                     <cell rend="right"><measure type="currency">14</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
                <table>
                   <row>
                      <cell>It<ex>e</ex>m p<ex>ai</ex>d to ye Musitions then<note type="foot">then: <hi rend="italic">All Saints' Day</hi></note></cell>
-                     <cell rend="right">1</cell>
-                     <cell rend="right">0</cell>
-                     <cell rend="right">0</cell>
+                     <cell rend="right"><measure type="currency">1</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
                   </row>
                   <row>
                      <cell>It<ex>e</ex>m p<ex>ai</ex>d to the Musitions for the fift day of No<ex>vem</ex>ber</cell>
-                     <cell rend="right">0</cell>
-                     <cell rend="right">13</cell>
-                     <cell rend="right">4</cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
+                     <cell rend="right"><measure type="currency">13</measure></cell>
+                     <cell rend="right"><measure type="currency">4</measure></cell>
                   </row>                  
                </table>
                <gap reason="omitted"/>
                <table>
                   <row>
                      <cell>It<ex>e</ex>m p<ex>ai</ex>d to ye Musitions then</cell>
-                     <cell rend="right">1</cell>
-                     <cell rend="right">0</cell>
-                     <cell rend="right">0</cell>
+                     <cell rend="right"><measure type="currency">1</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -1336,9 +1336,9 @@
                   <row>
                      <cell>It<ex>em</ex> paid to the Kinges players for two plaies on
                         Allhallonday &amp; Candlemas day last</cell>
-                     <cell rend="right">14</cell>
-                     <cell rend="right">0</cell>
-                     <cell rend="right">0</cell>
+                     <cell rend="right"><measure type="currency">14</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -1357,9 +1357,9 @@
                   <row>
                      <cell>It<ex>em</ex> to the Musitians for their ffee for this yeere &amp; the
                         5<hi rend="superscript">th</hi> of Novemb<ex>er</ex></cell>
-                     <cell rend="right">2</cell>
-                     <cell rend="right">13</cell>
-                     <cell rend="right">4</cell>
+                     <cell rend="right"><measure type="currency">2</measure></cell>
+                     <cell rend="right"><measure type="currency">13</measure></cell>
+                     <cell rend="right"><measure type="currency">4</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>               
@@ -1384,24 +1384,24 @@
                <table>
                   <row>
                      <cell>Item p<ex>ai</ex>d for a play all S<ex>ain</ex>t<ex>es</ex> day</cell>
-                     <cell rend="right">7</cell>
-                     <cell rend="right">0</cell>
-                     <cell rend="right">0</cell>
+                     <cell rend="right"><measure type="currency">7</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
                <table>
                   <row>
                      <cell>Item to the Music<ex>i</ex>ons for their wages this yeare</cell>
-                     <cell rend="right">2</cell>
-                     <cell rend="right">0</cell>
-                     <cell rend="right">0</cell>
+                     <cell rend="right"><measure type="currency">2</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
                   </row>
                   <row>
                      <cell>It<ex>e</ex>m to them more for playeng the fifte of November</cell>
-                     <cell rend="right">0</cell>
-                     <cell rend="right">13</cell>
-                     <cell rend="right">4</cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
+                     <cell rend="right"><measure type="currency">13</measure></cell>
+                     <cell rend="right"><measure type="currency">4</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -1426,25 +1426,25 @@
                   <row>
                      <cell>Item for two playes on Allholland day and
                         Candlemas day</cell>
-                     <cell rend="right">14</cell>
-                     <cell rend="right">0</cell>
-                     <cell rend="right">0</cell>
+                     <cell rend="right"><measure type="currency">14</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
                <table>
                   <row>
                      <cell>Item to the Musitians for their wages</cell>
-                     <cell rend="right">02</cell>
-                     <cell rend="right">13</cell>
-                     <cell rend="right">4</cell>
+                     <cell rend="right"><measure type="currency">02</measure></cell>
+                     <cell rend="right"><measure type="currency">13</measure></cell>
+                     <cell rend="right"><measure type="currency">4</measure></cell>
                   </row>
                   <row>
                      <cell>Item ‸<add place="above">more</add> to them for playing on the fift
                         of November</cell> <!-- KC: caret -->
-                     <cell rend="right">00</cell>
-                     <cell rend="right">13</cell>
-                     <cell rend="right">4</cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">13</measure></cell>
+                     <cell rend="right"><measure type="currency">4</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -1469,15 +1469,15 @@
                <table>
                   <row>
                      <cell>Item for a play on Candlemas Daie 1624</cell>
-                     <cell rend="right">7</cell>
-                     <cell rend="right">0</cell>
-                     <cell rend="right">0</cell>
+                     <cell rend="right"><measure type="currency">7</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
                   </row>
                   <row>
                      <cell>Item to the Musitians for their ffee y<ex>a</ex>t day</cell>
-                     <cell rend="right">1</cell>
-                     <cell rend="right">0</cell>
-                     <cell rend="right">0</cell>
+                     <cell rend="right"><measure type="currency">1</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -1503,7 +1503,7 @@
                   <row>
                      <cell>Item payed to the Players for a Playe on Allhallon
                         day last</cell>
-                     <cell rend="right">vij li.</cell>
+                     <cell rend="right"><measure type="currency">vij li.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -1516,7 +1516,7 @@
                   <row>
                      <cell>Item to the Musitians for their ffee for Candlemas
                         Day and Alhallon day, and the v<hi rend="superscript">th</hi> of November 1626</cell>
-                     <cell rend="right">liij s. iiij d.</cell>
+                     <cell rend="right"><measure type="currency">liij s. iiij d.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -1531,7 +1531,7 @@
                      <cell>Item to him<note type="foot">him: <hi rend="italic">William White, the chandler</hi></note> for Torches to search the house in
                         the two longe vaccac<ex>i</ex>ons and for Candlemas and
                         Alhallon nights</cell>
-                     <cell rend="right">x s.</cell>
+                     <cell rend="right"><measure type="currency">x s.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -1539,7 +1539,7 @@
                   <row>
                      <cell>Item for Porters to keepe the Hall dores on
                         Alhallonday last</cell>
-                     <cell rend="right">iiij s.</cell>
+                     <cell rend="right"><measure type="currency">iiij s.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -1565,7 +1565,7 @@
                   <row>
                      <cell>Item to the Kings Ma<ex>ies</ex>ties plaiers for a playe
                         on Candlemas day last</cell>
-                     <cell rend="right">vij li.</cell>
+                     <cell rend="right"><measure type="currency">vij li.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -1580,16 +1580,16 @@
                      <cell>Item to the gent<ex>lemen</ex> that were Revellers on
                         Candlemas Day and Candlemas Eaven last by
                         M<ex>aster</ex> Thr<ex>easour</ex>ers allowance</cell>
-                     <cell rend="right">xl s.</cell>
+                     <cell rend="right"><measure type="currency">xl s.</measure></cell>
                   </row>
                   <row>
                      <cell>Item to the Musique for theire Wages this yeare</cell>
-                     <cell rend="right">xl s.</cell>
+                     <cell rend="right"><measure type="currency">xl s.</measure></cell>
                   </row>
                   <row>
                      <cell>Item more to them for playinge on the fifth
                         of November</cell>
-                     <cell rend="right">xiij s. iiij d.</cell>
+                     <cell rend="right"><measure type="currency">xiij s. iiij d.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -1601,7 +1601,7 @@
                <table>
                   <row>
                      <cell>Item payed for the play on Alhallon Day last</cell>
-                     <cell rend="right">vij li.</cell>
+                     <cell rend="right"><measure type="currency">vij li.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -1609,14 +1609,14 @@
                   <row>
                      <cell>Item more to him<note type="foot">him: <hi rend="italic">William White, the chandler</hi></note> for 12 Torches for the Revells
                         att Candlemas for two nights</cell>
-                     <cell rend="right">x s.</cell>
+                     <cell rend="right"><measure type="currency">x s.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
                <table>
                   <row>
                      <cell>Item for two Torches for Alhollon Day last</cell>
-                     <cell rend="right">xviij d.</cell>
+                     <cell rend="right"><measure type="currency">xviij d.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -1630,12 +1630,12 @@
                   <row>
                      <cell>Item to the Players for theire play on the 5th
                         of November 1627.</cell>
-                     <cell rend="right"></cell>
+                     <cell rend="right"><measure type="currenty">vij li.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
                <ab>Item <gap reason="omitted"/> for porters to keepe the hall doors on Candlemas day and <del>all</del>
-                        Alhallon day viij s. <gap reason="omitted"/></ab>
+                        Alhallon day <measure type="currency">viij s.</measure> <gap reason="omitted"/></ab>
                <gap reason="omitted"/>
             </div>
          </div>
@@ -1659,24 +1659,24 @@
                   <row>
                      <cell>Item to the Cockpitt plaiers for a play on
                         Candlemas day</cell>
-                     <cell rend="right">vij li.</cell>
+                     <cell rend="right"><measure type="currency">vij li.</measure></cell>
                   </row>
                   <row>
                      <cell>Item more to the kings plaiers for a play
                         on Alhallonday</cell>
-                     <cell rend="right">vij li.</cell>
+                     <cell rend="right"><measure type="currency">vij li.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>  
                <table>
                   <row>
                      <cell>Item to the Musitians for theire wages this yeare</cell>
-                     <cell rend="right">xl s.</cell>
+                     <cell rend="right"><measure type="currency">xl s.</measure></cell>
                   </row>
                   <row>
                      <cell>Item more to them for attending on the 5<hi rend="superscript">th</hi>
                         of November</cell>
-                     <cell rend="right">xiij s. iiij d.</cell>
+                     <cell rend="right"><measure type="currency">xiij s. iiij d.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -1690,16 +1690,16 @@
                <row>
                   <cell>Item paied more to him<note type="foot">him: <hi rend="italic">William White, the chandler</hi></note> for a dozen of Torches on
                      the 5<hi rend="superscript">th</hi> of November 1627 when the plaie was</cell>
-                  <cell rend="right"></cell>
+                  <cell rend="right"><measure type="currency">x s.</measure></cell>
                </row>
                <row>
                   <cell>Item for 3 lincks then</cell>
-                  <cell rend="right"></cell>
+                  <cell rend="right"><measure type="currency">xij d.</measure></cell>
                </row>
                <row>
                   <cell>Item for two Torches on Candlemas day 4 Torches in
                      the Lent Vacac<ex>i</ex>on. &amp; 4 Torches in the Somer Vacac<ex>i</ex>on</cell>
-                  <cell rend="right"></cell>
+                  <cell rend="right"><measure type="currency">viij s. iiij d.</measure></cell>
                </row>
             </table>
             </div>
@@ -1724,7 +1724,7 @@
                   <row>
                      <cell>I
                         tem paied for a playe on Candlemas day last</cell>
-                     <cell rend="right">vij li.</cell>
+                     <cell rend="right"><measure type="currency">vij li.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -1732,17 +1732,17 @@
                   <row>
                      <cell>Item to the Musitians for attendinge on the 5th of
                         November <del>last</del> ‸<add place="above">1628</add></cell>
-                     <cell rend="right">xiij s. iiij d.</cell>
+                     <cell rend="right"><measure type="currency">xiij s. iiij d.</measure></cell>
                   </row>
                   <row>
                      <cell>Item given to them by direction of M<ex>aster</ex> Tr<ex>easour</ex>er
                         att the Bench Table in regard of theire extraordinarie
                         Musicke on Candlemas night and some other nights</cell>
-                     <cell rend="right">xx s.</cell>
+                     <cell rend="right"><measure type="currency">xx s.</measure></cell>
                   </row>
                   <row>
                      <cell>Item to them more for theire ffee for the yeare last past</cell>
-                     <cell rend="right">xl s.</cell>
+                     <cell rend="right"><measure type="currency">xl s.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -1767,19 +1767,19 @@
                   <row>
                      <cell>Item to the Musitians for attending on the 5<hi rend="superscript">th</hi>
                         of November</cell>
-                     <cell rend="right">xiij s. iiij d.</cell>
+                     <cell rend="right"><measure type="currency">xiij s. iiij d.</measure></cell>
                   </row>
                   <row>
                      <cell>Item to the Blackfryers Players for a play on
                         Candlemas day</cell>
-                     <cell rend="right">vij li.</cell>
+                     <cell rend="right"><measure type="currency">vij li.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
                <table>
                   <row>
                      <cell>Item to the Musitians for their fee then<note type="foot">then: <hi rend="italic">Candlemas Day</hi></note></cell>
-                     <cell rend="right">xx s.</cell>
+                     <cell rend="right"><measure type="currency">xx s.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -1806,16 +1806,16 @@
                      <cell>Item paid to the Musitians by order att the Bench
                         Table vpon their petic<ex>i</ex>on, their fee for the last yeere,
                         although noe Reavells weere held in the house</cell>
-                     <cell rend="right">002</cell>
-                     <cell rend="right">00</cell>
-                     <cell rend="right">00</cell>
+                     <cell rend="right"><measure type="currency">002</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
                   </row>
                   <row>
                      <cell>Item paid to the Blackefryers plaiers for a Playe on
                         Alhollondaie last,</cell>
-                     <cell rend="right">07</cell>
-                     <cell rend="right">00</cell>
-                     <cell rend="right">00</cell>
+                     <cell rend="right"><measure type="currency">07</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -1823,9 +1823,9 @@
                   <row>
                      <cell>Item to Will<ex>ia</ex>m ffoster for a new horne for
                         the Pannierman</cell>
-                     <cell rend="right">001</cell>
-                     <cell rend="right">00</cell>
-                     <cell rend="right">00</cell>
+                     <cell rend="right"><measure type="currency">001</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -1851,16 +1851,16 @@
                   <row>
                      <cell>Item to the Musitians for theire ffee for Candlemas
                         daye and Allhallondaye last</cell>
-                     <cell rend="right">002</cell>
-                     <cell rend="right">00</cell>
-                     <cell rend="right">00</cell>
+                     <cell rend="right"><measure type="currency">002</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
                   </row>
                   <row>
                      <cell>Item more to them for attending on the 5<hi rend="supercript">th</hi> of
                         November 1631</cell>
-                     <cell rend="right">000</cell>
-                     <cell rend="right">13</cell>
-                     <cell rend="right">04</cell>
+                     <cell rend="right"><measure type="currency">000</measure></cell>
+                     <cell rend="right"><measure type="currency">13</measure></cell>
+                     <cell rend="right"><measure type="currency">04</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -1868,16 +1868,16 @@
                   <row>
                      <cell>Item to the Blackffriers Players for two Stageplayes
                         acted here on those dayes<note type="foot">those dayes: <hi rend="italic">Candlemas and All Saints' Day</hi></note></cell>
-                     <cell rend="right">014</cell>
-                     <cell rend="right">00</cell>
-                     <cell rend="right">00</cell>
+                     <cell rend="right"><measure type="currency">014</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
                   </row>
                   <row>
                      <cell>Item to fower Porters for keeping the Hall doares on
                         Candlemas daye</cell>
-                     <cell rend="right">000</cell>
-                     <cell rend="right">04</cell>
-                     <cell rend="right">00</cell>
+                     <cell rend="right"><measure type="currency">000</measure></cell>
+                     <cell rend="right"><measure type="currency">04</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -1903,16 +1903,16 @@
                   <row>
                      <cell>Item to the Musitians for attending on the 5<hi rend="superscript">th</hi>
                         of November last</cell>
-                     <cell rend="right">000</cell>
-                     <cell rend="right">13</cell>
-                     <cell rend="right">04</cell>
+                     <cell rend="right"><measure type="currency">000</measure></cell>
+                     <cell rend="right"><measure type="currency">13</measure></cell>
+                     <cell rend="right"><measure type="currency">04</measure></cell>
                   </row>
                   <row>
                      <cell>Item to them for theire fee for Candlemas daye and
                         Alhallowe daye last</cell>
-                     <cell rend="right">002</cell>
-                     <cell rend="right">00</cell>
-                     <cell rend="right">00</cell>
+                     <cell rend="right"><measure type="currency">002</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -1920,23 +1920,23 @@
                   <row>
                      <cell>Item to the Blackffriers players for two playes acted
                         here on those dayes<note type="foot">those dayes: <hi rend="italic">Candlemas and All Saints' Day</hi></note></cell>
-                     <cell rend="right">014</cell>
-                     <cell rend="right">00</cell>
-                     <cell rend="right">00</cell>
+                     <cell rend="right"><measure type="currency">014</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
                   </row>
                   <row>
                      <cell>Item to fower porters for keeping the hall dores on
                         Candlemas daye last</cell>
-                     <cell rend="right">000</cell>
-                     <cell rend="right">04</cell>
-                     <cell rend="right">0</cell>
+                     <cell rend="right"><measure type="currency">000</measure></cell>
+                     <cell rend="right"><measure type="currency">04</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
                   </row>
                   <row>
                      <cell>Item to fower porters for keeping the hall dores on
                         Alhallowedaye last</cell>
-                     <cell rend="right">000</cell>
-                     <cell rend="right">04</cell>
-                     <cell rend="right">00</cell>
+                     <cell rend="right"><measure type="currency">000</measure></cell>
+                     <cell rend="right"><measure type="currency">04</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -1961,18 +1961,18 @@
                <table>
                   <row>
                      <cell></cell>
-                     <cell rend="right">li.</cell>
-                     <cell rend="right">s.</cell>
-                     <cell rend="right">d.</cell>
+                     <cell rend="right"><measure type="currency">li.</measure></cell>
+                     <cell rend="right"><measure type="currency">s.</measure></cell>
+                     <cell rend="right"><measure type="currency">d.</measure></cell>
                   </row>
                   <row>
                      <cell>Item payed to Mr Thomas Willis one of the Benchers of
                         this howse according to an Act of p<ex>ar</ex>liament made for that
                         purpose as moneyes by him to bee disbursed toward<ex>es</ex> the
                         charge of the Masque latelie p<ex>re</ex>sented before his Ma<ex>ies</ex>tie</cell>
-                     <cell rend="right">626</cell>
-                     <cell rend="right">00</cell>
-                     <cell rend="right">00</cell>
+                     <cell rend="right"><measure type="currency">626</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -1992,24 +1992,24 @@
                      <row>
                         <cell>Item to the Musitians for attending vpon the 5<hi rend="superscript">th</hi> of
                            November last</cell>
-                        <cell rend="right">000</cell>
-                        <cell rend="right">13</cell>
-                        <cell rend="right">04</cell>
+                        <cell rend="right"><measure type="currency">000</measure></cell>
+                        <cell rend="right"><measure type="currency">13</measure></cell>
+                        <cell rend="right"><measure type="currency">04</measure></cell>
                      </row>
                      <row>
                         <cell>Item to them for theire fee for Candlemas and Alhallowe
                            daye last</cell>
-                        <cell rend="right">002</cell>
-                        <cell rend="right">00</cell>
-                        <cell rend="right">00</cell>
+                        <cell rend="right"><measure type="currency">002</measure></cell>
+                        <cell rend="right"><measure type="currency">00</measure></cell>
+                        <cell rend="right"><measure type="currency">00</measure></cell>
                      </row>
                      <row>
                         <cell>Item to fower Watchmen for watching the howse those
                            two night<ex>es</ex><note type="foot">two night<ex>es</ex> … p<ex>re</ex>sented: <hi rend="italic">3 and 13 February 1633/4</hi></note> when the Masque was p<ex>re</ex>sented before
                            his Ma<ex>ies</ex>tie</cell>
-                        <cell rend="right">000</cell>
-                        <cell rend="right">04</cell>
-                        <cell rend="right">00</cell>
+                        <cell rend="right"><measure type="currency">000</measure></cell>
+                        <cell rend="right"><measure type="currency">04</measure></cell>
+                        <cell rend="right"><measure type="currency">00</measure></cell>
                      </row>      
                   </table>
                   <gap reason="omitted"/>
@@ -2025,16 +2025,16 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
                      <row>
                         <cell>Item to the Blackfriers Players for a Play acted here vpon
                            Alhallowe daye last</cell>
-                        <cell rend="right">007</cell>
-                        <cell rend="right">00</cell>
-                        <cell rend="right">00</cell>
+                        <cell rend="right"><measure type="currency">007</measure></cell>
+                        <cell rend="right"><measure type="currency">00</measure></cell>
+                        <cell rend="right"><measure type="currency">00</measure></cell>
                      </row>
                      <row>
                         <cell>Item to fower Porters for keeping the Hall doares on
                            Candlemas daye and Alhallowe daye last</cell>
-                        <cell rend="right">000</cell>
-                        <cell rend="right">08</cell>
-                        <cell rend="right">00</cell>
+                        <cell rend="right"><measure type="currency">000</measure></cell>
+                        <cell rend="right"><measure type="currency">08</measure></cell>
+                        <cell rend="right"><measure type="currency">00</measure></cell>
                      </row>
                   </table>
                   <gap reason="omitted"/>
@@ -2049,21 +2049,21 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
                         <cell>Item to a Labourer for digging the grownde and worke
                            by him done about setting vpp the Rayles att the Temple
                            gate when the masque went to Courte</cell>
-                        <cell rend="right">00</cell>
-                        <cell rend="right">01</cell>
-                        <cell rend="right">06 <pb/></cell>
+                        <cell rend="right"><measure type="currency">00</measure></cell>
+                        <cell rend="right"><measure type="currency">01</measure></cell>
+                        <cell rend="right"><measure type="currency">06 </measure><pb/></cell>
                      </row>
                      <row>
                         <cell>Item to a Pavier for worke done there</cell>
-                        <cell rend="right">000</cell>
-                        <cell rend="right">01</cell>
-                        <cell rend="right">06</cell>
+                        <cell rend="right"><measure type="currency">000</measure></cell>
+                        <cell rend="right"><measure type="currency">01</measure></cell>
+                        <cell rend="right"><measure type="currency">06</measure></cell>
                      </row>
                      <row>
                         <cell>Item given to Mr Massies servant<ex>es</ex> att that tyme</cell>
-                        <cell rend="right">001</cell>
-                        <cell rend="right">00</cell>
-                        <cell rend="right">00</cell>
+                        <cell rend="right"><measure type="currency">001</measure></cell>
+                        <cell rend="right"><measure type="currency">00</measure></cell>
+                        <cell rend="right"><measure type="currency">00</measure></cell>
                      </row>
                   </table>
                   <gap reason="omitted"/>
@@ -2092,40 +2092,40 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
                         discharge of such moneys as remayned vnpaid by him in
                         the former yeare concerninge ye Masq<ex>ue</ex> p<ex>re</ex>sented before
                         his Maiestie</cell>
-                     <cell rend="right">170</cell>
-                     <cell rend="right">0</cell>
-                     <cell rend="right">0</cell>
+                     <cell rend="right"><measure type="currency">170</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
                <table>
-                  <row>
+                  <row>  <!-- KC: currency written out as words/text -->
                      <cell>Item repaid by order in p<ex>ar</ex>liam<ex>en</ex>t to Mr Pope a Rider
-                        at the Masq<ex>ue</ex> twenty shillings w<ex>hi</ex>ch hee paid vppon the
-                        Aide Rolle to Mr Wyllys and alsoe thirty fiue shillings
+                        at the Masq<ex>ue</ex> <measure type="currency">twenty shillings</measure> w<ex>hi</ex>ch hee paid vppon the
+                        Aide Rolle to Mr Wyllys and alsoe <measure type="currency">thirty fiue shillings</measure>
                         w<ex>hi</ex>ch hee disbursed for hire of a Saddle in toto</cell>
-                     <cell rend="right">002</cell>
-                     <cell rend="right">15</cell>
-                     <cell rend="right">00</cell>
+                     <cell rend="right"><measure type="currency">002</measure></cell>
+                     <cell rend="right"><measure type="currency">15</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
                   </row>
                   <row>
                      <cell>Item to Mr Rouland Reinold<ex>es</ex> for ye like</cell>
-                     <cell rend="right">004</cell>
-                     <cell rend="right">06</cell>
-                     <cell rend="right">00</cell>
+                     <cell rend="right"><measure type="currency">004</measure></cell>
+                     <cell rend="right"><measure type="currency">06</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
                   </row>
                   <row>
                      <cell>Item paid to Mr Iohn ffinch a Rider at the masq<ex>ue</ex> w<ex>hi</ex>ch
                         hee paid vppon the Aide Rolle to Mr Willis</cell>
-                     <cell rend="right">001</cell>
-                     <cell rend="right">00</cell>
-                     <cell rend="right">00</cell>
+                     <cell rend="right"><measure type="currency">001</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
                   </row>
                   <row>
                      <cell>Item repaid to Mr Carew a Masq<ex>ue</ex><note type="foot">a Masque: <hi rend="italic">for</hi> a rider at the Masque <hi rend="italic">(?)</hi></note> for ye like</cell>
-                     <cell rend="right">001</cell>
-                     <cell rend="right">00</cell>
-                     <cell rend="right">00</cell>
+                     <cell rend="right"><measure type="currency">001</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -2139,15 +2139,15 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
                   <row>
                      <cell>Item p<ex>ai</ex>d to the music<ex>i</ex>ons for their attendance vppon
                         the fifth of November</cell>
-                     <cell rend="right">000</cell>
-                     <cell rend="right">13</cell>
-                     <cell rend="right">4 <pb/></cell>
+                     <cell rend="right"><measure type="currency">000</measure></cell>
+                     <cell rend="right"><measure type="currency">13</measure></cell>
+                     <cell rend="right"><measure type="currency">4</measure> <pb/></cell>
                   </row>
                   <row>
                      <cell>Item to them for their fee for Candlemas and alhollanday</cell>
-                     <cell rend="right">002</cell>
-                     <cell rend="right">00</cell>
-                     <cell rend="right">00</cell>
+                     <cell rend="right"><measure type="currency">002</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -2155,16 +2155,16 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
                   <row>
                      <cell>Item To the Blackfriars players for a play here Acted on
                         Candlemas day</cell>
-                     <cell rend="right">007</cell>
-                     <cell rend="right">00</cell>
-                     <cell rend="right">00</cell>
+                     <cell rend="right"><measure type="currency">007</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
                   </row>
                   <row>
                      <cell>Item p<ex>ai</ex>d to foure porters for keepinge the Hall dores
                         then and on alhollan day</cell>
-                     <cell rend="right">000</cell>
-                     <cell rend="right">08</cell>
-                     <cell rend="right">00</cell>
+                     <cell rend="right"><measure type="currency">000</measure></cell>
+                     <cell rend="right"><measure type="currency">08</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -2190,22 +2190,22 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
                   <row>
                      <cell>Item paid to the Music<ex>i</ex>ons for their Attendance
                         vppon the 5<hi rend="superscript">th</hi> of November 1635</cell>
-                     <cell rend="right">00</cell>
-                     <cell rend="right">13</cell>
-                     <cell rend="right">04</cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">13</measure></cell>
+                     <cell rend="right"><measure type="currency">04</measure></cell>
                   </row>
                   <row>
                      <cell>Item to them for their fee for Candlemas day 1635</cell>
-                     <cell rend="right">01</cell>
-                     <cell rend="right">00</cell>
-                     <cell rend="right">00</cell>
+                     <cell rend="right"><measure type="currency">01</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
                   </row>
                   <row>
                      <cell>Item to the Blackfriars Players for a play Acted heere
                         on the same day</cell>
-                     <cell rend="right">07</cell>
-                     <cell rend="right">00</cell>
-                     <cell rend="right">00</cell>
+                     <cell rend="right"><measure type="currency">07</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -2213,9 +2213,9 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
                   <row>
                      <cell>Item to foure Porters for keepinge the hall dores
                         that day</cell>
-                     <cell rend="right">00</cell>
-                     <cell rend="right">04</cell>
-                     <cell rend="right">00</cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">04</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -2242,9 +2242,9 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
                      <cell>Item to Henry ffeilde music<ex>i</ex>on in lieu for ye ffees for
                         Alhollow &amp; Candlemas dayes when ye Com<ex>m</ex>ons of
                         ye House discontinued granted vnto him in parliament</cell>
-                     <cell rend="right">02</cell>
-                     <cell rend="right">00</cell>
-                     <cell rend="right">00</cell>
+                     <cell rend="right"><measure type="currency">02</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -2257,16 +2257,16 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
                <table>
                   <row>
                      <cell>Item paid to ye Music<ex>i</ex>ons for their fee on alhallan day</cell>
-                     <cell rend="right">01</cell>
-                     <cell rend="right">00</cell>
-                     <cell rend="right">00</cell>
+                     <cell rend="right"><measure type="currency">01</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
                   </row>
                   <row>
                      <cell>Item to ye Kings players for a play Acted hee<note type="foot">hee: <hi rend="italic">for</hi> heere</note> on
                         the same day</cell>
-                     <cell rend="right">07</cell>
-                     <cell rend="right">00</cell>
-                     <cell rend="right">00</cell>
+                     <cell rend="right"><measure type="currency">07</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -2274,9 +2274,9 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
                   <row>
                      <cell>Item to foure porters for keepinge the Hall dores
                         y<ex>a</ex>t day</cell>
-                     <cell rend="right">00</cell>
-                     <cell rend="right">04</cell>
-                     <cell rend="right">00</cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">04</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -2302,29 +2302,29 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
                   <row>
                      <cell>Item p<ex>ai</ex>d the Musicions <del>thei</del> for their attendance
                         the 5<hi rend="superscript">th</hi> day of November last past</cell>
-                     <cell rend="right">00</cell>
-                     <cell rend="right">13</cell>
-                     <cell rend="right">04</cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">13</measure></cell>
+                     <cell rend="right"><measure type="currency">04</measure></cell>
                   </row>
                   <row>
                      <cell>Item to them likewise for their fees for Candlemas and
                         alhallow dayes last past</cell>
-                     <cell rend="right">02</cell>
-                     <cell rend="right">00</cell>
-                     <cell rend="right">00</cell>
+                     <cell rend="right"><measure type="currency">02</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
                   </row>
                   <row>
                      <cell>Item paid by order at ye Table to the kinges players for
                         2 playes acted heere vppon the same dayes</cell>
-                     <cell rend="right">20</cell>
-                     <cell rend="right">00</cell>
-                     <cell rend="right">00</cell>
+                     <cell rend="right"><measure type="currency">20</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
                   </row>
                   <row>
                      <cell>It<ex>em</ex> to 4 porters for keepinge ye hall dores then</cell>
-                     <cell rend="right">00</cell>
-                     <cell rend="right">08</cell>
-                     <cell rend="right">00</cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">08</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -2350,29 +2350,29 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
                   <row>
                      <cell>It<ex>e</ex>m p<ex>ai</ex>d to the music<ex>i</ex>ons for their attendance the
                         5<hi rend="italic">th</hi> day of Nov<ex>ember</ex> last past</cell>
-                     <cell rend="right">00</cell>
-                     <cell rend="right">13</cell>
-                     <cell rend="right">4</cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">13</measure></cell>
+                     <cell rend="right"><measure type="currency">4</measure></cell>
                   </row>
                   <row>
                      <cell>It<ex>e</ex>m to them likewise for the<note>for the: <hi rend="italic">for</hi> for their</note> ffees for Candlemas day
                         &amp; All Saint<ex>es</ex> day last past</cell>
-                     <cell rend="right">02</cell>
-                     <cell rend="right">00</cell>
-                     <cell rend="right">0</cell>
+                     <cell rend="right"><measure type="currency">02</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
                   </row>
                   <row>
                      <cell>It<ex>e</ex>m p<ex>ai</ex>d by order of the Table to the King<ex>es</ex> players for
                         2 playes acted here vpon the same dayes</cell>
-                     <cell rend="right">20</cell>
-                     <cell rend="right">00</cell>
-                     <cell rend="right">0</cell>
+                     <cell rend="right"><measure type="currency">20</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
                   </row>
                   <row>
                      <cell>Item to 4 porters for keeping the hall doores those dayes</cell>
-                     <cell rend="right">00</cell>
-                     <cell rend="right">08</cell>
-                     <cell rend="right">0</cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">08</measure></cell>
+                     <cell rend="right"><measure type="currency">0</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -2398,23 +2398,23 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
                   <row>
                      <cell>Item to the Musitians for their attendance on
                         those dayes<note type="foot">those dayes: <hi rend="italic">Candlemas and All Saints' Day</hi></note></cell>
-                     <cell rend="right">02</cell>
-                     <cell rend="right">00</cell>
-                     <cell rend="right">00</cell>
+                     <cell rend="right"><measure type="currency">02</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
                   </row>
                   <row>
                      <cell>Item to ffower Porters that kept the Hall dores
                         those dayes</cell>
-                     <cell rend="right">00</cell>
-                     <cell rend="right">08</cell>
-                     <cell rend="right">00</cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">08</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
                   </row>
                   <row>
                      <cell>Item to the Musitians for their attendance on the
                         ffift of November</cell>
-                     <cell rend="right">01</cell>
-                     <cell rend="right">00</cell>
-                     <cell rend="right">00</cell>
+                     <cell rend="right"><measure type="currency">01</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -2440,9 +2440,9 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
                   <row>
                      <cell>Item to the Players of Blackfriers for a play here
                         acted on Candlemas day last</cell>
-                     <cell rend="right">10</cell>
-                     <cell rend="right">00</cell>
-                     <cell rend="right">00</cell>
+                     <cell rend="right"><measure type="currency">10</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -2451,17 +2451,17 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
                      <cell>I
                         tem to the Musitions for theire attendance on
                         those dayes<note>those dayes: <hi rend="italic">Candlemas and All Saints' Day</hi></note></cell>
-                     <cell rend="right">02</cell>
-                     <cell rend="right">00</cell>
-                     <cell rend="right">00</cell>
+                     <cell rend="right"><measure type="currency">02</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
                   </row>
                   <row>
                      <cell>Item to the &#8248;<add place="above">4</add> Porters 
                         that kept the Hall doores  <!-- KC: caret -->
                         those dayes</cell>
-                     <cell rend="right">00</cell>
-                     <cell rend="right">08</cell>
-                     <cell rend="right">00</cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">08</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -2487,9 +2487,9 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
                   <row>
                      <cell>It<ex>em</ex> to Will<ex>ia</ex>m Saunder ye Musitian for Musique
                         5 Nov<ex>ember</ex> &amp; on Candlemas day</cell>
-                     <cell rend="right">02</cell>
-                     <cell rend="right">00</cell>
-                     <cell rend="right">00</cell>
+                     <cell rend="right"><measure type="currency">02</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
+                     <cell rend="right"><measure type="currency">00</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
