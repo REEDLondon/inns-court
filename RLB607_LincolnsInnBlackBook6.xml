@@ -240,29 +240,30 @@
    <text ana="taxon:letter" type="record">
       <body xml:lang="eng">
          <head>Lincoln's Inn Black Book 6
-            <date when-iso="1595-6">1595-6</date> <!-- Not sure how we want dates when we only have an estimate? KM -->
-            <seg ana="taxon:RLB603" corresp="taxon:RLLIB6 pp. 126">RLB603</seg></head> <!-- Following the Anatomy doc here, is this correct? KM -->
+            <date when-iso="1599-1600">1599-1600</date> <!-- Not sure how we want dates when we only have an estimate? KM -->
+            <seg ana="taxon:RLB607" corresp="taxon:RLLIB6 pp. 132">RLB607</seg></head> <!-- Following the Anatomy doc here, is this correct? KM -->
          <div type="transcription">
-            <head>f 13<date when-iso="1595-11-25"/> <supplied>(25 November 1595) (Christmas officers)</supplied></head>
+            <head>f 50v<date when-iso="1599-11-22"/> <supplied>(22 November) (Christmas officers)</supplied></head>
             <!-- The above date is confusing. Check it with Diane! KM -->
-            <pb n="f 13" type="folio"/>
+            <pb n="f 50v" type="folio"/>
             <gap reason="omitted"/>
-            <ab> It<ex>e</ex>m it is ordered that Mr Shuckborough and Mr Rogers shalbe maister of the Reuelles</ab>
+            <ab> It is ordered that Mr Baxton &amp; Mr Dalson shalbe m<ex>aste</ex>rs of the Revells</ab>
             <gap reason="omitted"/>
          </div>
-         <div>
-            <head>f 27<date when-iso="1595-11-25-1596-11-25"/> <supplied>(25 November-25 November) (Treasurer's Receipts)</supplied></head>
-            <pb n="f 27" type="folio"/>
+         <div>    
+            <head>f 80v<date when-iso="1599-11-22-1600-11-25"/> <supplied>(22 November 1599-25 November 1600) (Treasurer's Receipts)</supplied></head>
+            <pb n="f 80v" type="folio"/>
             <gap reason="omitted"/>
-            <ab> Et di nichil recept<ex>o</ex> de Ioh<ex>ann</ex>e Helliar Senescallo hospicij p<ex>re</ex>d<ex>i</ex>ct<ex>i</ex> p<ex>ro</ex> Surplusagia Rot<ex>u</ex>lor<ex>um</ex> Musicor<ex>um</ex> hoc Anno quia iactant<ex>ur</ex> in Com<ex>munes</ex></ab>
+            <ab> Et de nihil recepte de Ioh<ex>ann</ex>e Helliar Senescall<ex>o</ex> hospicij p<ex>re</ex>d<ex>i</ex>ct<ex>i</ex> p<ex>ro</ex> Surplusag<ex>ia</ex> Rotulor<ex>um</ex> Musicor<ex>um</ex> hoc Anno quia iactant<ex>ur</ex> in Comunes</ab>
             <gap reason="omitted"/>
-            <note type="marginal" rend="left">Surplusag<ex>ia</ex> Rot<ex>u</ex>lor<ex>um</ex></note> 
-        </div>  
+            <note type="marginal" rend="left">Surplusag<ex>ia</ex> Rot<ex>u</ex>lor<ex>um</ex></note>
+            <note type="foot">recepte: for recepto; perhaps influenced by the phrase rotulus recepte ('receipt roll')</note>
+         </div>  
          <div> 
-            <head>f 30v<supplied>(Treasurer's payments)</supplied></head>
-            <pb n="f 30v" type="folio"/>
+            <head>f 83v<supplied>(Treasurer's payments)</supplied></head>
+            <pb n="f 83v" type="folio"/>
             <gap reason="omitted"/>
-            <ab> Et de xxvj s. viij d. solut<ex>is</ex> <persName>Will<ex>elm</ex>o Perren</persName> Music<ex>i</ex>on<ex>i</ex> p<ex>ro</ex> Anual<ex>i</ex> stipend<ex>io</ex> ei Concess<ex>o</ex> p<ex>er</ex> Warr<ex>antum</ex> Gub<ex>er</ex>nat<ex>orum</ex> hospicij p<ex>re</ex>dict<ex>i</ex> 
+            <ab> Et de xxvj s. viij d. solut<ex>is</ex> <persName>Will<ex>elm</ex>o Perren</persName> Music<ex>i</ex>on<ex>i</ex> p<ex>ro</ex> An<ex>n</ex>uali Stipend<ex>io</ex> ei concess<ex>o</ex> p<ex>er</ex> Warr<ex>antum</ex> Gubernat<ex>orum</ex> hospicij p<ex>re</ex>dic<ex>t</ex>i./
                Sum<ex>m</ex>a xxvj s. viij d. </ab>
             <note type="marginal" rend="right">Stipend<ex>ia</ex> musicor<ex>um</ex></note>
          </div>
