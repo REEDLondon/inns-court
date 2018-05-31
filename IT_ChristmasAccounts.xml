@@ -581,7 +581,7 @@
       </body>
    </text>
    
-   <text ana="taxon:inner_temple" type="record">
+   <text ana="taxon:inner_temple" type="record">  <!-- KC: resume here -->
       <body xml:lang="eng">
          <head>
             <date from-iso="16-09-29" to-iso="16-09-29" cert="medium">16</date>
