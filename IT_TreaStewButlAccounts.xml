@@ -242,7 +242,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1605-09-29" to-iso="1606-09-29" cert="medium">1605-6</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 137-8">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 137-8">RLITT001</seg>
          </head>
          <div type="transcription">
             <div>
@@ -306,7 +306,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1606-09-29" to-iso="1607-09-29" cert="medium">1606-7</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 139">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 139">RLITT001</seg>
          </head>
          <div type="transcription">
             <div>
@@ -380,7 +380,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1607-09-29" to-iso="1608-09-29" cert="medium">1607-8</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 141">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 141">RLITT001</seg>
          </head>
          
          <div type="transcription">
@@ -436,7 +436,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1608-09-29" to-iso="1609-09-29" cert="medium">1608-9</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 142">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 142">RLITT001</seg>
          </head>
          
          <div type="transcription">
@@ -500,7 +500,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1609-09-29" to-iso="1610-09-29" cert="medium">1609-10</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 144">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 144">RLITT001</seg>
          </head>
          
          <div type="transcription">
@@ -550,7 +550,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1610-09-29" to-iso="1611-09-29" cert="medium">1610-11</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 146">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 146">RLITT001</seg>
          </head>
          
          <div type="transcription">
@@ -616,7 +616,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1611-09-29" to-iso="1612-09-29" cert="medium">1611-12</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 147">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 147">RLITT001</seg>
          </head>
          
          <div type="transcription">
@@ -678,7 +678,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1612-09-29" to-iso="1613-09-29">1612-1613</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RLPIC1 pp. 153">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RLPIC1 pp. 153">RLITT001</seg>
          </head>
          <div type="transcription">
             <div>
@@ -777,7 +777,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1613-09-29" to-iso="1614-09-29" cert="medium">1613-14</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 176">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 176">RLITT001</seg>
          </head>
          
          <div type="transcription">
@@ -829,7 +829,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1614-09-29" to-iso="1615-09-29" cert="medium">1614-15</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 182">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 182">RLITT001</seg>
          </head>
          
          <div type="transcription">
@@ -903,7 +903,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1615-09-29" to-iso="1616-09-29" cert="medium">1615-16</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 186-7">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 186-7">RLITT001</seg>
          </head>
          
          <div type="transcription">
@@ -1002,7 +1002,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1616-09-29" to-iso="1617-09-29" cert="medium">1616-17</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 191-2">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 191-2">RLITT001</seg>
          </head>
          
          <div type="transcription">
@@ -1118,7 +1118,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1617-09-29" to-iso="1618-09-29" cert="medium">1617-18</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 201-2">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 201-2">RLITT001</seg>
          </head>
          
          <div type="transcription">
@@ -1171,7 +1171,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1618-09-29" to-iso="1619-09-29" cert="medium">1618-19</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 203">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 203">RLITT001</seg>
          </head>
          
          <div type="transcription">
@@ -1225,7 +1225,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1619-09-29" to-iso="1620-09-29" cert="medium">1619-20</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 205">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 205">RLITT001</seg>
          </head>
          
          <div type="transcription">
@@ -1273,7 +1273,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1620-09-29" to-iso="1621-09-29" cert="medium">1620-21</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 206-7">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 206-7">RLITT001</seg>
          </head>
          
          <div type="transcription">
@@ -1324,7 +1324,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1621-09-29" to-iso="1622-09-29" cert="medium">1621-2</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 209">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 209">RLITT001</seg>
          </head>
          
          <div type="transcription">
@@ -1373,7 +1373,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1622-09-29" to-iso="1623-09-29" cert="medium">1622-3</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 210">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 210">RLITT001</seg>
          </head>
          
          <div type="transcription">
@@ -1415,7 +1415,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1623-09-29" to-iso="1624-09-29" cert="medium">1623-4</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 211">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 211">RLITT001</seg>
          </head>
          
          <div type="transcription">
@@ -1458,7 +1458,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1624-09-29" to-iso="1625-09-29" cert="medium">1624-5</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 212">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 212">RLITT001</seg>
          </head>
          
          <div type="transcription">
@@ -1491,7 +1491,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1625-09-29" to-iso="1626-09-29" cert="medium">1625-6</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 214">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 214">RLITT001</seg>
          </head>
          
          <div type="transcription">
@@ -1553,7 +1553,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1626-09-29" to-iso="1627-09-29" cert="medium">1626-7</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 215">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 215">RLITT001</seg>
          </head>
          
          <div type="transcription">
@@ -1647,7 +1647,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1627-09-29" to-iso="1628-09-29" cert="medium">1627-8</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 217-8">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 217-8">RLITT001</seg>
          </head>
          
          <div type="transcription">
@@ -1712,7 +1712,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1628-09-29" to-iso="1629-09-29" cert="medium">1628-9</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 221">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 221">RLITT001</seg>
          </head>
          
          <div type="transcription">
@@ -1756,7 +1756,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1629-09-29" to-iso="1630-09-29" cert="medium">1629-30</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 226-7">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 226-7">RLITT001</seg>
          </head>
          
          <div type="transcription">
@@ -1793,7 +1793,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1630-09-29" to-iso="1631-09-29" cert="medium">1630-1</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 228">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 228">RLITT001</seg>
          </head>
          
          <div type="transcription">
@@ -1839,7 +1839,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1631-09-29" to-iso="1632-09-29" cert="medium">1631-2</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 229-30">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 229-30">RLITT001</seg>
          </head>
          
          <div type="transcription">
@@ -1891,7 +1891,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1632-09-29" to-iso="1633-09-29" cert="medium">1632-3</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 231-2">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 231-2">RLITT001</seg>
          </head>
          
          <div type="transcription">
@@ -1950,7 +1950,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1633-09-29" to-iso="1634-09-29" cert="medium">1633-4</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 243-4">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 243-4">RLITT001</seg>
          </head>
          
          <div type="transcription">
@@ -2077,7 +2077,7 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
       <body xml:lang="eng">
          <head>
             <date from-iso="1634-09-29" to-iso="1635-09-29" cert="medium">1634-5</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 326-7">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 326-7">RLITT001</seg>
          </head>
          
          <div type="transcription">
@@ -2178,7 +2178,7 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
       <body xml:lang="eng">
          <head>
             <date from-iso="1635-09-29" to-iso="1636-09-29" cert="medium">1635-6</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 339">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 339">RLITT001</seg>
          </head>
          
          <div type="transcription">
@@ -2229,7 +2229,7 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
       <body xml:lang="eng">
          <head>
             <date from-iso="1636-09-29" to-iso="1637-09-29" cert="medium">1636-7</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 344-5">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 344-5">RLITT001</seg>
          </head>
          
          <div type="transcription">
@@ -2290,7 +2290,7 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
       <body xml:lang="eng">
          <head>
             <date from-iso="1637-09-29" to-iso="1638-09-29" cert="medium">1637-8</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 346">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 346">RLITT001</seg>
          </head>
          
          <div type="transcription">
@@ -2338,7 +2338,7 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
       <body xml:lang="eng">
          <head>
             <date from-iso="1638-09-29" to-iso="1639-09-29" cert="medium">1638-9</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 352">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 352">RLITT001</seg>
          </head>
          
          <div type="transcription">
@@ -2386,7 +2386,7 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
       <body xml:lang="eng">
          <head>
             <date from-iso="1639-09-29" to-iso="1640-09-29" cert="medium">1639-40</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 355-6">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 355-6">RLITT001</seg>
          </head>
          
          <div type="transcription">
@@ -2428,7 +2428,7 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
       <body xml:lang="eng">
          <head>
             <date from-iso="1640-09-29" to-iso="1641-09-29" cert="medium">1640-1</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 359">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 359">RLITT001</seg>
          </head>
          
          <div type="transcription">
@@ -2475,7 +2475,7 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
       <body xml:lang="eng">
          <head>
             <date from-iso="1641-09-29" to-iso="1642-09-29" cert="medium">1641-2</date>
-            <seg ana="taxon:RLITTS" corresp="taxon:RPCIC p. 361">RLITTS</seg>
+            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 361">RLITT001</seg>
          </head>
          
          <div type="transcription">
