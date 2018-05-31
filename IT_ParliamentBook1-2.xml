@@ -313,12 +313,12 @@
                <gap reason="omitted"/>
                <table>
                   <row>
-                     <cell>Brice &amp; Haddon am<ex>er</ex>ciant<ex>ur</ex> q<ex>ui</ex>libet vj s. <del>vij</del> viij d.
+                     <cell>Brice &amp; Haddon am<ex>er</ex>ciant<ex>ur</ex> q<ex>ui</ex>libet <measure type="currency">vj s. <del>vij</del> viij d.</measure>
                         q<ex>uia</ex> fecer<ex>unt</ex> defect<ex>um</ex> in officiu<ex>m</ex> m<ex>agist</ex>ror<ex>um</ex> del
                         Revels ad f<ex>estum</ex> Nat<ex>alis</ex> in A<ex>nn</ex>o xxiij &amp; vlt<ex>er</ex>ius q<ex>uo</ex>d
                         fac<ex>iant</ex> contribuc<ex>i</ex>one<ex>m</ex> Plunket &amp; Tate qui fecer<ex>unt</ex> <del>d</del>
-                        q<ex>uo</ex>d ad offic<ex>ium</ex> p<ex>er</ex>tenuit</cell><!-- KC: currency in paragraph above-->
-                     <cell rend="right"><del>xvj</del> xiij li. ii<damage><gap unit="chars" extent="3"/></damage></cell>  
+                        q<ex>uo</ex>d ad offic<ex>ium</ex> p<ex>er</ex>tenuit</cell>
+                     <cell rend="right"><measure type="currency"><del>xvj</del> xiij li. ii<damage><gap unit="chars" extent="3"/></damage></measure></cell>  
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -378,7 +378,7 @@
                <pb n="22v" type="folio"/> 
                
                <gap reason="omitted"/>
-               <ab>Dracotes <note type="marginal" place="margin_left">It<ex>em</ex></note>am<ex>er</ex>c<ex>iatur</ex> <del><damage><gap unit="chars" extent="2"></gap></damage></del> ad vj s. viij d. q<ex>ui</ex>a no<ex>n</ex> <del>assumps<damage><gap unit="chars" extent="2"/></damage></del> assumpsit
+               <ab>Dracotes <note type="marginal" place="margin_left">It<ex>em</ex></note>am<ex>er</ex>c<ex>iatur</ex> <del><damage><gap unit="chars" extent="2"></gap></damage></del> ad <measure type="currency">vj s. viij d.</measure> q<ex>ui</ex>a no<ex>n</ex> <del>assumps<damage><gap unit="chars" extent="2"/></damage></del> assumpsit
                   sup<ex>er</ex> se offic<ex>ium</ex> M<ex>agist</ex>ri dez Reuels in festo Nat<ex>alis</ex> d<ex>om</ex>ini <damage><gap unit="chars" extent="3"/></damage>
                </ab>
                <gap reason="omitted"/>
@@ -614,9 +614,9 @@
                <row>
                   <cell>It<ex>e</ex>m q<ex>uo</ex>d Edward<ex>us</ex> Lodlowe debet exon<ex>er</ex>ar<ex>i</ex> de officio
                      M<ex>agist</ex>ri <note type="marginal" place="margin_left">Vnde sol<ex>u</ex>ta
-                        xiij s. iiij d.</note>de Revels et de om<ex>n</ex>ib<ex>us</ex> vacacionib<ex>us</ex> certis
+                        <measure type="currency">xiij s. iiij d.</measure></note>de Revels et de om<ex>n</ex>ib<ex>us</ex> vacacionib<ex>us</ex> certis
                      consideracionib<ex>us</ex> p<ex>ro</ex> ‸<add place="above">fine</add></cell> <!-- KC: caret -->
-                  <cell rend="right">xl s.</cell>
+                  <cell rend="right"><measure type="currency">xl s.</measure></cell>
                </row>
             </table>
             
@@ -828,7 +828,7 @@
             <ab>It<ex>em</ex> ordinat<ex>um</ex> fuit <add place="above">q<ex>uod</ex></add> 
                Comitiua Int<ex>er</ex>ioris Templ<damage><gap unit="chars" extent="1"/></damage> qui custodiet
                Co<ex>mmun</ex>es tempore Natal<ex>is</ex> d<ex>omi</ex>ni p<ex>ro</ex> futur<ex>o</ex> allocent<ex>ur</ex> vn<ex>us</ex> <add place="above">le</add> bore &amp;
-               pro<ex></ex> lez stipend de <add place="above">lez</add> mynstrellys te<ex>mpore</ex> Natal<ex>is</ex> d<ex>omi</ex>ni xxx s. &amp; p<ex>ro</ex> vno
+               pro<ex></ex> lez stipend de <add place="above">lez</add> mynstrellys te<ex>mpore</ex> Natal<ex>is</ex> d<ex>omi</ex>ni <measure type="currency">xxx s.</measure> &amp; p<ex>ro</ex> vno
                Cariete de lez Cooles p<ex>ro</ex> focali<ex>o</ex>…
             </ab>
             
@@ -950,7 +950,7 @@
                      <del>Trauersse</del><lb/>
                         <del>Cooly</del> <add place="above"><damage><gap unit="chars" extent="2"/></damage>et p<ex>ro</ex> defect<ex>u</ex> Deneham</add><lb/>
                         ffox<lb/><del><damage><gap unit="chars" extent="3"/></damage></del> <del>luson</del> Merys<note type="foot"><del>Trauersse</del> ... Merys: <hi rend="italic">braced pointing to the right at</hi> xl s.</note><lb/><del>Payne R</del></cell>
-                     <cell><lb/><lb/><lb/><lb/>xl s.</cell>
+                     <cell><lb/><lb/><lb/><lb/><measure type="currency">xl s.</measure></cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -967,7 +967,7 @@
                   H<ex>enrici</ex> viij<hi rend="superscript">o</hi> &amp; de offic<ex>io</ex> vnius
                   Maiestror<ex>um</ex> de le revell<ex>es</ex> ad d<ex>i</ex>c<ex>t</ex>u<ex>m</ex> 
                   festu<ex>m</ex> natal<ex>is</ex> d<ex>omi</ex>ni &amp; p<ex>ro</ex> hoc dedit
-                  Cometiue int<ex>er</ex>ior<ex>is</ex> Temple iij li. vj s. viij d. Sol<ex>uti</ex> 
+                  Cometiue int<ex>er</ex>ior<ex>is</ex> Temple <measure type="currency">iij li. vj s. viij d.</measure> Sol<ex>uti</ex> 
                   ad manu<ex>m</ex> Dauid brook
                   Tezerarij &amp;c</ab>
                
@@ -1038,7 +1038,7 @@
             <table>
                <row>
                   <cell>Smyth ff ffor the M<ex>aster</ex> of revell<ex>es</ex></cell>
-                  <cell rend="right">v li.</cell>
+                  <cell rend="right"><measure type="currency">v li.</measure></cell>
                </row>
             </table>
             <gap reason="omitted"/>
@@ -1047,7 +1047,7 @@
                the gentlem<damage><gap unit="chars" extent="2"/></damage> 
                &amp; the officers</note> it is ordred &amp; agreed at this p<ex>ar</ex>leament that the company
                beinge here at Cristmas last schall haue allowed &amp; paied to them by the
-               Thezaur<ex>er</ex>s xxx s. ffor a bore &amp; mynstrells &amp; a lode off Colez &amp; thoffic<ex>er</ex>s
+               Thezaur<ex>er</ex>s <measure type="currency">xxx s.</measure> ffor a bore &amp; mynstrells &amp; a lode off Colez &amp; thoffic<ex>er</ex>s
                to haue their com<ex>men</ex> allowau<ex>n</ex>c<ex>es</ex> besid<ex>es</ex>
             </ab>
             <gap reason="omitted"/>
@@ -1073,7 +1073,7 @@
                <row>
                   <cell>And Mr hach which did not exercise thoffice of the
                      maist<ex>er</ex> of the revell<ex>es</ex></cell>
-                  <cell rend="right">xl s.</cell>
+                  <cell rend="right"><measure type="currency">xl s.</measure></cell>
                </row>
             </table>
              
@@ -1209,10 +1209,10 @@
             
             <gap reason="omitted"/>
             
-            <ab>M<ex>emoran</ex>d<ex>um</ex> that <del>leeke</del> Mr Raphe leeke <del>ys</del> for the Sum<ex>m</ex>e of xl s. <del>ys</del>
+            <ab>M<ex>emoran</ex>d<ex>um</ex> that <del>leeke</del> Mr Raphe leeke <del>ys</del> for the Sum<ex>m</ex>e of <measure type="currency">xl s.</measure> <del>ys</del>
                payd to the Thresorer ys dyscharged of the office of one of the M<ex>a</ex>sters
                of the Revel<damage><gap unit="chars" extent="3"/></damage> <damage><gap unit="chars" extent="3"/></damage> appereth in the dogget of vacac<ex>i</ex>ons where he was
-               am<ex>er</ex>cyd v li. <damage><gap unit="chars" extent="3"/></damage> default for not exercysing of the sayd office &amp;c.
+               am<ex>er</ex>cyd <measure type="currency">v li.</measure> <damage><gap unit="chars" extent="3"/></damage> default for not exercysing of the sayd office &amp;c.
             </ab>
             </div>
          </div>
@@ -1268,7 +1268,7 @@
             
             <ab>
                Tuchinge<note type="marginal" place="margin_left"><handShift/>Musicions
-                  wag<ex>es</ex> 27 Ia<ex>nuarii</ex> 25 Eliz<ex>abethe</ex>/<handShift/></note> the sute of the musicions to haue allowans of ther Wag<ex>es</ex> of xx s.
+                  wag<ex>es</ex> 27 Ia<ex>nuarii</ex> 25 Eliz<ex>abethe</ex>/<handShift/></note> the sute of the musicions to haue allowans of ther Wag<ex>es</ex> of <measure type="currency">xx s.</measure>
                at the feast of all saint<ex>es</ex> last past it is ordered that the same shalbe 
                payde &amp; allowed albeit no comens was then kepte
             </ab>
@@ -1414,7 +1414,7 @@
             <pb n="112v" type="folio"/>
             <gap reason="omitted"/>
             <ab>
-               fforasmuche it is found by experience That the vtterbarresters, of this howse, as alsoe other gentl<ex>emen</ex> vnder the barre doe vsually vnder hand &amp; secretlie contrarie to the Statut<ex>es</ex> &amp; orders of this howse, make sale of theire Chambers, for great som<ex>m</ex>es of money, and convert the same to theire owne privat vse to the great p<ex>re</ex>iudice and state of this howse And for that contrariewise It is seen from the experience of other howses of Courte, that throughe sale made of Chambers by the governors of such howse muche benefitt and proffitte hath growne to the gen<ex>er</ex>al state of the same: with furderance and due content of the Student<ex>es</ex> there, And forasmuche as this howse att this p<ex>re</ex>sent is muche indebted by reason of the late showe and sport<ex>es</ex> made by the gentl<ex>emen</ex> of this howse before his highnes att whitehall Amountinge in Charges vnto the howse (over and besides the stocke of this howse,) not soe litle as xij<hi rend="superscript">C</hi> li. which requires somme extraordynarie and unwonted course of supply, but noe meanes as yet <note type="foot">noe meanes as yet:<hi rend="italc">for</hi> no meanes are as yet</note>discerned therein soe fittinge as suche husbandlye course of admittanc<ex>es</ex>, Be it therefore enacted att this p<ex>re</ex>sent ‸<!-- KC: caret --><add place="above">parliament</add> that hencefourth all admittanc<ex>es</ex> into anye Chamber or Chambers of this howse in possession or Reverc<ex>i</ex>on (other then Bench<ex>er</ex>s Chambers priviledged by acte of p<ex>ar</ex>liam<ex>en</ex>t) shalbe made from tyme to tyme by acte of p<ex>ar</ex>liam<ex>en</ex>t, and not by the Th<ex>reasour</ex>er of this ‸<!-- KC: caret --><add place="above">howse</add> allone as heretofore haue ben, and that all admittances otherwise had or made shalbe <del><damage/></del> voyde, And it is furder enacted that vppon everye suche admittance by acte of p<ex>ar</ex>liament the p<ex>ar</ex>tie or p<ex>ar</ex>ties to be admitted shall over and above the former vsuall &amp; accustomed fine for an admittance paye vnto the Th<ex>reasour</ex>er of this howse suche furder som<ex>m</ex>e or som<ex>m</ex>es of money for such Chamber or Chambers as shalbe then assessed and sett downe for suche admittanc<ex>es</ex> as the worth of the chamber or chambers will in the iudgement of such p<ex>ar</ex>liament afford to be sold betweene p<ex>ar</ex>tie and p<ex>ar</ex>tie, Nevertheles it is alsoe furder enacted that everye p<ex>er</ex>son soe admitted and payinge suche som<ex>m</ex>e of money shall att any tyme after vppon his surrender of suche his interest in suche Chamber or Chambers, wherein he shall stand soe admitted as aforesaid, haue repaide backe vnto him by the Th<ex>reasour</ex>er of this howse three full p<ex>ar</ex>t<ex>es</ex> in foure p<ex>ar</ex>t<ex>es</ex> devided of the wholl fine or som<ex>m</ex>e of money which he shall haue soe formerlie paid and disbursed as aforesaid, And this acte to be sufficient warrant and discharge to suche Th<ex>reasour</ex>er for the tyme beinge in that behaulf,: Provided alwayes that this acte or anie thinge therein contayned shall not extend to anye Chamber, Chambers, or Rowmes, wherein anye of this Socyetie haue anie graunt by anye acte of p<ex>ar</ex>liament, but that everye suche p<ex>er</ex>son and p<ex>er</ex>sons theire executors and assignes shall haue Contynue and enioye there said Chambers and Romes, whereof and wherein they stand soe admitted with all priviledg<ex>es</ex> and benefitt<ex>es</ex> in as lardge and beneficiall manner to all purposes as the same were graunted vnto them or to anie other vnder whome they Clayme the same by force of anye acte of p<ex>ar</ex>liament heretofore made anye thinge in this acte to the contrarie notwithstandinge/
+               fforasmuche it is found by experience That the vtterbarresters, of this howse, as alsoe other gentl<ex>emen</ex> vnder the barre doe vsually vnder hand &amp; secretlie contrarie to the Statut<ex>es</ex> &amp; orders of this howse, make sale of theire Chambers, for great som<ex>m</ex>es of money, and convert the same to theire owne privat vse to the great p<ex>re</ex>iudice and state of this howse And for that contrariewise It is seen from the experience of other howses of Courte, that throughe sale made of Chambers by the governors of such howse muche benefitt and proffitte hath growne to the gen<ex>er</ex>al state of the same: with furderance and due content of the Student<ex>es</ex> there, And forasmuche as this howse att this p<ex>re</ex>sent is muche indebted by reason of the late showe and sport<ex>es</ex> made by the gentl<ex>emen</ex> of this howse before his highnes att whitehall Amountinge in Charges vnto the howse (over and besides the stocke of this howse,) not soe litle as <measure type="currency">xij<hi rend="superscript">C</hi> li.</measure> which requires somme extraordynarie and unwonted course of supply, but noe meanes as yet <note type="foot">noe meanes as yet:<hi rend="italc">for</hi> no meanes are as yet</note>discerned therein soe fittinge as suche husbandlye course of admittanc<ex>es</ex>, Be it therefore enacted att this p<ex>re</ex>sent ‸<!-- KC: caret --><add place="above">parliament</add> that hencefourth all admittanc<ex>es</ex> into anye Chamber or Chambers of this howse in possession or Reverc<ex>i</ex>on (other then Bench<ex>er</ex>s Chambers priviledged by acte of p<ex>ar</ex>liam<ex>en</ex>t) shalbe made from tyme to tyme by acte of p<ex>ar</ex>liam<ex>en</ex>t, and not by the Th<ex>reasour</ex>er of this ‸<!-- KC: caret --><add place="above">howse</add> allone as heretofore haue ben, and that all admittances otherwise had or made shalbe <del><damage/></del> voyde, And it is furder enacted that vppon everye suche admittance by acte of p<ex>ar</ex>liament the p<ex>ar</ex>tie or p<ex>ar</ex>ties to be admitted shall over and above the former vsuall &amp; accustomed fine for an admittance paye vnto the Th<ex>reasour</ex>er of this howse suche furder som<ex>m</ex>e or som<ex>m</ex>es of money for such Chamber or Chambers as shalbe then assessed and sett downe for suche admittanc<ex>es</ex> as the worth of the chamber or chambers will in the iudgement of such p<ex>ar</ex>liament afford to be sold betweene p<ex>ar</ex>tie and p<ex>ar</ex>tie, Nevertheles it is alsoe furder enacted that everye p<ex>er</ex>son soe admitted and payinge suche som<ex>m</ex>e of money shall att any tyme after vppon his surrender of suche his interest in suche Chamber or Chambers, wherein he shall stand soe admitted as aforesaid, haue repaide backe vnto him by the Th<ex>reasour</ex>er of this howse three full p<ex>ar</ex>t<ex>es</ex> in foure p<ex>ar</ex>t<ex>es</ex> devided of the wholl fine or som<ex>m</ex>e of money which he shall haue soe formerlie paid and disbursed as aforesaid, And this acte to be sufficient warrant and discharge to suche Th<ex>reasour</ex>er for the tyme beinge in that behaulf,: Provided alwayes that this acte or anie thinge therein contayned shall not extend to anye Chamber, Chambers, or Rowmes, wherein anye of this Socyetie haue anie graunt by anye acte of p<ex>ar</ex>liament, but that everye suche p<ex>er</ex>son and p<ex>er</ex>sons theire executors and assignes shall haue Contynue and enioye there said Chambers and Romes, whereof and wherein they stand soe admitted with all priviledg<ex>es</ex> and benefitt<ex>es</ex> in as lardge and beneficiall manner to all purposes as the same were graunted vnto them or to anie other vnder whome they Clayme the same by force of anye acte of p<ex>ar</ex>liament heretofore made anye thinge in this acte to the contrarie notwithstandinge/
             </ab>
  
          </div>
@@ -1423,7 +1423,7 @@
             <head>f 120 <date when-iso="1613-07-10"></date><supplied>(10 July 1613)</supplied></head>
             <pb n="120" type="folio"/>
             <gap reason="omitted"/>
-            <ab>At this Parliament yt is ordered that Mr Lumley the drap<ex>er</ex> shallbe paid fower pownd<ex>es</ex> twelve shilling<ex>es</ex> &amp; sixe pence, for scarlett ymployed for the Marshall at the Maske</ab>
+            <ab>At this Parliament yt is ordered that Mr Lumley the drap<ex>er</ex> shallbe paid fower pownd<ex>es</ex> <measure type="currency">twelve shilling<ex>es</ex> &amp; sixe pence</measure>, for scarlett ymployed for the Marshall at the Maske</ab>
             <gap reason="omitted"/>
          </div>
       </div>
@@ -1448,7 +1448,7 @@
                att about the repairing of a litle Chamber or roome w<ex>hi</ex>ch he had in the
                Cloist<ex>e</ex>r<note type="foot">the Cloist<ex>e</ex>r: <hi rend="italic">connecting the Temple Church to Inner Temple Hall</hi></note> by reason the same or a great p<ex>ar</ex>te thereof and the Chimney therein
                was att Chri<ex>st</ex>mas was a twelvemonth broken downe by such as climed vpp
-               att the windows of the hall to see the maske<!-- KC: cross-ref, see editotrial note --> w<ex>hi</ex>ch then was, therevpon
+               att the windows of the hall to see the maske w<ex>hi</ex>ch then was, therevpon
                Desiering some estate in the same room or Chamb<ex>e</ex>r towards his said chardge
                It is ord<ex>e</ex>red vpon this his suite in respect of his said Cost and Chardge that
                he may have liberty to nominate vnto M<ex>aste</ex>r Thr<ex>easour</ex>er some one of ye
@@ -1484,13 +1484,13 @@
                w<ex>hi</ex>ch they have p<ex>er</ex>formed accordingly fforasmuch as the Chardge therof
                being great is to be defrayed by the gen<ex>er</ex>all taxac<ex>i</ex>on of this house: It is
                nowe at this p<ex>ar</ex>liam<ex>en</ex>t ordered That eu<ex>er</ex>y Bencher of this house shall
-               paye toward<ex>es</ex> the same chardge xxx s., eu<ex>er</ex>y vtter Barrester above Seaven
-               yeres standing of the Barr shall paye xx s. and euery vtter Barrester vnder
-               7. yeres standing of the Barr xv s. And all other the Gentlemen of this
+               paye toward<ex>es</ex> the same chardge <measure type="currency">xxx s.</measure>, eu<ex>er</ex>y vtter Barrester above Seaven
+               yeres standing of the Barr shall paye <measure type="currency">xx s.</measure> and euery vtter Barrester vnder
+               7. yeres standing of the Barr <measure type="currency">xv s.</measure> And all other the Gentlemen of this
                house w<ex>hi</ex>ch have beene in Co<ex>m</ex>mons in this house within one yere or shall
                come into Co<ex>m</ex>mons w<ex>i</ex>thin halfe a yeare, or have any Chambers within
-               this house shall paye x s. a peece. And further That all such as houlde any
-               Offices w<ex>i</ex>thin this house shall paye a Third p<ex>ar</ex>te of the som<ex>m</ex>e they were
+               this house shall paye <measure type="currency">x s.</measure> a peece. And further That all such as houlde any
+               Offices w<ex>i</ex>thin this house shall paye a Third p<ex>ar</ex>te of the som<ex>m</ex>e <!-- KC: is this currency? a third part of the sum... --> they were
                Chardged with or their saide offices towardes the late maske p<ex>er</ex>formed by
                the Gentlemen of this house together with the Gentlemen of Grayes Inne
                after the marriadge of the Ladie Elizabeth the King<ex>es</ex> Ma<ex>ies</ex>t<ex>ies</ex> daughter
@@ -1607,15 +1607,15 @@
                   Charge everie ffellowe of this howse shall bee taxed to paye as followeth, vizt./<lb/>
             </ab>
             <ab>
-   Everie Bencher of this howse to paye the sum<ex>m</ex>e of five powndes.<lb/>
+               Everie Bencher of this howse to paye the sum<ex>m</ex>e of <measure type="currency">five powndes</measure>.<lb/>
    Everie Vtter Barrister of this howse being seaven yeares standing of the Barr
-   or vpward fiftie shillinges./<lb/>
+   or vpward <measure type="currency">fiftie shillinges</measure>./<lb/>
    Everie Vtter Barrister of this howse which is vnder seaven yeares standing of
-   the Barr fortie shillinges<lb/>
+   the Barr <measure type="currency">fortie shillinges</measure><lb/>
    Everie Gentleman vnder the Barr who hath bene in Com<ex>m</ex>ons w<ex>i</ex>thin one
    yeare last past or is nowe in Com<ex>m</ex>ons or shall bee in Com<ex>m</ex>ons w<ex>i</ex>thin one
-   yeare next ensuinge to paye twentie shillinges And euerie such Gentleman
-   vnder the Barr who hath a Chamber in the howse to paye twentie shillinges
+               yeare next ensuinge to paye <measure type="currency">twentie shillinges</measure> And euerie such Gentleman
+               vnder the Barr who hath a Chamber in the howse to paye <measure type="currency">twentie shillinges</measure>
    although he hath not bene in Com<ex>m</ex>ons within one year last past as aforesaid.
    And that such as are hereafter named who have or keepe the severall Offices
    hereafter menc<ex>i</ex>oned within this howse shall paye (over and besides the sum<ex>m</ex>es
@@ -1624,21 +1624,21 @@
             </ab>
             <ab>
    Richard Brownlowe Esq<ex>uie</ex>r for his Office of Cheiffe Prothonotary of the
-   Com<ex>m</ex>on pleas five powndes./<lb/>
+               Com<ex>m</ex>on pleas <measure type="currency">five powndes</measure>./<lb/>
    Robert Henly and Samuell Wightwick Esq<ex>uie</ex>rs for the Kinges Bench Office
-   ten pownd<ex>es</ex>
-   Thomas ffanshawe Esq<ex>uie</ex>r for the Crowne Office six powndes thirteene
-   shilling<ex>es</ex> and fower pence<lb/>
-   Mr Hugh Audley for the Office of Ward<ex>es</ex> and Liveries ten powndes<lb/>
-   Mr Will<ex>ia</ex>m Blage for his Office of Cyrographer Ten powndes<lb/>
-   Mr Will<ex>ia</ex>m Rolfe for his Office of Clark of the Warrant<ex>es</ex> six powndes
-   thirteene shillinges and fower pence./ |<lb/>
-   Mr Richard Barringer for his Office of Philozer three powndes six shillinges
-   and eight pence<lb/>
-   Mr Matthewe Cradock for his Office of Clark of Assizes fortie shillinges<lb/>
-   Mr ffrancis Williamson for his Office of Clark of Assizes fortie shillinges<lb/>
-   Mr Humfrey Streete for his Office of Auditor three powndes<ex></ex> six shilling<ex>es</ex>
-   and eight pence<lb/>
+               <measure type="currency">ten pownd<ex>es</ex></measure>
+               Thomas ffanshawe Esq<ex>uie</ex>r for the Crowne Office <measure type="currency">six powndes thirteene
+   shilling<ex>es</ex> and fower pence</measure><lb/>
+               Mr Hugh Audley for the Office of Ward<ex>es</ex> and Liveries <measure type="currency">ten powndes</measure><lb/>
+               Mr Will<ex>ia</ex>m Blage for his Office of Cyrographer <measure type="currency">Ten powndes</measure><lb/>
+               Mr Will<ex>ia</ex>m Rolfe for his Office of Clark of the Warrant<ex>es</ex> <measure type="currency">six powndes
+   thirteene shillinges and fower pence</measure>./ |<lb/>
+               Mr Richard Barringer for his Office of Philozer <measure type="currency">three powndes six shillinges
+   and eight pence</measure><lb/>
+               Mr Matthewe Cradock for his Office of Clark of Assizes <measure type="currency">fortie shillinges</measure><lb/>
+               Mr ffrancis Williamson for his Office of Clark of Assizes <measure type="currency">fortie shillinges</measure><lb/>
+               Mr Humfrey Streete for his Office of Auditor <measure type="currency">three powndes<ex></ex> six shilling<ex>es</ex>
+   and eight pence</measure><lb/>
             </ab>
             <ab>
    And it is further ordered that the Cheiffe Butler shall make a Rolle of
@@ -1772,18 +1772,18 @@
             <gap reason="omitted"/>
             <ab>
                fforasmuch<note type="marginal" place="margin_left">Order for M<ex>aste</ex>r
-                  Tr<ex>easur</ex>er to disburse 170 li. towardes ye Masq<ex>ue</ex></note> as it appeared this p<ex>re</ex>sent p<ex>ar</ex>liament, by the relac<ex>i</ex>on of Mr
+                  Tr<ex>easur</ex>er to disburse <measure type="currency">170 li.</measure> towardes ye Masq<ex>ue</ex></note> as it appeared this p<ex>re</ex>sent p<ex>ar</ex>liament, by the relac<ex>i</ex>on of Mr
                Willys one of the Benchers of this Howse whoe hath beene employed and
                trusted in the disbursinge of diuers som<ex>m</ex>es of money toward<ex>es</ex> the Masq<ex>ue</ex>
                w<ex>hi</ex>ch was p<ex>re</ex>sented before his Ma<ex>ies</ex>tie that over and besides such sum<ex>m</ex>es of
                money as haue beene delivered vnto him by the Cheife butler of this Howse
                which hee collected vppon the saide Rolle and such other monyes as hee the
                said Mr Willys hath <del>held</del> had from the late Tr<ex>easur</ex>er of this Howse out of
-               the howse stock hee hath occasion for ye expendinge of one hundred and
-               seaventy pound<ex>es</ex> more for the cleere and absolute defrayinge of all charges
+               the howse stock hee hath occasion for ye expendinge of <measure type="currency">one hundred and
+               seaventy pound<ex>es</ex></measure> more for the cleere and absolute defrayinge of all charges
                of the said Masq<ex>ue</ex> soe farre forth as concerneth this howse, It is therefore
                ordered that M<ex>aste</ex>r Tr<ex>easur</ex>er shall deliver vnto the said Mr Willys out of
-               the Stock of the Howse the said som<ex>m</ex>e of 170 li. and this p<ex>re</ex>sent act shalbe
+               the Stock of the Howse the said som<ex>m</ex>e of <measure type="currency">170 li.</measure> and this p<ex>re</ex>sent act shalbe
                a sufficient warr<ex>an</ex>t &amp; discharge to the said M<ex>aste</ex>r Tr<ex>easur</ex>er for ye deliu<ex>er</ex>y
                thereof hee takinge a receipt from the said Mr Willys for ye same./.<lb/>
             </ab>
@@ -1852,9 +1852,9 @@
                <gap reason="omitted"/>
                
                <ab>
-                  Vppon<note type="marginal" place="margin_left">40 s. Allowed to Henry ffeild
+                  Vppon<note type="marginal" place="margin_left"><measure type="currency">40 s.</measure> Allowed to Henry ffeild
                      ye Music<ex>i</ex>on./</note> the humble Petic<ex>i</ex>on of Henry ffeild music<ex>i</ex>on to haue the former
-                  allowance of xx s. a day for Alhollands and Candlemas dayes last past in
+                  allowance of <measure type="currency">xx s.</measure> a day for Alhollands and Candlemas dayes last past in
                   the time of the discontinuance of Com<ex>m</ex>ons, in regard hee hath beene an
                   auncient servant to this Howse and hee and his Company were ready the
                   same dayes to have p<ex>re</ex>sented their service if it might haue beene receiued,
@@ -1889,14 +1889,14 @@
                   misfortune to receave a dangerous hurt on his head, whereby he could not
                   after his Call to the Barr keepe any of his Vacac<ex>i</ex>ons, And also that in regard
                   hee had byn a Reveller in the Howse &amp; | had, <del>and had</del> at the tyme of the
-                  great Masque disbursed out of his owne purse 5 li. for hire of a horse and
-                  furniture, besides xx s. which hee paid vpon the Aide Roll, the which was
+                  great Masque disbursed out of his owne purse <measure type="currency">5 li.</measure> for hire of a horse and
+                  furniture, besides <measure type="currency">xx s.</measure> which hee paid vpon the Aide Roll, the which was
                   never repaid him, as it was to oth<ex>er</ex>s in the like case. He therefore praied a
                   fauorable composic<ex>i</ex>on for all his Vacac<ex>i</ex>ons, &amp; Amerciam<ex>en</ex>t<ex>es</ex> within the time
                   of his being a Vacac<ex>i</ex>oner Vtter barrister. Whereupon in favour to the said
                   Mr Iohnson in respect of his p<ex>ar</ex>ticuler Case before sett forth: A Composic<ex>i</ex>on
                   is graunted vnto him for all his Vacac<ex>i</ex>ons and Amerciam<ex>en</ex>t<ex>es</ex> aforesaid for
-                  the som<ex>m</ex>e of Twelue pounde. Butt this not to be drawne into p<ex>re</ex>sident<note type="foot">p<ex>re</ex>sident: <hi rend="italic">for </hi>precedent</note> for
+                  the som<ex>m</ex>e of <measure type="currency">Twelue pounde</measure>. Butt this not to be drawne into p<ex>re</ex>sident<note type="foot">p<ex>re</ex>sident: <hi rend="italic">for </hi>precedent</note> for
                   any other hereafter./<gap reason="omitted"/>
                </ab>
                <gap reason="omitted"/>
