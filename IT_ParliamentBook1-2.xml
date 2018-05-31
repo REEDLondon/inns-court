@@ -240,7 +240,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1505-09-29" to-iso="1506-09-29" cert="medium">1505-6</date>
-            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 30">RLITPB1</seg></head>
+            <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 30">RLITP001</seg></head>
          <div type="transcription">
             <div>
                <head>f 14 <date when-iso="1505-11"></date><supplied>(November 1505) (Christmas officers)</supplied></head>
@@ -265,7 +265,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1506-09-29" to-iso="1507-09-29" cert="medium">1506-7</date>
-            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 31">RLITPB1</seg></head>
+            <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 31">RLITP001</seg></head>
          <div type="transcription">
            <div> 
               <head>f 16 <date when-iso="1506-11-02"></date><supplied>(2 November 1506) (Christmas officers)</supplied></head>
@@ -290,7 +290,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1507-09-29" to-iso="1508-09-29" cert="medium">1507-8</date>
-            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 32">RLITPB1</seg></head>
+            <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 32">RLITP001</seg></head>
          <div type="transcription">
             <div>
                <head>f 18 <ptr type="endnote" target="endnote:RLE00027"/><date when-iso="1507-11-01"></date><supplied>(1 November 1507) (Christmas officers)</supplied></head>
@@ -331,7 +331,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1508-09-29" to-iso="1509-09-29" cert="medium">1508-9</date>
-            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 33">RLITPB1</seg></head>
+            <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 33">RLITP001</seg></head>
          <div type="transcription">
             <div>
             <head>f 20v <date when-iso="1508-11-02"></date><supplied>(2 November 1508) (Christmas officers)</supplied></head>
@@ -355,7 +355,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1509-09-29" to-iso="1510-09-29" cert="medium">1509-10</date>
-            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 34-5">RLITPB1</seg></head>
+            <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 34-5">RLITP001</seg></head>
          <div type="transcription">
             <div>
                <head>f 22 <ptr type="endnote" target="endnote:RLE00029"/><date when-iso="1509-11-02"></date><supplied>(2 November 1509) (Christmas officers)</supplied></head>
@@ -393,7 +393,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1510-09-29" to-iso="1511-09-29" cert="medium">1510-11</date>
-            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 36">RLITPB1</seg></head>
+            <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 36">RLITP001</seg></head>
          <div type="transcription">
             <div>
             <head>f 25v <date when-iso="1510-11-03"></date><supplied>(3 November 1510) (Christmas officers)</supplied></head>
@@ -447,7 +447,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1511-09-29" to-iso="1512-09-29" cert="medium">1511-12</date>
-            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 38">RLITPB1</seg></head>
+            <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 38">RLITP001</seg></head>
          <div type="transcription">
             <head>f 28 <date when-iso="1511-11-10"></date><supplied>(10 November 1511) (Christmas officers)</supplied></head>
             <pb n="28" type="folio"/> 
@@ -474,7 +474,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1512-09-29" to-iso="1513-09-29" cert="medium">1512-13</date>
-            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 39">RLITPB1</seg></head>
+            <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 39">RLITP001</seg></head>
          <div type="transcription">
             <div>
             <head>f 30 <date when-iso="1512-11-11"></date><supplied>(11 November 1512) (Christmas officers)</supplied></head>
@@ -503,7 +503,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1514-09-29" to-iso="1514-09-29" cert="medium">1514-15</date>
-            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 42">RLITPB1</seg>
+            <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 42">RLITP001</seg>
          </head>
          <div type="transcription">
             <div>
@@ -534,7 +534,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1515-09-29" to-iso="1516-09-29" cert="medium">1515-16</date>
-            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 43">RLITPB1</seg>
+            <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 43">RLITP001</seg>
          </head>
          <div type="transcription">
            <div> 
@@ -564,7 +564,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1516-09-29" to-iso="1517-09-29" cert="medium">1516-17</date>
-            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 44">RLITPB1</seg>
+            <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 44">RLITP001</seg>
          </head>
          <div type="transcription">
             <div>
@@ -614,7 +614,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1518-09-29" to-iso="1519-09-29" cert="medium">1518-19</date>
-            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 46">RLITPB1</seg>
+            <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 46">RLITP001</seg>
          </head>
          <div type="transcription">
           <div>
@@ -664,7 +664,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1519-09-29" to-iso="1520-09-29" cert="medium">1519-20</date>
-            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 48">RLITPB1</seg>
+            <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 48">RLITP001</seg>
          </head>
          <div type="transcription">
             <div>
@@ -717,7 +717,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1520-09-29" to-iso="1521-09-29" cert="medium">1520-1</date>
-            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 49-50">RLITPB1</seg>
+            <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 49-50">RLITP001</seg>
          </head>
          <div type="transcription">
             <div>
@@ -765,7 +765,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1522-09-29" to-iso="1523-09-29" cert="medium">1522-3</date>
-            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 51">RLITPB1</seg>
+            <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 51">RLITP001</seg>
          </head>
          <div type="transcription">
             <div>
@@ -791,7 +791,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1523-09-29" to-iso="1524-09-29" cert="medium">1523-4</date>
-            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 52">RLITPB1</seg>
+            <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 52">RLITP001</seg>
          </head>
          <div type="transcription">
             <div>
@@ -841,7 +841,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1526-09-29" to-iso="1527-09-29" cert="medium">1526-7</date>
-            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 54">RLITPB1</seg>
+            <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 54">RLITP001</seg>
          </head>
          <div type="transcription">
             <div>
@@ -868,7 +868,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1527-09-29" to-iso="1528-09-29" cert="medium">1527-8</date>
-            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 54">RLITPB1</seg>
+            <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 54">RLITP001</seg>
          </head>
          <div type="transcription">
             <div>
@@ -894,7 +894,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1533-09-29" to-iso="1534-09-29" cert="medium">1533-4</date>
-            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 61">RLITPB1</seg>
+            <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 61">RLITP001</seg>
          </head>
          <div type="transcription">
             <div>
@@ -921,7 +921,7 @@
             <body xml:lang="eng">
                <head>
                   <date from-iso="1534-09-29" to-iso="1535-09-29" cert="medium">1534-5</date>
-                  <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 62">RLITPB1</seg>
+                  <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 62">RLITP001</seg>
                </head>
                <div type="transcription">
                   <div>
@@ -967,7 +967,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1538-09-29" to-iso="1539" cert="medium">1538-9</date>
-            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 65">RLITPB1</seg>
+            <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 65">RLITP001</seg>
          </head>
          <div type="transcription">
             <div>
@@ -995,7 +995,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1539-09-29" to-iso="1540-09-29" cert="medium">1539-40</date>
-            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 66">RLITPB1</seg>
+            <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 66">RLITP001</seg>
          </head>
          <div type="transcription">
             <div>
@@ -1047,7 +1047,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1542-09-29" to-iso="1543-09-29" cert="medium">1542-3</date>
-            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 68">RLITPB1</seg></head>
+            <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 68">RLITP001</seg></head>
          <div type="transcription">
             <div>
                <head>f 120v <date when-iso="1542-11-14"></date><supplied>(14 November 1542) (Christmas officers)</supplied></head>
@@ -1075,7 +1075,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1544-09-29" to-iso="1545-09-29" cert="medium">1544-5</date>
-            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 69">RLITPB1</seg></head>
+            <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 69">RLITP001</seg></head>
          <div type="transcription">
             <div>
                <head>f 125 <date when-iso="1544-11-16"></date><supplied>(16 November 1544) (Christmas officers)</supplied></head>
@@ -1126,7 +1126,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1545-09-29" to-iso="1546-09-29" cert="medium">1545-6</date>
-            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 70">RLITPB1</seg></head>
+            <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 70">RLITP001</seg></head>
          <div type="transcription">
             <div>
                <head>f 48v <date when-iso="1546-02-03"></date><supplied>(3 February 1545/6) (Fines for not exercising offices)</supplied></head> 
@@ -1159,7 +1159,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1546-09-29" to-iso="1547-09-29" cert="medium">1546-7</date>
-            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 70">RLITPB1</seg></head>
+            <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 70">RLITP001</seg></head>
          <div type="transcription">
             <div>
                <head>f 51 <date when-iso="1546-11-07"></date><supplied>(7 November 1546) (Christmas officers)</supplied></head>
@@ -1191,7 +1191,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1552-09-29" to-iso="1553-09-29" cert="medium">1552-3</date>
-            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 76">RLITPB1</seg></head>
+            <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 76">RLITP001</seg></head>
          <div type="transcription">
             <div>
                <head>f 129 <date when-iso="1552-11-20"></date><supplied>(20 November 1552) (Christmas officers)</supplied></head> 
@@ -1213,7 +1213,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1553-09-29" to-iso="1554-09-29" cert="medium">1553-4</date>
-            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 76">RLITPB1</seg></head>
+            <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 76">RLITP001</seg></head>
          <div type="transcription">
             <div>
                <head>f 132 <date when-iso="1553-11-19"></date><supplied>(19 November 1553) (Christmas officers)</supplied></head> 
@@ -1245,7 +1245,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1554-09-29" to-iso="1555-09-29" cert="medium">1554-5</date>
-            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 77">RLITPB1</seg></head>
+            <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 77">RLITP001</seg></head>
          <div type="transcription">
             <div>
                <head>f 135v <date when-iso="1554-10-04"></date><supplied>(4 October 1554) (Christmas officers)</supplied></head> 
@@ -1278,7 +1278,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1555-09-29" to-iso="1556-09-29" cert="medium">1555-6</date>
-            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 79">RLITPB1</seg></head>
+            <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 79">RLITP001</seg></head>
          <div type="transcription">
             <div>
                <head>f 139 <date when-iso="1555-11-20"></date><supplied>(20 November 1555)</supplied></head> 
@@ -1316,7 +1316,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1561-09-29" to-iso="1562-09-29" cert="medium">1561-2</date>
-            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 84-5">RLITPB1</seg></head>
+            <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 84-5">RLITP001</seg></head>
          <div type="transcription">
             <div>
                <head>f 164 <date when-iso="1562-02-04"></date><supplied>(4 February 1561/2)</supplied></head>
@@ -1350,7 +1350,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1577-09-29" to-iso="1578-09-29" cert="medium">1577-8</date>
-            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 101">RLITPB1</seg></head>
+            <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 101">RLITP001</seg></head>
          <div type="transcription">
             <div>
                <head>f 204v <date when-iso="1578-06-15"></date><supplied>(15 June 1578)</supplied></head> 
@@ -1382,7 +1382,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1582-09-29" to-iso="1583-09-29" cert="medium">1582-3</date>
-            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 106">RLITPB1</seg></head>
+            <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 106">RLITP001</seg></head>
          <div type="transcription">
             <div>
                <head>f 220v <date when-iso="1583-01-27"></date><supplied>(27 January 1582/3)</supplied></head> 
@@ -1413,7 +1413,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1589-09-29" to-iso="1590-09-29" cert="medium">1589-90</date>
-            <seg ana="taxon:RLITPB1" corresp="taxon:RPCIC p. 115">RLITPB2</seg></head>
+            <seg ana="taxon:RLITP002" corresp="taxon:RPCIC p. 115">RLITP002</seg></head>
          <div type="transcription">
             <div>
                <head>f 11 <date when-iso="1590-02-08"></date><supplied>(8 February 1589/90)</supplied></head>  
@@ -1445,7 +1445,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1610-09-29" to-iso="1611-09-29" cert="medium">1610-11</date>
-            <seg ana="taxon:RLITPB2" corresp="taxon:RPCIC p. 145">RLITPB2</seg></head>
+            <seg ana="taxon:RLITP002" corresp="taxon:RPCIC p. 145">RLITP002</seg></head>
          <div type="transcription">
             <div>
                <head>f 99 <date when-iso="1611-02-10"></date><supplied>(10 February 1610/11)</supplied></head> 
@@ -1485,7 +1485,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1611-09-29" to-iso="1612-09-29" cert="medium">1611-12</date>  
-            <seg ana="taxon:RLITPB2" corresp="taxon:RPCIC p. 146-7">RLITPB2</seg>
+            <seg ana="taxon:RLITP002" corresp="taxon:RPCIC p. 146-7">RLITP002</seg>
          </head>
          
          <div type="transcription">
@@ -1510,7 +1510,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1612-09-29" to-iso="1613-09-29" cert="medium">1612-13</date>
-            <seg ana="taxon:RLITPB2" corresp="taxon:RLPIC1 pp. 151-2">RLITPB2</seg>
+            <seg ana="taxon:RLITP002" corresp="taxon:RLPIC1 pp. 151-2">RLITP002</seg>
          </head>
          <div type="transcription">
             <div>
@@ -1542,7 +1542,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1615-09-29" to-iso="1616-09-29" cert="medium">1615-16</date>
-            <seg ana="taxon:RLITPB2" corresp="taxon:RLPIC1 pp. 185-6">RLITPB2</seg>
+            <seg ana="taxon:RLITP002" corresp="taxon:RLPIC1 pp. 185-6">RLITP002</seg>
          </head>
          <div type="transcription">
             <div>
@@ -1581,7 +1581,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1616-09-29" to-iso="1617-09-29" cert="medium">1616-17</date>
-            <seg ana="taxon:RLITPB2" corresp="taxon:RLPIC1 pp. 190-1">RLITPB2</seg>
+            <seg ana="taxon:RLITP002" corresp="taxon:RLPIC1 pp. 190-1">RLITP002</seg>
          </head>
          <div type="transcription">
             <div>
@@ -1619,7 +1619,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1627-09-29" to-iso="1628-09-29" cert="medium">1627-8</date>
-            <seg ana="taxon:RLITPB2" corresp="taxon:RLPIC1 pp. 217">RLITPB2</seg>
+            <seg ana="taxon:RLITP002" corresp="taxon:RLPIC1 pp. 217">RLITP002</seg>
          </head>
          <div type="transcription">
             <div>
@@ -1650,7 +1650,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1628-09-29" to-iso="1629-09-29" cert="medium">1628-9</date>
-            <seg ana="taxon:RLITPB2" corresp="taxon:RLPIC1 pp. 220-1">RLITPB2</seg>
+            <seg ana="taxon:RLITP002" corresp="taxon:RLPIC1 pp. 220-1">RLITP002</seg>
          </head>
          <div type="transcription">
             <div>
@@ -1703,7 +1703,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1633-09-29" to-iso="1634-09-29" cert="medium">1633-4</date>
-            <seg ana="taxon:RLITPB2" corresp="taxon:RPCIC p. 240-3">RLITPB2</seg>
+            <seg ana="taxon:RLITP002" corresp="taxon:RPCIC p. 240-3">RLITP002</seg>
          </head>
          
          <div type="transcription">
@@ -1893,7 +1893,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1634-09-29" to-iso="1635-09-29" cert="medium">1634-5</date>
-            <seg ana="taxon:RLITPB2" corresp="taxon:RLPIC1 pp 325-6">RLITPB2</seg>
+            <seg ana="taxon:RLITP002" corresp="taxon:RLPIC1 pp 325-6">RLITP002</seg>
          </head>
          <div type="transcription">
             <div>
@@ -1973,7 +1973,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1636-09-29" to-iso="1637-09-29" cert="medium">1636-7</date>
-            <seg ana="taxon:RLITPB2" corresp="taxon:RLPIC1 pp 344">RLITPB2</seg>
+            <seg ana="taxon:RLITP002" corresp="taxon:RLPIC1 pp 344">RLITP002</seg>
          </head>
          <div type="transcription">
             <div>
@@ -2002,7 +2002,7 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1638-09-29" to-iso="1639-09-29" cert="medium">1638-9</date>
-            <seg ana="taxon:RLITPB2" corresp="taxon:RLPIC1 pp 352">RLITPB2</seg>
+            <seg ana="taxon:RLITP002" corresp="taxon:RLPIC1 pp 352">RLITP002</seg>
          </head>
          <div type="transcription">
             <div>
