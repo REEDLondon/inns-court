@@ -245,7 +245,7 @@
          <div type="transcription">
             <div>
                <head>f 14 <date when-iso="1505-11"></date><supplied>(November 1505) (Christmas officers)</supplied></head>
-            <pb n="99" type="folio"/> 
+            <pb n="14" type="folio"/> 
             
             <gap reason="omitted"/>
             
@@ -346,7 +346,7 @@
          <div type="transcription">
             <div>
             <head>f 20v <date when-iso="1508-11-02"></date><supplied>(2 November 1508) (Christmas officers)</supplied></head>
-            <pb n="20" type="folio"/> 
+            <pb n="20v" type="folio"/> 
             
             <gap reason="omitted"/>
             
@@ -668,7 +668,7 @@
                      M<ex>agist</ex>ri <note type="marginal" place="margin_left">Vnde sol<ex>u</ex>ta
                         xiij s. iiij d.</note>de Revels et de om<ex>n</ex>ib<ex>us</ex> vacacionib<ex>us</ex> certis
                      consideracionib<ex>us</ex> p<ex>ro</ex> ‸<add place="above">fine</add></cell> <!-- KC: caret -->
-                  <cell>xl s.</cell>
+                  <cell rend="right">xl s.</cell>
                </row>
             </table>
             
@@ -1102,7 +1102,7 @@
          <div type="transcription">
             <div>
                <head>f 125 <date when-iso="1544-11-16"></date><supplied>(16 November 1544) (Christmas officers)</supplied></head>
-            <pb n="120v" type="folio"/> 
+            <pb n="125" type="folio"/> 
             
             <gap reason="omitted"/>
             
@@ -1807,7 +1807,7 @@
      </div>
      
        <div>
-          <head>f 222v <date when-iso="1634-02-09"></date><supplied>(9 February 1633/4)</supplied></head> 
+          <head>f 222 <date when-iso="1634-02-09"></date><supplied>(9 February 1633/4)</supplied></head> 
           <pb n="222" type="folio"/> 
  
                <gap reason="omitted"/>
@@ -1880,7 +1880,7 @@
          
              <div>
                 <head>f 224v <date when-iso="1634-06-22"></date><supplied>(22 June 1634)</supplied></head> 
-                <pb n="224" type="folio"/> 
+                <pb n="224v" type="folio"/> 
                 
                 <gap reason="omitted"/>
 <ab>
