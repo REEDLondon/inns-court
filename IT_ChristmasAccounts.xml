@@ -316,26 +316,92 @@
                   </row>
                </table>
                <gap reason="omitted"/>
+            </div>            
+         </div>
+      </body>
+   </text>
+   
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1615-09-29" to-iso="1616-09-29" cert="medium">1615-16</date>
+            <seg ana="taxon:RLITC001" corresp="taxon:RPCIC p. 187">RLITC001</seg>
+         </head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 7 <ptr type="endnote" target="endnote:RLE00164"/><date from-iso="1615-12-20" to-iso="1615-12-26"></date><supplied>(20 - 26 December 1615)</supplied>
+               </head>
+               <pb n="7" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>In mendinge of the Clothe<note type="foot">Clothe: <hi rend="italic">ie, curtains</hi></note> for ye musicke Rome</cell>
+                     <cell rend="right"><measure type="currency">xviij d.</measure></cell>
+                  </row>
+               </table>                 
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>In Mussicke</cell>
+                     <cell rend="right"><measure type="currency">x li. xj s. viij d.</measure></cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
             </div>
             
-         </div>
-      </body>
-   </text>
-   
-   <text ana="taxon:inner_temple" type="record">
-      <body xml:lang="eng">
-         <head>
-            <date from-iso="16-09-29" to-iso="16-09-29" cert="medium">16</date>
-            <seg ana="taxon:RLITC001" corresp="taxon:RPCIC p. ">RLITC001</seg>
-         </head>
-         
-         <div type="transcription">
             <div>
-               <head>f  <date from-iso="16-11-03" to-iso="16-11-03"></date><supplied>(3 November - 3 November) (Payments)</supplied>
-               </head>
-               <pb n="" type="folio"/>
-               
-               
+               <head>f 8v <date from-iso="1615-12-27" to-iso="1616-01-02"></date><supplied>(27 December 1615 - 2 January 1616) (Necessaries)</supplied></head>
+               <pb n="8v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>In Mussycke this weeke</cell>
+                     <cell rend="right"><measure type="currency">xxvij li. j s. viij d.</measure></cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 10 <date from-iso="1616-01-03" to-iso="1616-01-09"></date><supplied>(3 - 9 January 1616)</supplied></head>
+               <pb n="10" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>To the players<note type="foot">players: <hi rend="italic">ie, musicians</hi></note></cell>
+                     <cell rend="right"><measure type="currency">xx s.</measure></cell>
+                  </row>
+                  <row>
+                     <cell>Drume &amp; ffyfe</cell>
+                     <cell rend="right"><measure type="currency">xxx s.</measure></cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>To mr Chettwood for musick</cell>
+                     <cell rend="right"><measure type="currency">xxij li. xviij s. vj d.</measure></cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>              
+            </div>
+            
+            <div>
+               <head>f 10v </head>
+               <pb n="10v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Drume &amp; ffyfe to mr Chettwoode</cell>
+                     <cell rend="right"><measure type="currency">xxvj s.</measure></cell>
+                  </row>
+                  <row>
+                     <cell>In Musycke</cell>
+                     <cell rend="right"><measure type="currency">xxj li. xij s. vj d.</measure></cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>               
             </div>
          </div>
       </body>
@@ -344,18 +410,60 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="16-09-29" to-iso="16-09-29" cert="medium">16</date>
-            <seg ana="taxon:RLITC001" corresp="taxon:RPCIC p. ">RLITC001</seg>
+            <date from-iso="1616-09-29" to-iso="1617-09-29" cert="medium">1616-17</date>
+            <seg ana="taxon:RLITC001" corresp="taxon:RPCIC p. 192">RLITC001</seg>
          </head>
          
          <div type="transcription">
             <div>
-               <head>f  <date from-iso="16-11-03" to-iso="16-11-03"></date><supplied>(3 November - 3 November) (Payments)</supplied>
+               <head>f 11v <ptr type="endnote" target="endnote:RLE00167"/><date from-iso="1616-12-18" to-iso="1616-12-24"></date><supplied>(18 - 24 December 1616)</supplied>
                </head>
-               <pb n="" type="folio"/>
-               
-               
+               <pb n="11v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>ffor Mending the Curteynes about the Musicke</cell>
+                     <cell rend="right"><measure type="currency">v s. iiij d.</measure></cell>
+                  </row>
+                  <row>
+                     <cell>ffor musicke</cell>
+                     <cell rend="right"><measure type="currency">vij li. xvij s.</measure></cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>               
             </div>
+            
+            <div>
+               <head>f 12v <date from-iso="1616-12-25" to-iso="1616-12-31"></date><supplied>(25 - 31 December 1616) (Necessaries)</supplied>
+               </head>
+               <pb n="12v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>In musicke &amp; Voyces</cell>
+                     <cell rend="right"><measure type="currency">xxiij li. viij s. iiij d.</measure></cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>               
+            </div>          
+            
+            <div>
+               <head>f 14v <date from-iso="1617-01-08" to-iso="1617-01-13"></date><supplied>(8 - 13 January 1617)</supplied>
+               </head>
+               <pb n="14v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>In musycke</cell>
+                     <cell rend="right"><measure type="currency">iiij li. j s. x d.</measure></cell>
+                  </row>
+                  <row>
+                     <cell>In Lowde musyck of the last yeare</cell>
+                     <cell rend="right"><measure type="currency">iij li.</measure></cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>               
+            </div>  
          </div>
       </body>
    </text>
