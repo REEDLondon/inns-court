@@ -317,7 +317,7 @@
                         q<ex>uia</ex> fecer<ex>unt</ex> defect<ex>um</ex> in officiu<ex>m</ex> m<ex>agist</ex>ror<ex>um</ex> del
                         Revels ad f<ex>estum</ex> Nat<ex>alis</ex> in A<ex>nn</ex>o xxiij &amp; vlt<ex>er</ex>ius q<ex>uo</ex>d
                         fac<ex>iant</ex> contribuc<ex>i</ex>one<ex>m</ex> Plunket &amp; Tate qui fecer<ex>unt</ex> <del>d</del>
-                        q<ex>uo</ex>d ad offic<ex>ium</ex> p<ex>er</ex>tenuit</cell>
+                        q<ex>uo</ex>d ad offic<ex>ium</ex> p<ex>er</ex>tenuit</cell><!-- KC: currency in paragraph above-->
                      <cell rend="right"><del>xvj</del> xiij li. ii<damage><gap unit="chars" extent="3"/></damage></cell>  
                   </row>
                </table>
@@ -396,7 +396,7 @@
             <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 36">RLITP001</seg></head>
          <div type="transcription">
             <div>
-            <head>f 25v <date when-iso="1510-11-03"></date><supplied>(3 November 1510) (Christmas officers)</supplied></head>
+               <head>f 25v <ptr type="endnote" target="endnote:RLE00030"/><date when-iso="1510-11-03"></date><supplied>(3 November 1510) (Christmas officers)</supplied></head>
             <pb n="25v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -415,12 +415,8 @@
             </row>
             </table>
             
-            <gap unit="chars" extent="3"/>
-               
-            <note type="editorial" n="endnote">
-                  The names of the four masters of the revels are entered again at the foot of f 26: 'lacton,
-                  Godolphyn, Lambourn,' and 'E Gyfford.'
-            </note>  
+            <gap reason="omitted"/>
+            
          </div>
             
             <div>
@@ -449,23 +445,17 @@
             <date from-iso="1511-09-29" to-iso="1512-09-29" cert="medium">1511-12</date>
             <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 38">RLITP001</seg></head>
          <div type="transcription">
-            <head>f 28 <date when-iso="1511-11-10"></date><supplied>(10 November 1511) (Christmas officers)</supplied></head>
+            <head>f 28 <ptr type="endnote" target="endnote:RLE00032"/><date when-iso="1511-11-10"></date><supplied>(10 November 1511) (Christmas officers)</supplied></head>
             <pb n="28" type="folio"/> 
             
             <gap reason="omitted"/>
-            
             <table>
                <row>
                   <cell>M<ex>agistri</ex> de Revell<ex>es</ex></cell>
                   <cell>White<lb/>Mores<lb/>Danvers<lb/>Warde<note type="foot">Mores ... Warde: <hi rend="italic">braced pointing to the left at</hi> M<ex>agistri</ex> de Revell<ex>es</ex></note></cell>
                </row>
             </table>
-            
             <gap reason="omitted"/>
-            
-            <note type="editorial" n="endnote">
-               The names of the four masters of the revels are repeated on f 28v.
-            </note>            
          </div>
       </body>
    </text>
@@ -477,7 +467,7 @@
             <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 39">RLITP001</seg></head>
          <div type="transcription">
             <div>
-            <head>f 30 <date when-iso="1512-11-11"></date><supplied>(11 November 1512) (Christmas officers)</supplied></head>
+               <head>f 30 <ptr type="endnote" target="endnote:RLE00033"/><date when-iso="1512-11-11"></date><supplied>(11 November 1512) (Christmas officers)</supplied></head>
             <pb n="30" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -490,10 +480,7 @@
             </table>
                
             <gap reason="omitted"/>
-               
-               <note type="editorial" n="endnote">
-                  Folio damaged by post-World War II fire; the date is supplied from Inderwick.
-               </note>               
+  
          </div>
          </div>
       </body>
@@ -507,7 +494,7 @@
          </head>
          <div type="transcription">
             <div>
-               <head>f 33 <date when-iso="1514-11-19"></date><supplied>(19 November 1514) (Christmas officers)</supplied></head>
+               <head>f 33 <ptr type="endnote" target="endnote:RLE00034"/><date when-iso="1514-11-19"></date><supplied>(19 November 1514) (Christmas officers)</supplied></head>
             <pb n="33" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -518,13 +505,7 @@
                   <cell>Pygott<lb/>Reede<lb/>Blagge<lb/>Denny</cell>
                </row>
             </table>
-            
             <gap reason="omitted"/>
-               
-               <note type="editorial" n="endnote">
-                  Earlier on the same folio occurs an entry under 1 November listing as masters of the revels only 'Verney,'
-                  'Rede,' and 'B <supplied>(blank)</supplied>.'
-               </note>               
             </div>
          </div>
       </body>
@@ -538,7 +519,7 @@
          </head>
          <div type="transcription">
            <div> 
-              <head>f 34v <date when-iso="1515-11-02"></date><supplied>(2 November 1515) (Christmas officers)</supplied></head>
+              <head>f 34v <ptr type="endnote" target="endnote:RLE00035"/><date when-iso="1515-11-02"></date><supplied>(2 November 1515) (Christmas officers)</supplied></head>
             <pb n="34v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -551,10 +532,6 @@
             </table>
             
             <gap reason="omitted"/>
-              
-              <note type="editorial" n="endnote">
-                 Folio damaged by post-World War II fire; the date is supplied from Inderwick.
-              </note>              
            </div>
          </div>
       </body>
@@ -584,7 +561,7 @@
           </div>
          
          <div>
-            <head>f 38 <date when-iso="1517-02-05"></date><supplied>(5 February 1516/7)</supplied></head> 
+            <head>f 38 <ptr type="endnote" target="endnote:RLE00036"/><date when-iso="1517-02-05"></date><supplied>(5 February 1516/7)</supplied></head> 
             <pb n="38" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -634,7 +611,7 @@
          </div>
          
          <div>
-            <head>f 42v <date when-iso="1518-11-14"></date><supplied>(14 November 1518)</supplied></head>
+            <head>f 42v <ptr type="endnote" target="endnote:RLE00038"/><date when-iso="1518-11-14"></date><supplied>(14 November 1518)</supplied></head>
             <pb n="42v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -684,7 +661,7 @@
          </div>
          
          <div>
-            <head>f 46v <date when-iso="1519-11-13"></date><supplied>(13 November 1519)</supplied></head>
+            <head>f 46v <ptr type="endnote" target="endnote:RLE00039"/><date when-iso="1519-11-13"></date><supplied>(13 November 1519)</supplied></head>
             <pb n="46v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -721,7 +698,7 @@
          </head>
          <div type="transcription">
             <div>
-               <head>f 69 <date when-iso="1520-11-02"></date><supplied>(2 November 1520) (Christmas officers)</supplied></head>
+               <head>f 69 <ptr type="endnote" target="endnote:RLE00040"/><date when-iso="1520-11-02"></date><supplied>(2 November 1520) (Christmas officers)</supplied></head>
             <pb n="69" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -741,7 +718,7 @@
          </div>
          
            <div>
-            <head>f 69v</head>
+              <head>f 69v <ptr type="endnote" target="endnote:RLE00040"/></head>
             <pb n="69v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -769,7 +746,7 @@
          </head>
          <div type="transcription">
             <div>
-               <head>f 78 <date when-iso="1523-02-04"></date><supplied>(4 February 1522/3) (List of fines)</supplied></head> 
+               <head>f 78 <ptr type="endnote" target="endnote:RLE00043"/><date when-iso="1523-02-04"></date><supplied>(4 February 1522/3) (List of fines)</supplied></head> 
             <pb n="78" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -925,7 +902,7 @@
                </head>
                <div type="transcription">
                   <div>
-                     <head>f 103 <date when-iso="1534-11-10"></date><supplied>(10 November 1534) (Christmas officers)</supplied></head>
+                     <head>f 103 <ptr type="endnote" target="endnote:RLE00055"/><date when-iso="1534-11-10"></date><supplied>(10 November 1534) (Christmas officers)</supplied></head>
                   <pb n="103" type="folio"/> 
                   
                   <gap reason="omitted"/>
@@ -944,7 +921,7 @@
                   </div>
                
                <div>
-                  <head><date when-iso="1534-12-20"></date><supplied>(20 December 1534)</supplied></head>
+                  <head><ptr type="endnote" target="endnote:RLE00055"/><date when-iso="1534-12-20"></date><supplied>(20 December 1534)</supplied></head>
        
                   <ab>Ad hunc p<ex>ar</ex>liame<ex>n</ex>tu<ex>m</ex> Ioh<ex>ann</ex>es Charlys elect<ex>us</ex> 
                      est vnus Magistror<ex>um</ex> Reuelor<ex>um</ex> pro defect<ex>u</ex> 
@@ -1017,7 +994,7 @@
             </div>
             
             <div>
-               <head>f 114v <date when-iso="1539-11-16"></date><supplied>(16 November 1539)</supplied></head>
+               <head>f 114v <ptr type="endnote" target="endnote:RLE00059"/><date when-iso="1539-11-16"></date><supplied>(16 November 1539)</supplied></head>
                <pb n="114v" type="folio"/>
                <gap reason="omitted"/>
                
@@ -1129,7 +1106,7 @@
             <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 70">RLITP001</seg></head>
          <div type="transcription">
             <div>
-               <head>f 48v <date when-iso="1546-02-03"></date><supplied>(3 February 1545/6) (Fines for not exercising offices)</supplied></head> 
+               <head>f 48v <ptr type="endnote" target="endnote:RLE00063"/><date when-iso="1546-02-03"></date><supplied>(3 February 1545/6) (Fines for not exercising offices)</supplied></head> 
             <pb n="48v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1162,7 +1139,7 @@
             <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 70">RLITP001</seg></head>
          <div type="transcription">
             <div>
-               <head>f 51 <date when-iso="1546-11-07"></date><supplied>(7 November 1546) (Christmas officers)</supplied></head>
+               <head>f 51 <ptr type="endnote" target="endnote:RLE00064"/><date when-iso="1546-11-07"></date><supplied>(7 November 1546) (Christmas officers)</supplied></head>
             <pb n="51" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1194,7 +1171,7 @@
             <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 76">RLITP001</seg></head>
          <div type="transcription">
             <div>
-               <head>f 129 <date when-iso="1552-11-20"></date><supplied>(20 November 1552) (Christmas officers)</supplied></head> 
+               <head>f 129 <ptr type="endnote" target="endnote:RLE00068"/><date when-iso="1552-11-20"></date><supplied>(20 November 1552) (Christmas officers)</supplied></head> 
             <pb n="129" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1216,7 +1193,7 @@
             <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 76">RLITP001</seg></head>
          <div type="transcription">
             <div>
-               <head>f 132 <date when-iso="1553-11-19"></date><supplied>(19 November 1553) (Christmas officers)</supplied></head> 
+               <head>f 132 <ptr type="endnote" target="endnote:RLE00069"/><date when-iso="1553-11-19"></date><supplied>(19 November 1553) (Christmas officers)</supplied></head> 
             <pb n="132" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1248,7 +1225,7 @@
             <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 77">RLITP001</seg></head>
          <div type="transcription">
             <div>
-               <head>f 135v <date when-iso="1554-10-04"></date><supplied>(4 October 1554) (Christmas officers)</supplied></head> 
+               <head>f 135v <ptr type="endnote" target="endnote:RLE00070"/><date when-iso="1554-10-04"></date><supplied>(4 October 1554) (Christmas officers)</supplied></head> 
             <pb n="135v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1281,7 +1258,7 @@
             <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 79">RLITP001</seg></head>
          <div type="transcription">
             <div>
-               <head>f 139 <date when-iso="1555-11-20"></date><supplied>(20 November 1555)</supplied></head> 
+               <head>f 139 <ptr type="endnote" target="endnote:RLE00071"/><date when-iso="1555-11-20"></date><supplied>(20 November 1555)</supplied></head> 
             <pb n="139" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1353,7 +1330,7 @@
             <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 101">RLITP001</seg></head>
          <div type="transcription">
             <div>
-               <head>f 204v <date when-iso="1578-06-15"></date><supplied>(15 June 1578)</supplied></head> 
+               <head>f 204v <ptr type="endnote" target="endnote:RLE00086"/><date when-iso="1578-06-15"></date><supplied>(15 June 1578)</supplied></head> 
             <pb n="204v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1385,7 +1362,7 @@
             <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 106">RLITP001</seg></head>
          <div type="transcription">
             <div>
-               <head>f 220v <date when-iso="1583-01-27"></date><supplied>(27 January 1582/3)</supplied></head> 
+               <head>f 220v <ptr type="endnote" target="endnote:RLE00089"/><date when-iso="1583-01-27"></date><supplied>(27 January 1582/3)</supplied></head> 
             <pb n="220v" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -1514,7 +1491,7 @@
          </head>
          <div type="transcription">
             <div>
-               <head>f 112v <date when-iso="1613-05-04"></date><supplied>(4 May 1613)</supplied></head>  
+               <head>f 112v <ptr type="endnote" target="endnote:RLE00124"/><date when-iso="1613-05-04"></date><supplied>(4 May 1613)</supplied></head>  
             <pb n="112v" type="folio"/>
             <gap reason="omitted"/>
             <ab>
@@ -1546,7 +1523,7 @@
          </head>
          <div type="transcription">
             <div>
-               <head>f 129v <date when-iso="1616-04-21"></date><supplied>(21 April 1616)</supplied></head>  
+               <head>f 129v <ptr type="endnote" target="endnote:RLE00162"/><date when-iso="1616-04-21"></date><supplied>(21 April 1616)</supplied></head>  
             <pb n="129v" type="folio"/>
             <gap reason="omitted"/>
             <ab>
@@ -1623,7 +1600,7 @@
          </head>
          <div type="transcription">
             <div>
-               <head>f 178 <date when-iso="1628-02-10"></date><supplied>(10 February 1627/8)</supplied></head>  
+               <head>f 178 <ptr type="endnote" target="endnote:RLE00185"/><date when-iso="1628-02-10"></date><supplied>(10 February 1627/8)</supplied></head>  
             <pb n="178" type="folio"/>
             <gap reason="omitted"/>
             <ab>
@@ -1654,7 +1631,7 @@
          </head>
          <div type="transcription">
             <div>
-               <head>f 182 <date when-iso="1628-11-23"></date><supplied>(23 November 1628)</supplied></head>  
+               <head>f 182 <ptr type="endnote" target="endnote:RLE00190"/><date when-iso="1628-11-23"></date><supplied>(23 November 1628)</supplied></head>  
             <pb n="182" type="folio"/>
             <gap reason="omitted"/>
             <ab>
@@ -1708,7 +1685,7 @@
          
          <div type="transcription">
             <div>
-               <head>f 219-19v <date when-iso="1633-11-12"></date><supplied>(12 November 1633)</supplied></head> 
+               <head>f 219-19v <ptr type="endnote" target="endnote:RLE00208"/><date when-iso="1633-11-12"></date><supplied>(12 November 1633)</supplied></head> 
             <pb n="219-19v" type="folio"/> 
             
             <gap reason="omitted"/>
