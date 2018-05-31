@@ -237,7 +237,7 @@
             <date from-iso="1631-09-29" to-iso="1632-09-29" cert="medium">1631-2</date>
             <seg ana="taxon:RLGIAJ" corresp="taxon:RPCIC1 p. 229">RLGIAJ</seg></head>
          <div type="transcription">
-            <head>f <del>8</del><date when-iso="1631-11"/><supplied>Disbursements in the tyme of Sir Iohn Bankes Treasurer since (blank) November 1631:./</supplied></head>
+            <head>f <del>8</del><ptr type="endnote" target="endnote:RLE00200"/><date when-iso="1631-11"/><supplied>Disbursements in the tyme of Sir Iohn Bankes Treasurer since (blank) November 1631:./</supplied></head>
             <pb type="folio"/>
                <gap reason="omitted"/>              
                <table>
@@ -251,9 +251,9 @@
                   </row>
                </table>               
                <gap reason="omitted"/>
-               <note type="editorial" n="endnote">As Sir John Bankes was treasurer of Gray’s Inn, this item has been inserted to follow excerpts from Gray’s Inn archives. The ‘Lorde of the Councell’ is probably a reference to a member of the privy council. Which councillor may have patronized these trumpeters has not been determined.</note>                                       
+                                                      
             <div type="transcription">            
-            <head>f <del>9</del></head>
+            <head>f <del>9</del><ptr type="endnote" target="endnote:RLE00200"/></head>
             <pb n="f 9" type="folio"/>
                <gap reason="omitted"/>               
                <table>
@@ -263,7 +263,7 @@
                   </row>
                </table>
             <gap reason="omitted"/>
-               <note type="editorial" n="endnote">As Sir John Bankes was treasurer of Gray’s Inn, this item has been inserted to follow excerpts from Gray’s Inn archives. The ‘Lorde of the Councell’ is probably a reference to a member of the privy council. Which councillor may have patronized these trumpeters has not been determined.</note>
+               
          </div>
          </div>
       </body>

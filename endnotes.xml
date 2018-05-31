@@ -231,11 +231,18 @@
       </profileDesc>
    </teiHeader>
 
+<text>
+   <body>
+      <bibl>
+         <biblScope corresp="RLIPIC1 pp. 4-5">
+            <idno xml:id="RLE00001"/>
+            
+               
    <text ana="taxon:bibliography" type="endnote">
       <body xml:lang="eng">
          <head>            
             <seg ana="taxon:RLPIC1" corresp="#4-5"/></head>
-         <div type="note">
+         <div xml:id="RLE00001">
             <head></head>
             <pb n="number" type="sheet"/>
             <div>
