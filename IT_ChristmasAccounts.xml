@@ -252,7 +252,7 @@
                <table>
                   <row>
                      <cell>To the Mussicke</cell>
-                     <cell rend="right"><measure type="currency">x li.</measure></cell>
+                     <cell rend="right">x li.</cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -263,7 +263,7 @@
                <table>
                   <row>
                      <cell>It<ex>em</ex> more to the Mussycke</cell>
-                     <cell rend="right"><measure type="currency">xl s.</measure></cell>
+                     <cell rend="right">xl s.</cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -277,14 +277,14 @@
                <table>
                   <row>
                      <cell>I<ex>te</ex>m paynetinge of the Mussick Roome</cell>
-                     <cell rend="right"><measure type="currency">vj s.</measure></cell>
+                     <cell rend="right">vj s.</cell>
                   </row>
                </table>
                <gap reason="omitted"/>
                <table>
                   <row>
                      <cell>Alowance to the Mussicke</cell>
-                     <cell rend="right"><measure type="currency">xij li.</measure></cell>
+                     <cell rend="right">xij li.</cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -298,7 +298,7 @@
                <table>
                   <row>
                      <cell>It<ex>em</ex> ffor Mussicke</cell>
-                     <cell rend="right"><measure type="currency">xj li.</measure></cell>
+                     <cell rend="right">xj li.</cell>
                   </row>
                </table>
                <gap reason="omitted"/>               
@@ -312,7 +312,7 @@
                <table>
                   <row>
                      <cell>In Musicke</cell>
-                     <cell rend="right"><measure type="currency">v li. x s.</measure></cell>
+                     <cell rend="right">v li. x s.</cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -337,14 +337,14 @@
                <table>
                   <row>
                      <cell>In mendinge of the Clothe<note type="foot">Clothe: <hi rend="italic">ie, curtains</hi></note> for ye musicke Rome</cell>
-                     <cell rend="right"><measure type="currency">xviij d.</measure></cell>
+                     <cell rend="right">xviij d.</cell>
                   </row>
                </table>                 
                <gap reason="omitted"/>
                <table>
                   <row>
                      <cell>In Mussicke</cell>
-                     <cell rend="right"><measure type="currency">x li. xj s. viij d.</measure></cell>
+                     <cell rend="right">x li. xj s. viij d.</cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -357,7 +357,7 @@
                <table>
                   <row>
                      <cell>In Mussycke this weeke</cell>
-                     <cell rend="right"><measure type="currency">xxvij li. j s. viij d.</measure></cell>
+                     <cell rend="right">xxvij li. j s. viij d.</cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -370,18 +370,18 @@
                <table>
                   <row>
                      <cell>To the players<note type="foot">players: <hi rend="italic">ie, musicians</hi></note></cell>
-                     <cell rend="right"><measure type="currency">xx s.</measure></cell>
+                     <cell rend="right">xx s.</cell>
                   </row>
                   <row>
                      <cell>Drume &amp; ffyfe</cell>
-                     <cell rend="right"><measure type="currency">xxx s.</measure></cell>
+                     <cell rend="right">xxx s.</cell>
                   </row>
                </table>
                <gap reason="omitted"/>
                <table>
                   <row>
                      <cell>To mr Chettwood for musick</cell>
-                     <cell rend="right"><measure type="currency">xxij li. xviij s. vj d.</measure></cell>
+                     <cell rend="right">xxij li. xviij s. vj d.</cell>
                   </row>
                </table>
                <gap reason="omitted"/>              
@@ -394,11 +394,11 @@
                <table>
                   <row>
                      <cell>Drume &amp; ffyfe to mr Chettwoode</cell>
-                     <cell rend="right"><measure type="currency">xxvj s.</measure></cell>
+                     <cell rend="right">xxvj s.</cell>
                   </row>
                   <row>
                      <cell>In Musycke</cell>
-                     <cell rend="right"><measure type="currency">xxj li. xij s. vj d.</measure></cell>
+                     <cell rend="right">xxj li. xij s. vj d.</cell>
                   </row>
                </table>
                <gap reason="omitted"/>               
@@ -423,11 +423,11 @@
                <table>
                   <row>
                      <cell>ffor Mending the Curteynes about the Musicke</cell>
-                     <cell rend="right"><measure type="currency">v s. iiij d.</measure></cell>
+                     <cell rend="right">v s. iiij d.</cell>
                   </row>
                   <row>
                      <cell>ffor musicke</cell>
-                     <cell rend="right"><measure type="currency">vij li. xvij s.</measure></cell>
+                     <cell rend="right">vij li. xvij s.</cell>
                   </row>
                </table>
                <gap reason="omitted"/>               
@@ -441,7 +441,7 @@
                <table>
                   <row>
                      <cell>In musicke &amp; Voyces</cell>
-                     <cell rend="right"><measure type="currency">xxiij li. viij s. iiij d.</measure></cell>
+                     <cell rend="right">xxiij li. viij s. iiij d.</cell>
                   </row>
                </table>
                <gap reason="omitted"/>               
@@ -455,11 +455,11 @@
                <table>
                   <row>
                      <cell>In musycke</cell>
-                     <cell rend="right"><measure type="currency">iiij li. j s. x d.</measure></cell>
+                     <cell rend="right">iiij li. j s. x d.</cell>
                   </row>
                   <row>
                      <cell>In Lowde musyck of the last yeare</cell>
-                     <cell rend="right"><measure type="currency">iij li.</measure></cell>
+                     <cell rend="right">iij li.</cell>
                   </row>
                </table>
                <gap reason="omitted"/>               
@@ -484,14 +484,14 @@
                <table>
                   <row>
                      <cell>In Musycke</cell>
-                     <cell rend="right"><measure type="currency">xx li. ix s.</measure></cell>
+                     <cell rend="right">xx li. ix s.</cell>
                   </row>
                </table>
                <gap reason="omitted"/>
                <table>
                   <row>
                      <cell>In Lowde musycke ov<ex>er</ex>lit<ex>tle</ex></cell>
-                     <cell rend="right"><measure type="currency">xx s.</measure></cell>
+                     <cell rend="right">xx s.</cell>
                   </row>
                </table>
                <gap reason="omitted"/>                             
@@ -505,7 +505,7 @@
                <table>
                   <row>
                      <cell>In Musicke</cell>
-                     <cell rend="right"><measure type="currency">xx li. xj s. viij d.</measure></cell>
+                     <cell rend="right">xx li. xj s. viij d.</cell>
                   </row>
                </table>
                <gap reason="omitted"/>                     
@@ -530,7 +530,7 @@
                <table>
                   <row>
                      <cell>In Musicke</cell>
-                     <cell rend="right"><measure type="currency">ix li. viij s. viij d.</measure></cell>
+                     <cell rend="right">ix li. viij s. viij d.</cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -544,7 +544,7 @@
                <table>
                   <row>
                      <cell>In Musicke</cell>
-                     <cell rend="right"><measure type="currency">ix li. xiij s. viij d.</measure></cell>
+                     <cell rend="right">ix li. xiij s. viij d.</cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -558,7 +558,7 @@
                <table>
                   <row>
                      <cell>To the Musicke</cell>
-                     <cell rend="right"><measure type="currency">ix li. xvij s.</measure></cell>
+                     <cell rend="right">ix li. xvij s.</cell>
                   </row>
                </table>
                <gap reason="omitted"/>
@@ -572,7 +572,7 @@
                <table>
                   <row>
                      <cell>the Musicke</cell>
-                     <cell rend="right"><measure type="currency">iiij li. xviij s.</measure></cell>
+                     <cell rend="right">iiij li. xviij s.</cell>
                   </row>
                </table>
                <gap reason="omitted"/>
