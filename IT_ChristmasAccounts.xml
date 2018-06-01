@@ -584,17 +584,98 @@
    <text ana="taxon:inner_temple" type="record">  <!-- KC: resume here -->
       <body xml:lang="eng">
          <head>
-            <date from-iso="16-09-29" to-iso="16-09-29" cert="medium">16</date>
-            <seg ana="taxon:RLITC001" corresp="taxon:RPCIC p. ">RLITC001</seg>
+            <date from-iso="1619-09-29" to-iso="1620-09-29" cert="medium">1619-20</date>
+            <seg ana="taxon:RLITC001" corresp="taxon:RPCIC p. 205-6">RLITC001</seg>
          </head>
          
          <div type="transcription">
             <div>
-               <head>f  <date from-iso="16-11-03" to-iso="16-11-03"></date><supplied>(3 November - 3 November) (Payments)</supplied>
+               <head>f 24v <date from-iso="1619-12-18" to-iso="1619-12-24"></date><supplied>(18 - 24 December 1619)</supplied>
                </head>
-               <pb n="" type="folio"/>
+               <pb n="24v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>In Capender<note type="foot">Capender: <hi rend="italic">for</hi> Carpender</note> for musick Rome</cell>
+                     <cell rend="right">xx s.</cell>
+                  </row>                  
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>In mussicke</cell>
+                     <cell rend="right">ix li. xv s. viij d.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 25v<date from-iso="1619-12-25" to-iso="1619-12-31"></date><supplied>(25 - 31 December 1619)</supplied></head>
+               <pb n="25v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>ffor musick</cell>
+                     <cell rend="right">ix li. xv s. iiij d.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>To the Trumpetors</cell>
+                     <cell rend="right">xj s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>To the Tumlers</cell>
+                     <cell rend="right">xv s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
                
+            <div>
+               <head>f 26v <date from-iso="1620-01-01" to-iso="1620-01-07"></date><supplied>(1 - 7 January 1620)</supplied>
+               </head>
+               <pb n="26v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>In Musicke</cell>
+                     <cell rend="right">viij li. xv s. iiij d.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
                
+            <div>
+               <head>f 27 <date from-iso="1620-01-08" to-iso="1620-01-13"></date><supplied>(8 - 13 January 1620)</supplied>
+               </head>
+               <pb n="27" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>In Musicke</cell>
+                     <cell rend="right">v li. xix s. viij d.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>           
+               
+            <div>
+               <head>f 27v <ptr type="endnote" target="endnote:RLE00175"/></head>
+               <pb n="27v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>My Lords Rents</cell>
+                     <cell rend="right">iiij li. x s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
             </div>
          </div>
       </body>
