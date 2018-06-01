@@ -330,7 +330,7 @@
          
          <div type="transcription">
             <div>
-               <head>f 7 <ptr type="endnote" target="endnote:RLE00164"/><date from-iso="1615-12-20" to-iso="1615-12-26"></date><supplied>(20-26 December 1615)</supplied>
+               <head>f 7 <ptr type="endnote" target="endnote:RLE00164"/><date from-iso="1615-12-20" to-iso="1615-12-26"></date><supplied>(20-6 December 1615)</supplied>
                </head>
                <pb n="7" type="folio"/>
                <gap reason="omitted"/>
@@ -690,17 +690,87 @@
          
          <div type="transcription">
             <div>
-               <head>f 28v <date from-iso="1620-12-22" to-iso="16-11-03"></date><supplied>(3 November-3 November) (Payments)</supplied>
+               <head>f 28v <date from-iso="1620-12-22" to-iso="1620-12-26"></date><supplied>(22-6 December 1620)</supplied>
                </head>
-               <pb n="" type="folio"/>
-               
-               
+               <pb n="28v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>In Musicke</cell>
+                     <cell rend="right">x li. iij s. iiij d.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Hyer <del>of</del> holberd<ex>es</ex> and vizerd<ex>es</ex></cell>
+                     <cell rend="right">vij s. iiij d.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>              
             </div>
+            
+            <div>
+               <head>f 29v <date from-iso="1620-12-27" to-iso="1621-01-02"></date><supplied>(27 December 1620-2 January 1621)</supplied></head>
+               <pb n="29v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>In musicke</cell>
+                     <cell rend="right">x li. iij s. iiij d.</cell>
+                  </row>
+                  <row>
+                     <cell>In loude musicke</cell>
+                     <cell rend="right">x s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>The hyer of holberd<ex>es</ex> Coat<ex>es</ex> &amp; visserd<ex>es</ex></cell>
+                     <cell rend="right">xj s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 30v <date from-iso="1621-01-03" to-iso="1621-01-09"></date><supplied>(3-9 January 1621)</supplied></head>
+               <pb n="30v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>In musicke</cell>
+                     <cell rend="right">x li. iij s. vj d.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>ffor hier of holberd<ex>es</ex></cell>
+                     <cell rend="right">iij s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 31 <date from-iso="1621-01-10" to-iso="1621-01-13"></date><supplied>(10-13 January 1621)</supplied></head>
+               <pb n="31" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>In musicke</cell>
+                     <cell rend="right">v li. j s. viij d.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>            
          </div>
       </body>
    </text>
    
-   <text ana="taxon:inner_temple" type="record">
+   <text ana="taxon:inner_temple" type="record">   <!-- KC: resume here -->
       <body xml:lang="eng">
          <head>
             <date from-iso="16-09-29" to-iso="16-09-29" cert="medium">16</date>
