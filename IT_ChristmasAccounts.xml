@@ -770,26 +770,91 @@
       </body>
    </text>
    
-   <text ana="taxon:inner_temple" type="record">   <!-- KC: resume here -->
+   <text ana="taxon:inner_temple" type="record"> 
       <body xml:lang="eng">
          <head>
-            <date from-iso="16-09-29" to-iso="16-09-29" cert="medium">16</date>
-            <seg ana="taxon:RLITC001" corresp="taxon:RPCIC p. ">RLITC001</seg>
+            <date from-iso="1621-09-29" to-iso="1622-09-29" cert="medium">1621-2</date>
+            <seg ana="taxon:RLITC001" corresp="taxon:RPCIC p. 209-10">RLITC001</seg>
          </head>
          
          <div type="transcription">
             <div>
-               <head>f  <date from-iso="16-11-03" to-iso="16-11-03"></date><supplied>(3 November-3 November) (Payments)</supplied>
+               <head>f 33v <date from-iso="1621-12-19" to-iso="1621-12-25"></date><supplied>(19-25 December 1621)</supplied>
                </head>
-               <pb n="" type="folio"/>
+               <pb n="33v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>In greene say for the Musickes hangeing<ex>es</ex><note type="foot">hangeing<ex>es</ex>: <hi rend="italic">ie, the curtains of the music room</hi></note></cell>
+                     <cell rend="right">v s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>In musicke</cell>
+                     <cell rend="right">x li. iij s. 4 d.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
                
+            <div>
+               <head>f 34v <date from-iso="1621-12-26" to-iso="1622-01-01"></date><supplied>(26 December 1621-1 January 1622)</supplied>
+               </head>
+               <pb n="33v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>In musicke</cell>
+                     <cell rend="right">x li. iij s. iiij d.</cell>
+                  </row>
+                  <row>
+                     <cell>In lowde musicke</cell>
+                     <cell rend="right">xxij s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
                
+            <div>
+               <head>f 35v <date from-iso="1622-01-02" to-iso="1622-01-08"></date><supplied>(2-8 January 1622)</supplied>
+               </head>
+               <pb n="35v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>In musicke</cell>
+                     <cell rend="right">x li. iij s. iiij d.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 36v <date from-iso="1622-01-09" to-iso="1622-01-13"></date><supplied>(9-13 January 1622)</supplied></head>
+               <pb n="36v" type="folio"/>             
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>In musicke</cell>
+                     <cell rend="right">iiij li. xj s. viij d.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>ffor hyer of holberd<ex>es</ex></cell>
+                     <cell rend="right">vj d.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
             </div>
          </div>
       </body>
    </text>
    
-   <text ana="taxon:inner_temple" type="record">
+   <text ana="taxon:inner_temple" type="record">  <!-- KC: resume here -->
       <body xml:lang="eng">
          <head>
             <date from-iso="16-09-29" to-iso="16-09-29" cert="medium">16</date>
