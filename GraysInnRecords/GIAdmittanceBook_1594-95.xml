@@ -261,11 +261,11 @@
       <body xml:lang="lat">
          <head>
             <date from-iso="1594-09-29" to-iso="1595-09-29">1594-5</date>
-            <seg ana="taxon:RLGIAB" corresp="RLIPIC1 pp. 124-5">RLGIAB</seg>
+            <seg ana="taxon:RLGIPA01" corresp="RLIPIC1 pp. 124-5"/>
          </head>
          <div type="transcription">
             <div>
-               <head>p 295 <date when-iso="1595-02-02"/><supplied>(2 February
+               <head>p 295<ptr type="endnote" target="endnote:RLE00105"/> <date when-iso="1595-02-02"/><supplied>(2 February
                   1594/5)</supplied></head>
                <pb n="295" type="page"/>
                <list>
@@ -300,12 +300,7 @@
                            ><persName n="Henry Helmes">Henric<ex>us</ex> Pr<ex>incep</ex>s
                            Purpoole</persName>.</seg></item>
                </list>
-               <gap reason="omitted"/>
-               <note type="editorial" n="endnote">Prominent among those granted honorary admission
-                  by Henry Helmes, Prince of Purpoole, were John Lyly (p 125, l.7), almost certainly
-                  the playwright, and John Spencer (p 125, l.14), lord mayor of London (see ODNB for
-                  both men). A pane of stained glass commemorating Spencer’s membership survives in
-                  the hall of Gray’s Inn.</note>
+               <gap reason="omitted"/>               
             </div>
 
             <div>
@@ -341,7 +336,7 @@
             </div>
 
             <div>
-               <head>p 298 <date when-iso="1595-01-06"/><supplied>(6 January
+               <head>p 298<ptr type="endnote" target="endnote:RLE00105"/> <date when-iso="1595-01-06"/><supplied>(6 January
                   1595/6)</supplied></head>
                <pb n="298" type="page"/>
                <list>
@@ -362,10 +357,9 @@
             </div>
          </div>
 
-
          <div type="translation">
             <div>
-               <head>p 295 <date when-iso="1595-02-02"/><supplied>(2 February
+               <head>p 295<ptr type="endnote" target="endnote:RLE00105"/> <date when-iso="1595-02-02"/><supplied>(2 February
                   1594/5)</supplied></head>
                <pb n="295" type="page"/>
                <list>
@@ -387,11 +381,6 @@
                            Purpoole)</persName></seg></item>
                </list>
                <gap reason="omitted"/>
-               <note type="editorial" n="endnote">Prominent among those granted honorary admission
-                  by Henry Helmes, Prince of Purpoole, were John Lyly (p 125, l.7), almost certainly
-                  the playwright, and John Spencer (p 125, l.14), lord mayor of London (see ODNB for
-                  both men). A pane of stained glass commemorating Spencer’s membership survives in
-                  the hall of Gray’s Inn.</note>
             </div>
 
             <div>
@@ -415,7 +404,7 @@
             </div>
 
             <div>
-               <head>p 298 <date when-iso="1595-01-06"/><supplied>(6 January
+               <head>p 298<ptr type="endnote" target="endnote:RLE00105"/> <date when-iso="1595-01-06"/><supplied>(6 January
                   1595/6)</supplied></head>
                <pb n="298" type="page"/>
                <list>
@@ -425,11 +414,6 @@
                         Prince of Purpoole</seg></item>
                </list>
                <gap reason="omitted"/>
-               <note type="editorial" n="endnote"> Prominent among those granted honorary admission
-                  by Henry Helmes, Prince of Purpoole, were John Lyly, almost certainly the
-                  playwright, and John Spencer, lord mayor of London (see ODNB for both men). A pane
-                  of stained glass commemorating Spencer’s membership survives in the hall of Gray’s
-                  Inn.</note>
             </div>
          </div>
 

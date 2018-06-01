@@ -229,10 +229,6 @@
             </place>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <!-- Add new major milestone changes to top -->
-         <change when="2018-02-03" who="#JAKA1">created document</change>
-      </revisionDesc>
    </teiHeader>
 
    <text ana="taxon:letter" type="record">

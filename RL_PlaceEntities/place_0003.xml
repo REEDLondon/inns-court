@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI
+   xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Place standard name</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Canadian Writing Research Collaboratory (CWRC)</publisher>
+            <availability>
+               <licence
+                  target="https://creativecommons.org/licenses/by/4.0/legalcode">
+                  <p/>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>Place entity record</note>
+         </notesStmt>
+         <sourceDesc>
+            <listOrg>
+               <org>
+                  <orgName>Records of Early English Drama (REED)</orgName>
+               </org>
+            </listOrg>
+            <bibl>
+               <title type="print">REED: Inns of Court</title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place
+               xml:id="PID_entity_record">
+               <placeName
+                  type="standard">
+                  <name>Bankside</name>
+               </placeName>
+               <placeName
+                  type="preferred"
+                  xml:lang="ENG">
+                  <name
+                     type="full">Bankside</name>
+               </placeName>
+               <placeName>
+                  <trait type="factuality" cert="high">
+                     <ab>real</ab>
+                  </trait>
+               </placeName>
+               <location>
+                  <address>
+                     <country
+                        ref="ISO 3166-1">GBR</country>
+                     <region>Southwark</region>
+                     <addrLine/>
+                  </address>
+                  <geo
+                     decls="#WGS">51.50831 -0.09609</geo>
+               </location>
+               <note
+                  type="general"
+                  xml:lang="ENG"> As referred to in REED London: Inns of Court collection</note>
+               <note
+                  type="project-specific"
+                  xml:lang="ENG">
+                  <respons
+                     locus="value">
+                     <desc>
+                        <orgName
+                           ref="URI">REED</orgName>
+                     </desc>
+                  </respons>
+               </note>
+               
+               <idno type="Wikidata" cert="high" sameAs="https://www.wikidata.org/wiki/Q2660320"/>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

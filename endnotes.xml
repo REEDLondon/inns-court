@@ -9,7 +9,7 @@
          <titleStmt>
             
             <title type="main">Inns of Court</title>
-            
+
             
             <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>
             <funder><orgName>CANARIE</orgName></funder> 
@@ -21,8 +21,8 @@
             <funder><orgName>Social Sciences and Humanities Research Council, Ottawa,
                Canada</orgName></funder>
             
-            <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
-            <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
+		 <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
+		 <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
             
             <respStmt>
                <persName xml:id="CB">Carolyn Black</persName>
@@ -104,7 +104,7 @@
                <resp>Principal Investigator, SSHRC grant; Director of Research and General Editor</resp>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Maureen Maclean</persName>
                <orgName>Bucknell University</orgName>
@@ -230,43 +230,42 @@
          </settingDesc>
       </profileDesc>
    </teiHeader>
-   
-   <text ana="taxon:grays_inn" type="record">
-      <body xml:lang="eng">
-         <head>
-            <date from-iso="1631-09-29" to-iso="1632-09-29" cert="medium">1631-2</date>
-            <seg ana="taxon:RLGIAJ" corresp="taxon:RPCIC1 p. 229">RLGIAJ</seg></head>
-         <div type="transcription">
-            <head>f <del>8</del><ptr type="endnote" target="endnote:RLE00200"/><date when-iso="1631-11"/><supplied>Disbursements in the tyme of Sir Iohn Bankes Treasurer since (blank) November 1631:./</supplied></head>
-            <pb type="folio"/>
-               <gap reason="omitted"/>              
-               <table>
-                  <row>
-                     <cell>To the <orgName>Trumpeters of the Lorde of the Councell</orgName> by direction of the bench</cell>
-                     <cell>0. 10. 0.</cell>
-                  </row>
-                  <row>
-                     <cell>To <persName n="Thomas Spencer">Thomas Spencer</persName> for himselfe and his fellowe musitioners for Candlemas last</cell>
-                     <cell>2. 0. 0.</cell>
-                  </row>
-               </table>               
-               <gap reason="omitted"/>
-                                                      
-            <div type="transcription">            
-            <head>f <del>9</del><ptr type="endnote" target="endnote:RLE00200"/></head>
-            <pb n="f 9" type="folio"/>
-               <gap reason="omitted"/>               
-               <table>
-                  <row>
-                     <cell>payed to <persName>Thomas Spenser</persName> &amp; other the musitianes for their wages due at Hallowtyde 1631.</cell>
-                     <cell>2 l.–0–0</cell>
-                  </row>
-               </table>
-            <gap reason="omitted"/>
+
+<text>
+   <body>
+      <bibl>
+         <biblScope corresp="RLIPIC1 pp. 4-5">
+            <idno xml:id="RLE00001"/>
+            
                
-         </div>
+   <text ana="taxon:bibliography" type="endnote">
+      <body xml:lang="eng">
+         <head>            
+            <seg ana="taxon:RLPIC1" corresp="#4-5"/></head>
+         <div xml:id="RLE00001">
+            <head></head>
+            <pb n="number" type="sheet"/>
+            <div>
+               <ab>Dugdale summarizes this entry: see Appendix 11. Apparently Lincoln’s Inn had earlier observed or tolerated revels on many holidays, including the feasts of Saints William, Hugh, Edmund, Peter, and Thomas. These multiple holidays were now rationalized down to four, including two which persisted well into the seventeenth century: All Hallows (1 November) and the Purification of the Virgin or Candlemas (2 February). This entry is referenced by a table-of-contents type notation on f 11, annotated ‘4 Reuells fo: 20.a’ with the following summary:</ab>
+               <table>
+                  <row>
+                     <cell></cell>
+                     <cell>St Williams</cell>
+                     <cell></cell>
+                  </row>
+                  <row>
+                     <cell>All hallens</cell>
+                     <cell>St Hughes</cell>
+                     <cell>Reuells</cell>
+                  </row>
+                  <row>
+                     <cell>
+               
+               
+            </div>
+
          </div>
       </body>
    </text>
-   
+  
 </TEI>

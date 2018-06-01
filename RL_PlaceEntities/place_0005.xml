@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Place standard name</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Canadian Writing Research Collaboratory (CWRC)</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/legalcode">
+                  <p/>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>Place entity record</note>
+         </notesStmt>
+         <sourceDesc>
+            <listOrg>
+               <org>
+                  <orgName>Records of Early English Drama (REED)</orgName>
+               </org>
+            </listOrg>
+            <bibl>
+               <title type="print">REED: Inns of Court</title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="PID_entity_record">
+               <placeName type="standard">
+                  <name>Barnard's Inn</name>
+               </placeName>
+               <placeName type="preferred" xml:lang="ENG">
+                  <name type="full">Barnard's Inn</name>
+               </placeName>
+               <trait type="factuality" cert="high" ref="Ontology">
+                  <ab>real</ab>
+               </trait>
+               <trait type="placeType" cert="high" ref="OntologyURL">
+                  <ab/>
+               </trait>
+               
+               <location>
+                  <address>
+                     <country ref="ISO 3166-1">GBR</country>
+                     <region>Middlesex</region>
+                     <addrLine/>
+                  </address>
+                  <geo decls="#WGS">51.51708997 -0.109547782</geo>
+               </location>
+               
+               <note type="resp_statement">
+                  <respons locus="value">
+                     <desc> 
+                        <date type="created" source="https://www.w3.org/TR/NOTE-datetime" when="2018-05-26"/>
+                        <persName ref="URI-to-user-record">Diane Jakacki</persName>
+                     </desc>
+                  </respons>
+               </note>
+               <idno type="Wikidata" cert="high" sameAs="#https://www.wikidata.org/wiki/Q4861410"/>
+               
+               
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
