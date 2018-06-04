@@ -581,7 +581,7 @@
       </body>
    </text>
    
-   <text ana="taxon:inner_temple" type="record">  <!-- KC: resume here -->
+   <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
             <date from-iso="1619-09-29" to-iso="1620-09-29" cert="medium">1619-20</date>
@@ -1000,17 +1000,75 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="16-09-29" to-iso="16-09-29" cert="medium">16</date>
-            <seg ana="taxon:RLITC001" corresp="taxon:RPCIC p. ">RLITC001</seg>
+            <date from-iso="1624-09-29" to-iso="1625-09-29" cert="medium">1624-5</date>
+            <seg ana="taxon:RLITC001" corresp="taxon:RPCIC p. 213">RLITC001</seg>
          </head>
          
          <div type="transcription">
             <div>
-               <head>f  <date from-iso="16-11-03" to-iso="16-11-03"></date><supplied>(3 November-3 November) (Payments)</supplied>
+               <head>f 226v <ptr type="endnote" target="endnote:RLE00179"/><date when-iso="1624-12-23"></date><supplied>(23 December 1624)</supplied>
                </head>
-               <pb n="" type="folio"/>
-               
-               
+               <pb n="226v" type="folio"/>
+               <gap reason="omitted"/>
+               <ab>
+                  Itt<note type="marginal" place="margin_left">23<hi rend="superscript">o</hi> Decembris</note> is inacted that noe lowde Musick shall sound att Meales vpon anie healths
+                  drunke vnlesse itt bee for a gen<ex>er</ex>all health in w<ex>hi</ex>ch eu<ex>er</ex>ie Man is interested; or
+                  els a health begunne by M<ex>aste</ex>r Lieutenant to bee pledged through the hall./
+               </ab>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 45v <date from-iso="1624-12-18" to-iso="1624-12-24"></date><supplied>(18-24 December 1624)</supplied>
+               </head>
+               <pb n="45v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>In musicke</cell>
+                     <cell rend="right">x li. iij s. iiij d.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 47 <date from-iso="1624-12-25" to-iso="1624-12-31"></date><supplied>(25-31 December 1624)</supplied>
+               </head>
+               <pb n="47" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>In musicke</cell>
+                     <cell rend="right">x li. iij s. iiij d.</cell>
+                  </row>
+                  <row>
+                     <cell>To lowde musicke</cell>
+                     <cell rend="right">x li. j s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 48v <ptr type="endnote" target="endnote:RLE00179"/><date from-iso="1625-01-01" to-iso="1625-01-07"></date><supplied>(1-7 January 1625)</supplied>
+               </head>
+               <pb n="48v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>In Musicke</cell>
+                     <cell rend="right">x li. iiij s. iiij d.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>In lowd musick</cell>
+                     <cell rend="right"><supplied>(blank)</supplied></cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
             </div>
          </div>
       </body>
