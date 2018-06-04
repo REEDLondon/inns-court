@@ -876,17 +876,56 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="16-09-29" to-iso="16-09-29" cert="medium">16</date>
-            <seg ana="taxon:RLITC001" corresp="taxon:RPCIC p. ">RLITC001</seg>
+            <date from-iso="1622-09-29" to-iso="1623-09-29" cert="medium">1622-3</date>
+            <seg ana="taxon:RLITC001" corresp="taxon:RPCIC p. 210">RLITC001</seg>
          </head>
          
          <div type="transcription">
             <div>
-               <head>f  <date from-iso="16-11-03" to-iso="16-11-03"></date><supplied>(3 November-3 November) (Payments)</supplied>
+               <head>f 38v <ptr type="endnote" target="endnote:RLE00178"/><date from-iso="1622-12-24" to-iso="1622-12-31"></date><supplied>(24-31 December 1622)</supplied>
                </head>
-               <pb n="" type="folio"/>
+               <pb n="38v" type="folio"/>
                
-               
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>In musicke</cell>
+                     <cell rend="right">xij li. xiij s. iiij d.</cell>
+                  </row>
+                  <row>
+                     <cell>In lowd musicke</cell>
+                     <cell rend="right">xvj s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 41<date from-iso="1623-01-01" to-iso="1623-01-07"></date><supplied>(1-7 January 1623)</supplied>
+               </head>
+               <pb n="41" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>In musicke</cell>
+                     <cell rend="right">x li. iij s. iiij d.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 41(a)v<date from-iso="1623-01-08" to-iso="1623-01-13"></date><supplied>(8-13 January 1623)</supplied>
+               </head>
+               <pb n="41(a)v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>In musicke</cell>
+                     <cell rend="right">x li. iij s. 4 d.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
             </div>
          </div>
       </body>
