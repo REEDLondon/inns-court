@@ -934,17 +934,64 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="16-09-29" to-iso="16-09-29" cert="medium">16</date>
-            <seg ana="taxon:RLITC001" corresp="taxon:RPCIC p. ">RLITC001</seg>
+            <date from-iso="1623-09-29" to-iso="1624-09-29" cert="medium">1623-4</date>
+            <seg ana="taxon:RLITC001" corresp="taxon:RPCIC p. 211-12">RLITC001</seg>
          </head>
          
          <div type="transcription">
             <div>
-               <head>f  <date from-iso="16-11-03" to-iso="16-11-03"></date><supplied>(3 November-3 November) (Payments)</supplied>
+               <head>f 42v <date from-iso="1623-12-20" to-iso="1623-12-26"></date><supplied>(20-6 December 1623)</supplied>
                </head>
-               <pb n="" type="folio"/>
-               
-               
+               <pb n="42v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>In Musicke</cell>
+                     <cell rend="right">x li. iij s. iiij d.</cell>
+                  </row>
+                  <row>
+                     <cell>To the Trumpeters</cell>
+                     <cell rend="right">xxij s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 43v <date from-iso="1623-12-27" to-iso="1624-01-02"></date><supplied>(27 December 1623-2 January 1624)</supplied>
+               </head>
+               <pb n="43v" type="folio"/><gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>In Musicke</cell>
+                     <cell rend="right">x li. iij s. iiij d.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 44v <date from-iso="16224-01-03" to-iso="1624-01-09"></date><supplied>(3-9 January 1624)</supplied>
+               </head>
+               <pb n="44v" type="folio"/><gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>In meate for the musick<ex>es</ex> Supper</cell>
+                     <cell rend="right">x li. iij s. iiij d.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>In musicke</cell>
+                     <cell rend="right"><del>viij li. xix s.</del> 0</cell>
+                  </row>
+                  <row>
+                     <cell>In lowd musicke</cell>
+                     <cell rend="right"></cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
             </div>
          </div>
       </body>
