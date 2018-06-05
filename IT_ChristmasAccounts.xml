@@ -1247,17 +1247,83 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="16-09-29" to-iso="16-09-29" cert="medium">16</date>
-            <seg ana="taxon:RLITC001" corresp="taxon:RPCIC p. ">RLITC001</seg>
+            <date from-iso="1628-09-29" to-iso="1629-09-29" cert="medium">1628-9</date>
+            <seg ana="taxon:RLITC001" corresp="taxon:RPCIC p. 221-2">RLITC001</seg>
          </head>
          
          <div type="transcription">
             <div>
-               <head>f  <date from-iso="16-11-03" to-iso="16-11-03"></date><supplied>(3 November-3 November) (Payments)</supplied>
+               <head>f 61 <ptr type="endnote" target="endnote:RLE00193"/><date when-iso="1612-30"></date><supplied>(30 December 1628)</supplied>
                </head>
-               <pb n="" type="folio"/>
-               
-               
+               <pb n="61" type="folio"/>
+               <gap reason="omitted"/>
+               <ab>
+                  Be it enacted att this Parliament that M<ex>aste</ex>r Lieutenant Mr Vaughan Mr
+                  Twisden and Mr Smyth be appointed <handShift/>assistants to the<handShift/><note type="foot">assistants to the: <hi rend="italic">insertion in left margin</hi></note> Committees for<note type="foot">for: <hi rend="italic">corrected from of</hi></note>
+                  the Musick
+               </ab>
+            </div>
+            
+            <div>
+               <head>f 62v <date from-iso="1628-12-20" to-iso="1628-12-26"></date><supplied>(20-6 December 1628)</supplied>
+               </head>
+               <pb n="62v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>In musicke</cell>
+                     <cell rend="right">x li. iij s. iiij d.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 64v <date from-iso="1628-12-27" to-iso="1629-01-02"></date><supplied>(27 December 1628-2 January 1629)</supplied>
+               </head>
+               <pb n="64v" type="folio"/>
+               <table>
+                  <row>
+                     <cell>In musicke</cell>
+                     <cell rend="right">x li. iij s. iiij d.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 66 <date from-iso="1629-01-03" to-iso="1629-01-09"></date><supplied>(3-9 January 1629)</supplied>
+               </head>
+               <pb n="66" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>In musicke</cell>
+                     <cell rend="right">x li. iij s. iiij d.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>To the pannier man for blowinge horne</cell>
+                     <cell rend="right">v s.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 67 <date from-iso="1629-01-10" to-iso="1629-01-13"></date><supplied>(10-13 January 1629)</supplied>
+               </head>
+               <pb n="67" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>In musicke</cell>
+                     <cell rend="right">v li. j s. viij d</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
             </div>
          </div>
       </body>
