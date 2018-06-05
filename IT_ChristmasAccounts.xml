@@ -1454,7 +1454,7 @@
                </div>
                
                <div>
-                  <head>f 78v <ptr type="endnote" target="endnote:RLE00"/>
+                  <head>f 78v <ptr type="endnote" target="endnote:RLE00201"/>
                   </head>
                   <pb n="78v" type="folio"/>
                   <gap reason="omitted"/>
@@ -1473,19 +1473,133 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="16-09-29" to-iso="16-09-29" cert="medium">16</date>
-            <seg ana="taxon:RLITC001" corresp="taxon:RPCIC p. ">RLITC001</seg>
+            <date from-iso="1633-09-29" to-iso="1634-09-29" cert="medium">1633-4</date>
+            <seg ana="taxon:RLITC002" corresp="taxon:RPCIC p. 244">RLITC001</seg>
          </head>
          
          <div type="transcription">
             <div>
-               <head>f  <date from-iso="16-11-03" to-iso="16-11-03"></date><supplied>(3 November-3 November) (Payments)</supplied>
+               <head>f [1] <date from-iso="1633-12-18" to-iso="1633-12-24"></date><supplied>(18-24 December 1633) (Disbursements)</supplied>
                </head>
-               <pb n="" type="folio"/>
-               
-               
+               <pb n="[1]" type="folio"/>  <!-- KC: folio number "1" is supplied in original -->
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>To the Musicke</cell>
+                     <cell rend="right">9</cell>
+                     <cell rend="right">3</cell>
+                     <cell rend="right">4</cell>
+                  </row>
+                  <row>
+                     <cell>ffor Musicke the ffirst night</cell>
+                     <cell rend="right">1</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">0</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
             </div>
          </div>
+      </body>
+   </text>
+   
+   <text ana="taxon:inner_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1641-09-29" to-iso="1642-09-29" cert="medium">1641-2</date>
+            <seg ana="taxon:RLITC001" corresp="taxon:RPCIC p. 361">RLITC001</seg>
+         </head>
+         
+         <div type="transcription">
+            <div>
+               <head>f 81<date from-iso="1641-12-20" to-iso="1641-12-24"></date><supplied>(20-4 December 1641)</supplied> <!-- KC: printed volume has "f 81*"indicating there is an endnote related to f 81 but there is no such endnote present in vol. 3. PG suggests there was probably no endnote and the asterik was an error that got missed in the proofing. -->
+               </head>
+               <pb n="81" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>In Musick</cell>
+                     <cell rend="right">10</cell>
+                     <cell rend="right">0</cell>
+                     <cell rend="right">0</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+
+             <div>
+                  <head>f 82v <date from-iso="1641-12-25" to-iso="1641-12-31"></date><supplied>(25-31 December 1641)</supplied>
+                  </head>
+                  <pb n="82v" type="folio"/>
+                  <gap reason="omitted"/>
+                  <table>
+                     <row>
+                        <cell>In Musick</cell>
+                        <cell rend="right">10</cell>
+                        <cell rend="right">0</cell>
+                        <cell rend="right">0</cell>
+                     </row>
+                  </table>
+                  <gap reason="omitted"/>
+                  <table>
+                     <row>
+                        <cell>for blowing the horn</cell>
+                        <cell rend="right">0</cell>
+                        <cell rend="right">5</cell>
+                        <cell rend="right">0</cell>
+                     </row>
+                  </table>
+                  <gap reason="omitted"/>
+               </div>
+            
+                <div>
+                     <head>f 84 <date from-iso="1642-01-01" to-iso="1642-01-07"></date><supplied>(1-7 January 1642)</supplied>
+                     </head>
+                     <pb n="84" type="folio"/>
+                     <table>
+                        <row>
+                           <cell>In Musick</cell>
+                           <cell rend="right">10</cell>
+                           <cell rend="right">0</cell>
+                           <cell rend="right">0</cell>
+                        </row>
+                     </table>
+                     <gap reason="omitted"/>
+                     <table>
+                        <row>
+                           <cell>for blowing the horne</cell>
+                           <cell rend="right">0</cell>
+                           <cell rend="right">5</cell>
+                           <cell rend="right">0</cell>
+                        </row>
+                     </table>
+                     <gap reason="omitted"/>
+                  </div>
+            
+                   <div>
+                        <head>f 85 <date from-iso="1642-01-08" to-iso="1642-01-13"></date><supplied>(8-13 January 1642)</supplied>
+                        </head>
+                        <pb n="85" type="folio"/>
+                        <table>
+                           <row>
+                              <cell>In Musick</cell>
+                              <cell rend="right">5</cell>
+                              <cell rend="right">0</cell>
+                              <cell rend="right">0</cell>
+                           </row>
+                        </table>
+                        <gap reason="omitted"/>
+                        <table>
+                           <row>
+                              <cell>ffor blowing the horne</cell>
+                              <cell rend="right">0</cell>
+                              <cell rend="right">5</cell>
+                              <cell rend="right">0</cell>
+                           </row>
+                        </table>
+                        <gap reason="omitted"/>
+                     </div>
+                  </div>
       </body>
    </text>
 
