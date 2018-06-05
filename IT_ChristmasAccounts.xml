@@ -854,25 +854,6 @@
       </body>
    </text>
    
-   <text ana="taxon:inner_temple" type="record">  <!-- KC: resume here -->
-      <body xml:lang="eng">
-         <head>
-            <date from-iso="16-09-29" to-iso="16-09-29" cert="medium">16</date>
-            <seg ana="taxon:RLITC001" corresp="taxon:RPCIC p. ">RLITC001</seg>
-         </head>
-         
-         <div type="transcription">
-            <div>
-               <head>f  <date from-iso="16-11-03" to-iso="16-11-03"></date><supplied>(3 November-3 November) (Payments)</supplied>
-               </head>
-               <pb n="" type="folio"/>
-               
-               
-            </div>
-         </div>
-      </body>
-   </text>
-   
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
@@ -1099,7 +1080,7 @@
             <div>
                <head>f 49v
                </head>
-               <pb n="" type="folio"/>			   
+               <pb n="49v" type="folio"/>			   
                <gap reason="omitted"/>
                <table>
                   <row>
@@ -1141,7 +1122,7 @@
             <div>
                <head>f 53v <ptr type="endnote" target="endnote:RLE00183"/><date from-iso="1627-01-10" to-iso="1627-01-13"></date><supplied>(10-13 January 1627)</supplied>
                </head>
-               <pb n="" type="folio"/>
+               <pb n="53v" type="folio"/>
                <gap reason="omitted"/>
                <table>
                   <row>
