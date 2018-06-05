@@ -1406,18 +1406,66 @@
    <text ana="taxon:inner_temple" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="16-09-29" to-iso="16-09-29" cert="medium">16</date>
-            <seg ana="taxon:RLITC001" corresp="taxon:RPCIC p. ">RLITC001</seg>
+            <date from-iso="1631-09-29" to-iso="1632-09-29" cert="medium">1631-2</date>
+            <seg ana="taxon:RLITC001" corresp="taxon:RPCIC p. 230">RLITC001</seg>
          </head>
          
          <div type="transcription">
             <div>
-               <head>f  <date from-iso="16-11-03" to-iso="16-11-03"></date><supplied>(3 November-3 November) (Payments)</supplied>
+               <head>f 75 <date from-iso="1631-12-17" to-iso="1631-12-23"></date><supplied>(17-23 December 1631)</supplied>
                </head>
-               <pb n="" type="folio"/>
-               
-               
+               <pb n="75" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>In Musicke</cell>
+                     <cell rend="right">viij li.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
             </div>
+               
+               <div>
+                  <head>f 76v <date from-iso="1631-12-14" to-iso="1631-12-30"></date><supplied>(24-30 December 1631)</supplied>
+                  </head>
+                  <pb n="76v" type="folio"/>
+                  <gap reason="omitted"/>
+                  <table>
+                     <row>
+                        <cell>In Musicke</cell>
+                        <cell rend="right">viij li.</cell>
+                     </row>
+                  </table>
+                  <gap reason="omitted"/>
+               </div>
+               
+               <div>
+                  <head>f 78 <date from-iso="1631-12-31" to-iso="1632-01-06"></date><supplied>(31 December 1631-6 January 1632)</supplied>
+                  </head>
+                  <pb n="78" type="folio"/>
+                  <gap reason="omitted"/>
+                  <table>
+                     <row>
+                        <cell>In Musicke</cell>
+                        <cell rend="right">x li. iij s. iiij d.</cell>
+                     </row>
+                  </table>
+                  <gap reason="omitted"/>
+               </div>
+               
+               <div>
+                  <head>f 78v <ptr type="endnote" target="endnote:RLE00"/>
+                  </head>
+                  <pb n="78v" type="folio"/>
+                  <gap reason="omitted"/>
+                  <table>
+                     <row>
+                        <cell>ffor Blowinge the horne</cell>
+                        <cell rend="right">v s.</cell>
+                     </row>
+                  </table>
+                  <gap reason="omitted"/>
+               </div>
          </div>
       </body>
    </text>
