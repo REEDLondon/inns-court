@@ -246,8 +246,8 @@
          </head>
          <div type="transcription">
             <div>
-               <head>f 2 <date from-iso="1605-11-01" to-iso="1606-11-01"></date><supplied>(1 November-1 November) (All payments)</supplied>
-               </head> <!-- KC: we don't supply year dates in the 1 Nov to 1 Nov line unless it is ambiguious, e.g. 1 Nov 1605 to 2 Nov 1606 -->
+               <head>f 2 <date from-iso="1605-11-01" to-iso="1606-11-01"></date><supplied>(1 November 1605-1 November 1606) (All payments)</supplied>
+               </head> 
                <pb n="2" type="folio"/> 
          
                <gap reason="omitted"/>
@@ -310,7 +310,7 @@
          </head>
          <div type="transcription">
             <div>
-               <head>f 12v <date from-iso="1606-11-01" to-iso="1607-11-01"></date><supplied>(1 November-1 November) (All payments)</supplied>
+               <head>f 12v <date from-iso="1606-11-01" to-iso="1607-11-01"></date><supplied>(1 November 1606-1 November 1607) (All payments)</supplied>
                </head>
                <pb n="12v" type="folio"/> 
                
@@ -385,7 +385,7 @@
          
          <div type="transcription">
             <div>
-               <head>f 23 <date from-iso="1607-11-01" to-iso="1608-11-01"></date><supplied>(1 November-1 November) (All payments)</supplied>
+               <head>f 23 <date from-iso="1607-11-01" to-iso="1608-11-01"></date><supplied>(1 November 1607-1 November 1608) (All payments)</supplied>
                </head>
                <pb n="23" type="folio"/> 
                <gap reason="omitted"/>   
@@ -442,7 +442,7 @@
          <div type="transcription">
             
             <div>
-               <head>f 36 <date from-iso="1608-11-01" to-iso="1609-11-01"></date><supplied>(1 November-1 November) (All payments)</supplied>
+               <head>f 36 <date from-iso="1608-11-01" to-iso="1609-11-01"></date><supplied>(1 November 1608-1 November 1609) (All payments)</supplied>
                </head>
                <pb n="36" type="folio"/> 
                <gap reason="omitted"/>    
@@ -506,7 +506,7 @@
          <div type="transcription">
             
             <div>
-               <head>f 47v <date from-iso="1609-11-01" to-iso="1610-11-01"></date><supplied>(1 November-1 November) (All payments)</supplied>
+               <head>f 47v <date from-iso="1609-11-01" to-iso="1610-11-01"></date><supplied>(1 November 1609-1 November 1610) (All payments)</supplied>
                </head>
                <pb n="47v" type="folio"/> 
                <gap reason="omitted"/>    
@@ -556,7 +556,7 @@
          <div type="transcription">
             
             <div>
-               <head>f 55v <date from-iso="1610-11-01" to-iso="1611-11-01"></date><supplied>(1 November-1 November) (All payments)</supplied>
+               <head>f 55v <date from-iso="1610-11-01" to-iso="1611-11-01"></date><supplied>(1 November 1610-1 November 1611) (All payments)</supplied>
                </head>
                <pb n="55v" type="folio"/> 
                <gap reason="omitted"/>      
@@ -622,7 +622,7 @@
          <div type="transcription">
             
             <div>
-               <head>f 64-4v <ptr type="endnote" target="endnote:RLE00122"/><date from-iso="1611-11-01" to-iso="1612-11-01"></date><supplied>(1 November-1 November) (Payments)</supplied>
+               <head>f 64-4v <ptr type="endnote" target="endnote:RLE00122"/><date from-iso="1611-11-01" to-iso="1612-11-01"></date><supplied>(1 November 1611-1 November 1612) (Payments)</supplied>
                </head>
                <pb n="64-4v" type="folio"/> 
                <gap reason="omitted"/>       
@@ -682,7 +682,7 @@
          </head>
          <div type="transcription">
             <div>
-               <head>f 72v <ptr type="endnote" target="endnote:RLE00125"/><date from-iso="1612-11-01" to-iso="1613-11-01"></date><supplied>(1 November-1 November) (Payments)</supplied>
+               <head>f 72v <ptr type="endnote" target="endnote:RLE00125"/><date from-iso="1612-11-01" to-iso="1613-11-01"></date><supplied>(1 November 1612-1 November 1613) (Payments)</supplied>
                </head>
             <pb n="72v" type="folio"/>
             <gap reason="omitted"/>
@@ -782,7 +782,7 @@
          
          <div type="transcription">
          <div>
-            <head>f 82 <date from-iso="1613-11-01" to-iso="1614-11-01"></date><supplied>(1 November-1 November) (Payments)</supplied>
+            <head>f 82 <date from-iso="1613-11-01" to-iso="1614-11-01"></date><supplied>(1 November 1613-1 November 1614) (Payments)</supplied>
             </head>
             <pb n="82" type="folio"/>
             <gap reason="omitted"/>
@@ -834,7 +834,7 @@
          
          <div type="transcription">
             <div>
-               <head>f 91v <ptr type="endnote" target="endnote:RLE00161"/><date from-iso="1614-11-01" to-iso="1615-11-01"></date><supplied>(1 November-1 November) (Payments)</supplied>
+               <head>f 91v <ptr type="endnote" target="endnote:RLE00161"/><date from-iso="1614-11-01" to-iso="1615-11-01"></date><supplied>(1 November 1614-1 November 1615) (Payments)</supplied>
                </head>
                <pb n="91v" type="folio"/>
                <gap reason="omitted"/>
@@ -908,7 +908,7 @@
          
          <div type="transcription">
             <div>
-               <head>f 103v <date from-iso="1615-11-01" to-iso="1616-11-01"></date><supplied>(1 November-1 November) (Payments)</supplied>
+               <head>f 103v <date from-iso="1615-11-01" to-iso="1616-11-01"></date><supplied>(1 November 1615-1 November 1616) (Payments)</supplied>
                </head>
                <pb n="103v" type="folio"/>
                <gap reason="omitted"/>
@@ -1007,7 +1007,7 @@
          
          <div type="transcription">
             <div>
-               <head>f 114 <date from-iso="1616-11-01" to-iso="1617-11-01"></date><supplied>(1 November-1 November) (Payments)</supplied>
+               <head>f 114 <date from-iso="1616-11-01" to-iso="1617-11-01"></date><supplied>(1 November 1616-1 November 1617) (Payments)</supplied>
                </head>
                <pb n="114" type="folio"/>
                <gap reason="omitted"/>  
@@ -1123,7 +1123,7 @@
          
          <div type="transcription">
             <div>
-               <head>f 126v <date from-iso="1617-11-01" to-iso="1618-11-01"></date><supplied>(1 November-1 November) (Payments)</supplied>
+               <head>f 126v <date from-iso="1617-11-01" to-iso="1618-11-01"></date><supplied>(1 November 1617-1 November 1618) (Payments)</supplied>
                </head>
                <pb n="126v" type="folio"/>   
                <gap reason="omitted"/>
@@ -1176,7 +1176,7 @@
          
          <div type="transcription">
             <div>
-               <head>f 134v <date from-iso="1618-11-01" to-iso="1619-11-01"></date><supplied>(1 November-1 November) (Payments)</supplied>
+               <head>f 134v <date from-iso="1618-11-01" to-iso="1619-11-01"></date><supplied>(1 November 1618-1 November 1619) (Payments)</supplied>
                </head>
                <pb n="134v" type="folio"/>   
                <gap reason="omitted"/>
@@ -1230,7 +1230,7 @@
          
          <div type="transcription">
             <div>
-               <head>f 141 <date from-iso="1619-11-01" to-iso="1620-11-01"></date><supplied>(1 November-1 November) (Payments)</supplied>
+               <head>f 141 <date from-iso="1619-11-01" to-iso="1620-11-01"></date><supplied>(1 November 1619-1 November 1620) (Payments)</supplied>
                </head>
                <pb n="141" type="folio"/> 
                <gap reason="omitted"/>
@@ -1278,7 +1278,7 @@
          
          <div type="transcription">
             <div>
-               <head>f 146v <date from-iso="1620-11-01" to-iso="1621-11-01"></date><supplied>(1 November-1 November) (Payments)</supplied>
+               <head>f 146v <date from-iso="1620-11-01" to-iso="1621-11-01"></date><supplied>(1 November 1620-1 November 1621) (Payments)</supplied>
                </head>
                <pb n="146v" type="folio"/> 
                <gap reason="omitted"/>
@@ -1329,7 +1329,7 @@
          
          <div type="transcription">
             <div>
-               <head>f 154v <date from-iso="1621-11-01" to-iso="1622-11-01"></date><supplied>(1 November-1 November) (Payments)</supplied>
+               <head>f 154v <date from-iso="1621-11-01" to-iso="1622-11-01"></date><supplied>(1 November 1621-1 November 1622) (Payments)</supplied>
                </head>
                <pb n="154v" type="folio"/> 
                <gap reason="omitted"/>   
@@ -1378,7 +1378,7 @@
          
          <div type="transcription">
             <div>
-               <head>f 160v <date from-iso="1622-11-01" to-iso="1623-11-01"></date><supplied>(1 November-1 November) (Payments)</supplied>
+               <head>f 160v <date from-iso="1622-11-01" to-iso="1623-11-01"></date><supplied>(1 November 1622-1 November 1623) (Payments)</supplied>
                </head>
                <pb n="160v" type="folio"/> 
                <gap reason="omitted"/>   
@@ -1420,7 +1420,7 @@
          
          <div type="transcription">
             <div>
-               <head>f 165 <date from-iso="1623-11-01" to-iso="1624-11-01"></date><supplied>(1 November-1 November) (Payments)</supplied>
+               <head>f 165 <date from-iso="1623-11-01" to-iso="1624-11-01"></date><supplied>(1 November 1623-1 November 1624) (Payments)</supplied>
                </head>
                <pb n="165" type="folio"/>    
                <table>
@@ -1558,7 +1558,7 @@
          
          <div type="transcription">
             <div>
-               <head>f 184 <date from-iso="1626-11-03" to-iso="1627-11-03"></date><supplied>(3 November-3 November) (Payments)</supplied>
+               <head>f 184 <date from-iso="1626-11-03" to-iso="1627-11-03"></date><supplied>(3 November 1626-3 November 1627) (Payments)</supplied>
                </head>
                <pb n="184" type="folio"/>       
                <gap reason="omitted"/>   
@@ -1652,7 +1652,7 @@
          
          <div type="transcription">
             <div>
-               <head>f 192 <ptr type="endnote" target="endnote:RLE00186"/><date from-iso="1627-11-03" to-iso="1628-11-03"></date><supplied>(3 November-3 November) (Payments)</supplied>
+               <head>f 192 <ptr type="endnote" target="endnote:RLE00186"/><date from-iso="1627-11-03" to-iso="1628-11-03"></date><supplied>(3 November 1627-3 November 1628) (Payments)</supplied>
                </head>
                <pb n="192" type="folio"/>       
                <gap reason="omitted"/>  
@@ -1717,7 +1717,7 @@
          
          <div type="transcription">
             <div>
-               <head>f 198v <ptr type="endnote" target="endnote:RLE00192"/><date from-iso="1628-11-03" to-iso="1629-11-03"></date><supplied>(3 November-3 November) (Payments)</supplied>
+               <head>f 198v <ptr type="endnote" target="endnote:RLE00192"/><date from-iso="1628-11-03" to-iso="1629-11-03"></date><supplied>(3 November 1628-3 November 1629) (Payments)</supplied>
                </head>
                <pb n="198v" type="folio"/>    
                <gap reason="omitted"/>
@@ -1761,7 +1761,7 @@
          
          <div type="transcription">
             <div>
-               <head>f 205v <ptr type="endnote" target="endnote:RLE00195"/><date from-iso="1629-11-03" to-iso="1630-11-03"></date><supplied>(3 November-3 November) (Payments)</supplied>
+               <head>f 205v <ptr type="endnote" target="endnote:RLE00195"/><date from-iso="1629-11-03" to-iso="1630-11-03"></date><supplied>(3 November 1629-3 November 1630) (Payments)</supplied>
                </head>
                <pb n="205v" type="folio"/>    
                <table>
@@ -1798,7 +1798,7 @@
          
          <div type="transcription">
             <div>
-               <head>f 212 <ptr type="endnote" target="endnote:RLE00198"/><date from-iso="1630-11-03" to-iso="1631-11-03"></date><supplied>(3 November-3 November) (Payments)</supplied>
+               <head>f 212 <ptr type="endnote" target="endnote:RLE00198"/><date from-iso="1630-11-03" to-iso="1631-11-03"></date><supplied>(3 November 1630-3 November 1631) (Payments)</supplied>
                </head>
                <pb n="212" type="folio"/>    
                <gap reason="omitted"/>
@@ -1844,7 +1844,7 @@
          
          <div type="transcription">
             <div>
-               <head>f 220v <date from-iso="1631-11-03" to-iso="1632-11-03"></date><supplied>(3 November-3 November) (Payments)</supplied>
+               <head>f 220v <date from-iso="1631-11-03" to-iso="1632-11-03"></date><supplied>(3 November 1631-3 November 1632) (Payments)</supplied>
                </head>
                <pb n="220v" type="folio"/>    
                <gap reason="omitted"/>
@@ -1896,7 +1896,7 @@
          
          <div type="transcription">
             <div>
-               <head>f 227v <ptr type="endnote" target="endnote:RLE00202"/><date from-iso="1632-11-03" to-iso="1633-11-03"></date><supplied>(3 November-3 November) (Payments)</supplied>
+               <head>f 227v <ptr type="endnote" target="endnote:RLE00202"/><date from-iso="1632-11-03" to-iso="1633-11-03"></date><supplied>(3 November 1632-3 November 1633) (Payments)</supplied>
                </head>
                <pb n="227v" type="folio"/>    
                <gap reason="omitted"/>
@@ -1955,7 +1955,7 @@
          
          <div type="transcription">
             <div>
-               <head>f 234v <date from-iso="1633-11-03" to-iso="1634-11-03"></date><supplied>(3 November-3 November) (Payments)</supplied>
+               <head>f 234v <date from-iso="1633-11-03" to-iso="1634-11-03"></date><supplied>(3 November 1633-3 November 1634) (Payments)</supplied>
                </head>
                <pb n="234v" type="folio"/> 
                <gap reason="omitted"/>
@@ -2082,7 +2082,7 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
          
          <div type="transcription">
             <div>
-               <head>f 242 <date from-iso="1634-11-03" to-iso="1635-11-03"></date><supplied>(3 November-3 November) (Payments)</supplied>
+               <head>f 242 <date from-iso="1634-11-03" to-iso="1635-11-03"></date><supplied>(3 November 1634-3 November 1635) (Payments)</supplied>
                </head>
                <pb n="242" type="folio"/>            
                <gap reason="omitted"/>
@@ -2295,7 +2295,7 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
          
          <div type="transcription">
             <div>
-               <head>f 266 <ptr type="endnote" target="endnote:RLE00267"/><date from-iso="1637-11-03" to-iso="1638-11-03"></date><supplied>(3 November-3 November) (Payments)</supplied>
+               <head>f 266 <ptr type="endnote" target="endnote:RLE00267"/><date from-iso="1637-11-03" to-iso="1638-11-03"></date><supplied>(3 November 1637-3 November 1738) (Payments)</supplied>
                </head>
                <pb n="266" type="folio"/>
                <gap reason="omitted"/>
@@ -2343,7 +2343,7 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
          
          <div type="transcription">
             <div>
-               <head>f 271v <date from-iso="1638-11-03" to-iso="1639-11-03"></date><supplied>(3 November-3 November) (Payments)</supplied>
+               <head>f 271v <date from-iso="1638-11-03" to-iso="1639-11-03"></date><supplied>(3 November 1638-3 November 1639) (Payments)</supplied>
                </head>
                <pb n="271v" type="folio"/>
                <gap reason="omitted"/>
@@ -2433,7 +2433,7 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
          
          <div type="transcription">
             <div>
-               <head>f 285 <date from-iso="1640-11-08" to-iso="1641-11-03"></date><supplied>(8 November-3 November) (Payments)</supplied>
+               <head>f 285 <date from-iso="1640-11-08" to-iso="1641-11-03"></date><supplied>(8 November 1640-3 November 1641) (Payments)</supplied>
                </head>
                <pb n="285" type="folio"/>
                <gap reason="omitted"/>
@@ -2480,7 +2480,7 @@ schema witout a new div. The endnote is keyed to f 235 but it is about the porte
          
          <div type="transcription">
             <div>
-               <head>f 289v <date from-iso="1641-11-03" to-iso="1642-11-03"></date><supplied>(3 November-3 November) (Treasurer's payments)</supplied>
+               <head>f 289v <date from-iso="1641-11-03" to-iso="1642-11-03"></date><supplied>(3 November 1641-3 November 1642) (Treasurer's payments)</supplied>
                </head>
                <pb n="289v" type="folio"/>
                <gap reason="omitted"/>
