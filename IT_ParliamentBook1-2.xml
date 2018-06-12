@@ -371,7 +371,7 @@
    </text>
    
    <text ana="taxon:inner_temple" type="record">
-      <body xml:lang="eng">
+      <body xml:lang="lat">
          <head>
             <date from-iso="1509-09-29" to-iso="1510-09-29" cert="medium">1509-10</date>
             <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 34-5">RLITP001</seg></head>
@@ -404,7 +404,35 @@
             </div>
          </div>
             
+         <div xml:lang="engl" type="translation">
+            <div>
+               <head>f 22 <ptr type="endnote" target="endnote:RLE00029"/><date when-iso="1509-11-02"></date><supplied>(2 November 1509) (Christmas officers)</supplied></head>
+               <pb n="22" type="folio"/> 
+               
+               <gap reason="omitted"/>
+               
+               <table>
+                  <row>
+                     <cell>Masters <note type="marginal" place="margin_left">In the first year
+                        (of the reign of Henry VIII)</note>of the revels</cell>
+                     <cell><del>Primyer</del><lb/>Babyngton R<lb/><del>Dracott<ex>es</ex></del><del><damage><gap unit="chars" extent="3"/></damage></del><lb/>Tyndale<lb/>Thymbelby<lb/>Woodye</cell>
+                     <cell>did not carry out their office.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>               
+            </div>
             
+            <div>
+               <head>f 22v <date when-iso="1510-02-03"></date><supplied>(3 February 1509/10)</supplied></head> 
+               <pb n="22v" type="folio"/> 
+               
+               <gap reason="omitted"/>
+               <ab>Let<note type="marginal" place="margin_left">Likewise</note> Dracottes be amerced at 6s 8d because he did not assume the office of
+                  master of the revels in the feast of Christmas <damage><gap unit="chars" extent="3"/></damage>.
+               </ab>
+               <gap reason="omitted"/>
+            </div>
+         </div>
       </body>
    </text>
    
