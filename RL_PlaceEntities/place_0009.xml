@@ -36,32 +36,27 @@
          <listPlace>
             <place xml:id="PID_entity_record">
                <placeName type="standard">
-                  <name>Antelope Inn</name>
+                  <name>Blacksmith's Hall</name>
                </placeName>
                <placeName type="preferred" xml:lang="ENG">
-                  <name type="full">Antelope Inn</name>
+                  <name type="full">Blacksmith's Hall</name>
                </placeName>
-               <placeName type="variant" xml:lang="ENG">
-                  <name type="deprecated">Antilopp Inn</name>
-                  <note>
-                     <label>Named preferred by: </label>
-                     <desc>
-                        <orgName ref="URI">REED London</orgName>
-                     </desc>
-                  </note>
-               </placeName>               
                <trait type="factuality" cert="high" ref="Ontology">
                   <ab>real</ab>
+               </trait>
+               <trait type="placeType" cert="high" ref="OntologyURL">
+                  <ab/>
                </trait>
                
                <location>
                   <address>
                      <country ref="ISO 3166-1">GBR</country>
-                     <region>Middlesex</region>
+                     <region>London</region>
                      <addrLine/>
                   </address>
-                  <geo decls="#WGS">51.51780228 -0.1019451176</geo>
+                  <geo decls="#WGS">51.51162479 -0.09794768798</geo>
                </location>
+
                <listBibl>
                   <head>Source:</head>
                   <bibl><title></title><ref source="Layers of London" target="http://www.layersoflondon.org"></ref></bibl>
@@ -69,12 +64,12 @@
                <note type="resp_statement">
                   <respons locus="value">
                      <desc> 
-                        <date type="created" source="https://www.w3.org/TR/NOTE-datetime" when="2018-05-19"/>
+                        <date type="created" source="https://www.w3.org/TR/NOTE-datetime" when="2018-06-09"/>
                         <persName ref="URI-to-user-record">Diane Jakacki</persName>
                      </desc>
                   </respons>
-               </note>
-                              
+               </note>               
+               
             </place>
          </listPlace>
       </body>

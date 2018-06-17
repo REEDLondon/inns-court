@@ -235,35 +235,38 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1631-09-29" to-iso="1632-09-29" cert="medium">1631-2</date>
-            <seg ana="taxon:RLGIAJ" corresp="taxon:RPCIC1 p. 229">RLGIAJ</seg></head>
+            <seg ana="taxon:RLGIJB01" corresp="taxon:RPCIC1 p. 229">RLGIJB01</seg></head>
          <div type="transcription">
-            <head>f <del>8</del><ptr type="endnote" target="endnote:RLE00200"/><date when-iso="1631-11"/><supplied>Disbursements in the tyme of Sir Iohn Bankes Treasurer since (blank) November 1631:./</supplied></head>
-            <pb type="folio"/>
+            <div>
+            <head>f [8]<ptr type="endnote" target="endnote:RLE00200"/><date when-iso="1631-11"/></head>
+            <pb n="8" type="folio"/>
+               <ab rend="center">Disbursements in the tyme of Sir Iohn Bankes Treasurer<lb/> 
+                  since <supplied>(blank)</supplied> November 1631:./</ab>
                <gap reason="omitted"/>              
                <table>
                   <row>
                      <cell>To the <orgName>Trumpeters of the Lorde of the Councell</orgName> by direction of the bench</cell>
-                     <cell>0. 10. 0.</cell>
+                     <cell rend="right"><measure type="currency">0. 10. 0.</measure></cell>
                   </row>
                   <row>
                      <cell>To <persName n="Thomas Spencer">Thomas Spencer</persName> for himselfe and his fellowe musitioners for Candlemas last</cell>
-                     <cell>2. 0. 0.</cell>
+                     <cell rend="right"><measure type="currency">2. 0. 0.</measure></cell>
                   </row>
                </table>               
                <gap reason="omitted"/>
+            </div>
                                                       
-            <div type="transcription">            
-            <head>f <del>9</del><ptr type="endnote" target="endnote:RLE00200"/></head>
+            <div>            
+            <head>f [9]<ptr type="endnote" target="endnote:RLE00200"/></head>
             <pb n="f 9" type="folio"/>
                <gap reason="omitted"/>               
                <table>
                   <row>
                      <cell>payed to <persName>Thomas Spenser</persName> &amp; other the musitianes for their wages due at Hallowtyde 1631.</cell>
-                     <cell>2 l.–0–0</cell>
+                     <cell rend="right"><measure type="currency">2 l.–0–0</measure></cell>
                   </row>
                </table>
-            <gap reason="omitted"/>
-               
+            <gap reason="omitted"/>              
          </div>
          </div>
       </body>
