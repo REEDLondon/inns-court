@@ -539,8 +539,8 @@
             <gap reason="omitted"/>
             <table>
                <row>
-                  <cell>M<ex>agistri</ex> de Revell<ex>es</ex></cell>
-                  <cell>White<lb/>Mores<lb/>Danvers<lb/>Warde<note type="foot">Mores ... Warde: <hi rend="italic">braced pointing to the left at</hi> M<ex>agistri</ex> de Revell<ex>es</ex></note></cell>
+                  <cell>M<ex>agistri</ex> de Revell<ex>es</ex></cell>  <!-- KC: need to check vertical alignment, center -->
+                  <cell>White<lb/>Mores<lb/>Danvers<lb/>Warde<note type="foot">White ... Warde: <hi rend="italic">braced pointing to the left at</hi> M<ex>agistri</ex> de Revell<ex>es</ex></note></cell>
                </row>
             </table>
             <gap reason="omitted"/>
