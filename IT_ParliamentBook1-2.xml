@@ -482,13 +482,12 @@
             </div>
          </div>
            
-         <div xml:lang="eng" type="translation">  <!-- KC: resume here -->
+         <div xml:lang="eng" type="translation">  <!-- KC: check with James Cummings re. table structure -->
             <div>
                <head>f 25v <ptr type="endnote" target="endnote:RLE00030"/><date when-iso="1510-11-03"></date><supplied>(3 November 1510) (Christmas officers)</supplied></head>
                <pb n="25v" type="folio"/> 
                
                <gap reason="omitted"/>
-               
                <table><row>
                   <cell><lb/><lb/><lb/>Masters of the revels.</cell>
                   <cell>Goddolphyn<lb/>Lacton<lb/>Jofford<lb/>Lambourn</cell>
@@ -502,26 +501,20 @@
                   </cell>
                </row>
                </table>
-               
                <gap reason="omitted"/>
-               
             </div>
             
             <div>
                <head>f 26v <date when-iso="1511-02-03"></date><supplied>(3 February 1510/11)</supplied></head> 
-               <pb n="26v" type="folio"/> 
-               
+               <pb n="26v" type="folio"/>
                <gap reason="omitted"/>
-               
-               <ab>It<ex>em</ex> Ric<ex>ardus</ex> Tregose ad <del>ist</del> instanc<ex>iam</ex> 
-                  Ioh<ex>ann</ex>is Chamond admissus e<ex>st</ex>
-                  in soc<ex>ietate</ex>m secundum ordinem p<ex>re</ex>t<ex>er</ex> 
-                  exonoret<ex>ur</ex> de M<ex>agistro</ex> de Revell<ex>es</ex>
-                  &amp; de offic<ex>io</ex> Pincerni</ab>
-               
+               <ab>Likewise, at the instance of John Chamond, Richard Tregose has been
+                  admitted into the society according to order, except that he is relieved of
+                  (the office of ) master of the revels and the office of butler.</ab>
                <gap reason="omitted"/>
             </div>
-         </div>
+            
+         </div>  <!-- KC: end of translations -->
          
 
       </body>
@@ -549,7 +542,7 @@
    </text>
          
    <text ana="taxon:inner_temple" type="record">
-      <body xml:lang="eng">
+      <body xml:lang="lat">
          <head>
             <date from-iso="1512-09-29" to-iso="1513-09-29" cert="medium">1512-13</date>
             <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 39">RLITP001</seg></head>
@@ -571,6 +564,28 @@
   
          </div>
          </div>
+         
+         <div xml:lang="eng" type="translation">
+            <div>
+               <head>f 30 <ptr type="endnote" target="endnote:RLE00033"/><date when-iso="1512-11-11"></date><supplied>(11 November 1512) (Christmas officers)</supplied></head>
+               <pb n="30" type="folio"/> 
+               
+               <gap reason="omitted"/>
+               
+               <table>  <!-- KC: check structural tagging with James Cummings -->
+                  <row>
+                     <cell>Prouse<lb/>Burtn<lb/>Fitzsymond<lb/>Shyrlock<note type="foot">Prouse ... Shyrlock: <hi rend="italic">braced pointing to the right at</hi> masters of the revels ... Christmas.</note></cell>
+                     <cell><lb></lb>masters of the revels for the feast of Christmas.</cell>
+                  </row>
+               </table>
+               
+               <gap reason="omitted"/>
+               
+            </div>
+         </div>        
+         
+         
+         
       </body>
    </text>
    
