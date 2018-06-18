@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="REED.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="eng"> 
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            
+            <title type="main">Inns of Court</title>
+
+            
+            <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>
+            <funder><orgName>CANARIE</orgName></funder> 
+            
+            <funder><orgName>British Academy, London, UK</orgName></funder>
+            <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>            
+            <funder><orgName>National Endowment for the Humanities, Washington, DC, United States of
+               America</orgName></funder>
+            <funder><orgName>Social Sciences and Humanities Research Council, Ottawa,
+               Canada</orgName></funder>
+            
+		 <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
+		 <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
+
+
+            <respStmt>
+               <persName>Ari Baughman</persName>
+               <orgName>Bucknell Univerity</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="CB">Carolyn Black</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Project Manager</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>John Bradley</persName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Susan Brown</persName> 
+               <orgName>University of Guelph</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="KC">Kathy Chung</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>REED Research Associate, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>William Cooke</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>English Glossarian</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="JC">James Cummings</persName>
+               <orgName>Newcastle University</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+               <resp>TEI Schema Designer, Technical Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Matthew Davies</persName>
+               <orgName>University of London, Birkbeck College</orgName> <!-- confirm -->
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="PG">Patrick Gregory</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Associate Editor</resp> <!-- confirm -->
+               <resp>Paleographer, Translator</resp> <!-- confirm -->
+            </respStmt>
+            <respStmt>
+               <persName>Tanya Hagen</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Bibliographer, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="JAKA1">Diane K. Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>Principal Investigator, NHPRC-Mellon Digital Edition Publishing Cooperatives Planning Grant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Alexandra F. Johnston</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>REED Founder and Senior Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>David Kathman</persName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Sally-Beth MacLean</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Principal Investigator, SSHRC grant; Director of Research and General Editor</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Maureen Maclean</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="KM">Kimberley Martin</persName>
+               <orgName>University of Guelph</orgName>
+               <resp>NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Christopher Matusiak</persName>
+               <orgName>Ithaca College</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="JN">Jamie Norrish</persName>
+               <resp>Programmer, EATS developer, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Dorothy Porter</persName>
+               <orgName>University of Pennsylvania</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Arleane Ralph</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Paleographer</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Suzanne Westfall</persName>
+               <orgName>Lafayette College</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board Member</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Abigail Ann Young</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Latin Glossarian</resp>
+            </respStmt>
+            
+         </titleStmt>
+         <editionStmt>
+            <edition>Print version, published <date when-iso="2010">2010</date>. Electronic edition, anticipated publication <date when-iso="2018">2018</date></edition>
+         </editionStmt>
+         
+         <publicationStmt>
+            <authority><orgName>Records of Early English Drama (REED)</orgName>
+               <address>
+                  <addrLine>University of Toronto</addrLine>
+                  <addrLine>170 St George Street, Suite 810</addrLine>
+                  <addrLine>Toronto, Ontario, Canada</addrLine>
+                  <addrLine>M5R 2M8</addrLine>
+               </address>
+            </authority>
+            
+            <publisher>D.S. Brewer, Cambridge, an imprint of Boydell &amp; Brewer Ltd./Boydell &amp; Brewer Ltd.</publisher>
+            <pubPlace>Rochester, NY</pubPlace>
+            <date>2010</date>
+            <idno type="other">978-1-84384-259-0</idno>
+            
+            <availability>
+               <p>Copyright <orgName>Records of Early English Drama (REED)</orgName>,
+                  <date>2017</date></p>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a
+                  Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA
+                  4.0) licence.</licence>
+            </availability>
+         </publicationStmt>
+         
+         <seriesStmt>
+            <title>Records of Early English Drama</title>
+         </seriesStmt>
+         <sourceDesc>
+            <p>This publication constitutes a remediation of the printed Inns of Court collection. Information on original sources for transcriptions can be accessed via the Document Descriptions.</p>
+            <p>For a full list of REED collections, editors, executive board members, and staff, please visit http://reed.utoronto.ca/people</p>       
+         </sourceDesc>
+      </fileDesc>
+      
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="taxon" matchPattern="([A-Za-z0-9_-]+)"
+               replacementPattern="../taxonomy.xml#$1">
+               <p>Private URIs using the <code>taxon</code> prefix are pointers to entities in the
+                  taxonomy.xml file. For example, <code>taxon:church</code> dereferences to
+                  <code>taxonomy.xml#church</code>.</p>
+            </prefixDef>
+            <prefixDef ident="gloss" matchPattern="([A-Za-z0-9_-]+)"
+               replacementPattern="../glossary.xml#$1">
+               <p>Private URIs using the <code>gloss</code> prefix are pointers to entities in the
+                  glossary.xml file. For example, <code>gloss:histrio-1</code> dereferences to
+                  <code>glossary.xml#histrio-1</code>.</p>
+            </prefixDef>
+         </listPrefixDef>
+         
+         <projectDesc>
+            <p>Records of Early English Drama (REED) is an international scholarly project that is
+               establishing for the first time the context from which the drama of Shakespeare and his
+               contemporaries grew. Founded in 1976, REED has worked since then to locate, transcribe,
+               and edit historical documents containing evidence of drama, secular music, and other
+               communal entertainment and ceremony from the Middle Ages until 1642, when the Puritans
+               closed the London theatres.</p>
+         </projectDesc>
+      </encodingDesc>
+      
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">English</language>
+            <language ident="lat">Latin</language>
+            <language ident="fra">Anglo-French</language>
+         </langUsage>
+         <settingDesc>
+            <place>
+               <placeName>London</placeName> 
+            </place>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+
+   <text ana="taxon:letter" type="record">
+      <body xml:lang="eng">
+         <head>Inns of Court
+            <date from-iso="YYYY" to-iso="YYYY">YYYY-YYYY</date>
+            <seg ana="taxon:RL1234" corresp="taxon:RLPIC1 pp. numbers">six number code</seg></head>
+         <div type="transcription">
+            <head> sheet or folio<supplied>supplied from text</supplied></head>
+            <pb n="number" type="sheet"/>
+<ab>            
+            1612/13
+            Masque of the Middle Temple and Lincoln’s Inn alias The Memorable Masque STC:4981
+            sigs C2–2v, A1–4v, a1–4
+            TO THE MOST NOble, and constant Combiner of Honor, and Vertue,
+            Sir EDWARD PHILIPS, Knight, Mr. of the Rolls.
+            THis Noble and Magnificent performance, renewing the ancient spirit, and Honor of the Innes of Court; being especially furthered and followed by your most laborious and honored endeuors, (for his Maiesties seruice; and honour of the all-grace-deseruing Nuptialls, of the thrice gracious Princesse Elizabeth, his Highness daughter) deserues especially to be in this sort consecrate, to your worthy memory and honor. Honor, hauing neuer her faire hand more freely and nobly giuen to Riches (being a fit particle of this Inuention) then by yours, at this Nuptiall solemnity. To which assisted, and | memorable ceremony; the ioin’d hand and industry, of the worthely honour’d Knight, Sir H. Hubberd, his Maiesties Atturny generall, deseruing, in good part, a ioint memory with yours; I haue submitted it freely to his noble acceptance. The poore paines I added to this Royall seruice, being wholly chosen, and commanded by your most constant, and free fauour; I hope will now appeare nothing neglectiue of their expected duties. Hearty wil, and care enough, I am assured was employ’d in me; and the onely ingenuous will, being first and principall step to vertue; I beseech you let it stand for the performing vertue
+            it selfe. In which addition of your euer-honour’d fauours, you shall euer binde all my future seruice to your most wished Commandement.
+            God send you long health, and your Vertues will endue you with honor enough,
+            By your free merits euer vow’d honorer,
+            and most vnfainedly affectionate 10
+            Obseruant.
+            GEO. CHAPMAN. |
+            
+            THE MASKE OF THE Gentlemen of the two combin’d houses, or Inns of 15
+            Court, the Middle-Temple, and Lincolns Inne.
+            AT the house of the most worthely honour’d preferrer and gracer of all honorable Actions, and vertues, (sir Edward Philips Knight, Master of the Rolls)althePerformersandtheirAssistentsmadetheirRendesvous,prepar’d to their performance, and thus set forth.
+            Fiftie Gentlemen, richly attirde, and as gallantly mounted, with Foot-men perticularly attending, made the noble vant-guarde of these Nuptiall forces. Next (a fit distance obseru’d betweene them) marcht a mock-|Maske of Baboons, attir’d like fantasticall Trauailers, in Neapolitane sutes, and great ruffes, all horst with Asses; and dwarfe Palfries, with yellow foot-cloathes, and casting Cockle-demois about, in courtesie, by way of lardges; Torches boarn on either hand of them; lighting their state as ridiculously, as the rest Nobly. After them were sorted two Carrs Triumphall, adornd with great Maske heads, Festones, scroules, and antick leaues, euery part inricht with siluer and golde. These were through-varied with different inuention, and in them aduanc’t, the choice Musitions of our Kingdome, sixe in each; attir’d like Virginean Priests, by whom the Sun is there ador’d; and therfore called the Phœbades. Their Robes were tuckt vp before; strange Hoods of feathers, and scallops about their neckes, and on their heads turbants, stucke with seuerall colour’d feathers, spotted with wings of Flies, of extraordinary bignesse; like those of their countrie: And about them march’t two ranks of Torches. Then rode the chiefe Maskers, in In-|dian habits, all of a resemblance: the ground cloath of siluer, richly embroidered, with golden Sunns, and about euery Sunne, ran a traile of gold, imitating Indian worke,: their bases of the same stuffe and work, but betwixt euery pane of embroidery, went a rowe of white Estridge feathers, mingled with sprigs of golde plate; vnder their breasts, they woare bawdricks of golde, embroidered high with purle, and about their neckes, Ruffes of feathers, spangled with pearle and siluer. On their heads high sprig’d- feathers, compast in Coronets, like the Virginian Princes they presented. Betwixt euery set of feathers, and about their browes, in the vnder-part of their 5 Coronets, shin’d Sunnes of golde plate, sprinkled with pearle; from whence sprung rayes of the like plate, that mixing vvith the motion of the feathers, shew’d exceedingly delightfull, and gracious. Their legges were adorn’d, with close long white silke-stockings: curiously embroidered vvith golde to the Middelegge. |
+            And ouer these (being on horse backe) they drew greaues or buskins embrodered with gould, &amp; enterlac’t with rewes of fethers; Altogether estrangfull, and Indian like.
+            In their Hands (set in seueral postures as they rode) they brandisht cane darts of the finest gould. Their vizerds of oliue collour; but pleasingly visag’d: 15 their hayre, blacke and lardge, wauing downe to their shoulders.
+            Their Horse, for rich show, equalld the Maskers them-selues; all their caparisons being enchac’t with sunnes of Gould and Ornamentall Iewells.
+            To euery one of which, was tackt a Scarffing of Siluer; that ran sinnuousely
+            in workes ouer the whole caparison, euen to the daseling of the admiring 20 spectators.
+            Their heads, no lesse gracefully and properly deckt with the like light skarffing that hung about their eares wantonly dangling.
+            Euery one of these horse, had two Moores, attir’d like Indian slaues, that for state sided them; with swelling wreaths of gould, and watshed on their heads, which arose in all to | the number of a hundred.
+            The Torch-bearers habits were likewise of the Indian garb, but more strauagant then those of the Maskers; all showfully garnisht with seueral- hewd fethers. The humble variety whereof, stucke off the more amplie, the Maskers high beauties, shining in the habits of themselues; and reflected in their kinde, a new and delightfully-varied radiance on the beholders.
+            All these sustaind torches of Virgine wax, whose staues were great canes al ouer gilded; And these (as the rest) had euery Man his Moore, attending his horse.
+            The Maskers, riding single; had euery Masker, his Torch-bearer mounted before him.
+            The last Charriot, which was most of all adornd; had his whole frame fill’d with moulded worke; mixt all with paintings, and glittering scarffings
+            of siluer; ouer which was cast a Canopie of golde, boarne vp with antick figures, and all compos’d a la Grotesea. Before this in the seate of it, as the Chario-|tere; vvas aduanc’t a strange person, and as strangely habited, half French, halfe Swizz; his name Capriccio; wearing on his head a paire of golden Bellowes, a guilt spurre in one hand, and with the other mannaging the reignes of the fowre Horses that drewe it.
+            On a seate of the same Chariot, a little more eleuate, sate Eunomia, the 5 Virgine Priest of the Goddesse Honor, together with Phemis, her Herald: The habite of her Priest, was a Robe of white silke, gathered about the necke;
+            a pentacle of siluered stuffe about her shoulders, hanging foldedly downe, both before and behind.
+            A vestall vaile on her head of Tiffany, strip’t with siluer, hanging with a 10 trayne, to the earth.
+            The Herrald was attyr’d in an Antique Curace of siluer stuffe, with labells at the wings and basses; a short gowne of gould stuffe; with wide sleeues, cut in panes: A wreath of gould on his head, and a Rod of gould in his hand. |
+            Highest of all in the most eminent seate of the Tryumphall sat, side to 15 side, the cœlestiall Goddesse, Honour; and the earthy Deity, Plutus; or Riches. His attire; a short robe of gould, frindg’d; his wide sleeues turn’d vp, and out-showd his naked armes: his Head and Beard sprinckl’d with showrs of gould: his Buskins, clinckant, as his other attire. The Ornaments of Honor were these: a rich full robe of blew silke girt about her, a mantle of siluer 20 worne ouer-thwart, ful gathered, and descending in folds behind: a vaile of net lawne, enbrodered with Oos and Spangl’d; her tresses in tucks, braided with siluer: The hinder part shadowing in waues her shoulders.
+            These, thus perticularly, and with proprietie adorn’d, were strongly attended with a full Guard of two hundred Halbardiers: two Marshals (being choice 25 Gentlemen, of either house) Commaunder-like attir’d, to and fro coursing,
+            to keepe all in their orders. |
+            A showe at all parts so nouell, conceitfull and glorious, as hath not in this land, (to the proper vse and obiect it had porpos’d) beene euer before beheld. Nor did those honorable Inns of Court, at any time in that kinde, such 30 acceptable seruice to the sacred Maiesty of this kingdome, nor were return’d by many degrees, with so thrice gratious, and royall entertainment and honor. But, (as aboue sayd) all these so marching to the Court at White Hall, the King, Bride, &amp; Bridegroom, with all the Lords of the most honord priuy Councel, and our chief Nobility, stood in the Gallery before the Tilt-yeard, 35 to behold their arriuall; who, for the more ful satisfaction of his Maiesties view, made one turn about the yeard, and dismounted: being then honorably attended through the Gallery to a Chamber appointed, where they were to make ready for their performance in the Hall, &amp;c.
+            The King beeing come forth, the Maskers ascended vnseene to their scœne. Then for the works.
+            First there appear’d at the lower end of the | Hall, an Artificiall Rock, whose top was neere as high as the hall it selfe. This Rock, was in the vndermost part craggy, and full of hollow places, in whose concaues were contriv’d, two 5 winding paire of staires, by whose greeces the Persons aboue might make their descents, and all the way be seene: all this Rocke grew by degrees vp into a gold-colour; and was run quite through, with veines of golde: On
+            the one side whereof, eminently raised on a faire hill, was erected a siluer Temple of an octangle figure, whose Pillars were of a compos’d order, and 10 bore vp an Architraue, Freese, and Cornish: Ouer which stood a continued Plinthe; whereon were aduaunc’t Statues of siluer: Aboue this, was placed a bastarde Order of Architecture, wherein were keru’d Compartements: In one
+            of which was written in great golde Capitalls, HONORIS FANVM: Aboue all, was a Coupolo, or Type, which seem’d to be scal’d with siluer Plates. 15
+            For finishing, of all, vpon a Pedistall, was fixt a round stone of siluer, from which grew a paire of golden wings, both faign’d to bee | Fortunes:
+            the round stone (when her feet trod it) euer affirm’d to be rouling; figuring
+            her inconstancy: the golden wings, denoting those nimble Powres, that pompously beare her about the world; On that Temple (erected to her 20 daughter, Honor; and figuring this kingdome) put off by her, and fixt, for assured signe she would neuer forsake it.
+            About this Temple, hung Festones wreath’d with siluer from one Pillars head to another. Besides, the Freese was enricht with keruings, all shewing Greatnes and Magnificence. 
+            On the other side of the Rocke, grewe a Groue, in whose vtmost part appear’d a vast, wither’d, and hollow Tree, being the bare receptacle of the Baboonerie.
+            These following should in duty haue had their proper places, after euery fitted speech of the Actors; but being preuented by the vnexpected haste 30 of the Printer, which he neuer let me know, and neuer sending me a proofe,
+            till he had past those speeches; I had no reason to imagine hee could haue been so forward. His fault is therfore to be supplied by the obserua-|tion,
+            and reference of the Reader, who will easily perceiue, where they were to bee inserted. 35
+            After the speech of Plutus (who as you may see after, first entred) the middle part of the Rocke began to moue, and being come some fiue paces
+            vp towards the King, it split in peeces with a great crack; and out brake Capriccio, as before described. The peeces of the Rocke vanisht and he spake
+            as in his place.
+            At the singing of the first Song, full, which was sung by the Virginian Priests; called the Phœbades, to sixe Lutes (being vsed as an Orphean vertue, for the state of the Mines opening): the vpper part of the Rock was sodainly turn’d to a Cloude, discouering a rich and refulgent Mine of golde; in which the twelue Maskers vvere triumphantly seated: their Torch-bearers attending 5 before them. All the lights beeing so ordred, that though none were seen,
+            yet had their lustre such vertue, that by it, the least spangle or spark of the Maskers rich habites, might with ease and cleerenesse be discerned as far off as the seate. |
+            OuerthisgoldenMine,inanEueningsky,theruddySunnewasseenready 10 to be set; and behind the tops of certaine white Cliffes, by degrees descended, casting vp a banke of Cloudes; in which, a while hee was hidden: but then gloriously shining, gaue that vsually-obseru’d good Omen, of succeeding faire weather.
+            Beforehewasfullyset,thePhœbades(shewingthecustomeoftheIndians 15 to adore the Sunne setting) began their obseruance with the Song, to whose place, wee must referre you for the manner and words; All the time they were singing; the Torch-bearers holding vp their Torches to the Sun; to whome the Priests themselues, and the rest, did as they sung obeisance: Which was answredbyotherMusiqueandvoices,atthecommandementofHonor,with 20 al obseruances vs’d to the King &amp;c. As in the following places. |
+            TO answer certaine insolent obiections made against the length of my speeches, and narrations; being (for the probability of all accidents, rising from the inuention of this Maske; and their aplication, to the persons, and 25 places: for whome, and by whome it was presented) not conuenient, but necessary; I am enforct to affirme this; That: as there is no Poem nor Oration so generall; but hath his one perticular proposition; Nor no riuer
+            so extrauagantly ample, but hath his neuer-so-narrow fountaine, worthy to
+            be namd; so all these courtly, and honoring inuentions (hauing Poesie, and 30 Oration in them, and a fountaine, to be exprest, from whence their Riuers flow) should expressiuely-arise; out of the places, and persons for; and by whome they are presented; without which limits, they are luxurious, and paine. But what rules soeuer are set downe, to any Art, or Act (though, without their obseruation; No Art, nor Act, is true, and worthy) yet are 35 they nothing the more followd; or those few that follow them credited. Euery vulgarly-esteemd vpstart; dares breake the dreadfull dignity of antient and autenticall Poesie: and presume Luciferously, to proclame in place thereof, repugnant precepts of their owne spaune. Truth, and Worth, haue
+            no faces, to enamour the Lycentious, but vaine-glory, and humor. The same body: the same beauty, a thousand men seeing: Onely the man whose bloud is fitted, hath that which hee calls his soule, enamourd. And this, out of infallible cause; for, men vnderstand not these of Mænander –––––––––– est mor-|bus oportunitas
+            Animæ, quod ictus, vulnus accipit graue. 5 But the cause of all Mens being enamourd with Truth. And of her slight respect, in others; is the diuine Freedom; one touching with his aprehensiue
+            finger, the other, passing. The Hill of the Muses (which all men must clime
+            in the regular way, to Truth) is said of ould, to be forcked. And the two points
+            of it, parting at the Top; are Insania, and, diuinus furor. Insania, is that which 10 euery Ranck-brainde writer; and iudge of Poeticall writing, is rapt withal; when hee presumes either to write or censure the height of Poesie; and that transports him with humor, vaine-glory and pride, most prophane and sacrilegious: when diuinus furor; makes gentle, and noble, the neuer so truly-inspired writer –––––––––– 
+            Emollit mores nec sinit esse feros.
+            And the mild beames of the most holy inflamer; easely, and sweetly enter,
+            with all vnderstanding sharpenesse, the soft, and sincerely humane; but with
+            no Time; No Study; No meanes vnder heauen: any arrogant, all-occupation deuourer (that will Chandler-like set vp with all wares; selling, Poesies Nectar 20 and Ambrosia; as wel as musterd, and vineagar.) The chast and restraind beames of humble truth will euer enter; but onely grase, and glaunce at them: and the further fly them. |
+            
+            The aplicable argument of the Maske. 
+            HOnor, is so much respected, and ador’d; that shee hath a Temple erected
+            to her, like a Goddesse; a Virgine Priest consecrated to her (which is Eunomia,
+            or Lawe; since none should dare accesse to Honor, but by Vertue; of which Lawe being the rule, must needes be a chiefe) and a Herrald (call’d Phemis, 30 or Fame) to proclame her institutions, and commandements. To amplefie
+            yet more the diuine graces of this Goddesse; Plutus, (or Riches) being by Aristophanes, Lucian. &amp;c. presented naturally blind, deformd, and dull witted; is here by his loue of Honor, made see, made sightly, made ingenious; made liberall: And all this conuerted and consecrate to the most worthy 35 celebration of these sacred Nuptialls; all issuing (to conclude the necessary application) from an honorable Temple. &amp;c.
+            Non est certa fides, quam non Iniuria versat.
+            –––––––––– Fallit portus &amp; ipse fidem. ...
+            
+            sigs B1–E3
+            THE NAMES OF THE SPEAKERS.
+            Honour, a Goddesse.
+            Plutus, (or Riches) a God. Eunomia (or law) Priest of honor. Phemis, Honors Herrald. Capriccio, a man of wit, &amp;c.
+            THE PRESENTMENT. Plutus appear’d suruaying the worke with this speech.
+            PLVTVS.
+            ROckes? Nothing but Rockes in these masking deuices? Is Inuention so poore shee must needes euer dwell amongst Rocks? But it may worthily haue chaunc’d (being so of-|ten presented) that their vaine Custome is now become the necessarie hand of heauen, transforming into Rocks, some stonie hearted Ladies, courted in former masks; for whose loues, some of their repulst seruants haue perisht: or perhaps some of my flintie-hearted Vsurers haue beene heere metamorphosed; betwixt whom and Ladies, there is resemblance enough: Ladies vsing to take interest, besides their principall, as much as Vsurers. See, it is so; and now is the time of restoring them to their naturall shapes: It moues, opens, excellent! This metamorphosis I intend to ouer-heare. |
+            
+            A ROCK, MOOVING and breaking with a cracke about Capriccio, he enters with a payre of Bellows on his head, a spur in one hand, and a peece of golde Ore in the other, &amp;c.
+            
+            He speakes, vt sequitur.
+            CAPRICCIO.
+            
+            HOw hard this world is to a man of wit? hee must eate through manie
+            
+            
+            
+</ab>
+         </div>
+      </body>
+   </text>
+  
+</TEI>

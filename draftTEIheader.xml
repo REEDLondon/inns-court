@@ -23,6 +23,13 @@
             
 		 <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
 		 <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
+
+
+            <respStmt>
+               <persName>Ari Baughman</persName>
+               <orgName>Bucknell Univerity</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
             
             <respStmt>
                <persName xml:id="CB">Carolyn Black</persName>
@@ -110,13 +117,7 @@
                <orgName>Bucknell University</orgName>
                <resp>REED London research assistant, 2018</resp>
             </respStmt>
-            
-            <respStmt>
-               <persName>Ari Baughman</persName>
-               <orgName>Bucknell Univerity</orgName>
-               <resp>REED London research assistant, 2018</resp>
-            </respStmt>
-            
+
             <respStmt>
                <persName xml:id="KM">Kimberley Martin</persName>
                <orgName>University of Guelph</orgName>
