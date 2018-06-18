@@ -770,7 +770,7 @@
    
    
    <text ana="taxon:inner_temple" type="record">
-      <body xml:lang="eng">
+      <body xml:lang="lat">
          <head>
             <date from-iso="1519-09-29" to-iso="1520-09-29" cert="medium">1519-20</date>
             <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 48">RLITP001</seg>
@@ -810,6 +810,27 @@
             
             <gap reason="omitted"/>
          </div>
+         </div>
+         
+         <div xml:lang="eng" type="translation">
+            <div>
+               <head>f 46v <ptr type="endnote" target="endnote:RLE00039"/><date when-iso="1519-11-13"></date><supplied>(13 November 1519)</supplied></head>
+               <pb n="46v" type="folio"/> 
+               
+               <gap reason="omitted"/>
+               
+               <ab>Lathom and Perpoynt were relieved from the office of being two masters of
+                  the revels by the agreement of the company.</ab>
+               
+               <table>
+                  <row>
+                     <cell>And in their place were elected to the same office:</cell>
+                     <cell rend="right">Prestall<lb/>Tracy<note type="foot">And in their place ... office: <hi rend="italic">braced pointing to the right at</hi> Prestall ... Tracy</note></cell>
+                  </row>
+               </table>
+               
+               <gap reason="omitted"/>
+            </div>
          </div>
       </body>
    </text>
