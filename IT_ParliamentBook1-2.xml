@@ -641,7 +641,7 @@
    </text>
    
    <text ana="taxon:inner_temple" type="record">
-      <body xml:lang="eng">
+      <body xml:lang="lat">
          <head>
             <date from-iso="1516-09-29" to-iso="1517-09-29" cert="medium">1516-17</date>
             <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 44">RLITP001</seg>
@@ -679,6 +679,23 @@
             
             <gap reason="omitted"/>
          </div>
+         </div>
+         
+         <div  xml:lang="eng" type="translation">
+            <div>
+               <head>f 38 <ptr type="endnote" target="endnote:RLE00036"/><date when-iso="1517-02-05"></date><supplied>(5 February 1516/7)</supplied></head> 
+               <pb n="38" type="folio"/> 
+               
+               <gap reason="omitted"/>
+               <ab><damage><gap unit="chars" extent="3"/></damage>Christmas and he did not perform the aforesaid office. Likewise it was
+                  decided that he shall pay his three fellow masters of the revels his portion.
+               </ab>
+               <ab>And similarly that he shall pay 16d to the steward for his commons
+                  imposed on him at that time.
+               </ab>
+               
+               <gap reason="omitted"/>
+            </div>
          </div>
       </body>
    </text>
