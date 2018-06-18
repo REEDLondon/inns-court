@@ -837,7 +837,7 @@
    
    
    <text ana="taxon:inner_temple" type="record">
-      <body xml:lang="eng">
+      <body xml:lang="lat">
          <head>
             <date from-iso="1520-09-29" to-iso="1521-09-29" cert="medium">1520-1</date>
             <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 49-50">RLITP001</seg>
@@ -872,6 +872,36 @@
             <gap reason="omitted"/>
            </div>
          </div>            
+         
+         <div xml:lang="eng" type="translation">
+            <div>
+               <head>f 69 <ptr type="endnote" target="endnote:RLE00040"/><date when-iso="1520-11-02"></date><supplied>(2 November 1520) (Christmas officers)</supplied></head>
+               <pb n="69" type="folio"/> 
+               
+               <gap reason="omitted"/>
+               
+               <table>
+                  <row>
+                     <cell><lb/>Masters of the revels for next Christmas-tide.<note type="foot">Masters ... Christmas-tide: <hi rend="italic">braced pointing to the right at</hi> Chaworth ... Hylman</note></cell>
+                     <cell>Chaworth<lb/>Lathom<lb/>Hale the younger<lb/>Hylman</cell>
+                  </row>
+               </table>
+               
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 69v <ptr type="endnote" target="endnote:RLE00040"/></head>
+               <pb n="69v" type="folio"/> 
+               
+               <gap reason="omitted"/>
+               
+               <ab>Hasilwode has been admitted into the society of this company and is
+                  released from all offices, except the office of marshal and master of the revels, and shall be in commons at his pleasure.</ab>  
+               
+               <gap reason="omitted"/>
+            </div>
+         </div>
       </body>
    </text>
    
@@ -899,7 +929,7 @@
             
    
    <text ana="taxon:inner_temple" type="record">
-      <body xml:lang="eng">
+      <body xml:lang="lat">
          <head>
             <date from-iso="1523-09-29" to-iso="1524-09-29" cert="medium">1523-4</date>
             <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 52">RLITP001</seg>
@@ -944,6 +974,31 @@
             <gap reason="omitted"/>
          </div>
        </div>
+         
+         <div  xml:lang="eng" type="translation">
+            <div>
+               <head>f 80 <date when-iso="1523-11-30"></date><supplied>(30 November 1523)</supplied></head>
+               <pb n="80" type="folio"/> 
+               
+               <gap reason="omitted"/>      
+               <ab>Memorandum that at this parliament it was agreed that it (the society)
+                  will not observe Christmas-tide this year as of old, but for those who stay
+                  behind it will be counted as a vacation. And they will receive allowance for
+                  entertainers just as they did in the previous year or by discretion, etc…</ab> 
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head><date when-iso="1523-12-21"></date><supplied>(21 December 1523)</supplied></head>
+               <ab>It was agreed that the society should have one boar for Christmas-tide in
+                  addition to a shield (of brawn) and two rounds (of beef), and that the
+                  commons be accounted by the week. And that those who are commoners
+                  should be charged for all expenses except for the entertainers who shall
+                  have 20s, and the abovesaid boar excepted.</ab>
+               
+               <gap reason="omitted"/>
+            </div>
+         </div>
       </body>
    </text>
             
