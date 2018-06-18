@@ -236,7 +236,7 @@
    </teiHeader>
    
    <text ana="taxon:inner_temple" type="record">
-      <body xml:lang="eng">
+      <body xml:lang="lat">
          <head>
             <date from-iso="1561-09-29" to-iso="1562-09-29" cert="medium">1561-2</date>
             <seg ana="taxon:RLITA001" corresp="taxon:RPCIC p. 85">RLITA001</seg>
@@ -254,6 +254,21 @@
                </ab>
                <gap reason="omitted"/>
             </div>
+         </div>
+         
+         <div xml:lang="eng" type="translation">
+            <div>
+               <head>p 26 <ptr type="endnote" target="endnote:RLE00075"/>
+               </head>
+               <pb n="26" type="page"/>
+               <gap reason="omitted"/>
+               <ab>
+                  Arthur Broke of London specially (admitted) on 18 December, the pledges
+                  being Thomas Sackville (and) Thomas Norton.
+               </ab>
+               <gap reason="omitted"/>
+            </div>
+            
          </div>
       </body>
    </text>
