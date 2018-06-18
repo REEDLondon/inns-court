@@ -589,7 +589,7 @@
  
             <listBibl>
 <!-- REED Inns of Court volume with id's equating to "_R_EED _P_rint _C_ollection _I_nns of _C_ourt_ Volume _1_-->
-               <msDesc xml:id="RPCIC1">
+               <msDesc xml:id="RLPCIC1">
                   <msIdentifier>
                      <settlement>Toronto, CA</settlement>
                      <repository sameAs="#REED"/>

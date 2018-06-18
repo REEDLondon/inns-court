@@ -234,10 +234,11 @@
    <text ana="taxon:grays_inn" type="record">
       <body xml:lang="lat">
          <head><date from-iso="1617-09-29" to-iso="1618-09-29"> <supplied>1617-18</supplied></date>
-            <seg ana="taxon:RLGIAB" corresp="RLIPIC1 pp. 200-1">RLGIAB</seg></head>
+            <seg ana="taxon:RLGIPA01" corresp="RLIPIC1 pp. 200-1">RLGIPA01</seg></head>
          <div type="transcription">
-            <head>pp 739-40</head>
-            <pb n="739" type="page"/>
+            <div>
+               <head><ptr type="endnote" target="endnote:RLE00170"/>pp 739-40</head>
+            <pb n="739-40" type="page"/>
             <list>
                <note type="marginal" rend="left"><del>Henricus Pr<ex>incep</ex>s abs<ex>que</ex> fine dura<ex>n</ex>ti festo</del></note>
                <item>
@@ -286,11 +287,14 @@
                <item>Thomas Talbot de Risly in Com<ex>itatu</ex> Bedford<ex>iae</ex> admissus vt sup<ex>r</ex>a<handShift/>
                </item>
             </list>
-            <gap reason="omitted"/>
-            <note type="editorial" n="endnote">Henry, Prince of Purpoole of Gray’s Inn for 1617–18, called Henry the second (Henry Helmes of 1594–5 becoming retrospectively Henry the first) was Henry Yelverton: see below, endnote to STC: 17944a.5 single sheet verso col 2. Sir Dudley Digges (p 201, l.29) was admitted to Gray’s Inn a second time, just prior to 8 November 1630, presumably because this admission by the Prince of Purpoole was not deemed sufficiently regular (Fletcher (ed), <title>Pension Book</title>, p 299, n 1).</note>            
+            <gap reason="omitted"/>     
+         </div>
          </div>
          
          <div type="translation">
+            <div>
+               <head><ptr type="endnote" target="endnote:RLE00170"/>pp 739-40</head>
+               <pb n="739-40" type="page"/>
             <list>
                <note type="marginal"><del>(Admitted) without fine during the feast. Prince Henry (of Purpoole)</del></note>
                <item>
@@ -326,9 +330,9 @@
                <item>Richard Johnson, son and heir of Richard Johnson, has been admitted into this society as above.</item>
                <item>Thomas Talbot of Riseley in the county of Bedford admitted as above.<handShift/></item>
             </list>
-            <gap reason="omitted"/>
-            <note type="editorial" n="endnote">Henry, Prince of Purpoole of Gray’s Inn for 1617–18, called Henry the second (Henry Helmes of 1594–5 becoming retrospectively Henry the first) was Henry Yelverton: see below, endnote to STC: 17944a.5 single sheet verso col 2. Sir Dudley Digges (p 201, l.29) was admitted to Gray’s Inn a second time, just prior to 8 November 1630, presumably because this admission by the Prince of Purpoole was not deemed sufficiently regular (Fletcher (ed), Pension Book, p 299, n 1).</note>
+            <gap reason="omitted"/>           
          </div>         
+         </div>
          
       </body>
    </text>
