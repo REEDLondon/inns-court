@@ -702,7 +702,7 @@
    
    
    <text ana="taxon:inner_temple" type="record">
-      <body xml:lang="eng">
+      <body xml:lang="lat">
          <head>
             <date from-iso="1518-09-29" to-iso="1519-09-29" cert="medium">1518-19</date>
             <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 46">RLITP001</seg>
@@ -742,6 +742,28 @@
             
             <gap reason="omitted"/>
          </div>
+         </div>
+         
+         <div xml:lang="eng" type="translation">
+            <div>
+               <head>f 42v <ptr type="endnote" target="endnote:RLE00038"/><date when-iso="1518-11-14"></date><supplied>(14 November 1518)</supplied></head>
+               <pb n="42v" type="folio"/> 
+               
+               <gap reason="omitted"/>
+               
+               <table>
+                  <row>
+                     <cell>Likewise<note type="marginal" place="margin_left">Of which
+                        13s 4d has
+                        been paid</note> that Edward Ludlowe ought to be discharged
+                        from the office of master of the revels and of all vacations
+                        for certain considerations for a fine</cell> 
+                     <cell rend="right"><measure type="currency">40s</measure></cell>
+                  </row>
+               </table>
+               
+               <gap reason="omitted"/>
+            </div>
          </div>
       </body>
    </text>
