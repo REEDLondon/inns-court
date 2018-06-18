@@ -1031,7 +1031,7 @@
    
    
    <text ana="taxon:inner_temple" type="record">
-      <body xml:lang="eng">
+      <body xml:lang="lat">
          <head>
             <date from-iso="1527-09-29" to-iso="1528-09-29" cert="medium">1527-8</date>
             <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 54">RLITP001</seg>
@@ -1051,6 +1051,21 @@
             </ab>
             
             <gap reason="omitted"/>
+            </div>
+         </div>
+         
+         <div xml:lang="eng" type="translation">
+            <div>
+               <head>f 89 <date when-iso="1527-11-24"></date><supplied>(24 November 1527)</supplied></head>
+               <pb n="89" type="folio"/>
+               <gap reason="omitted"/>
+               <ab>
+                  Likewise it was ordered that the company of the Inner Temple who are in
+                  charge of the commons at Christmas-tide in the future be allowed one boar
+                  and 30s for the minstrels’ stipend at Christmas-tide and for one cart of coals
+                  for fuel…
+               </ab>
+               <gap reason="omitted"/>
             </div>
          </div>
       </body>
@@ -1084,7 +1099,7 @@
          
          
          <text ana="taxon:inner_temple" type="record">
-            <body xml:lang="eng">
+            <body xml:lang="lat">
                <head>
                   <date from-iso="1534-09-29" to-iso="1535-09-29" cert="medium">1534-5</date>
                   <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 62">RLITP001</seg>
@@ -1117,6 +1132,18 @@
                   <gap reason="omitted"/>
                </div>
               </div>
+               
+               <div xml:lang="eng" type="translation">
+                  <div>
+                     <head>f 103 <ptr type="endnote" target="endnote:RLE00055"/><date when-iso="1534-12-20"></date><supplied>(20 December 1534)</supplied></head>
+                     <pb n="103" type="folio"/> 
+                     <ab>At this parliament John Charlys was elected one of the masters of the revels
+                        in default of Bowlles, provided that, if Bowlles should default, that then
+                        Charlys himself will bear the charges.
+                     </ab>
+                     <gap reason="omitted"/>
+                  </div>
+               </div>
             </body>
          </text>
    
@@ -1150,7 +1177,7 @@
    
    
    <text ana="taxon:inner_temple" type="record">
-      <body xml:lang="eng">
+      <body xml:lang="lat">
          <head>
             <date from-iso="1539-09-29" to-iso="1540-09-29" cert="medium">1539-40</date>
             <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 66">RLITP001</seg>
@@ -1189,6 +1216,22 @@
                   ad manu<ex>m</ex> Dauid brook
                   Tezerarij &amp;c</ab>
                
+               <gap reason="omitted"/>
+            </div>
+         </div>
+         
+         <div xml:lang="eng" type="translation">
+            <div>
+               <head>f 114v <ptr type="endnote" target="endnote:RLE00059"/><date when-iso="1539-11-16"></date><supplied>(16 November 1539)</supplied></head>
+               <pb n="114v" type="folio"/>
+               <gap reason="omitted"/>
+               <ab>
+                  At this parliament John Tofton, one of the company, was discharged from
+                  (observing) the Christmas vacation in the thirty-first year (of the reign) of
+                  Henry VIII and from the office of one of the masters of the revels at the said
+                  feast of Christmas, and for this he gave the company of the Inner Temple
+                  £3 6s 8d, paid to the hand of David Brook, treasurer, etc.
+               </ab>
                <gap reason="omitted"/>
             </div>
          </div>
