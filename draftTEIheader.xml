@@ -240,17 +240,15 @@
 
    <text ana="taxon:letter" type="record">
       <body xml:lang="eng">
-         <head>Letter of Sidney Montagu to Sir Edward Montagu (27 January 1613)
-            <date when-iso="1612-01-27">1613-01-27</date>
-            <seg ana="taxon:RLPC0008" corresp="taxon:RLPIC1 686">six number code</seg></head>
+         <head>
+            <date when-iso="YYY-MM-DD">1234</date>
+            <seg ana="taxon:RL1234" corresp="taxon:RLPIC1 686">six number code</seg></head>
          <div type="transcription">
             <div>
-               <head> <supplied>(27 January)</supplied></head>
+               <head> <supplied></supplied></head>
             <pb type="sheet"/>
             <gap reason="omitted"/>
             <ab>
-               There is no matter of Newes styrringe heere, but greate preparac<ex>i</ex>on for the makinge of fyre woorkes and Maskes againste the mariadge.<note type="foot">mariadge: <hi rend="italic">ie, of Princess Elizabeth and the elector Frederick on 14 February 1612/13</hi></note> This howse is Rated <measure type="currency">50 s.</measure> a bencher, <measure type="currency">30 s.</measure> a barrester, and <measure type="currency">15 s.</measure> the reste towards the Maske. The L<ex>ord</ex>s haue the mariadge night this howse and Lyncoln<ex>es</ex> Inn [the] Mundaie night<note type="foot">Mundaie night: <hi rend="italic">15 February 1612/13</hi></note> and Grayes Inne and the Inner Temple Tewsdaie night.<note type="foot">Tewsdaie night: <hi rend="italic">16 February 1612/13</hi></note> Nedd Palmer our Cosin is one for our howse....
-            <gap reason="omitted"/>
             </ab>
             </div>
 
