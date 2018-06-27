@@ -287,7 +287,7 @@
    </text>
    
    <text ana="taxon:inner_temple" type="record">
-      <body xml:lang="eng">
+      <body xml:lang="lat">
          <head>
             <date from-iso="1507-09-29" to-iso="1508-09-29" cert="medium">1507-8</date>
             <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 32">RLITP001</seg></head>
@@ -324,6 +324,25 @@
                <gap reason="omitted"/>
           </div>        
          </div>
+         
+         <div xml:lang="eng" type="translation">  
+            <div>
+               <head>f 19 <ptr type="endnote" target="endnote:RLE00027"/><date when-iso="1508-02-06"></date><supplied>(6 February 1507/8)</supplied></head> 
+               <pb n="19" type="folio"/> 
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>Let Brice and Haddon be amerced each at 6s 8d because they
+                        defaulted in the office of masters of the revels at the feast of
+                        Christmas in the twenty-third year (of the reign of Henry VII)
+                        and further that they make a contribution to Plunket and Tate,
+                        who did what the office requires</cell>
+                     <cell rend="right"><measure type="currency">£13 2<damage><gap unit="chars" extent="2"/></damage></measure></cell>  
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>        
+         </div>
       </body>
    </text>
                   
@@ -352,7 +371,7 @@
    </text>
    
    <text ana="taxon:inner_temple" type="record">
-      <body xml:lang="eng">
+      <body xml:lang="lat">
          <head>
             <date from-iso="1509-09-29" to-iso="1510-09-29" cert="medium">1509-10</date>
             <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 34-5">RLITP001</seg></head>
@@ -385,12 +404,40 @@
             </div>
          </div>
             
+         <div xml:lang="eng" type="translation">
+            <div>
+               <head>f 22 <ptr type="endnote" target="endnote:RLE00029"/><date when-iso="1509-11-02"></date><supplied>(2 November 1509) (Christmas officers)</supplied></head>
+               <pb n="22" type="folio"/> 
+               
+               <gap reason="omitted"/>
+               
+               <table>
+                  <row>
+                     <cell>Masters <note type="marginal" place="margin_left">In the first year
+                        (of the reign of Henry VIII)</note>of the revels</cell>
+                     <cell><del>Primyer</del><lb/>Babyngton R<lb/><del>Dracottes</del><del><damage><gap unit="chars" extent="3"/></damage></del><lb/>Tyndale<lb/>Thimblebye<lb/>Woodye</cell>
+                     <cell>did not carry out their office.</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>               
+            </div>
             
+            <div>
+               <head>f 22v <date when-iso="1510-02-03"></date><supplied>(3 February 1509/10)</supplied></head> 
+               <pb n="22v" type="folio"/> 
+               
+               <gap reason="omitted"/>
+               <ab>Let<note type="marginal" place="margin_left">Likewise</note> Dracottes be amerced at 6s 8d because he did not assume the office of
+                  master of the revels in the feast of Christmas <damage><gap unit="chars" extent="3"/></damage>.
+               </ab>
+               <gap reason="omitted"/>
+            </div>
+         </div>
       </body>
    </text>
    
    <text ana="taxon:inner_temple" type="record">
-      <body xml:lang="eng">
+      <body xml:lang="lat">
          <head>
             <date from-iso="1510-09-29" to-iso="1511-09-29" cert="medium">1510-11</date>
             <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 36">RLITP001</seg></head>
@@ -435,6 +482,40 @@
             </div>
          </div>
            
+         <div xml:lang="eng" type="translation">  <!-- KC: check with James Cummings re. table structure -->
+            <div>
+               <head>f 25v <ptr type="endnote" target="endnote:RLE00030"/><date when-iso="1510-11-03"></date><supplied>(3 November 1510) (Christmas officers)</supplied></head>
+               <pb n="25v" type="folio"/> 
+               
+               <gap reason="omitted"/>
+               <table><row>
+                  <cell><lb/><lb/><lb/>Masters of the revels.</cell>
+                  <cell>Goddolphyn<lb/>Lacton<lb/>Jofford<lb/>Lambourn</cell>
+                  <cell>
+                     <lb/>
+                     <del>Danvers Thomas the younger</del><lb/>
+                     <del>Goddolphyn</del><lb/>
+                     <del>Lacton</del><lb/>
+                     <del>SentAubyn</del><lb/>
+                     because he appeared<lb/>
+                  </cell>
+               </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 26v <date when-iso="1511-02-03"></date><supplied>(3 February 1510/11)</supplied></head> 
+               <pb n="26v" type="folio"/>
+               <gap reason="omitted"/>
+               <ab>Likewise, at the instance of John Chamond, Richard Tregose has been
+                  admitted into the society according to order, except that he is relieved of
+                  (the office of ) master of the revels and the office of butler.</ab>
+               <gap reason="omitted"/>
+            </div>
+            
+         </div>  <!-- KC: end of translations -->
+         
 
       </body>
    </text>
@@ -451,8 +532,8 @@
             <gap reason="omitted"/>
             <table>
                <row>
-                  <cell>M<ex>agistri</ex> de Revell<ex>es</ex></cell>
-                  <cell>White<lb/>Mores<lb/>Danvers<lb/>Warde<note type="foot">Mores ... Warde: <hi rend="italic">braced pointing to the left at</hi> M<ex>agistri</ex> de Revell<ex>es</ex></note></cell>
+                  <cell>M<ex>agistri</ex> de Revell<ex>es</ex></cell>  <!-- KC: need to check vertical alignment, center -->
+                  <cell>White<lb/>Mores<lb/>Danvers<lb/>Warde<note type="foot">White ... Warde: <hi rend="italic">braced pointing to the left at</hi> M<ex>agistri</ex> de Revell<ex>es</ex></note></cell>
                </row>
             </table>
             <gap reason="omitted"/>
@@ -461,7 +542,7 @@
    </text>
          
    <text ana="taxon:inner_temple" type="record">
-      <body xml:lang="eng">
+      <body xml:lang="lat">
          <head>
             <date from-iso="1512-09-29" to-iso="1513-09-29" cert="medium">1512-13</date>
             <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 39">RLITP001</seg></head>
@@ -483,6 +564,28 @@
   
          </div>
          </div>
+         
+         <div xml:lang="eng" type="translation">
+            <div>
+               <head>f 30 <ptr type="endnote" target="endnote:RLE00033"/><date when-iso="1512-11-11"></date><supplied>(11 November 1512) (Christmas officers)</supplied></head>
+               <pb n="30" type="folio"/> 
+               
+               <gap reason="omitted"/>
+               
+               <table>  <!-- KC: check structural tagging with James Cummings -->
+                  <row>
+                     <cell>Prouse<lb/>Burtn<lb/>Fitzsymond<lb/>Shyrlock<note type="foot">Prouse ... Shyrlock: <hi rend="italic">braced pointing to the right at</hi> masters of the revels ... Christmas.</note></cell>
+                     <cell><lb></lb>masters of the revels for the feast of Christmas.</cell>
+                  </row>
+               </table>
+               
+               <gap reason="omitted"/>
+               
+            </div>
+         </div>        
+         
+         
+         
       </body>
    </text>
    
@@ -538,7 +641,7 @@
    </text>
    
    <text ana="taxon:inner_temple" type="record">
-      <body xml:lang="eng">
+      <body xml:lang="lat">
          <head>
             <date from-iso="1516-09-29" to-iso="1517-09-29" cert="medium">1516-17</date>
             <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 44">RLITP001</seg>
@@ -577,12 +680,29 @@
             <gap reason="omitted"/>
          </div>
          </div>
+         
+         <div  xml:lang="eng" type="translation">
+            <div>
+               <head>f 38 <ptr type="endnote" target="endnote:RLE00036"/><date when-iso="1517-02-05"></date><supplied>(5 February 1516/7)</supplied></head> 
+               <pb n="38" type="folio"/> 
+               
+               <gap reason="omitted"/>
+               <ab><damage><gap unit="chars" extent="3"/></damage>Christmas and he did not perform the aforesaid office. Likewise it was
+                  decided that he shall pay his three fellow masters of the revels his portion.
+               </ab>
+               <ab>And similarly that he shall pay 16d to the steward for his commons
+                  imposed on him at that time.
+               </ab>
+               
+               <gap reason="omitted"/>
+            </div>
+         </div>
       </body>
    </text>
    
    
    <text ana="taxon:inner_temple" type="record">
-      <body xml:lang="eng">
+      <body xml:lang="lat">
          <head>
             <date from-iso="1518-09-29" to-iso="1519-09-29" cert="medium">1518-19</date>
             <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 46">RLITP001</seg>
@@ -623,12 +743,34 @@
             <gap reason="omitted"/>
          </div>
          </div>
+         
+         <div xml:lang="eng" type="translation">
+            <div>
+               <head>f 42v <ptr type="endnote" target="endnote:RLE00038"/><date when-iso="1518-11-14"></date><supplied>(14 November 1518)</supplied></head>
+               <pb n="42v" type="folio"/> 
+               
+               <gap reason="omitted"/>
+               
+               <table>
+                  <row>
+                     <cell>Likewise<note type="marginal" place="margin_left">Of which
+                        13s 4d has
+                        been paid</note> that Edward Ludlowe ought to be discharged
+                        from the office of master of the revels and of all vacations
+                        for certain considerations for a fine</cell> 
+                     <cell rend="right"><measure type="currency">40s</measure></cell>
+                  </row>
+               </table>
+               
+               <gap reason="omitted"/>
+            </div>
+         </div>
       </body>
    </text>
    
    
    <text ana="taxon:inner_temple" type="record">
-      <body xml:lang="eng">
+      <body xml:lang="lat">
          <head>
             <date from-iso="1519-09-29" to-iso="1520-09-29" cert="medium">1519-20</date>
             <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 48">RLITP001</seg>
@@ -669,12 +811,33 @@
             <gap reason="omitted"/>
          </div>
          </div>
+         
+         <div xml:lang="eng" type="translation">
+            <div>
+               <head>f 46v <ptr type="endnote" target="endnote:RLE00039"/><date when-iso="1519-11-13"></date><supplied>(13 November 1519)</supplied></head>
+               <pb n="46v" type="folio"/> 
+               
+               <gap reason="omitted"/>
+               
+               <ab>Lathom and Perpoynt were relieved from the office of being two masters of
+                  the revels by the agreement of the company.</ab>
+               
+               <table>
+                  <row>
+                     <cell>And in their place were elected to the same office:</cell>
+                     <cell rend="right">Prestall<lb/>Tracy<note type="foot">And in their place ... office: <hi rend="italic">braced pointing to the right at</hi> Prestall ... Tracy</note></cell>
+                  </row>
+               </table>
+               
+               <gap reason="omitted"/>
+            </div>
+         </div>
       </body>
    </text>
    
    
    <text ana="taxon:inner_temple" type="record">
-      <body xml:lang="eng">
+      <body xml:lang="lat">
          <head>
             <date from-iso="1520-09-29" to-iso="1521-09-29" cert="medium">1520-1</date>
             <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 49-50">RLITP001</seg>
@@ -709,6 +872,36 @@
             <gap reason="omitted"/>
            </div>
          </div>            
+         
+         <div xml:lang="eng" type="translation">
+            <div>
+               <head>f 69 <ptr type="endnote" target="endnote:RLE00040"/><date when-iso="1520-11-02"></date><supplied>(2 November 1520) (Christmas officers)</supplied></head>
+               <pb n="69" type="folio"/> 
+               
+               <gap reason="omitted"/>
+               
+               <table>
+                  <row>
+                     <cell><lb/>Masters of the revels for next Christmas-tide.<note type="foot">Masters ... Christmas-tide: <hi rend="italic">braced pointing to the right at</hi> Chaworth ... Hylman</note></cell>
+                     <cell>Chaworth<lb/>Lathom<lb/>Hale the younger<lb/>Hylman</cell>
+                  </row>
+               </table>
+               
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 69v <ptr type="endnote" target="endnote:RLE00040"/></head>
+               <pb n="69v" type="folio"/> 
+               
+               <gap reason="omitted"/>
+               
+               <ab>Hasilwode has been admitted into the society of this company and is
+                  released from all offices, except the office of marshal and master of the revels, and shall be in commons at his pleasure.</ab>  
+               
+               <gap reason="omitted"/>
+            </div>
+         </div>
       </body>
    </text>
    
@@ -736,7 +929,7 @@
             
    
    <text ana="taxon:inner_temple" type="record">
-      <body xml:lang="eng">
+      <body xml:lang="lat">
          <head>
             <date from-iso="1523-09-29" to-iso="1524-09-29" cert="medium">1523-4</date>
             <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 52">RLITP001</seg>
@@ -781,6 +974,31 @@
             <gap reason="omitted"/>
          </div>
        </div>
+         
+         <div  xml:lang="eng" type="translation">
+            <div>
+               <head>f 80 <date when-iso="1523-11-30"></date><supplied>(30 November 1523)</supplied></head>
+               <pb n="80" type="folio"/> 
+               
+               <gap reason="omitted"/>      
+               <ab>Memorandum that at this parliament it was agreed that it (the society)
+                  will not observe Christmas-tide this year as of old, but for those who stay
+                  behind it will be counted as a vacation. And they will receive allowance for
+                  entertainers just as they did in the previous year or by discretion, etc…</ab> 
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head><date when-iso="1523-12-21"></date><supplied>(21 December 1523)</supplied></head>
+               <ab>It was agreed that the society should have one boar for Christmas-tide in
+                  addition to a shield (of brawn) and two rounds (of beef), and that the
+                  commons be accounted by the week. And that those who are commoners
+                  should be charged for all expenses except for the entertainers who shall
+                  have 20s, and the abovesaid boar excepted.</ab>
+               
+               <gap reason="omitted"/>
+            </div>
+         </div>
       </body>
    </text>
             
@@ -813,7 +1031,7 @@
    
    
    <text ana="taxon:inner_temple" type="record">
-      <body xml:lang="eng">
+      <body xml:lang="lat">
          <head>
             <date from-iso="1527-09-29" to-iso="1528-09-29" cert="medium">1527-8</date>
             <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 54">RLITP001</seg>
@@ -833,6 +1051,21 @@
             </ab>
             
             <gap reason="omitted"/>
+            </div>
+         </div>
+         
+         <div xml:lang="eng" type="translation">
+            <div>
+               <head>f 89 <date when-iso="1527-11-24"></date><supplied>(24 November 1527)</supplied></head>
+               <pb n="89" type="folio"/>
+               <gap reason="omitted"/>
+               <ab>
+                  Likewise it was ordered that the company of the Inner Temple who are in
+                  charge of the commons at Christmas-tide in the future be allowed one boar
+                  and 30s for the minstrels’ stipend at Christmas-tide and for one cart of coals
+                  for fuel…
+               </ab>
+               <gap reason="omitted"/>
             </div>
          </div>
       </body>
@@ -866,7 +1099,7 @@
          
          
          <text ana="taxon:inner_temple" type="record">
-            <body xml:lang="eng">
+            <body xml:lang="lat">
                <head>
                   <date from-iso="1534-09-29" to-iso="1535-09-29" cert="medium">1534-5</date>
                   <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 62">RLITP001</seg>
@@ -899,6 +1132,18 @@
                   <gap reason="omitted"/>
                </div>
               </div>
+               
+               <div xml:lang="eng" type="translation">
+                  <div>
+                     <head>f 103 <ptr type="endnote" target="endnote:RLE00055"/><date when-iso="1534-12-20"></date><supplied>(20 December 1534)</supplied></head>
+                     <pb n="103" type="folio"/> 
+                     <ab>At this parliament John Charlys was elected one of the masters of the revels
+                        in default of Bowlles, provided that, if Bowlles should default, that then
+                        Charlys himself will bear the charges.
+                     </ab>
+                     <gap reason="omitted"/>
+                  </div>
+               </div>
             </body>
          </text>
    
@@ -932,7 +1177,7 @@
    
    
    <text ana="taxon:inner_temple" type="record">
-      <body xml:lang="eng">
+      <body xml:lang="lat">
          <head>
             <date from-iso="1539-09-29" to-iso="1540-09-29" cert="medium">1539-40</date>
             <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 66">RLITP001</seg>
@@ -971,6 +1216,22 @@
                   ad manu<ex>m</ex> Dauid brook
                   Tezerarij &amp;c</ab>
                
+               <gap reason="omitted"/>
+            </div>
+         </div>
+         
+         <div xml:lang="eng" type="translation">
+            <div>
+               <head>f 114v <ptr type="endnote" target="endnote:RLE00059"/><date when-iso="1539-11-16"></date><supplied>(16 November 1539)</supplied></head>
+               <pb n="114v" type="folio"/>
+               <gap reason="omitted"/>
+               <ab>
+                  At this parliament John Tofton, one of the company, was discharged from
+                  (observing) the Christmas vacation in the thirty-first year (of the reign) of
+                  Henry VIII and from the office of one of the masters of the revels at the said
+                  feast of Christmas, and for this he gave the company of the Inner Temple
+                  £3 6s 8d, paid to the hand of David Brook, treasurer, etc.
+               </ab>
                <gap reason="omitted"/>
             </div>
          </div>
