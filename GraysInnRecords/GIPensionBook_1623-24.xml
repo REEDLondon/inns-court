@@ -23,7 +23,11 @@
             
             <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
             <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
-            
+            <respStmt>
+               <persName>Ari Baughman</persName>
+               <orgName>Bucknell Univerity</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
             <respStmt>
                <persName xml:id="CB">Carolyn Black</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
@@ -235,13 +239,15 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1623-09-29" to-iso="1624-09-29">1623-4</date>
-            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 211">RLGIP1</seg></head>
+            <seg ana="taxon:RLGIPB01" corresp="taxon:RPCIC1 p. 211">RLGIPB01</seg></head>
          <div type="transcription">
+            <div>
             <head>f 351v <date when-iso="1624-01-28"><supplied>(28 January 1623/4) (Pension orders)</supplied></date></head>
             <pb n="351v" type="folio"/>
             <note type="marginal" rend="right">Aorder<note type="foot">Aorder: <hi rend="italic">for</hi> An order</note> for mussit<ex>i</ex>ons</note>               
             <gap reason="omitted"/>
-            <ab>The musisions <del>Petic<ex>i</ex>on</del> have five poundes allowed them for the Last Crismas notw<ex>i</ex>thstand Com<ex>m</ex>ons were <del>vp</del> broke vp and they did no servise</ab>            
+            <ab>The musisions <del>Petic<ex>i</ex>on</del> have five poundes allowed them for the Last Crismas notw<ex>i</ex>thstand Com<ex>m</ex>ons were <del>vp</del> broke vp and they did no servise</ab>    
+            </div>
          </div>
       </body>
    </text>

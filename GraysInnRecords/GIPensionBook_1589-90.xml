@@ -23,7 +23,11 @@
             
             <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
             <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
-            
+            <respStmt>
+               <persName>Ari Baughman</persName>
+               <orgName>Bucknell Univerity</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
             <respStmt>
                <persName xml:id="CB">Carolyn Black</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
@@ -235,16 +239,17 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1589-09-29" to-iso="1590-09-29">1589-90</date>
-            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 115">RLGIP1</seg></head>
+            <seg ana="taxon:RLGIPB01" corresp="taxon:RPCIC1 p. 115">RLGIPB01</seg><ptr type="endnote" target="RLE00099"/></head>
          <div type="transcription">
+            <div>
             <head>f 198v <date when-iso="1590-01-28"/><supplied>(28 January 1589/90) (Pension orders)</supplied></head>
             <pb n="198v" type="folio"/>
             <gap reason="omitted"/>
             <note type="marginal">Musitic<ex>i</ex>ons allowed</note>
-            <ab>Att this<note type="foot">Att this: <hi rend="italic">ie, at this pension</hi></note> there is allowed to the musitians vij li. for the losse of the last christenmas Lykewise for the banquett made by <persName n="Nicholas Trott">mr Trott</persName> <persName n="... Smyth">mr Smyth</persName> &amp; <persName n="Thomas Lamphew">mr Lamploughe</persName> v li. is allowed.</ab>               
+            <ab>Att this<note type="foot">Att this: <hi rend="italic">ie, at this pension</hi></note> there is allowed to the musitians vij li. for the losse of the last christenmas Lykewise for the banquett made by mr Trott mr Smyth &amp; mr Lamploughe v li. is allowed.</ab>               
             <gap reason="omitted"/>            
          </div>
-         <note type="editorial" n="endnote">The musicians recovered only £7 of the £8 plus 26s 8d that they normally received for their activities over Christmas.</note>                       
+         </div>
       </body>
    </text>
    

@@ -23,7 +23,11 @@
             
             <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
             <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
-            
+            <respStmt>
+               <persName>Ari Baughman</persName>
+               <orgName>Bucknell Univerity</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
             <respStmt>
                <persName xml:id="CB">Carolyn Black</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
@@ -235,23 +239,22 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1616-09-29" to-iso="1617-09-29">1616-17</date>
-            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 pp. 189-90">RLGIP1</seg></head>
+            <seg ana="taxon:RLGIPB01" corresp="taxon:RPCIC1 pp. 189-90">RLGIPB01</seg></head>
          <div type="transcription">
             <div>
-               <head>f 314 <date when-iso="1616-10-17"/><supplied>(17 October 1616) (Pension orders)</supplied></head>
+               <head>f 314 <date when-iso="1616-10-17"/><supplied>(17 October 1616) (Pension orders)</supplied><ptr type="endnote" target="RLE00166"/></head>
                <pb n="314" type="folio"/>
 
                <note type="marginal">A Taxe for the Charge of the Barriors.</note>
                <ab>At this Penc<ex>i</ex>on every Reador Ancient Barrister and other gent<ex>leman</ex> that shalbe in the Towne betwene this and the end of Hillary terme or have any Chamber in the howse other of the house or by lease ortherwyse<note type="foot">ortherwyse: <hi rend="italic">for</hi> otherwyse</note> shal pay towards the Barriors intended to be p<ex>re</ex>sented before <persName n="King James I">his Ma<ex>ies</ex>ti</persName> shall pay affter these Rats and p<ex>ro</ex>porc<ex>i</ex>ons followinge Every Reador or Ancient of the Bench xl s. every Ancient vnder the Bench xxx s. Every Barrister xx s. &amp; Every other gent<ex>lemen</ex> xiij s. iiij d.</ab>               
                <list>
                   <item><del>Ther is apointed for</del></item>
-                  <item><persName n="... Newton">Mr Newton</persName> is appointed Collector of the Readors &amp; Ancients</item> 
-                  <item><persName n="John Gryffyth">Mr Griffeth</persName> <del>for</del> of the Barristers</item>
-                  <item>And <persName>Mr wrightington</persName> of the yonge gent<ex>lemen</ex> vnder the Barr</item>
-               </list>
-               <note type="editorial" n="endnote">The ‘Barriors’ (l.18 and subsequently) was a martial exercise presented jointly by the four Inns of Court to celebrate the investiture of Prince Charles as prince of Wales, at the Banqueting House, Whitehall, 4 November 1616: see Appendix 6.1 (under ‘Barriers’).</note>
+                  <item>Mr Newton is appointed Collector of the Readors &amp; Ancients</item> 
+                  <item>Mr Griffeth <del>for</del> of the Barristers</item>
+                  <item>And Mr wrightington of the yonge gent<ex>lemen</ex> vnder the Barr</item>
+               </list>               
+            <gap reason="omitted"/>   
             </div>
-            <gap reason="omitted"/>              
             
             <div>
                <head>f 314v <date when-iso="1616-11-08"/><supplied>(8 November 1616)</supplied></head>
@@ -276,7 +279,7 @@
             <div>
                <head><date when-iso="1617-01-21"/><supplied>(21 January 1616/17)</supplied></head>
                <note type="marginal" rend="left">Admittances this Terme for the Barriors.</note>
-               <ab>At this Penc<ex>i</ex>on it is Ordered that all the moneys that shalbe Rec<ex>eive</ex>d this terme for admissio<ex>ns</ex> shalbe paid and deliu<ex>er</ex>ed to <persName n="Thomas Tyldesley">Sir Thomas Tildesley</persName> to be Imployed towardes the satisfactio<ex>n</ex> of such as have Lent moneyes towards the p<ex>er</ex>formance of the Barriors</ab>
+               <ab>At this Penc<ex>i</ex>on it is Ordered that all the moneys that shalbe Rec<ex>eive</ex>d this terme for admissio<ex>ns</ex> shalbe paid and deliu<ex>er</ex>ed to Sir Thomas Tildesley to be Imployed towardes the satisfactio<ex>n</ex> of such as have Lent moneyes towards the p<ex>er</ex>formance of the Barriors</ab>
                <gap reason="omitted"/>
             </div>
             
@@ -287,7 +290,7 @@
                <ab>At this Penc<ex>i</ex>on it is Ordered that the moneys this terme Rec<ex>eive</ex>d for admittances shall goe and be imployed towards the payment of the Readors of such moneys as they have lent for the settinge forth of Barriors w<ex>hi</ex>ch is yet behinde</ab>
                
                <note type="marginal">3 l. 6 s. 5 d. p<ex>er</ex> Ann<ex>um</ex> allow to Michell the Musitian p<ex>er</ex> vit<ex>am</ex>.</note>
-               <ab>It is Ordered at this Penc<ex>i</ex>on that <persName n="John Mitchell" cert="medium" resp="#AHN1">Mr Michell</persName> the Musition of the howse shall have allowed vnto him duringe his liffe five Markes to be p<ex>ai</ex>d every midsomer terme out of the first admittance money that shalbe that terme rec<ex>eiv</ex>ed</ab>
+               <ab>It is Ordered at this Penc<ex>i</ex>on that Mr Michell the Musition of the howse shall have allowed vnto him duringe his liffe five Markes to be p<ex>ai</ex>d every midsomer terme out of the first admittance money that shalbe that terme rec<ex>eiv</ex>ed</ab>
                <gap reason="omitted"/>
             </div>
          </div>

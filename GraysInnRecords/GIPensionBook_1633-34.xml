@@ -23,7 +23,11 @@
             
             <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
             <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
-            
+            <respStmt>
+               <persName>Ari Baughman</persName>
+               <orgName>Bucknell Univerity</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
             <respStmt>
                <persName xml:id="CB">Carolyn Black</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
@@ -235,38 +239,36 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1633-09-29" to-iso="1634-09-29">1633-4</date>
-            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 pp. 234-9">RLGIP1</seg></head>
+            <seg ana="taxon:RLGIPB01" corresp="taxon:RPCIC1 pp. 234-9">RLGIPB01</seg></head>
          <div type="transcription">
             <div>
-               <head>ff 401–1v <date from-iso="1633-11-09" to-iso="1633-11-14"/><supplied>(9–14 November 1633) (Pension orders)</supplied></head>
+               <head>ff 401–1v <date from-iso="1633-11-09" to-iso="1633-11-14"/><supplied>(9–14 November 1633) (Pension orders)</supplied><ptr type="endnote" target="RLE00206"/></head>
                <pb n="401-1v" type="folio"/>
                <gap reason="omitted"/>
                <list>
                   <item>It is agreed that towards the furni <damage/>  now intended ther shall bee levyed  <damage/></item> 
                   <item>the Bench &amp; of eu<ex>er</ex>y Barronet or  <damage/> the house 4 li. a man of euery  <damage/></item>
                   <item>eu<ex>er</ex>y Barrister 40 s. &amp; of eu<ex>er</ex>y yo <damage/>  presently of ech that is in towne  <damage/></item>
-                  <item>house <persName n="John Godbold">mr Godbold</persName> &amp; <persName n="Edward Rumsey">mr Rumsey</persName>  <damage/>  for the Bench and knights  <damage/></item>
-                  <item><persName n="William Ward">will<ex>iam</ex> Ward</persName> for the Auncients./</item>
-                  <item><persName n="John or Richard Newdigate">mr newdegate</persName> &amp; <persName n="John Rutter">mr Rutter</persName> for  <damage/> </item>
-                  <item><persName n="Joseph Gulston">mr Gulston</persName> <persName n="Samuel Wentworth">mr wentworth</persName> &amp; mr  <damage/></item>
-                  
-                  
-                  <item>And <persName n="Ralph Whitfield, the younger">mr whitfeld</persName> is chosen Treasuror to whom these Collectors are to pay there monyes collected weekely</item>
-                  
-                  <item>And power is giuen to <persName n="Ralph Whitfield, the younger">mr whitfeld</persName> <persName n="Peter Brereton">mr Brereton</persName> &amp; <persName n="Ralph, Samuel, or Thomas Davison">mr dauison</persName> the three com<ex>m</ex>ittees of this house for the Maske together with the other com<ex>m</ex>ittees of the <del>three</del> other houses to agree w<ex>i</ex>th the s<ex>ai</ex>d other com<ex>m</ex>ittees of such things as they shall thinke fitt about the accomodation of the Maske./</item>
+                  <item>house mr Godbold &amp; mr Rumsey  <damage/>  for the Bench and knights  <damage/></item>
+                  <item>will<ex>iam</ex> Ward for the Auncients./</item>
+                  <item>mr newdegate &amp; mr Rutter for  <damage/> </item>
+                  <item>mr Gulston mr wentworth &amp; mr  <damage/></item>
+                  <item>And mr whitfeld is chosen Treasuror to whom these Collectors are to pay there monyes collected weekely</item>                  
+                  <item>And power is giuen to mr whitfeld mr Brereton &amp; mr dauison the three com<ex>m</ex>ittees of this house for the Maske together with the other com<ex>m</ex>ittees of the <del>three</del> other houses to agree w<ex>i</ex>th the s<ex>ai</ex>d other com<ex>m</ex>ittees of such things as they shall thinke fitt about the accomodation of the Maske./</item>
                </list>
-               <gap reason="omitted"/>
-               <note type="editorial" n="endnote">The lower outside corner of the folio has been torn with much loss of text. Enough remains to show that the order was for an assessment toward the furnishing of the forthcoming masque, Shirley’s <title>Triumph of Peace</title> (see Appendix 6.1).</note>              
-               
+               <gap reason="omitted"/>                                       
             </div>
+            
             <div>
                <head><date when-iso="1633-11-14"/><supplied>(14 November 1633)</supplied></head>
                <list>
-                  <item><persName n="... Jones">mr Iones</persName> <persName n="William Hooker">mr Hooker</persName> &amp; <persName n="Edward Page">mr Page</persName> three of the Attorneyes of <damage/> hamber are to pay 3 li. a man towards the maske  <damage/>  the chambers they hold there, &amp; the Clarke  <damage/>amber to pay 4 li. &amp; the Custos Breuiums<note type="foot">Breuiums: <hi rend="italic">for</hi> Breuium</note>   <damage/>  in respect of his office &amp; the Clarke  <damage/>  in respect of his office in Grayes  <damage/> in aunchients Collections &amp; the 4<hi rend="superscript">ers</hi>  <damage/>  Collections./</item>
+                  <item>mr Iones mr Hooker &amp; mr Page three of the Attorneyes of <damage/> hamber are to pay 3 li. a man towards the maske  <damage/>  the chambers they hold there, &amp; the Clarke  <damage/>amber to pay 4 li. &amp; the Custos Breuiums<note type="foot">Breuiums: <hi rend="italic">for</hi> Breuium</note>   <damage/>  in respect of his office &amp; the Clarke  <damage/>  in respect of his office in Grayes  <damage/> in aunchients Collections &amp; the 4<hi rend="superscript">ers</hi>  <damage/>  Collections./</item>
                   <item><damage/> towards the maske are to pay  <damage/> seu<ex>er</ex>all collectors thereof by this day <damage/> there seu<ex>er</ex>all Chambers to bee seased for <damage/> forfeited./.</item>
                   <item><damage/> bee assistants and to pay there vacac<ex>i</ex>ons <damage/> in &amp; as they accept the said assistancey <damage/>nd to present names of assistance  <damage/> Pencions the fower maskers &amp; the 25 <damage/> house that are to present the Masque <damage/>nd to bee exempted from the <del>Collection</del> <damage/> to the Masque./</item>
                </list>
+               <gap reason="omitted"/>
             </div>
+            
             <div>
                <head>ff 402v–3 <date when-iso="1633-11-18"/><supplied>(18 November 1633)</supplied></head>
                <pb n="402v-3" type="folio"/>               
@@ -274,29 +276,33 @@
                <list>
                   <item>It is Ordred that if any gent<ex>leman</ex> taxed to the masque shall faile to pay his
                      tax before Thursday next<note type="foot">Thursday next: <hi rend="italic">21 November 1633</hi></note> that then his Chamber if hee haue ^<add place="above">a Chamber</add> shallbe seased as forfited And hee put out of Com<ex>m</ex>ons; And if hee haue noe Chamber &amp; bee in Com<ex>m</ex>ons then hee shallbe put out of Com<ex>m</ex>ons &amp; pay duble taxe. And if hee bee not in Com<ex>m</ex>ons hee shalbee Cast into Com<ex>m</ex>ons &amp; kept in till hee haue payd his taxe double./</item>
-                  <item>It is Ordred that <persName n="William Greeke">mr Will<ex>ia</ex>m Greeke</persName> shall for refuseinge to bee an Assistant pay a fine of 50 li./</item>
-                  <item>It is Ordred that <persName n="Edward Ascough">mr Edward Ascough</persName> bee discharged of his being an Assistant./</item>
-                  <item>It is Ordred that <persName n="William Jackson">mr Will<ex>ia</ex>m Iackson</persName> &amp; <persName n="Richard Proctor">mr Richard Proctor</persName> bee called Assistants &amp; are to bee warned to attend at the next Penc<ex>i</ex>on</item>
+                  <item>It is Ordred that mr Will<ex>ia</ex>m Greeke shall for refuseinge to bee an Assistant pay a fine of 50 li./</item>
+                  <item>It is Ordred that mr Edward Ascough bee discharged of his being an Assistant./</item>
+                  <item>It is Ordred that mr Will<ex>ia</ex>m Iackson &amp; mr Richard Proctor bee called Assistants &amp; are to bee warned to attend at the next Penc<ex>i</ex>on</item>
                </list>
+               <gap reason="omitted"/>
             </div>
-            <gap reason="omitted"/>
+
             <div>
                <head><date when-iso="1633-11-21"/><supplied>(21 November 1633)</supplied></head>
                <list>
-                  <item>It is orderd that <persName n="William Jackson">mr Will<ex>ia</ex>m Iackson</persName> bee discharged of his being an Assistant</item>
-                  <item><persName n="John Onby">Mr Iohn Onby</persName> is called an Assistant &amp; is to attend at the next Penc<ex>i</ex>on./.</item>
-                  <item><persName n="Richard Proctor">Mr Richard Proctor</persName> hath accepted of his being Assistant</item>
+                  <item>It is orderd that mr Will<ex>ia</ex>m Iackson bee discharged of his being an Assistant</item>
+                  <item>Mr Iohn Onby is called an Assistant &amp; is to attend at the next Penc<ex>i</ex>on./.</item>
+                  <item>Mr Richard Proctor hath accepted of his being Assistant</item>
                   <item>It is ordred that the Collectors for the masque shall on Satterday<note type="foot">Satterday: <hi rend="italic">23 November 1633</hi></note> dinner p<ex>re</ex>sent the names of all such as haue not payd there tax, to the end that such as haue chambers in the house may haue the Chambers seased as forfayted &amp; bee put out of Com<ex>m</ex>ons vntill they pay there respectiue taxes. And such as haue noe Chambers to bee put out of commons vntill they <add place="above">shall</add> pay there taxes duble And such as bee not in Com<ex>m</ex>ons shall bee cast into com<ex>m</ex>ons &amp; kept in vntill they pay there respectiue taxes duble./</item>
                </list>
                <gap reason="omitted"/>
+            </div>
                
                <div>
                   <head> <date when-iso="1633-11-26"/><supplied>(26 November 1633)</supplied></head>
                   <list>
-                     <item>It is Ordred that <persName n="Abraham or John Rutter">Mr Rutter</persName> bee added to the Com<ex>m</ex>ittees to the Masque to assist them therein./</item>
-                     <item> It is Ordred that <persName n="Whitfield">mr Whitfeld</persName> may deliu<ex>er</ex> out any of the moneys w<ex>hi</ex>ch hee shall receiue towards the Masque vppon warrants to him to bee directed &amp; seig<del><damage/></del>ned by any three of the Com<ex>m</ex>ittees for the fower Howses of Court and that such deliu<ex>ery</ex> vppon such warrant shallbe a discharge to him; neuerthelesse it is ordred hee may issue out any some not exceedinge xl s. &amp; the same shallbe allowed him hee takeinge a receipt for the same vnder the p<ex>ar</ex>ties hands that receues the same of him respectiuely.</item>
+                     <item>It is Ordred that Mr Rutter bee added to the Com<ex>m</ex>ittees to the Masque to assist them therein./</item>
+                     <item> It is Ordred that mr Whitfeld may deliu<ex>er</ex> out any of the moneys w<ex>hi</ex>ch hee shall receiue towards the Masque vppon warrants to him to bee directed &amp; seig<del><damage/></del>ned by any three of the Com<ex>m</ex>ittees for the fower Howses of Court and that such deliu<ex>ery</ex> vppon such warrant shallbe a discharge to him; neuerthelesse it is ordred hee may issue out any some not exceedinge xl s. &amp; the same shallbe allowed him hee takeinge a receipt for the same vnder the p<ex>ar</ex>ties hands that receues the same of him respectiuely.</item>
                   </list>
                   <gap reason="omitted"/>
+               </div>
+            
                   <div>
                      <head>f 403v <date when-iso="1634-01-23"/><supplied>(23 January 1633/4)</supplied></head>
                      <pb n="403v" type="folio"/>
@@ -304,17 +310,16 @@
                      <list>
                         <item>It is ordred that towards the furnishing of the masque to be p<ex>re</ex>sented at Co<ex>ur</ex>t ther shallbe leuied more then is form<ex>er</ex>ly taxed of eu<ex>er</ex>y man halfe soe much as was formerly taxed vppon him; All these to bee leuied p<ex>re</ex>sently vnder the former penallty by the former Collectors respectiuely &amp; payd to the Tr<ex>easu</ex>rer for the masque prouided that this tax shall not extend to any gent<ex>leman</ex> that is a <del>Rider</del> Masquer or shall Ryde to p<ex>re</ex>sent the masque at Court./.</item>
                      </list>
+                     <gap reason="omitted"/>
                   </div>
-                  <gap reason="omitted"/>
-                  
-                  <div>
-                     
+            
+                  <div>                     
                      <head><date when-iso="1634-01-29"/><supplied>(29 January 1633/4)</supplied></head>
                      <list>
                         <item>All gent<ex>lemen</ex> of this societie that are taxed to paye towards the masque are to make payment before ffryday<note type="foot">ffryday: <hi rend="italic">31 January 1633/4</hi></note> at night or otherwise they shall pay double &amp; their Chambers to be seized./</item>
                      </list>
+                     <gap reason="omitted"/>
                   </div>
-                  <gap reason="omitted"/>
                   
                   <div>
                      
@@ -322,28 +327,25 @@
                      <list>
                         <item>It is ordered that all those who shall not pay their taxes for the masque form<ex>er</ex>ly sett, before Thirsday<note type="foot">Thirsday: <hi rend="italic">6 February 1633/4</hi></note> at noone next shall pay double taxes &amp; their Chambers to be fourthw<ex>i</ex>th seized &amp; if they haue noe Chambers in the house then they are to be cast into Com<ex>m</ex>ons &amp; continued in Com<ex>m</ex>ons vntill they shall pay their taxes double, &amp; the Collectors are to p<ex>re</ex>sent the names vpon Thirsday<note type="foot">Thirsday: <hi rend="italic">6 February 1633/4</hi></note> at night of all such as shall not then haue paid their said taxes.</item>
                      </list>
+                     <gap reason="omitted"/>
                   </div>
-                  
-                  <gap reason="omitted"/>
-                  
-                  <div>
-                     
+                                    
+                  <div>                     
                      <head><date when-iso="1634-02-05"/><supplied>(5 February 1633/4)</supplied></head>
                      <list>
                         <item>It is Orderd that towards the finishing of the masque &amp; the new p<ex>re</ex>sentment therof to the <persName n="King James I">King</persName> &amp; <persName n="Queen Anne of Denmark">Queenes M<ex>aies</ex>tie</persName>, ther shall be levyed more then is form<ex>er</ex>ly taxed, soe much more as was taxed on them at the penc<ex>i</ex>on holden the xxiij day of Ianuary last: All the said monyes to be paid vpon the former penalties to the former Collectors only <persName n="John Heilen">mr Heilen</persName> is to Collect in the place of <persName n="Samuel Wentworth">mr Wentworth</persName> who is out of Towne &amp; the Collectors are to pay the monyes Collected as they shall be Collected to the Tr<ex>easur</ex>er for the masque/. Prouided this Tax shall not extend to any gent<ex>leman</ex> <damage/> is a masquer or Rydes to p<ex>re</ex>sent the Masque./</item>
                      </list>
                   </div>
                   
-                  <div>
-                     
+                  <div>                     
                      <head>f404v <date when-iso="1634-05-05"/><supplied>(5 May 1634)</supplied></head>
                      <pb n="404v" type="folio"/>
                      <gap reason="omitted"/>
                      <list>
                         <item>It is Ordered that all the gent<ex>lemen</ex> of this societie shall before the end of this Terme pay their payments for the last masque or in default therof to be expelled this societie./</item>
                      </list>
+                     <gap reason="omitted"/>
                   </div>
-                  <gap reason="omitted"/>
                   
                   <div>                     
                      <head>f405 <date when-iso="1634-05-12"/><supplied>(12 May)</supplied></head>
@@ -353,8 +355,9 @@
                         <item>These gent<ex>lemen</ex> following are put out of Com<ex>m</ex>ons for not appeerance at this Penc<ex>i</ex>on &amp; not payment of their taxac<ex>i</ex>ons for the late masque vid<ex>elicet</ex>. <persName n="... Burwell, the younger">Mr Burwell</persName> Iu<ex>nior</ex> <persName n="Earl George">Mr Earl George</persName>, <persName n="... Richardson, the younger">Mr Richardson</persName>./</item>
                         <item>It is also orderd that all the gent<ex>lemen</ex> of the house who do not pay their taxac<ex>i</ex>ons for the late masque before Thirsday next,<note type="foot">Thirsday next: <hi rend="italic">15 May 1634</hi></note> their Chambers are to be seized to the vse of the house./</item>
                      </list>
+                     <gap reason="omitted"/>
                   </div>
-                  <gap reason="omitted"/>
+
                   <div>
                      <head><date when-iso="1634-05-16"/><supplied>(16 May 1634)</supplied></head>
                      <list>
@@ -412,8 +415,9 @@
                      <ab><persName n="William Hughes">Mr William Hughes</persName> and <persName n="John Warren">Mr Iohn Warrens</persName> Chambers to be seised for there Commons and there Taxes./</ab>
                      
                      <ab>It is ordered that <persName n="... Lawrence">Mr Lawrence</persName>, <persName n="Dudley North">Mr North Dudley</persName>, <persName n="... Steward, the elder">Mr Stewards Senior</persName> et <persName n="... Steward, the younger">Iunior</persName>, <persName n="Edward Spencer">Mr Spencer Edward</persName> <persName n="Humphrey Mackworth">Mr Humphry Mackworth</persName>, <persName n="Simeon Brograve">Mr Simeon Brograue</persName>, <persName n="Henry Goldsmith">Mr Henry Goldsmith</persName> <persName n="Thomas Proctor, the elder">Mr Thomas Procter Senior</persName>, <persName n="Robert Tylney">Mr Tilney Senior</persName>, <persName n="... Revet, the elder">Mr Reuet Senior</persName>, <persName n="Thomas Marsh">Mr Thomas Marsh</persName>, <persName n="Henry Dewell, the elder">Mr Dewell senior</persName>, and <persName n="Thomas Cole">Mr Thomas Cole</persName>, theire Chambers shalbe seised for theire Taxacions to the Masque, and to paie double</ab>
+                     <gap reason="omitted"/>
                   </div>
-                  <gap reason="omitted"/>
+
                   <div>
                      <head>f 406v <date when-iso="1634-06-11"/><supplied>(11 June 1634)</supplied></head>
                      <pb n="406v" type="folio"/>
@@ -449,11 +453,10 @@
                         <item>The Cheife Butler is to send notice to all the Benchers and auncients ^<add place="above">&amp;c:</add>
                            who haue not paied there Taxacions ^ towards the masque to paie the same with speed.</item>
                      </list>
+                     <gap reason="omitted"/>
                   </div>
-                  <gap reason="omitted"/>
-               </div>
             </div>
-         </div>
+
       </body>
    </text>
    

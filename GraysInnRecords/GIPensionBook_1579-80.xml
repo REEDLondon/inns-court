@@ -21,7 +21,11 @@
             
             <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
             <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
-            
+            <respStmt>
+               <persName>Ari Baughman</persName>
+               <orgName>Bucknell Univerity</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
             <respStmt>
                <persName xml:id="CB">Carolyn Black</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
@@ -233,9 +237,9 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1579-09-29" to-iso="1580-09-29">1579-80</date>
-            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 pp. 102-3">RLGIP1</seg></head>
+            <seg ana="taxon:RLGIPB01" corresp="taxon:RPCIC1 pp. 102-3">RLGIPB01</seg></head>
          <div type="transcription">
-               <head>ff 144–4v <date when-iso="1579-02-05"><supplied>(5 February 1579/80) (Paid to <persName n="... Ladyman">Ladyman</persName>)</supplied></date></head>                
+            <head>ff 144–4v <date when-iso="1579-02-05"><supplied>(5 February 1579/80) (Paid to <persName n="... Ladyman">Ladyman</persName>)</supplied></date><ptr type="endnote" target="RLE00121"/></head>                
                <pb n="144-4v" type="folio"/>               
                <gap reason="omitted"/>
                
@@ -286,7 +290,6 @@
                   </row>
                </table>
                <gap reason="omitted"/>
-            <note type="editorial" n="endnote">Only the eighth item cited here (p 103, ll.1–3), and by implication the seventh, are certainly associ- ated with a play.</note>
          </div>
       </body>
    </text>

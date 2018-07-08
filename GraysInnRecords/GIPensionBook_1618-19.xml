@@ -23,7 +23,11 @@
             
             <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
             <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
-            
+            <respStmt>
+               <persName>Ari Baughman</persName>
+               <orgName>Bucknell Univerity</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
             <respStmt>
                <persName xml:id="CB">Carolyn Black</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
@@ -235,23 +239,22 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1618-09-29" to-iso="1619-09-29">1618-19</date>
-            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 203">RLGIP1</seg></head>
+            <seg ana="taxon:RLGIPB01" corresp="taxon:RPCIC1 p. 203">RLGIPB01</seg></head>
          <div type="transcription">
             <div>
-               <head>f <del>i</del><date when-iso="16-10-22"/></head>
+               <head>f <del>i</del><date when-iso="1618-10-22"/><ptr type="endnote" target="RLE00173"/></head>
                <pb type="folio"/>
                <ab rend="center">22 October 1618</ab>
                <ab>The Names of such as ar allowed by the Readors and have vndertaken to serve this howse with Musicke for this next yeare following for the Owld wages</ab>
                <list>
-                  <item><persName n="Thomas Adson - but possibly John Adson" resp="#AHN1" role="musician">Thomas Adson</persName></item>
-                  <item><persName n="Thomas Cordwell" role="musician">Thomas Cordwell</persName></item>
-                  <item><persName n="John Amaria of Onslow" role="musician">Iohn Amaria <del>of</del> Oneslowe</persName></item> 
-                  <item><persName n="Robert Ammery" role="musician">Rob<ex>er</ex>t Ammery</persName></item>
-                  <item><persName n="William Tallice" role="musician">Will<ex>ia</ex>m Tallice</persName></item>
+                  <item>Thomas Adson</item>
+                  <item>Thomas Cordwell</item>
+                  <item>Iohn Amaria <del>of</del> Oneslowe</item> 
+                  <item>Rob<ex>er</ex>t Ammery</item>
+                  <item>Will<ex>ia</ex>m Tallice</item>
                </list>
                <gap reason="omitted"/>
-               <note type="editorial" n="endnote">‘Thomas Adson’ is possibly an error for John Adson (see printed <title>Inns of Court</title>, Volume 1, Introduction, p xxx).</note>
-                              
+                                            
             </div>
          </div>
       </body>

@@ -23,7 +23,11 @@
             
             <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
             <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
-            
+            <respStmt>
+               <persName>Ari Baughman</persName>
+               <orgName>Bucknell Univerity</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
             <respStmt>
                <persName xml:id="CB">Carolyn Black</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
@@ -235,13 +239,15 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1599-09-29" to-iso="1600-09-29">1599-1600</date>
-            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 132">RLGIP1</seg></head>
-         <div type="transcription">   
+            <seg ana="taxon:RLGIPB01" corresp="taxon:RPCIC1 p. 132">RLGIPB01</seg></head>
+         <div type="transcription">  
+            <div>
             <head>f 245 <date when-iso="1600-02-11"><supplied>(11 February 1599/1600) (Pension orders)</supplied></date></head>
             <pb n="245" type="folio"/>            
             <gap reason="omitted"/>
             <ab>Item there is allowed vnto the Music<ex>i</ex>ons in respect they had entred into the Christmas service &amp; were discharged therefore ther is allowed vnto them vij li.</ab>
             <gap reason="omitted"/>
+            </div>
          </div>
       </body>
    </text>

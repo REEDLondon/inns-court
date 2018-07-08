@@ -23,7 +23,11 @@
             
             <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
             <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
-            
+            <respStmt>
+               <persName>Ari Baughman</persName>
+               <orgName>Bucknell Univerity</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
             <respStmt>
                <persName xml:id="CB">Carolyn Black</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
@@ -235,14 +239,16 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1640-09-29" to-iso="1641-09-29">1640-1</date>
-            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 359">RLGIP1</seg></head>
+            <seg ana="taxon:RLGIPB01" corresp="taxon:RPCIC1 p. 359">RLGIPB01</seg></head>
          <div type="transcription">
-            <head>f 427 <date when-iso="1640-06-01"><supplied>(1 June 1641) (Pension orders)</supplied></date></head>
+            <div>
+               <head>f 427 <date when-iso="1640-06-01"><supplied>(1 June 1641) (Pension orders)</supplied></date><ptr type="endnote" target="RLE00273"/></head>
             <pb n="427" type="folio"/>
             <gap reason="omitted"/>
             <note type="marginal"><persName n="Henry Parker">Mr Parker</persName> M<ex>aste</ex>r of the Revells<handShift/>, in <persName n="Edward Page">Mr Edw<ex>ard</ex> Page</persName> his Roome.<handShift/></note>
             <ab>It is ordered that <persName n="Henry Parker">Mr Henry Parker</persName> shall bee M<ex>aste</ex>r of the Revells in the Roome of <persName n="Edward Page">Mr Edward Page</persName>.</ab>             
             <note type="editorial">No explanation is given for the appointment of Parker as master of the revels. Appointments to this office do not otherwise occur in Gray’s Inn accounts.</note>
+            </div>
          </div>
             
       </body>

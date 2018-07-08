@@ -23,7 +23,11 @@
             
             <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
             <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
-            
+            <respStmt>
+               <persName>Ari Baughman</persName>
+               <orgName>Bucknell Univerity</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
             <respStmt>
                <persName xml:id="CB">Carolyn Black</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
@@ -235,14 +239,16 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1585-09-29" to-iso="1586-09-29">1585-6</date>
-            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 109"></seg></head>
+            <seg ana="taxon:RLGIPB01" corresp="taxon:RPCIC1 p. 109">RLGIPB01</seg></head>
          <div type="transcription">
+            <div>
             <head>f 187 <date when-iso="1585-11-26"><supplied>(26 November 1585) (Pension orders)</supplied></date></head>
             <pb n="187" type="folio"/>
             <gap reason="omitted"/>
-            <note type="marginal">Againest all disorder in ye Cristmas teime</note>
+            <note type="marginal" rend="left">Againest all disorder in ye Cristmas teime</note>
             <ab>At this Pention it is ordered that from henceforthe no gentleman of this Socyetie nor any other p<ex>er</ex>son by the appoyntment choyse or assent of any gentleman of this house shall in tyme of Cristmas or any other tyme take vpon hym or vse the Name place or com<ex>m</ex>aundement of Lord or any such other lyke or break open any chamber or disorderlye molest or abuse any fellowe or officer of this howsse w<ex>i</ex>thin the p<ex>re</ex>cincte of the same vpon payne to be <del>vtterlye</del> expulsed <del>the</del> for the abuse or disorder against any fellow of this howsse &amp; of being put out of com<ex>m</ex>ons for abuse of any officer</ab>
             <gap reason="omitted"/>
+         </div>
          </div>
       </body>
    </text>

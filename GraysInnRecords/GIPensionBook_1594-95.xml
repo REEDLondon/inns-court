@@ -23,7 +23,11 @@
             
             <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
             <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
-            
+            <respStmt>
+               <persName>Ari Baughman</persName>
+               <orgName>Bucknell Univerity</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
             <respStmt>
                <persName xml:id="CB">Carolyn Black</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
@@ -236,14 +240,14 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1594-09-29" to-iso="1595-09-29">1594-5</date>
-            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 pp. 121-4">RLGIP1</seg></head>
+            <seg ana="taxon:RLGIPB01" corresp="taxon:RPCIC1 pp. 121-4">RLGIPB01</seg></head>
          <div type="transcription">
             <div>
-               <head>f 215v <date when-iso="1595-02-11"><supplied>(11 February 1594/5) (Pension orders)</supplied></date></head>
+               <head>f 215v <date when-iso="1595-02-11"><supplied>(11 February 1594/5) (Pension orders)</supplied></date><ptr type="endnote" target="RLE00104"/></head>
                <pb n="215v" type="folio"/>
                <gap reason="omitted"/>              
                <note type="marginal" rend="left">Mr Wil<ex>ia</ex>m Mills to Lend C markes</note>
-               <ab>It ys orderyd that <persName n="William Mills">Mr Will<ex>ia</ex>m Mills</persName> shalbe intreatyd to delyuer vnto <persName n="William Johnson">Mr Will<ex>ia</ex>m Iohnson</persName> &amp; <persName n="Edward Morris">Mr Edward Morrys</persName> the some of one hvndryd mark<ex>es</ex> to be layd out &amp; bestowyd vppon the Gentlemen for ther sport<ex>es</ex> &amp; shewes this Shrovetyde<note type="foot">Shrovetyde, shrovetyd, shrouetide: <hi rend="italic">2–4 March 1594/5</hi></note> at the Court before the Queenes Ma<ex>ies</ex>tie, the same hvndryd m<ex>a</ex>rk<ex>es</ex> to be payd agayne to the sayd Mr Mills hys Exec<ex>utors</ex> or Assign<ex>es</ex> before thend of the next Term</ab>
+               <ab>It ys orderyd that Mr Will<ex>ia</ex>m Mills shalbe intreatyd to delyuer vnto Mr Will<ex>ia</ex>m Iohnson &amp; Mr Edward Morrys the some of one hvndryd mark<ex>es</ex> to be layd out &amp; bestowyd vppon the Gentlemen for ther sport<ex>es</ex> &amp; shewes this Shrovetyde<note type="foot">Shrovetyde, shrovetyd, shrouetide: <hi rend="italic">2–4 March 1594/5</hi></note> at the Court before the Queenes Ma<ex>ies</ex>tie, the same hvndryd m<ex>a</ex>rk<ex>es</ex> to be payd agayne to the sayd Mr Mills hys Exec<ex>utors</ex> or Assign<ex>es</ex> before thend of the next Term</ab>
             <gap reason="omitted"/>
                <note type="marginal" rend="left">a Tax for shewes &amp; sport<ex>es</ex> before her Ma<ex>iest</ex>ie at shrouetide<note type="foot">Shrovetyde, shrovetyd, shrouetide: <hi rend="italic">2–4 March 1594/5</hi></note></note>
                <table>
@@ -253,9 +257,9 @@
                   </row>
                </table>
                <note type="editorial" n="endnote">The ‘sportes &amp; shewes this Shrovetyde<note type="foot">2–4 March 1594/5</note> at the Court before the Queenes Maiestie’ were doubtless related to The Masque of Proteus (see printed Inns of Court Volume 2, Appendix 6.1).</note>               
-               
-            </div>
             <gap reason="omitted"/>
+            </div>
+            
             <div>
                <head>f216 <date when-iso="1595-05-21"><supplied>(21 May 1595)</supplied></date></head>
                <pb n="216" type="folio"/>                  
@@ -277,92 +281,93 @@
                   but ipso facto to be expelled the same</ab>
                <table>
                   <row>
-                     <cell><persName n="William Andrewes">Andrewes W<ex>illiam</ex></persName></cell>
-                     <cell><persName n="Thomas Dove">Dove</persName></cell>
-                     <cell><persName n="Simon? Muskett">Muskett</persName></cell>
-                     <cell><persName n="James Smith">Smyth Ia<ex>mes</ex></persName></cell>
+                     <cell>Andrewes W<ex>illiam</ex></cell>
+                     <cell>Dove</cell>
+                     <cell>Muskett</cell>
+                     <cell>Smyth Ia<ex>mes</ex></cell>
                   </row>
                   <row>
-                     <cell><persName n="William Abnett">Abnett</persName></cell>
-                     <cell><persName n="Edmund Escourt, the younger">Escourt Iu<ex>nior</ex></persName></cell>
-                     <cell><persName n="Edward Morris">Morris Ed<ex>ward</ex></persName></cell>
+                     <cell>Abnett</cell>
+                     <cell>Escourt Iu<ex>nior</ex></cell>
+                     <cell>Morris Ed<ex>ward</ex></cell>
                      <cell>Sheaffeild</cell>
                   </row>
                   <row>
-                     <cell><persName n="Abraham Bowne">Bowne</persName></cell>
-                     <cell><persName n="Edward Ellis">Ellis Ed<ex>ward</ex></persName></cell>
-                     <cell><persName n="John Marshall">Marshall</persName></cell>
-                     <cell><persName n="James Spurling">Spurling Ia<ex>mes</ex></persName></cell>
+                     <cell>Bowne</cell>
+                     <cell>Ellis Ed<ex>ward</ex></cell>
+                     <cell>Marshall</cell>
+                     <cell>Spurling Ia<ex>mes</ex></cell>
                   </row>
                   <row>
-                     <cell><persName n="George Bing">Bing G<ex>eorge</ex></persName></cell>
-                     <cell><persName n="William Ellis">Ellis W<ex>illiam</ex></persName></cell>
-                     <cell><persName n="Thomas Marshe">Marshe</persName></cell>
-                     <cell><persName n="Thomas Tildesley">Tyldesley T<ex>homas</ex></persName></cell>
+                     <cell>Bing G<ex>eorge</ex></cell>
+                     <cell>Ellis W<ex>illiam</ex></cell>
+                     <cell>Marshe</cell>
+                     <cell>Tyldesley T<ex>homas</ex></cell>
                   </row>
                   <row>
-                     <cell><persName n="Thomas Bold">Bold T<ex>homas</ex></persName></cell>
-                     <cell><persName n="Bernard Ellis">Ellis B<ex>ernard</ex></persName></cell>
-                     <cell><persName n="... Newton">Newton</persName></cell>
-                     <cell><persName n="Robert Tilney"><del>Tylney Ro<ex>bert</ex></del></persName></cell>
+                     <cell>Bold T<ex>homas</ex></cell>
+                     <cell>Ellis B<ex>ernard</ex></cell>
+                     <cell>Newton</cell>
+                     <cell><del>Tylney Ro<ex>bert</ex></del></cell>
                   </row>
                   <row>
-                     <cell><persName n="Bartyn Burton">Burton B<ex>artyn</ex></persName></cell>
-                     <cell><persName n="Henry Fleetwood">ffleetwod H<ex></ex></persName></cell>
-                     <cell><persName n="Thomas Pepys, the elder">Pepps T<ex>homas</ex> sen<ex>ior</ex></persName></cell>
-                     <cell><persName n="Thomas Vaughan">Vaughan T<ex>homas</ex></persName></cell>
+                     <cell>Burton B<ex>artyn</ex></cell>
+                     <cell>ffleetwod H<ex></ex></cell>
+                     <cell>Pepps T<ex>homas</ex> sen<ex>ior</ex></cell>
+                     <cell>Vaughan T<ex>homas</ex></cell>
                   </row>
                   <row>
-                     <cell><persName n="John Brickett">Brickett</persName></cell>
-                     <cell><handShift/>mort<ex>uus</ex> <persName n="Christopher Goad">Goad</persName><handShift/></cell>
-                     <cell><persName n="John Piggott">Piggott Io<ex>hn</ex></persName></cell>
-                     <cell><persName n="Francis Whetston">Whetstone</persName></cell>
+                     <cell>Brickett</cell>
+                     <cell><handShift/>mort<ex>uus</ex> Goad<handShift/></cell>
+                     <cell>Piggott Io<ex>hn</ex></cell>
+                     <cell>Whetstone</cell>
                   </row>
                   <row>
-                     <cell><persName n="Oliver Briggs">Brigg<ex>es</ex></persName></cell>
-                     <cell><persName n="Edmund or Edward Hendon">Hendon</persName></cell>
-                     <cell><persName n="Ralph Piggott">Piggott Ra<ex>lph</ex></persName></cell>
-                     <cell><persName n="Richard Williamson">Williamson</persName></cell>
+                     <cell>Brigg<ex>es</ex></cell>
+                     <cell>Hendon</cell>
+                     <cell>Piggott Ra<ex>lph</ex></cell>
+                     <cell>Williamson</cell>
                   </row>
                   <row>
-                     <cell><handShift/>mort<ex>uus</ex><handShift/> <persName n="John Conyers">Conyers</persName></cell>
-                     <cell><persName n="John Haye">Haye Io<ex>hn</ex></persName></cell>
-                     <cell><persName n="William Rothwell">Rothwell</persName></cell>
+                     <cell><handShift/>mort<ex>uus</ex><handShift/> Conyers</cell>
+                     <cell>Haye Io<ex>hn</ex></cell>
+                     <cell>Rothwell</cell>
                      <cell></cell>
                   </row>
                   <row>
-                     <cell><persName n="John Clark, the elder">Clark Io<ex>hn</ex> sen<ex>ior</ex></persName></cell>
-                     <cell><persName n="Thomas Lamphew">Lamploughe</persName></cell>
-                     <cell><persName n="Robert Rich; check: may be Baron Rich">Ritche</persName></cell>
+                     <cell>Clark Io<ex>hn</ex> sen<ex>ior</ex></cell>
+                     <cell>Lamploughe</cell>
+                     <cell>Ritche</cell>
                      <cell></cell>
                   </row>
                   <row>
-                     <cell><persName n="Thomas Colwell">Colwell</persName></cell>
-                     <cell><persName n="Henry Lacy">Lacy</persName></cell>
-                     <cell><persName n="Edward Rolt">Roult Ed<ex>ward</ex></persName></cell>
+                     <cell>Colwell</cell>
+                     <cell>Lacy</cell>
+                     <cell>Roult Ed<ex>ward</ex></cell>
                      <cell></cell>
                   </row>
                   <row>
-                     <cell><persName n="Robert Castell, the elder">Castell Ro<ex>bert</ex> sen<ex>ior</ex></persName></cell>
-                     <cell><persName n="Thomas Lancaster">Lancaster T<ex>homas</ex></persName></cell>
-                     <cell><persName n="T. Smalpage">Smalpage</persName></cell>
+                     <cell>Castell Ro<ex>bert</ex> sen<ex>ior</ex></cell>
+                     <cell>Lancaster T<ex>homas</ex></cell>
+                     <cell>Smalpage</cell>
                      <cell></cell>
                   </row>
                   <row>
-                     <cell><persName n="Thomas Doughtie">Doughtie</persName></cell>
-                     <cell><persName n="John Leett or Leeke">Leett Io<ex>hn</ex></persName></cell>
-                     <cell><persName n="John Smith, the younger">Smith Io<ex>hn</ex> Iuni<ex>or</ex></persName></cell>
+                     <cell>Doughtie</cell>
+                     <cell>Leett Io<ex>hn</ex></cell>
+                     <cell>Smith Io<ex>hn</ex> Iuni<ex>or</ex></cell>
                      <cell></cell>
                   </row>
                   <row>
-                     <cell><persName n="Hugo Davenport">Davenport Hugo</persName></cell>
+                     <cell>Davenport Hugo</cell>
                      <cell></cell>
                      <cell></cell>
                      <cell></cell>
                   </row>
                </table>  
+            <gap reason="omitted"/>           
             </div>
-            <gap reason="omitted"/>              
+            
             <div>
                <head>f 216v <date when-iso="1595-07-01"><supplied>(1 July 1595)</supplied></date></head>
                <pb n="216v" type="folio"/>                  
@@ -428,9 +433,10 @@
                   </row>
                </table>
                <note type="marginal" rend="left">Mr Mills <add place="above">lent</add> the House C marks</note>
-               <ab>At the same pencion it is ordered that <persName n="?">Mr Lany</persName><note>Mr Lany: <hi rend="italic">treasurer</hi></note> the recever of thadmittance money shall pay vnto Mr Mills out of the same Admittance Money the some of xl li. over and besid<ex>es</ex> the four pound remaynyng in the hand<ex>es</ex> of the said Mr Mills for the admission of <persName n="?">Mr Evers</persName> into the fellowshippe of this house which money the said Mr Mills receaved of the said Mr Evers all which is toward the discharg of the some of A <del>C mark<ex>es</ex></del> C Mark<ex>es</ex> disbursed by the said Mr Mills at the instance of the readers of this house towardes the disport<ex>es</ex> <add place="above">before <persName n="Queen Elizabeth I">her maiestie</persName></add> at shrovetyd last past<note>shrovetyd last past: <hi rend="italic">2–4 March 1594/5</hi></note></ab>
-            </div>
+               <ab>At the same pencion it is ordered that Mr Lany<note>Mr Lany: <hi rend="italic">treasurer</hi></note> the recever of thadmittance money shall pay vnto Mr Mills out of the same Admittance Money the some of xl li. over and besid<ex>es</ex> the four pound remaynyng in the hand<ex>es</ex> of the said Mr Mills for the admission of Mr Evers into the fellowshippe of this house which money the said Mr Mills receaved of the said Mr Evers all which is toward the discharg of the some of A <del>C mark<ex>es</ex></del> C Mark<ex>es</ex> disbursed by the said Mr Mills at the instance of the readers of this house towardes the disport<ex>es</ex> <add place="above">before her maiestie</add> at shrovetyd last past<note>shrovetyd last past: <hi rend="italic">2–4 March 1594/5</hi></note></ab>
             <gap reason="omitted"/>
+            </div>
+            
             <div>
                <head>f 217 <date when-iso="1595-07-08"><supplied>(8 July 1595)</supplied></date></head>
                <pb n="217" type="folio"/>                     

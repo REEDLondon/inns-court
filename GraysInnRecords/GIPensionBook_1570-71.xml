@@ -18,7 +18,12 @@
             <funder><orgName>Social Sciences and Humanities Research Council, Ottawa,
                Canada</orgName></funder>            
 		 <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
-		 <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>            
+		 <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>         
+            <respStmt>
+               <persName>Ari Baughman</persName>
+               <orgName>Bucknell Univerity</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
             <respStmt>
                <persName xml:id="CB">Carolyn Black</persName>
                <orgName>Records of Early English Drama (REED)</orgName>

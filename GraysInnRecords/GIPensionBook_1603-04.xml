@@ -23,7 +23,11 @@
             
             <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
             <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
-            
+            <respStmt>
+               <persName>Ari Baughman</persName>
+               <orgName>Bucknell Univerity</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
             <respStmt>
                <persName xml:id="CB">Carolyn Black</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
@@ -235,14 +239,15 @@
       <body xml:lang="eng">
          <head>
             <date from-iso="1603-09-29" to-iso="1604-09-29">1603-4</date>
-            <seg ana="taxon:RLGIP1" corresp="taxon:RPCIC1 p. 136">RLGIP1</seg></head>
+            <seg ana="taxon:RLGIPB01" corresp="taxon:RPCIC1 p. 136">RLGIPB01</seg></head>
          <div type="transcription">
-               <head>f 261v <date when-iso="1604-02-07"><supplied>(7 February 1603/4) (Pension orders)</supplied></date></head>
+            <div>
+               <head>f 261v <date when-iso="1604-02-07"><supplied>(7 February 1603/4) (Pension orders)</supplied></date><ptr type="endnote" target="RLE00116"/></head>
                <pb n="261v" type="folio"/>         
                <gap reason="omitted"/>               
-               <ab><persName n="John Mitchell" cert="medium" resp="#AHN1">Mr Michell</persName> &amp; the music<ex>i</ex>ons are allowed xl s. for their attendance of Candlemas daie, albeit they then did not p<ex>er</ex>forme their service in respect of the late infection</ab>
-               <note type="editorial" n="endnote">Mr Michell was ‘the Musition of the howse’ at Gray’s Inn (see printed <title>Inns of Court</title>, volume 1, p 190, l.26).</note>      
-            
+               <ab>Mr Michell &amp; the music<ex>i</ex>ons are allowed xl s. for their attendance of Candlemas daie, albeit they then did not p<ex>er</ex>forme their service in respect of the late infection</ab>
+               
+         </div>
          </div>
       </body>
    </text>
