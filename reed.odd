@@ -20,9 +20,12 @@
         <p>This TEI P5 Customisation file was based on exploration of the REED project Fortune
           Theatre Documents, then manual customisation based on refinements in discussion and
           collaboration with the REED project. The intention is that it should evolve over time.</p>
+        <p>Updates have now also been made to support the REED:London project.</p>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
+      <change when="2018-07-11" who="#JC">Minor updates to ODD, version 0.5</change>
+      <change when="2018-07-11" who="#DKJ">Revision of ODD to version 0.4</change>
       <change when="2016-08-07" who="#JC">Revision of ODD to version 0.3</change>
       <change when="2016-05-19" who="#JC">Revision of ODD to version 0.2</change>
       <change when="2015-12-21" who="#JC">Creation of ODD to version 0.1</change>
@@ -49,13 +52,14 @@
 
 <!-- core module, lots of things. -->
 
+<!-- sp/speaker/stage needed by REED:London -->
           <moduleRef key="core"
             include="abbr add addrLine address author bibl biblScope cb choice
                      cit citedRange corr date del editor expan foreign gap
                      gloss head hi item label l lb lg list listBibl measure
                      milestone name note orig p pb ptr pubPlace
                      publisher quote ref reg relatedItem resp respStmt
-                     rs sic term textLang title unclear"/>
+                     rs sic sp speaker stage term textLang title unclear"/>
 
           <!-- added 'erasure' to del as per request -->
           <elementSpec ident="del" mode="change" module="core">
@@ -516,11 +520,12 @@
 
 
 <!-- header module -->
+          <!-- xenodata needed by REED:London for mods crosswalk -->
           <moduleRef key="header"
             include="authority availability calendar calendarDesc catDesc  category change classDecl distributor edition editionStmt 
                editorialDecl encodingDesc fileDesc funder keywords idno langUsage language licence 
                namespace noteStmt profileDesc projectDesc publicationStmt refsDecl revisionDesc 
-               seriesStmt sourceDesc tagUsage tagsDecl taxonomy teiHeader titleStmt listPrefixDef prefixDef"/>
+               seriesStmt sourceDesc tagUsage tagsDecl taxonomy teiHeader titleStmt listPrefixDef prefixDef xenoData"/>
 
 
           <!-- idno: @type -->
@@ -676,7 +681,10 @@
           <moduleRef key="msdescription"/>
           
           
-          <!-- Non-conformant change to msName to allow rs inside -->
+          
+          <!-- Commented out since this is now solved by https://github.com/TEIC/TEI/issues/1597 -->
+          
+      <!--    <!-\- Non-conformant change to msName to allow rs inside -\->
           <elementSpec ident="msName" mode="change" module="msdescription">
             <content>
               <alternate minOccurs="1" maxOccurs="unbounded">
@@ -684,7 +692,7 @@
                 <elementRef key="rs"/>
               </alternate>
             </content>
-          </elementSpec>
+          </elementSpec>-->
           
           
 
@@ -1071,3 +1079,4 @@
     </body>
   </text>
 </TEI>
+

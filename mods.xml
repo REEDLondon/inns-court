@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.org/dc/schematron"?>
+
+<?xml-model href="out/REED_London.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" http://www.loc.gov/mods/v3?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+
+     <xenoData>
+        <mods:mods>
+
+           
+           <mods:titleInfo><!-- "Resource Title" -->
+              <mods:title></mods:title>
+           </mods:titleInfo>
+           
+           <mods:name type="personal"><!-- or name type="corporate" -->
+              
+              <!-- if corporate none of the rest through affiliation -->
+              <mods:namePart type="family"></mods:namePart>
+              <mods:namePart type="given"></mods:namePart>
+              <mods:date type="birth"></mods:date>
+              <mods:date type="death"></mods:date>
+              <mods:role></mods:role>
+              <mods:affiliation></mods:affiliation>
+              <!-- personal name parts end here -->
+           </mods:name>
+           
+           <mods:typeOfResource>text</mods:typeOfResource>
+              <mods:genre type="Broad Genre"></mods:genre>
+              <mods:genre type="Specific Genre"></mods:genre>
+              <mods:genre type="Additional Genre"></mods:genre>
+           </mods:typeOfResource>
+           
+            <mods:language>
+               <mods:languageTerm code="eng"></mods:languageTerm>
+               <mods:languageTerm code="lat"></mods:languageTerm>
+           </mods:language>
+           
+           <mods:physicalDescription>
+              <mods:internetMediaType>text/xml</mods:internetMediaType>
+           </mods:physicalDescription>
+           
+           <mods:abstract></mods:abstract><!-- describe content in 1-2 sentences ... maybe use abstract from IoC Documents section -->
+           
+           <mods:subject>
+              <mods:subjectTopic>Theater--England--London--History--16th century</mods:subjectTopic> <!-- use correct century -->
+              <mods:geographic uri="http://www.geonames.org/2643743">London</mods:geographic>
+              <mods:temporal encoding="iso8601" point="start"></mods:temporal><!-- if only one date do not use point start/end" -->
+              <mods:temporal encoding="iso8601" point="end"></mods:temporal>
+           </mods:subject>
+           
+           <mods:accessConditions>CC By-NC 4.0</mods:accessConditions>
+                               
+        </mods:mods>
+     </xenoData>
+                      
+  </teiHeader>
+  <text>
+      <body>
+         <p>Some text here.</p>
+      </body>
+  </text>
+</TEI>

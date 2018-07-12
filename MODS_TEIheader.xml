@@ -9,7 +9,7 @@
          <titleStmt>
             
             <title type="main">Inns of Court</title>
-            
+
             
             <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>
             <funder><orgName>CANARIE</orgName></funder> 
@@ -21,13 +21,16 @@
             <funder><orgName>Social Sciences and Humanities Research Council, Ottawa,
                Canada</orgName></funder>
             
-            <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
-            <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
+		 <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
+		 <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
+
+
             <respStmt>
                <persName>Ari Baughman</persName>
                <orgName>Bucknell Univerity</orgName>
                <resp>REED London research assistant, 2018</resp>
             </respStmt>
+            
             <respStmt>
                <persName xml:id="CB">Carolyn Black</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
@@ -108,13 +111,13 @@
                <resp>Principal Investigator, SSHRC grant; Director of Research and General Editor</resp>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Maureen Maclean</persName>
                <orgName>Bucknell University</orgName>
                <resp>REED London research assistant, 2018</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName xml:id="KM">Kimberley Martin</persName>
                <orgName>University of Guelph</orgName>
@@ -225,7 +228,6 @@
          <langUsage>
             <language ident="eng">English</language>
             <language ident="lat">Latin</language>
-            <language ident="fra">Anglo-French</language>
          </langUsage>
          <settingDesc>
             <place>
@@ -233,73 +235,27 @@
             </place>
          </settingDesc>
       </profileDesc>
-      <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
-         <mods:mods>
-            <mods:titleInfo>
-               <mods:title>Gray's Inn Pension Book, 1614-15</mods:title>
-            </mods:titleInfo>
-            <mods:name
-               type="corporate">
-               <mods:namePart>Gray's Inn</mods:namePart>
-            </mods:name>
-            <mods:typeOfResource>text</mods:typeOfResource>
-            <mods:genre type="formatType">Born Digital</mods:genre>
-            <mods:genre type="format">born digital</mods:genre>
-            <mods:genre type="primaryGenre">Record</mods:genre>
-            <mods:genre type="subgenre">Archival material</mods:genre>
-            <mods:genre>Performance</mods:genre>
-            <mods:language>
-               <mods:languageTerm type="text">English</mods:languageTerm>
-            </mods:language>
-            <mods:physicalDescription>
-               <mods:form authority="marccategory">electronic resource</mods:form>
-               <mods:internetMediaType>text/xml</mods:internetMediaType>
-               <mods:digitalOrigin>born digital</mods:digitalOrigin>
-            </mods:physicalDescription>
-            <mods:abstract>"Surviving Pension Books date from 1568–9. William Dugdale consulted an earlier volume, now lost. His Origines Juridiciales (1666) preserves entries from 1529–30 and 1550–1 (see pp 58–9, 74; see p lxxvi for document description). Financial accounts were entered in the Pension Book to 1582–3, and thereafter in Ledger Books. The library holds microfiche of the Pension Books produced in 1976 (skipping ff 234v–5), and digital photos of PEN/1/1 (Pension Book 1), taken in 2006 when the volume was disbound for conservation.
-               The standard essential publication is Reginald J. Fletcher (ed), The Pension Book of Gray’s Inn (Records of the Honourable Society)1569–1669, vol 1 (London, 1901)."</mods:abstract>
-            <mods:subject>
-               <mods:topic valueURI="http://id.loc.gov/authorities/subjects/sh2010116269">Theater--England--London--History--17th 
-               </mods:topic>
-            </mods:subject>
-            <mods:subject>
-               <mods:geographic valueURI="http://www.geonames.org/2643743/">London</mods:geographic>
-            </mods:subject>
-            <mods:subject>
-               <mods:temporal point="start">1601</mods:temporal>
-               <mods:temporal point="end">1700</mods:temporal>
-            </mods:subject>    
-            <mods:accessCondition
-               type="use and reproduction">Use of this public-domain resource is governed by the &lt;a
-               rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"
-               target="blank"&gt;Creative Commons Attribution-NonCommercial 4.0 International
-               License&lt;/a&gt;.</mods:accessCondition>
-            <mods:recordInfo>
-               <mods:recordOrigin>This MODS record was created using the Islandora XML Forms collection of Drupal modules.</mods:recordOrigin>
-               <mods:languageOfCataloging>
-                  <mods:languageTerm type="text">English</mods:languageTerm>
-               </mods:languageOfCataloging>
-               <mods:recordContentSource>Canadian Writing Research Collaboratory</mods:recordContentSource>
-            </mods:recordInfo>
-         </mods:mods>
-      </xenoData>
+      
+      
+      
    </teiHeader>
-   
-   <text ana="taxon:grays_inn" type="record">
+
+   <text ana="taxon:letter" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1614-9-29" to-iso="1615-09-29">1614-15</date>
-            <seg ana="taxon:RLGIPB01" corresp="taxon:RPCIC1 p. 182">RLGIPB01</seg></head>
+            <date when-iso="YYY-MM-DD">1234</date>
+            <seg ana="taxon:RL1234" corresp="taxon:RLPIC1 686">six number code</seg></head>
          <div type="transcription">
             <div>
-            <head>f 304 <date when-iso="1614-11-08"/><supplied>(8 November 1614) (Cupboard order)</supplied></head>
-            <pb n="304" type="folio"/>              
+               <head> <supplied></supplied></head>
+            <pb type="sheet"/>
             <gap reason="omitted"/>
-            <ab>Eightly for that the disorders in the Christmas tyme may booth infecte the mynds and p<ex>re</ex>iudice the estats &amp; fortunes of the younger gent<ex>lemen</ex> in the same Societies It is Therfore Ordered that ther shalbe com<ex>m</ex>ons off the howse kept in every howse of Court duringe the Crismas and that none shall play in the severall halls at the dice except he be a gent<ex>leman</ex> of the sam Societie &amp; in Com<ex>m</ex>ons &amp; the benefitt of the boxes to goo to the Butlers of every howse Respectively.</ab>
-            <gap reason="omitted"/>         
+            <ab>
+            </ab>
             </div>
+
          </div>
       </body>
    </text>
-   
+  
 </TEI>
