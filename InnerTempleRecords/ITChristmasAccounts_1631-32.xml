@@ -229,12 +229,55 @@
             </place>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <!-- Add new major milestone changes to top -->
-         <change when="2018-06-20" who="#KC">split larger file containint multiple records into individual record files</change>
-         <change when="2018-04-23" who="#KC">start adding records to file</change>
-         <change when="2018-02-03" who="#JAKA1">created document</change>
-      </revisionDesc>
+   <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
+      <mods:mods>
+         <mods:titleInfo>
+            <mods:title>Inner Temple Christmas Accounts, 1631-32</mods:title>
+         </mods:titleInfo>
+         <mods:name
+            type="corporate">
+            <mods:namePart>Inner Temple</mods:namePart>
+         </mods:name>
+         <mods:typeOfResource>text</mods:typeOfResource>
+         <mods:genre type="formatType">Born Digital</mods:genre>
+         <mods:genre type="format">born digital</mods:genre>
+         <mods:genre type="primaryGenre">Record</mods:genre>
+         <mods:genre type="subgenre">Archival material</mods:genre>
+         <mods:genre>Performance</mods:genre>
+         <mods:language>
+            <mods:languageTerm type="text">English</mods:languageTerm>
+         </mods:language>
+         <mods:physicalDescription>
+            <mods:form authority="marccategory">electronic resource</mods:form>
+            <mods:internetMediaType>text/xml</mods:internetMediaType>
+            <mods:digitalOrigin>born digital</mods:digitalOrigin>
+         </mods:physicalDescription>
+         <mods:abstract>"The Christmas account book for 1614–82 is unique among the surviving records of the Inns, though there must have been others of its kind. It contains receipts and payments of the stewards of Christmas commons and is cited here largely for weekly expenditures on music for the revels. The stewards (of whom there were customarily three or four) entered receipts and expenses for the four weeks of Christmas commons beginning at the feast of St Thomas (21 December) and ending a week after Epiphany. For some years only three weeks of commons are recorded. Expenditures for food and drink are recorded daily, other expenses weekly. The volume also contains the text of some acts of parliament. Accounts for the following years are missing: 1625–6, 1630–1, 1632–40, 1642–60."</mods:abstract>
+         <mods:subject>
+            <mods:topic valueURI="http://id.loc.gov/authorities/subjects/sh2010116269">Theater--England--London--History--17th 
+            </mods:topic>
+         </mods:subject>
+         <mods:subject>
+            <mods:geographic valueURI="http://www.geonames.org/2643743/">London</mods:geographic>
+         </mods:subject>
+         <mods:subject>
+            <mods:temporal point="start">1601</mods:temporal>
+            <mods:temporal point="end">1700</mods:temporal>
+         </mods:subject>    
+         <mods:accessCondition
+            type="use and reproduction">Use of this public-domain resource is governed by the &lt;a
+            rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"
+            target="blank"&gt;Creative Commons Attribution-NonCommercial 4.0 International
+            License&lt;/a&gt;.</mods:accessCondition>
+         <mods:recordInfo>
+            <mods:recordOrigin>This MODS record was created using the Islandora XML Forms collection of Drupal modules.</mods:recordOrigin>
+            <mods:languageOfCataloging>
+               <mods:languageTerm type="text">English</mods:languageTerm>
+            </mods:languageOfCataloging>
+            <mods:recordContentSource>Canadian Writing Research Collaboratory</mods:recordContentSource>
+         </mods:recordInfo>
+      </mods:mods>
+   </xenoData>
    </teiHeader>
    
  <text ana="taxon:inner_temple" type="record">
