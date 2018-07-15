@@ -234,7 +234,7 @@
       <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
          <mods:mods>
             <mods:titleInfo>
-               <mods:title>Lincoln's Inn Black Book 6, 1601-02</mods:title>
+               <mods:title>Lincoln's Inn Black Book 6, 1603-04</mods:title>
             </mods:titleInfo>
             <mods:name
                type="corporate">
@@ -288,67 +288,44 @@
          <change when="2018-05-30" who="#KM">created document</change>
          <change when="2018-06-12" who="KM">added translation</change>
       </revisionDesc>
-      
    </teiHeader>
-        
    
    <text ana="taxon:letter" type="record">
       <body xml:lang="eng">
          <head>Lincoln's Inn Black Book 6
-            <date from-iso="1601-09-29" to-iso="1602-09-29">1601-2</date> 
-            <seg ana="taxon:RLLIBB06" corresp="taxon:RLPIC1 pp. 134">RLLIBB06</seg></head> 
-         <div type="transcription">
-            <div>
-            <head>f 91v<date when-iso="1601-11-26"/> <supplied>(26 November)(Christmas officers)</supplied></head>
-            <pb n="f 91v" type="folio"/>
-            <gap reason="omitted"/>
-            <ab> It is ordered that Mr Randill and Mr Price shalbe M<ex>aste</ex>rs of the Revells</ab>
-            <gap reason="omitted"/>
-            </div>
-            <div>
-            <head>f 109<date from-iso="1601-11-26" to-iso="1602-11-26"/> <supplied>(26 November-26 November) (Treasurer's Receipts)</supplied></head>
-            <pb n="f 109" type="folio"/>
-            <note type="marginal" rend="right">Surplusag<ex>ia</ex> Rot<ex>u</ex>lor<ex>um</ex></note>
-            <ab> Et de lvij s. iiij d. recept<ex>is</ex> de Ioh<ex>ann</ex>e Helliar Scenescallo hospicij p<ex>re</ex>d<ex>i</ex>c<ex>t</ex>i p<ex>ro</ex> Surplusag<ex>ia</ex> Rotulor<ex>um</ex> Musicor<ex>um</ex> hoc Anno...</ab>
-            <gap reason="omitted"/>
-            </div>  
-            <div> 
-            <head>f 201<supplied>(Treasurer's payments)</supplied></head>
-            <pb n="f 201" type="folio"/>
-            <gap reason="omitted"/>
-            <note type="marginal" rend="right">Stipend<ex>ia</ex> musicor<ex>um</ex></note>   
-            <ab> Et de Nihil hoc Anno quia Mort<ex>uus</ex>
-            <note type="foot">quia Mort<ex>uus</ex>: <hi rend="italic">William Perryn died in the previous year</hi></note>
-               Sum<ex>ma</ex> Nihil</ab>
-            </div>
-         </div>
-         <div type="translation">
-            <head>f 109<date from-iso="1601-11-26" to-iso="1602-11-26"/> <supplied>(26 November-26 November) (Treasurer's Receipts)</supplied></head>
-            <pb n="f 109" type="folio"/>
-            <note type="marginal" rend="right">Balance due from the rolls</note>
-            <ab>And (the accountant renders account) of 57s 4d received from John Helliar, steward of the aforesaid Inn, for the balance due from the musicians' rolls this year...</ab>
-            <gap reason="omitted"/>
-         </div>
+            <date from-iso="1603-09-29" to-iso="1604-09-29">1603-4</date>
+            <seg ana="taxon:RLLIBB06" corresp="taxon:RLPIC1 pp. 136">RLLIBB06</seg></head>
          <div>
-            <head>f 201<supplied>(Treasurer's payments)</supplied></head>
-            <pb n="f 201" type="folio"/>
+            <div type="transcription">
+            <head>f 322v<date from-iso="1603-02-11" to-iso="1604-11-26"/> <supplied>(11 February 1603/4 - 26 November 1604) (Treasurer’s receipts)</supplied></head>
+            <pb n="f 322v" type="folio"/>
+            <note type="marginal" rend="left">Surplusagia Rotulorum</note>
+            <ab>Et de nihil recept<ex>o</ex> de Ioh<ex>anne</ex> Helliar Sen<ex>escal</ex>lo hospicij p<ex>re</ex>d<ex>icti</ex> p<ex>ro</ex> surplusag<ex>ia</ex> Rotulor<ex>um</ex> musicor<ex>um</ex> et Carbonar<ex>um</ex> </ab>
             <gap reason="omitted"/>
-            <note type="marginal" rend="right">Musicians' stipends</note>
-            <ab>And (the accountant seeks to be allowed the sum) of nil this year because he (ie, William Perryn, musician) has died.
-               Total:nil</ab>
-            <gap reason="omitted"/>
-         </div>    
+            </div>
+            <div>
+               <head>f 324v<ptr type="endnote" target="endnote:RLE12345"/> <supplied>(Treasurer's necessary expenses)</supplied></head>
+               <pb n="f 324v" type="folio"/> 
+               <gap reason="omitted"/> 
+               <ab>... Et de xl s. solit<ex>is</ex> Le Musition ex benevolenc<ex>ia</ex> vt patet p<ex>er</ex> warr<ex>antum</ex> ...</ab>
+            </div>   
+            <div type="translation">
+               <head>f 322v<date from-iso="1603-02-11" to-iso="1604-11-26"/> <supplied>(11 February 1603/4 - 26 November 1604) (Treasurer’s receipts)</supplied></head>
+               <pb n="f 322v" type="folio"/>
+               <note type="marginal" rend="left">Balance due from the rolls</note>
+               <ab>And (the accountant renders account) of nil received from John Helliar, steward of the aforesaid Inn, for the balance due from the musicians' rolls and for coals ...</ab>
+               <gap reason="omitted"/>
+            </div>
+            <div>
+               <head>f 324v<ptr type="endnote" target="endnote:RLE12345"/> <supplied>(Treasurer's necessary expenses)</supplied></head>
+               <pb n="f 324v" type="folio"/> 
+               <gap reason="omitted"/> 
+               <ab>...And (The accountant seeks to be allowed the sum) of 40s paid to the musician out of benevolence as it appears by a warrant...</ab>
+            </div>
+         </div>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
 
 
 

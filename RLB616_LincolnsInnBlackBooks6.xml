@@ -234,7 +234,7 @@
       <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
          <mods:mods>
             <mods:titleInfo>
-               <mods:title>Lincoln's Inn Black Book 6, 1601-02</mods:title>
+               <mods:title>Lincoln's Inn Black Book 6, 1608-09</mods:title>
             </mods:titleInfo>
             <mods:name
                type="corporate">
@@ -288,67 +288,60 @@
          <change when="2018-05-30" who="#KM">created document</change>
          <change when="2018-06-12" who="KM">added translation</change>
       </revisionDesc>
-      
    </teiHeader>
-        
    
    <text ana="taxon:letter" type="record">
       <body xml:lang="eng">
          <head>Lincoln's Inn Black Book 6
-            <date from-iso="1601-09-29" to-iso="1602-09-29">1601-2</date> 
-            <seg ana="taxon:RLLIBB06" corresp="taxon:RLPIC1 pp. 134">RLLIBB06</seg></head> 
-         <div type="transcription">
-            <div>
-            <head>f 91v<date when-iso="1601-11-26"/> <supplied>(26 November)(Christmas officers)</supplied></head>
-            <pb n="f 91v" type="folio"/>
-            <gap reason="omitted"/>
-            <ab> It is ordered that Mr Randill and Mr Price shalbe M<ex>aste</ex>rs of the Revells</ab>
-            <gap reason="omitted"/>
+            <date from-iso="1608-09-29" to-iso="1609-09-29">1608-9</date>
+            <seg ana="taxon:RLLIBB06" corresp="taxon:RLPIC1 pp. 143">RLLIBB06</seg></head>
+         <div>
+            <div type="transcription">
+               <head>f 398v<date when-iso="1608-11-10"/> <supplied>(10 November) (Council orders)</supplied></head>
+               <pb n="f 398v" type="folio"/>
+               <gap reason="omitted"/>
+               <ab>Itt is<note type="foot"><hi rend="italic">Itt is: pointing hand in the left margin</hi></note> alsoe ordered that Considerac<ex>i</ex>on shalbe had of a petic<ex>i</ex>on exhibyted by the yonge gentlemen of this house touchinge Certen Revills and sportes to be made by them./</ab> 
+               <gap reason="omitted"/>
             </div>
             <div>
-            <head>f 109<date from-iso="1601-11-26" to-iso="1602-11-26"/> <supplied>(26 November-26 November) (Treasurer's Receipts)</supplied></head>
-            <pb n="f 109" type="folio"/>
-            <note type="marginal" rend="right">Surplusag<ex>ia</ex> Rot<ex>u</ex>lor<ex>um</ex></note>
-            <ab> Et de lvij s. iiij d. recept<ex>is</ex> de Ioh<ex>ann</ex>e Helliar Scenescallo hospicij p<ex>re</ex>d<ex>i</ex>c<ex>t</ex>i p<ex>ro</ex> Surplusag<ex>ia</ex> Rotulor<ex>um</ex> Musicor<ex>um</ex> hoc Anno...</ab>
-            <gap reason="omitted"/>
-            </div>  
-            <div> 
-            <head>f 201<supplied>(Treasurer's payments)</supplied></head>
-            <pb n="f 201" type="folio"/>
-            <gap reason="omitted"/>
-            <note type="marginal" rend="right">Stipend<ex>ia</ex> musicor<ex>um</ex></note>   
-            <ab> Et de Nihil hoc Anno quia Mort<ex>uus</ex>
-            <note type="foot">quia Mort<ex>uus</ex>: <hi rend="italic">William Perryn died in the previous year</hi></note>
-               Sum<ex>ma</ex> Nihil</ab>
+               <head>f 399<date when-iso="1608-02-14"/> <supplied>14 November</supplied></head>
+               <pb n="f 399" type="folio"/>
+               <gap reason="omitted"/>
+               <ab>Att this councell yt it ordered That Mr Hitchecocke Mr Dalaber and Mr Davye three of the maisters of the Benche together w<ex>i</ex>th Mr Adams, Mr Ducke, and Mr Rayner are appointed to conferr w<ex>i</ex>th the younge gentlemen towchinge the time mann<ex>er</ex> and charge of the Revells and sport<ex>es</ex> intended./</ab>
+               <gap reason="omitted"/>
             </div>
+            <div>
+               <head>f 410<date when-iso="1608-11-28"/><supplied>(28 November) (Christmas officers)</supplied></head>
+               <pb n="f 410" type="folio"/>
+               <gap reason="omitted"/>
+               <ab> It is Ordered that mr Darcy and mr Keete shalbe ma<ex>ste</ex>rs of the Revells./</ab>
+               <gap reason="omitted"/>
+            </div>
+            <div>
+               <head>f 417v<date when-iso="1608-02-15"/> <supplied>(15 February) (Council Orders)</supplied></head>
+               <pb n="f 385v" type="folio"/>
+               <gap reason="omitted"/>
+               <ab>It is ordered that the Steward shall present the default<ex>es</ex> of all such as haue not payde the preachers rolle the music<ex>i</ex>ons and the Colliers rolle the first daye of the next terms and those rolles to be made the begineinge of every Terme</ab>
+               <gap reason="omitted"/>
+            </div>
+            <div>
+               <head>f 447v<date from-iso="1608-11-24" to-iso="1609-11-24"/><supplied>(24 November - 24 November) (Treasurer's receipts)</supplied></head>
+               <pb n="f 447v" type="folio"/>
+               <note type="marginal" rend="left">Surplusagia Rotulorum</note>
+               <ab>Et de vj li. x s. viij d. recept<ex>is</ex> de eodem Ioh<ex>ann</ex>e<note type="foot">Iohanne: <hi rend="italic">ie, John Helliar (this was his last year as steward)</hi></note> p<ex>ro</ex> surplusag<ex>ia</ex> Rot<ex>u</ex>lor<ex>um</ex> Musicor<ex>um</ex>/ et Carbonor<ex>um/</ex> </ab>
+               <gap reason="omitted"/>
+            </div>   
          </div>
          <div type="translation">
-            <head>f 109<date from-iso="1601-11-26" to-iso="1602-11-26"/> <supplied>(26 November-26 November) (Treasurer's Receipts)</supplied></head>
-            <pb n="f 109" type="folio"/>
-            <note type="marginal" rend="right">Balance due from the rolls</note>
-            <ab>And (the accountant renders account) of 57s 4d received from John Helliar, steward of the aforesaid Inn, for the balance due from the musicians' rolls this year...</ab>
+            <head>f 447v<date from-iso="1608-11-24" to-iso="1609-11-24"/><supplied>(24 November - 24 November) (Treasurer's receipts)</supplied></head>
+            <pb n="f 447v" type="folio"/>
+            <note type="marginal" rend="left">Balance due from the rolls</note>
+            <ab>And (the accountant renders account) of £6 10s 8d received from the same John for the balance due from the musicians' rolls and for coals ...</ab>
             <gap reason="omitted"/>
          </div>
-         <div>
-            <head>f 201<supplied>(Treasurer's payments)</supplied></head>
-            <pb n="f 201" type="folio"/>
-            <gap reason="omitted"/>
-            <note type="marginal" rend="right">Musicians' stipends</note>
-            <ab>And (the accountant seeks to be allowed the sum) of nil this year because he (ie, William Perryn, musician) has died.
-               Total:nil</ab>
-            <gap reason="omitted"/>
-         </div>    
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
 
 
 
