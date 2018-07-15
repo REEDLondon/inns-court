@@ -231,35 +231,106 @@
             </place>
          </settingDesc>
       </profileDesc>
+      <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
+         <mods:mods>
+            <mods:titleInfo>
+               <mods:title>Lincoln's Inn Black Book 6, 1593-4</mods:title>
+            </mods:titleInfo>
+            <mods:name
+               type="corporate">
+               <mods:namePart>Lincoln's Inn</mods:namePart>
+            </mods:name>
+            <mods:typeOfResource>text</mods:typeOfResource>
+            <mods:genre type="formatType">Born Digital</mods:genre>
+            <mods:genre type="format">born digital</mods:genre>
+            <mods:genre type="primaryGenre">Record</mods:genre>
+            <mods:genre type="subgenre">Archival material</mods:genre>
+            <mods:genre>Performance</mods:genre>
+            <mods:language>
+               <mods:languageTerm type="text">English</mods:languageTerm>
+            </mods:language>
+            <mods:physicalDescription>
+               <mods:form authority="marccategory">electronic resource</mods:form>
+               <mods:internetMediaType>text/xml</mods:internetMediaType>
+               <mods:digitalOrigin>born digital</mods:digitalOrigin>
+            </mods:physicalDescription>
+            <mods:abstract>"All eight volumes described below were rebound in 1965 in black morocco, giving them a uniform appearance despite notable differences in size (from 210mm x 135mm to 310mm x 205mm). Foliation is sometimes nightmarish, as for example in A1a7 (Black Book 7), due to successive inconsistencies, errors, corrections, and rationalizations. A set of microfilms is preserved in the Public Record Office (TNA: PRO 30/77): the eight volumes referenced here occupy the first five reels.
+               The standard essential publication is William Paley Baildon (ed), The Records of the Honorable Society of Lincoln’s Inn. The Black Books, 4 vols (London, 1897)."</mods:abstract>
+            <mods:subject>
+               <mods:topic valueURI="http://id.loc.gov/authorities/subjects/sh2002012470">Theater--England--London--History--16th 
+               </mods:topic>
+            </mods:subject>
+            <mods:subject>
+               <mods:geographic valueURI="http://www.geonames.org/2643743/">London</mods:geographic>
+            </mods:subject>
+            <mods:subject>
+               <mods:temporal point="start">1501</mods:temporal>
+               <mods:temporal point="end">1600</mods:temporal>
+            </mods:subject>    
+            <mods:accessCondition
+               type="use and reproduction">Use of this public-domain resource is governed by the &lt;a
+               rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"
+               target="blank"&gt;Creative Commons Attribution-NonCommercial 4.0 International
+               License&lt;/a&gt;.</mods:accessCondition>
+            <mods:recordInfo>
+               <mods:recordOrigin>This MODS record was created using the Islandora XML Forms collection of Drupal modules.</mods:recordOrigin>
+               <mods:languageOfCataloging>
+                  <mods:languageTerm type="text">English</mods:languageTerm>
+               </mods:languageOfCataloging>
+               <mods:recordContentSource>Canadian Writing Research Collaboratory</mods:recordContentSource>
+            </mods:recordInfo>
+         </mods:mods>
+      </xenoData>
+      
       <revisionDesc>
          <!-- Add new major milestone changes to top -->
-         <change when="2018-04-26" who="#KM">created document</change>
+         <change when="2018-07-15" who="#KM">added xenodata</change>
+         <change when="2018-05-30" who="#KM">created document</change>
+         <change when="2018-06-12" who="KM">added translation</change>
       </revisionDesc>
+      
    </teiHeader>
    
    <text ana="taxon:letter" type="record">
       <body xml:lang="eng">
          <head>Lincoln's Inn Black Book 6
-            <date when-iso="1593-4">1593-4</date> <!-- Not sure how we want dates when we only have an estimate? KM -->
-            <seg ana="taxon:RLB601" corresp="taxon:RLLIB6 pp. 121">RLB601</seg></head> <!-- Following the Anatomy doc here, is this correct? KM -->
-         <div type="transcription">
-            <head>f 4v*<date when-iso="1593-11-20-1593-11-25"/> <supplied>(25 November-20 November) (Treasurer's Receipts)</supplied></head>
-            <!-- The above date is confusing. Check it with Diane! KM -->
-               <pb n="f4v*" type="folio"/>
-                  <gap reason="omitted"/>
-                     <ab> Et de nihil recptus de Abrahamo Ripley Sen<ex>esca</ex>llo hospicij p<ex>re</ex>d<ex>i</ex>c<ex>t</ex>i p<ex>ro</ex> Surplusagia Rot<ex>u</ex>lor<ex>um</ex> Musicor<ex>um</ex> hoc Anno./ </ab>
-                  <gap reason="omitted"/>
-               <note type="marginal" rend="left">Surplusagia Rot<ex>u</ex>lor<ex>um</ex></note>
-               <note type="editorial">The musicians' roll was not collected this year (or in 1592-3) because plague in London forced Lincoln's Inn to move its operations to St. Albans</note>
-         </div>  
-         <div> 
+            <date from-iso="1593-09-29" to-iso="1594-09-29">1593-4</date>
+            <seg ana="taxon:RLLIBB06" corresp="taxon:RLPIC1 pp. 121">RLLIBB06</seg></head> 
+         <div>
+            <div type="transcription">
+            <head>f 4v<ptr type="endnote" target="endnote:RLE12345"/><date when-iso="1593-11-25-1594-11-20"/> <supplied>(25 November-20 November) (Treasurer's Receipts)</supplied></head>
+            <pb n="f4v" type="folio"/>
+            <gap reason="omitted"/>
+            <note type="marginal" rend="left">Surplusagia Rot<ex>u</ex>lor<ex>um</ex></note>
+            <ab> Et de nihil receptus<note type="foot">receptus: <hi rend="italic">for</hi> recepto</note> de Abrahamo Ripley Sen<ex>esca</ex>llo hospicij p<ex>re</ex>d<ex>i</ex>c<ex>t</ex>i p<ex>ro</ex> Surplusagia Rot<ex>u</ex>lor<ex>um</ex> Musicor<ex>um</ex> hoc Anno./ </ab>
+            <gap reason="omitted"/>
+            <note type="editorial">The musicians' roll was not collected this year (or in 1592-3) because plague in London forced Lincoln's Inn to move its operations to St. Albans</note>
+            </div>  
+            <div> 
             <head>f 7 <supplied>(Treasurer's payments)</supplied></head>
-               <pb n="f 7" type="folio"/>
-                  <gap reason="omitted"/>
+            <pb n="f 7" type="folio"/>
+            <gap reason="omitted"/>
+            <note type="marginal" rend="right">Stipendi<ex>a</ex> musicor<ex>u</ex>m</note>
             <ab> Et de xxvj s. viij d. solut<ex>is</ex> <persName>Will<ex>elmo</ex> Peren</persName> music<ex>i</ex>on<ex>i</ex> p<ex>ro</ex> an<ex>n</ex>ual<ex>i</ex> Stipend<ex>io</ex> ei concess<ex>o</ex> p<ex>er</ex> warrant<ex>um</ex> gubernator<ex>um</ex> hospicij p<ex>re</ex>d<ex>i</ex>c<ex>t</ex>i 
                                        Summa xxvj s. viij d. </ab>
+            <gap reason="omitted"/>
+            </div>
+            <div type="translation">
+               <head>f 4v<ptr type="endnote" target="endnote:RLE12345"/><date when-iso="1593-11-25-1594-11-20"/> <supplied>(25 November-20 November) (Treasurer's Receipts)</supplied></head>
+               <pb n="f4v" type="folio"/>
                <gap reason="omitted"/>
-            <note type="marginal" rend="right">Stipendi<ex>a</ex> musicor<ex>u</ex>m</note>
+               <note type="marginal" rend="left">Balance due from the rolls</note>
+               <ab>And (the accountant renders account) of nil received from Abraham Ripley, steward of the aforesaid Inn, for the balance from the musicians' rolls this year ...</ab>
+               <gap reason="omitted"/>
+            </div>
+            <div>
+               <head>f 7 <supplied>(Treasurer's payments)</supplied></head>
+               <pb n="f 7" type="folio"/>
+               <gap reason="omitted"/>
+               <note type="marginal" rend="right">Musicians' stipends</note>
+               <ab>And (the accountant seeks to be allowed the sum) of 26s 8d paid to William Perryn, musician, for the annual stipend granted him by a warrant of the governors of the aforesaid Inn.
+                  Total: 26s. 8d</ab>
+            </div>
          </div>
       </body>
    </text>
