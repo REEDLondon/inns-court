@@ -368,9 +368,69 @@
                
                <!-- language changes to English here-->
                <ab>
+                  <foreign xml:lang="eng">
                   At this p<ex>ar</ex>liam<ex>en</ex>t the ffeast of the birth of our Lord god ys made a vacacion
                   for the younge gent<ex>lemen</ex> to continew for three weekes as formerly yt hath
                   bynn accustomed
+                  </foreign>
+               </ab>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+         
+         <div type="translation">
+            <div>
+               <head>f 331<date when-iso="1604-11-23"></date><supplied>(23 November 1604)</supplied></head>
+               <pb n="f 331" type="folio"/>
+               <gap reason="omitted"/>
+               <ab>
+                  At this parliament it was ordered that the feast of Christmas will be celebrated
+                  solemnly, not grandly, and that commons will be continued up until next
+                  term; and one cart-load of coals is allowed for those remaining here and 40s
+                  for the musicians' salary (as has been) previously customary, and £3 for the
+                  commons.
+               </ab>
+               
+               <ab>
+                  <supplied>(English)</supplied>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+               
+               
+   <text ana="taxon:middle_temple" type="record">
+      <body xml:lang="lat">
+         <head>
+            <date from-iso="1605-09-29" to-iso="1606-09-29">1605-6</date>
+            <seg ana="taxon:RLMTP002" corresp="taxon:RLPIC1 p. 138">RLMTP002</seg>
+         </head>
+         <div type="transcription">
+            <div>
+               <head>f 339v<date when-iso="1605-11-22"></date><supplied>(22 November 1605)</supplied></head>
+               <pb n="f 339v" type="folio"/>
+               <gap reason="omitted"/>
+               <ab>
+                  Ad hoc p<ex>ar</ex>liamentu<ex>m</ex> ordinatu<ex>m</ex> est q<ex>uo</ex>d festum Natal<ex>is</ex> d<ex>omi</ex>ni solempnit<ex>er</ex>
+                  (non grande) celebrabit<ex>ur</ex> Et q<ex>uo</ex>d Com<ex>m</ex>unie continuabunt<ex>ur</ex> vsq<ex>ue</ex> ad
+                  prox<ex>imum</ex> terminu<ex>m</ex> et allocat<ex>ur</ex> hic Comorantib<ex>us</ex> vna biga Carbonu<ex>m</ex> et
+                  quadragint<ex>a</ex> solid<ex>i</ex> pro salario musicoru<ex>m</ex> ante hac consuet<ex>o</ex>
+               </ab>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+         
+         <div type="translation">
+            <div>
+               <head>f 339v<date when-iso="1605-11-22"></date><supplied>(22 November 1605)</supplied></head>
+               <pb n="f 339v" type="folio"/>
+               <gap reason="omitted"/>
+               <ab>
+                  At this parliament it was ordered that the feast of Christmas will be celebrated
+                  solemnly, not grandly, and that commons will be continued up until next
+                  term; and one cart-load of coals is allowed for those remaining here and 40s
+                  for the musicians' salary (as has been) previously customary.
                </ab>
                <gap reason="omitted"/>
             </div>
@@ -378,7 +438,99 @@
       </body>
    </text>
                
-               
+   
+   <text ana="taxon:middle_temple" type="record">
+      <body xml:lang="lat">
+         <head>
+            <date from-iso="1607-09-29" to-iso="1607-09-29">1607-8</date>
+            <seg ana="taxon:RLMTP002" corresp="taxon:RLPIC1 p. 142">RLMTP002</seg>
+         </head>
+         <div type="transcription">
+            <div>
+               <head>f 363<date when-iso="1607-11-27"></date><supplied>(27 November 1607)</supplied></head>
+               <pb n="f 363" type="folio"/>
+               <gap reason="omitted"/>
+               <ab>
+                  Ad <note type="marginal" place="margin_left">ffest<ex>um</ex> Natal<ex>is</ex></note>hoc p<ex>ar</ex>liamentu<ex>m</ex> ordinatu<ex>m</ex> est q<ex>uo</ex>d festu<ex>m</ex> Natalis d<ex>omi</ex>ni solempnit<ex>er</ex>
+                  (non grande) celebrabit<ex>ur</ex> Et q<ex>uo</ex>d Com<ex>m</ex>unie continuabunt<ex>ur</ex> vsq<ex>ue</ex>
+                  prox<ex>imum</ex> Terminu<ex>m</ex>, Et allocat<ex>ur</ex> hic Commorantib<ex>us</ex> vna biga carbonu<ex>m</ex>, et
+                  quadragint<ex>a</ex> solid<ex>i</ex> pro salario Musicoru<ex>m</ex> ante hac Consuet<ex>o</ex> Et pret<ex>er</ex>ia allocat<ex>ur</ex> pro Com<ex>munibus</ex> iij li.
+                  <!-- how to tag? the 3 pounds is right aligned, see p. 140 IoC vol. 1 -->
+               </ab>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+         
+         <div type="translation">
+            <div>
+               <head>f 363<date when-iso="1607-11-27"></date><supplied>(27 November 1607)</supplied></head>
+               <pb n="f 363" type="folio"/>
+               <gap reason="omitted"/>
+               <ab>
+                  At <note type="marginal" place="margin_left">Feast of
+                     Christmas</note>this parliament it was ordered that the feast of Christmas
+                  will be celebrated solemnly, not grandly, and that commons
+                  will be continued up until next term; and one cart of coals
+                  is allowed for those remaining here and 40s for the musicians'
+                  salary (as has been) previously customary, and in addition
+                  allowed for the commons £3
+                  <!-- how to tag? the 3 pounds is right aligned, see p. 140 IoC vol. 1 -->
+               </ab>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+      </body>
+   </text>
+   
+   
+   <text ana="taxon:middle_temple" type="record">
+      <body xml:lang="lat">
+         <head>
+            <date from-iso="1606-09-29" to-iso="1607-09-29">1606-7</date>
+            <seg ana="taxon:RLMTP002" corresp="taxon:RLPIC1 p. 140">RLMTP002</seg>
+         </head>
+         <div type="transcription">
+            <div>
+               <head>f 349v<date when-iso="1606-11-21"></date><supplied>(21 November 1606)</supplied></head>
+               <pb n="f 349v" type="folio"/>
+               <gap reason="omitted"/>
+               <ab>
+                  Ad hoc p<ex>ar</ex>liamentu<ex>m</ex> Ordinatu<ex>m</ex> est q<ex>uo</ex>d festum natalis d<ex>omi</ex>ni solempnit<ex>er</ex>
+                  (non grande) celebrabit<ex>ur</ex> Et q<ex>uo</ex>d Com<ex>m</ex>unie continuabunt<ex>ur</ex> vsq<ex>ue</ex>
+                  proximu<ex>m</ex> Terminu<ex>m</ex>, et allocat<ex>ur</ex> hic Com<ex>m</ex>orantib<ex>us</ex> vna biga Carbonu<ex>m</ex>, et
+                  quadragint<ex>a</ex> solid<ex>i</ex> p<ex>ro</ex> salario Musicoru<ex>m</ex> ante hac consuet<ex>o</ex> Et pret<ex>er</ex>ia allocat<ex>ur</ex> pro Com<ex>m</ex>unib<ex>us</ex> iij li.
+                  <!-- how to tag? the 3 pounds is right aligned, see p. 140 IoC vol. 1 -->
+               </ab>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+         
+         <div type="translation">
+            <div>
+               <head>f 349v<date when-iso="1606-11-21"></date><supplied>(21 November 1606)</supplied></head>
+               <pb n="f 349v" type="folio"/>
+               <gap reason="omitted"/>
+               <ab>
+                  At this parliament it was ordered that the feast of Christmas
+                  will be celebrated solemnly, not grandly, and that commons
+                  will be continued up until next term; and one cart-load of
+                  coals is allowed for those remaining here and 40s for the
+                  musicians' salary (as has been) previously customary, and in
+                  addition allowed for the commons £3
+                  <!-- how to tag? the 3 pounds is right aligned, see p. 140 IoC vol. 1 -->
+               </ab>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+      </body>
+   </text>  
+   
+   
+   
+   
+   
+   
+   
    
    
    
