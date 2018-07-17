@@ -316,7 +316,69 @@
    </text>
    
    
+   <text ana="taxon:middle_temple" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1602-09-29" to-iso="1603-09-29">1602-3</date>
+            <seg ana="taxon:RLMTP002" corresp="taxon:RLPIC1 p. 136">RLMTP002</seg>
+         </head>
+         <div type="transcription">
+            <div>
+               <head>f 318v<date when-iso="1602-11-26"></date><supplied>(26 November 1602)</supplied></head>
+               <pb n="f 318v" type="folio"/>
+               <gap reason="omitted"/>
+               <ab>
+                  Yt ys ordered at this p<ex>ar</ex>liam<ex>en</ex>t that ther shalbe no grande Christmas
+                  kepte in this house nor anye publike Commons, nor anye vacacion<ex>er</ex>s
+                  w<ex>hi</ex>ch are bounde to attend shalbe bounde to attende this Christmas,
+                  But yf any gent<ex>lemen</ex> of this Societie will keepe any private Commons
+                  in the Hall or ells where in the howse, yt shall and maye be lawfull for
+                  them so to doe/ And such officers of this howse are required to attend
+                  them as they shall appoynte the same gent<ex>lemen</ex> payinge and defrayinge
+                  all and singuler the charges payment<ex>es</ex> and moneys which shall or maye
+                  growe due by reason of anye suche pryvate Commons, And so as such
+                  Commens be kept in the Com<ex>m</ex>on Hall or some one onely place of
+                  this howse./
+               </ab>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+      </body>
+   </text>
    
+   
+   <text ana="taxon:middle_temple" type="record">
+      <body xml:lang="lat">
+         <head>
+            <date from-iso="1604-09-29" to-iso="1605-09-29">1604-5</date>
+            <seg ana="taxon:RLMTP002" corresp="taxon:RLPIC1 p. 137">RLMTP002</seg>
+         </head>
+         <div type="transcription">
+            <div>
+               <head>f 331<date when-iso="1604-11-23"></date><supplied>(23 November 1604)</supplied></head>
+               <pb n="f 331" type="folio"/>
+               <gap reason="omitted"/>
+               <ab>
+                  Ad hoc p<ex>ar</ex>liamentu<ex>m</ex> Ordinatu<ex>m</ex> est q<ex>uo</ex>d festu<ex>m</ex> Natalis d<ex>omi</ex>ni solempnit<ex>er</ex>
+                  (non grande) celebrabit<ex>ur</ex> et q<ex>uo</ex>d Com<ex>m</ex>unie continuabunt<ex>ur</ex> vsq<ex>ue</ex> ad
+                  p<ex>ro</ex>x<ex>imum</ex> Terminu<ex>m</ex> et allocat<ex>ur</ex> hic Com<ex>m</ex>orantib<ex>us</ex> vna biga Carbonu<ex>m</ex>
+                  et quadragint<ex>a</ex> solid<ex>i</ex> pro salario Musicoru<ex>m</ex> ante hac consuet<ex>o</ex> Et tres libr<ex>e</ex>
+                  pro Com<ex>munibus</ex>
+               </ab>
+               
+               <!-- language changes to English here-->
+               <ab>
+                  At this p<ex>ar</ex>liam<ex>en</ex>t the ffeast of the birth of our Lord god ys made a vacacion
+                  for the younge gent<ex>lemen</ex> to continew for three weekes as formerly yt hath
+                  bynn accustomed
+               </ab>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+      </body>
+   </text>
+               
+               
    
    
    
