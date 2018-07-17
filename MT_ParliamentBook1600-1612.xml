@@ -366,7 +366,6 @@
                   pro Com<ex>munibus</ex>
                </ab>
                
-               <!-- language changes to English here-->
                <ab>
                   <foreign xml:lang="eng">
                   At this p<ex>ar</ex>liam<ex>en</ex>t the ffeast of the birth of our Lord god ys made a vacacion
@@ -454,7 +453,7 @@
                   (non grande) celebrabit<ex>ur</ex> Et q<ex>uo</ex>d Com<ex>m</ex>unie continuabunt<ex>ur</ex> vsq<ex>ue</ex>
                   proximu<ex>m</ex> Terminu<ex>m</ex>, et allocat<ex>ur</ex> hic Com<ex>m</ex>orantib<ex>us</ex> vna biga Carbonu<ex>m</ex>, et
                   quadragint<ex>a</ex> solid<ex>i</ex> p<ex>ro</ex> salario Musicoru<ex>m</ex> ante hac consuet<ex>o</ex> Et pret<ex>er</ex>ia allocat<ex>ur</ex> pro Com<ex>m</ex>unib<ex>us</ex> iij li.
-                  <!-- how to tag? the 3 pounds is right aligned, see p. 140 IoC vol. 1 -->
+                  <!-- how to tag? the 3 pounds, "iij li.",  is right aligned, see p. 140 IoC vol. 1 -->
                </ab>
                <gap reason="omitted"/>
             </div>
@@ -472,7 +471,7 @@
                   coals is allowed for those remaining here and 40s for the
                   musicians' salary (as has been) previously customary, and in
                   addition allowed for the commons £3
-                  <!-- how to tag? the 3 pounds is right aligned, see p. 140 IoC vol. 1 -->
+                  <!-- how to tag? the 3 pounds, "£3", is right aligned, see p. 893 IoC vol. 3 -->
                </ab>
                <gap reason="omitted"/>
             </div>
@@ -497,7 +496,7 @@
                   (non grande) celebrabit<ex>ur</ex> Et q<ex>uo</ex>d Com<ex>m</ex>unie continuabunt<ex>ur</ex> vsq<ex>ue</ex>
                   prox<ex>imum</ex> Terminu<ex>m</ex>, Et allocat<ex>ur</ex> hic Commorantib<ex>us</ex> vna biga carbonu<ex>m</ex>, et
                   quadragint<ex>a</ex> solid<ex>i</ex> pro salario Musicoru<ex>m</ex> ante hac Consuet<ex>o</ex> Et pret<ex>er</ex>ia allocat<ex>ur</ex> pro Com<ex>munibus</ex> iij li.
-                  <!-- how to tag? the 3 pounds is right aligned, see p. 140 IoC vol. 1 -->
+                  <!-- how to tag? the 3 pounds, "iij li.",  is right aligned, see p. 140 IoC vol. 1 -->
                </ab>
                <gap reason="omitted"/>
             </div>
@@ -516,7 +515,7 @@
                   is allowed for those remaining here and 40s for the musicians'
                   salary (as has been) previously customary, and in addition
                   allowed for the commons £3
-                  <!-- how to tag? the 3 pounds is right aligned, see p. 140 IoC vol. 1 -->
+                  <!-- how to tag? the 3 pounds, "£3", is right aligned, see p. 893 IoC vol. 3 -->
                </ab>
                <gap reason="omitted"/>
             </div>
@@ -525,18 +524,173 @@
    </text>
    
    
-     
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
+   <text ana="taxon:middle_temple" type="record">
+      <body xml:lang="lat">
+         <head>
+            <date from-iso="1608-09-29" to-iso="1609-09-29">1608-9</date>
+            <seg ana="taxon:RLMTP002" corresp="taxon:RLPIC1 p. 143-4">RLMTP002</seg>
+         </head>
+         <div type="transcription">
+            <div>
+               <head>f 377<date when-iso="1608-11-25"></date><supplied>(25 November 1608)</supplied></head>
+               <pb n="f 377" type="folio"/>
+               <gap reason="omitted"/>
+               <ab>
+                  Ad hoc p<ex>ar</ex>liamentu<ex>m</ex> ordinatu<ex>m</ex> est q<ex>uo</ex>d festu<ex>m</ex> Natalis d<ex>omi</ex>ni solempnit<ex>er</ex>
+                  (non grande) celebrabit<ex>ur</ex>, Et q<ex>uo</ex>d Com<ex>m</ex>unie continuabunt<ex>ur</ex> vsq<ex>ue</ex> ad 
+                  prox<ex>imum</ex> Terminu<ex>m</ex>, Et allocat<ex>ur</ex> hic Com<ex>m</ex>orantib<ex>us</ex> vna biga Carbonu<ex>m</ex> et
+                  quadragint<ex>a</ex> solid<ex>i</ex> pro salario mvsicoru<ex>m</ex> ante hac consuet<ex>o</ex>, Et pret<ex>er</ex>ia allocat<ex>ur</ex> p<ex>ro</ex> Com<ex>munibus</ex> iij li.
+                  <!-- how to tag? the 3 pounds, "iij li.",  is right aligned, see p. 144 IoC vol. 1 -->
+               </ab>
+               <gap reason="omitted"/>
+            </div>
+         </div>
          
+         <div type="translation">
+            <div>
+               <head>f 377<date when-iso="1608-11-25"></date><supplied>(25 November 1608)</supplied></head>
+               <pb n="f 377" type="folio"/>
+               <gap reason="omitted"/>
+               <ab>
+                  At this parliament it was ordered that the feast of Christmas
+                  will be celebrated solemnly, not grandly, and that commons
+                  will be continued up until next term; and one cart-load of
+                  coals is allowed for those remaining here and 40s for the
+                  musicians' salary (as has been) previously customary, and in
+                  addition allowed for the commons £3
+                  <!-- how to tag? the 3 pounds, "£3", is right aligned, see p. 894 IoC vol.3  -->
+               </ab>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+      </body>
+   </text>
+   
+   
+   <text ana="taxon:middle_temple" type="record">
+      <body xml:lang="lat">
+         <head>
+            <date from-iso="1609-09-29" to-iso="1610-09-29">1609-10</date>
+            <seg ana="taxon:RLMTP002" corresp="taxon:RLPIC1 p. 145">RLMTP002</seg>
+         </head>
+         <div type="transcription">
+            <div>
+               <head>f 394<date when-iso="1609-11-24"></date><supplied>(24 November 1609)</supplied></head>
+               <pb n="f 394" type="folio"/>
+               <gap reason="omitted"/>
+               <ab>
+                  Ad hoc p<ex>ar</ex>liamentu<ex>m</ex> ordinatu<ex>m</ex> est q<ex>uo</ex>d festu<ex>m</ex> Natalis d<ex>omi</ex>ni solempnit<ex>er</ex>
+                  (non grande) celebrabit<ex>ur</ex>, Et q<ex>uo</ex>d Com<ex>m</ex>unie continuabunt<ex>ur</ex> vsq<ex>ue</ex> ad 
+                  prox<ex>imum</ex> Terminu<ex>m</ex>, Et allocat<ex>ur</ex> hic Com<ex>m</ex>orantib<ex>us</ex> vna biga Carbonu<ex>m</ex>, Et
+                  quadragint<ex>a</ex> solid<ex>i</ex> pro salario Musicoru<ex>m</ex> ante hac consuet<ex>o</ex>, Et p<ex>re</ex>t<ex>er</ex>ia allocat<ex>ur</ex> pro Communijs iij li.
+                  <!-- how to tag? the 3 pounds, "iij li.",  is right aligned, see p. 145 IoC vol. 1 -->
+               </ab>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+         
+         <div type="translation">
+            <div>
+               <head>f 394<date when-iso="1609-11-24"></date><supplied>(24 November 1609)</supplied></head>
+               <pb n="f 394" type="folio"/>
+               <gap reason="omitted"/>
+               <ab>
+                  At this parliament it was ordered that the feast of Christmas
+                  will be celebrated solemnly, not grandly, and that commons
+                  will be continued up until next term; and one cart-load of
+                  coals is allowed for those remaining here and 40s for the
+                  musicians' salary (as has been) previously customary, and in
+                  addition allowed for the commons £3
+                  <!-- how to tag? the 3 pounds, "£3", is right aligned, see p. 894 IoC vol.3  -->
+               </ab>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+      </body>
+   </text>
+   
+   
+   <text ana="taxon:middle_temple" type="record">
+      <body xml:lang="lat">
+         <head>
+            <date from-iso="1610-09-29" to-iso="1611-09-29">1610-11</date>
+            <seg ana="taxon:RLMTP003" corresp="taxon:RLPIC1 p. 147-8">RLMTP003</seg>
+         </head>
+         <div type="transcription">
+            <div>
+               <head>f 13<date when-iso="1610-11-23"></date><supplied>(23 November 1610)</supplied></head>
+               <pb n="f 13" type="folio"/>
+               <gap reason="omitted"/>
+               <ab>
+                  Ad hoc p<ex>ar</ex>liamentu<ex>m</ex> Ordinatu<ex>m</ex> est q<ex>uo</ex>d festu<ex>m</ex> Natalis D<ex>omi</ex>ni solempniter
+                  (non grande) celebrabit<ex>ur</ex>, Et q<ex>u</ex>e co<ex>m</ex>munie continuabunt<ex>ur</ex> vsq<ex>ue</ex> ad 
+                  prox<ex>imum</ex> Terminu<ex>m</ex>, et allocat<ex>ur</ex> hic Co<ex>m</ex>morantib<ex>us</ex> vna biga Carbonu<ex>m</ex> Et
+                  quadragint<ex>a</ex> solid<ex>i</ex> pro salario Musicoru<ex>m</ex> ante hac consuet<ex>o</ex>, Et preteria allocat<ex>ur</ex> pro Communijs 3 li.
+               </ab>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+         
+         <div type="translation">
+            <div>
+               <head>f 13<date when-iso="1610-11-23"></date><supplied>(23 November 1610)</supplied></head>
+               <pb n="f 13" type="folio"/>
+               <gap reason="omitted"/>
+               <ab>
+                  At
+                  this parliament it was ordered that the feast of Christmas will be celebrated
+                  solemnly, not grandly, and that commons will be continued up until next term; 
+                  and one cart-load of coals is allowed for those remaining here and 40s
+                  for the musicians' salary (as has been) previously customary, and in addition
+                  £3 is allowed for the commons.
+               </ab>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+      </body>
+   </text>
+   
+   
+   <text ana="taxon:middle_temple" type="record">
+      <body xml:lang="lat">
+         <head>
+            <date from-iso="1611-09-29" to-iso="1612-09-29">1611-12</date>
+            <seg ana="taxon:RLMTP003" corresp="taxon:RLPIC1 p. 147-8">RLMTP003</seg>
+         </head>
+         <div type="transcription">
+            <div>
+               <head>f 27<date when-iso="1611-11-22"></date><supplied>(22 November 1611)</supplied></head>
+               <pb n="f 27" type="folio"/>
+               <gap reason="omitted"/>
+               <ab>
+                  Ad hoc p<ex>ar</ex>liamentu<ex>m</ex> ordinatu<ex>m</ex> est q<ex>uo</ex>d festum Natalis D<ex>omi</ex>ni solempnit<ex>er</ex>
+                  (non grande) celebrabit<ex>ur</ex> Et q<ex>uo</ex>d Com<ex>m</ex>unie continuabunt<ex>ur</ex> vsq<ex>ue</ex> ad 
+                  proximu<ex>m</ex> Terminu<ex>m</ex>, Et allocat<ex>ur</ex> hic Com<ex>m</ex>orantib<ex>us</ex> vna biga Carbonu<ex>m</ex>, Et
+                  quadragint<ex>a</ex> solid<ex>i</ex> pro salario musicoru<ex>m</ex> ante hac consuet<ex>o</ex> Et preteria allocat<ex>ur</ex> pro Com<ex>m</ex>unijs iii li.
+                  <!-- how to tag? the 3 pounds, "iij li.",  is right aligned, see p. 148 IoC vol. 1 -->
+               </ab>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+         
+         <div type="translation">
+            <div>
+               <head>f 27<date when-iso="1611-11-22"></date><supplied>(22 November 1611)</supplied></head>
+               <pb n="f 27" type="folio"/>
+               <gap reason="omitted"/>
+               <ab>
+                  At this parliament it was ordered that the feast of Christmas
+                  will be celebrated solemnly, not grandly, and that commons
+                  will be continued up until next term; and one cart-load of
+                  coals is allowed for those remaining here and 40s for the
+                  musicians’ salary (as has been) previously customary, and in
+                  addition allowed for the commons £3
+                  <!-- how to tag? the 3 pounds, "£3", is right aligned, see p. 895 IoC vol.3  -->
+               </ab>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+      </body>
+   </text>
+   
 </TEI>
