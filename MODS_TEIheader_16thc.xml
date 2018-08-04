@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="REED.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
-
+<?xml-model href="reed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="eng"> 
    <teiHeader>
       <fileDesc>
@@ -23,6 +21,13 @@
             
 		 <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
 		 <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
+
+
+            <respStmt>
+               <persName>Ari Baughman</persName>
+               <orgName>Bucknell Univerity</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
             
             <respStmt>
                <persName xml:id="CB">Carolyn Black</persName>
@@ -110,7 +115,7 @@
                <orgName>Bucknell University</orgName>
                <resp>REED London research assistant, 2018</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName xml:id="KM">Kimberley Martin</persName>
                <orgName>University of Guelph</orgName>
@@ -221,7 +226,6 @@
          <langUsage>
             <language ident="eng">English</language>
             <language ident="lat">Latin</language>
-            <language ident="fra">Anglo-French</language>
          </langUsage>
          <settingDesc>
             <place>
@@ -232,17 +236,22 @@
       <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
          <mods:mods>
             <mods:titleInfo>
-               <mods:title>Inner Temple Treasurers’, Stewards’, and Butlers’ Accounts, 1614-15</mods:title>
+               <mods:title>Title</mods:title>
+               <mods:subTitle>Some subtitle here</mods:subTitle>
+            </mods:titleInfo>
+            <mods:titleInfo
+               type="alternative">
+               <mods:title>Alternative title</mods:title>
             </mods:titleInfo>
             <mods:name
                type="corporate">
-               <mods:namePart>Inner Temple</mods:namePart>
+               <mods:namePart>Corporate Author Name</mods:namePart>
             </mods:name>
             <mods:typeOfResource>text</mods:typeOfResource>
             <mods:genre type="formatType">Born Digital</mods:genre>
             <mods:genre type="format">born digital</mods:genre>
-            <mods:genre type="primaryGenre">Record</mods:genre>
-            <mods:genre type="subgenre">Archival material</mods:genre>
+            <mods:genre type="primaryGenre">Scholarly writing</mods:genre>
+            <mods:genre type="subgenre">Reference work</mods:genre>
             <mods:genre>Performance</mods:genre>
             <mods:language>
                <mods:languageTerm type="text">English</mods:languageTerm>
@@ -252,18 +261,17 @@
                <mods:internetMediaType>text/xml</mods:internetMediaType>
                <mods:digitalOrigin>born digital</mods:digitalOrigin>
             </mods:physicalDescription>
-            <mods:abstract>"Early treasurers’ accounts survive in one volume only, 1606–48; the same volume preserves occasional accounts of the steward and butler. For the period 1606–9 separate accounts are given for the treasurer, the steward, and the butler. Thereafter accounts are undivided.
-               In addition to the documents described below, two fragmentary copies of the treasurers’ accounts for 1621–2 and 1623–4 survive in the Birmingham Reference Library: Coventry MSS 660743, nos. 35 &amp; 36. These are duplicate copies which originally belonged to Sir Thomas Coventry, the treasurer. Each lacks the page recording payments for music and plays in those years, so are not collated here."</mods:abstract>
+            <mods:abstract>Some abstract here.</mods:abstract>
             <mods:subject>
-               <mods:topic valueURI="http://id.loc.gov/authorities/subjects/sh2010116269">Theater--England--London--History--17th century
+               <mods:topic valueURI="http://id.loc.gov/authorities/subjects/sh2002012470">Theater--England--London--History--16th century
                </mods:topic>
             </mods:subject>
             <mods:subject>
                <mods:geographic valueURI="http://www.geonames.org/2643743/">London</mods:geographic>
             </mods:subject>
             <mods:subject>
-               <mods:temporal point="start">1601</mods:temporal>
-               <mods:temporal point="end">1700</mods:temporal>
+               <mods:temporal point="start">1501</mods:temporal>
+               <mods:temporal point="end">1600</mods:temporal>
             </mods:subject>    
             <mods:accessCondition
                type="use and reproduction">Use of this public-domain resource is governed by the &lt;a
@@ -278,88 +286,25 @@
                <mods:recordContentSource>Canadian Writing Research Collaboratory</mods:recordContentSource>
             </mods:recordInfo>
          </mods:mods>
-      </xenoData>
-      <revisionDesc>
-         <!-- Add new major milestone changes to top -->
-         <change when="2018-07-14" who="#JAKA1">Added xenodata and MODS info</change>
-         <change when="2018-06-20" who="#KC">Split single file into multiple records files</change>
-         <change when="2018-05-30" who="#KC">Completed adding records to file and first round of structural tagging. Needs proofing.</change>
-         <change when="2018-05-14" who="#KC">added records to file</change>
-         <change when="2018-02-03" who="#JAKA1">created document</change>
-      </revisionDesc>
+      </xenoData>                 
    </teiHeader>
-   
-<text ana="taxon:inner_temple" type="record">
+
+   <text ana="taxon:letter" type="record">
       <body xml:lang="eng">
          <head>
-            <date from-iso="1614-09-29" to-iso="1615-09-29" cert="medium">1614-15</date>
-            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 182">RLITT001</seg>
-         </head>
-         
+            <date when-iso="YYY-MM-DD">1234</date>
+            <seg ana="taxon:RL1234" corresp="taxon:RLPIC1 686">six number code</seg></head>
          <div type="transcription">
             <div>
-               <head>f 91v <ptr type="endnote" target="endnote:RLE00161"/><date from-iso="1614-11-01" to-iso="1615-11-01"></date><supplied>(1 November 1614-1 November 1615) (Payments)</supplied>
-               </head>
-               <pb n="91v" type="folio"/>
-               <gap reason="omitted"/>
-               <table>
-               <row>
-                  <cell>Item p<ex>ay</ex>d to the Kinges Ma<ex>ies</ex>ties servant<ex>es</ex> for a
-                     play vpon allsaint<ex>es</ex> day 1614</cell>
-                  <cell rend="right"><measure type="currency">vj li.</measure></cell>
-               </row>
-               </table>
-               <gap reason="omitted"/>
+               <head> <supplied></supplied></head>
+            <pb type="sheet"/>
+            <gap reason="omitted"/>
+            <ab>
+            </ab>
             </div>
-            
-            <div>
-               <head>f 92<ptr type="endnote" target="endnote:RLE00161"/></head>
-                  <pb n="92" type="folio"/>
-                  <table>
-                     <row>
-                        <cell>Item p<ex>ay</ex>d for 2 staffe torches the same daye</cell>
-                        <cell rend="right"><measure type="currency">ij s.</measure></cell>
-                     </row>
-                     <row>
-                        <cell>Item payd to Iohn Hopp<ex>er</ex> for the Musitions fee
-                           the same day</cell>
-                        <cell rend="right"><measure type="currency">xx s.</measure></cell>
-                     </row>
-                  </table>
-                  <gap reason="omitted"/>
-                  <table>
-                     <row>
-                        <cell>I
-                           tem p<ex>ay</ex>d to his ma<ex>ies</ex>t<ex>ies</ex> s<ex>er</ex>vant<ex>es</ex> for a play vpon Candlemas 
-                           daye last past</cell>
-                        <cell rend="right"><measure type="currency">vj li. xiij s. iiij d.</measure></cell>
-                     </row>
-                     <row>
-                        <cell>Item p<ex>ay</ex>d for 2 staffe torches the same day</cell>
-                        <cell rend="right"><measure type="currency">ij s.</measure></cell>
-                     </row>
-                     <row>
-                        <cell>It<ex>em</ex> p<ex>ay</ex>d for ye musitions fee ye same day</cell>
-                        <cell rend="right"><measure type="currency">xx s.</measure></cell>
-                     </row>
-                  </table>
-                  <gap reason="omitted"/>
-               </div>
-               
-               <div>
-                  <head>f 94v<ptr type="endnote" target="endnote:RLE00161"/></head>
-                  <pb n="94v" type="folio"/>
-                  <gap reason="omitted"/>
-                  <table>
-                     <row>
-                        <cell>Item p<ex>ay</ex>d to the gent<ex>lemen</ex> reuellars vpon Candlemas
-                           day at night</cell>
-                        <cell rend="right"><measure type="currency">xl s.</measure></cell>
-                     </row>
-                  </table>
-                  <gap reason="omitted"/>
-               </div>
+
          </div>
       </body>
    </text>
-  </TEI>
+  
+</TEI>

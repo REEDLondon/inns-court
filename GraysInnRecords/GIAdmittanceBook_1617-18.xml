@@ -229,6 +229,57 @@
             </place>
          </settingDesc>
       </profileDesc>
+      
+      <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
+         <mods:mods>
+            <mods:titleInfo>
+               <mods:title>Gray's Inn Admittance Book, 1616-17</mods:title>
+               <mods:subTitle>Some subtitle here</mods:subTitle>
+            </mods:titleInfo>
+            <mods:name type="corporate">
+               <mods:namePart>Gray's Inn</mods:namePart>
+            </mods:name>
+            <mods:typeOfResource>text</mods:typeOfResource>
+            <mods:genre type="formatType">Born Digital</mods:genre>
+            <mods:genre type="format">born digital</mods:genre>
+            <mods:genre type="primaryGenre">Scholarly writing</mods:genre>
+            <mods:genre type="subgenre">Reference work</mods:genre>
+            <mods:genre>some tag</mods:genre>
+            <mods:language>
+               <mods:languageTerm type="text">English</mods:languageTerm>
+            </mods:language>
+            <mods:physicalDescription>
+               <mods:form authority="marccategory">electronic resource</mods:form>
+               <mods:internetMediaType>text/xml</mods:internetMediaType>
+               <mods:digitalOrigin>born digital</mods:digitalOrigin>
+            </mods:physicalDescription>
+            <mods:abstract>Uniquely among Inns of Court admissions registers, the Gray’s Inn Admittance Book contains admissions entries signed by its Christmas prince, the ‘Prince of Purpoole’ (see pp 124–5, 200–1).
+               The standard essential publication is Joseph Foster (ed), The Register of Admissions to Gray’s Inn, 1521–1889, together with the Register of Marriages in Gray’s Inn Chapel, 1695–1754 (London, 1889).</mods:abstract>
+            <mods:subject>
+               <mods:topic valueURI="http://id.loc.gov/authorities/subjects/sh2002012473">Theater--England--London--History--17th century
+               </mods:topic>
+            </mods:subject>
+            <mods:subject>
+               <mods:geographic valueURI="http://www.geonames.org/2643743/">London</mods:geographic>
+            </mods:subject>
+            <mods:subject>
+               <mods:temporal point="start">1601</mods:temporal>
+               <mods:temporal point="end">1700</mods:temporal>
+            </mods:subject>    
+            <mods:accessCondition
+               type="use and reproduction">Use of this public-domain resource is governed by the &lt;a
+               rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"
+               target="blank"&gt;Creative Commons Attribution-NonCommercial 4.0 International
+               License&lt;/a&gt;.</mods:accessCondition>
+            <mods:recordInfo>
+               <mods:recordOrigin>This MODS record was created using the Islandora XML Forms collection of Drupal modules.</mods:recordOrigin>
+               <mods:languageOfCataloging>
+                  <mods:languageTerm type="text">English</mods:languageTerm>
+               </mods:languageOfCataloging>
+               <mods:recordContentSource>Canadian Writing Research Collaboratory</mods:recordContentSource>
+            </mods:recordInfo>
+         </mods:mods>
+      </xenoData>       
    </teiHeader>
 
    <text ana="taxon:grays_inn" type="record">

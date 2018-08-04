@@ -247,6 +247,55 @@
             </place>
          </settingDesc>
       </profileDesc>
+      
+      <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
+         <mods:mods>
+            <mods:titleInfo>
+               <mods:title>Gray's Inn Ledger Book, 1590-91</mods:title>
+            </mods:titleInfo>
+            <mods:name type="corporate">
+               <mods:namePart>Gray's Inn</mods:namePart>
+            </mods:name>
+            <mods:typeOfResource>text</mods:typeOfResource>
+            <mods:genre type="formatType">Born Digital</mods:genre>
+            <mods:genre type="format">born digital</mods:genre>
+            <mods:genre type="primaryGenre">Scholarly writing</mods:genre>
+            <mods:genre type="subgenre">Reference work</mods:genre>
+            <mods:genre>some tag</mods:genre>
+            <mods:language>
+               <mods:languageTerm type="text">English</mods:languageTerm>
+            </mods:language>
+            <mods:physicalDescription>
+               <mods:form authority="marccategory">electronic resource</mods:form>
+               <mods:internetMediaType>text/xml</mods:internetMediaType>
+               <mods:digitalOrigin>born digital</mods:digitalOrigin>
+            </mods:physicalDescription>
+            <mods:abstract>Accounts were kept from Easter to Easter by the pensioner, but from November to November by the treasurer. Despite the legend on the spine the earliest accounts are from 1584 (f 8v). Some butlers’ accounts are also included. Some accounts are out of order, apparently having been entered from rough books without strict attention to chronological sequence. Folios 91v–109v are largely blank, except for two accounts dated 1673 and 1677. No accounts survive for the years 1614–34. Two leaves covering receipts from 1634 to 1637 (ff 110–11v) are heavily damaged (but would not have contained payments relevant to REED).</mods:abstract>
+            <mods:subject>
+               <mods:topic valueURI="http://id.loc.gov/authorities/subjects/sh2002012470">Theater--England--London--History--16th century
+               </mods:topic>
+            </mods:subject>
+            <mods:subject>
+               <mods:geographic valueURI="http://www.geonames.org/2643743/">London</mods:geographic>
+            </mods:subject>
+            <mods:subject>
+               <mods:temporal point="start">1501</mods:temporal>
+               <mods:temporal point="end">1600</mods:temporal>
+            </mods:subject>    
+            <mods:accessCondition
+               type="use and reproduction">Use of this public-domain resource is governed by the &lt;a
+               rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"
+               target="blank"&gt;Creative Commons Attribution-NonCommercial 4.0 International
+               License&lt;/a&gt;.</mods:accessCondition>
+            <mods:recordInfo>
+               <mods:recordOrigin>This MODS record was created using the Islandora XML Forms collection of Drupal modules.</mods:recordOrigin>
+               <mods:languageOfCataloging>
+                  <mods:languageTerm type="text">English</mods:languageTerm>
+               </mods:languageOfCataloging>
+               <mods:recordContentSource>Canadian Writing Research Collaboratory</mods:recordContentSource>
+            </mods:recordInfo>
+         </mods:mods>
+      </xenoData>      
    </teiHeader>
 
    <text ana="taxon:grays_inn" type="record">

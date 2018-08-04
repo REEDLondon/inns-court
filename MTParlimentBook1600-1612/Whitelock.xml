@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="reed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="eng"> 
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            
+            <title type="main">Inns of Court</title>
+
+            
+            <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>
+            <funder><orgName>CANARIE</orgName></funder> 
+            
+            <funder><orgName>British Academy, London, UK</orgName></funder>
+            <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>            
+            <funder><orgName>National Endowment for the Humanities, Washington, DC, United States of
+               America</orgName></funder>
+            <funder><orgName>Social Sciences and Humanities Research Council, Ottawa,
+               Canada</orgName></funder>
+            
+		 <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
+		 <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
+
+
+            <respStmt>
+               <persName>Ari Baughman</persName>
+               <orgName>Bucknell Univerity</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="CB">Carolyn Black</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Project Manager</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>John Bradley</persName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Susan Brown</persName> 
+               <orgName>University of Guelph</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="KC">Kathy Chung</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>REED Research Associate, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>William Cooke</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>English Glossarian</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="JC">James Cummings</persName>
+               <orgName>Newcastle University</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+               <resp>TEI Schema Designer, Technical Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Matthew Davies</persName>
+               <orgName>University of London, Birkbeck College</orgName> <!-- confirm -->
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="PG">Patrick Gregory</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Associate Editor</resp> <!-- confirm -->
+               <resp>Paleographer, Translator</resp> <!-- confirm -->
+            </respStmt>
+            <respStmt>
+               <persName>Tanya Hagen</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Bibliographer, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="JAKA1">Diane K. Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>Principal Investigator, NHPRC-Mellon Digital Edition Publishing Cooperatives Planning Grant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Alexandra F. Johnston</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>REED Founder and Senior Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>David Kathman</persName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Sally-Beth MacLean</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Principal Investigator, SSHRC grant; Director of Research and General Editor</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Maureen Maclean</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="KM">Kimberley Martin</persName>
+               <orgName>University of Guelph</orgName>
+               <resp>NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Christopher Matusiak</persName>
+               <orgName>Ithaca College</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="JN">Jamie Norrish</persName>
+               <resp>Programmer, EATS developer, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Dorothy Porter</persName>
+               <orgName>University of Pennsylvania</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Arleane Ralph</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Paleographer</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Suzanne Westfall</persName>
+               <orgName>Lafayette College</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board Member</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Abigail Ann Young</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Latin Glossarian</resp>
+            </respStmt>
+            
+         </titleStmt>
+         <editionStmt>
+            <edition>Print version, published <date when-iso="2010">2010</date>. Electronic edition, anticipated publication <date when-iso="2018">2018</date></edition>
+         </editionStmt>
+         
+         <publicationStmt>
+            <authority><orgName>Records of Early English Drama (REED)</orgName>
+               <address>
+                  <addrLine>University of Toronto</addrLine>
+                  <addrLine>170 St George Street, Suite 810</addrLine>
+                  <addrLine>Toronto, Ontario, Canada</addrLine>
+                  <addrLine>M5R 2M8</addrLine>
+               </address>
+            </authority>
+            
+            <publisher>D.S. Brewer, Cambridge, an imprint of Boydell &amp; Brewer Ltd./Boydell &amp; Brewer Ltd.</publisher>
+            <pubPlace>Rochester, NY</pubPlace>
+            <date>2010</date>
+            <idno type="other">978-1-84384-259-0</idno>
+            
+            <availability>
+               <p>Copyright <orgName>Records of Early English Drama (REED)</orgName>,
+                  <date>2017</date></p>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a
+                  Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA
+                  4.0) licence.</licence>
+            </availability>
+         </publicationStmt>
+         
+         <seriesStmt>
+            <title>Records of Early English Drama</title>
+         </seriesStmt>
+         <sourceDesc>
+            <p>This publication constitutes a remediation of the printed Inns of Court collection. Information on original sources for transcriptions can be accessed via the Document Descriptions.</p>
+            <p>For a full list of REED collections, editors, executive board members, and staff, please visit http://reed.utoronto.ca/people</p>       
+         </sourceDesc>
+      </fileDesc>
+      
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="taxon" matchPattern="([A-Za-z0-9_-]+)"
+               replacementPattern="../taxonomy.xml#$1">
+               <p>Private URIs using the <code>taxon</code> prefix are pointers to entities in the
+                  taxonomy.xml file. For example, <code>taxon:church</code> dereferences to
+                  <code>taxonomy.xml#church</code>.</p>
+            </prefixDef>
+            <prefixDef ident="gloss" matchPattern="([A-Za-z0-9_-]+)"
+               replacementPattern="../glossary.xml#$1">
+               <p>Private URIs using the <code>gloss</code> prefix are pointers to entities in the
+                  glossary.xml file. For example, <code>gloss:histrio-1</code> dereferences to
+                  <code>glossary.xml#histrio-1</code>.</p>
+            </prefixDef>
+         </listPrefixDef>
+         
+         <projectDesc>
+            <p>Records of Early English Drama (REED) is an international scholarly project that is
+               establishing for the first time the context from which the drama of Shakespeare and his
+               contemporaries grew. Founded in 1976, REED has worked since then to locate, transcribe,
+               and edit historical documents containing evidence of drama, secular music, and other
+               communal entertainment and ceremony from the Middle Ages until 1642, when the Puritans
+               closed the London theatres.</p>
+         </projectDesc>
+      </encodingDesc>
+      
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">English</language>
+            <language ident="lat">Latin</language>
+         </langUsage>
+         <settingDesc>
+            <place>
+               <placeName>London</placeName> 
+            </place>
+         </settingDesc>
+      </profileDesc>
+      <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
+         <mods:mods>
+            <mods:titleInfo>
+               <mods:title>Bulstrode Whitelocke's 'Annals'</mods:title>
+               <mods:subTitle>Some subtitle here</mods:subTitle>
+            </mods:titleInfo>
+            <mods:titleInfo
+               type="alternative">
+               <mods:title>Alternative title</mods:title>
+            </mods:titleInfo>
+            <mods:name
+               type="personal">
+               <mods:namePart type="surname">Whitelocke</mods:namePart>
+               <mods:namePart type="forename">Bulstrode</mods:namePart>
+            </mods:name>
+            <mods:typeOfResource>text</mods:typeOfResource>
+            <mods:genre type="formatType">Born Digital</mods:genre>
+            <mods:genre type="format">born digital</mods:genre>
+            <mods:genre type="primaryGenre">Scholarly writing</mods:genre>
+            <mods:genre type="subgenre">Reference work</mods:genre>
+            <mods:genre>Performance</mods:genre>
+            <mods:language>
+               <mods:languageTerm type="text">English</mods:languageTerm>
+            </mods:language>
+            <mods:physicalDescription>
+               <mods:form authority="marccategory">electronic resource</mods:form>
+               <mods:internetMediaType>text/xml</mods:internetMediaType>
+               <mods:digitalOrigin>born digital</mods:digitalOrigin>
+            </mods:physicalDescription>
+            <mods:abstract>Bulstrode Whitelocke’s papers were culled, probably in the nineteenth century, from a larger collection, then numbered and placed unbound into a folder. A list of contents, written on a single page dated 20 December 1912, was prepared for Professor Smart of Glasgow University. The numbers on that calendar do not correspond exactly to the numbers in the following list, which, thanks primarily to the articles mentioned in the next paragraph, are now to be considered definitive.</mods:abstract>
+            <mods:subject>
+               <mods:topic valueURI="http://id.loc.gov/authorities/subjects/sh2002012473">Theater--England--London--History--17th century
+               </mods:topic>
+            </mods:subject>
+            <mods:subject>
+               <mods:geographic valueURI="http://www.geonames.org/2643743/">London</mods:geographic>
+            </mods:subject>
+            <mods:subject>
+               <mods:temporal point="start">1601</mods:temporal>
+               <mods:temporal point="end">1700</mods:temporal>
+            </mods:subject>    
+            <mods:accessCondition
+               type="use and reproduction">Use of this public-domain resource is governed by the &lt;a
+               rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"
+               target="blank"&gt;Creative Commons Attribution-NonCommercial 4.0 International
+               License&lt;/a&gt;.</mods:accessCondition>
+            <mods:recordInfo>
+               <mods:recordOrigin>This MODS record was created using the Islandora XML Forms collection of Drupal modules.</mods:recordOrigin>
+               <mods:languageOfCataloging>
+                  <mods:languageTerm type="text">English</mods:languageTerm>
+               </mods:languageOfCataloging>
+               <mods:recordContentSource>Canadian Writing Research Collaboratory</mods:recordContentSource>
+            </mods:recordInfo>
+         </mods:mods>
+      </xenoData>                 
+   </teiHeader>
+
+   <text ana="taxon:letter" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date when-iso="YYY-MM-DD">1234</date>
+            <seg ana="taxon:RL1234" corresp="taxon:RLPIC1 686">six number code</seg></head>
+         <div type="transcription">
+            <div>
+               <head> <supplied></supplied></head>
+            <pb type="sheet"/>
+            <gap reason="omitted"/>
+            <p>
+               About Allhollantide, seuerall of the principall members of the Societies of the fower Innes of Court, amongst whom, some were seruants to the king, had a designe that the Innes of Court should present their seruice to the King &amp; Queen &amp; testify their affections to them, by the outward &amp; splendid visible [of ] testimony, of a Royall Masque of all the 4. societies ioyning togither, to be by them brought to the Court, as an expression of their loue &amp; duety to their M<ex>aies</ex>tyes.</p>
+               
+               <p>This was hinted att in the Court &amp; by them intimated to the Chiefes of those societies, that it would be well taken from them, &amp; some held it the more seasonable, bicause this action would mainest<note type="foot">mainest: <hi rend="italic">with abbreviation mark over</hi> n <hi rend="italic">(?); for</hi> mani<hi rend="italic">f</hi>est</note> the difference of their opinion from Mr Prynnes new learning, &amp; serue to confute his Histriomastix against enterludes.</p>
+               
+               <p>This designe tooke well, with all the Innes of Court, especially the younger sort of them, &amp; in order to putt it in execution, the Benchers of<note type="foot">of<hi rend="sup">2</hi>: <hi rend="italic">start of col 2 on f89v</hi></note> each society mett, &amp; agreed, to haue this solemnity performed, in the noblest &amp; most stately manner that could be inuented.</p>
+               
+               <p>The better to effect this, it was resolued, in each house to choose two of their Members, whom they should iudge fittest, for such a buisnes, to be a Committee, by ioint assistance to carry on that affayre.</p>
+               
+               <p>In the middle Temple were chosen of this Committee, Mr Edward Hyde &amp; Whitelocke, for the Inner Temple Sir Edward Herbert, and Mr Selden. for Lincolnes Inne Master Atturney Noy, &amp; Mr Gerling, &amp; for Greyes Inne, Sir Iohn Fynch &amp; Mr <ex>(blank)</ex></p>
+               
+               <p>This Committee being impowred by the Benchers of each society, mett togither, &amp; out of their own number made seuerall subcommittees, one subcommittee to take care, of the poeticall part of the buisnes, another for the seuerall properties of the Masquers &amp; Antimas | quers, &amp; other actors, another was for the dauncing, &amp; to me in particular was committed, the whole care &amp; charge of all the Musicke for this Great Masque.</p>
+               
+               <p>The buisnes being thus distributed, each subcommittee had their meetings, &amp; carryed on their buisnes, committed to their care, &amp; had monyes prouided, by an equall proportion, by the Gouernors of each society, who were not sparing, in that most materiall part, of euery designe &amp; action.</p>
+               
+               <p>I made choyce of Mr Symon Iue, an honest &amp; able Musitian, of excellent skill in his Art, &amp; of Mr Lawes<note type="foot">Mr. Lawes: <hi rend="italic">i.e., William Lawes</hi></note>, to Compose the aiers, lessons &amp; songs for the Masque, &amp; to be the masters of all the musicke under me.</p>
+               
+               <p>I also made choice of 4. of the most excellent musitians of the Queens Chappell, M<ex>o</ex>n<ex>sieu</ex>r La Mare, M<ex>o</ex>n<ex>sieu</ex>r Du Vale, M<ex>o</ex>n<ex>sieu</ex>r Robert, &amp; M<ex>o</ex>n<ex>sieu</ex>r Mari, and of diuers others of forrein nations, who were most eminent in their Art, not in<note type="foot">in: <hi rend="italic">start of col 2 on f90</hi></note> the least neglecting any of my own Countrymen, whose knowledge in Musicke, rendred them usefull in this action, to beare their parts in the Musicke, which I resolued if I could, to haue so performed, as might excell any musicke, that euer before this time had bin in England.</p>
+               
+               <p>Herein I kept my purpose, &amp; for the better preparation &amp; practise of the Musicke, &amp; that I myselfe might take the better care, amp; be present with them, I caused the meetings of all the Musitians, to be frequent att my house in Salisbury Court, and there I haue had togither att one time, of English, French, Italian, Germans, &amp; other Masters of Musicke, fourty Lutes, besides other Instruments, &amp; voyces of the most excellent musitians in consort.</p>
+               
+               <p>The rest of the subcommittees prepared all things in readyness according to their seuerall charges, &amp; the Grandees, M<ex>aste</ex>r Atturney Generall, Noy, S<ex>i</ex>r Iohn Fynch, S<ex>i</ex>r Edward Herbert, Mr Selden, &amp; all the rest of the Committees, tooke great paynes, &amp; neglected no | meetings for the management of this great business, of the masque which they knew would be acceptable to their Master &amp; Mistress &amp; to all the court.</p>
+               
+               <p>The time for presenting of this masque att Whitehall, was agreed to be on Candlemas night to end Christmas, &amp; the seuerall parts of it being brought neer to a readiness for action, Hyde and Whitelocke, were sent by the Committee, to the Lord Chamberlein, the Earle of Pembroke &amp; Montgomery, &amp; to Sir Henry Vane the Comtroller of the kings house to aduise with them, &amp; to take order, about the Sceane, &amp; other matters relating to the Masque, &amp; about preparing things in the Banquetting house, in order therto, &amp; being all mett there for that purpose to view to<note type="foot">to: <hi rend="italic">for</hi> the <hi rend="italic">(?)</hi></note> places &amp; to order the matters.</p>
+               
+               <p>In the debate about them it happened, that there was a difference of opinion between Sir Henry Vane &amp; Whitelocke, Sir Henry who had as great pride as parts, and a scornfull slighting way of expressinge himselfe, expected according to the name of his office, to be<note type="foot">be: <hi rend="italic">start of col 2 on f90v</hi></note> Comptroller of all other mens iudgements, &amp; to haue all things done according to his own, &amp; not otherwise, and appeared to hold himselfe who was a great officer &amp; a priuy Counsellor, to be undervalued, in a young Lawyers difference of opinion, from his wisdome, &amp; not att first subscribing to it, and swearing in verbo Magistri if the Comptroller understood so much Latin</p>
+               
+               <p>I thought the Socieites whose seruant I was, &amp; in a buisnes acceptable to both their [M<ex>aies</ex>tyes] M<ex>aies</ex>tyes, to be underualued by Sir Henry Vanes not vouchsafing such conveniences &amp; accomodations, as were requisite, &amp; the place did afforde, for the presenting of their seruices to their M<ex>aies</ex>tyes att the Court.</p>
+               
+               <p>I was befittingly humble to the priuy Counsellor, yett would not sneake, nor admit of inconveniences, to my Masters, especially uppon this occasion. Mr Hyde tooke in rowndly with me, &amp; att length by the | Lord Chamberleins authority &amp; perswasions interposed, all things were ordered according to our desires, &amp; we parted, seeming all to be very good friends.</p>
+               
+               <p>The Gallery behind the state att the end of the banquetting house, was reserved for the gentlemen of the Innes of Court, who should come thither to see their masque that there they might sitt togither, &amp; none else to be admitted with them into that place.</p>
+               
+               <p>The Dauncers, Masquers Antimasquers, &amp; Musitians did before hand practise in the place, where they were to present the Masque &amp; the sceanes were arteficially prepared, att the lower end of the Banquetting house, &amp; all things were in readyness.</p>
+               
+               <p>The Grand Masquers were fower gentlemen of each Innes<note type="foot">Innes: <hi rend="italic">for</hi> Inne</note> of Court, most suitable for their persons, dauncing, &amp; garbe<note type="foot">garbe: <hi rend="italic">for</hi> garbed</note> for that buisnes, &amp; it was ordered, that they<note type="foot">they: <hi rend="italic">start of col 2 on f91</hi></note> should be drawne in fower riche Chariotts, 4. Masquers in each Chariot, by 6 horses in each Chariot.</p>
+               
+               <p>Butt there grew a difference, about the order of their going, which of the Innes of Court should haue the first Chariot, &amp; so of the rest in their order, &amp; how the seuerall grand Masquers should sitt, in the seueral Chariots, who in the first or chiefest place, &amp; who in the second, third, and last place.</p>
+               
+               <p>To satisfy this it was propounded by Wh<ex>itelocke</ex> &amp; assented to by the Committee, that the Chariots should be made, after the fashion of the Roman Tryumphant Chariots, &amp; being of an Ovall forme in the seats, there would be no difference of place in them.</p>
+               
+               <p>For the seuerall colours, &amp; for the precedence of the Chariots, it was agreed, that one of each house, of the Committee, should throwe the dice, &amp; as that happened, the society to be bound of which he that threw was a member.</p>
+               
+               <p>I threw the dice for the Middle Temple, &amp; by my cast, had the | place for the second Chariot, and siluer &amp; blew for my colours, which colours, I haue euer since kept in my liueryes, &amp; uppon all solemne occasions.</p>
+               
+               <p>Candlemas day being come, All the Masquers, Horsemen, Musitians, Dauncers, &amp; all that were actors in this buisnes, according to order, mett att Ely house in Holborne, in the afternoone.</p>
+               
+               <p>There the whole Committee sate all day, to order all affayres, and when the Euening was come, all things being in full readyness, they began to sett forth, eueryone in their order, towards Whitehall, their way was directed thorough Chancery lane, and from thence through Temple barre, &amp; so the high way to Whitehall to the Court.</p>
+               
+               <p>The first that marched, were twenty footmen in scarlet liueryes, with siluer lace, each one hauing his sword by his side, a baton in one hand, &amp; a torch lighted in the other hand, these were the Marshalls men, who cleered the streets, made way, &amp; were all about the Marshall waiting<note type="foot">waiting: <hi rend="italic">start of col 2 on f91v</hi></note> his commaunds. After them, &amp; sometimes in the midst of them came the Marshall, then Mr Darrell, afterwards knighted by the king, an extraordinary hansome, proper gentleman, one of Lincolnes Inne, &amp; was agreed uppon by the Committee for this seruice.</p>
+               
+               <p>He was mounted uppon one of the Kinge<note type="foot">Kinge: <hi rend="italic">for</hi> Kinges</note> best horses, and richest saddles, and his owne habit was exceeding rich &amp; glorious, his horsemanship very gallant, &amp; besides his Marshalls men, he had two Lacquayes, who carryed torches by him, &amp; a page, in liuery, that went by him carrying his cloake.</p>
+               
+               <p>After him followed one hundred gentlemen of the Innes of Court, fiue &amp; twenty chosen out of each house, of the most proper &amp; hansome young gentlemen of the societies.</p>
+               
+               <p>Euery one of them was gallantly mounted, on the best horses, &amp; with the best furniture, that the Kings stable | &amp; the stables of all the Noblemen in Towne, would afforde &amp; they were forward on this occasion, to lend them to the Innes of Court.</p>
+               
+               <p>Euery one of these 100 gentlemen, were in very rich clothes, scare<note type="foot">scare: <hi rend="italic">for</hi> scarce</note> anything butt gould &amp; siluer lace, to be seen of them, &amp; each gentleman, had a Page &amp; two Lacquays waiting on him, in his liuery, by his horse side, &amp; euery on had his sword, the Lacquayes carryed torches &amp; the page, the cloake of his Master.</p>
+               
+               <p>The richness of their apparell &amp; furniture, glittering by the light of the multitude of torches attending on them, with the motion &amp; stirring of their mettled horses, &amp; they many &amp; various gay liueryes of their seruants, butt especially, the personall beauty &amp; gallantry of the hansome young gentlemen made the most glorious and splendid show, that euer was beheld in England. After the horsemen, came the Antimasquers, &amp; as the horsemen had their musicke, about<note type="foot">about: <hi rend="italic">start of col 2 on f92</hi></note> a dozen of the best Trompets, proper for them, &amp; in their liuery sounding before them so the first Antimasque, being of Cripples &amp; Beggars on horseback, had their musicke of keys &amp; tonges, &amp; the like, snapping &amp; yett playing in a consort before them.</p>
+               
+               <p>These beggers were also mounted, butt on the poorest leanest iades, that could be gotten out of the dust cartes, or elsewhere, &amp;the variety &amp; change from noble musicke, &amp; gallant horses as went before them, unto their proper musicke &amp; pittifull horses, made both of them the more pleasing.</p>
+               
+               <p>The habits &amp; properties, of these Cripples &amp; Beggars, were most ingeniously fitted, (as of all the rest) by the Committees direction, wherin (as in the whole buisnes) Master Atturney Noy, Sir John Fynch, Sir Edward Herbert, Mr Selden, those great &amp; eminent persons, as all the rest of the Committee, had often meetings, &amp; tooke extraordinary care &amp; paynes, in the ordering of this buisnes, &amp; it seemed a pleasure to them.</p>
+               
+               <p>After the Beggars antimasque came men on Horsebacke play | ing uppon pipes, whistles, &amp; instruments, sounding notes like those of birds of all sorts, &amp; in excellent consort, &amp; were followed by the antimasque of Birds.</p>
+               
+               <p>This was an Owle in an Iuy bush, with many seuerall sorts of other Birdes, in a Cluster about the Owle gazing as it were uppon her, these were little boyes, putt into Couers of the shapes of those birdes, rarely fitted, &amp; sitting on smalle horses, with footmen going by them, hauing all of them torches in their<note type="foot">their: <hi rend="italic">for</hi> tehir hands</note> &amp; the footmen likewise had in the former antimaske, &amp; heer were some besides to looke unto the children, &amp; this was very pleasant to the beholders. After this antimasque came other musitians on horsebacke playing uppon Baggepipes, Hornepipes, &amp; such kind of Northerne musicke speaking the following antimaske of proiectors, to be of the Scotch &amp; Northern quarters, &amp; these (as all the rest,<note type="foot">(as ... rest,: <hi rend="italic"> closing parenthesis omitted</hi></note> had many footemen with torches waiting on them.</p>
+               
+               <p>first in this Antimasque rode a fellow uppon a little horse with a great Bitt in his mouth, &amp; uppon the mans head, was a Bitt, with Head stall &amp; raines, fastened, and signifyed a proiector, who begged a Patent, that none in the kingdome, might ride their horses, butt with such Bitts, as they should buy of him.</p>
+               
+               <p>Then came another fellowe with a bunche of Carretts uppon his head, &amp; a Capon uppon his fist, describing a proiector, who begged a Patent of Monopoly, as the first inuenter of the art, to feed Capons fatt with Carrets, &amp; that none butt himselfe, might make use of that inuention, &amp; haue the priuiledge for 14 years, according to the Statute</p>
+               
+               <p>Seuerall other proiectors were in like manner personated, in their antimasque, &amp; it pleased the spectators the more, because by it, an information was covertly giuen to the King, of the unfittness, &amp; ridiculousness of these proiects, against the law, &amp; Atturney Noy who had most knowledge of them, had a great hand in this Antimasque of the Proiectors. |</p>
+               
+               <p>After this &amp; the rest of the Antimasquers were past, all which are not heer remembred, there came sixe of the Chiefe Musitians on Horsebacke, uppon footclothes, &amp; in the Habits of Heathen [pr] priests, &amp; footmen carrying of torches by them.</p>
+               
+               <p>After those Musitians followed a large open Chariot, drawne with sixe braue horses, with large plumes of feathers, on their heads &amp; buttockes, the Coachman &amp; postilian, in rich antique liueryes, in the Chariot were about a dozen persons in seuerall habits of the Gods &amp; Goddesses, &amp; by them many footmen on all sides bearing torches.</p>
+               
+               <p>After this Chariot followed sixe more of the Musitians on horsebacke with footclothes habited &amp; attended with torches, as the former were.</p>
+               
+               <p>After them, came another large open Chariot, like the former, drawne with six gallant horses, with feathers liueryes &amp; torches as the other had. these Chariots were<note type="foot">were: <hi rend="italic">start of col 2 on f93</hi></note> made purposely for this occasion, &amp; in this latter Chariot were about a dozen Musitians in like habit, butt all with some variety, &amp; distinction, as those in the first Chariot.</p>
+               
+               <p>These going immediately, next before the Grand Masquers Chariots, played uppon excellent &amp; lowde musicke, all the way as they went.</p>
+               
+               <p>After this Chariot came 6 more musitians on footclothe horses, habited &amp; attended as the other. Then came the first chariot of the Grand Masquers, which was not so large as those that went before, butt most curiously framed, carued, &amp; painted, with exquisite art, &amp; purposely for this seruice &amp; occasion. The forme of it, was after that of the Roman Triumphant Chariots, as neer as could be gathered by some old prints &amp; pictures extant of them, the seats in it were made of an Ouall forme in the backe end of the Chariot, so that there was no precedence in them, &amp; the faces of all that sate in it, might be seen togither.</p>
+               
+               <p>The Colours of this first Chariot were, siluer &amp; crimson, giuen by | the lott to Grayes Inn, (as I remember) the Chariot was all ouer painted richly with these colours, even the wheeles of it, most artificially layd on, &amp; the carued worke of it was as curious for that art, &amp; it made a stately show.</p>
+               
+               <p>It was drawne with fower horses all on breast, &amp; they were couered to their heeles all ouer, with cloth of tissue, of the colours of Crimson &amp; siluer, huge plumes of red and white feathers on their heads &amp; buttockes, the Coachmans Cap and feather, his long Coate, &amp; his very whippe &amp; cushion, of the same stuffe &amp; colour.</p>
+               
+               <p>In this Chariot sate, the 4 Graund Maskers of Grayes Inne, their habits, doublets, trunke hose &amp; cappes of most riche cloth of tissue, and wrought as thicke with siluer spangles as they could be placed, large white silke stockins up to their trunke hose, &amp; rich sprigges in their cappes, themselues proper &amp; beautifull young gentlemen.</p>
+               
+               <p>On each side of the Chariot were fower footmen, in liueryes of the colour of the Chariot, carrying huge flambois in their hands, which with the torches gaue such a lustre, to the paintings, spangles &amp;<note type="foot">&amp;: <hi rend="italic">start of col 2 on f93v</hi></note> habits, that hardly any [th] thing could be inuented to appeare more glorious.</p>
+               
+               <p>After this Chariot came sixe more Musitians, on footclothes &amp; in habits like the former. These were followed by the second chariot, as the lot fell for the Middle Temple, this differed not in any thing from the former, butt in colours only, which were of this Chariot, siluer &amp; blue, it was drawne by my Coach horses, &amp; driuen by my own Coachman, in the like lieuery of blue &amp; siluer, &amp; the Chariot &amp; horses couered &amp; decked with cloth of tissue of blue &amp; siluer, as the former was with siluer &amp; crimson.</p>
+               
+               <p>In this second Chariot, were the fower Grand masquers of the Middle Temple, in the same habits as the other Masquers were, &amp; with the like attendance torches &amp; flambois with the former. After these, followed the third &amp; fowerth Chariots, &amp; sixe Musitians between each Chariot, habited on footcloth horses as before, | the Chariots, were all of the same make, &amp; alike carued &amp; painted, differing only in the Colours, in the third Chariot rode the Grand Masquers of the Inner Temple, and in the fourth Chariot went those of Lincolnes Inne, according to the lot of each of them.</p>
+               
+               <p>The habits of the 16 Graund Masquers were all the same their persons most hansome &amp; louely, the Equipage so full of state &amp; height of gallantrye, that it neuer was outdone by any representation mentioned in our former stories. The Torches &amp; flaming huge flambois, borne by the sides of each Chariot, made it seem lightsome as att noon day, butt more glittering, &amp; gaue a full &amp; cleer light to all the streets &amp; windowes as they passed by.</p>
+               
+               <p>The Marche was slowe, in regard of their great numbers, butt more interrupted by the Multitude of the spectators, in the streets, besides the windowes, &amp; they all seemed loth to part with so<note type="foot">so: <hi rend="italic">start of col 2 on f94</hi></note> glorious a spectacle.</p>
+               
+               <p>This gaue opportunity to Hyde &amp; Whitelocke, who usually were togither, to take a Coach, &amp; by the other way, to gett before them to Whitehall, where they found the fayre banquetting house, so crowded with fayre Ladyes, glistering with their rich clothes, &amp; richer jewells, &amp; with lords &amp; gentlemen of great quality, that there was scarse roome for the King &amp; Queen to enter in. They saw that all thinges were in readiness there, &amp; the Lord Chamberlein carryed them up to the Chamber of the beautifull &amp; ingenious Countess of Caernaruon his daughter, whose company was no smalle pleasure &amp; refreshment.</p>
+               
+               <p>The King &amp; Queen stood att a Windowe, looking streight foward into the street, to see the Masque come by, &amp; being delighted with the Noble brauery of it, they sent to the Marshall to desire that the whole show, might fetch a turne about the Tiltyeard, that their Maiestyes might haue a double view of them, which was done accordingly &amp; then they all alighted att White | hall gate, &amp; were conducted to seuerall roomes &amp; places, prepared for them. The Horsemen of the Masque, and other gentlemen of the Innes of Court, sate in the Gallery reserued for them, &amp; those of the Committee that were present, were with them, only Hyde &amp; Whitelocke were placed belowe among the Grandees, &amp; neare the Sceane, that they might be ready to giue their assistance, if there should be occasion, &amp; as an extraordinary fauour [th] to them att that time, &amp; in that presence.</p>
+               
+               <p>The King &amp; Queen, &amp; all their Noble traine, being come in, the Masque began, &amp; was incomparably performed, in the dauncing speeches, musicke, &amp; sceanes, the daunces, figures, properties, the voices, instruments, songs, aiers, composures, the words &amp; actions were all of them exact, &amp; none fayled in their parts of them, and the sceans were most curious &amp; costly.</p>
+               
+               <p>The Queen did the honor to some of the Masquers to daunce with them herselfe, &amp; to iudge them, as<note type="foot">as: <hi rend="italic">start of col 2 on f94v</hi></note> good dauncers as euer she sawe, &amp; the great Ladyes were very free &amp; ciuill in dauncing with all the Masquers as they were taken out by them.</p>
+               
+               <p>Thus they continued in their sports untill it was almost the morning, &amp; then the King &amp; Queen, retiring to their chamber, the Masquers &amp; Innes of Court gentlemen were brought to a stately banquet, &amp; after that was dispersed, euery one departed to their own quarters.</p>
+               
+               <p>Thus was this earthly pomp &amp; glory (if not vanity) soone past ouer &amp; gone, as if it had neuer bin, &amp; as all worldly gories<note type="foot">gories: <hi rend="italic">for</hi> glories</note> are, but for a moment</p>
+               
+               <p>Lett it therfore (my children) be your care, to slight these earthly glories, &amp; not to sett your affections on them, but to seeke after that eternall weight of glory, which will neuer passe away.</p>
+               
+               <gap reason="omitted"/>
+               
+               <!-- f 95 col 1–f 96 col 1* -->
+               
+               <gap reason="omitted"/>
+               
+               <p>The queen, who was much delighted, with these Solemnities, was so taken with this show &amp; Masque, that she desired to see it acted ouer againe, wheruppon, an intimation being giuen to the Lord Maior of London, he inuited the King &amp; Queen &amp; the Innes of Court Masquers, to the Citty, &amp; intertained them, with all state &amp; magnificence, att Marchant Taylors Hall.</p>
+               
+               <p>Thither marched, through the Citty, the same show, that went before to Whitehall, &amp; the same Masque was againe presented to them in the Citty, the same, horsemen, lacquays, liueries, torches, habits, chariots, musicke &amp; all other parts of the<note type="foot">the: <hi rend="italic">start of col 2 on f95</hi></note> former solemnity, &amp; in the same state &amp; Equipage as it was before presented.</p>
+               
+               <p>This also gaue great contentment to their M<ex>aies</ex>tyes, &amp; no lesse to the Cittizens, especially to those of the younger sort, &amp; of the female sexe, &amp; it was to the great honour, &amp; no lesse charge of the L<ex>ord</ex> Maior freeman.</p>
+               
+               <p>After these dreames past, &amp; these pompes vanished, the Committee of the Masque, required an account, of all the disbursements, &amp; all men were satisfyed justly &amp; bountifully.</p>
+               
+               <p>I therfore inuited them one morning, to a Collation att St Dunstans Tauerne, in the great Roome, the Oracle of Apollo, where each of them had his plate layd | for him, couered, &amp; the Napkin ty’d, &amp; when they opened their plates they found in each of them, forty pieces of gould, of their Masters coyne, for the first dish, &amp; they had cause to be much pleased with this surprisall. The rest of the Musitians, had rewards answearable to their parts, &amp; qualities, &amp; the whole charge of the Musicke, came to about one thousand pownds. The clothes of the Horsemen, &amp; the liueries of their pages and lacquays, which were att their owne perticular charge, were reckoned one with another att 100 l. a suit, att the least, &amp; one hundred of those suits, to amount unto 10000 l.</p>
+               
+               <p>For the musicke, which was perticularly committed to my charge, I gaue to Mr Iues, &amp; to Mr Lawes 100 l. a piece, for their rewards, for the 4 french gentlemen, the Queens seruants, I thought that a hansome &amp; liberall gratifying of them, would be made knowne to the Queen, their Mistris, and well taken by her.</p>
+               
+               <p>The Charges of all the rest of the Masque, &amp; matters belonging to it, were reckoned att as much more, &amp; so the charge of the whole Masque, which was borne, by the societies, &amp; by the perticular members of it, was accounted to be aboue twenty thousand pownds.</p>
+               
+               <p>I was so conuersant with the Musitians, &amp; so willing to gaine their<note type="foot">their: <hi rend="italic">start of col 2 on f95v</hi></note> fauour, especially att this time, that I composed an aier my selfe, with the assistance of Mr Iue, and called it, Whitelockes Coranto, which being cryed up, was first played publiquely, by the Blackefryars musicke, who were then esteemed the best common Musicke in all London.</p>
+               
+               <p>Whensoeuer I came to that house, (as I did sometimes in those dayes)<note type="foot">dayes): <hi rend="italic">superfluous closing parenthesis</hi></note> though not often) to see a play, the Musitians would presently play Whitelockes Coranto, &amp; it was so often called for, that they would haue it played, twice or thrice in an afternoone.</p>
+               
+               <p>The Queen hearing it, would not be perswaded, that it was made by an Englishman, bicause she said, it was fuller of life &amp; spirit then the English aiers use to be, butt she honourd the Coranto &amp; the maker of it with her M<ex>aies</ex>tyes royall commendation. |</p>
+               
+               <p>It grew to that request, that all the Common Musitians in this Towne, &amp; all ouer the Kingdome, gott the composition of it, &amp; played it publiquely in all places, for aboue thirty years after, Butt I had need to make some excuse, for spending my time, then, &amp; now about so light a buisnes as this Coranto was, I shall giue the reasons of it...</p>
+               
+               <gap reason="omitted"/>
+               
+               <!--f 97 col 1–f 97v col 1 -->
+               
+               <gap reason="omitted"/>
+               
+               <p>A little while after the Masque was performed, the Committee ordered S<ex>i</ex>r Iohn Fynch, Mr Gerling, Mr Hyde &amp; Whitelocke, to attend the King &amp; Queen &amp; in the name of the 4 Innes of Court, to returne their humble thankes, for their M<ex>aies</ex>tyes gratious acceptance of the tender of their seruice in the late Masque.</p>
+               
+               <p>They were first brought to the King, who gaue to all of them his hand to kisse, then S<ex>i</ex>r Iohn Fynch,<note type="foot">Fynch: <hi rend="italic">start of col 2 on f97</hi></note> in the name of the rest spake to the king to this effect. Sir. By commaund of your M<ex>aies</ex>tyes most affectionate, and loyall subiects, the Readers<note type="foot">Readers: R <hi rend="italic">corrected from</hi> g</note> &amp; gentlemen of the 4 Innes of Court, we are heer to attend you, with their most humble thankes, for your great fauour to them, in your gratious acceptance, of the tender of their seruice &amp; affections to your M<ex>aies</ex>ty in the late Masque presented to you, &amp; for vouchsafing your royall presence att it.</p>
+               
+               <p>The King, with great affability &amp; pleasingness, answeared him presently to this purpose.</p>
+               
+               <p>Gentlemen. I pray assure those from whom you come, that we are exceeding well pleased with that testimony which they lately gaue us, of their great respect &amp; affection to us, which was very acceptable &amp; performed with that gallantry, &amp; in so excellent a manner, that I cannot butt giue them thankes for it, &amp; shall be ready upon all occasions to manifest the good opinion | I haue of them, &amp; to doe them &amp; you in perticular, any fauour.</p>
+               
+               <p>from the King, we were brought to the Queen, &amp; kissed her hand, &amp; S<ex>i</ex>r Iohn Fynch her Atturney hauing made the like complement to her M<ex>aies</ex>ty, she answeared, quicke, &amp; well pleased.</p>
+               
+               <p>That she neuer sawe any Masque more noble, nor better performed then this was, which she tooke as a perticular respect to her selfe, as well as to the King, her husband, &amp; desired that her thankes might be returned to the Gentlemen for it.</p>
+               
+               <p>This being reported to the Benchers, of each society, they gaue thankes to their respective members, that were of the Committee, for the honour they had done to the society, by the well ordering of that buisness of the Masque.</p>
+               
+               
+               
+            </div>
+
+         </div>
+      </body>
+   </text>
+  
+</TEI>
