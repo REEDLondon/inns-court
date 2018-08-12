@@ -295,13 +295,13 @@
          <head>
             <date when-iso="1633"></date>
             <seg ana="taxon:RL1234" corresp="taxon:RLPIC1 686">six number code</seg></head>
-         <div type="transcription">
+         <div type="chapter">
             <div>
                <head> <supplied>Bulstrode Whitelock's 'Annals'</supplied></head>
             <pb type="sheet"/>
             <gap reason="omitted"/>
             <p>
-               About <name type="holiday">Allhollantide</name>, seuerall of the principall members of the Societies of the <orgName type="inn">fower Innes of Court</orgName>, amongst whom, some were seruants to the <persName ana="Charles I">king</persName>, had a designe that the Innes of Court should present their seruice to the <persName ana="Charles I">King</persName> &amp; <persName ana="Henrietta Maria">Queen</persName> &amp; testify their affections to them, by the outward &amp; splendid visible <del>of</del> testimony, of a <name type="performance">Royall Masque</name> of all the 4. societies ioyning togither, to be by them brought to <placeName ana="Whitehall">the Court</placeName>, as an expression of their loue &amp; duety to their <persName ana="Charles I and Henrietta Maria">M<ex>aies</ex>tye</persName>s.</p>
+               About Allhollantide, seuerall of the principall members of the Societies of the <orgName>fower Innes of Court</orgName>, amongst whom, some were seruants to the <persName>king</persName>, had a designe that the <orgName>Innes of Court</orgName> should present their seruice to the <persName ana="Charles I">King</persName> &amp; <persName ana="Henrietta Maria">Queen</persName> &amp; testify their affections to them, by the outward &amp; splendid visible <del>of</del> testimony, of a <name type="performance">Royall Masque</name> of all the 4. societies ioyning togither, to be by them brought to <placeName ana="Whitehall">the Court</placeName>, as an expression of their loue &amp; duety to their <persName ana="Charles I and Henrietta Maria">M<ex>aies</ex>tye</persName>s.</p>
                
                <p>This was hinted att in the Court &amp; by them intimated to the Chiefes of those societies, that it would be well taken from them, &amp; some held it the more seasonable, bicause this action would mainest<note type="foot">mainest: <hi rend="italic">with abbreviation mark over</hi> n <hi rend="italic">(?); for</hi> mani<hi rend="italic">f</hi>est</note> the difference of their opinion from <persName ana="William Prynne">Mr Prynnes</persName> new learning, &amp; serue to confute his <title>Histriomastix</title> against <name type="performance">enterludes</name>.</p>
                

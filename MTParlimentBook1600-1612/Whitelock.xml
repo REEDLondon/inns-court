@@ -295,7 +295,7 @@
          <head>
             <date when-iso="YYY-MM-DD">1234</date>
             <seg ana="taxon:RL1234" corresp="taxon:RLPIC1 686">six number code</seg></head>
-         <div type="transcription">
+         <div type="chapter">
             <div>
                <head> <supplied></supplied></head>
             <pb type="sheet"/>
