@@ -23,18 +23,46 @@
 		 <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
 
 
-            <respStmt>
-               <persName>Ari Baughman</persName>
-               <orgName>Bucknell Univerity</orgName>
-               <resp>REED London research assistant, 2018</resp>
-            </respStmt>
-            
+            <!-- REED staff -->
             <respStmt>
                <persName xml:id="CB">Carolyn Black</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>Project Manager</resp>
             </respStmt>
             
+            <respStmt>
+               <persName>William Cooke</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>English Glossarian</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="PG">Patrick Gregory</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Associate Editor</resp> <!-- confirm -->
+               <resp>Paleographer, Translator</resp> <!-- confirm -->
+            </respStmt>
+            
+            <respStmt>
+               <persName>Alexandra F. Johnston</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>REED Founder and Senior Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Arleane Ralph</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Paleographer</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Abigail Ann Young</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Latin Glossarian</resp>
+            </respStmt>
+            
+            
+            <!-- NHPRC-Mellon Team, 2018 -->
             <respStmt>
                <persName>John Bradley</persName>
                <resp>NHPRC-Mellon Project Team Member</resp>
@@ -53,12 +81,6 @@
             </respStmt>
             
             <respStmt>
-               <persName>William Cooke</persName>
-               <orgName>Records of Early English Drama (REED)</orgName>
-               <resp>English Glossarian</resp>
-            </respStmt>
-            
-            <respStmt>
                <persName xml:id="JC">James Cummings</persName>
                <orgName>Newcastle University</orgName>
                <resp>Records of Early English Drama (REED) Executive Board</resp>
@@ -74,15 +96,15 @@
             </respStmt>
             
             <respStmt>
-               <persName xml:id="PG">Patrick Gregory</persName>
-               <orgName>Records of Early English Drama (REED)</orgName>
-               <resp>Associate Editor</resp> <!-- confirm -->
-               <resp>Paleographer, Translator</resp> <!-- confirm -->
-            </respStmt>
-            <respStmt>
                <persName>Tanya Hagen</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>Bibliographer, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Mihaela Iloven</persName>
+               <orgName>Canadian Writing Research Collaboratory</orgName>
+               <resp>CWRC project manager, NHPRC-Mellon advisor</resp>
             </respStmt>
             
             <respStmt>
@@ -90,12 +112,6 @@
                <orgName>Bucknell University</orgName>
                <resp>Records of Early English Drama (REED) Executive Board</resp>
                <resp>Principal Investigator, NHPRC-Mellon Digital Edition Publishing Cooperatives Planning Grant</resp>
-            </respStmt>
-            
-            <respStmt>
-               <persName>Alexandra F. Johnston</persName>
-               <orgName>Records of Early English Drama (REED)</orgName>
-               <resp>REED Founder and Senior Consultant</resp>
             </respStmt>
             
             <respStmt>
@@ -109,13 +125,7 @@
                <resp>Principal Investigator, SSHRC grant; Director of Research and General Editor</resp>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-
-            <respStmt>
-               <persName>Maureen Maclean</persName>
-               <orgName>Bucknell University</orgName>
-               <resp>REED London research assistant, 2018</resp>
-            </respStmt>
-
+            
             <respStmt>
                <persName xml:id="KM">Kimberley Martin</persName>
                <orgName>University of Guelph</orgName>
@@ -140,22 +150,35 @@
             </respStmt>
             
             <respStmt>
-               <persName>Arleane Ralph</persName>
-               <orgName>Records of Early English Drama (REED)</orgName>
-               <resp>Paleographer</resp>
-            </respStmt>
-            
-            <respStmt>
                <persName>Suzanne Westfall</persName>
                <orgName>Lafayette College</orgName>
                <resp>Records of Early English Drama (REED) Executive Board Member</resp>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
             
+            <!-- Bucknell Research Assistantx -->    
             <respStmt>
-               <persName>Abigail Ann Young</persName>
-               <orgName>Records of Early English Drama (REED)</orgName>
-               <resp>Latin Glossarian</resp>
+               <persName>Ari Baughman</persName>
+               <orgName>Bucknell Univerity</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Maureen Maclean</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Rachel Milio</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Charlotte Simon</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>REED London research assistant, 2018</resp>
             </respStmt>
             
          </titleStmt>
