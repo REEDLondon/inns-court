@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="REED.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 
+<?xml-model href="reed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="eng"> 
    <teiHeader>
       <fileDesc>
@@ -231,23 +231,15 @@
       </profileDesc>
    </teiHeader>
 
-<text>
-   <body>
-      <bibl>
-         <biblScope corresp="RLIPIC1 pp. 4-5">
-            <idno xml:id="RLE00001"/>
-            
-               
+                           
    <text ana="taxon:bibliography" type="endnote">
       <body xml:lang="eng">
-         <head>            
-            <seg ana="taxon:RLPIC1" corresp="#4-5"/></head>
-         <div xml:id="RLE00001">
-            <head></head>
-            <pb n="number" type="sheet"/>
-            <div>
+         <div type="endnote" xml:id="RLE00001">
+            <head>LI Arch: A1a1 (Black Book 1) f 20<seg ana="taxon:RLPIC1" corresp="4-5"/></head>
+            <pb type="folio" n="20"/>
                <ab>Dugdale summarizes this entry: see Appendix 11. Apparently Lincoln’s Inn had earlier observed or tolerated revels on many holidays, including the feasts of Saints William, Hugh, Edmund, Peter, and Thomas. These multiple holidays were now rationalized down to four, including two which persisted well into the seventeenth century: All Hallows (1 November) and the Purification of the Virgin or Candlemas (2 February). This entry is referenced by a table-of-contents type notation on f 11, annotated ‘4 Reuells fo: 20.a’ with the following summary:</ab>
                <table>
+                  <!-- What do I do with the brackets? -->
                   <row>
                      <cell></cell>
                      <cell>St Williams</cell>
@@ -259,12 +251,327 @@
                      <cell>Reuells</cell>
                   </row>
                   <row>
-                     <cell>
-               
-               
+                     <cell>St Erkenwold</cell>
+                     <cell>St Edmond</cell>
+                     <cell></cell>
+                  </row>
+                  <row>
+                     <cell>Purifac<ex>i</ex>on</cell>
+                     <cell>(blank)</cell>
+                     <cell></cell>
+                  </row>
+                  <row>
+                     <cell></cell>
+                     <cell>St Peeter</cell>
+                     <cell>contributory</cell>
+                  </row>
+                  <row>
+                     <cell>Midsom<ex>er</ex></cell>
+                     <cell>St Thomas</cell>
+                     <cell></cell>
+                  </row>
+               </table>
             </div>
-
+            
+         <div type="endnote" xml:id="RLE00002">            
+            <head>LI Arch: A1a1 (Black Book 1) f 62v<seg ana="taxon:RLPIC1" corresp="5"/></head>
+               <pb type="folio" n="62v"/>
+                  <ab>The ‘skafoldys in Smythfeld’ were apparently for jousts or tournaments at the coronation of Queen Margaret: see John Stow, <title>The Annales of England</title> (London, 1592; STC : 23334), 623 – 4. This is the earliest of nine such references to jousts or tournaments: see also 1466–7 (also mentioned 1467–8), 1477–8, 1494–5, 1501–2, 1510–11 (twice), 1532–3, 1546–7, and 1565–6.</ab>                           
+            </div>
+            
+         <div type="endnote" xml:id="RLE00003">
+            <head>MT Lib: LOFT MS 97 f 87<seg ana="taxon:RLPC1" corresp="7"/></head>
+                  <pb type="folio" n="87"/>
+                  <ab>Sir John Talbot (1413–60) succeeded as fifth earl of Shrewsbury in 1453 (l.7). See REED’s <title>Patrons and Performances</title> Web Site for more information.</ab>               
+            </div>
+            
+         <div type="endnote" xml:id="RLE00004">
+            <head>LI Arch: A1a1 (Black Book 1) f 100<seg ana="taxon:RLPC1" corresp="8"/></head>
+                  <pb type="folio" n="100"/>
+                  <ab>The list of elected officers for 35 Henry VI is also entered on f 12v of the next volume in the series, including 'Hundysfeld Mayst<ex>er</ex> de l<ex>es</ex> Revell<ex>es</ex>.'</ab>               
+            </div>
+            
+         <div type="endnote" xml:id="RLE00005">
+            <head>LI Arch: A1a1 (Black Book 1) f 125v<seg ana="taxon:RLPC1" corresp="9"/></head>
+                  <pb type="folio" n="125v"/>
+                  <ab>The list is also entered but cancelled on f 123v, where it carries the equivalent title in Latin: 'Magister Revellor<ex>um</ex>.'</ab>               
+            </div>
+            
+         <div type="endnote" xml:id="RLE00006">
+            <head>LI Arch: A1a1 (Black Book 1) f 149<seg ana="taxon:RLPC1" corresp="10-11"/></head>
+                  <pb type="folio" n="149"/>
+                  <ab>Antoine, count of La Roche (‘Bastard<ex>um</ex> fili<ex>um</ex> duc<ex>is</ex> Burgundie,’ p 11, l.2), came to England in 1467 to arrange a marriage between his brother, Charles, count of Charolais, and Lady Margaret, sister of Edward IV. The joust, which took place in June, is described in John Stow, <title>The Annales of England</title> (London, 1592; STC : 23334), 689 – 90. Anthony Wydevill, Lord Scales, was the victor. On the general subject of jousts and tournaments, see p 916, endnote to LI Arch: A1a1 f 62v.</ab>               
+            </div>
+            
+         <div type="endnote" xml:id="RLE00007">
+            <head>LI Arch: A1a1 (Black Book 1) ff 152v, 153<seg ana="taxon:RLPC1" corresp="11"/></head>
+            <pb type="folio" n="125v, 153"/>
+            <ab>The ‘Skaffeldes’ referred to in these entries were used at the tournament held in Smithfield during Trinity term of the previous accounting year (see pp 10–11).</ab>
          </div>
+         
+         <div type="endnote" xml:id="RLE00008">
+            <head>MT Lib: LOFT MS 97 f 88<seg ana="taxon:RLPC1" corresp="13"/></head>
+            <pb type="folio"  n="88"/>
+            <ab>This entry is immediately followed by the statement, ‘The daie fell oute to be ffridaie,’ perhaps referring to All Hallows, which in 1471 fell on a Friday. If reference is rather to Christmas, the implied year would be 1472. As the original of this antiquarian document remains lost, the year must be regarded as conjectural.</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00009">
+            <head>MT Lib: LOFT MS 97 f 88<seg ana="taxon:RLPC1" corresp="14"/></head>
+            <pb type="folio" n="88"/>
+            <ab>The account is headed ‘Christmas Daie Anno 13<hi rend="superscript">o</hi> E<ex>dwardi</ex> 4. Dies Dominica,’ but in 1473 Christmas fell on a Saturday. Christmas fell on a Sunday in 1474. As the original of this antiquarian document remains lost, the year must be regarded as conjectural.</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00010">
+            <head>MT Lib: LOFT MS 97 f 88v<seg ana="taxon:RLPC1" corresp="15"/></head>
+            <pb type="folio" n="88v"/>
+            <ab>The occurrence of two different terms for harper raises the question of whether these musicians might have been playing different kinds of string instruments. Although ‘fidicen’ can refer in Anglo-Latin to a fiddler, here the performer is firmly identified in English as a harper. Despite the development in fifteenth-century Italy of the cithern, an instrument to which vocabulary derived from the Latin ‘cithera’ was applied, there is no corresponding evidence that ‘citherator’ was used in Anglo-Latin to refer to players on other plucked string instruments, and 1476–7 would be quite early for the cithern and its vocabulary to have spread to England. The two remaining possibilities would appear to be either that the accountant was simply employing synonyms for variety or that players on two different types or shapes of harp are being distinguished. See ‘cittern’ in L. Macy (ed), <ptr target="http://www.grovemusic.com"/><title>Grove Music Online</title>.</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00011">
+            <head>LI Arch: A1a2 (Black Book 2, Part 1) f 32<seg ana="taxon:RLPC1" corresp="16"/></head>
+            <pb type="folio" n="32"/>
+            <ab>In June 1477 Edward IV ordered an unusually elaborate London midsummer watch to entertain ambassadors from France and from Scotland: see Anne Lancashire, <title>London Civic Theatre: City Drama and Pageantry from Roman Times to 1558</title> (Cambridge, 2002), 155–6. On the general subject of jousts and tournaments, see p 916, endnote to LI Arch: A1a1 f 62v.</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00012">
+            <head>MT Lib: LOFT MS 97 f 88v<seg ana="RLPC1" corresp="17"/></head>
+            <pb type="folio" n="88v"/>
+            <ab>For the ‘Ductori de le Marmosett &amp; Iennet,’ see pp 918–19, endnote to MT Lib: LOFT MS 97 f 90v.</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00013">
+            <head>MT Lib: LOFT MS 97 f 89<seg ana="RLE00013" corresp="19"/></head>
+            <pb type="folio" n="89"/>
+            <ab>For the keeper of the baboon, see pp 918–19, endnote to MT Lib: LOFT MS 97 f 90v.</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00014">
+            <head>LI Arch: A1a2 (Black Book 2, Part 2) f 10v<seg ana="RLPC1" corresp="20"/></head>
+            <pb type="folio" n="10v"/>
+            <ab>The list is also entered on f 7 but cancelled.</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00015">
+            <head>LI Lib: MS Misc. 2 ff ii-ii verso<seg ana="RLPC1" corresp="20"/></head>
+            <pb type="folio" n="ii-ii verso"/>
+            <ab>This note occurs on the second flyleaf, with no obvious connection to the statutes which constitute the principal subject of the manuscript. It seems probable but not absolutely certain that the Inner Temple disguising was repeated on 30 January. Noblemen named here are John de Vere, thirteenth earl of Oxford; Thomas Stanley, tenth earl of Derby; George Talbot, seventh earl of Shrewsbury; Edward, second Baron Hastings; and Sir William Stanley, lord chamberlain.</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00016">
+            <head>LI Arch: A1a2 (Black Book 2, Part 2) f 13<seg ana="RLPC1" corresp="20-1"/></head>
+               <pb type="folio" n="13"/>
+               <ab>The list is cancelled with crossing vertical lines; major offices are re-entered on f 14.</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00017">
+            <head>LI Arch: A1a2 (Black Book 2, Part 2) f 17v<seg ana="RLPC1" corresp="21"/></head>
+            <pb type="folio" n="17v"/>
+            <ab>The list is also entered on f 17 but cancelled. An undated list of the same minor officers is also entered on f 14v, and also cancelled.</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00018">
+            <head>MT Lib: LOFT MS 97 f 89<seg ana="RLPC1" corresp="21"/></head>
+            <pb type="folio" n="89"/>
+            <ab>Earlier on f 89 occurs an entry for 1490–1 (‘Christmas Anno 6 H<ex>enrici</ex> 7’): ‘Commons brake vpp nere Christmas Daie, and the Company became wholie dispersed by reason of wynter Sicknes then.’</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00019">
+            <head>LI Arch: A1a2 (Black Book 2, Part 2) ff 33, 33v<seg ana="RLPC1" corresp="22-3"/></head>
+            <pb type="folio" n="33, 33v"/>
+            <ab>The editors have not succeeded in identifying the occasion of this joust. On the general subject of jousts and tournaments, see p 916, endnote to LI Arch: A1a1 f 62v.<lb/>
+               The warden of the Fleet Prison in 1490–1 was Richard Babyngton (TNA: PRO E 101/516/21); in 1498, William Babyngton (TNA: PRO Cal. Inq. p.m., xii, no. 28). The warden in 1594–5 was probably one of these two men. The editors are grateful to Christine Winter for supplying this information.</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00020">
+            <head>MT Lib: LOFT MS 97 f 90v<seg ana="RLPC1" corresp="23"/></head>
+            <pb type="folio" n="90v"/>
+            <ab>In the Tudor and earlier periods, performing exotic animals (excluding bears) appear to have been patronized exclusively by royalty, particularly the monarch. This is borne out by a search of patronized performing animal troupes in REED’s <title>Patrons and Performances Web Site</title>. It is therefore probable that the leader of the marmoset and jennet (a small Spanish horse) who is paid at Furnival’s Inn in Christmas 1481–2 (p 17, ll.25–6) was patronized by Edward IV, and the keeper of the baboon (p 19, l.5) who is paid at the same Inn on Christmas Day 1485 was patronized by Henry VII (his newborn son, Arthur, prince of Wales, later patronized a baboon keeper who appears in New Romney, Kent, in 1494–5: see REED: <title>Kent: Diocese of Canterbury</title>, vol 2, p 753). It is probable the mention of ‘Lyons’ here (l.16) and the payments to ‘Pescod the keeper of the Lyons’ in 1497–8 (p 25, l.6) and to ‘Pescodde’ in 1498–9 (p 25, l.19) are all references to the king’s lion keeper. Henry VII’s lion keeper was paid at Shrewsbury in April 1493; his predecessors, Edward IV and Richard III, also kept lions that travelled outside of London.<lb/>
+               Pescod seems to have been the keeper of at least one other kind of exotic animal, as attested by two entries from the Magdalen College Libri Computi not included in REED: <title>Oxford</title>. In 1494–5 (f 26), ‘Solut<ex>um</ex> Pescode seruanti quand<ex>am</ex> bestia<ex>m</ex> vocata<ex>m</ex> ly Mermusytt ex co<ex>n</ex>silio senior<ex>um</ex> q<ex>uia</ex> rex erat apud Woodstocke xij d.’ (‘12d paid to Pescod, keeping a beast called the marmoset, by the council of the seniors because the king was at Woodstock’). In 1495–6 (f 40), ‘Solut<ex>um</ex> pescod ducenti duo a<ex>n</ex>imalia nu<ex>n</ex>cupata Mermosettes in regard<ex>o</ex> viij d.’ (‘8d paid in reward to Pescod, leading two animals called marmosets’). That Henry VII kept marmosets is indicated by a payment to the king’s marmoset in Dover, Kent, in 1488–9: see REED: <title>Kent: Diocese of Canterbury</title>, vol 2, p 374. (Thanks to Mark Sorrell for drawing attention to the Magdalen College entries and for sharing his knowledge concerning patronage of exotic animals in early modern England.)</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00021">
+            <head>LI Arch: A1a2 (Black Book 2, Part 2) ff 34, 35<seg ana="RLPC1" corresp="23"/></head>
+            <pb type="folio" n="34, 35"/>
+            <ab>The list of appointments to Christmas offices and accompanying memoranda are also entered but cancelled (with crossing vertical lines) on f 32v.</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00022">
+            <head>MT Lib: LOFT MS 97 f 90<seg ana="RLPC1" corresp="25"/></head>
+            <pb type="folio" n="90"/>
+            <ab>For ‘Pescod the keeper of the Lyons,’ see pp 918–19, endnote to MT Lib: LOFT MS 97 f 90v.</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00023">
+            <head>LI Arch: A1a2 (Black Book, Part 2) f 50<seg ana="RLPC1" corresp="25"/></head>
+            <pb type="folio" n="50"/>
+            <ab>For ‘Pescodde,’ see pp 918–19, endnote to MT Lib: LOFT MS 97 f 90v.</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00024">
+            <head>BL: Hargrave MS 388 ff 122-2v<seg ana="RLPC1" corresp="26-7"/></head>
+            <pb type="folio" n="122-2v"/>
+            <ab>J.H. Baker (ed), <title>The Reports of Sir John Spelman</title>, vol 1, Selden Society 93 (London, 1977), ix, notes that Sir John Spelman’s report about the Christmas revels held in Gray’s Inn ‘“in ancient temps” almost certainly belongs to his student days, and is the earliest detailed description of those curious rites.’ As Spelman entered Gray’s Inn about 1500 and as the composition date of his ‘Reports’ is unknown, we have assigned this report to c 1500. Of the vocal pieces mentioned in Spelman’s report, ‘what shall we singe in worshipe of this daie’ (p 27, ll.7–8), ‘ther shall none reigne downe reigne’ (p 27, ll.9–10), and ‘rounde abowt the fier’ (p 27, l.10) remain unidentified; ‘nescienz mate<ex>r</ex>’ (p 27, l.2) is the motet ‘Nesciens mater virgo virum’ by Jean Mouton (1459–1522). Baker, <title>Reports</title>, vol 1, p 234, identifies ‘fare well et have good daye’ (p 27, l.18) with an Epiphany carol found in Balliol College: MS 354 and printed in A.W. Pollard, <title>Fifteenth Century Prose and Verse</title> (Westminster, 1903), 89 – 90, as well as in Edith Rickert, <title>Ancient English Christmas Carols</title> (London and New York, 1914), 225–6, and Richard Leighton Greene (ed), <title>The Early English Christmas Carols</title>, 2nd ed (Oxford, 1977), 85.</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00025">
+            <head>MT Lib: LOFT MS 97 f 91v<seg ana="RLPC1" corresp="28"/></head>
+            <pb type="folio" n="91v"/>
+            <ab>The ‘Iustes &amp; Turnamentes’ were held in connection with negotiations for the marriage of Margaret Tudor to James IV of Scotland, which were concluded 25 January 1501/2: see John Stow, <title>The Annales of England</title> (London, 1592; STC : 23334), 807. (The wedding did not take place until 15 January 1502/3). On the general subject of jousts and tournaments, see p 916, endnote to LI Arch: A1a1 f 62v.</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00026">
+            <head>MT Lib: LOFT MS 97 f 91v<seg ana="RLPC1" corresp="29-30"/></head>
+            <pb type="folio" n="91v"/>
+            <ab>Bland, in ‘Fifteenth-Century Revels,’ p 265, n 1, identifies the ‘Ladie Princ<ex>es</ex>’ as Margaret, daughter of Henry VII. This is improbable: Margaret was married by proxy 15 January 1502/3 to James IV of Scotland, leaving for Edinburgh on 8 July 1503. She was formally married in Scotland on 8 August 1503. By Christmas 1503–4, therefore, she was the queen of Scotland and no longer a member of the English court. The princess being referred to here is Katherine of Arragon, dowager princess of Wales, who had been betrothed to Prince Henry on 25 June 1503. Unlike Margaret, Katherine (as princess) is known to have patronized performers between 1500–2 and in 1507. See REED’s <title>Patrons and Performances Web Site</title> for more information.</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00027">
+            <head>MT Arch: MT.1/MPA/No. 1 f 8<seg ana="RLPC1" corresp="31"/></head>
+            <pb type="folio" n="8"/>
+            <ab>The date of this parliament is given as ‘die lune in com<ex>m</ex>emorac<ex>ione</ex> a<ex>n</ex>i<ex>m</ex>ar<ex>um</ex>’ (f 7v); however, All Souls fell on a Sunday in 1505 and it seems more probable that the parliament was held on the Monday.</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00028">
+            <head>IT Arch: PAR/1/1 ff 18, 19<seg ana="RLPC1" corresp="32"/></head>
+            <pb type="folio" n="18, 19"/>
+            <ab>Folios damaged by post–World War II fire; the dates are supplied from Inderwick.</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00029">
+            <head>LI Arch: A1a3 (Black Book 3) ff 24v, 25, 25v<seg ana="RLPC1" corresp="34"/></head>
+            <pb type="folio" n="24v, 25, 25v"/>
+            <ab>On the general subject of jousts and tournaments, see p 916, endnote to LI Arch: A1a1 f 62v.</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00030">
+            <head>IT Arch: PAR/1/1 f 22<seg ana="RLPC1" corresp="34-5"/></head>
+            <pb type="folio" n="22"/>
+            <ab>Folio damaged by post–World War II fire; the date is supplied from Inderwick.</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00031">
+            <head>IT Arch: PAR/1/1 f 25v<seg ana="RLPC1" corresp="36"/></head>
+            <pb type="folio" n="25v"/>
+            <ab>The names of the four masters of the revels are entered again at the foot of f 26: ‘lacton, Godolphyn, Lambo<ex>u</ex>rn,’ and ‘E Gyfford.’</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00032">
+            <head>LI Arch: A1a3 (Black Book 3) f 38<seg ana="RLPC1" corresp="37"/></head>
+            <pb type="folio" n="38"/>
+            <ab>On the general subject of jousts and tournaments, see p 916, endnote to LI Arch: A1a1 f 62v.<lb/>
+               A previous entry on this folio, also in the account of the treasurer’s receipts, records Thomas More’s payment of a fine of £5 for exemption from the offices of Christmas marshal and keeper of the Black Book.</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00033">
+            <head>IT Arch: PAR/1/1 f 28<seg ana="RLPC1" corresp="38"/></head>
+            <pb type="folio" n="28"/>
+            <ab>The names of the four masters of the revels are repeated on f 28v.</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00034">
+            <head>IT Arch: PAR/1/1 f 30<seg corresp="39"/></head>
+            <pb type="folio" n="30"/>
+            <ab>Folio damaged by post–World War II fire; the date is supplied from Inderwick.</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00035">
+            <head>IT Arch: PAR/1/1 f 33<seg corresp="42"/></head>
+            <pb type="folio" n="33"/>
+            <ab>Earlier on the same folio occurs an entry under 1 November listing as masters of the revels only ‘Verney,’ ‘Rede,’ and ‘B <ex>(blank)</ex>.’</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00036">
+            <head>IT Arch: PAR/1/1 f 34v<seg corresp="43"/></head>
+               <pb type="folio" n="34v"/>
+               <ab>Folio damaged by post–World War II fire; the date is supplied from Inderwick.</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00037">
+            <head>IT Arch: PAR/1/1 f 38<seg corresp="44"/></head>
+            <pb type="folio" n="38"/>
+            <ab>Folio damaged by post–World War II fire; Symondson (see the footnoted reading supplied from Inderwick) is not among the masters of the revels listed on f 36v.</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00038">
+            <head>LI Arch: A1a3 (Black Book 3) ff 71, 76, 79<seg corresp="45"/></head>
+            <pb type="folio" n="71, 76, 79"/>
+            <ab>Lobbe, the fool (‘lobbe le ffolet,’ l.9; ‘lobbe,’ ll.13, 29; ‘fatuo,’ l.34), not encountered by any previous REED editor, may have been mistreated in the course of his activities, and was thus not only paid for his efforts but compensated for a wound and various losses.</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00039">
+            <head>IT Arch: PAR/1/1 f 42v<seg corresp="46"/></head>
+            <pb type="folio" n="42v"/>
+            <ab>Folio damaged by post–World War II fire; the date is supplied from Inderwick.</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00040">
+            <head>IT Arch: PAR/1/1 f 46v<seg corresp="48"/></head>
+            <pb type="folio" n="46v"/>
+            <ab>Folio damaged by post–World War II fire; the date is supplied from Inderwick. </ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00041">
+            <head>IT Arch: PAR/1/1 ff 69, 69v<seg corresp="49-50"/></head>
+            <pb type="folio" n="69, 69v"/>
+            <ab>Folio damaged by post–World War II fire; the date is supplied from Inderwick. </ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00042">
+            <head>LI Arch: A1a3 (Black Book 3) f 106v<seg corresp="50"/></head>
+            <pb type="folio" n="106v"/>
+            <ab>The lower than usual figure of ‘iij s. iiij d.’ is due to the fact that no Christmas commons was kept this year, presumably because of plague.</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00043">
+            <head>LI Arch: A1a3 (Black Book 3) f 115v<seg corresp="51"/></head>
+            <pb type="folio" n="115v"/>
+            <ab>The lower than usual figure of ‘iij s. iiij d.’ is due to the fact that Christmas commons were dissolved from 14 November to 13 January, presumably because of plague.</ab>
+         </div>
+                  
+         <div type="endnote" xml:id="RLE00044">
+            <head>IT Arch: PAR/1/1 f 78<seg corresp="51"/></head>
+            <pb type="folio" n="78"/>
+            <ab>Folio damaged by post–World War II fire; the date is supplied from Inderwick. </ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00045">
+            <head>LI Arch: A1a3 (Black Book 3) f 135v<seg corresp="53"/></head>
+            <pb type="folio" n="135v"/>
+            <ab>The records provide no explanation as to why the musicians did not receive a further amount at Candlemas to make up the usual annual wage of 40s.</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00046">
+            <head>LI Arch: A1a3 (Black Book 3) f 147<seg corresp="54"/></head>
+            <pb type="folio" n="147"/>
+            <ab>The accounts on this folio are for a two-year period covering 1524–5 and 1525–6 (16 and 17 Henry VIII). The governors’ order referenced here (‘mandat<ex>um</ex> Gub<ex>er</ex>nat<ex>orum</ex>,’ l.26) has not been found in the Black Books.</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00047">
+            <head>STC: 12723a Part Henry VIII, ff 154v-5<seg corresp="55"/></head>
+            <pb type="folio" n="154v-5"/>
+            <ab>This passage is cited nearly verbatim by Raphael Holinshed, <title>Chronicles of England</title>, vol 3 (London, 1587; STC : 13569), 894. An external reference to the ‘plaie at Grayes inne’ occurs in a letter from Archbishop William Warham to his chaplain Henry Gold, 6 February 1526/7 (see Appendix 4). The lost play, which has been called ‘Lord Governance and Lady Public Weal,’ has been the subject of much speculation (see Appendix 6.2). Apart from a play proposed by William Baldwin in or about 1555–6 (see p 80), it is the only Inns of Court play prior to <title>Gorboduc</title> (1561–2) whose subject is known.</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00048">
+            <head>STC 11125 pp 1013-14<seg corresp="55-6"/></head>
+            <pb type="sheet" n="1013-14"/>
+            <ab>Foxe’s narrative continues with the story of Simon Fish’s <title>A Supplicacyon for the Beggers</title> (Antwerp?, 1529; STC: 10883). The Simon Fish affair is not recorded in earlier editions (STC: 11222–4). The letter of Archbishop William Warham (see preceding endnote) confirms the date of 1526–7.</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00049">
+            <head>LI Arch: A1a3 (Black Book 3) f 162v<seg corresp="57"/></head>
+            <pb type="folio" n="162v"/>
+            <ab>The gist of these entries is that the musicians received their payment this year not as a wage but as a gift, since it was decided not to keep ‘solempne Crystemas’ because of the ‘grette darth’ (f 161).</ab>
+         </div>
+         
+         <div type="endnote" xml:id="RLE00050">
+            <head>Wing: D2488 p 285 col 1<seg corresp="58"/></head>
+            <pb type="single_sheet" n="285 col 1"/>
+            <ab>Surviving Gray’s Inn Pension Books date from 1568–9; apparently Dugdale had access to an earlier book, now lost.</ab>
+         </div>
+         
+         
+               
       </body>
    </text>
   
