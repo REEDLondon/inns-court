@@ -291,11 +291,10 @@
       
    </teiHeader>
    
-   <text ana="taxon:letter" type="record">
+   <text ana="taxon:letter" type="record" xml:id="RLLIBB06" corresp="taxon:RLPIC1 pp. 127-8">
       <body xml:lang="eng">
          <head>Lincoln's Inn Black Book 6
-            <date from-iso="1596-09-29" to-iso="1597-09-29">1596-7</date>
-            <seg ana="taxon:RLLIBB06" corresp="taxon:RLPIC1 pp. 127-8">RLLIBB06</seg></head>
+            <date from-iso="1596-09-29" to-iso="1597-09-29">1596-7</date></head>
          <div>
             <div type="transcription">
             <head>f 32<date when-iso="1596-11-21"/> <supplied>(21 November) (Christmas officers)</supplied></head>
