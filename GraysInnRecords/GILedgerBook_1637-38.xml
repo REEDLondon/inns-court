@@ -287,13 +287,12 @@
       </xenoData>      
    </teiHeader>
 
-   <text ana="taxon:grays_inn" type="record">
-      <body xml:lang="eng">
-         <head>
-            <date when-iso="1637">1637</date>
-            <seg ana="taxon:RLGILB" corresp="taxon:RPCIC1 pp. 346">RLGILB</seg></head>
-         <div type="transcription">
-            <head>f 114v<date  when-iso="1637-10-24"><supplied>(Treasurer’s disbursements)</supplied></date></head>
+
+   <text ana="taxon:grays_inn" type="record" xml:id="RLGILB01" corresp="taxon:RPCIC1 p. 346">
+      <body>
+         <head>Gray's Inn Ledger Book, 1637-8<date from-iso="1637-09-29" to-iso="1638-09-29"/></head>
+         <div type="transcription" xml:lang="eng">
+            <head><ptr type="endnote" target="RLE00266"/>f 114v<date  when-iso="1637-10-24"><supplied>(Treasurer’s disbursements)</supplied></date></head>
             <pb n="f 114v" type="folio"/>
             <div type="endnote"><ab>This disbursement is repayment for loans for the masque of 1633 – 4.</ab></div>
             
@@ -302,7 +301,7 @@
             <div>
                <table>
                   <row>
-                     <cell>To <persName n="Richard Gibbs" cert="medium" resp="#JAKA1">mr Gibbs</persName> more 24 Octobr<ex>is</ex> 1637 w<ex>hi</ex>ch is in full</cell>
+                     <cell>To mr Gibbs more 24 Octobr<ex>is</ex> 1637 w<ex>hi</ex>ch is in full</cell>
                      <cell>10 0 0</cell>
                   </row>
                </table>

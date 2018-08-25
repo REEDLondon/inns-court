@@ -282,11 +282,10 @@
       </xenoData>       
    </teiHeader>
 
-   <text ana="taxon:grays_inn" type="record">
-      <body xml:lang="lat">
-         <head><date from-iso="1617-09-29" to-iso="1618-09-29"> <supplied>1617-18</supplied></date>
-            <seg ana="taxon:RLGIPA01" corresp="RLIPIC1 pp. 200-1">RLGIPA01</seg></head>
-         <div type="transcription">
+   <text ana="taxon:grays_inn" type="record" xml:id="RLGIPA01" corresp="RLIPIC1 pp. 200-1">
+      <body>
+         <head><date from-iso="1617-09-29" to-iso="1618-09-29"> <supplied>1617-18</supplied></date></head>
+         <div type="transcription"  xml:lang="lat">
             <div>
                <head><ptr type="endnote" target="endnote:RLE00170"/>pp 739-40</head>
             <pb n="739-40" type="page"/>
@@ -342,7 +341,7 @@
          </div>
          </div>
          
-         <div type="translation">
+         <div type="translation" xml:lang="en">
             <div>
                <head><ptr type="endnote" target="endnote:RLE00170"/>pp 739-40</head>
                <pb n="739-40" type="page"/>
