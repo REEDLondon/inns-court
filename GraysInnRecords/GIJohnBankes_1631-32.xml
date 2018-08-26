@@ -290,12 +290,10 @@
       </revisionDesc>
    </teiHeader>
    
-   <text ana="taxon:grays_inn" type="record">
-      <body xml:lang="eng">
-         <head>
-            <date from-iso="1631-09-29" to-iso="1632-09-29" cert="medium">1631-2</date>
-            <seg ana="taxon:RLGIJB01" corresp="taxon:RPCIC1 p. 229">RLGIJB01</seg></head>
-         <div type="transcription">
+   <text ana="taxon:grays_inn" type="record" xml:id="RLGIJB01" corresp="taxon:RPCIC1 p. 229">
+      <body>
+         <head>Gray's Inn: Account Book of John Bankes, 1631-32 <date from-iso="1631-09-29" to-iso="1632-09-29"/></head>
+         <div type="transcription"  xml:lang="eng">
             <div>
             <head>f [8]<ptr type="endnote" target="endnote:RLE00200"/><date when-iso="1631-11"/></head>
             <pb n="8" type="folio"/>
@@ -314,6 +312,7 @@
                </table>               
                <gap reason="omitted"/>
             </div>
+            
                                                       
             <div>            
             <head>f [9]<ptr type="endnote" target="endnote:RLE00200"/></head>
