@@ -234,7 +234,7 @@
       <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
          <mods:mods>
             <mods:titleInfo>
-               <mods:title>Lincoln's Inn Black Book 5, 1593-4</mods:title>
+               <mods:title>Lincoln's Inn Black Book 5, 1594-5</mods:title>
             </mods:titleInfo>
             <mods:name
                type="corporate">
@@ -291,17 +291,16 @@
       
    </teiHeader>
    
-   <text ana="taxon:letter" type="record">
-      <body xml:lang="eng">
+   <text ana="taxon:letter" type="record" xml:id="RLLIBB05" corresp="taxon:RLPIC1 pp. 125">
+      <body>
          <head>Lincoln's Inn Black Book 5
-            <date from-iso="1593-09-29" to-iso="1594-09-29">1593-4</date> 
-            <seg ana="taxon:RLLIBB05" corresp="taxon:RLPIC1 pp. 121">RLLIBB05</seg></head> 
-         <div>
-            <div type="transcription">
-            <head>f 488v<date when-iso="1593-02-11"/> <supplied>(11 February) (Christmas officers)</supplied></head>
-            <pb n="f488" type="folio"/>
+            <date from-iso="1594-09-29" to-iso="1595-09-29">1594-5</date></head>
+         <div>   
+            <div type="transcription" xml:lang="eng">
+            <head>f 510<date when-iso="1593-11-26"/> <supplied>(26 November) (Christmas officers)</supplied></head>
+            <pb n="f510" type="folio"/>
             <gap reason="omitted"/>
-            <ab>Item that <persName>mr Beriefe</persName> &amp; <persName>mr Thomas Iunior</persName> shable <persName role="Masters of the Revels">masters of the Revells</persName></ab>
+            <ab>Item that <persName>Mr Randolphe</persName> &amp; <persName>Mr Lynne</persName> shable <persName role="Masters of the Revels">M<ex>aste</ex>rs of the Revells</persName></ab>
             <gap reason="omitted"/>
             </div>
          </div>

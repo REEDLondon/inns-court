@@ -234,7 +234,7 @@
       <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
          <mods:mods>
             <mods:titleInfo>
-               <mods:title>Lincoln's Inn Black Book 6, 1607-08</mods:title>
+               <mods:title>Lincoln's Inn Black Book 6, 1595-6</mods:title>
             </mods:titleInfo>
             <mods:name
                type="corporate">
@@ -257,15 +257,15 @@
             <mods:abstract>"All eight volumes described below were rebound in 1965 in black morocco, giving them a uniform appearance despite notable differences in size (from 210mm x 135mm to 310mm x 205mm). Foliation is sometimes nightmarish, as for example in A1a7 (Black Book 7), due to successive inconsistencies, errors, corrections, and rationalizations. A set of microfilms is preserved in the Public Record Office (TNA: PRO 30/77): the eight volumes referenced here occupy the first five reels.
                The standard essential publication is William Paley Baildon (ed), The Records of the Honorable Society of Lincoln’s Inn. The Black Books, 4 vols (London, 1897)."</mods:abstract>
             <mods:subject>
-               <mods:topic valueURI="http://id.loc.gov/authorities/subjects/sh2010116269">Theater--England--London--History--17th 
+               <mods:topic valueURI="http://id.loc.gov/authorities/subjects/sh2002012470">Theater--England--London--History--16th 
                </mods:topic>
             </mods:subject>
             <mods:subject>
                <mods:geographic valueURI="http://www.geonames.org/2643743/">London</mods:geographic>
             </mods:subject>
             <mods:subject>
-               <mods:temporal point="start">1601</mods:temporal>
-               <mods:temporal point="end">1700</mods:temporal>
+               <mods:temporal point="start">1501</mods:temporal>
+               <mods:temporal point="end">1600</mods:temporal>
             </mods:subject>    
             <mods:accessCondition
                type="use and reproduction">Use of this public-domain resource is governed by the &lt;a
@@ -288,46 +288,70 @@
          <change when="2018-05-30" who="#KM">created document</change>
          <change when="2018-06-12" who="KM">added translation</change>
       </revisionDesc>
+      
    </teiHeader>
    
-   <text ana="taxon:letter" type="record">
-      <body xml:lang="eng">
+   <text ana="taxon:letter" type="record" xml:id="RLLIBB06" corresp="taxon:RLPIC1 pp. 126">
+      <body>
          <head>Lincoln's Inn Black Book 6
-            <date from-iso="1607-09-29" to-iso="1608-09-29">1607-8</date>
-            <seg ana="taxon:RLLIBB06" corresp="taxon:RLPIC1 pp. 141-2">RLLIBB06</seg></head>
+            <date from-iso="1595-09-29" to-iso="1596-09-29">1595-6</date></head>
          <div>
-            <div type="transcription">
-               <head>f 372v<date when-iso="1607-11-30"/> <supplied>(30 November) (Christmas officers)</supplied></head>
-               <pb n="f 372v" type="folio"/>
+            <div type="transcription" xml:lang="eng">
+               <head>f 13<date when-iso="1595-11-25"/> <supplied>(25 November 1595) (Christmas officers)</supplied></head>
+               <pb n="f 13" type="folio"/>
                <gap reason="omitted"/>
-               <ab>Yt is Ordered That r<ex>r</ex> fferne, &amp;m<ex>r</ex> Steward, shalbe maisters of the Revells.</ab>
-               <gap reason="omitted"/>
-            </div>
-            <div>
-               <head>f 385v<date when-iso="1607-02-11"/> <supplied>(11 February) (Council Orders)</supplied></head>
-               <pb n="f 385v" type="folio"/>
-               <gap reason="omitted"/>
-               <ab>Mr Raynar<note type="foot">Mr Rayner: <hi rend="italic">pointing hand in left margin</hi></note> is desired by the M<ex>aste</ex>rs of the Benche for this yeare followinge to be guider and directer of the Revells and to take Course for direction therein that better order maie bee hereafter thein than<note type="foot">than: n <hi rend="italic">altered from</hi> t</note> hath beene of late.</ab>
+               <ab> It<ex>e</ex>m it is ordered that Mr Shuckborough and Mr Rogers shalbe maister<note type="foot">maister:for maisters</note> of the Reuelles</ab>
                <gap reason="omitted"/>
             </div>
+            
             <div>
-               <head>f 406<date from-iso="1607-11-25" to-iso="1608-11-25"/><supplied>(25 November - 25 November) (Treasurer's receipts)</supplied></head>
-               <pb n="f 406" type="folio"/>
-               <note type="marginal" rend="right">Surplusagia Rotulorum</note>
-               <ab>Et de viij li. v s. iiij d. recept<ex>is</ex> de Ioh<ex>ann</ex>e Helliar Senescal<ex>li</ex> hospicij p<ex>re</ex>d<ex>i</ex>c<ex>t</ex>i p<ex>ro</ex> Surplusag<ex>ia</ex> Rotulor<ex>um</ex> Musicor<ex>um</ex>/ et Carbonor<ex>um... </ex> </ab>
+               <head>f 27<date from-iso="1595-11-15" to-iso="1596-11-25"/> <supplied>(25 November-25 November) (Treasurer's Receipts)</supplied></head>
+               <pb n="f 27" type="folio"/>
                <gap reason="omitted"/>
-            </div>   
-         <div type="translation">
-            <head>f 406<date from-iso="1607-11-25" to-iso="1608-11-25"/><supplied>(25 November - 25 November) (Treasurer's receipts)</supplied></head>
-            <pb n="f 406" type="folio"/>
-            <note type="marginal" rend="right">Balance due from the rolls</note>
-            <ab>And (the accountant renders account) of £8 5s 4d received from John Helliar, steward of the aforesaid Inn, for the balance due from the musicians' rolls and for coals ...</ab>
-            <gap reason="omitted"/>
-         </div>
+               <note type="marginal" rend="right">Surplusag<ex>ia</ex> Rot<ex>u</ex>lor<ex>um</ex></note>   
+               <ab> Et di nichil recept<ex>o</ex> de Ioh<ex>ann</ex>e Helliar <note type="foot">Iohanne Helliar: <hi rend="italic">John Helliar or Hillyard, Steward 1595-1609</hi></note> Senescallo hospicij p<ex>re</ex>d<ex>i</ex>ct<ex>i</ex> p<ex>ro</ex> Surplusagia Rot<ex>u</ex>lor<ex>um</ex> Musicor<ex>um</ex> hoc Anno quia iactant<ex>ur</ex> in Com<ex>munes</ex></ab>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div> 
+               <head>f 30v<supplied>(Treasurer's payments)</supplied></head>
+               <pb n="f 30v" type="folio"/>
+               <gap reason="omitted"/>
+               <note type="marginal" rend="left">Stipend<ex>ia</ex> musicor<ex>um</ex></note>
+               <ab> Et de xxvj s. viij d. solut<ex>is</ex> <persName>Will<ex>elm</ex>o Perren</persName> Music<ex>i</ex>on<ex>i</ex> p<ex>ro</ex> Anual<ex>i</ex> stipend<ex>io</ex> ei Concess<ex>o</ex> p<ex>er</ex> Warr<ex>antum</ex> Gub<ex>er</ex>nat<ex>orum</ex> hospicij p<ex>re</ex>dict<ex>i</ex> 
+               Sum<ex>m</ex>a xxvj s. viij d. </ab>
+            </div>
+            
+            <div type="translation" xml:lang="lat">
+               <head>f 27<date from-iso="1595-11-15" to-iso="1596-11-25"/> <supplied>(25 November-25 November) (Treasurer's Receipts)</supplied></head>
+               <pb n="f 27" type="folio"/>
+               <gap reason="omitted"/>
+               <note type="marginal" rend="right">Balance due from the rolls</note>
+               <ab>And (the accountant renders account) of nil received from John Helliar, steward of the aforesaid Inn, for the balance due from the musicians' rolls this year, because they are reckoned in the commons ...</ab>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 30v<supplied>(Treasurer's payments)</supplied></head>
+               <pb n="f 30v" type="folio"/>
+               <gap reason="omitted"/>
+               <note type="marginal" rend="left">Musicians' stipends</note>
+               <ab>And (the accountant seeks to be allowed the sum) of 26s 8d paid to William Perryn, musician, for the annual stipend granted him by a warrant of the governors of the aforesaid Inn.
+                  Total: 26s 8d</ab>
+               <gap reason="omitted"/>
+            </div>
          </div>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
 
 
 

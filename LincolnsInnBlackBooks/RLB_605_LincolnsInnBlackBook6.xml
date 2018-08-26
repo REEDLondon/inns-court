@@ -234,7 +234,7 @@
       <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
          <mods:mods>
             <mods:titleInfo>
-               <mods:title>Lincoln's Inn Black Book 6, 1598-99</mods:title>
+               <mods:title>Lincoln's Inn Black Book 6, 1597-98</mods:title>
             </mods:titleInfo>
             <mods:name
                type="corporate">
@@ -291,52 +291,69 @@
       
    </teiHeader>
    
-   <text ana="taxon:letter" type="record">
-      <body xml:lang="eng">
+   <text ana="taxon:letter" type="record" xml:id="RLLIBB06" corresp="taxon:RLPIC1 pp. 128-9">
+      <body>
          <head>Lincoln's Inn Black Book 6
-            <date from-iso="1598-09-29" to-iso="1599-09-29">1598-9</date> 
-            <seg ana="taxon:RLLIBB06" corresp="taxon:RLPIC1 pp. 131">RLLIBB06</seg></head>
-         <div>   
-            <div type="transcription">
-            <head>f 48 <ptr type="endnote" target="endnote:RLE12345"/> <date when-iso="1598-11-20"/> <supplied>(20 November) (Christmas officers)</supplied></head>
-            <pb n="f 48" type="folio"/>
+            <date from-iso="1597-09-29" to-iso="1598-09-29">1597-8</date></head> 
+         <div>
+            <div type="transcription" xml:lang="eng">
+            <head>f 35v<date when-iso="1597-11-20"/> <supplied>(20 November) (Christmas officers)</supplied></head>
+            <pb n="f 35v" type="folio"/>
             <gap reason="omitted"/>
-            <ab> It is order <note type="foot">order:<hi rend="italics">for</hi> ordered </note> that mr houghton shalbe Threasourer mr Edwarde Barthelett shalbe Custos nigr<ex>i</ex> mr Thursby marshall mr Bawtrie <del>pincerna</del> pencyoner mr humfrey Prideuax Pincerna mr Veono s<ex>en</ex>ior and mr Hunt 3. maisters of the reuelles mr michael I<ex>u</ex>nior steward of ch<ex>ris</ex>tmas</ab>
+            <ab> It<ex>e</ex>m <del>Mr Edmund</del> (blank) mr Roe and Mr Iohn Tasburghe are appointed mayster of the Revell<ex>es/</ex></ab>
             <gap reason="omitted"/>
-            </div>
-            <div>    
-            <head>f 73<date from-iso="1598-11-20" to-iso="1599-11-22"/> <supplied>(20 November 1598-22 November 1599) (Treasurer's Receipts)</supplied></head>
-            <pb n="f 73" type="folio"/>
+          </div>
+            
+          <div>
+            <head>f 36v<date when-iso="1598-01-31"/> <supplied>(31 January) (Council Orders)</supplied></head>
             <gap reason="omitted"/>
-            <note type="marginal" rend="right">Surplusag<ex>ia</ex> Rot<ex>u</ex>lor<ex>um</ex></note>   
-            <ab> Et de nihil recept<ex>o</ex> de Ioh<ex>ann</ex>e Helliar Senes<ex>ca</ex>ll<ex>o</ex> hospicij p<ex>re</ex>d<ex>i</ex>ct<ex>i</ex> pro Surplusag<ex>ia</ex> Rotulor<ex>um</ex> musicor<ex>um</ex> hoc Anno quia iactant<ex>ur</ex> in Comunes</ab>
+               <ab>Item yt ys ordred that there be leuyed C li. in three termes vpon the p<ex>ar</ex>tyculers of this societie by 3 s. 4 d. in a roll &amp; to beginne this terme. <note type="foot"> terme: <hi rend="italic">ie, Hilary term</hi> </note></ab>
             <gap reason="omitted"/>
-            </div>  
-            <div> 
-            <head>f 76<supplied>(Treasurer's payments)</supplied></head>
-            <pb n="f 76" type="folio"/>
+          </div>
+            
+          <div> 
+               <head>f 44*<ptr type="endnote" target="endnote:RLE00108"/><date when-iso="1598-05-12"/> <supplied>(12 May)</supplied></head>
             <gap reason="omitted"/>
-            <note type="marginal" rend="right">Stipend<ex>ia</ex> musicor<ex>um</ex></note>
-            <ab> Et de xx s. vj s. viij d.<note type="foot">xx s. vj s. viij d.: <hi rend="italic">for</hi> xxvj s. viij d.</note> solut<ex>is</ex> <persName>Will<ex>elm</ex>o Perren</persName> music<ex>i</ex>on<ex>i</ex> p<ex>ro</ex> An<ex>n</ex>uali Stipend<ex>io</ex> ei concess<ex>o</ex> p<ex>er</ex> Warr<ex>antum</ex> Gubernat<ex>orum</ex> hospicij p<ex>re</ex>dic<ex>t</ex>i./
+            <ab>It is ordered that the gentlemen that were actors in the matter of the shew the last Chrestmas &amp; were allowed Tenne shillinges of eu<ex>e</ex>rie fellowe of this howse by iij s. iiij d. a terme vntill the said money were Collected by them that the said gentlemen shall choose one sufficient and honest gentleman of this howse to collect and gather the said money for them all.</ab>
+            <gap reason="omitted"/>
+          </div>
+            
+          <div>    
+            <head>f 54v<date when-iso="1597-11-20-1598-11-20"/> <supplied>(20 November-20 November) (Treasurer's Receipts)</supplied></head>
+            <pb n="f 54v" type="folio"/>
+            <gap reason="omitted"/>
+            <note type="marginal" rend="left">Surplusag<ex>ia</ex> Rot<ex>u</ex>lor<ex>um</ex></note>
+            <ab> Et de nil recept<ex>o</ex> de Ioh<ex>ann</ex>e Helliar Senescallo hospicij p<ex>re</ex>d<ex>i</ex>ct<ex>i</ex> p<ex>ro</ex> surplusag<ex>ia</ex> Rot<ex>u</ex>lor<ex>um</ex> Musicor<ex>um</ex> hoc anno quia iactant<ex>ur</ex> in Comunes</ab>
+            <gap reason="omitted"/>
+          </div>
+            
+          <div> 
+            <head>f 56v<supplied>(Treasurer's payments)</supplied></head>
+            <pb n="f 56v" type="folio"/>
+            <gap reason="omitted"/>
+            <note type="marginal" rend="left">Stipend<ex>ia</ex> musicor<ex>um</ex></note>
+            <ab> Et de xxvj s. viij d. solut<ex>is</ex> <persName>Will<ex>elm</ex>o Perren</persName> Music<ex>i</ex>on<ex>i</ex> p<ex>ro</ex> annual<ex>i</ex> stipend<ex>io</ex> ei Concesso p<ex>er</ex> warr<ex>antum</ex> Gub<ex>er</ex>nat<ex>orum</ex> hospicij p<ex>re</ex>dic<ex>t</ex>i
                Sum<ex>m</ex>a xxvj s. viij d. </ab>
-            </div>
-            <div type="translation">
-               <head>f 73<date from-iso="1598-11-20" to-iso="1599-11-22"/> <supplied>(20 November 1598-22 November 1599) (Treasurer's Receipts)</supplied></head>
-               <pb n="f 73" type="folio"/>
+          </div>
+            
+            <div type="translation" xml:lang="eng">
+               <head>f 54v<date when-iso="1597-11-20-1598-11-20"/> <supplied>(20 November-20 November) (Treasurer's Receipts)</supplied></head>
+               <pb n="f 54v" type="folio"/>
                <gap reason="omitted"/>
-               <note type="marginal" rend="right">Balance due from the rolls</note>
+               <note type="marginal" rend="left">Balance due from the rolls</note>
                <ab>And (the accountant renders account) of nil received from John Helliar, steward of the aforesaid Inn, for the balance due from the musicians' rolls this year, because they are reckoned in the commons ...</ab>
                <gap reason="omitted"/>
-            </div>
-            <div>
-               <head>f 76<supplied>(Treasurer's payments)</supplied></head>
-               <pb n="f 76" type="folio"/>
+          </div>
+            
+          <div>
+               <head>f 56v<supplied>(Treasurer's payments)</supplied></head>
+               <pb n="f 56v" type="folio"/>
                <gap reason="omitted"/>
-               <note type="marginal" rend="right">Musicians' stipends</note>
-               <ab>And (the accountant seeks to be allowed the sum) of 20s 6s 8d paid to William Perryn, musician, for the annual stipend granted him by a warrant of the governors of the aforesaid Inn.
+               <note type="marginal" rend="left">Musicians' stipends</note>
+               <ab>And (the accountant seeks to be allowed the sum) of 26s 8d paid to William Perryn, musician, for the annual stipend granted him by a warrant of the governors of the aforesaid Inn.
                   Total: 26s 8d</ab>
                <gap reason="omitted"/>
-            </div>
+          </div>
          </div>
       </body>
    </text>

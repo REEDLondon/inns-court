@@ -234,7 +234,7 @@
       <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
          <mods:mods>
             <mods:titleInfo>
-               <mods:title>Lincoln's Inn Black Book 6, 1611-12</mods:title>
+               <mods:title>Lincoln's Inn Black Book 6, 1604-05</mods:title>
             </mods:titleInfo>
             <mods:name
                type="corporate">
@@ -290,36 +290,35 @@
       </revisionDesc>
    </teiHeader>
    
-   <text ana="taxon:letter" type="record">
-      <body xml:lang="eng">
+   <text ana="taxon:letter" type="record" xml:id="RLLIBB06" corresp="taxon:RLPIC1 pp. 137">
+      <body>
          <head>Lincoln's Inn Black Book 6
-            <date from-iso="1611-09-29" to-iso="1612-09-29">1611-12</date>
-            <seg ana="taxon:RLLIBB06" corresp="taxon:RLPIC1 pp. 147">RLLIBB06</seg></head>
+            <date from-iso="1604-09-29" to-iso="1605-09-29">1604-5</date></head>
+         
          <div>
-            <div type="transcription">
-               <head>f 483v<date when-iso="1611-11-26"/> <supplied>(26 November) (Christmas officers)</supplied></head>
-               <pb n="f 483v" type="folio"/>
+            <div type="transcription" xml:lang="eng">
+               <head>f 303<date when-iso="1604-11-26"/> <supplied>(26 November) (Christmas officers)</supplied></head>
+               <pb n="f 303" type="folio"/>
                <gap reason="omitted"/>
-               <ab>M<ex>aste</ex>r of the Revells { Mr William Buckworth M<ex>r</ex> Vghtred Shutleworth</ab> 
-               <!-- Check with Diane about the symbol in the line above!!! -->
+               <ab>Yt is ordered that Mr Bennett and Mr Grave shalbe m<ex>aste</ex>rs of the Revells.</ab>
                <gap reason="omitted"/>
             </div>
+            
             <div>
-               <head>f 518v<date from-iso="1611-11-19" to-iso="1612-11-20"/><supplied>(19 November 1611-20 November 1612) (Treasurer's receipts)</supplied></head>
-               <pb n="f 518v" type="folio"/>
-               <gap reason="omitted"/>
-               <note type="marginal" rend="left">Surplusagia Rotulorum</note>
-               <ab>Et de xj li. viij d. recept<ex>is</ex> de eodem Iohanne <note type="foot">eodem Iohanne: <hi rend="italic">John Clarke, steward</hi></note> p<ex>ro</ex> surplusag<ex>ia</ex> rot<ex>u</ex>lo<ex>rum</ex> musicor<ex>um</ex>/ et Carbonor<ex>um/</ex> </ab>
+               <head>f 341<date from-iso="1604-11-26" to-iso="1605-11-19"/><supplied>(26 November - 19 November) (Treasurer's receipts)</supplied></head>
+               <pb n="f 341" type="folio"/> 
+               <note type="marginal" rend="right">Surplusagia Rotulorum</note>
+               <ab>Et de vj li. viij s. viij d. recept<ex>is</ex> de Ioh<ex>ann</ex>e Helliar senescall<ex>o</ex> hospicij p<ex>re</ex>d<ex>i</ex>c<ex>t</ex>i p<ex>ro</ex> surplusag<ex>ia</ex> Rotulor<ex>um</ex> Musicor<ex>um</ex> et Carbonar<ex>um... </ex> </ab>
                <gap reason="omitted"/>
             </div>   
-         </div>
-         <div type="translation">
-            <head>f 518v<date from-iso="1611-11-19" to-iso="1612-11-20"/><supplied>(19 November 1611-20 November 1612) (Treasurer's receipts)</supplied></head>
-            <pb n="f 518v" type="folio"/>
-            <gap reason="omitted"/>
-            <note type="marginal" rend="left">Balance due from the rolls</note>
-            <ab>And (the accountant renders account) of £11 8d received from the same John Clerke for the balance due from the musicians' rolls and for coals ...</ab>
-            <gap reason="omitted"/>
+            
+            <div type="translation" xml:lang="eng">
+              <head>f 341<date from-iso="1604-11-26" to-iso="1605-11-19"/><supplied>(26 November - 19 November) (Treasurer's receipts)</supplied></head>
+              <pb n="f 341" type="folio"/>
+              <note type="marginal" rend="right">Balance due from the rolls</note>
+              <ab>And (the accountant renders account) of £6 8s 8d received from John Helliar, steward of the aforesaid Inn, for the balance due from the musicians' rolls and for coals ...</ab>
+              <gap reason="omitted"/>
+           </div>
          </div>
       </body>
    </text>

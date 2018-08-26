@@ -234,7 +234,7 @@
       <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
          <mods:mods>
             <mods:titleInfo>
-               <mods:title>Lincoln's Inn Black Book 6, 1606-07</mods:title>
+               <mods:title>Lincoln's Inn Black Book 5, 1593-4</mods:title>
             </mods:titleInfo>
             <mods:name
                type="corporate">
@@ -257,15 +257,15 @@
             <mods:abstract>"All eight volumes described below were rebound in 1965 in black morocco, giving them a uniform appearance despite notable differences in size (from 210mm x 135mm to 310mm x 205mm). Foliation is sometimes nightmarish, as for example in A1a7 (Black Book 7), due to successive inconsistencies, errors, corrections, and rationalizations. A set of microfilms is preserved in the Public Record Office (TNA: PRO 30/77): the eight volumes referenced here occupy the first five reels.
                The standard essential publication is William Paley Baildon (ed), The Records of the Honorable Society of Lincoln’s Inn. The Black Books, 4 vols (London, 1897)."</mods:abstract>
             <mods:subject>
-               <mods:topic valueURI="http://id.loc.gov/authorities/subjects/sh2010116269">Theater--England--London--History--17th 
+               <mods:topic valueURI="http://id.loc.gov/authorities/subjects/sh2002012470">Theater--England--London--History--16th 
                </mods:topic>
             </mods:subject>
             <mods:subject>
                <mods:geographic valueURI="http://www.geonames.org/2643743/">London</mods:geographic>
             </mods:subject>
             <mods:subject>
-               <mods:temporal point="start">1601</mods:temporal>
-               <mods:temporal point="end">1700</mods:temporal>
+               <mods:temporal point="start">1501</mods:temporal>
+               <mods:temporal point="end">1600</mods:temporal>
             </mods:subject>    
             <mods:accessCondition
                type="use and reproduction">Use of this public-domain resource is governed by the &lt;a
@@ -288,39 +288,33 @@
          <change when="2018-05-30" who="#KM">created document</change>
          <change when="2018-06-12" who="KM">added translation</change>
       </revisionDesc>
+      
    </teiHeader>
    
-   <text ana="taxon:letter" type="record">
-      <body xml:lang="eng">
-         <head>Lincoln's Inn Black Book 6
-            <date from-iso="1606-09-29" to-iso="1607-09-29">1606-7</date>
-            <seg ana="taxon:RLLIBB06" corresp="taxon:RLPIC1 pp. 139-40">RLLIBB06</seg></head>
+   <text ana="taxon:letter" type="record" xml:id="RLLIBB05" corresp="taxon:RLPIC1 pp. 121">
+      <body>
+         <head>Lincoln's Inn Black Book 5
+            <date from-iso="1593-09-29" to-iso="1594-09-29">1593-4</date> </head> 
          <div>
-            <div type="transcription">
-               <head>f 348<date when-iso="1606-11-27"/> <supplied>(27 November) (Christmas officers)</supplied></head>
-               <pb n="f 348" type="folio"/>
-               <gap reason="omitted"/>
-               <ab>Yt is ordered, that M<ex>r</ex> Vcoby<del>.</del> Wright; &amp;M<ex>r</ex> William Wills,  shalbe maisters of the Revells;</ab>
-               <gap reason="omitted"/>
-            </div>
-            <div>
-               <head>f 382<date from-iso="1606-11-25" to-iso="1607-11-25"/><supplied>(25 November-25 November) (Treasurer's receipts)</supplied></head>
-               <pb n="f 382" type="folio"/>
-               <note type="marginal" rend="right">Surplusagia Rotulorum</note>
-               <ab>Et de x xj s. iiij d. recept<ex>is</ex> de Ioh<ex>ann</ex>e Helliar Senescal<ex>li</ex> hospicij p<ex>re</ex>d<ex>i</ex>c<ex>t</ex>i p<ex>ro</ex> Surplusag<ex>ia</ex> Rotulor<ex>um</ex> Musicor<ex>um</ex>/ et Carbonar<ex>um... </ex> </ab>
-               <gap reason="omitted"/>
-            </div>   
-         <div type="translation">
-            <head>f 382<date from-iso="1606-11-25" to-iso="1607-11-25"/><supplied>(25 November-25 November) (Treasurer's receipts)</supplied></head>
-            <pb n="f 382" type="folio"/>
-            <note type="marginal" rend="right">Balance due from the rolls</note>
-            <ab>And (the accountant renders account) of £10 11s 4d received from John Helliar, steward of the aforesaid Inn, for the balance due from the musicians' rolls and for coals ...</ab>
+            <div type="transcription" xml:lang="eng">
+            <head>f 488v<date when-iso="1593-02-11"/> <supplied>(11 February) (Christmas officers)</supplied></head>
+            <pb n="f488" type="folio"/>
             <gap reason="omitted"/>
-         </div>
+            <ab>Item that <persName>mr Beriefe</persName> &amp; <persName>mr Thomas Iunior</persName> shable <persName role="Masters of the Revels">masters of the Revells</persName></ab>
+            <gap reason="omitted"/>
+            </div>
          </div>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
 
 
 

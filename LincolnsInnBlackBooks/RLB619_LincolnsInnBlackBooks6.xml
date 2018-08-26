@@ -234,7 +234,7 @@
       <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
          <mods:mods>
             <mods:titleInfo>
-               <mods:title>Lincoln's Inn Black Book 6, 1594-5</mods:title>
+               <mods:title>Lincoln's Inn Black Book 6, 1611-12</mods:title>
             </mods:titleInfo>
             <mods:name
                type="corporate">
@@ -257,15 +257,15 @@
             <mods:abstract>"All eight volumes described below were rebound in 1965 in black morocco, giving them a uniform appearance despite notable differences in size (from 210mm x 135mm to 310mm x 205mm). Foliation is sometimes nightmarish, as for example in A1a7 (Black Book 7), due to successive inconsistencies, errors, corrections, and rationalizations. A set of microfilms is preserved in the Public Record Office (TNA: PRO 30/77): the eight volumes referenced here occupy the first five reels.
                The standard essential publication is William Paley Baildon (ed), The Records of the Honorable Society of Lincoln’s Inn. The Black Books, 4 vols (London, 1897)."</mods:abstract>
             <mods:subject>
-               <mods:topic valueURI="http://id.loc.gov/authorities/subjects/sh2002012470">Theater--England--London--History--16th 
+               <mods:topic valueURI="http://id.loc.gov/authorities/subjects/sh2010116269">Theater--England--London--History--17th 
                </mods:topic>
             </mods:subject>
             <mods:subject>
                <mods:geographic valueURI="http://www.geonames.org/2643743/">London</mods:geographic>
             </mods:subject>
             <mods:subject>
-               <mods:temporal point="start">1501</mods:temporal>
-               <mods:temporal point="end">1600</mods:temporal>
+               <mods:temporal point="start">1601</mods:temporal>
+               <mods:temporal point="end">1700</mods:temporal>
             </mods:subject>    
             <mods:accessCondition
                type="use and reproduction">Use of this public-domain resource is governed by the &lt;a
@@ -288,59 +288,51 @@
          <change when="2018-05-30" who="#KM">created document</change>
          <change when="2018-06-12" who="KM">added translation</change>
       </revisionDesc>
-      
    </teiHeader>
    
-   <text ana="taxon:letter" type="record">
-      <body xml:lang="eng">
+   <text ana="taxon:letter" type="record" xml:id="RLLIBB06" corresp="taxon:RLPIC1 pp. 147">
+      <body >
          <head>Lincoln's Inn Black Book 6
-            <date from-iso="1594-09-29" to-iso="1594-09-29">1594-5</date> 
-            <seg ana="taxon:RLLIBB06" corresp="taxon:RLPIC1 pp. 125">RLLIBB06</seg></head> 
+            <date from-iso="1611-09-29" to-iso="1612-09-29">1611-12</date></head>
+         
          <div>
-            <div type="transcription">
-            <head>f 15v<ptr type="endnote" target="endnote:RLE12345"/><date from-iso="1594-11-25" to-iso="1595-11-20"/> <supplied>(25 November 1594-20 November 1595) (Treasurer's Receipts)</supplied></head>
-            <pb n="f15v" type="folio"/>
-            <gap reason="omitted"/>
-            <note type="marginal" rend="left">Surplusagia Rotulorum</note>
-            <ab> Et de nihil recepto de <persName>Abrahamo Ripley</persName> nup<ex>er</ex> Senescallo hospicij p<ex>re</ex>d<ex>icti</ex> p<ex>ro</ex> surplusag<ex>ia</ex> Rotuloru<ex>m</ex> musicor<ex>um</ex> hoc anno quia iactant<ex>ur</ex> in Com<ex>m</ex>on<ex>es</ex> </ab>
-            <gap reason="omitted"/>
-            </div>  
-            <div> 
-            <head>f 17 <supplied>(Treasurer's payments)</supplied></head>
-            <pb n="f 17" type="folio"/>
-            <gap reason="omitted"/>
-            <note type="marginal" rend="right">Stipend<ex>ia</ex> musicor<ex>um</ex></note>
-            <ab> Et de xxvj s. viij d. solut<ex>is</ex> <persName>Will<ex>elm</ex>o Perren</persName> music<ex>i</ex>on<ex>i</ex> p<ex>ro</ex> anual<ex>i</ex> stipend<ex>io</ex> ei concess<ex>o</ex> p<ex>er</ex> warr<ex>antum</ex> gubernator<ex>um</ex> hospicij p<ex>re</ex>dict<ex>i</ex> 
-               Sum<ex>m</ex>a xxvj s. viij d. </ab>
+            <div type="transcription" xml:lang="eng">
+               <head>f 483v<date when-iso="1611-11-26"/> <supplied>(26 November) (Christmas officers)</supplied></head>
+               <pb n="f 483v" type="folio"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell rend="left_brace">M<ex>aste</ex>r of the Revells</cell>
+                     <cell>Mr William Buckworth</cell>
+                  </row>
+                  <row>
+                     <cell>M<ex>r</ex> Vghtred Shutleworth</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
             </div>
-            <div type="translation">
-               <head>f 15v<ptr type="endnote" target="endnote:RLE12345"/><date from-iso="1594-11-25" to-iso="1595-11-20"/> <supplied>(25 November 1594-20 November 1595) (Treasurer's Receipts)</supplied></head>
-               <pb n="f15v" type="folio"/>
+            
+            <div>
+               <head>f 518v<date from-iso="1611-11-19" to-iso="1612-11-20"/><supplied>(19 November 1611-20 November 1612) (Treasurer's receipts)</supplied></head>
+               <pb n="f 518v" type="folio"/>
+               <gap reason="omitted"/>
+               <note type="marginal" rend="left">Surplusagia Rotulorum</note>
+               <ab>Et de xj li. viij d. recept<ex>is</ex> de eodem Iohanne <note type="foot">eodem Iohanne: <hi rend="italic">John Clarke, steward</hi></note> p<ex>ro</ex> surplusag<ex>ia</ex> rot<ex>u</ex>lo<ex>rum</ex> musicor<ex>um</ex>/ et Carbonor<ex>um/</ex> </ab>
+               <gap reason="omitted"/>
+            </div>
+        
+            <div type="translation" xml:lang="eng">
+               <head>f 518v<date from-iso="1611-11-19" to-iso="1612-11-20"/><supplied>(19 November 1611-20 November 1612) (Treasurer's receipts)</supplied></head>
+               <pb n="f 518v" type="folio"/>
                <gap reason="omitted"/>
                <note type="marginal" rend="left">Balance due from the rolls</note>
-               <ab>And (the accountant renders account) of nil received from Abraham Ripley, lately steward of the aforesaid Inn, for the balance due from the musicians' rolls this year because they are reckoned in the commons...</ab>
+               <ab>And (the accountant renders account) of £11 8d received from the same John Clerke for the balance due from the musicians' rolls and for coals ...</ab>
                <gap reason="omitted"/>
-            </div>
-            <div>
-               <head>f 17 <supplied>(Treasurer's payments)</supplied></head>
-               <pb n="f 17" type="folio"/>
-               <gap reason="omitted"/>
-               <note type="marginal" rend="right">Musicians' stipends</note>
-               <ab>And (the accountant seeks to be allowed the sum) of 26s 8d paid to William Perryn, musician, for the annual stipend granted him by a warrant of the governors of the aforesaid Inn.
-                  Total: 26s 8d</ab>
             </div>
          </div>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
 
 
 
