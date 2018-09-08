@@ -293,12 +293,12 @@
       </xenoData>
    </teiHeader>
 
-   <text ana="taxon:letter" type="record" xml:id="abcde" corresp="RLPIC1 78910">
+   <text ana="taxon:letter" type="record" xml:id="abcde">
       <!-- match with IDs -->
       <body>
          <head>
             <date when-iso="YYY-MM-DD">1234</date></head>
-         <div type="transcription" xml:lang="eng">
+         <div type="transcription" xml:lang="en">
             <!-- If there is a translation, it should also have a xml:lang="" -->
             <div>
                <head>
