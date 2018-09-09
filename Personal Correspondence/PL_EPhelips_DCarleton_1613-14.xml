@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="reed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="eng"> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="en"> 
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -215,7 +215,7 @@
          </seriesStmt>
          <sourceDesc>
             <p>This publication constitutes a remediation of the printed Inns of Court collection. Information on original sources for transcriptions can be accessed via the Document Descriptions.</p>
-            <p>This record can be found on pp. 689 of REED: Inns of Court, Vol. 2</p>
+            <p>This record can be found on pp. 690 of REED: Inns of Court, Vol. 2</p>
             <p>For a full list of REED collections, editors, executive board members, and staff, please visit http://reed.utoronto.ca/people</p>       
          </sourceDesc>
       </fileDesc>
@@ -269,9 +269,9 @@
             </mods:titleInfo>
             <mods:name
                type="personal">
-               <mods:namePart type="family">Chamberlain</mods:namePart>
-               <mods:namePart type="given">John</mods:namePart>
-               <mods:form authority="viaf">http://viaf.org/viaf/39748463</mods:form>
+               <mods:namePart type="family">Phelips</mods:namePart>
+               <mods:namePart type="given">Edward</mods:namePart>
+               <mods:form authority="viaf">http://viaf.org/viaf/88489445</mods:form>
             </mods:name>
             <mods:typeOfResource>text</mods:typeOfResource>
             <mods:genre type="formatType">Born Digital</mods:genre>
@@ -287,7 +287,7 @@
                <mods:internetMediaType>text/xml</mods:internetMediaType>
                <mods:digitalOrigin>born digital</mods:digitalOrigin>
             </mods:physicalDescription>
-            <mods:abstract>John Chamberlain (1553-1628) was a professional letter-writer employed by contemporaries who preserved his letters in considerable numbers. Chief among his employers was Sir Dudley Carleton (1574-1632), Viscount Dorchester, a career diplomat who served in Venice from 1610 to 1615. (Carleton was admitted to Gray's Inn in 1605). This letter, dated 23 February 1612/13, describes the performance events staged for the wedding of Princess Elizabeth to Frederick, Elector Palatine.</mods:abstract>
+            <mods:abstract>Sir Edward Phelips (c. 1555-1614) was speaker of the House of Commons. In this letter to Sir Dudley Carleton, Viscount Dorchester, dated February 25, 1613, he  describes the masques that took place at the marriage of Princess Elizabeth to Frederick V, Elector Palatine.</mods:abstract>
             <mods:subject>
                <mods:topic valueURI="http://id.loc.gov/authorities/subjects/sh2002012473">Theater--England--London--History--17th century
                </mods:topic>
@@ -320,27 +320,31 @@
       </revisionDesc>
    </teiHeader>
    
-   <text ana="taxon:letter" type="record" xml:id="RLC015">
+   <text ana="taxon:letter" type="record" xml:id="RLC012">
       <body>
          <div>
-            <head>Letter of John Chamberlain to Sir Ralph Winwood <date when-iso="1613-02-23"/></head>
+            <head>Letter of Sir Edward Phelips to Sir Dudley Carleton<date when-iso="1613-02-25"/></head>
             <div type="transcription" xml:lang="en">
                <head>f<del>1</del>
-                  <supplied>(23 February 1612/13)</supplied></head>
+                  <supplied>(25 Febryary 1612/13)</supplied></head>
                <pb n="1" type="folio"/>
-            </div>
-          <div>
-            <ab>My very goode <persName n="Sir Ralph Winwood">Lord</persName>: since my last of the 10<add place="above">th</add> of this present here hath ben litle to aduertise, but the consummation of the <persName n="Elizabeth Stuart, Queen of Bohemia">Lady Elizabeth</persName>s marriage w<ex>i</ex>th the <persName n="Frederick V of the Palatinate">Count Palatin</persName>, together with the triumphes and shewes bothbefore and after....</ab>
-         </div>
-         
-            <div type="transcription" xml:lang="en">
-            <head>ff <del>1v-2</del></head>
-            <pb n="1v-2" type="folio"/>
+                     
+            <ab>I cannot but acknowledg with all thanckfullnes (My hono<ex>ra</ex>ble and much esteemed good frend) yo<ex>u</ex>r kinde remembring of him whoe longe hath and ever will both acknowledge yo<ex>u</ex>r vertues and owe yow much Loue; The Coldnese of this English time affordeth not much worthie the passage by Sea, but that o<ex>u</ex>r well liked of marriage was solemnized the 14<add place="above">th</add> of this p<ex>rese</ex>nte moneth of ffebr<ex>uary</ex> Wherat all <persName>foraine Embassadors</persName> (the Spanish only excepted) were p<ex>rese</ex>nte. And soe were they Mundaie and tuesday<date>15 and 16 February 1612/13</date> following The marriage was accompanied with much Noblenesse and Royalty Thursdaie and Satturdaie<date>11 and 13 February 1612/13</date> before with firework<ex>es</ex> and shippfight<ex>es</ex> vpon <placeName n="The Thames">Thames</placeName>, Sunday night<date>14 February 1612/13</date> with <title n="The Earls and Ladies Masque">the Erles and Ladyes Maske</title> Munday night<date>15 February 1612/13</date> with <title n="The Memorable Masque">the Maske of the Middle Temple and Lyncolnes Inn</title> whoe came through the streete on greate horses w<ex>hi</ex>ch with the sumptuousnesse of the Maske the device therof with the requisite performance hadd the price and praise of all others. On Tuesday night<date>16 February 1612/13</date> was the <title n="Masque of the Inner Temple and Gray's Inn">Maske of the Inner Temple and Greys Inn</title> readie for the performance of their Maske ther com<ex>m</ex>ing and shewe being by water but they retourned that night without execuc<ex>i</ex>on But on satturday night<date>20 February 1612/13</date> after they performed the same w<ex>i</ex>th good approbac<ex>i</ex>on; On Sunday night<note type="foot">21 February 1612/13</note> after the <persName n="James I">Kinge</persName> feasted the <orgName n="Inns of Court">Innes of Courte</orgName> w<ex>i</ex>th a greate deale of ioye and comforte himself sitting at the same Boorde, Soe that I may well write yow that never <persName n="James I">Kinge</persName> was more gloriouslie and Royally served by them, nor they more honored or graced by <persName n="James I">a Soueraigne</persName>.... </ab>
             
-               <ab>...now for the fireworks and fight vpon <placeName n="The Thames">the water</placeName>, (the one performed the thursday night<note type="foot">thursday night: <hi rend="11 February 1612/13"></hi></note>, the other on saterday<note type="foot">saterday: <hi rend="13 February 1612/13"></hi></note> in the afternoone before the marriage) there was nothing in either awnswerable to the great reputation concerned, or the cost bestowed, w<ex>hi</ex>ch amounted to more then <measure type="currency">9000 li.</measure> so that according to the prouerb Parturiunt montes etc<ex>e</ex>t<ex>era</ex><note type="foot">cp Horace,Ars Poetica 139: <hi rend="‘Parturiunt montes, nascetur ridiculus mus’ (‘The mountains are in labour, a ridiculous mouse will be born’)"></hi></note> marry they pretend the best was kept back for another day, but the <persName n="James I">king</persName> and indeed all the companie were so sufficiently vnsatisfied w<ex>i</ex>th this, that they cared not, nor desired to see any more, the rather for that there was much hurt don, and diuers maymed. the Lords maske likewise on the mariage night, though yt were very rich and sumptuous, yet it was long and tedious, and w<ex>i</ex>th many deuises more lyke a play then a maske. but the <title n="The Memorable Masque"></title> <orgName>middle Templers</orgName> and <orgName>Lincolns ynne</orgName> gaue great contentment on monday night <note type="foot">monday night: <hi rend="15 February 1612/13"></hi></note>, as well w<ex>i</ex>th theyre gracefull comming on horsebacke, as in all the rest of theyre apt inuention, apparell, fashion, and specially theyre excellent dauncing, wherew<ex>i</ex>th the <persName n="James I">king</persName> was so much delighted that he gaue them many thancks, and much commendation as well to theyre faces as behind theyre backs. but the next day<note type="foot">th enext day: <hi rend="16 February 1612/13"></hi></note> our <title n="Masque of the Inner Temple and Gray's Inn"><orgName role="member">Grayes ynne men</orgName> and the <orgName>inner Temple</orgName></title> had not the same fortune, though they deserued no lesse: for striuing to varie from theyre competitors, (and theyre deuise being the marieng of the <persName type="character">Thames</persName> to the Rhine,) they made choise to go by water from <placeName n="Winchester House">winchester house in Southwarke</placeName>, w<ex>i</ex>th theyre boats and barges excedingly trimmed, and furnished w<ex>i</ex>th store of lights that made a glorious shew, and three peale of ordinance (at theyre taking water, at theyre passing by the <placeName>Temple</placeName>, and at theyre landing,) which passage by water cost them better then <measure type="currency">300 li.</measure> but when they were landed at the court, (by what mischaunce I know not) they were faine to return as they went w<ex>i</ex>thout dooing any thing, the reason wherof some say was because the hall was so full that yt could not be avoyded nor roome made for them, and most of the <persName>principall Ladies</persName> (that were in the galleries to see theyre landing) excluded: but the most probable is that the <persName n="James I">King</persName> was so satiated, and overwearied w<ex>i</ex>th watching the two nights before, that he could hold out no longer, and so was driuen to put yt of till saterday<date>20 February 1612/13</date>, wh<del><damage/></del>yt was very well performed in the new <placeName>banket<del><damage/></del> house</placeName>,w<ex>hi</ex>ch for a kind of amends was graunted to t<del><damage/></del> though w<ex>i</ex>th much repining and contradiction of theyre emulators. the next day<date>21 February 1612/13</date> the <persName n="James I">King</persName> made them all a solemne supper in the new mariage roome, and vsed them so well and graciously that he sent both parties away well pleased....</ab>
-              
-           </div>
+            </div>
          </div>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+

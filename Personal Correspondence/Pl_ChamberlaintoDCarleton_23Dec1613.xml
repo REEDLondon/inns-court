@@ -215,7 +215,7 @@
          </seriesStmt>
          <sourceDesc>
             <p>This publication constitutes a remediation of the printed Inns of Court collection. Information on original sources for transcriptions can be accessed via the Document Descriptions.</p>
-            <p>This record can be found on pp. 689 of REED: Inns of Court, Vol. 2</p>
+            <p>This record can be found on pp. 692 of REED: Inns of Court, Vol. 2</p>
             <p>For a full list of REED collections, editors, executive board members, and staff, please visit http://reed.utoronto.ca/people</p>       
          </sourceDesc>
       </fileDesc>
@@ -287,7 +287,7 @@
                <mods:internetMediaType>text/xml</mods:internetMediaType>
                <mods:digitalOrigin>born digital</mods:digitalOrigin>
             </mods:physicalDescription>
-            <mods:abstract>John Chamberlain (1553-1628) was a professional letter-writer employed by contemporaries who preserved his letters in considerable numbers. Chief among his employers was Sir Dudley Carleton (1574-1632), Viscount Dorchester, a career diplomat who served in Venice from 1610 to 1615. (Carleton was admitted to Gray's Inn in 1605). This letter, dated 23 February 1612/13, describes the performance events staged for the wedding of Princess Elizabeth to Frederick, Elector Palatine.</mods:abstract>
+            <mods:abstract>John Chamberlain (1553-1628) was a professional letter-writer employed by contemporaries who preserved his letters in considerable numbers. Chief among his employers was Sir Dudley Carleton (1574-1632), Viscount Dorchester, a career diplomat who served in Venice from 1610 to 1615. (Carleton was admitted to Gray's Inn in 1605). This letter, dated 23 December 1613, describes the preparations for events for the wedding of Lady Francis Howard and Robert Kerr.</mods:abstract>
             <mods:subject>
                <mods:topic valueURI="http://id.loc.gov/authorities/subjects/sh2002012473">Theater--England--London--History--17th century
                </mods:topic>
@@ -320,26 +320,20 @@
       </revisionDesc>
    </teiHeader>
    
-   <text ana="taxon:letter" type="record" xml:id="RLC015">
+   
+   <text ana="taxon:letter" type="record" xml:id="RLC018">
       <body>
          <div>
-            <head>Letter of John Chamberlain to Sir Ralph Winwood <date when-iso="1613-02-23"/></head>
+            <head>Letter of John Chamberlain to Sir Dudley Carleton<date when-iso="1613-12-23"/></head>
             <div type="transcription" xml:lang="en">
-               <head>f<del>1</del>
-                  <supplied>(23 February 1612/13)</supplied></head>
-               <pb n="1" type="folio"/>
-            </div>
-          <div>
-            <ab>My very goode <persName n="Sir Ralph Winwood">Lord</persName>: since my last of the 10<add place="above">th</add> of this present here hath ben litle to aduertise, but the consummation of the <persName n="Elizabeth Stuart, Queen of Bohemia">Lady Elizabeth</persName>s marriage w<ex>i</ex>th the <persName n="Frederick V of the Palatinate">Count Palatin</persName>, together with the triumphes and shewes bothbefore and after....</ab>
-         </div>
+               <head>ff<del>1-1v</del>
+                  <supplied>(23 December 1613)</supplied></head>
+               <pb n="1-1v" type="folio"/>
          
-            <div type="transcription" xml:lang="en">
-            <head>ff <del>1v-2</del></head>
-            <pb n="1v-2" type="folio"/>
-            
-               <ab>...now for the fireworks and fight vpon <placeName n="The Thames">the water</placeName>, (the one performed the thursday night<note type="foot">thursday night: <hi rend="11 February 1612/13"></hi></note>, the other on saterday<note type="foot">saterday: <hi rend="13 February 1612/13"></hi></note> in the afternoone before the marriage) there was nothing in either awnswerable to the great reputation concerned, or the cost bestowed, w<ex>hi</ex>ch amounted to more then <measure type="currency">9000 li.</measure> so that according to the prouerb Parturiunt montes etc<ex>e</ex>t<ex>era</ex><note type="foot">cp Horace,Ars Poetica 139: <hi rend="‘Parturiunt montes, nascetur ridiculus mus’ (‘The mountains are in labour, a ridiculous mouse will be born’)"></hi></note> marry they pretend the best was kept back for another day, but the <persName n="James I">king</persName> and indeed all the companie were so sufficiently vnsatisfied w<ex>i</ex>th this, that they cared not, nor desired to see any more, the rather for that there was much hurt don, and diuers maymed. the Lords maske likewise on the mariage night, though yt were very rich and sumptuous, yet it was long and tedious, and w<ex>i</ex>th many deuises more lyke a play then a maske. but the <title n="The Memorable Masque"></title> <orgName>middle Templers</orgName> and <orgName>Lincolns ynne</orgName> gaue great contentment on monday night <note type="foot">monday night: <hi rend="15 February 1612/13"></hi></note>, as well w<ex>i</ex>th theyre gracefull comming on horsebacke, as in all the rest of theyre apt inuention, apparell, fashion, and specially theyre excellent dauncing, wherew<ex>i</ex>th the <persName n="James I">king</persName> was so much delighted that he gaue them many thancks, and much commendation as well to theyre faces as behind theyre backs. but the next day<note type="foot">th enext day: <hi rend="16 February 1612/13"></hi></note> our <title n="Masque of the Inner Temple and Gray's Inn"><orgName role="member">Grayes ynne men</orgName> and the <orgName>inner Temple</orgName></title> had not the same fortune, though they deserued no lesse: for striuing to varie from theyre competitors, (and theyre deuise being the marieng of the <persName type="character">Thames</persName> to the Rhine,) they made choise to go by water from <placeName n="Winchester House">winchester house in Southwarke</placeName>, w<ex>i</ex>th theyre boats and barges excedingly trimmed, and furnished w<ex>i</ex>th store of lights that made a glorious shew, and three peale of ordinance (at theyre taking water, at theyre passing by the <placeName>Temple</placeName>, and at theyre landing,) which passage by water cost them better then <measure type="currency">300 li.</measure> but when they were landed at the court, (by what mischaunce I know not) they were faine to return as they went w<ex>i</ex>thout dooing any thing, the reason wherof some say was because the hall was so full that yt could not be avoyded nor roome made for them, and most of the <persName>principall Ladies</persName> (that were in the galleries to see theyre landing) excluded: but the most probable is that the <persName n="James I">King</persName> was so satiated, and overwearied w<ex>i</ex>th watching the two nights before, that he could hold out no longer, and so was driuen to put yt of till saterday<date>20 February 1612/13</date>, wh<del><damage/></del>yt was very well performed in the new <placeName>banket<del><damage/></del> house</placeName>,w<ex>hi</ex>ch for a kind of amends was graunted to t<del><damage/></del> though w<ex>i</ex>th much repining and contradiction of theyre emulators. the next day<date>21 February 1612/13</date> the <persName n="James I">King</persName> made them all a solemne supper in the new mariage roome, and vsed them so well and graciously that he sent both parties away well pleased....</ab>
-              
-           </div>
+                        
+                        <ab>...<persName n="Sir Francis Bacon">Sir Fran<ex>cis</ex> Bacon</persName> prepares a maske<note type="foot">The Masque of Flowers, 6 January 1613/14</note> to honor this mariage<note type="foot">ie, that of Robert Ker, earl of Somerset, and Lady Frances Howard on 26 December 1613</note> w<ex>hi</ex>ch will stand him in aboue 2000 li., and though he haue ben offered some helpe by the house, ^<add place="above">and</add> specially by master Sollicitor <persName n="Sir Henry Yelverton" role="master solicitor">S<ex>i</ex>r Hen<ex>ry</ex> Yeluerton</persName>, who wold haue sent him 500 li., yet he wold not accept yt, but offers them the whole charge with the honor: mary his obligations are such as well to <persName n="James I">his Ma<ex>ies</ex>tie</persName> as to the great Lord, and to the whole <orgName>house of Howards</orgName> as he can admit no partners. in the mean time his house and land at <placeName n="Gorhamhury">Goramberie</placeName> (by <placeName n="St. Albans">St Albons</placeName>) is gon some say to the <persName>earle of Somerset</persName> others to the <persName>earle of Suffolk</persName>, but his bountie is no whit abated, for he feasts the whole <orgName>vniuersitie of Cambrige</orgName>. this christmas, and hath sent warrants to his friends and acquaintaunce far and neere to furnish him w<ex>i</ex>th venison to bestow on the colleges. he caries a great port as well in his traine as in his apparell and other wayes, and liue sat a great charge, and yet he pretends he will take no fees nor entermeddle in mercenarie causes, but wholy applie himself to the kinges affaires....</ab>                
+   
+            </div>
          </div>
       </body>
    </text>

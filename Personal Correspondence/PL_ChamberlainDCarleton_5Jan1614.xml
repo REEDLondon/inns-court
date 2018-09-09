@@ -215,7 +215,7 @@
          </seriesStmt>
          <sourceDesc>
             <p>This publication constitutes a remediation of the printed Inns of Court collection. Information on original sources for transcriptions can be accessed via the Document Descriptions.</p>
-            <p>This record can be found on pp. 689 of REED: Inns of Court, Vol. 2</p>
+            <p>This record can be found on pp. 692-3 of REED: Inns of Court, Vol. 2</p>
             <p>For a full list of REED collections, editors, executive board members, and staff, please visit http://reed.utoronto.ca/people</p>       
          </sourceDesc>
       </fileDesc>
@@ -287,7 +287,7 @@
                <mods:internetMediaType>text/xml</mods:internetMediaType>
                <mods:digitalOrigin>born digital</mods:digitalOrigin>
             </mods:physicalDescription>
-            <mods:abstract>John Chamberlain (1553-1628) was a professional letter-writer employed by contemporaries who preserved his letters in considerable numbers. Chief among his employers was Sir Dudley Carleton (1574-1632), Viscount Dorchester, a career diplomat who served in Venice from 1610 to 1615. (Carleton was admitted to Gray's Inn in 1605). This letter, dated 23 February 1612/13, describes the performance events staged for the wedding of Princess Elizabeth to Frederick, Elector Palatine.</mods:abstract>
+            <mods:abstract>John Chamberlain (1553-1628) was a professional letter-writer employed by contemporaries who preserved his letters in considerable numbers. Chief among his employers was Sir Dudley Carleton (1574-1632), Viscount Dorchester, a career diplomat who served in Venice from 1610 to 1615. (Carleton was admitted to Gray's Inn in 1605).  This letter, dated 29 January 1612/13, describes the celebrations for the wedding of Princess Elizabeth to Frederick, Elector Palatine.</mods:abstract>
             <mods:subject>
                <mods:topic valueURI="http://id.loc.gov/authorities/subjects/sh2002012473">Theater--England--London--History--17th century
                </mods:topic>
@@ -316,31 +316,34 @@
       <revisionDesc>
          <!-- Add new major milestone changes to top -->
          <change when="2018-03-10" who="#KM">created document</change>
-         <change when="2018-09-08" who="#KM">added mods header</change>
+         <change when="2018-09-09" who="#KM">added mods header</change>
       </revisionDesc>
    </teiHeader>
    
-   <text ana="taxon:letter" type="record" xml:id="RLC015">
+   <text ana="taxon:letter" type="record" xml:id="RLC019">
       <body>
          <div>
-            <head>Letter of John Chamberlain to Sir Ralph Winwood <date when-iso="1613-02-23"/></head>
+            <head>Letter of John Chamberlain to Sir Dudley Carleton <date when-iso="1614-01-05"/></head>
             <div type="transcription" xml:lang="en">
-               <head>f<del>1</del>
-                  <supplied>(23 February 1612/13)</supplied></head>
-               <pb n="1" type="folio"/>
-            </div>
-          <div>
-            <ab>My very goode <persName n="Sir Ralph Winwood">Lord</persName>: since my last of the 10<add place="above">th</add> of this present here hath ben litle to aduertise, but the consummation of the <persName n="Elizabeth Stuart, Queen of Bohemia">Lady Elizabeth</persName>s marriage w<ex>i</ex>th the <persName n="Frederick V of the Palatinate">Count Palatin</persName>, together with the triumphes and shewes bothbefore and after....</ab>
-         </div>
-         
-            <div type="transcription" xml:lang="en">
-            <head>ff <del>1v-2</del></head>
-            <pb n="1v-2" type="folio"/>
+               <head>ff<del>1v-2</del>
+                  <supplied>(01 January 1614)</supplied></head>
+               <pb n="1v-2" type="folio"/>
+   
+            <ab>...The <persName n="Sir Thomas Middleton">L<ex>ord</ex> mayor<note type="foot">Sir Thomas Middleton</note></persName> was sent to by the <persName n="King James I">K<ex>ing</ex></persName> to entertain this new maried couple w<ex>i</ex>th theyre frends and followers, but he making an excuse that his house was too litle to receue them, yt was not accepted, but word sent backe that he might commaund the biggest hall in the towne: wherupon calling a counsaile yt was resolved to do yt at the charge of the citie in the <placeName n="Merchant Taylors' Hall">marchanttaylers hall</placeName> vpon fowre dayes warning, and thether they went yesternight about sixe a clocke, thorough <placeName n="Cheapside">cheapside</placeName> all by torch-light, accompanied by the <persName n="Thomas Howard, first earl of Suffolk" cert="high" resp="KM">father</persName> and <persName n="Katherine Knyvett" cert="high" resp="KM">mother</persName> of the <persName n="Lady Frances Howard">bride</persName>, and all the Lords and Ladies about the court. the men were well mounted and richly arrayed making a goodly shew, the women all in coaches. I do not heare yet how all things passed there, for I haue not ben abrode, only I vnderstand that after supper they had a play and a maske and after that a banket. the bride had a goodly new rich coach, w<ex>hi</ex>ch could not be furnished w<ex>i</ex>th fowre horses to theyre mind, so that <persName n="Sir Ralph Winwood" cert="medium" resp="KM">S<ex>i</ex>r Rafe winwod</persName> was moued <del>t</del> on sonday night<note type="foot">2 January 1613/14</note> to lend his, (those that you may remember he had here fowre or fiue yeares ago, and are as fayre or fayrer then euer they were:) he made aunswer thatfri yt was not for such a Lady to vse any thing borrowed and therfore the next morning presented them to <persName>the great Lord</persName>, who made some difficultie at first to receue them of guift, but only as lent for this solemnitie of going through the <placeName n="London">citie</placeName>, but in the end tooke them in very goode part. M<ex>aste</ex>r atturneyes<note type="foot">ie, Sir Francis Bacon’s</note> maske is for to morrow, and for a conclusion of christmas and these shewes together, for the K<ex>ing</ex> sayes he wilbe gon toward <placeName>Roiston</placeName> vpon friday<note type="foot">7 January 1613/14</note>. before the holy-dayes the <persName role="French Ambassador">french</persName> and <persName role="Venetian Ambassador">venetian ambassadors</persName><note type="foot"><persName>Samuel Spifame</persName>, <persName>Seigneur des Bisseaux</persName>, and <persName>Antonio Foscarini</persName>,<persName>Don Diego di Sarmiento de Acuna</persName></note> were inuited to this maske, w<ex>i</ex>th excuse that they could not be so well at the first vpon the marriage night, for auoyding competition of place and precedence with the <persName n="Ferdinand de Boiscot">Spanish ambassador</persName> who had neuer seen any of our shewes before: but the best maske was reserved for them. the <persName>french</persName> seemed to take yt well enough: but the <persName>venetian</persName> stormed he shold be excluded and the <persName>archdukes</persName> admitted, who he presumed wold not | once make offer to take place where he was… </ab>              
             
-               <ab>...now for the fireworks and fight vpon <placeName n="The Thames">the water</placeName>, (the one performed the thursday night<note type="foot">thursday night: <hi rend="11 February 1612/13"></hi></note>, the other on saterday<note type="foot">saterday: <hi rend="13 February 1612/13"></hi></note> in the afternoone before the marriage) there was nothing in either awnswerable to the great reputation concerned, or the cost bestowed, w<ex>hi</ex>ch amounted to more then <measure type="currency">9000 li.</measure> so that according to the prouerb Parturiunt montes etc<ex>e</ex>t<ex>era</ex><note type="foot">cp Horace,Ars Poetica 139: <hi rend="‘Parturiunt montes, nascetur ridiculus mus’ (‘The mountains are in labour, a ridiculous mouse will be born’)"></hi></note> marry they pretend the best was kept back for another day, but the <persName n="James I">king</persName> and indeed all the companie were so sufficiently vnsatisfied w<ex>i</ex>th this, that they cared not, nor desired to see any more, the rather for that there was much hurt don, and diuers maymed. the Lords maske likewise on the mariage night, though yt were very rich and sumptuous, yet it was long and tedious, and w<ex>i</ex>th many deuises more lyke a play then a maske. but the <title n="The Memorable Masque"></title> <orgName>middle Templers</orgName> and <orgName>Lincolns ynne</orgName> gaue great contentment on monday night <note type="foot">monday night: <hi rend="15 February 1612/13"></hi></note>, as well w<ex>i</ex>th theyre gracefull comming on horsebacke, as in all the rest of theyre apt inuention, apparell, fashion, and specially theyre excellent dauncing, wherew<ex>i</ex>th the <persName n="James I">king</persName> was so much delighted that he gaue them many thancks, and much commendation as well to theyre faces as behind theyre backs. but the next day<note type="foot">th enext day: <hi rend="16 February 1612/13"></hi></note> our <title n="Masque of the Inner Temple and Gray's Inn"><orgName role="member">Grayes ynne men</orgName> and the <orgName>inner Temple</orgName></title> had not the same fortune, though they deserued no lesse: for striuing to varie from theyre competitors, (and theyre deuise being the marieng of the <persName type="character">Thames</persName> to the Rhine,) they made choise to go by water from <placeName n="Winchester House">winchester house in Southwarke</placeName>, w<ex>i</ex>th theyre boats and barges excedingly trimmed, and furnished w<ex>i</ex>th store of lights that made a glorious shew, and three peale of ordinance (at theyre taking water, at theyre passing by the <placeName>Temple</placeName>, and at theyre landing,) which passage by water cost them better then <measure type="currency">300 li.</measure> but when they were landed at the court, (by what mischaunce I know not) they were faine to return as they went w<ex>i</ex>thout dooing any thing, the reason wherof some say was because the hall was so full that yt could not be avoyded nor roome made for them, and most of the <persName>principall Ladies</persName> (that were in the galleries to see theyre landing) excluded: but the most probable is that the <persName n="James I">King</persName> was so satiated, and overwearied w<ex>i</ex>th watching the two nights before, that he could hold out no longer, and so was driuen to put yt of till saterday<date>20 February 1612/13</date>, wh<del><damage/></del>yt was very well performed in the new <placeName>banket<del><damage/></del> house</placeName>,w<ex>hi</ex>ch for a kind of amends was graunted to t<del><damage/></del> though w<ex>i</ex>th much repining and contradiction of theyre emulators. the next day<date>21 February 1612/13</date> the <persName n="James I">King</persName> made them all a solemne supper in the new mariage roome, and vsed them so well and graciously that he sent both parties away well pleased....</ab>
-              
-           </div>
+            <!-- This is a problem. There seem to be 2 different Spanish Ambassadors at the event. See footnotes to printed lines 16-17 and 19 #KM -->
+      
+            </div>
          </div>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+
+
+
+
+
+
+
