@@ -3,56 +3,54 @@
 <?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="eng"> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="eng">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            
+
             <title type="main">Inns of Court</title>
 
-            
+
             <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>
-            <funder><orgName>CANARIE</orgName></funder> 
-            
+            <funder><orgName>CANARIE</orgName></funder>
+
             <funder><orgName>British Academy, London, UK</orgName></funder>
-            <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>            
-            <funder><orgName>National Endowment for the Humanities, Washington, DC, United States of
-               America</orgName></funder>
-            <funder><orgName>Social Sciences and Humanities Research Council, Ottawa,
-               Canada</orgName></funder>
-            
-		 <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
-		 <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
-            
+            <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>
+            <funder><orgName>National Endowment for the Humanities, Washington, DC, United States of America</orgName></funder>
+            <funder><orgName>Social Sciences and Humanities Research Council, Ottawa, Canada</orgName></funder>
+
+            <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
+            <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
+
             <respStmt>
                <persName xml:id="CB">Carolyn Black</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>Project Manager</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>John Bradley</persName>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-            
+
             <respStmt>
-               <persName>Susan Brown</persName> 
+               <persName>Susan Brown</persName>
                <orgName>University of Guelph</orgName>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName xml:id="KC">Kathy Chung</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>REED Research Associate, NHPRC-Mellon Project Consultant</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>William Cooke</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>English Glossarian</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName xml:id="JC">James Cummings</persName>
                <orgName>Newcastle University</orgName>
@@ -60,44 +58,47 @@
                <resp>NHPRC-Mellon Project Team Member</resp>
                <resp>TEI Schema Designer, Technical Consultant</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Matthew Davies</persName>
-               <orgName>University of London, Birkbeck College</orgName> <!-- confirm -->
+               <orgName>University of London, Birkbeck College</orgName>
+               <!-- confirm -->
                <resp>Records of Early English Drama (REED) Executive Board</resp>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName xml:id="PG">Patrick Gregory</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
-               <resp>Associate Editor</resp> <!-- confirm -->
-               <resp>Paleographer, Translator</resp> <!-- confirm -->
+               <resp>Associate Editor</resp>
+               <!-- confirm -->
+               <resp>Paleographer, Translator</resp>
+               <!-- confirm -->
             </respStmt>
             <respStmt>
                <persName>Tanya Hagen</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>Bibliographer, NHPRC-Mellon Project Consultant</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName xml:id="JAKA1">Diane K. Jakacki</persName>
                <orgName>Bucknell University</orgName>
                <resp>Records of Early English Drama (REED) Executive Board</resp>
                <resp>Principal Investigator, NHPRC-Mellon Digital Edition Publishing Cooperatives Planning Grant</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Alexandra F. Johnston</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>REED Founder and Senior Consultant</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>David Kathman</persName>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Sally-Beth MacLean</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
@@ -110,54 +111,54 @@
                <orgName>Bucknell University</orgName>
                <resp>REED London research assistant, 2018</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName xml:id="KM">Kimberley Martin</persName>
                <orgName>University of Guelph</orgName>
                <resp>NHPRC-Mellon Project Consultant</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Christopher Matusiak</persName>
                <orgName>Ithaca College</orgName>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName xml:id="JN">Jamie Norrish</persName>
                <resp>Programmer, EATS developer, NHPRC-Mellon Project Consultant</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Dorothy Porter</persName>
                <orgName>University of Pennsylvania</orgName>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Arleane Ralph</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>Paleographer</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Suzanne Westfall</persName>
                <orgName>Lafayette College</orgName>
                <resp>Records of Early English Drama (REED) Executive Board Member</resp>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Abigail Ann Young</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>Latin Glossarian</resp>
             </respStmt>
-            
+
          </titleStmt>
          <editionStmt>
             <edition>Print version, published <date when-iso="2010">2010</date>. Electronic edition, anticipated publication <date when-iso="2018">2018</date></edition>
          </editionStmt>
-         
+
          <publicationStmt>
             <authority><orgName>Records of Early English Drama (REED)</orgName>
                <address>
@@ -167,56 +168,42 @@
                   <addrLine>M5R 2M8</addrLine>
                </address>
             </authority>
-            
+
             <publisher>D.S. Brewer, Cambridge, an imprint of Boydell &amp; Brewer Ltd./Boydell &amp; Brewer Ltd.</publisher>
             <pubPlace>Rochester, NY</pubPlace>
             <date>2010</date>
             <idno type="other">978-1-84384-259-0</idno>
-            
+
             <availability>
-               <p>Copyright <orgName>Records of Early English Drama (REED)</orgName>,
-                  <date>2017</date></p>
-               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a
-                  Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA
-                  4.0) licence.</licence>
+               <p>Copyright <orgName>Records of Early English Drama (REED)</orgName>, <date>2017</date></p>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) licence.</licence>
             </availability>
          </publicationStmt>
-         
+
          <seriesStmt>
             <title>Records of Early English Drama</title>
          </seriesStmt>
          <sourceDesc>
             <p>This publication constitutes a remediation of the printed Inns of Court collection. Information on original sources for transcriptions can be accessed via the Document Descriptions.</p>
-            <p>For a full list of REED collections, editors, executive board members, and staff, please visit http://reed.utoronto.ca/people</p>       
+            <p>For a full list of REED collections, editors, executive board members, and staff, please visit http://reed.utoronto.ca/people</p>
          </sourceDesc>
       </fileDesc>
-      
+
       <encodingDesc>
          <listPrefixDef>
-            <prefixDef ident="taxon" matchPattern="([A-Za-z0-9_-]+)"
-               replacementPattern="../taxonomy.xml#$1">
-               <p>Private URIs using the <code>taxon</code> prefix are pointers to entities in the
-                  taxonomy.xml file. For example, <code>taxon:church</code> dereferences to
-                  <code>taxonomy.xml#church</code>.</p>
+            <prefixDef ident="taxon" matchPattern="([A-Za-z0-9_-]+)" replacementPattern="../taxonomy.xml#$1">
+               <p>Private URIs using the <code>taxon</code> prefix are pointers to entities in the taxonomy.xml file. For example, <code>taxon:church</code> dereferences to <code>taxonomy.xml#church</code>.</p>
             </prefixDef>
-            <prefixDef ident="gloss" matchPattern="([A-Za-z0-9_-]+)"
-               replacementPattern="../glossary.xml#$1">
-               <p>Private URIs using the <code>gloss</code> prefix are pointers to entities in the
-                  glossary.xml file. For example, <code>gloss:histrio-1</code> dereferences to
-                  <code>glossary.xml#histrio-1</code>.</p>
+            <prefixDef ident="gloss" matchPattern="([A-Za-z0-9_-]+)" replacementPattern="../glossary.xml#$1">
+               <p>Private URIs using the <code>gloss</code> prefix are pointers to entities in the glossary.xml file. For example, <code>gloss:histrio-1</code> dereferences to <code>glossary.xml#histrio-1</code>.</p>
             </prefixDef>
          </listPrefixDef>
-         
+
          <projectDesc>
-            <p>Records of Early English Drama (REED) is an international scholarly project that is
-               establishing for the first time the context from which the drama of Shakespeare and his
-               contemporaries grew. Founded in 1976, REED has worked since then to locate, transcribe,
-               and edit historical documents containing evidence of drama, secular music, and other
-               communal entertainment and ceremony from the Middle Ages until 1642, when the Puritans
-               closed the London theatres.</p>
+            <p>Records of Early English Drama (REED) is an international scholarly project that is establishing for the first time the context from which the drama of Shakespeare and his contemporaries grew. Founded in 1976, REED has worked since then to locate, transcribe, and edit historical documents containing evidence of drama, secular music, and other communal entertainment and ceremony from the Middle Ages until 1642, when the Puritans closed the London theatres.</p>
          </projectDesc>
       </encodingDesc>
-      
+
       <profileDesc>
          <langUsage>
             <language ident="eng">English</language>
@@ -225,7 +212,7 @@
          </langUsage>
          <settingDesc>
             <place>
-               <placeName>London</placeName> 
+               <placeName>London</placeName>
             </place>
          </settingDesc>
       </profileDesc>
@@ -237,49 +224,49 @@
 
    <text ana="taxon:essay" type="editorial">
       <body xml:lang="eng">
-         <head>Inns of Court: Historical Background
-            <date when-iso="2010">2010</date>
+         <head>Inns of Court: Historical Background <date when-iso="2010">2010</date>
             <idno ana="#AHN1">Alan H. Nelson</idno>
             <seg corresp="docu:RLPIC1 pp. xiii-xvi">xiii-xvi</seg></head>
          <div type="other">
             <head><supplied>Historical Background</supplied></head>
             <pb n="1" type="sheet"/>
             <note type="subhead">Information (and inspiration) for this Introduction is drawn largely from Finkelpearl, <title>John Marston of the Middle Temple</title>, Chapters 1 to 4; Prest, <title>Inns of Court</title>; Richardson, <title>History of the Inns of Court</title>; J.H. Baker, <title>The Legal Profession and the Common Law</title> (London and Ronceverte, 1986); and Baker, <title>An Inner Temple Miscellany</title>.</note>
-            
+
             <p>The Inns of Court are voluntary law societies clustered on the western edge of the historic city of London for easy access to the royal courts in Westminster.<note type="foot" n="1">The Royal Courts of Justice are now located across Fleet Street from the Inner and Middle Temples.</note> The full range of societies originally included ‘hospitia maiora,’ which were the Inns of Court properly so-called, and ‘hospitia minora,’ principally Inns of Chancery. The Inns of Court survive to this day in large part because they retain the exclusive right to admit individuals to practise at the bar, while Inns of Chancery and other minor Inns were swept away, except as historical relics, by nineteenth-century legal reforms.</p>
-            
+
             <p>In the alphabetical order observed throughout these volumes, the four Inns of Court are Gray’s Inn, the Inner Temple, Lincoln’s Inn, and the Middle Temple. The two Temple Inns lie to the east of Temple Bar (where Fleet Street gives way to the Strand), bounded on the north by Fleet Street and on the south by the River Thames (now by the Embankment). Located on a single site without a physical barrier between them, the Inner Temple lies to the east (downriver), the Middle Temple to the west (upriver). The two Inns share a single chapel, the distinctive round ‘crusader church’ now much enlarged. North of Fleet Street lies Lincoln’s Inn; still farther north, past High Holborn (where London’s built-up area gave way to green fields), lies Gray’s Inn.</p>
-            
-            <p>Scattered around the four Inns of Court lay the Inns of Chancery.<note type="foot" n="2">‘Chancery’ alludes to the office of the lord chancellor of England, who presided over two royal courts, common law and equity. Any historical connection between Chancery and the Inns of Chancery is, however, doubtful. Still other institutions associated with the law included Serjeants’ Inn and Doctors’ Commons. For brief histories, see <title>London Encyclopedia</title>, Ben Weinreb and Christopher Hibbert (eds) (London, 1983), under 'Inns of Chancery.'</note> Some ten in all, these were attached to the senior Inns in unequal numbers: Staple and Barnard’s Inns to Gray’s Inn; Clement’s, Clifford’s, and Lyon’s to the Inner Temple; Furnival’s and Thavie’s (or Davy’s) to Lincoln’s Inn; and New and Strand to the Middle Temple.<note type="foot" n="3">The Inner Temple revels of 1561–2 celebrated the retention of Lyon’s Inn: see Clare Rider, ‘Lord Robert Dudley, “Chief Patron and Defender” of the Inner Temple,’ <title>The Inner Temple Yearbook</title> (2000/1), 48–52.</note> An eighteenth-century engraving of Furnival’s Inn (Figure 1), which lay on the north side of High Holborn east of Chancery Lane, shows that a ‘lesser’ Inn might compete with the senior Inns in size and splendour. (Furnival’s Inn appears prominently in the Records to 1533–4; Clifford’s Inn appears once, under c 1638.) Whether technically within the bounds of London (Inner and Middle Temples), or just outside (Furnival’s, Gray’s, and Lincoln’s Inns), all were generally exempt from the legal jurisdiction of the City of London.<note type="foot" n="4">Disorders of 1627/8 involved a jurisdictional dispute between a member of the Inner Temple and the authorities of London: see the letters of Joseph Mede in <title>REED: Inns of Court</title> (print collection), Appendix 4, pp 698–9.</note></p>
+
+            <p>Scattered around the four Inns of Court lay the Inns of Chancery.<note type="foot" n="2">‘Chancery’ alludes to the office of the lord chancellor of England, who presided over two royal courts, common law and equity. Any historical connection between Chancery and the Inns of Chancery is, however, doubtful. Still other institutions associated with the law included Serjeants’ Inn and Doctors’ Commons. For brief histories, see <title>London Encyclopedia</title>, Ben Weinreb and Christopher Hibbert (eds) (London, 1983), under 'Inns of Chancery.'</note> Some ten in all, these were attached to the senior Inns in unequal numbers: Staple and Barnard’s Inns to Gray’s Inn; Clement’s, Clifford’s, and Lyon’s to the Inner Temple; Furnival’s and Thavie’s (or Davy’s) to Lincoln’s Inn; and New and Strand to the Middle Temple.<note type="foot" n="3">The Inner Temple revels of 1561–2 celebrated the retention of Lyon’s Inn: see Clare Rider, ‘Lord Robert Dudley, “Chief Patron and Defender”
+                  of the Inner Temple,’ <title>The Inner Temple Yearbook</title> (2000/1), 48–52.</note> An eighteenth-century engraving of Furnival’s Inn (Figure 1), which lay on the north side of High Holborn east of Chancery Lane, shows that a ‘lesser’ Inn might compete with the senior Inns in size and splendour. (Furnival’s Inn appears prominently in the Records to 1533–4; Clifford’s Inn appears once, under c 1638.) Whether technically within the bounds of London (Inner and Middle Temples), or just outside (Furnival’s, Gray’s, and Lincoln’s Inns), all were generally exempt from the legal jurisdiction of the City of London.<note type="foot" n="4">Disorders of 1627/8 involved a jurisdictional dispute between a member of the Inner Temple and the authorities of London: see the letters of Joseph Mede in <title>REED: Inns of Court</title> (print collection), Appendix 4, pp 698–9.</note></p>
             <p>Though similar to colleges of Cambridge and Oxford in many respects, the Inns of Court claimed neither personal founders nor royal charters: their origins are, for all practical purposes, lost in the mists of the fourteenth century. For want of lands and other endowments they have always survived largely on current income. Accordingly the principal officer of each Inn is its treasurer.</p>
-            
+
             <p>The histories and amenities of the four Inns of Court and one Inn of Chancery (Furnival’s) are given individually in the Documents. Here we note that the typical Inn (like a Cambridge or Oxford college) was geographically defined by a gated wall which enclosed residential blocks (called ‘chambers’) along with a chapel, yards, walks, gardens, and – the usual site for music, dance, and general entertainment – a hall.</p>
-            
-            <p>Admission to an Inn was similar to admission to a college, but without concomitant matriculation into an overarching institution (like a university). For want of scholarships membership was traditionally limited to the sons of gentry or higher social ranks. Sons of well-to-do citizens, however, were increasingly admitted during the course of the sixteenth century.<note type="foot" n="5">Finkelpearl, <title>John Marston of the Middle Temple</title>, p 6.</note> The average age at admission was somewhat higher than at the universities, in part because many who gained admission were university graduates. Others transferred from an Inn of Chancery or came directly from an urban or provincial grammar school. (Lateral transfer from one Inn of Court to another was virtually unknown.) Individuals newly admitted to an Inn of Court – better referred to as gentlemen than as students – were duly registered, whether in the official minutes of the governing body or in a separate admissions register.</p>
-            
-            <p>The report of a royal commission c 1534–47 outlines the hierarchy of members (or ‘learners’) and thus (in inverted order) the typical career of an Inns of Court gentleman (‘Motes’ were ‘moots’ or practice debates):
-               <quote>The whole company and fellowship of Learners, is divided ... into three ... degrees ... Benchers, or as they call them in some of the houses, Readers, Utter-Barresters, and Inner-Barresters ... Utter-Barresters are such, that for their learning and continuance, are called by the said Readers to plead and argue in the said house, doubtful Cases and Questions ... and are called Utter-Barresters, for that they, when they argue the said Motes, they sit uttermost on the formes, which they call the Barr, and this degree is the chiefest ... in the house next the Benchers ... All the residue of learners are called Inner-Barresters, which are the youngest men.<note type="foot" n="6">Edward Waterhouse, <title>Fortescutus Illustratus</title> (London, 1663; Wing: W1046), 544.</note></quote>
-               Newly admitted gentlemen were called ‘freshmen’ or ‘pusnies’ (pronounced as the plural of ‘puny’). After some seven years inner-barristers became eligible for admission to the bar as utter-barristers. Appointment to the still higher office of reader or bencher was a mark not only of demonstrated ability, but of willingness to serve in an office which made demands on one’s time and purse. Readers or benchers were called seniors or ‘ancients.’</p>
-            
+
+            <p>Admission to an Inn was similar to admission to a college, but without concomitant matriculation into an overarching institution (like a university). For want of scholarships membership was traditionally limited to the sons of gentry or higher social ranks. Sons of well-to-do citizens, however, were increasingly admitted during the course of the sixteenth century.<note type="foot" n="5">Finkelpearl, <title>John Marston of the Middle Temple</title>, p 6.</note> The average age at admission was somewhat higher than at the universities, in part because many who gained admission were university graduates. Others transferred from an Inn of Chancery or came directly from an urban or provincial grammar school. (Lateral transfer from one Inn of Court to another was virtually unknown.) Individuals newly admitted to an Inn of Court – better referred to as gentlemen than as students – were duly registered, whether in the official minutes of the governing body or in a separate
+               admissions register.</p>
+
+            <p>The report of a royal commission c 1534–47 outlines the hierarchy of members (or ‘learners’) and thus (in inverted order) the typical career of an Inns of Court gentleman (‘Motes’ were ‘moots’ or practice debates): <quote>The whole company and fellowship of Learners, is divided ... into three ... degrees ... Benchers, or as they call them in some of the houses, Readers, Utter-Barresters, and Inner-Barresters ... Utter-Barresters are such, that for their learning and continuance, are called by the said Readers to plead and argue in the said house, doubtful Cases and Questions ... and are called Utter-Barresters, for that they, when they argue the said Motes, they sit uttermost on the formes, which they call the Barr, and this degree is the chiefest ... in the house next the Benchers ... All the residue of learners are called Inner-Barresters, which are the youngest men.<note type="foot" n="6">Edward Waterhouse, <title>Fortescutus Illustratus</title> (London, 1663; Wing:
+                     W1046), 544.</note></quote> Newly admitted gentlemen were called ‘freshmen’ or ‘pusnies’ (pronounced as the plural of ‘puny’). After some seven years inner-barristers became eligible for admission to the bar as utter-barristers. Appointment to the still higher office of reader or bencher was a mark not only of demonstrated ability, but of willingness to serve in an office which made demands on one’s time and purse. Readers or benchers were called seniors or ‘ancients.’</p>
+
             <p>A legal education in the Inns of Court was essentially an apprenticeship. Pusnies were taken under the wings of seniors, learning from observation and from limited formal instruction. Advancement to the rank of utter-barrister required successful participation in readings and moots. Readings were conducted at the rate of approximately two per term. The reader expatiated upon some legal case, after which various points of law were argued first by junior and then by senior gentlemen, all the way back up to the reader himself.<note type="foot" n="7">On the general subject, see J.H. Baker, <title>Readers and Readings</title>, Selden Society 13 (London, 2000).</note> Moots were mock disputations which constituted the principal evening activity of an Inn.</p>
-            
+
             <p>The ‘ideal’ career of an Inn of Court gentleman, from inner-barrister to utter-barrister to reader or bencher, must be qualified in various directions. Philip J. Finkelpearl estimates that a mere fifteen per cent of those admitted to an Inn of Court in the later sixteenth century were eventually admitted to the bar.<note type="foot" n="8">Finkelpearl, <title>John Marston of the Middle Temple</title>, p 10.</note> Many who were admitted to the bar had no interest in becoming a reader or a bencher. By no means were all members of an Inn dedicated to the law as a profession: many wished only to acquire sufficient expertise to defend their family estates; others happily squandered their own time and their family’s money on London’s seductive pleasures.</p>
-            
+
             <p>Members of the nobility might be granted honorary membership to enhance their own prestige and that of the Inn. Men of an artistic bent might be admitted for their contributions to plays or masques, as happened in the cases of Arthur Brooke (1561/2), Inigo Jones (1612/13), and James Shirley (1633/4). Mock admissions were occasionally granted merely for attending Christmas revels, as at Gray’s Inn in 1594–5 and 1617–18. (That these admissions were honorary may be shown by the fact that Sir Dudley Digges, admitted by Henry Yelverton in 1617–18, was admitted afresh for more serious purposes in 1630.)</p>
-            
+
             <p>Many Inns of Court residents were not members but rent-paying tenants. Conversely, many members were non-resident. A married lawyer, for example, necessarily maintained an external household and might use his chamber as a private retreat or a London pied-à-terre. In deference to non-member residents, along with members too advanced in years to be circumscribed by rules more appropriate to university undergraduates, the walls which enclosed the Inns of Court, though gated, were relatively porous.</p>
-            
+
             <p>For the years prior to the reign of Elizabeth, who ascended to the throne in 1558, it is easier to concede that earlier conditions were different from later conditions than it is to say exactly what those earlier conditions were. The difficulty rests with a relative paucity of documentation, for while antiquarian records of Furnival’s Inn go back to 1407 and original archival documents of Lincoln’s Inn go back to 1422, records of the Inner and the Middle Temples survive only from the sixteenth century (with a gap for the Middle Temple from 1525 to 1550), while the surviving records of Gray’s Inn date only from 1568–9. The early Inns were, it is safe to say, more purely residential and smaller in membership, with educational customs and procedures less highly developed.</p>
-            
-            <p>Finkelpearl describes the development of the Inns of Court at the approach of 1600, along with their general relationship to their London neighbours:
-               <quote>In the last decades of the sixteenth century, the Inns of Court were filled to capacity and expanding yearly. In 1574 they had seven hundred sixty-nine members and had admitted seven hundred thirty new members over the past five years – roughly the same total Fortescue had estimated one hundred years earlier. By the end of the century, there were said to be 1,040 men in residence (1,703 including those in the Inns of Chancery), and the total of admissions for the last five years of the century (a corroborating index, as I have found) was 1,096 men: a thirty percent increase in attendance that was achieved only by extensive building and renovation. In a city whose population has been variously estimated between 100,000 and 200,000, this is not a large number. Nevertheless it was the largest single group of literate and cultured men in London. The only other comparable group, those who lived at the Court, must have been much smaller.<note type="foot" n="9">Finkelpearl, <title>John Marston of the Middle Temple</title>, p 5. The author cites the following authorities: Henry B. Wheatley, <title>London, Past and Present</title>, vol 2 (London, 1891), 261; Hugh H.L. Bellot, <title>The Temple</title> (London, 1922), 28; Alfred Harbage, <title>Shakespeare’s Audience</title> (New York, 1961), 41, who estimates that the population of London was 160,000 around 1605; and Edward P. Cheyney, <title>History of England from the Defeat of the Armada to the Death of Elizabeth</title>, vol 1 (New York, 1926), 17.</note></quote></p>
-            
+
+            <p>Finkelpearl describes the development of the Inns of Court at the approach of 1600, along with their general relationship to their London neighbours: <quote>In the last decades of the sixteenth century, the Inns of Court were filled to capacity and expanding yearly. In 1574 they had seven hundred sixty-nine members and had admitted seven hundred thirty new members over the past five years – roughly the same total Fortescue had estimated one hundred years earlier. By the end of the century, there were said to be 1,040 men in residence (1,703 including those in the Inns of Chancery), and the total of admissions for the last five years of the century (a corroborating index, as I have found) was 1,096 men: a thirty percent increase in attendance that was achieved only by extensive building and renovation. In a city whose population has been variously estimated between 100,000 and 200,000, this is not a large number. Nevertheless it was the largest single group of literate
+                  and cultured men in London. The only other comparable group, those who lived at the Court, must have been much smaller.<note type="foot" n="9">Finkelpearl, <title>John Marston of the Middle Temple</title>, p 5. The author cites the following authorities: Henry B. Wheatley, <title>London, Past and Present</title>, vol 2 (London, 1891), 261; Hugh H.L. Bellot, <title>The Temple</title> (London, 1922), 28; Alfred Harbage, <title>Shakespeare’s Audience</title> (New York, 1961), 41, who estimates that the population of London was 160,000 around 1605; and Edward P. Cheyney, <title>History of England from the Defeat of the Armada to the Death of Elizabeth</title>, vol 1 (New York, 1926), 17.</note></quote></p>
+
             <p>Though the Inns of Court were not social clubs, but self-appointed societies whose primary commitment was to the law, they nevertheless served as an entertainment venue for many a young gentleman of family and substance.</p>
-               
-            
+
+
 
          </div>
       </body>
    </text>
-  
+
 </TEI>

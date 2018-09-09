@@ -9,16 +9,32 @@
             <title type="main">Inns of Court</title>
 
 
-            <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>
-            <funder><orgName>CANARIE</orgName></funder>
+            <funder>
+               <orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName>
+            </funder>
+            <funder>
+               <orgName>CANARIE</orgName>
+            </funder>
 
-            <funder><orgName>British Academy, London, UK</orgName></funder>
-            <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>
-            <funder><orgName>National Endowment for the Humanities, Washington, DC, United States of America</orgName></funder>
-            <funder><orgName>Social Sciences and Humanities Research Council, Ottawa, Canada</orgName></funder>
+            <funder>
+               <orgName>British Academy, London, UK</orgName>
+            </funder>
+            <funder>
+               <orgName>Jackman Foundation, Toronto, Canada</orgName>
+            </funder>
+            <funder>
+               <orgName>National Endowment for the Humanities, Washington, DC, United States of America</orgName>
+            </funder>
+            <funder>
+               <orgName>Social Sciences and Humanities Research Council, Ottawa, Canada</orgName>
+            </funder>
 
-            <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
-            <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
+            <editor resp="print">
+               <persName xml:id="AHN1">Alan H. Nelson</persName>
+            </editor>
+            <editor resp="print">
+               <persName>John R. Elliott, Jr.</persName>
+            </editor>
 
 
             <!-- REED staff -->
@@ -188,7 +204,8 @@
          </editionStmt>
 
          <publicationStmt>
-            <authority><orgName>Records of Early English Drama (REED)</orgName>
+            <authority>
+               <orgName>Records of Early English Drama (REED)</orgName>
                <address>
                   <addrLine>University of Toronto</addrLine>
                   <addrLine>170 St George Street, Suite 810</addrLine>
@@ -213,7 +230,7 @@
          </seriesStmt>
          <sourceDesc>
             <p>This publication constitutes a remediation of the printed Inns of Court collection. Information on original sources for transcriptions can be accessed via the Document Descriptions.</p>
-            <p>This record can be found on p. 686 of REED: Inns of Court, Vol. 2</p>
+            <p>This record can be found on pp. 686 of REED: Inns of Court, Vol. 2</p>
             <p>For a full list of REED collections, editors, executive board members, and staff, please visit http://reed.utoronto.ca/people</p>
          </sourceDesc>
       </fileDesc>
@@ -247,12 +264,13 @@
       <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
          <mods:mods>
             <mods:titleInfo>
-               <mods:title>Letter of Sidney Montagu to Sir Edward Montagu</mods:title>
+               <mods:title>Letter of John Chamberlain to Sir Ralph Winwood</mods:title>
+               <mods:subTitle>Some subtitle here</mods:subTitle>
             </mods:titleInfo>
             <mods:name type="personal">
-               <mods:namePart type="family">Montagu</mods:namePart>
-               <mods:namePart type="personal">Sidney</mods:namePart>
-               <mods:authority type="wikidata">https://www.wikidata.org/wiki/Q7509243</mods:authority>
+               <mods:namePart type="family">Chamberlain</mods:namePart>
+               <mods:namePart type="given">John</mods:namePart>
+               <mods:form authority="viaf">http://viaf.org/viaf/39748463</mods:form>
             </mods:name>
             <mods:typeOfResource>text</mods:typeOfResource>
             <mods:genre type="formatType">Born Digital</mods:genre>
@@ -268,7 +286,7 @@
                <mods:internetMediaType>text/xml</mods:internetMediaType>
                <mods:digitalOrigin>born digital</mods:digitalOrigin>
             </mods:physicalDescription>
-            <mods:abstract>The Montagus were a family with roots in Northamptonshire. Edward Montagu (1563-1644) carried the title first Baron Montagu; Sir Charles was his younger brother. Sidney Montagu (d. 1644) was a member and bencher of the Middle Temple who served as master of Requests. In this letter dated 27 January 1612/13, Sidney writes to Edward describing the events surrounding the wedding of Princess Elizabeth to Frederick, Count Palatine, and the rates charged to Middle Temple members to fund the masque.</mods:abstract>
+            <mods:abstract>John Chamberlain (1553-1628) was a professional letter-writer employed by contemporaries who preserved his letters in considerable numbers. One of his correspondents was Sir Ralph Winwood (1562 or 1563 - 1617), diplomat and secretary of state. This letter, dated 29 January 1612/13, describes plans for the wedding of Princess Elizabeth to Frederick, Elector Palatine, including reference to Frederick's installation at Windsor on 2 February 1613.</mods:abstract>
             <mods:subject>
                <mods:topic valueURI="http://id.loc.gov/authorities/subjects/sh2002012473">Theater--England--London--History--17th century </mods:topic>
             </mods:subject>
@@ -289,25 +307,26 @@
             </mods:recordInfo>
          </mods:mods>
       </xenoData>
+      <revisionDesc>
+         <!-- Add new major milestone changes to top -->
+         <change when="2018-03-10" who="#KM">created document</change>
+         <change when="2018-09-08" who="#KM">added mods header</change>
+      </revisionDesc>
    </teiHeader>
 
-   <text ana="taxon:letter" type="record" xml:id="RLC008">
+   <text ana="taxon:letter" type="record" xml:id="RLC009">
       <body>
          <div>
-            <head>Letter of Sidney Montagu to Sir Edward Montagu <date when-iso="1613-01-27"/></head>
+            <head>Letter of John Chamberlain to Sir Ralph Winwood <date when-iso="1613-01-29"/></head>
             <div type="transcription" xml:lang="en">
-               <head><supplied>(27 January 1612/13)</supplied></head>
-               <pb n="1" type="sheet"/>
-               <gap reason="omitted"/>
-               <ab>There is no matter of Newes styrringe heere, but greate preparac<ex>i</ex>on for the makinge of fyre woorkes and Maskes againste the mariadge<note type="foot">mariadge: <hi rend="italic">ie, of <persName>Princess Elizabeth</persName> and the <persName>elector Frederick</persName> on <date when-iso="1613-02-14">14 February 1612/13</date></hi></note>. This howse is Rated <measure type="currency">50 s.</measure> a bencher, <measure type="currency">30 s.</measure> a barrester, and <measure type="currency">15 s.</measure> the reste towards the Maske. The L<ex>ords</ex> haue the mariadge night this howse and <placeName>Lyncoln<ex>es</ex> Inn</placeName>
-                  <del>the</del>
-                  <date when-iso="1613-02-15">Mundaie night</date><note type="foot">Mundaie night: <hi rend="italic">15 February 1612/13</hi></note> and <placeName>Grayes Inne</placeName> and the <placeName>Inner Temple</placeName>
-                  <date when-iso="1613-02-16">Tewsdaie night</date><note type="foot">Tewsdaie night: <hi rend="italic">16 February 1612/13</hi></note>. <persName>Nedd Palmer</persName> our Cosin is one for our howse....</ab>
-               <gap reason="omitted"/>
-
+               <head>f<del>2</del> 
+                  <supplied>(29 January 1612/13)</supplied></head>
+               <pb n="2" type="folio"/>
+            <div>
+               <ab>...The <persName>Prince Palatin</persName> goes to be installed at <placeName>windsor</placeName> the <date when-iso="1613-02-07">seuenth of the next moneth</date>, and great preparations here are of brauerie, maskes, and fire-workes against the mariage: The opinion is now that they shall go away both together before St Georgees day....</ab>
             </div>
+         </div>
          </div>
       </body>
    </text>
-
 </TEI>
