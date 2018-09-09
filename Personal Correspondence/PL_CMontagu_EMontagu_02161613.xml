@@ -9,16 +9,32 @@
             <title type="main">Inns of Court</title>
 
 
-            <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>
-            <funder><orgName>CANARIE</orgName></funder>
+            <funder>
+               <orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName>
+            </funder>
+            <funder>
+               <orgName>CANARIE</orgName>
+            </funder>
 
-            <funder><orgName>British Academy, London, UK</orgName></funder>
-            <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>
-            <funder><orgName>National Endowment for the Humanities, Washington, DC, United States of America</orgName></funder>
-            <funder><orgName>Social Sciences and Humanities Research Council, Ottawa, Canada</orgName></funder>
+            <funder>
+               <orgName>British Academy, London, UK</orgName>
+            </funder>
+            <funder>
+               <orgName>Jackman Foundation, Toronto, Canada</orgName>
+            </funder>
+            <funder>
+               <orgName>National Endowment for the Humanities, Washington, DC, United States of America</orgName>
+            </funder>
+            <funder>
+               <orgName>Social Sciences and Humanities Research Council, Ottawa, Canada</orgName>
+            </funder>
 
-            <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
-            <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
+            <editor resp="print">
+               <persName xml:id="AHN1">Alan H. Nelson</persName>
+            </editor>
+            <editor resp="print">
+               <persName>John R. Elliott, Jr.</persName>
+            </editor>
 
 
             <!-- REED staff -->
@@ -188,7 +204,8 @@
          </editionStmt>
 
          <publicationStmt>
-            <authority><orgName>Records of Early English Drama (REED)</orgName>
+            <authority>
+               <orgName>Records of Early English Drama (REED)</orgName>
                <address>
                   <addrLine>University of Toronto</addrLine>
                   <addrLine>170 St George Street, Suite 810</addrLine>
@@ -213,7 +230,7 @@
          </seriesStmt>
          <sourceDesc>
             <p>This publication constitutes a remediation of the printed Inns of Court collection. Information on original sources for transcriptions can be accessed via the Document Descriptions.</p>
-            <p>This record can be found on p. 686 of REED: Inns of Court, Vol. 2</p>
+            <p>This record can be found on p. 687 of REED: Inns of Court, Vol. 2</p>
             <p>For a full list of REED collections, editors, executive board members, and staff, please visit http://reed.utoronto.ca/people</p>
          </sourceDesc>
       </fileDesc>
@@ -247,12 +264,12 @@
       <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
          <mods:mods>
             <mods:titleInfo>
-               <mods:title>Letter of Sidney Montagu to Sir Edward Montagu</mods:title>
+               <mods:title>Letter of Sidney Charles to Sir Edward Montagu</mods:title>
             </mods:titleInfo>
             <mods:name type="personal">
                <mods:namePart type="family">Montagu</mods:namePart>
-               <mods:namePart type="personal">Sidney</mods:namePart>
-               <mods:authority type="wikidata">https://www.wikidata.org/wiki/Q7509243</mods:authority>
+               <mods:namePart type="personal">Charles</mods:namePart>
+               <mods:authority type="wikidata">https://www.wikidata.org/wiki/Q5081038</mods:authority>
             </mods:name>
             <mods:typeOfResource>text</mods:typeOfResource>
             <mods:genre type="formatType">Born Digital</mods:genre>
@@ -268,7 +285,7 @@
                <mods:internetMediaType>text/xml</mods:internetMediaType>
                <mods:digitalOrigin>born digital</mods:digitalOrigin>
             </mods:physicalDescription>
-            <mods:abstract>The Montagus were a family with roots in Northamptonshire. Edward Montagu (1563-1644) carried the title first Baron Montagu; Sir Charles was his younger brother. Sidney Montagu (d. 1644) was a member and bencher of the Middle Temple who served as master of Requests. In this letter dated 27 January 1612/13, Sidney writes to Edward describing the events surrounding the wedding of Princess Elizabeth to Frederick, Count Palatine, and the rates charged to Middle Temple members to fund the masque.</mods:abstract>
+            <mods:abstract>The Montagus were a family with roots in Northamptonshire. Edward Montagu (1563-1644) carried the title first Baron Montagu; Sir Charles (1564-1625) was his younger brother. In this letter, Charles writes to Edward describing his attendance at the wedding of Princess Elizabeth to Frederick, Count Palatine.</mods:abstract>
             <mods:subject>
                <mods:topic valueURI="http://id.loc.gov/authorities/subjects/sh2002012473">Theater--England--London--History--17th century </mods:topic>
             </mods:subject>
@@ -291,23 +308,17 @@
       </xenoData>
    </teiHeader>
 
-   <text ana="taxon:letter" type="record" xml:id="RLC008">
+   <text ana="taxon:letter" type="record" xml:id="RLC010">
       <body>
          <div>
-            <head>Letter of Sidney Montagu to Sir Edward Montagu <date when-iso="1613-01-27"/></head>
+            <head>Letter of Sir Charles Montagu to Sir Edward Montagu <date when-iso="1613-02-16"/></head>
             <div type="transcription" xml:lang="en">
-               <head><supplied>(27 January 1612/13)</supplied></head>
+               <head>single sheet <supplied>(16 February 1612/13)</supplied></head>
                <pb n="1" type="sheet"/>
-               <gap reason="omitted"/>
-               <ab>There is no matter of Newes styrringe heere, but greate preparac<ex>i</ex>on for the makinge of fyre woorkes and Maskes againste the mariadge<note type="foot">mariadge: <hi rend="italic">ie, of <persName>Princess Elizabeth</persName> and the <persName>elector Frederick</persName> on <date when-iso="1613-02-14">14 February 1612/13</date></hi></note>. This howse is Rated <measure type="currency">50 s.</measure> a bencher, <measure type="currency">30 s.</measure> a barrester, and <measure type="currency">15 s.</measure> the reste towards the Maske. The L<ex>ords</ex> haue the mariadge night this howse and <placeName>Lyncoln<ex>es</ex> Inn</placeName>
-                  <del>the</del>
-                  <date when-iso="1613-02-15">Mundaie night</date><note type="foot">Mundaie night: <hi rend="italic">15 February 1612/13</hi></note> and <placeName>Grayes Inne</placeName> and the <placeName>Inner Temple</placeName>
-                  <date when-iso="1613-02-16">Tewsdaie night</date><note type="foot">Tewsdaie night: <hi rend="italic">16 February 1612/13</hi></note>. <persName>Nedd Palmer</persName> our Cosin is one for our howse....</ab>
-               <gap reason="omitted"/>
-
+               <ab>...of thes great stirs at court I can not tell how to write the ar soe many, all w<ex>hi</ex>ch you shall have shortly in print, nether have I bene a beholder of any of them, only I saw the<ex>m</ex> maryed In the caple, w<ex>hi</ex>ch was In english<note type="foot">english: en <hi rend="italic">corrected from other letters</hi></note>, and the <persName>paulsgrave</persName> answered to all the words In the common prayer booke in english very distinctly: the <orgName>Iner court<note type="foot">Iner court: <hi rend="italic">ie, Inns of Court</hi></note> gent<ex>lemen</ex></orgName> have plesed the <persName>King</persName> exceedingly w<ex>i</ex>th ther brave masks:...</ab>
             </div>
+
          </div>
       </body>
    </text>
-
 </TEI>
