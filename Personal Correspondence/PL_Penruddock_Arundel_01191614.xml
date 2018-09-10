@@ -215,7 +215,7 @@
          </seriesStmt>
          <sourceDesc>
             <p>This publication constitutes a remediation of the printed Inns of Court collection. Information on original sources for transcriptions can be accessed via the Document Descriptions.</p>
-            <p>This record can be found on pp. 691 of REED: Inns of Court, Vol. 2</p>
+            <p>This record can be found on pp. 693 of REED: Inns of Court, Vol. 2</p>
             <p>For a full list of REED collections, editors, executive board members, and staff, please visit http://reed.utoronto.ca/people</p>       
          </sourceDesc>
       </fileDesc>
@@ -269,9 +269,9 @@
             </mods:titleInfo>
             <mods:name
                type="personal">
-               <mods:namePart type="family">Chamberlain</mods:namePart>
-               <mods:namePart type="given">John</mods:namePart>
-               <mods:form authority="viaf">http://viaf.org/viaf/39748463</mods:form>
+               <mods:namePart type="family">Penruddock</mods:namePart>
+               <mods:namePart type="given">Thomas</mods:namePart>
+               <mods:form authority="wikidata">https://www.wikidata.org/wiki/Q7793097</mods:form>
             </mods:name>
             <mods:typeOfResource>text</mods:typeOfResource>
             <mods:genre type="formatType">Born Digital</mods:genre>
@@ -287,7 +287,7 @@
                <mods:internetMediaType>text/xml</mods:internetMediaType>
                <mods:digitalOrigin>born digital</mods:digitalOrigin>
             </mods:physicalDescription>
-            <mods:abstract>John Chamberlain (1553-1628) was a professional letter-writer employed by contemporaries who preserved his letters in considerable numbers. Chief among his employers was Sir Dudley Carlteton (1574-1632), Viscount Dorchester, a career diplomat who served in Venice from 1610 to 1615. (Carleton was admitted to Gray's Inn in 1605). This letter, dated 25 February 1613/14, describes the performance events staged for the wedding of Princess Elizabeth to Frederick, Elector Palatine.</mods:abstract>
+            <mods:abstract>Thomas Howard (1585-1646), twenty-sixth earl of Arundel, was subsequently most famous as a collector of art. In this letter, dated 19 January 1614, Thomas Penruddock writes to Howard, describing preparations for the wedding of Princess Elizabeth (Howard's cousin) to Frederick, Elector Palatine.</mods:abstract>
             <mods:subject>
                <mods:topic valueURI="http://id.loc.gov/authorities/subjects/sh2002012473">Theater--England--London--History--17th century
                </mods:topic>
@@ -320,21 +320,31 @@
       </revisionDesc>
    </teiHeader>
    
-   
-   <text ana="taxon:letter" type="record" xml:id="RLC007">
+   <text ana="taxon:letter" type="record" xml:id="RLC013">
       <body>
          <div>
-            <head>Letter of John Chamberlain to Sir Dudley Carleton <date when-iso="1613-02-25"/></head>
+            <head>Letter of Sir Thomas Penruddock to the Earl of Arundel<date when-iso="1614-01-19"/></head>
             <div type="transcription" xml:lang="en">
-               <head>ff<del>1v-2</del>
-                  <supplied>(25 February 1612/13)</supplied></head>
-               <pb n="1v-2" type="folio"/>
-                        
-                        <ab>...our reuells and triumphes within doores gaue great contentment beeing both daintie and curious in deuise and sumptuous in shew. Specially <orgName n="Inns of Court">the ynnes of court</orgName> whose two maskes stoode them in better then <measure type="currency">4000 li.</measure> | besides the gallantrie and expence of priuate gentlemen, that were but ante-ambulones, and went only to accompanie them. and our <orgName role="member" n="Gray's Inn">Grayes ynne men</orgName> and the <orgName role="member" n="Inner Templers">ynner Templers</orgName> were nothing discouraged for all the first dodge, but on Saterday last<note type="foot">20 February 1612/13</note> performed theyre parts exceeding well, and w<ex>i</ex>th great applause and approbation both from the <persName n="James I">king</persName> and all the companie. the next night<note type="foot">21 February 1612/13</note> the <del>the</del> King inuited the maskers w<ex>i</ex>th theyre assistants to the number of forty to a solemne supper in the new mariage roome where they were well treated and much graced w<ex>i</ex>th kissing his ma<ex>ies</ex>tes hands, and euery one hauyng a particular accoglienza<gloss resp="#KM">This is Italian for hospitality:SOURCE</gloss> from him the king husbanded the matter so well that this feast was not his owne cost, but he and his companie went yt vpon a <del><damage/>...</del> of running at the ring of the <persName>Prince</persName> and his nine followers, who payed thirty pound a man: The <persName n="James I">K<ex>ing</ex></persName> <persName n="Anne of Denmark">Q<ex>ueen</ex></persName> <persName n="Frederick V of the Palatinate">P<ex>rince</ex> Palatin</persName> and <persName n="Elizabeth Stuart, Queen of Bohemia">Lady Elizabeth</persName> sat at a table by themselues: and the great Lords and Ladies w<ex>i</ex>th the maskers (aboue fowrescore in all) sat at another long table, so that there was no roome for them that made the feast but they were faine to be lookers on. w<ex>hi</ex>ch the young <persName>Lady Rich</persName> tooke no great pleasure in to see her <persName>husband</persName> (who was one that payed not so much as a rincke for his monie<note type="foot">closing parenthesis omitted</note>. The <persName role="ambassadors">ambassadors</persName> that were at this wedding and shewes were the <persName>French Venetian Count Henry</persName> and <persName>Caron</persName> for the States. the <persName>Spaniard</persName> was, or wold be sicke, and the <persName>archdukes ambassador</persName> beeing inuited for the second day made a sullen excuse: and those that were present were not altogether so pleased, but that I heare euery one had some puntilo of disgust....</ab>
-                            
+               <head>f<del>1</del>
+                  <supplied>(19 January 1614)</supplied></head>
+               <pb n="1" type="folio"/>
+            
+            <ab>...Of this Christmas also euery day hath had it parte in the celebration of the marriage of y<ex>our</ex> noble cosin the <persName n="Frances Howard" resp="#KM" cert="high">Lady Frances</persName> to the <persName n="Robert Carr" resp="#KM" cert="high">Earle of Sum<ex>m</ex>erset</persName>, being highly graced by both <persName n="James I">there Ma<ex>ie</ex>st<ex>ies</ex></persName> with many fauers, &amp; much honor don<ex>n</ex> them <del>of</del> in all kindes, such as if the late great marriage had not bene before it. I might well say hath not bene the liter. All men striueing to doe <del>&amp;</del> honor &amp; seruice to them in one kinde or other For besides two maskes in <placeName>the Court</placeName> one of great Lords the other of gentlemen. A third came from the <orgName n="Inns of Court">Ins of Court</orgName> men, as a present of there seruice....</ab>
                
             </div>
          </div>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
