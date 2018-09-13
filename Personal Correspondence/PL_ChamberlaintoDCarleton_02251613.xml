@@ -1,26 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="reed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="eng"> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="eng">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            
+
             <title type="main">Inns of Court</title>
 
-            
-            <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>
-            <funder><orgName>CANARIE</orgName></funder> 
-            
-            <funder><orgName>British Academy, London, UK</orgName></funder>
-            <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>            
-            <funder><orgName>National Endowment for the Humanities, Washington, DC, United States of
-               America</orgName></funder>
-            <funder><orgName>Social Sciences and Humanities Research Council, Ottawa,
-               Canada</orgName></funder>
-            
-		 <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
-		 <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
+
+            <funder>
+               <orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName>
+            </funder>
+            <funder>
+               <orgName>CANARIE</orgName>
+            </funder>
+
+            <funder>
+               <orgName>British Academy, London, UK</orgName>
+            </funder>
+            <funder>
+               <orgName>Jackman Foundation, Toronto, Canada</orgName>
+            </funder>
+            <funder>
+               <orgName>National Endowment for the Humanities, Washington, DC, United States of America</orgName>
+            </funder>
+            <funder>
+               <orgName>Social Sciences and Humanities Research Council, Ottawa, Canada</orgName>
+            </funder>
+
+            <editor resp="print">
+               <persName xml:id="AHN1">Alan H. Nelson</persName>
+            </editor>
+            <editor resp="print">
+               <persName>John R. Elliott, Jr.</persName>
+            </editor>
 
 
             <!-- REED staff -->
@@ -29,57 +43,59 @@
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>Project Manager</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>William Cooke</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>English Glossarian</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName xml:id="PG">Patrick Gregory</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
-               <resp>Associate Editor</resp> <!-- confirm -->
-               <resp>Paleographer, Translator</resp> <!-- confirm -->
+               <resp>Associate Editor</resp>
+               <!-- confirm -->
+               <resp>Paleographer, Translator</resp>
+               <!-- confirm -->
             </respStmt>
-            
+
             <respStmt>
                <persName>Alexandra F. Johnston</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>REED Founder and Senior Consultant</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Arleane Ralph</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>Paleographer</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Abigail Ann Young</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>Latin Glossarian</resp>
             </respStmt>
-            
-            
+
+
             <!-- NHPRC-Mellon Team, 2018 -->
             <respStmt>
                <persName>John Bradley</persName>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-            
+
             <respStmt>
-               <persName>Susan Brown</persName> 
+               <persName>Susan Brown</persName>
                <orgName>University of Guelph</orgName>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName xml:id="KC">Kathy Chung</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>REED Research Associate, NHPRC-Mellon Project Consultant</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName xml:id="JC">James Cummings</persName>
                <orgName>Newcastle University</orgName>
@@ -87,107 +103,109 @@
                <resp>NHPRC-Mellon Project Team Member</resp>
                <resp>TEI Schema Designer, Technical Consultant</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Matthew Davies</persName>
-               <orgName>University of London, Birkbeck College</orgName> <!-- confirm -->
+               <orgName>University of London, Birkbeck College</orgName>
+               <!-- confirm -->
                <resp>Records of Early English Drama (REED) Executive Board</resp>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Tanya Hagen</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>Bibliographer, NHPRC-Mellon Project Consultant</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Mihaela Iloven</persName>
                <orgName>Canadian Writing Research Collaboratory</orgName>
                <resp>CWRC project manager, NHPRC-Mellon advisor</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName xml:id="JAKA1">Diane K. Jakacki</persName>
                <orgName>Bucknell University</orgName>
                <resp>Records of Early English Drama (REED) Executive Board</resp>
                <resp>Principal Investigator, NHPRC-Mellon Digital Edition Publishing Cooperatives Planning Grant</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>David Kathman</persName>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Sally-Beth MacLean</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>Principal Investigator, SSHRC grant; Director of Research and General Editor</resp>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName xml:id="KM">Kimberley Martin</persName>
                <orgName>University of Guelph</orgName>
                <resp>NHPRC-Mellon Project Consultant</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Christopher Matusiak</persName>
                <orgName>Ithaca College</orgName>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName xml:id="JN">Jamie Norrish</persName>
                <resp>Programmer, EATS developer, NHPRC-Mellon Project Consultant</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Dorothy Porter</persName>
                <orgName>University of Pennsylvania</orgName>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Suzanne Westfall</persName>
                <orgName>Lafayette College</orgName>
                <resp>Records of Early English Drama (REED) Executive Board Member</resp>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-            
-            <!-- Bucknell Research Assistantx -->    
+
+            <!-- Bucknell Research Assistantx -->
             <respStmt>
                <persName>Ari Baughman</persName>
                <orgName>Bucknell Univerity</orgName>
                <resp>REED London research assistant, 2018</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Maureen Maclean</persName>
                <orgName>Bucknell University</orgName>
                <resp>REED London research assistant, 2018</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Rachel Milio</persName>
                <orgName>Bucknell University</orgName>
                <resp>REED London research assistant, 2018</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Charlotte Simon</persName>
                <orgName>Bucknell University</orgName>
                <resp>REED London research assistant, 2018</resp>
             </respStmt>
-            
+
          </titleStmt>
          <editionStmt>
             <edition>Print version, published <date when-iso="2010">2010</date>. Electronic edition, anticipated publication <date when-iso="2018">2018</date></edition>
          </editionStmt>
-         
+
          <publicationStmt>
-            <authority><orgName>Records of Early English Drama (REED)</orgName>
+            <authority>
+               <orgName>Records of Early English Drama (REED)</orgName>
                <address>
                   <addrLine>University of Toronto</addrLine>
                   <addrLine>170 St George Street, Suite 810</addrLine>
@@ -195,57 +213,43 @@
                   <addrLine>M5R 2M8</addrLine>
                </address>
             </authority>
-            
+
             <publisher>D.S. Brewer, Cambridge, an imprint of Boydell &amp; Brewer Ltd./Boydell &amp; Brewer Ltd.</publisher>
             <pubPlace>Rochester, NY</pubPlace>
             <date>2010</date>
             <idno type="other">978-1-84384-259-0</idno>
-            
+
             <availability>
-               <p>Copyright <orgName>Records of Early English Drama (REED)</orgName>,
-                  <date>2017</date></p>
-               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a
-                  Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA
-                  4.0) licence.</licence>
+               <p>Copyright <orgName>Records of Early English Drama (REED)</orgName>, <date>2017</date></p>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) licence.</licence>
             </availability>
          </publicationStmt>
-         
+
          <seriesStmt>
             <title>Records of Early English Drama</title>
          </seriesStmt>
          <sourceDesc>
             <p>This publication constitutes a remediation of the printed Inns of Court collection. Information on original sources for transcriptions can be accessed via the Document Descriptions.</p>
             <p>This record can be found on pp. 691 of REED: Inns of Court, Vol. 2</p>
-            <p>For a full list of REED collections, editors, executive board members, and staff, please visit http://reed.utoronto.ca/people</p>       
+            <p>For a full list of REED collections, editors, executive board members, and staff, please visit http://reed.utoronto.ca/people</p>
          </sourceDesc>
       </fileDesc>
-      
+
       <encodingDesc>
          <listPrefixDef>
-            <prefixDef ident="taxon" matchPattern="([A-Za-z0-9_-]+)"
-               replacementPattern="../taxonomy.xml#$1">
-               <p>Private URIs using the <code>taxon</code> prefix are pointers to entities in the
-                  taxonomy.xml file. For example, <code>taxon:church</code> dereferences to
-                  <code>taxonomy.xml#church</code>.</p>
+            <prefixDef ident="taxon" matchPattern="([A-Za-z0-9_-]+)" replacementPattern="../taxonomy.xml#$1">
+               <p>Private URIs using the <code>taxon</code> prefix are pointers to entities in the taxonomy.xml file. For example, <code>taxon:church</code> dereferences to <code>taxonomy.xml#church</code>.</p>
             </prefixDef>
-            <prefixDef ident="gloss" matchPattern="([A-Za-z0-9_-]+)"
-               replacementPattern="../glossary.xml#$1">
-               <p>Private URIs using the <code>gloss</code> prefix are pointers to entities in the
-                  glossary.xml file. For example, <code>gloss:histrio-1</code> dereferences to
-                  <code>glossary.xml#histrio-1</code>.</p>
+            <prefixDef ident="gloss" matchPattern="([A-Za-z0-9_-]+)" replacementPattern="../glossary.xml#$1">
+               <p>Private URIs using the <code>gloss</code> prefix are pointers to entities in the glossary.xml file. For example, <code>gloss:histrio-1</code> dereferences to <code>glossary.xml#histrio-1</code>.</p>
             </prefixDef>
          </listPrefixDef>
-         
+
          <projectDesc>
-            <p>Records of Early English Drama (REED) is an international scholarly project that is
-               establishing for the first time the context from which the drama of Shakespeare and his
-               contemporaries grew. Founded in 1976, REED has worked since then to locate, transcribe,
-               and edit historical documents containing evidence of drama, secular music, and other
-               communal entertainment and ceremony from the Middle Ages until 1642, when the Puritans
-               closed the London theatres.</p>
+            <p>Records of Early English Drama (REED) is an international scholarly project that is establishing for the first time the context from which the drama of Shakespeare and his contemporaries grew. Founded in 1976, REED has worked since then to locate, transcribe, and edit historical documents containing evidence of drama, secular music, and other communal entertainment and ceremony from the Middle Ages until 1642, when the Puritans closed the London theatres.</p>
          </projectDesc>
       </encodingDesc>
-      
+
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -253,22 +257,16 @@
          </langUsage>
          <settingDesc>
             <place>
-               <placeName>London</placeName> 
+               <placeName>London</placeName>
             </place>
          </settingDesc>
       </profileDesc>
       <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
          <mods:mods>
             <mods:titleInfo>
-               <mods:title>Title</mods:title>
-               <mods:subTitle>Some subtitle here</mods:subTitle>
+               <mods:title>Letter of John Chamberlain to Sir Dudley Carleton</mods:title>
             </mods:titleInfo>
-            <mods:titleInfo
-               type="alternative">
-               <mods:title>Alternative title</mods:title>
-            </mods:titleInfo>
-            <mods:name
-               type="personal">
+            <mods:name type="personal">
                <mods:namePart type="family">Chamberlain</mods:namePart>
                <mods:namePart type="given">John</mods:namePart>
                <mods:form authority="viaf">http://viaf.org/viaf/39748463</mods:form>
@@ -289,8 +287,7 @@
             </mods:physicalDescription>
             <mods:abstract>John Chamberlain (1553-1628) was a professional letter-writer employed by contemporaries who preserved his letters in considerable numbers. Chief among his employers was Sir Dudley Carlteton (1574-1632), Viscount Dorchester, a career diplomat who served in Venice from 1610 to 1615. (Carleton was admitted to Gray's Inn in 1605). This letter, dated 25 February 1613/14, describes the performance events staged for the wedding of Princess Elizabeth to Frederick, Elector Palatine.</mods:abstract>
             <mods:subject>
-               <mods:topic valueURI="http://id.loc.gov/authorities/subjects/sh2002012473">Theater--England--London--History--17th century
-               </mods:topic>
+               <mods:topic valueURI="http://id.loc.gov/authorities/subjects/sh2002012473">Theater--England--London--History--17th century </mods:topic>
             </mods:subject>
             <mods:subject>
                <mods:geographic valueURI="http://www.geonames.org/2643743/">London</mods:geographic>
@@ -298,12 +295,8 @@
             <mods:subject>
                <mods:temporal point="start">1601</mods:temporal>
                <mods:temporal point="end">1700</mods:temporal>
-            </mods:subject>    
-            <mods:accessCondition
-               type="use and reproduction">Use of this public-domain resource is governed by the &lt;a
-               rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"
-               target="blank"&gt;Creative Commons Attribution-NonCommercial 4.0 International
-               License&lt;/a&gt;.</mods:accessCondition>
+            </mods:subject>
+            <mods:accessCondition type="use and reproduction">Use of this public-domain resource is governed by the &lt;a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="blank"&gt;Creative Commons Attribution-NonCommercial 4.0 International License&lt;/a&gt;.</mods:accessCondition>
             <mods:recordInfo>
                <mods:recordOrigin>This MODS record was created using the Islandora XML Forms collection of Drupal modules.</mods:recordOrigin>
                <mods:languageOfCataloging>
@@ -312,15 +305,15 @@
                <mods:recordContentSource>Canadian Writing Research Collaboratory</mods:recordContentSource>
             </mods:recordInfo>
          </mods:mods>
-      </xenoData>     
+      </xenoData>
       <revisionDesc>
          <!-- Add new major milestone changes to top -->
          <change when="2018-03-10" who="#KM">created document</change>
          <change when="2018-09-09" who="#KM">added mods header</change>
       </revisionDesc>
    </teiHeader>
-   
-   
+
+
    <text ana="taxon:letter" type="record" xml:id="RLC007">
       <body>
          <div>
@@ -329,10 +322,14 @@
                <head>ff<del>1v-2</del>
                   <supplied>(25 February 1612/13)</supplied></head>
                <pb n="1v-2" type="folio"/>
-                        
-                        <ab>...our reuells and triumphes within doores gaue great contentment beeing both daintie and curious in deuise and sumptuous in shew. Specially <orgName n="Inns of Court">the ynnes of court</orgName> whose two maskes stoode them in better then <measure type="currency">4000 li.</measure> | besides the gallantrie and expence of priuate gentlemen, that were but ante-ambulones, and went only to accompanie them. and our <orgName role="member" n="Gray's Inn">Grayes ynne men</orgName> and the <orgName role="member" n="Inner Templers">ynner Templers</orgName> were nothing discouraged for all the first dodge, but on Saterday last<note type="foot">20 February 1612/13</note> performed theyre parts exceeding well, and w<ex>i</ex>th great applause and approbation both from the <persName n="James I">king</persName> and all the companie. the next night<note type="foot">21 February 1612/13</note> the <del>the</del> King inuited the maskers w<ex>i</ex>th theyre assistants to the number of forty to a solemne supper in the new mariage roome where they were well treated and much graced w<ex>i</ex>th kissing his ma<ex>ies</ex>tes hands, and euery one hauyng a particular accoglienza<gloss resp="#KM">This is Italian for hospitality:SOURCE</gloss> from him the king husbanded the matter so well that this feast was not his owne cost, but he and his companie went yt vpon a <del><damage/>...</del> of running at the ring of the <persName>Prince</persName> and his nine followers, who payed thirty pound a man: The <persName n="James I">K<ex>ing</ex></persName> <persName n="Anne of Denmark">Q<ex>ueen</ex></persName> <persName n="Frederick V of the Palatinate">P<ex>rince</ex> Palatin</persName> and <persName n="Elizabeth Stuart, Queen of Bohemia">Lady Elizabeth</persName> sat at a table by themselues: and the great Lords and Ladies w<ex>i</ex>th the maskers (aboue fowrescore in all) sat at another long table, so that there was no roome for them that made the feast but they were faine to be lookers on. w<ex>hi</ex>ch the young <persName>Lady Rich</persName> tooke no great pleasure in to see her <persName>husband</persName> (who was one that payed not so much as a rincke for his monie<note type="foot">closing parenthesis omitted</note>. The <persName role="ambassadors">ambassadors</persName> that were at this wedding and shewes were the <persName>French Venetian Count Henry</persName> and <persName>Caron</persName> for the States. the <persName>Spaniard</persName> was, or wold be sicke, and the <persName>archdukes ambassador</persName> beeing inuited for the second day made a sullen excuse: and those that were present were not altogether so pleased, but that I heare euery one had some puntilo of disgust....</ab>
-                            
-               
+
+               <ab>...our reuells and triumphes within doores gaue great contentment beeing both daintie and curious in deuise and sumptuous in shew. Specially <orgName>the ynnes of court</orgName> whose two maskes stoode them in better then <measure type="currency">4000 li.</measure> | besides the gallantrie and expence of priuate gentlemen, that were but ante-ambulones, and went only to accompanie them. and our Grayes ynne men and the ynner Templers were nothing discouraged for all the first dodge, but on <date when-iso="1613-02-20">Saterday last</date><note type="foot">Saterday last: <hi rend="italic">20 February 1612/13</hi></note> performed theyre parts exceeding well, and w<ex>i</ex>th great applause and approbation both from the <persName>king</persName> and all the companie. <date when-iso="1613-02-21">the next night</date><note type="foot">the next night: <hi rend="italic">21 February 1612/13</hi></note> the <del>the</del> King inuited the maskers w<ex>i</ex>th theyre
+                  assistants to the number of forty to a solemne supper in the new mariage roome where they were well treated and much graced w<ex>i</ex>th kissing his ma<ex>ies</ex>tes hands, and euery one hauyng a particular accoglienza<gloss resp="#KM">This is Italian for hospitality:SOURCE</gloss> from him the king husbanded the matter so well that this feast was not his owne cost, but he and his companie went yt vpon a <del><damage/>...</del> of running at the ring of the <persName>Prince</persName> and his nine followers, who payed thirty pound a man: The <persName>K<ex>ing</ex></persName>
+                  <persName>Q<ex>ueen</ex></persName>
+                  <persName>P<ex>rince</ex> Palatin</persName> and <persName>Lady Elizabeth</persName> sat at a table by themselues: and the great Lords and Ladies w<ex>i</ex>th the maskers (aboue fowrescore in all) sat at another long table, so that there was no roome for them that made the feast but they were faine to be lookers on. w<ex>hi</ex>ch the young <persName>Lady Rich</persName> tooke no great pleasure in to see her <persName>husband</persName> (who was one that payed not so much as a rincke for his monie<note type="foot">(who was ... monie: <hi rend="italic">closing parenthesis omitted</hi></note>. The ambassadors that were at this wedding and shewes were the <persName>French Venetian Count Henry</persName> and <persName>Caron</persName> for the States. <persName>the Spaniard</persName> was, or wold be sicke, and the <persName>archdukes ambassador</persName> beeing inuited for the second day made a sullen excuse: and those that were present were not altogether so pleased,
+                  but that I heare euery one had some puntilo of disgust....</ab>
+
+
             </div>
          </div>
       </body>
