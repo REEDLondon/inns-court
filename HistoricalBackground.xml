@@ -224,10 +224,10 @@
 
    <text ana="taxon:essay" type="editorial">
       <body xml:lang="eng">
-         <head>Inns of Court: Historical Background <date when-iso="2010">2010</date>
-            <idno ana="#AHN1">Alan H. Nelson</idno>
-            <seg corresp="docu:RLPIC1 pp. xiii-xvi">xiii-xvi</seg></head>
-         <div type="other">
+         <head>Inns of Court: Historical Background (from REED: Inns of Court Print Collection, pp. xiii-xvi)
+            <idno>Alan H. Nelson</idno>
+            </head>
+         <div type="section">
             <head><supplied>Historical Background</supplied></head>
             <pb n="1" type="sheet"/>
             <note type="subhead">Information (and inspiration) for this Introduction is drawn largely from Finkelpearl, <title>John Marston of the Middle Temple</title>, Chapters 1 to 4; Prest, <title>Inns of Court</title>; Richardson, <title>History of the Inns of Court</title>; J.H. Baker, <title>The Legal Profession and the Common Law</title> (London and Ronceverte, 1986); and Baker, <title>An Inner Temple Miscellany</title>.</note>

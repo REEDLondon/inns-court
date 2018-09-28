@@ -301,14 +301,14 @@
    </teiHeader>
    <text>
       <body>
-         <div>
+         <div type="essay">
             <head>
                <title type="main">Drama, Entertainment, and Music </title>
             </head>
 
-            <div type="chapter">
+            <div type="section">
                <head>
-                  <title type="section">Christmas at the <orgName>Inns of Court</orgName></title>
+                  <title>Christmas at the <orgName>Inns of Court</orgName></title>
                </head>
 
                <p>Life at the <orgName>Inns of Court</orgName>, whether devoted to the practice of
@@ -591,7 +591,7 @@
 
             <div>
                <head>
-                  <title type="section">Plays and Players</title>
+                  <title>Plays and Players</title>
                </head>
 
                <p>The royal commission report of <hi rend="italic">c</hi> 1534–47 acknowledges the
@@ -629,11 +629,10 @@
                            Sidney</hi></persName>, <title>An Apologie for Poetrie</title> (London,
                      1595; STC: 22534), sigs I4v–K1; and <title>REED: Oxford</title>, vol 2, p
                      854.</note></p>
-            </div>
 
-            <div>
+            <div type="subsection">
                <head>
-                  <title type="section">PROFESSIONAL PLAYERS</title>
+                  <title>PROFESSIONAL PLAYERS</title>
                </head>
 
                <p>As Wilfrid Prest observes, ‘after a brief but highly creative burst of dramatic
@@ -722,10 +721,11 @@
                   and 2 February each and every year from perhaps the beginning of the seventeenth
                   century to the closing of the theatres in 1642.</p>
             </div>
+            </div>
 
-            <div>
+            <div type="section">
                <head>
-                  <title type="section">Masques</title>
+                  <title>Masques</title>
                </head>
 
                <p> The standard definition of ‘masque’ in the <title>OEDO</title> (n. 1.a.) nicely
@@ -859,9 +859,9 @@
                   ‘neare .20000. li. Sterling’ (Appendix 4, p 708).</p>
             </div>
 
-            <div>
+            <div type="section">
                <head>
-                  <title type="section"> Orations</title>
+                  <title> Orations</title>
                </head>
 
                <p> In Thomas Dekker’s <title>Satiromastix</title> (London, 1602; <title>STC</title>
@@ -917,9 +917,9 @@
                   and ‘The Mountebankes Receipts.’</p>
             </div>
 
-            <div>
+            <div type="section">
                <head>
-                  <title type="section">Martial Exercises</title>
+                  <title>Martial Exercises</title>
                </head>
 
                <p>As <orgName>Inns of Court</orgName> gentlemen tended to come from wealthy landed
@@ -1013,9 +1013,9 @@
                </p>
             </div>
 
-            <div>
+            <div type="section">
                <head>
-                  <title type="section"> Music and Musicians</title>
+                  <title> Music and Musicians</title>
                </head>
 
                <p> Music was an integral part of <orgName>Inns of Court</orgName> entertainment
@@ -1264,9 +1264,9 @@
                      1660–1685 (Snodland, Kent, 1986).</note></p>
             </div>
 
-            <div>
+            <div type="section">
                <head>
-                  <title type="section"> Dancing</title>
+                  <title>Dancing</title>
                </head>
 
 
@@ -1403,9 +1403,9 @@
                   perhaps not all) occasions of dancing in the <orgName>Inns of Court</orgName>.</p>
             </div>
 
-            <div>
+            <div type="section">
                <head>
-                  <title type="section"> Finances</title>
+                  <title>Finances</title>
                </head>
 
                <p> Wanting endowments the <orgName>Inns of Court</orgName> generally survived on
@@ -1501,9 +1501,9 @@
                   lurch.</p>
             </div>
 
-            <div>
+            <div type="section">
                <head>
-                  <title type="section"> Disorders</title>
+                  <title>Disorders</title>
                </head>
 
                <p> Almost by definition revels (root: ‘rebellare,’ to rebel) entailed a breach of
@@ -1575,9 +1575,9 @@
                   became moot.</p>
             </div>
 
-            <div>
+            <div type="section">
                <head>
-                  <title type="section">Performance Venues and Processional Routes</title>
+                  <title>Performance Venues and Processional Routes</title>
                </head>
 
                <p> Music, revels, plays, masques, and other forms of entertainment occurred for the
@@ -1693,11 +1693,10 @@
                   explosion during World War II, when the stained glass had been removed for
                   safe-keeping. The roof was subsequently repaired, the screen rebuilt, and the
                   windows restored.</p>
-            </div>
 
-            <div>
+            <div type="subsection">
                <head>
-                  <title type="section"> OTHER VENUES</title>
+                  <title> OTHER VENUES</title>
                </head>
                <p>
                   <orgName>Inns of Court</orgName> plays and masques were often performed twice,
@@ -1881,10 +1880,11 @@
                      informative description of the processional route occurs in Richard Hutton’s
                      diary entry for 3 February 1633/4 (Appendix 4, pp 702–3).</note></p>
             </div>
+            </div>
 
-            <div>
+            <div type="section">
                <head>
-                  <title type="section"> Post-1642 Plays and Masques</title>
+                  <title> Post-1642 Plays and Masques</title>
                </head>
 
                <p> Though Christmas was cancelled at the <orgName>Middle Temple</orgName> in
