@@ -50,9 +50,9 @@
 
 
 
-<!-- core module, lots of things. -->
+          <!-- core module, lots of things. -->
 
-<!-- sp/speaker/stage needed by REED:London -->
+          <!-- sp/speaker/stage needed by REED:London -->
           <moduleRef key="core"
             include="abbr add addrLine address author bibl biblScope cb choice
                      cit citedRange corr date del editor expan foreign gap
@@ -297,7 +297,7 @@
 -->
             </attList>
           </elementSpec>
-          
+
           <!-- date: modify @type -->
           <elementSpec ident="date" mode="change" module="core">
             <attList>
@@ -313,13 +313,36 @@
                     <desc>The type of date in this REED record is a regnal date</desc>
                   </valItem>
                   <valItem ident="other">
-                    <desc>The type of date in this REED record is another form of non-standard date</desc>
+                    <desc>The type of date in this REED record is another form of non-standard
+                      date</desc>
                   </valItem>
                 </valList>
               </attDef>
             </attList>
           </elementSpec>
 
+<!-- date: modify @cert -->
+          <elementSpec ident="date" mode="change" module="core">
+            <attList>
+              <attDef ident="cert" mode="change">
+                <valList mode="add" type="closed">
+                  <valItem ident="definite">
+                    <desc>There is a high degree of certainty about this date</desc>
+                  </valItem>
+                  <valItem ident="reasonably certain">
+                    <desc>There is a moderate degree of certainty about this date</desc>
+                  </valItem>
+                  <valItem ident="probable">
+                    <desc>There is a low degree of certainty about this date</desc>
+                  </valItem>
+                  <valItem ident="speculative">
+                    <desc>The date is unknown</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+            </attList>
+            
+          </elementSpec>
           <!-- expan: delete attributes -->
           <elementSpec ident="expan" mode="change" module="core">
             <attList>
@@ -349,19 +372,24 @@
                     <desc>The note to this REED Record is provided at the top of the page</desc>
                   </valItem>
                   <valItem ident="opposite">
-                    <desc>The note to this REED Record is provided on the opposite, i.e. facing, page</desc>
+                    <desc>The note to this REED Record is provided on the opposite, i.e. facing,
+                      page</desc>
                   </valItem>
                   <valItem ident="overleaf">
-                    <desc>The note to this REED Record is provided on the other side of the leaf</desc>
+                    <desc>The note to this REED Record is provided on the other side of the
+                      leaf</desc>
                   </valItem>
                   <valItem ident="end">
-                    <desc>The note to this REED Record is provided at the end of e.g. chapter or volume.</desc>
+                    <desc>The note to this REED Record is provided at the end of e.g. chapter or
+                      volume.</desc>
                   </valItem>
                   <valItem ident="inline">
-                    <desc>The note to this REED Record is provided within the body of the text.</desc>
+                    <desc>The note to this REED Record is provided within the body of the
+                      text.</desc>
                   </valItem>
                   <valItem ident="inspace">
-                    <desc>The note to this REED Record is provided in a predefined space, for example left by an earlier scribe.</desc>
+                    <desc>The note to this REED Record is provided in a predefined space, for
+                      example left by an earlier scribe.</desc>
                   </valItem>
                   <valItem ident="over">
                     <desc>The note to this REED Record is provided written over existing text</desc>
@@ -374,7 +402,8 @@
                     <desc>The note to this REED Record is from antiquarian source</desc>
                   </valItem>
                   <valItem ident="edDesc">
-                    <desc>This note is the editorial note on a print source from which record/s were derived</desc>
+                    <desc>This note is the editorial note on a print source from which record/s were
+                      derived</desc>
                   </valItem>
                   <valItem ident="foot">
                     <desc>The note to this REED Record is at the foot of the leaf</desc>
@@ -391,14 +420,16 @@
                     <desc>The note to this REED Record is a court-related note</desc>
                     </valItem> -->
                   <valItem ident="techDesc">
-                    <desc>This note is the full bibliographic citation for a print source from which record/s were derived</desc>
+                    <desc>This note is the full bibliographic citation for a print source from which
+                      record/s were derived</desc>
                   </valItem>
                   <valItem ident="editorial">
                     <desc>The note to this REED Record is an editorial note</desc>
                   </valItem>
                   <valItem ident="other">
-                    <desc>The note to this REED Record is another type of note. (If you use this more
-                      than a handful of times we should update the TEI ODD Customisation.)</desc>
+                    <desc>The note to this REED Record is another type of note. (If you use this
+                      more than a handful of times we should update the TEI ODD
+                      Customisation.)</desc>
                   </valItem>
                 </valList>
               </attDef>
@@ -415,7 +446,8 @@
                     <desc>The page break in this REED record is the beginning of a new folio</desc>
                   </valItem>
                   <valItem ident="membrane">
-                    <desc>The page break in this REED record is the beginning of a new membrane</desc>
+                    <desc>The page break in this REED record is the beginning of a new
+                      membrane</desc>
                   </valItem>
                   <valItem ident="page">
                     <desc>The page break in this REED record is the beginning of a new page</desc>
@@ -425,17 +457,21 @@
                   </valItem>
                   <!-- Need to convert Fortune for consistency: <valItem ident="sig"/>-->
                   <valItem ident="signature">
-                    <desc>The page break in this REED record is the beginning of new page marked with a signature</desc>
+                    <desc>The page break in this REED record is the beginning of new page marked
+                      with a signature</desc>
                   </valItem>
                   <valItem ident="single_membrane">
-                    <desc>The page break in this REED record is the beginning of a new single_membrane</desc>
+                    <desc>The page break in this REED record is the beginning of a new
+                      single_membrane</desc>
                   </valItem>
                   <valItem ident="single_sheet">
-                    <desc>The page break in this REED record is the beginning of a new single_sheet</desc>
+                    <desc>The page break in this REED record is the beginning of a new
+                      single_sheet</desc>
                   </valItem>
                   <valItem ident="other">
-                    <desc>The page break in this REED record is the another type of page break. (If you use this more
-                      than a handful of times we should update the TEI ODD Customisation.)</desc>
+                    <desc>The page break in this REED record is the another type of page break. (If
+                      you use this more than a handful of times we should update the TEI ODD
+                      Customisation.)</desc>
                   </valItem>
                 </valList>
               </attDef>
@@ -464,7 +500,8 @@
                     <desc>title of a database</desc>
                   </valItem>
                   <valItem ident="edName">
-                    <desc>This title is the editorially supplied name of record/s derived from a print source</desc>
+                    <desc>This title is the editorially supplied name of record/s derived from a
+                      print source</desc>
                   </valItem>
                   <valItem ident="journal">
                     <desc>title of a journal</desc>
@@ -491,7 +528,8 @@
                     <desc>title of a section</desc>
                   </valItem>
                   <valItem ident="sourceName">
-                    <desc>This is the title of the print source from which record/s were derived</desc>
+                    <desc>This is the title of the print source from which record/s were
+                      derived</desc>
                   </valItem>
                   <valItem ident="title_page">
                     <desc>title of a title page</desc>
@@ -503,23 +541,23 @@
           </elementSpec>
 
 
-          <moduleRef key="corpus" include="settingDesc" />
+          <moduleRef key="corpus" include="settingDesc"/>
 
 
-<!-- dictionaries -->
-<!-- added for glossary work -->
+          <!-- dictionaries -->
+          <!-- added for glossary work -->
           <moduleRef key="dictionaries"
             include="entry form 
              case orth hyph pron gram gramGrp def colloc etym gen hom lang mood number per pos re sense tns syll usg xr "/>
 
 
-<!-- figures -->
+          <!-- figures -->
 
           <moduleRef key="figures" include="cell row table figure figDesc"/>
 
 
 
-<!-- header module -->
+          <!-- header module -->
           <!-- xenodata needed by REED:London for mods crosswalk -->
           <moduleRef key="header"
             include="authority availability calendar calendarDesc catDesc  category change classDecl distributor edition editionStmt 
@@ -553,8 +591,8 @@
                     <desc>This idno is a shortened title</desc>
                   </valItem>
                   <valItem ident="other">
-                    <desc>This idno is other ID number. (If you use this more
-                      than a handful of times we should update the TEI ODD Customisation.)</desc>
+                    <desc>This idno is other ID number. (If you use this more than a handful of
+                      times we should update the TEI ODD Customisation.)</desc>
                   </valItem>
                 </valList>
               </attDef>
@@ -583,7 +621,7 @@
             </attList>
           </elementSpec>
 
-<!-- linking module -->
+          <!-- linking module -->
 
           <moduleRef key="linking" include="ab anchor link seg"/>
 
@@ -604,7 +642,7 @@
                </attList>
             </elementSpec>
             -->
-          
+
           <!-- ab: REED use of ab is atypical, they use it to structure the record extracts -->
           <elementSpec ident="ab" mode="change" module="linking">
             <attList>
@@ -615,7 +653,8 @@
                         <valItem ident="body_p_exdented"/>
                         <valItem ident="body_p_indented"/>-->
                   <valItem ident="edDesc">
-                    <desc>This ab is the editorial note on a manuscript source from which record/s were derived</desc>
+                    <desc>This ab is the editorial note on a manuscript source from which record/s
+                      were derived</desc>
                   </valItem>
                   <valItem ident="exdent"/>
                   <valItem ident="indent"/>
@@ -634,7 +673,8 @@
                   <valItem ident="subhead"/>
                   <valItem ident="table"/>
                   <valItem ident="techDesc">
-                    <desc>This ab is the technical description for a manuscript source from which record/s were derived</desc>
+                    <desc>This ab is the technical description for a manuscript source from which
+                      record/s were derived</desc>
                   </valItem>
                   <!--<valItem ident="title_page"/>-->
                   <valItem ident="other"/>
@@ -679,12 +719,12 @@
 
           <!-- Include all of msdescription -->
           <moduleRef key="msdescription"/>
-          
-          
-          
+
+
+
           <!-- Commented out since this is now solved by https://github.com/TEIC/TEI/issues/1597 -->
-          
-      <!--    <!-\- Non-conformant change to msName to allow rs inside -\->
+
+          <!--    <!-\- Non-conformant change to msName to allow rs inside -\->
           <elementSpec ident="msName" mode="change" module="msdescription">
             <content>
               <alternate minOccurs="1" maxOccurs="unbounded">
@@ -693,8 +733,8 @@
               </alternate>
             </content>
           </elementSpec>-->
-          
-          
+
+
 
           <!-- origDate: delete lots of attributes -->
           <elementSpec ident="origDate" mode="change" module="msdescription">
@@ -731,7 +771,7 @@
           <!-- delete att.msExcerpt -->
           <classSpec ident="att.msExcerpt" module="msdescription" type="atts" mode="delete"/>
 
-<!-- namesdates: only include orgName, persName, placeName, and settlement. Not doing metadata records for named entities...yet-->
+          <!-- namesdates: only include orgName, persName, placeName, and settlement. Not doing metadata records for named entities...yet-->
           <moduleRef key="namesdates" include="orgName persName place placeName settlement"/>
 
           <!-- delete lots of attributes -->
@@ -767,7 +807,7 @@
               <attDef ident="source" mode="delete"/>
             </attList>
           </elementSpec>
-          
+
           <!-- delete lots of attributes -->
           <elementSpec ident="placeName" mode="change" module="namesdates">
             <attList>
@@ -835,7 +875,7 @@
               <attDef ident="confidence" mode="delete"/>
             </attList>
           </classSpec>
-          
+
           <!-- delete lots of attributes -->
           <classSpec ident="att.global.rendition" module="tei" type="atts" mode="change">
             <attList>
@@ -900,11 +940,11 @@
               <attDef ident="nymRef" mode="delete"/>
             </attList>
           </classSpec>
-          
-<!-- tagsdoc module to include code -->          
+
+          <!-- tagsdoc module to include code -->
           <moduleRef key="tagdocs" include="code"/>
-          
-<!-- textstructure module -->          
+
+          <!-- textstructure module -->
           <moduleRef key="textstructure"
             include="TEI body div group text floatingText closer front back salute signed trailer"/>
 
@@ -914,7 +954,9 @@
             <attList>
               <attDef ident="type" mode="change">
                 <valList mode="add" type="semi">
-                  <valItem ident="record"><desc>The text in this case is a REED record</desc></valItem>
+                  <valItem ident="record">
+                    <desc>The text in this case is a REED record</desc>
+                  </valItem>
                 </valList>
               </attDef>
             </attList>
@@ -925,7 +967,9 @@
             <attList>
               <attDef ident="type" mode="change">
                 <valList mode="add" type="semi">
-                  <valItem ident="record"><desc>The text in this case is a REED record</desc></valItem>
+                  <valItem ident="record">
+                    <desc>The text in this case is a REED record</desc>
+                  </valItem>
                 </valList>
               </attDef>
             </attList>
@@ -936,12 +980,22 @@
             <attList>
               <attDef ident="type" mode="change">
                 <valList mode="add" type="semi">
-                  <valItem ident="appendix"><desc>This REED division is for the Appendix section</desc></valItem>
-                  <valItem ident="endnote"><desc>This REED division is an endnote section</desc></valItem>
-                  <valItem ident="transcription"><desc>This REED division is a transcription</desc></valItem>
-                  <valItem ident="translation"><desc>This REED division is a translation</desc></valItem>
-                  <valItem ident="other"><desc>This REED division is something else.  (If you use this more
-                    than a handful of times we should update the TEI ODD Customisation.)</desc></valItem>
+                  <valItem ident="appendix">
+                    <desc>This REED division is for the Appendix section</desc>
+                  </valItem>
+                  <valItem ident="endnote">
+                    <desc>This REED division is an endnote section</desc>
+                  </valItem>
+                  <valItem ident="transcription">
+                    <desc>This REED division is a transcription</desc>
+                  </valItem>
+                  <valItem ident="translation">
+                    <desc>This REED division is a translation</desc>
+                  </valItem>
+                  <valItem ident="other">
+                    <desc>This REED division is something else. (If you use this more than a handful
+                      of times we should update the TEI ODD Customisation.)</desc>
+                  </valItem>
 
                 </valList>
               </attDef>
@@ -949,7 +1003,7 @@
             </attList>
           </elementSpec>
 
-<!-- transcription module -->
+          <!-- transcription module -->
           <moduleRef key="transcr"
             include="am addSpan damage delSpan ex fw handShift 
                space subst supplied surplus"/>
@@ -966,10 +1020,15 @@
             <attList>
               <attDef ident="type" mode="change">
                 <valList mode="add" type="semi">
-                  <valItem ident="hole"><desc>This damage is characterised by REED as a hole</desc></valItem>
-                  <valItem ident="other"><desc>This damage is characterised by REED as something else. (If you use this more
-                    than a handful of times we should update the TEI ODD Customisation.)</desc></valItem>
-                  
+                  <valItem ident="hole">
+                    <desc>This damage is characterised by REED as a hole</desc>
+                  </valItem>
+                  <valItem ident="other">
+                    <desc>This damage is characterised by REED as something else. (If you use this
+                      more than a handful of times we should update the TEI ODD
+                      Customisation.)</desc>
+                  </valItem>
+
                   <!--<valItem ident="natural_hole"/>-->
                   <!-- Other values -->
                 </valList>
@@ -977,21 +1036,41 @@
 
               <attDef ident="agent" mode="change">
                 <valList mode="add" type="semi">
-                  <valItem ident="bookbinding"><desc>The agent of the damage was bookbinding</desc></valItem>
-                  <valItem ident="creasing"><desc>The agent of the damage was creasing</desc></valItem>
-                  <valItem ident="creasing_tearing"><desc>The agent of the damage was creasing/tearing</desc></valItem>
-                  <valItem ident="cropping"><desc>The agent of the damage was cropping</desc></valItem>
-                  <valItem ident="erasure"><desc>The agent of the damage was erasure</desc></valItem>
-                  <valItem ident="fading"><desc>The agent of the damage was fading</desc></valItem>
+                  <valItem ident="bookbinding">
+                    <desc>The agent of the damage was bookbinding</desc>
+                  </valItem>
+                  <valItem ident="creasing">
+                    <desc>The agent of the damage was creasing</desc>
+                  </valItem>
+                  <valItem ident="creasing_tearing">
+                    <desc>The agent of the damage was creasing/tearing</desc>
+                  </valItem>
+                  <valItem ident="cropping">
+                    <desc>The agent of the damage was cropping</desc>
+                  </valItem>
+                  <valItem ident="erasure">
+                    <desc>The agent of the damage was erasure</desc>
+                  </valItem>
+                  <valItem ident="fading">
+                    <desc>The agent of the damage was fading</desc>
+                  </valItem>
                   <!--<valItem ident="hole_natural"/>-->
-                  <valItem ident="smudging"><desc>The agent of the damage was smudging</desc></valItem>
+                  <valItem ident="smudging">
+                    <desc>The agent of the damage was smudging</desc>
+                  </valItem>
                   <!--<valItem ident="tear"/>-->
-                  <valItem ident="tearing"><desc>The agent of the damage was tearing</desc></valItem>
-                  <valItem ident="wearing"><desc>The agent of the damage was wearing</desc></valItem>
+                  <valItem ident="tearing">
+                    <desc>The agent of the damage was tearing</desc>
+                  </valItem>
+                  <valItem ident="wearing">
+                    <desc>The agent of the damage was wearing</desc>
+                  </valItem>
                   <!-- other values -->
-                  <valItem ident="other"><desc>There is some other sort of agent for this damage. (If you use this more
-                    than a handful of times we should update the TEI ODD Customisation.)</desc></valItem>
-                  
+                  <valItem ident="other">
+                    <desc>There is some other sort of agent for this damage. (If you use this more
+                      than a handful of times we should update the TEI ODD Customisation.)</desc>
+                  </valItem>
+
                 </valList>
               </attDef>
             </attList>
@@ -1035,9 +1114,11 @@
                   <valItem ident="catch">
                     <desc>The forme work for this REED record was a catchword</desc>
                   </valItem>
-                  <valItem ident="other"><desc>There is some other sort of formework. (If you use this more
-                    than a handful of times we should update the TEI ODD Customisation.)</desc></valItem>
-                  
+                  <valItem ident="other">
+                    <desc>There is some other sort of formework. (If you use this more than a
+                      handful of times we should update the TEI ODD Customisation.)</desc>
+                  </valItem>
+
                 </valList>
               </attDef>
             </attList>
@@ -1070,7 +1151,7 @@
           <classSpec ident="att.global.change" module="transcr" type="atts" mode="delete"/>
 
 
-<!-- end of schema -->
+          <!-- end of schema -->
 
         </schemaSpec>
 
@@ -1079,4 +1160,3 @@
     </body>
   </text>
 </TEI>
-
