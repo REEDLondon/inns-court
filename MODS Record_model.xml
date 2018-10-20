@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/mods.xsd">
   <titleInfo>
-    <title>Middle Temple Reckoning</title>
+    <title>Middle Temple Summary of Payments</title>
   </titleInfo>
   <name type="corporate">
     <namePart>Middle Temple</namePart>
@@ -13,6 +13,9 @@
   <genre type="primaryGenre">Scholarly writing</genre>
   <genre type="subgenre">Reference work</genre>
   <genre>Performance</genre>
+  <originInfo>
+    <dateIssued encoding="w3cdtf">1613</dateIssued>
+  </originInfo>
   <language>
     <languageTerm type="text">English</languageTerm>
   </language>
@@ -21,7 +24,7 @@
     <internetMediaType>text/xml</internetMediaType>
     <digitalOrigin>born digital</digitalOrigin>
   </physicalDescription>
-  <abstract>Middle Temple document of expense reckoning for performance of The Memorable Masque in 1613.</abstract>
+  <abstract>Middle Temple summary of expenses for performance of The Memorable Masque in 1613.</abstract>
   <subject>
     <topic valueURI="http://id.loc.gov/authorities/subjects/sh2002012473">Theater--England--London--History--17th century</topic>
     <geographic valueURI="http://www.geonames.org/2643743/">London</geographic>

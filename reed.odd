@@ -774,10 +774,10 @@
           <!-- delete att.msExcerpt -->
           <classSpec ident="att.msExcerpt" module="msdescription" type="atts" mode="delete"/>
 
-          <!-- namesdates: only include orgName, persName, placeName, and settlement. Not doing metadata records for named entities...yet-->
-          <moduleRef key="namesdates" include="orgName persName place placeName settlement"/>
+          <!-- namesdates: only include orgName, persName, placeName, occupation, and settlement. Not doing metadata records for named entities...yet-->
+          <moduleRef key="namesdates" include="orgName persName place placeName settlement occupation"/>
 
-          <!-- persName: modify @cert -->
+          <!-- persName: modify @cert for CWRC -->
           <elementSpec ident="persName" mode="change" module="namesdates">
             <attList>
               <attDef ident="cert" mode="change">
@@ -799,7 +799,7 @@
             </attList>            
           </elementSpec>
           
-          <!-- placeName: modify @cert -->
+          <!-- placeName: modify @cert for CWRC -->
           <elementSpec ident="placeName" mode="change" module="namesdates">
             <attList>
               <attDef ident="cert" mode="change">
@@ -821,7 +821,7 @@
             </attList>            
           </elementSpec>
           
-          <!-- delete lots of attributes -->
+          <!-- delete lots of attributes for CWRC -->
           <elementSpec ident="orgName" mode="change" module="namesdates">
             <attList>
               <attDef ident="calendar" mode="delete"/>
