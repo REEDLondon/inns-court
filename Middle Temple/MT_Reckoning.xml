@@ -209,7 +209,7 @@
          </seriesStmt>
          <sourceDesc>
             <p>This publication constitutes a remediation of the printed Inns of Court collection. Information on original sources for transcriptions can be accessed via the Document Descriptions.</p>
-            <p>This record can be found on [PAGE(S)] of REED: Inns of Court, Vol. [#]</p>
+            <p>This record can be found on p. 166 of REED: Inns of Court, Vol. 1</p>
             <p>For a full list of REED collections, editors, executive board members, and staff, please visit http://reed.utoronto.ca/people</p>
          </sourceDesc>
       </fileDesc>
@@ -243,7 +243,7 @@
       <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
          <mods:mods>
             <mods:titleInfo>
-               <mods:title>Title</mods:title>
+               <mods:title>Middle Temple Reckoning</mods:title>
                <mods:subTitle>Some subtitle here</mods:subTitle>
             </mods:titleInfo>
             <mods:titleInfo type="alternative">
@@ -289,19 +289,70 @@
       </xenoData>
    </teiHeader>
 
-   <text ana="taxon:letter" type="record" xml:id="abcde">
-      <!-- match with IDs -->
+   <text ana="taxon:middle_temple" type="record" xml:id="RLMTRE1">
       <body>
          <head>
-            <date when-iso="YYY-MM-DD">1234</date></head>
+            <date when-iso="1612">1612-13</date></head>
          <div type="transcription" xml:lang="en">
-            <!-- If there is a translation, it should also have a xml:lang="" -->
             <div>
                <head>
-                  <supplied/></head>
-               <pb type="sheet"/>
+                  <supplied>Middle Temple Reckoning*</supplied></head>
+               <pb type="folio" n="[1]"/>
                <gap reason="omitted"/>
-               <ab> </ab>
+               <ab rend="center">Recconyng<ex>es</ex> concernyng the late Maske</ab>
+               
+               <ab>
+                  <table>
+                     <row>
+                        <cell>Yt pleased Mr Daston to take the paynes to receave into
+                           hand<ex>es</ex> toward<ex>es</ex> the sayd late Maske the some of</cell>
+                        <cell rend="align_right">viij<hi rend="sup">C</hi> 1 li.</cell>
+                     </row>
+                     <row>
+                        <cell>which sayde some of viij<hi rend="sup">C</hi> 1 li. was payde vnto mr Daston at sundry tymes vid<ex>e</ex>l<ex>icet</ex></cell>
+                        <cell></cell>
+                     </row>
+                     <gap reason="space"/>
+                     <row>
+                        <cell>Inprimis deliu<ex>er</ex>ed by Io<ex>hn</ex> Hopkyns w<ex>hi</ex>ch he receaved of the taxac<ex>i</ex>on Rowles at seu<ex>er</ex>all tymes the some of</cell>
+                        <cell rend="align_right">iij<hi rend="sup">C</hi> 1 li.</cell>
+                     </row>
+                     <row>
+                        <cell>Item money borrowed of mr Stephens</cell>
+                        <cell rend="align_right">1 li.</cell>
+                     </row>
+                     <row>
+                        <cell>Item of mr Moore</cell>
+                        <cell rend="align_right">1 li.</cell>
+                     </row>
+                     <row>
+                        <cell>Item of mr Cason</cell>
+                        <cell rend="align_right">1 li.</cell>
+                     </row>
+                     <row>
+                        <cell>Item of mr William Mann</cell>
+                        <cell rend="align_right">1 li.</cell>
+                     </row>
+                     <row>
+                        <cell>Item <del>of</del> vppon a bond of S<ex>i</ex>r Thomas Temple</cell>
+                        <cell rend="align_right">CC li.</cell>
+                     </row>
+                     <row>
+                        <cell>Item payd owt of the Treasury of this howse</cell>
+                        <cell rend="align_right">C li.</cell>
+                     </row>
+                     <row>
+                        <cell></cell>
+                        <cell rend="align_right">S<ex>u</ex>m<ex>m</ex>a viij<hi rend="sup">C</hi> 1 li.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">w<ex>hi</ex>ch sayde some of viij<hi rend="sup">C</hi> 1 li. was fully payd by mr Daston to mr Martyn or ^<add place="above">to</add> his mann</cell>
+                        <cell></cell>
+                     </row>                                                     
+                  </table>
+               
+               
+               </ab>
             </div>
 
          </div>

@@ -431,6 +431,9 @@
                       more than a handful of times we should update the TEI ODD
                       Customisation.)</desc>
                   </valItem>
+                  <valItem ident="real">
+                    <desc>This note satisfies the CWRC note entity attribute</desc>
+                  </valItem>
                 </valList>
               </attDef>
             </attList>
