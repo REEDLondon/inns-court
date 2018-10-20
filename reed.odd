@@ -777,6 +777,50 @@
           <!-- namesdates: only include orgName, persName, placeName, and settlement. Not doing metadata records for named entities...yet-->
           <moduleRef key="namesdates" include="orgName persName place placeName settlement"/>
 
+          <!-- persName: modify @cert -->
+          <elementSpec ident="persName" mode="change" module="namesdates">
+            <attList>
+              <attDef ident="cert" mode="change">
+                <valList mode="add" type="closed">
+                  <valItem ident="definite" sameAs="high">
+                    <desc>There is a high degree of certainty about this person</desc>
+                  </valItem>
+                  <valItem ident="reasonably certain" sameAs="moderate">
+                    <desc>There is a moderate degree of certainty about this person</desc>
+                  </valItem>
+                  <valItem ident="probable" sameAs="low">
+                    <desc>There is a low degree of certainty about this person</desc>
+                  </valItem>
+                  <valItem ident="speculative" sameAs="unknown">
+                    <desc>The person is unknown</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+            </attList>            
+          </elementSpec>
+          
+          <!-- placeName: modify @cert -->
+          <elementSpec ident="placeName" mode="change" module="namesdates">
+            <attList>
+              <attDef ident="cert" mode="change">
+                <valList mode="add" type="closed">
+                  <valItem ident="definite" sameAs="high">
+                    <desc>There is a high degree of certainty about this place</desc>
+                  </valItem>
+                  <valItem ident="reasonably certain" sameAs="moderate">
+                    <desc>There is a moderate degree of certainty about this place</desc>
+                  </valItem>
+                  <valItem ident="probable" sameAs="low">
+                    <desc>There is a low degree of certainty about this place</desc>
+                  </valItem>
+                  <valItem ident="speculative" sameAs="unknown">
+                    <desc>The place is unknown</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+            </attList>            
+          </elementSpec>
+          
           <!-- delete lots of attributes -->
           <elementSpec ident="orgName" mode="change" module="namesdates">
             <attList>
