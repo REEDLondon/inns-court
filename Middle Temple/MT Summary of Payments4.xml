@@ -209,7 +209,7 @@
          </seriesStmt>
          <sourceDesc>
             <p>This publication constitutes a remediation of the printed Inns of Court collection. Information on original sources for transcriptions can be accessed via the Document Descriptions.</p>
-            <p>This record can be found on [PAGE(S)] of REED: Inns of Court, Vol. [#]</p>
+            <p>This record can be found on pages 179-80 of REED: Inns of Court, Vol. 1</p>
             <p>For a full list of REED collections, editors, executive board members, and staff, please visit http://reed.utoronto.ca/people</p>
          </sourceDesc>
       </fileDesc>
@@ -243,14 +243,10 @@
       <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
          <mods:mods>
             <mods:titleInfo>
-               <mods:title>Title</mods:title>
-               <mods:subTitle>Some subtitle here</mods:subTitle>
-            </mods:titleInfo>
-            <mods:titleInfo type="alternative">
-               <mods:title>Alternative title</mods:title>
+               <mods:title>Middle Temple Summary of Payments</mods:title>
             </mods:titleInfo>
             <mods:name type="corporate">
-               <mods:namePart>Corporate Author Name</mods:namePart>
+               <mods:namePart>Middle Temple</mods:namePart>
             </mods:name>
             <mods:typeOfResource>text</mods:typeOfResource>
             <mods:genre type="formatType">Born Digital</mods:genre>
@@ -266,7 +262,7 @@
                <mods:internetMediaType>text/xml</mods:internetMediaType>
                <mods:digitalOrigin>born digital</mods:digitalOrigin>
             </mods:physicalDescription>
-            <mods:abstract>Some abstract here.</mods:abstract>
+            <mods:abstract>Middle Temple summary of expenses for performance of The Memorable Masque in 1613.</mods:abstract>
             <mods:subject>
                <mods:topic valueURI="http://id.loc.gov/authorities/subjects/sh2002012473">Theater--England--London--History--17th century </mods:topic>
             </mods:subject>
@@ -289,19 +285,62 @@
       </xenoData>
    </teiHeader>
 
-   <text ana="taxon:letter" type="record" xml:id="abcde">
-      <!-- match with IDs -->
+   <text ana="taxon:middle_temple" type="record" xml:id="RLMTSP4">
       <body>
          <head>
-            <date when-iso="YYY-MM-DD">1234</date></head>
+            <date when-iso="1614">1613-1614</date></head>
          <div type="transcription" xml:lang="en">
-            <!-- If there is a translation, it should also have a xml:lang="" -->
             <div>
                <head>
-                  <supplied/></head>
-               <pb type="sheet"/>
-               <gap reason="omitted"/>
-               <ab> </ab>
+                  <supplied>Middle Temple Summary of Payments*</supplied></head>
+               <pb type="single_sheet"/>
+
+               <ab>payde by the vndertreasurer as followeth</ab>
+               <table>
+                  <row>
+                     <cell>Inprimi<ex>s</ex> the xxvj<hi rend="superscript">th</hi> daye of ffebruary 1612 payde<lb/>
+                        vnto mr Nicholas Herman mr Martyns man as by <lb/>
+                        a bill of his hand maye appeare</cell>
+                     <cell rend="right">vj li. xiij s. iiij d.</cell>
+                  </row>
+                  <row>
+                     <cell><note type="marginal" rend="left">m<ex>as</ex>ter Records mondey</note>Item the first daye of March 1612 I payd vnto mr<lb/>
+                        Brooke of Lyncolns Inn by the apoyntm<ex>en</ex>t of mr<lb/> 
+                        Martyn the some of</cell>
+                     <cell rend="right">lx li.</cell>
+                  </row>
+                  <row>
+                     <cell><note type="marginal" rend="left">Io<ex>hn</ex> hopkins</note> Item the xix<hi rend="superscript">th</hi> daye of Iune 1613 I payd vnto<lb/>
+                        mr Nicholas Herman mr Martyns Clark ^<add place="above">by</add><lb/>
+                        the apoyntm<ex>en</ex>t of his m<ex>aste</ex>r as by a bill maye appeare</cell>
+                     <cell rend="right">C li.</cell>
+                  </row>
+                  <row>
+                     <cell>Item the xxvj<hi rend="superscript">th</hi> daye of Iune 1613 I payd vnto<lb/>
+                        the sayd mr Herman mr Martyns Clarke as by<lb/>
+                        a bill of his hand maye appeare the some of</cell>
+                     <cell rend="right">l li.</cell>
+                  </row>
+                  <row>
+                     <cell><note type="marginal" rend="left">mr Powell</note> Item the xxviij<hi rend="superscript">th</hi> daye of Iune 1613 I payd vnto<lb/>
+                        the sayd mr Herman mr Martyns Clarke as by a<lb/>
+                        bill of his hand maye appeare the some of</cell>
+                     <cell rend="right">l li.</cell>
+                  </row>
+                  <row>
+                     <cell>Item the v<hi rend="superscript">th</hi> daye of November 1613 I payd vnto<lb/>
+                        the sayd mr Herman mr Martyns Clark <del>th</del> as by<lb/>
+                        a bill of his hand maye appeare the some of</cell>
+                     <cell rend="right">xx li.</cell>
+                  </row>
+                  <row>
+                     <cell></cell>
+                     <cell rend="right">Sic Sum<ex>m</ex>a Total<ex>is</ex> 300 li.<lb/>
+                        payde more then rec<ex>eaved</ex><lb/>
+                        iij li. vj s. viij d.</cell>
+                  </row>
+               </table>
+                        
             </div>
 
          </div>

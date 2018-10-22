@@ -243,14 +243,10 @@
       <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
          <mods:mods>
             <mods:titleInfo>
-               <mods:title>Title</mods:title>
-               <mods:subTitle>Some subtitle here</mods:subTitle>
-            </mods:titleInfo>
-            <mods:titleInfo type="alternative">
-               <mods:title>Alternative title</mods:title>
+               <mods:title>Middle Temple Summary of Payments</mods:title>
             </mods:titleInfo>
             <mods:name type="corporate">
-               <mods:namePart>Corporate Author Name</mods:namePart>
+               <mods:namePart>Middle Temple</mods:namePart>
             </mods:name>
             <mods:typeOfResource>text</mods:typeOfResource>
             <mods:genre type="formatType">Born Digital</mods:genre>
@@ -266,7 +262,7 @@
                <mods:internetMediaType>text/xml</mods:internetMediaType>
                <mods:digitalOrigin>born digital</mods:digitalOrigin>
             </mods:physicalDescription>
-            <mods:abstract>Some abstract here.</mods:abstract>
+            <mods:abstract>Middle Temple summary of expenses for performance of The Memorable Masque in 1613.</mods:abstract>
             <mods:subject>
                <mods:topic valueURI="http://id.loc.gov/authorities/subjects/sh2002012473">Theater--England--London--History--17th century </mods:topic>
             </mods:subject>
@@ -289,19 +285,57 @@
       </xenoData>
    </teiHeader>
 
-   <text ana="taxon:letter" type="record" xml:id="abcde">
-      <!-- match with IDs -->
+   <text ana="taxon:middle_temple" type="record" xml:id="RLMTSP1">
       <body>
          <head>
-            <date when-iso="YYY-MM-DD">1234</date></head>
+            <date when-iso="1613">1612-1613</date></head>
          <div type="transcription" xml:lang="en">
-            <!-- If there is a translation, it should also have a xml:lang="" -->
             <div>
                <head>
-                  <supplied/></head>
-               <pb type="sheet"/>
-               <gap reason="omitted"/>
-               <ab> </ab>
+                  <supplied>Middle Temple Summary of Payments*</supplied></head>
+               <pb type="single_sheet"/>
+               <ab>
+               <table>
+                  <row>
+                     <cell>Paid to mr Daston out of the house stocke</cell>
+                     <cell>100 li.</cell>
+                  </row>
+                  <row>
+                     <cell>Paid more by me w<ex>hi</ex>ch I receyved of some of my Masters of the Bench</cell>
+                     <cell>200 li.</cell>
+                  </row>
+                  <row>
+                     <cell>Paid more that the officers stand bounden for</cell>
+                     <cell>200 li.</cell>
+                  </row>
+                  <row>
+                     <cell>Paid more by Iohn Hopkins</cell>
+                     <cell>350 li.</cell>
+                  </row>
+                  <row> 
+                     <cell rend="align_center">Sum<ex>m</ex>a total<ex>is</ex> paid to mr Daston ys</cell>
+                     <cell>850 li.</cell>
+                  </row>
+               </table>
+                  
+                  
+                  <note type="marginal" rend="left">R<ex>eceived</ex></note>
+                  <table>
+                  <row>
+                     <cell>Paid to mr Brooke of Lincolnes Inn by the appointm<ex>en</ex>t of mr Richard Marten</cell>
+                     <cell rend="align_right">lx li.</cell>
+                  </row>
+                     <row>
+                        <cell>Paid more to mr Marten hs man</cell>
+                        <cell rend="align_right">vj li. <del>vj s. vij d.</del> ^<add place="above">xiij s. iiij d.</add></cell>
+                     </row>
+                     <row>
+                        <cell>The some of lxvj li. <add place="above">13</add> xiij s. iiij d. ^<add place="above">above written</add> was receaved of
+                           Sir Henry Mountague Knight Recorder of London by the vnder Trea<ex>sure</ex>r, And payd by the vnder Trea<ex>sure</ex>r to mr ^<add place="above">Brooke</add> of Lincolns Inn lx li. &amp; to mr Martyns man vj li. xiij s. iiij d. And by mr Martyns appoyntm<ex>en</ex>t</cell>
+                     </row>
+
+                  </table>
+               </ab>
             </div>
 
          </div>
