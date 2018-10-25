@@ -776,12 +776,9 @@
 
           <!-- namesdates: only include orgName, persName, placeName, occupation, and settlement. Not doing metadata records for named entities...yet-->
           <moduleRef key="namesdates" include="orgName persName place placeName settlement occupation"/>
-
-<<<<<<< HEAD
-
             
           <!-- delete lots of attributes -->
-=======
+
           <!-- persName: modify @cert for CWRC -->
           <elementSpec ident="persName" mode="change" module="namesdates">
             <attList>
@@ -827,7 +824,6 @@
           </elementSpec>
           
           <!-- delete lots of attributes for CWRC -->
->>>>>>> cb6f0bc1bdb678e31953195437d8f849a28410be
           <elementSpec ident="orgName" mode="change" module="namesdates">
             <attList>
               <attDef ident="calendar" mode="delete"/>
@@ -849,16 +845,16 @@
             <attList>
               <attDef ident="cert" mode="change">
                 <valList mode="add" type="closed">
-                  <valItem ident="definite">
+                  <valItem ident="definite" sameAs="high">
                     <desc>There is a high degree of certainty about this organization</desc>
                   </valItem>
-                  <valItem ident="reasonably certain">
+                  <valItem ident="reasonably certain" sameAs="moderate">
                     <desc>There is a moderate degree of certainty about this organization</desc>
                   </valItem>
-                  <valItem ident="probable">
+                  <valItem ident="probable" sameAs="low">
                     <desc>There is a low degree of certainty about this organization</desc>
                   </valItem>
-                  <valItem ident="speculative">
+                  <valItem ident="speculative" sameAs="unknown">
                     <desc>Identification is speculative</desc>
                   </valItem>
                 </valList>
