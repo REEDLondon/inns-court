@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>
+            <hi rend="bold"> 1614/15</hi></p>
+         <p><hi rend="bold">Masque of Ulysses and Circe</hi> Emmanuel College Library: MS 68</p>
+         <p>f 8</p>
+
+         <p><title>THE Inner Temple masq<ex>ue</ex>. p<ex>re</ex>sented by the gentlemen there
+                  Ian<ex>uary</ex> 13. 1614.</title></p>
+         <p>Written by W Browne.</p>
+
+         <p>Ovid<ex>ii</ex> ad Pisonem.</p>
+
+         <p>non<note type="foot"><hi rend="italic">indented to mid-folio and preceded by a
+               line</hi></note> semper Gnosius arcus</p>
+         <p>Destinat, exempto sed laxat cornua neruo.<note type="foot"><hi rend="italic">‘the Cretan
+                  does not always aim the bow, but freeing its string he relaxes the horns’;
+                  Anonymous, Laus Pisonis 142–3</hi></note></p>
+
+         <p>To the honorable society of the Inner temple.</p>
+
+         <p>Gentlemen.</p>
+
+         <p>I giue you but your owne: if you refuse to foster it I knowe not who will. by
+               yo<ex>u</ex>r meanes it may liue, If it degenerate in kinde from those other
+               o<ex>u</ex>r society hath produc’d, blame yo<ex>u</ex>r selues for not seekinge to a
+            happier muse. I knowe it is not w<ex>i</ex>thout faultes, yet such as yo<ex>u</ex>r
+            loues or at least Poetica Licentia (the common salue) will make tollerable. what is good
+            in it y<ex>a</ex>t is yo<ex>u</ex>rs, what bad myne, what indifferent both, &amp;amp;
+               y<ex>a</ex>t will suffice, since it was done to please our selues in priuate, by him
+            that is</p>
+
+         <p><hi rend="right">All yours</hi></p>
+         <p><hi rend="right">W Browne.</hi></p>
+
+         <p>APPENDIX 2 549</p>
+
+         <p>ff 9–16v</p>
+
+         <lg>
+            <l>The inner temple maske</l>
+            <l>The description of the firste scæne</l>
+         </lg>
+
+         <p>On one side the hall towardes the lower end was discouered a cliffe of the sea done ouer
+            in parte white accordinge to that of Vergill libro 5:</p>
+         <lg>
+            <l>Iamq<ex>ue</ex> adeo scopulos sirenum aduecta subibat</l>
+            <l>Difficiles quondam multorumq<ex>ue</ex> ossibus albos<note type="foot"><hi
+                     rend="italic">‘and conveyed thus far, it (the ship) was approaching the cliffs
+                     of the sirens, dangerous of ancient times and white with the bones of many
+                     men’; Vergil, Aeneid 5.864–5</hi></note>.</l>
+         </lg>
+
+         <p>Vpon y<ex>a</ex>t were seated two Syrens as they are described by Hyginus &amp; Seruius
+               w<ex>i</ex>th their vpper parts like woemen to the nauell and the rest like a hen:
+            One of theese at the firste discouery of the scene (a sea being done in perspectiue
+            on[e] one side the cliffe) began to singe this songe beinge as lasciuious
+            p<ex>ro</ex>per to them &amp; begininge as that of theirs in Hom<ex>er</ex>
+               lib<ex>ro</ex><!-- The rest of this line is in Greek, 2 footnotes -->
+         </p>
+
+         <lg>
+            <l>Steere hither, steere, your winged Pines</l>
+            <l>All beaten Mariners</l>
+            <l>Here lye loves vndiscovered Mynes</l>
+            <l>A prey to passengers.</l>
+            <l>Perfumes farre sweeter then the best</l>
+            <l>Which make ye Phœnix vrne and nest</l>
+            <l>ffeare not your ships</l>
+            <l>Nor any to oppose you saue our lips</l>
+            <l>But come on shore</l>
+            <l>Where no ioy dyes till love hath gotten more</l>
+         </lg>
+
+         <p>The last two lines were repeated as from a groue near by a full Chorus &amp; ye Syren[e]
+            about to singe againe, Triton (in all parts as Apollonius lib<ex>ro</ex> 4. Argonauticæ
+            shewes him) was seene interruptinge her thus:</p>
+
+         <sp>
+            <speaker n="Triton">Triton.</speaker>
+            <lg>
+               <l>Leaue, leaue alluring Syren w<ex>i</ex>th thy song</l>
+               <l>To hasten w<ex>ha</ex>t ye Fates would faine p<ex>ro</ex>long</l>
+               <l>Your sweetest tunes but grones of Mandrakes be</l>
+
+               <!-- 550 MASQUE OF ULYSSES AND CIRCE -->
+
+               <l>He his owne Traytor is y<ex>a</ex>t heareth thee |</l>
+               <l>Tethys Commaunds nor is it fit y<ex>a</ex>t you</l>
+               <l>Should ever glory you did him subdue–</l>
+               <l>By wyles whose pollicyes were never spread</l>
+               <l>Till Flaming Troy gave light to haue y<ex>e</ex>m read</l>
+               <l>Vlysses now furrowes ye liquid plaine</l>
+               <l>Doubtfull of seeing Ithaca againe–</l>
+               <l>ffor in his way more stops are thrust [be] L by J time</l>
+               <l>Then in ye path where vertue comes to climbe.</l>
+               <l>She y<ex>a</ex>t w<ex>i</ex>th silver springs for ever fills</l>
+               <l>The shady groues, sweet meddowes and ye hills</l>
+               <l>ffrom whose continuall store such pooles are fed</l>
+               <l>As in ye land for seas are famosed</l>
+               <l>Tis shee whose fauor to this Grecian tends</l>
+               <l>And to remove his ruine Triton sends</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Syren">Syren.</speaker>
+            <lg>
+               <l>But ’tis not Tethys, nor a greater powre</l>
+               <l>Cynthia, that rules the waues, scearce he (each howre)</l>
+               <l>that weildes the thunderboltes, can thinges begun</l>
+               <l>By mighty Circe, (daughter to the sun)</l>
+               <l>Checke or controule; she y<ex>a</ex>t by charmes can make</l>
+               <l>The scalded<note type="foot"><hi rend="italic">for</hi>scaled</note> fish to leaue
+                  the brinye lake.</l>
+               <l>And on the seas walke as on land she were</l>
+               <l>She that can pull ye pale moone from her spheare,</l>
+               <l>And at midday the worlds all glorious eye</l>
+               <l>Muffle w<ex>i</ex>th cloudes in longe obscuritie.</l>
+               <l>She that can cold December set on fire</l>
+               <l>And from the graue bodyes w<ex>i</ex>th life inspire.</l>
+               <l>She that can Cleaue the center &amp; w<ex>i</ex>th ease</l>
+               <l>A prospect make to our Antipodes</l>
+               <l>Whose mystique spelles haue fearfull thunders made</l>
+               <l>And forc’t braue riuers to run retrograde. |</l>
+               <l>She w<ex>i</ex>thout stormes that sturdy oakes can tare</l>
+               <l>And turne their rootes where late their curld toppes wer e</l>
+
+               <l>She that can w<ex>i</ex>th the winter Solstice bringe</l>
+               <l>All fflora’s daintyes: Circe bids me singe</l>
+               <l>And till some [gret] greater hand her power can staye</l>
+               <l>Who ’ere commaunde, I none but her obaye.</l>
+            </lg>
+         </sp>
+
+         <p>APPENDIX 2 551</p>
+
+         <sp>
+            <speaker n="Triton">Triton.</speaker>
+            <note type="Margin" rend="left">!."om<ex>e</ex><!-- Greek footnote --></note>
+            <note type="foot"><hi rend="italic">‘but !..." Nereus’ daughter, etc’</hi></note>
+            <p>Then Nereus daughter thus you’le haue me telle</p>
+         </sp>
+
+         <sp>
+            <speaker n="Syren">Syren.</speaker>
+            <p>You maye.</p>
+         </sp>
+
+         <sp>
+            <speaker n="Triton"> Triton.</speaker>
+
+            <p>Thinke on her wrath.</p>
+         </sp>
+
+         <sp>
+            <speaker n="Syren"> Siren.</speaker>
+
+            <p>I shall. Triton. farewelle.<note type="foot"><hi rend="italic">speech heading and
+                     Triton’s speech not on new lines in MS</hi></note></p>
+         </sp>
+
+         <sp>
+            <speaker n="Syren"> Siren.</speaker>
+            <lg>
+               <l>Vaine was thy message, vaine her heste, for I</l>
+               <l>Muste tune againe my wanton Melodye.</l>
+            </lg>
+            <lg>
+               <l>Here she went on with her songe thus.</l>
+
+               <l>ffor swellinge waues, our pantinge brestes</l>
+               <l>where neuer stormes arise</l>
+               <l>Exchange; and be a while our guestes</l>
+               <l>for starres, gaze on our eyes.</l>
+               <l>The compasse, loue shall hourely singe,</l>
+               <l>And as he goes aboute the ringe,</l>
+               <l>we will not misse</l>
+               <l>To telle each pointe he nameth with a kisse.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Chorus">Chorus</speaker>
+            <lg>
+               <l>Then come on shore.</l>
+               <l>Where no ioye dyes till loue hath gotten more.</l>
+            </lg>
+
+            <p>At ye end of this songe Circe was seene vpon the rocke, quaintly attyr’d, her haire
+               loose aboute her shoulders, an Anadem of flowers on her head w<ex>i</ex>th a wand in
+               her hand, &amp; then makinge towardes the Syrens cald them thence w<ex>i</ex>th this
+               speeche– |</p>
+            <lg>
+               <l>Sirens ynouh<note type="foot"><hi rend="italic">for</hi>ynough</note>; cease;
+                  Circe hath prævayld,</l>
+               <l>The Greekes w<ex>hi</ex>ch on ye dauncinge billowes sayld,</l>
+               <l>Aboute whose shippes a hundred Dolphins clunge</l>
+
+               <!-- 552 MASQUE OF ULYSSES AND CIRCE -->
+               <l>Wrapt w<ex>i</ex>th the musicke of Vlisses tongue,</l>
+               <l>Haue w<ex>i</ex>th their guide by powrfull Circe’s hand</l>
+               <l>Cast their hook’d anchors on Ææa’s strand.</l>
+               <l>Yonde standes a hille crown’d w<ex>i</ex>th high wauinge trees</l>
+               <l>Whose gallant toppes each neighb’ringe countrye sees.</l>
+               <l>Vnder whose shade an hundred Syluans playe.</l>
+               <l>W<ex>i</ex>th Gaudy Nymphes farre fairer then ye daye</l>
+               <l>Where euerlastinge Springe w<ex>i</ex>th Syluer showres</l>
+               <l>Sweete roses doth encrease to grace our bowres.</l>
+               <l>Where lauish fflora prodigall in pride</l>
+               <l>Spendes what might well enrich all earth beside,</l>
+               <l>And to adorne this place shee loues so deare</l>
+               <l>Stayes in some Clymats scearcely halfe ye yeare.</l>
+               <l>When would shee to the world indifferent bee,</l>
+               <l>They should continuall Aprill haue as wee.</l>
+               <l>Midway ye wood and from ye leueld lands</l>
+               <l>A spatious yet a curious arbor standes.</l>
+               <l>Wherein should Phœbus once to pry beginne</l>
+               <l>I would benight him ’ere he gette his Inne,</l>
+               <l>Or turne his steedes awrye, so drawe him on</l>
+               <l>To burne all landes but this like Phaeton.</l>
+               <l>Vlisses, neere, his mates by my stronge charmes</l>
+               <l>Lye there till my returne in sleepes soft armes.</l>
+               <l>Then Syrens quickly wend we to the bowre</l>
+               <l>To fitte their well-come &amp; shew Circe’s powre.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Siren">Siren.</speaker>
+            <lg>
+               <l>What all the Elementes doe owe to thee</l>
+               <l>In their obedience is perform’d in mee.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Circe">Circe.</speaker>
+            <lg>
+               <l>Circe drinkes not of Lethe, then awaye</l>
+               <l>To helpe ye Nymphes who now begin their laye. |<note type="foot"><hi rend="italic"
+                        >start of f 11</hi></note></l>
+            </lg>
+         </sp>
+
+         <p>The Seconde Scene.</p>
+
+         <p>While Circe was speakinge her first speech &amp; at theese words Yond standes a hill
+            etc, a trauers was drawne at ye lower end of the hall, &amp; gaue way for the discouery
+            of an artificiall wood so nere imitatinge nature y<ex>a</ex>t I thinke had there beene a
+            groue like y<ex>a</ex>t in ye open plaine, birdes would haue beene <!--APPENDIX 2 553-->
+            faster drawne to that then to Zeuxis<note type="foot">x<hi rend="italic">corrected from
+                  another letter</hi></note> grapes. ye trees stood at the climbinge of an hill
+            &amp; lefte at their feete a little plaine, w<ex>h</ex>ich they circled like a
+            crescente, in this space vpon hillockes were seene, eight musitians in crimson taffity
+            robes w<ex>i</ex>th chaplets of lawrell on their heades their lutes by them,
+               w<ex>hi</ex>ch beinge by them toucht as a warninge to ye Nymphes of ye wood, from
+            amonge the trees was hearde this songe<note type="foot"><hi rend="italic">line filled
+                  out with 13 equally spaced dots</hi></note></p>
+
+         <lg>
+            <l><title type="song">The songe in the Wood</title></l>
+
+            <l>What singe the sweete byrdes in each groue?</l>
+            <l>Nought but loue.</l>
+            <l>What sound our Eccho, day and night?</l>
+            <l>All delighte.</l>
+            <l>What doth each wynd breath vs that fleetes?</l>
+            <l>Endlesse sweetes.</l>
+         </lg>
+
+         <sp>
+            <speaker n="Chorus">Chorus</speaker>
+            <lg>
+               <l>Is there a place on earth this Isle excelles</l>
+               <l>Or any Nymphes more happy liue then wee.</l>
+               <l>When all our songes, our soundes &amp; breathinges bee,</l>
+               <l>That here all [loue] Loue, Delighte and Sweetenes dwells.</l>
+            </lg>
+         </sp>
+
+         <p><stage type="mixed">By this time Circe &amp; ye Syrens beinge come into ye wood, Vlisses
+               was seene lyeing as asleepe vnd<ex>er</ex> ye couerte of a fair tree, towards whom
+               Circe coming bespake thus:</stage></p>
+
+         <sp>
+            <speaker n="Circe">Circe.</speaker>
+            <lg>
+               <l>Yet holdes soft sleepe his course. Now Ithacus</l>
+               <l>Aiax would offer Hecatombes to vs</l>
+               <l>And Iliums rauish’d wifes &amp; childlesse sires</l>
+               <l>W<ex>i</ex>th incense dym ye bright æthereall fires. |</l>
+               <l>To haue thee bounde in chaynes of sleepe as heere</l>
+               <l>But y<ex>a</ex>t<note type="foot"><hi rend="italic">for</hi>y<ex>a</ex>t
+                     thou</note> mayst behold &amp; knowe how deare</l>
+               <l>Thou art to Circe, w<ex>i</ex>th my magicke deepe</l>
+               <l>And powerfull verses, thus I banish sleepe.</l>
+            </lg>
+         </sp>
+
+         <lg>
+            <l><title type="song">The Charme</title></l>
+            <l>Sonne of Erebus &amp; nighte</l>
+            <l>Hye away; and aime thy flighte,</l>
+
+            <!-- 554 MASQUE OF ULYSSES AND CIRCE-->
+
+            <l>Where consorte none other fowle</l>
+            <l>Then ye batte &amp; sullen owle</l>
+            <l>Where vpon the lymber grasse</l>
+            <l>Poppy &amp; Mandragoras</l>
+            <l>W<ex>i</ex>th like simples not a fewe</l>
+            <l>Hange for euer droppes of dewe.</l>
+            <l>Where flowes Lethe, w<ex>i</ex>th out coyle</l>
+            <l>Softly like a streame of oyle.</l>
+            <l>Hye thee thither gentle Sleepe</l>
+            <l>W<ex>i</ex>th this Greeke no longer keepe.</l>
+            <l>Thrice I charge thee by my wand,</l>
+            <l>Thrice w<ex>i</ex>th [Moly] Moly from my hand</l>
+            <l>Doe I to touch Vlisses eyes</l>
+            <l>And w<ex>i</ex>th the Iaspis: Then arise–</l>
+            <l>Sagest Greeke<note type="foot"><hi rend="italic">speech concludes with 11 equally
+                     spaced dots</hi></note></l>
+         </lg>
+
+         <p><stage type="modifier">Vlisses (as by ye powre of Circe) awakinge thus
+            began.</stage></p>
+
+         <sp>
+            <speaker n="Ulysses">Vlisses.</speaker>
+            <lg>
+               <l>Thou<note type="foot"><hi rend="italic">speech preceded by 9 equally spaced
+                        dots</hi></note> more then mortalle mayde</l>
+               <l>Who when thou listes canst make (as if afraide)</l>
+               <l>The mountaines tremble &amp; w<ex>i</ex>th terrour shake</l>
+               <l>The seate of Dis; &amp; from Auernus lake</l>
+               <l>Grim Hecate w<ex>i</ex>th all the furyes bringe</l>
+               <l>To work reuenge; or to thy quæstioninge |</l>
+               <l>Disclose the secrettes of th’infernall shades</l>
+               <l>Or raise the ghostes y<ex>a</ex>t walke the vnder-glades.</l>
+               <l>To thee, whom all obey, Vlisses bendes,</l>
+               <l>But may I aske (Greate Circe) whereto tendes</l>
+               <l>Thy neuer failinge handes? Shall we be free?</l>
+               <l>Or must thyne anger crush my mates &amp; mee?</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Circe">Circe.</speaker>
+            <lg>
+               <l>Neyther, Laertes sonne. W<ex>i</ex>th winges of loue</l>
+               <l>To thee &amp; none but thee, my actions moue.</l>
+               <l>My arte went w<ex>i</ex>th thee &amp; thou me mayst thanke</l>
+               <l>In winninge Rhesus horses, ’ere they dranke</l>
+               <l>Of Xanthus streame; &amp; when w<ex>i</ex>th humane gore</l>
+               <l>Cleare Hebrus channell was all stayned ’ore;</l>
+
+               <!--APPENDIX 2 555-->
+
+               <l>When some braue Greekes companions then w<ex>i</ex>th thee</l>
+               <l>Forgot their country through the Lotos tree.</l>
+               <l>I tyn’d the firebrande that (beside thy flight)</l>
+               <l>Left Polyphemus in eternall nighte.</l>
+               <l>And lastly to Ææa brought thee on</l>
+               <l>Safe from the man-deuouring Læstrigon.</l>
+               <l>This for Vlisses loue hath Circe done.</l>
+               <l>And if to liue w<ex>i</ex>th mee thou shalt be wonne;</l>
+               <l>Aurora’s hand shall neuer drawe awaye</l>
+               <l>The sable vale y<ex>a</ex>t hides ye gladsome daye.</l>
+               <l>But we new pleasures will beginne to taste</l>
+               <l>And better, stille, those we enioyed laste.</l>
+               <l>To instance what I canne: Musicke, thy voyce</l>
+               <l>And of all those haue felte o<ex>u</ex>r wrath the choyce</l>
+               <l>Appeare; and in a dance ’gin that delight</l>
+               <l>Which w<ex>i</ex>th the minutes shall growe infinite.</l>
+            </lg>
+         </sp>
+
+         <p><stage type="mixed">Here one attir’d like a woodman in all poyntes came forth of ye wood
+               &amp; goeinge towr’ds ye stage sunge this songe, to call away ye firste
+                  Antimasque<note type="foot"><hi rend="italic">line filled out with 10 equally
+                     spaced dots</hi></note> |</stage></p>
+
+         <lg>
+            <l><title>Songe.</title></l>
+            <l>Come yee whose horns<note type="foot">s<hi rend="italic">corrected from other
+                     letters</hi></note> the cuckold weares,</l>
+            <l>The whittoll too w<ex>i</ex>th asses eares,</l>
+
+            <l>Let the wolfe leaue howlinge,</l>
+            <l>The Baboone his scowlinge,</l>
+            <l>And Grillus hye</l>
+            <l>Out of his stye.</l>
+         </lg>
+
+         <lg>
+            <l>Though gruntinge, though barkinge, though brayeinge, yee come,</l>
+            <l>Wee’le make yee daunce quiet and so send yee home.</l>
+            <l>No ginne shall snare you</l>
+            <l>Nor Mastiue scare you,</l>
+            <l>Nor learne the baboones trickes</l>
+            <l>Nor Grillus scoffe,</l>
+            <l>ffrom the hogge troughe.</l>
+            <l>But turne Againe vnto the thickes.</l>
+         </lg>
+
+         <lg>
+            <l>Here’s none (’tis hop’d) so foolish, scornes</l>
+            <l>That any els should weare the hornes</l>
+
+            <!-- 556 MASQUE OF ULYSSES AND CIRCE -->
+
+            <l>Here’s no Curre w<ex>i</ex>th howlinge</l>
+            <l>Nor an ape w<ex>i</ex>th scowlinge</l>
+            <l>Shall mocke or moe</l>
+            <l>At what you showe.</l>
+         </lg>
+
+         <lg>
+            <l>In iumpinge, in skippinge, in turninge or oughte</l>
+            <l>You shall doe to please vs, how well or how noughte.</l>
+            <l>If there be any</l>
+            <l>Amonge this many</l>
+            <l>Whom such an humour steares</l>
+            <l>May he still lye[r]</l>
+            <l>In Grillus stye</l>
+            <l>Or weare for euer the Asses eares.</l>
+         </lg>
+
+         <p>While ye firste staffe of this songe was singinge out of ye thickets on eyth<ex>e</ex>r
+            side ye Boscage came rushinge ye Antimasque, beinge such as by Circe were supposed to
+            haue beene transformed (hauinge ye mindes of men still) into these shapes followinge.
+               |<note type="foot"><hi rend="italic">start of f 13</hi></note></p>
+
+         <lg>
+            <note type="Margin" rend="left">The musicke was composed of treble violins with all the
+               <!--<...>-->eed party, A base violle, base lute, sagbut, cornamute, &amp; taber &amp;
+               pipe.</note>
+            <l>2. w<ex>i</ex>th heartes, heades &amp; bodyes as Actæon is pictur’d.</l>
+            <l>2. like Midas w<ex>i</ex>th Asses eares.</l>
+            <l>2. like wolues as Lycaon is drawne.</l>
+            <l>2. like Baboones.</l>
+            <l>Grillus (of whom Plutarch writes in his morralles) in ye shape of a hogge.</l>
+         </lg>
+
+         <p>Theese togither dancinge an Antike measure tow’rdes ye latt<ex>e</ex>r end of yt missed
+            Grillus who was newly slipte away, &amp; whilst they were at a stand, wondringe what was
+            become of him, the woodman stepte forth &amp; sunge this songe.</p>
+
+         <p><title>Songe.</title></p>
+         <lg>
+            <l>Grillus is gone, belike he hath hearde:</l>
+            <l>The dayry-maid knocke at ye trough in ye yearde.</l>
+
+            <l>Through thicke &amp; thinne he wallowes</l>
+            <l>And weighes nor depthes nor shallowes.</l>
+
+            <l>Harke how he whynes</l>
+            <l>Run all ’ere he dines.</l>
+
+            <!--APPENDIX 2 557-->
+
+            <l>Then serue him a tricke</l>
+            <l>ffor beinge so quicke</l>
+
+            <l>And lette him for all his paines</l>
+
+            <l>Behold you turne cleane of</l>
+            <l>His troughe</l>
+            <note type="Margin" rend="left">Ouid<ex>ii</ex> met<ex>amorphoseon</ex> lib<ex>ro</ex>
+               14</note>
+            <l>And spill all his wash &amp; his graines.</l>
+         </lg>
+
+         <p>W<ex>i</ex>th this ye Triplex of yeir tune was plaid twice or thrice ou<ex>e</ex>r &amp;
+            by turnes brought the<ex>m</ex> from ye stage; when ye woodman sung this oth<ex>e</ex>r
+            staffe of ye laste songe, &amp; then ran after them:</p>
+
+         <lg>
+            <l>And Now ’tis wish’d y<ex>a</ex>t all such as hee</l>
+            <l>Were rootinge w<ex>i</ex>th him at ye trough or ye tree.</l>
+            <l>ffly, fly, from our pure fountaines</l>
+            <l>To the darke vales or the mountaines.</l>
+
+            <l>Liste some one whynes</l>
+            <l>W<ex>i</ex>th voyce like a swines,</l>
+
+            <l>As Angry y<ex>a</ex>t none</l>
+            <l>W<ex>i</ex>th Grillus is gone. |</l>
+
+            <l>Or y<ex>a</ex>t he is lefte behinde.</l>
+
+            <l>O let there be no staye</l>
+            <l>In his waye</l>
+            <l>To hinder the Boare from his kinde.</l>
+         </lg>
+
+         <sp>
+            <speaker n="Circe">Circe.</speaker>
+
+            <p>How likes Vlisses this?</p>
+         </sp>
+
+         <sp>
+            <speaker n="Ulysses">Vlisses.</speaker>
+            <lg>
+               <l>Much<note type="foot"><hi rend="italic">speech preceded by 12 equally spaced
+                        dots</hi></note> like to one</l>
+               <l>Who in a shipwracke beinge cast vpon</l>
+               <l>The froathy shores and safe beholdes his mates</l>
+               <l>Equally cross’d by Neptune and the fates</l>
+               <l>You might as well haue ask’d how I would like</l>
+               <l>A straine whose æquall Orpheus could not strike,</l>
+               <l>Vpon a harpe whose stringes none other bee</l>
+               <l>Then of the harte of chaste Penelope.</l>
+               <l>O let it be enough that thou in theese</l>
+               <l>Hast made most wretched Laertiades.</l>
+               <l>Let not the sad chance of distressed Greekes</l>
+               <l>W<ex>i</ex>th other teares then sorrowes dewe your cheekes</l>
+
+               <!-- 558 MASQUE OF ULYSSES AND CIRCE-->
+
+               <l>Most abiecte basenesse hath enthral’d that breste</l>
+               <l>W<ex>hi</ex>ch laughes at men by misery oppreste.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Circe">Circe.</speaker>
+            <lg>
+               <l>In this, as Lyllies or ye new falne snowe</l>
+               <l>Is Circe spotlesse yet. What though the bowe </l>
+               <l>W<ex>hi</ex>ch Iris bendes, appeareth to each sight</l>
+               <l>In various hewes &amp; colours infinite?</l>
+               <l>The learned knowe that in it selfe is free</l>
+               <l>And light And shade make that varietye.</l>
+               <l>Thinges farre of seene seeme not the same they are,</l>
+               <l>ffame is not euer truth’s Discouerer;</l>
+               <l>for still where enuy meeteth a reporte</l>
+               <l>Ill she makes worse, &amp; what is Good come shorte. |</l>
+               <l>In whatso’ere this land hath passiue beene</l>
+               <l>Or she that here ’ore other raigneth queene</l>
+               <l>Let wise Vlisses judg. Some I confesse</l>
+               <l>That towr ’ds this Ile not longe since did addresse</l>
+               <l>Their stretched oares, no sooner landed were,</l>
+               <l>but (carelesse of themselues) they heere &amp; there</l>
+               <l>fed on strange fruites, inuenominge their bloodes</l>
+               <l>And Now like monsters range about the woods.</l>
+               <l>If those thy mates were yet is Circe free</l>
+               <l>for their misfortunes haue not byrth from mee.</l>
+               <l>Who in th’ Apothecaries shoppe hath ta’ne</l>
+               <l>(Whilst he is wantinge) that w<ex>hi</ex>ch breeds his bane</l>
+               <l>should neuer blame the man who there had plac’d it</l>
+               <l>But his owne folly vrginge him to taste it.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Ulysses">Vlysses.</speaker>
+            <lg>
+               <l>Ææa’s queene, and Great Hyperions pride</l>
+               <l>Pardon misdoubtes; and we are satisfi’de.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Circe">Circe.</speaker>
+            <lg>
+               <l>Swifter the lightninge comes not from aboue</l>
+               <l>Then doe our grants borne on the wings of Loue.</l>
+               <l>And since what’s past doth not Vlisses please</l>
+               <l>Call to a dance the faire Nereides</l>
+               <l>W<ex>i</ex>th other Nymphes w<ex>hi</ex>ch doe in euery creeke</l>
+               <l>In woods, on plaines, on mountaines symples seeke</l>
+               <l>for powerfull Circe, and let in a songe</l>
+
+               <!--APPENDIX 2 559-->
+
+               <l>Eccho’s be aydinge that they may prolonge</l>
+               <l>My now com<ex>m</ex>and to each place where they bee</l>
+               <l>To bringe them hither all more Speedilye.</l>
+            </lg>
+         </sp>
+
+         <p>Presently in ye wood was heard a full musicke of Lutes w<ex>hi</ex>ch descendinge to the
+            stage had to them sung this followinge songe, the Eccho’s being plac’d in seuerall
+               p<ex>ar</ex>ts of the Boscage |<note type="foot"><hi rend="italic">line filled out
+                  with 3 equally spaced dots</hi></note></p>
+
+         <lg>
+            <l><title>Songe.</title></l>
+            <l>Circe bids you come awaye</l>
+            <l>Ecch<ex>o</ex>: come away, come awaye.</l>
+            <l>ffrom ye riuers, from the sea,</l>
+            <l>Ecch<ex>o</ex>: from the sea, from the sea.</l>
+            <l>from ye Greene woods euery one,</l>
+            <l>Ecch<ex>o</ex>: euery one, euery one,</l>
+            <l>Of her maides be missinge none,</l>
+            <l>Ecch<ex>o</ex>: missinge none, missinge none.</l>
+         </lg>
+         <lg>
+            <l>No longer stay except it bee to bringe.</l>
+
+            <l>A med’cine for loues stinge.</l>
+            <l>That would excuse you &amp; be held more deare</l>
+            <l>Then witte or Magicke for both they are here.</l>
+            <l>Ecch<ex>o</ex>: They are here, they are here.</l>
+         </lg>
+
+         <p><stage type="mixed">The Eccho had no sooner aunswerd to ye last line of the songe, They
+               are here, but the second Antimasq<ex>ue</ex> came in: beinge seauen Nymphes &amp;
+               were thus attir’d:</stage></p>
+
+         <note type="Margin" rend="left">ffower</note>
+         <p><!-- Paragraph has a left pointed bracket on the left side of the text -->In white
+            taffita robes longe tresses &amp; chaplets of flowers. herbes &amp; weeds on their
+            heades w<ex>i</ex>th little wicket<note type="foot"><hi rend="italic"
+               >for</hi>wicker</note> baskets in yeir hands, neatly painted. theese were supposed to
+            be maids attendinge vpon Circe, &amp; vsd in gatheringe simples for theire mistresses
+            inchantments — Pausanias in prioribus Eliacis<note type="foot"><hi rend="italic"
+                  >'Pausanias in his first book on Elis'</hi></note>./</p>
+
+         <note type="Margin" rend="left">*Horac<ex>ii</ex> lib<ex>ro</ex> 3.
+            carmin<ex>um</ex></note>
+         <p><!--Paragraph has a left pointed bracket on the left side of the text--> In sea greene
+            robes* greenish haire hanginge loose, w<ex>i</ex>th leaues of corrall &amp; shelles
+            intermixte vpon it; Theese are by Ouid affirmed to helpe the <note type="Margin"
+               rend="left">Three</note>Nymphes of Circe in their collections: by theese:</p>
+
+         <p>560 MASQUE OF ULYSSES AND CIRCE</p>
+
+         <note type="Margin" rend="left">Oud<ex>ii</ex> lib<ex>ro</ex> 14.
+            Metam<ex>orphoseon</ex>:</note>
+         <lg>
+            <l>Nereides Nymphæq<ex>ue</ex> simul quis vellera motis</l>
+            <l>Nulla trahunt digitos<note type="foot"><hi rend="italic">for</hi> digitis</note>, nec
+               fila sequentia ducunt</l>
+            <l>Gramina disponunt; sparsosq<ex>ue</ex> sine ordine flores</l>
+            <l>Secernunt Calathis, varijsq<ex>ue</ex> coloribus herbas.</l>
+            <l> Ipsa quod hæ faciunt opus exigit, &amp;c.<note type="foot"><hi rend="italic"
+                     >Ovid,</hi> Metamorphoses 14.264-8</note>/ |<note type="foot"><hi rend="italic"
+                     >start of f 15</hi></note></l>
+         </lg>
+
+         <p>Theese hauinge danc’d a most curious measure to a softer tune then ye first Antimasque
+            as most fitting returnd as they came, the Nereides tow’rds ye cliffes &amp; ye other
+            maides of Circe to ye woods &amp; plaines, after w<ex>hi</ex>ch Vlisses, thus.</p>
+
+         <sp>
+            <speaker n="Ulysses">Vlisses.</speaker>
+            <lg>
+               <l>ffame addes not to thy ioyes I see in this;</l>
+               <l>But like a high &amp; stately Pyramis</l>
+               <l>Growes least at farthest; Now faire Circe grante</l>
+               <l>Although the faire hair’d Greekes do neuer vaunte:</l>
+               <l>That they in measur’d paces ought haue done,</l>
+               <l>But where the god of Battailes ledd them on;</l>
+               <l>Giue leaue that (freed from sleepe) the small remaine</l>
+               <l>Of my companions; on the vnder plaine</l>
+               <l>May in a dance striue how to pleasure thee</l>
+               <l>Eyther with skill or with varietye.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Circe">Circe.</speaker>
+            <lg>
+               <l>Circe is pleas’d, Vlisses take my wand</l>
+               <l>And from their eyes each child of sleepe com<ex>m</ex>and.</l>
+               <l>Whilst my choyce maides w<ex>i</ex>th their harmonious voyces</l>
+               <l>(Whereat each byrd and dancinge springe reioyces)</l>
+               <l>Ha[minge]L rmingeJ the windes when they contrary meete</l>
+
+               <l>shall make their spirits as nimble as their feete.</l>
+            </lg>
+         </sp>
+
+         <p><stage type="novelistic">The thirde scene’s Description.</stage></p>
+
+         <p>Circe w<ex>i</ex>th this speech deliueringe her wande to Vlisses rests on ye lower parte
+            of ye hill, while he goeing vp the hill &amp; strikinge ye trees w<ex>i</ex>th his wand,
+            suddainly two greate gates flew open, makinge as it were a large glade through the wood,
+            &amp; a longe ye glade a faire walke, twoe seeminge bricke walles on eyther side, ouer
+               w<ex>hi</ex>ch the trees wantonly hunge, a great light (at ye suns suddaine |
+            vnmaskinge) being seene vpon this discouery. At ye further <!--APPENDIX 2 561--> end was
+            descride an arbour, very curiously done, hauinge one entrance vnder an Architraue borne
+            vp by two pillers w<ex>i</ex>th their chapters &amp; bases [Guilte] Guilte, ye top of ye
+            entrance beautifi’de w<ex>i</ex>th pitures<note type="foot"><hi rend="italic">for</hi>
+               pictures</note> of Satyres Wood Nymphes, &amp; oth<ex>e</ex>r Anticke worke, as also
+            ye sides &amp; corners; The coueringe Archwise interwoue w<ex>i</ex>th boughes, ye backe
+            of it girte round with [a] vine &amp; artificially done vp in knottes towards ye toppe;
+            beyond it was a wood seene in perspectiue, The fore p<ex>ar</ex>te of it opening at
+            Vlisses his approach, the maskers were discouered in seuerall seates leaninge as a
+            sleape.</p>
+
+         <p><stage type="modifier">Their Attire</stage></p>
+
+         <p>Doublets of greene taffita cut like oaken leaues, as vpon cloth of syluer, their skirtes
+            &amp; winges cut into leaues, deepe round hose of ye same, both laid w<ex>i</ex>th
+            sprigge lace spangled, longe white sylke stockins, greene pumpes &amp; roses done
+               ou<ex>e</ex>r w<ex>i</ex>th syluer leaues, hattes of ye same stuffe &amp; cut narrowe
+            brim’d, &amp; risinge smaller compasse at ye crowne, white wreath hatbandes, white
+            plumes egrettes w<ex>i</ex>th a greene fall, Ruffs, bands &amp; cuffes.</p>
+
+         <p><stage type="mixed">Vlisses seuerally came &amp; touch’t euery one of them with ye wand
+               while this was sunge.</stage></p>
+
+         <p><title>Songe.</title></p>
+         <lg>
+            <l>Shake of sleepe yee worthy knights</l>
+            <l>Though yee dreame of all delights</l>
+            <l>Shew that Venus doth resorte</l>
+            <l>To the campe as well as courte.</l>
+            <l>By some well-timed measure</l>
+            <l>And on your gestures &amp; your paces</l>
+            <l>Let the well-composed Graces</l>
+            <l>Lokinge like and parte with pleasure.</l>
+         </lg>
+
+         <p><stage type="mixed">By this ye knights beinge all risen from their seates were by
+               Vlisses (ye loud musicke soundinge) brought to ye stage; &amp; then to the violins
+               danced their first measure, aft<ex>e</ex>r w<ex>hi</ex>ch this songe brought them to
+               the second. |</stage></p>
+
+         <p><title>Songe.</title></p>
+         <lg>
+            <l>On &amp; imitate ye [moone] ^ L SunJ</l>
+
+            <l>Stay not to breath till you haue done</l>
+
+            <l>Earth doth thinke as otherwhere</l>
+            <l>Do some woemen she doth beare</l>
+
+            <!-- 562 MASQUE OF ULYSSES AND CIRCE -->
+
+            <l>Those wifes whose husbands onely threaten</l>
+            <l>Are not lou’d like those are beaten.</l>
+
+            <l>Then w<ex>i</ex>th your feete to suffringe moue her</l>
+            <l>ffor whilst you beate earth thus you loue her.</l>
+         </lg>
+
+         <p><stage type="mixed">Here they danc’t there second measure &amp; then this songe was
+               sunge duringe w<ex>hi</ex>ch time they take out ye l[e]L a J dyes:</stage></p>
+
+         <p><title>Songe.</title></p>
+         <lg>
+            <l>Choose now amonge this fairest number</l>
+            <l>Vpon whose brestes loue would for euer slumber:</l>
+            <l>Choose not amisse since you may where you wylle</l>
+            <l>Or blame your selues for choosing Ille.</l>
+            <l>Then doe not leaue though ofte the musicke closes</l>
+            <l>Till lillyes in their cheekes be turn’d to roses.</l>
+         </lg>
+
+         <sp>
+            <speaker n="Chorus">Chorus.</speaker>
+            <lg>
+               <l>And if it lay in Circe’s power</l>
+               <l>Your blisse might so perseuer</l>
+               <l>That Those you choose but for a hower</l>
+               <l>You should enioy for euer.</l>
+            </lg>
+         </sp>
+
+         <p><stage type="mixed">The knights w<ex>i</ex>th the ladyes dance here ye old measures,
+               Galliards, Corantoes, The Braules, &amp;c. And then (hauinge lead them againe to
+               their places) daunced their laste measure. after w<ex>hi</ex>ch this songe called
+               them awaye. |</stage></p>
+
+         <p><title>Songe.</title></p>
+         <lg>
+            <l>who but Tyme so hasty were</l>
+
+            <l>To fly away &amp; leaue you here.</l>
+
+            <l>Here where delight</l>
+            <l>Might well allure</l>
+            <l>A very stoicke from this night</l>
+            <l>To turne an Epicure.</l>
+            <l>But since he calles away; And Time will soone repente,</l>
+            <l>He staid not longer here, but ran, to be more Idly spente.</l>
+         </lg>
+         <p><table>
+               <row>
+                  <cell><!-- In Greek -->Telos<note type="foot"><hi rend="italic">'the
+                        end'</hi></note>.</cell>
+                  <cell>ffinis.</cell>
+                  <cell>The end.</cell>
+               </row>
+            </table></p>
+
+      </body>
+   </text>
+</TEI>

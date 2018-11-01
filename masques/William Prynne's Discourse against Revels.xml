@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>APPENDIX 10</p>
+         <p><title>William Prynne’s Discourse against Revels</title></p>
+
+         <p>William Prynne’s pamphlet <title>A Briefe Polemicall Dissertation</title> (1654) opens
+            with an epistle addressed ‘To the Christian Reader.’ Here Prynne corroborates Bulstrode
+            Whitelocke’s claim (see p 224) that Inns of Court gentlemen routinely revelled on
+            Saturday nights throughout the Christmas season. Prynne supplies details – perhaps
+            exaggerated – as to how long these revels lasted into the night and describes his
+            attempt, which he admits was only partly successful, to suppress revels at Lincoln’s
+            Inn. Prynne’s campaign may be reflected in the Lincoln’s Inn order of 29 November 1627
+            (see p 218). Prynne also cites his own notorious <title>Histriomastix</title>, whose
+            publication in 1633 triggered the Inns of Court masque <title>Triumph of Peace</title>
+            in February 1633/4 (see Introduction, pp xxiv–xxv).</p>
+
+         <p> A BRIEFE | <title>POLEMICALL DISSERTATION</title>, | concerning the true Time of the |
+            INCHOATION and DETERMINATION | OF THE | LORDSDAY-SABBATH. | Wherein is clearly and
+            irrefragably manifested by <hi rend="italic">Scri- | pture, Reason, Authorities,</hi> in
+            all Ages till this present: | that the <hi rend="italic">Lordsday begins and ends at
+               Evening; and | ought to be solemnized from Evening to Evening:</hi> against | the <hi
+               rend="italic">Novel Errours, Mistakes</hi> of such, who ground- | lesly assert; that
+               <hi rend="italic">it begins and ends at Midnight, or day- | breaking; and ought to be
+               sanctified from Midnight | to Midnight, or Morning to Morning:</hi> whose | Arguments
+            are here examined, refuted as |<hi rend="italic">unsound, absurd, frivolous.</hi> |
+               <del>[rule]</del> | Compiled in the <hi rend="italic">Tower of London</hi>, and now
+            Published, for the | <hi rend="italic">Information, Reformation</hi> of all contrary <hi
+               rend="italic">Judgment or Practise.</hi> | By WILLIAM PRYNNE <hi rend="italic">of
+               Swainswick Esq;. | ... | LONDON,</hi> | Printed by <hi rend="italic">T. Mabb
+               forEdward Thomas</hi> dwelling in <hi rend="italic">Green | Arbour</hi>, 1655.
+            [corrected by hand to 3 November 1654]. Wing: P3916.</p>
+<lg>
+         <l><hi rend="bold">1654</hi></l>
+         <l><hi rend="bold">William Prynne, A Briefe Polemicall Dissertation</hi>   Wing: P3916</l>
+         <l>sigs A2–2v</l></lg>
+        
+   <p>…</p>
+
+         <p>KInde Reader, Give me leave to inform thee of the true Original cause impelling me to
+            compile this Dissertation at least 20 years since, whiles a Prisoner in the Tower of
+            London.</p>
+
+         <p>When I was a Student and Puny Barrester in Lincolns Inne, it was the constant custome of
+            that House and all other Inns of Court from All-Saints Eve, to Candlemas night, to keep
+            open Revels, Dancing, Dicing and Musick
+            
+            <lg><l>APPENDIX 10 765</l></lg>
+            
+            in their Hals<note type="foot"><hi rend="italic">for</hi>every</note> ever
+            Saturday night (as we usually call it) till eleven or twelve of the clock, and many
+            times till 4. in the morning or later; by reason of which abuse, the Lordsday was much
+            prophaned, and God<note type="foot"><hi rend="italic">for</hi>God's or good (?)</note>
+            publike Ordinances on the Lordsday morning, neglected, by the Revellers, Students,
+            Officers, Gamesters, Musicians and Spectators, who slept out the Forenoon Sermons and
+            other divine Exercises for the most part, either in their Beds or at Church, if they
+            resorted to it: Which being a great corasive to my Spirit, grief to my heart, and
+            scandall to many Religious Lawyers, Students and our Lecturers. I used my best
+            endeavours to reform this long continued abuse; and by my interest in some pious
+            Benchers of Lincolns Inne, procured them by an Order of Counsel to suppresse all
+            publique Gaming and Dicing in the Hall, with all Grand Christmasses and disorders on
+            that abused Season; and likewise to restrain the length of their Revels on Saturday
+            nights, by confining them to a certain houre, though they could not totally suppresse
+            them, as they and I desired, being over ruled therein by the majority of the Benchers,
+            pleading long prescription, custome, and unwillingnesse to displease the Revellers and
+            young Students, for their continuance: Whereupon I did in my Histriomastix 
+            
+            <note type="Margin" rend="left"> *See the epistle Dedicatory!."</note> printed 1632.
+            (Dedicated to the *Benchers of Lincolns Inne) produce the Decrees, Laws, Statutes,
+            Canons of many Christian Emperours, Kings, States, Councils, and Resolutions of Fathers,
+            Casuists, Schoolmen, and Protestant Divines Forraign and Domestick, to prove the
+            unlawfulnesse of Stage Plays, Revels, Dancing, Gaming, Sports, and Pastimes on the
+            Lordsday, and on Saturday nights, (as we usually stiled them) proving at large page 638.
+            to 647. by sundry Reasons and Authorities in all ages (there cited) and likewise in the
+            Table: That the Lordsday begins Saturday Evening, not at Morning or Midnight following;
+            that so, I might in point of Conscience, suppresse all Revels, Gaming | and disorders
+            used in our Innes of Court and elsewhere throughout the Realm, on Saturday nights, being
+            part of the Lords own dayes, fit to be spent in better exercises of Piety and
+            devotion.</p>
+         <p>…</p>
+      </body>
+   </text>
+</TEI>
