@@ -321,7 +321,7 @@
             </attList>
           </elementSpec>
 
-<!-- date: modify @cert -->
+          <!-- date: modify @cert -->
           <elementSpec ident="date" mode="change" module="core">
             <attList>
               <attDef ident="cert" mode="change">
@@ -341,7 +341,7 @@
                 </valList>
               </attDef>
             </attList>
-            
+
           </elementSpec>
           <!-- expan: delete attributes -->
           <elementSpec ident="expan" mode="change" module="core">
@@ -776,6 +776,8 @@
 
           <!-- namesdates: only include orgName, persName, placeName, occupation, and settlement. Not doing metadata records for named entities...yet-->
           <moduleRef key="namesdates" include="orgName persName place placeName settlement occupation"/>
+            
+          <!-- delete lots of attributes -->
 
           <!-- persName: modify @cert for CWRC -->
           <elementSpec ident="persName" mode="change" module="namesdates">
@@ -838,6 +840,28 @@
             </attList>
           </elementSpec>
 
+          <!-- orgName: modify @cert -->
+          <elementSpec ident="orgName" mode="change" module="namesdates">
+            <attList>
+              <attDef ident="cert" mode="change">
+                <valList mode="add" type="closed">
+                  <valItem ident="definite" sameAs="high">
+                    <desc>There is a high degree of certainty about this organization</desc>
+                  </valItem>
+                  <valItem ident="reasonably certain" sameAs="moderate">
+                    <desc>There is a moderate degree of certainty about this organization</desc>
+                  </valItem>
+                  <valItem ident="probable" sameAs="low">
+                    <desc>There is a low degree of certainty about this organization</desc>
+                  </valItem>
+                  <valItem ident="speculative" sameAs="unknown">
+                    <desc>Identification is speculative</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
           <!-- delete lots of attributes -->
           <elementSpec ident="persName" mode="change" module="namesdates">
             <attList>
@@ -855,6 +879,28 @@
             </attList>
           </elementSpec>
 
+          <!-- persName: modify @cert -->
+          <elementSpec ident="persName" mode="change" module="namesdates">
+            <attList>
+              <attDef ident="cert" mode="change">
+                <valList mode="add" type="closed">
+                  <valItem ident="definite">
+                    <desc>There is a high degree of certainty about this person</desc>
+                  </valItem>
+                  <valItem ident="reasonably certain">
+                    <desc>There is a moderate degree of certainty about this person</desc>
+                  </valItem>
+                  <valItem ident="probable">
+                    <desc>There is a low degree of certainty about this person</desc>
+                  </valItem>
+                  <valItem ident="speculative">
+                    <desc>Identification is speculative</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
           <!-- delete lots of attributes -->
           <elementSpec ident="placeName" mode="change" module="namesdates">
             <attList>
@@ -872,6 +918,28 @@
             </attList>
           </elementSpec>
 
+          <!-- placeName: modify @cert -->
+          <elementSpec ident="placeName" mode="change" module="namesdates">
+            <attList>
+              <attDef ident="cert" mode="change">
+                <valList mode="add" type="closed">
+                  <valItem ident="definite">
+                    <desc>There is a high degree of certainty about this place</desc>
+                  </valItem>
+                  <valItem ident="reasonably certain">
+                    <desc>There is a moderate degree of certainty about this place</desc>
+                  </valItem>
+                  <valItem ident="probable">
+                    <desc>There is a low degree of certainty about this place</desc>
+                  </valItem>
+                  <valItem ident="speculative">
+                    <desc>Identification is speculative</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
           <!-- delete lots of attributes -->
           <elementSpec ident="settlement" mode="change" module="namesdates">
             <attList>
