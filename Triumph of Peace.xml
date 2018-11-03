@@ -1,0 +1,1779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <p><title>Triumph of Peace</title></p>
+
+         <p>TO THE FOVRE Equall and Honourable Societies, THE INNES of COVRT.</p>
+
+         <p>I Want words to expresse Your cheerefull and active desires, to present Your duties to
+            their royall Maiesties, in this Masque: to celebrate, by this humble tender of Your
+            hearts, and services, the happinesse of our Kingdome, so blest
+            inthepresentgovernement,andneversorichinthepossessionofsomany, and great pledges of
+            their Parents vertue, our Native Princes. |</p>
+
+         <p><title>The Epistle.</title></p>
+
+         <p>Your cleare devotions already offered, and accepted, let not me want an Altar for my
+            Oblation to You. This entertaynment which tooke life from your command, and wanted no
+            motion, or growth, it could derive from my weake Phansie: I sacrifice againe to You, and
+            vnder Your smile to the world, let it not repent you to looke vpon, what is the second
+            time made Your owne, and with it, the Heart of the Sacrificer, infinitely bound to
+            acknowledge your free, and Noble soules, that have left no way for a Poet to satisfie
+            his ambition, how to thanke you, but with thinking, he shall never be able to satisfie
+            it.</p>
+         <p>I dare not racke my preface to a length, proceede to be Your selues (the Ornament of our
+            Nation,) and when You have leisure to converse with imaginations of this kinde, it shall
+            be an addition to your many favours, to read these papers, and obliege beside, the
+            seales of Your other encouragement,</p>
+
+         <p><!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->The humblest of your
+            Honourers,</p>
+
+         <p><!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->IAMES SHIRLEY. |</p>
+
+         <p><title>The Masque of the Gentlemen of the foure Honourable Societies, or Innes of
+               Court.</title></p>
+
+         <p>AT Ely and Hatton-Houses, the Gentlemen, and their Assistants met, and in this manner
+            prepar’d for the Court.</p>
+
+         <p>The Antimasquers were vsher’d by a Hornepipe, and a Shalme, riding in Coates and Caps of
+            yellow Taffata, spotted with Silver, their Feathers red, their Horses led by men in
+            coates of blew Taffata, their wings red, and part of their sleeves yellow, Caps and
+            Feathers: all the torch-bearers in the same habite appoynted to attend, and give
+            plentifull light to the whole traine.</p>
+
+         <p>Phansie, in a sute of severall coloured Feathers hooded. A paire of Bats- wings on his
+            shoulders, riding alone as sole presenter of the Antimasques.</p>
+
+         <p>After him rode Opinion and Confidence together, Opinion in an old fashioned Doublet of
+            blacke Velvet, and truncke Hose, a short Cloake of the same with an antique Cape, a
+            blacke Velvet cap pinch’d up, with a white fall, and a Staffe in his hand. |</p>
+
+         <p>Confidence in a slash’d Doublet parti-coloured Breeches sutable with poynts at knees,
+            favours upon his breast, and arme: a broad-brim’d Hat, tied up on one side, banded with
+            a Feather, a long Locke of Haire, trim’d with severall coloured Ribbands, wide Boots,
+            &amp;amp; great Spures with Bels for Rowels.</p>
+
+         <p>Next rode Iollity and Laughter. Iollity in a flame-coloured Suite, but trick’d like a
+            Morise-dancer, with Scarfes and Napkins, his Hat fashioned like a Cone, with a little
+            fall.</p>
+
+         <p>Laughter in a long side Coate of seuerall colous<note type="foot"><hi rend="italic"
+                  >for</hi>colours</note>, laughing, Visards on his breast and backe, a Cap with two
+            grinning faces, and Feathers betweene.</p>
+
+         <p>Then followed variety of Anticke musicke after which rode sixe Proiectors, one after
+            another, their Horses led by Torch-bearers.</p>
+
+         <list>
+            <item>The first a Iocky with a Bonnet on his head upon the top of it a whip, he seeming
+               much to obserue and affect a bride<note type="foot"><hi rend="italic"
+                  >for</hi>bridle</note> which he had in his hand.</item>
+
+            <item>The second a Country fellow in a Leather Doubled<note type="foot"><hi
+                     rend="italic">for</hi>Doublet</note> and gray trunke Hose, a wheele with a
+               perpetuall motion on his head, and in his hand a flayle.</item>
+
+            <item>The third, a grimme Philosopicall<note type="foot"><hi rend="italic"
+                  >for</hi>Philosophicall</note> fac’d fellow in his gowne furr’d, and girdled about
+               him, a furnace upon his head, and in his hand a Lampe.</item>
+
+            <item>The fourth in a case of blcke<note type="foot"><hi rend="italic"
+                  >for</hi>blacke</note> Leather vast to the middle, and round on the top, with
+               glasse eyes, and bellowes under each arme.</item>
+
+            <item>The fift a Physition, on his head a Hat with a bunch of Carrots, a Capon perched
+               upon his fist. |<note type="foot"><hi rend="italic">start of sig A2</hi></note>
+            </item>
+
+            <item>The sixt like a Seaman, A Shippe upon his head and holding a Line and Plummet in
+               his hand.</item>
+
+            <item>Here variety of other Anticke musicke counterfeiting the voyces of Birds, and
+               after these rode, a Magpy, a Crow, a Iay, and a Kite, in a quadrangular figure, and
+               in the midst an Owle, these were followed by three Satires, two a breast, and one
+               single, sided with torch-bearers. Then three Dotterels in the same manner and
+               attendance.</item>
+
+            <item>After these a Windmill, against which a phantasticke Knight with his Lance, and
+               his Squire<note type="foot"><hi rend="italic">Don Quixote and Sancho
+                  Panza</hi></note> arm’d seem’d to make their attempts.</item>
+
+            <item>These moving forward, in ridiculous shew and postures, a Drummer followeth on
+               Horsebacke, in a Crimson taffata Coate, a white Hat and feather tip’d with Crimson,
+               beating two kettle Drummes.</item>
+
+            <item>Then 14 Trumpetors, in Crimson Satten coates, white Hats and Feathers, and rich
+               Banners.</item>
+
+            <item>The Marshall<note type="foot"><hi rend="italic">(Sir) Thomas Dayrell</hi></note>
+               followed these, brauely mounted: attended with forty foote, in Coates and Hose of
+               Scarlet trim’d with silver Lace, white Hats and Feathers, their truncheons tip’d with
+               silver: these upon every occasion moving too and fro, to preserue the order of their
+               march, and restraine the rudenesse of People, that in such triumphs, are wont to be
+               insolent, and tumultuary.</item>
+
+            <item>After these an hundred Gentlemen, gloriously furnished and gallantly mounted,
+               riding two and two a breast, every Gentleman having his two Pages richly attired, and
+               a groome to attend him. |</item>
+
+            <item>Next after these a Chariot drawne by foure horses, two and two together, richly
+               furnished and adorn’d with Gold and Silver, the Charioter in a Polonian coate of
+               greene Cloth of silver. In this were advanc’d Musicians like Priests and Sybills,
+               sonnes and daughters of Harmony, some with Coronets, other with wreathes of Lawrell
+               and Mirtle, playing upon their Lutes, three Foote-men on each side in blew Satten
+               wrought with Silver, and every one a Flambeaux in his hand.</item>
+
+            <item>In the next Chariot of equall glory, were placed on the lowest staires foure in
+               skie-coloured Taffata Robes seeded with starres, Mantles ashe-coloured, adorn’d with
+               Fringe, and Silver-lace, Coronets with Starres upon their heads. In a seate a little
+               more elevate, sate Genius, and Amphiluche.</item>
+
+            <item>On the highest seate of this Chariot, sate the three Howers, or Heavenly sisters,
+               Irene, Diche, and Eunomia. All whose habits shall be described in their proper
+               places: this Chariot attended as the former.</item>
+
+            <item>After these came the foure Triumphals or Magnificent Chariots, in which were
+               mounted the grand Masquers, one of the foure Houses in euery Chariot, seated within
+               an halfe Ovall, with a glorious Canopy over their heads, all bordered with silver
+               Fringe, and beautified with Plumes of Feathers on the top.</item>
+
+
+            <item>The first Chariot, silver &amp;amp; orenge:</item>
+            <item>The second, silver &amp; watchet. |</item>
+            <item>The third, silver &amp; crimson.</item>
+            <item>The fourth, siluer &amp; White.</item>
+
+
+            <item>All after the Romane forme, adorned with much embossed and carved workes, and each
+               of them wrought with Silver, and his seuerall colour, they were mounted on carriages,
+               the Spring trees, Pole and Axle-trees, the Charioters seate, and standers, wheeles,
+               with the fellyes, spokes, and naves all wrought with Silver, and their severall
+               colour.</item>
+
+            <item>They were all drawne with foure Horses a front after the magnificent Romane
+               Triumphs, their furniture, Harnesse, Headstall, Bits, Raines, and Traces, Shaferon,
+               Cronet, Petronell, and Barbe of rich cloth of Silver, of severall workes, and colours
+               answerable to the linings of the Chariots. The Charioters in Polony-coates of the
+               same colour of the Chariots, their Caps Feathers, and Buskings answerable.</item>
+
+            <item>The two out Horses of euery Chariot led by two men in habits wrought with Siluer,
+               and conformable to the colour of the other furniture, foure foot-men on eyther side
+               of euery Chariot, in rich habits also wrought with Siluer answerable to the rest,
+               euery one carrying a Flambeaux in his hand.</item>
+
+            <item>Betweene every of these Chariots foure Musitians in their Robes and Garlands, were
+               mounted; riding two a breast, attended with Torch-bearers.</item>
+         </list>
+
+         <p>The Habit of the Masquers gaue infinite splendor to this solemnity; which more aptly
+            shall be exprest in his place. |</p>
+
+         <p>TThis<note type="foot"><hi rend="italic">dittography</hi></note> Masque was presented in
+            the Banquetting-house. At white Hall before the King and Queenes Maiesties and a great
+            Assembly of Lords and Ladies, and other persons of quality, whose aspect setting on the
+            degrees prepared for that purpose gaue a great grace to this spectacle, especially being
+            all richly attired.</p>
+
+         <p>At the lower end of the roome opposite to the state was raysed a Stage with a descent of
+            staires in two branches landing into the roome. This Basement was painted in rusticke
+            worke.</p>
+
+         <p>The border of the front and sides that enclosed all the Sceane had first a ground of
+            Arbor-worke entermixt with loose branches and leaues, and in this was two Niches, and in
+            them two great figures standing in easy postures, in their naturall colors, and much
+            bigger then the life, the one attired after the Grecian manner held in one hand a
+            Scepter, and in the other a Scrowle, and a picked antique crowne on his head, his
+            curasse was of Gold richly enchased, his robe blue and Siluer, his armes and thighs bare
+            with buskinds enricht with ornaments of Gold, his browne locks long, and curled, his
+            Beard thicke, but not long, and his face was of a grave and ioviall aspect, this figure
+            stood on a round pedestall fained of white Marble, enricht with severall caruings; above
+            this in a compartiment of Gold was written MINOS. The figure on the other side was in a
+            Romane habit, holding a Table |<note type="foot"><hi rend="italic">start of sig
+               A4</hi></note> in one hand, and a Pen in the other, and a white Bend or Diadem about
+            his head, his Robe was crimson and Gold, his Mantle yellow and Siluer, his Buskins
+            watchet trim’d with Siluer, his haire and Beard long and white with a uenerable aspect,
+            standing likewise on a round Pedestall answerable to the other. And in the compartiment
+            over him was written NVMA. Above all this in a proportionate distance hung two great
+            Festons of fruites in colors which serued for finishing to these sides. The upper part
+            in manner of a large Freeze was adorn’d with severall compartiments with draperies
+            hanging downe, and the ends tied up in knots, with trophies proper to feasts and
+            triumphs, composed of Masking Vizards and torches. In one of the lesser compartiments
+            was figured a sharpe sighted eye, and in the other a Golden-yoke, in the midst was a
+            more great and rich compartiment on the sides of which sate naked Children in their
+            naturall colors, with Siluer wings in action of sounding Golden Trumpets, and in this
+            was figured a Caduceus with an Oliue-branch, all which are Hierogliphicks of Peace
+            Iustice and Law.</p>
+
+         <p>A Curtaine being sodainly drawne up, the Sceane was discovered representing a large
+            streete with Sumptuous Pallaces, Lodges, Portico’s, and other noble peeces of
+            Architecture, with pleasant Trees and grounds, this going farre from the eye, opens it
+            selfe into a spacious place, adorn’d with publique and private buildings seene a far of,
+            representing the Forum or Piazza of Peace. Over all was a | cleare skie with transparent
+            clouds, which enlightned all the Scene. </p>
+
+         <p>The Spectators having entertained their eyes a while with the beavty and variety of this
+            Scene from one of the sides of the streetes enters Opinion, &amp;c. |</p>
+
+         <stage type="entrance">>> Enter Opinion, Confidence meetes him, they salute. </stage>
+
+         <sp>
+            <speaker n="Confidence">CONFIDENCE,</speaker>
+            <lg>
+               <l> MOst grave Opinion!</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Opinion">Opinion.</speaker>
+            <lg>
+               <l>Confidence most welcome,</l>
+               <l> Is Phansie come to Court?</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Confidence">Confidence.</speaker>
+            <lg>
+               <l>Breaking his way</l>
+               <l> Thorough the Guard.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Opinion">Opinion.</speaker>
+            <lg>
+               <l> So violent?</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Confidence">Confidence.</speaker>
+            <lg>
+               <l> With jeasts</l>
+               <l> Which they are lesse able to resist,</l>
+               <l> Hee’l cracke a Halberd with his wit,</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Opinion"> Opinion.</speaker>
+            <lg>
+               <l> A most</l>
+               <l> Strong Phansie, yet we ha’ knowne a little Engine</l>
+               <l> Breake an ingenious Head-peece. But your Master —</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Confidence"> Confidence.</speaker>
+            <lg>
+               <l> Companion sir. Phansie will keepe no Servants,</l>
+               <l> And Confidence scornes to waite.</l>
+            </lg>
+         </sp>
+
+
+         <sp>
+            <speaker n="Opinion">Opinion.</speaker>
+            <lg>
+               <l>Cry mercy sir,</l>
+               <l> But is this Gentleman, this Signior Phansie</l>
+               <l> So rare a thing so subtile as men speake him?</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Confidence">Confidence.</speaker>
+            <lg>
+               <l>He’s a great Prince of th’ Ayre, beleeue it sir,</l>
+               <l> And yet a Bird of night.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Opinion">Opinion.</speaker>
+            <lg>
+               <l>A Bird!</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Confidence">Confidence.</speaker>
+            <lg>
+               <l> Betweene</l>
+               <l> An Owle and Bat, a queint Hermophrodite, |</l>
+               <l> Begot of Mercury and Venus, Wit, and Loue.</l>
+               <l> He’s worth your entertainement.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Opinion">Opinion.</speaker>
+            <lg>
+               <l>I am most</l>
+               <l> Ambitious to see him, he is not</l>
+               <l> So nimble as I wish him, where’s my Wife,</l>
+               <l> My Lady Novelty?</l>
+            </lg>
+         </sp>
+
+         <p><stage type="entrance">>> Enter Lady Novelty.</stage></p>
+
+         <sp>
+            <speaker n="Novelty">Novelty.</speaker>
+            <lg>
+               <l> Your Wife? you might</l>
+               <l> Have fram’d a newer word, they can but call</l>
+               <l> Vs so i’th Country.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Opinion">Opinion.</speaker>
+            <lg>
+               <l> No exception</l>
+               <l> Deare Madam Novelty, I must prepare you,</l>
+               <l> To entertaine a Gentleman, where’s Admiration,</l>
+               <l> Our Daughter?</l>
+            </lg>
+         </sp>
+
+         <p><stage type="entrance">>> Enter Admiration.</stage></p>
+
+         <sp>
+            <speaker n="Admiration">Admiration.</speaker>
+            <lg>
+               <l> Here sir, what gay man is this?</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Opinion">Opinion.</speaker>
+            <lg>
+               <l>Please you honour us, and bring in your friend sir.</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker n="Confidence">Confidence.</speaker>
+            <lg>
+               <l> Ile doo’t but he prevents me.</l>
+            </lg>
+         </sp>
+
+         <p><stage type="entrance">>> Enter Phansie, Iollity, and Laughter. </stage></p>
+
+         <sp>
+            <speaker n="Opinion">Opinion.</speaker>
+            <lg>
+               <l>Sir I am ignorant</l>
+               <l> By what titles to salute you, but y’are welcome to Court.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Phansie">Phansie.</speaker>
+            <lg>
+               <l>Saue your selfe sir, your names Opinion.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Opinion">Opinion.</speaker>
+            <lg>
+               <l> And yours Phansie.</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker n="Phansie">Phansie.</speaker>
+            <lg>
+               <l> Right.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Iollity">Iollity.</speaker>
+            <lg>
+               <l> Mine Iollity.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Laughter">Laughter.</speaker>
+            <lg>
+               <l> Mine Laughter, ha, ha, ha,</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Novelty">Novelty.</speaker>
+            <lg>
+               <l> Here’s a strange shape.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Admiration">Admiration.</speaker>
+            <lg>
+               <l> I never saw the like. |<note type="foot"><hi rend="italic">start of sig
+                     B2</hi></note></l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Phansie"> Phansie.</speaker>
+            <lg>
+               <l> I come to doe you honor with my friends here</l>
+               <l> And helpe the Masque.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Opinion">Opinion.</speaker>
+            <lg>
+               <l> You’le doe a speciall favour.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Phansie">Phansie.</speaker>
+            <lg>
+               <l>How many Antimasques ha they? Of what nature</l>
+               <l> For these are Phansies that take most, your dull</l>
+               <l> And phlegmaticke inuentions are exploded,</l>
+               <l> Giue mee a nimble Antimasque.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Opinion">Opinion.</speaker>
+            <lg>
+               <l>They haue none sir.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Laughter">Laughter.</speaker>
+            <lg>
+               <l> No Antimasque? ide laugh at that i’faith.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Iollity">Iollity.</speaker>
+            <lg>
+               <l>What make wee heere? No Iollity.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Phansie">Phansie.</speaker>
+            <lg>
+               <l> No Antimasque.</l>
+               <l> Bid ’em downe with the Sceane, and sell the timber.</l>
+               <l> Send Iupiter to grasse, and bid Apollo</l>
+               <l> Keepe Cowes againe, take all their gods and goddesses</l>
+               <l> For these must farse up this nights intertainement,</l>
+               <l> And pray the Court may haue some mercy on ’em,</l>
+               <l> They will bee jeerd to death else for their ignorance,</l>
+               <l> The soule of wit moues here, yet there bee some</l>
+               <l> If my intelligence faile not, meane to shew</l>
+               <l>Themselues jeere Maiors, some tall Critticks have</l>
+               <l> Planted Artillery and wit murderers</l>
+               <l> No Antimasque? Let ’em looke too’t.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Opinion">Opinion.</speaker>
+            <lg>
+               <l> I have heard sir;</l>
+               <l> Confidence made them trust, you’de furnish ’em,</l>
+               <l> I feare they should have made their addresse earlier</l>
+               <l> To your invention, but your braine’s nimble,</l>
+               <l> Pray, for the expectation that’s upon ’em</l>
+               <l> Lend them some witty fancies, set some engines</l>
+               <l> In motion, thar<note type="foot"><hi rend="italic">for</hi>that</note> may
+                  conduce to the designe.</l>
+               <l> I am their friend against the Croude that enuy ’em</l>
+               <l> And since they come with pure deuotions. |</l>
+               <l> To sacrifice their duties to the King</l>
+               <l> And Queene, I wish ’em prosper.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Phansie">Phansie.</speaker>
+            <lg>
+               <l> You haue charm’d me,</l>
+               <l> Ile be their friend to night, I haue a Fancy</l>
+               <l> Already.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Laughter">Laughter.</speaker>
+            <lg>
+               <l> Let it be ridiculous.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Confidence">Confidence.</speaker>
+            <lg>
+               <l> And Confident.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Iollity">Iollity.</speaker>
+            <lg>
+               <l>And jolly.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Phansie">Phansie.</speaker>
+            <lg>
+               <l>The first Antimasque</l>
+               <l> We will present our selues in our owne persons,</l>
+               <l> What thinke you on’t? most grave Opinion.</l>
+               <l> You shall doe well to lead the dance, and give it</l>
+               <l> Authority with your face, your Lady may</l>
+               <l> Admire what she finds new.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Novelty">Novelty.</speaker>
+            <lg>
+               <l> I shall applaud The Novelties.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Admiration"> Admiration.</speaker>
+            <lg>
+               <l> And I admire.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Phansie">Phansie.</speaker>
+            <lg>
+               <l>They tumble,</l>
+               <l> My skull’s too narrow.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Laughter">Laughter.</speaker>
+            <lg>
+               <l> Now his Phansies caper.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Phansie">Phansie.</speaker>
+            <lg>
+               <l>Confidence, waite you upon Opinion,</l>
+               <l> Here Admiration, there Novelty,</l>
+               <l> This is a place for Iollity and Laughter,</l>
+               <l> Phansie will dance himselfe too. </l>
+            </lg>
+         </sp>
+
+         <p><stage type="business">The first Antimasque, the dance expressing the natures of the
+               Presenters.</stage></p>
+
+         <sp>
+            <speaker n="Phansie">Phansie.</speaker>
+            <lg>
+               <l> How like you this device?</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Opinion">Opinion.</speaker>
+            <lg>
+               <l>Tis hansome–but</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Laughter">Laughter.</speaker>
+            <lg>
+               <l>Opinion will like nothing.</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker n="Novelty">Novelty.</speaker>
+            <lg>
+               <l> it seemes new.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Confidence">Confidence.</speaker>
+            <lg>
+               <l> twas bold. |</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Iollity">Iollity.</speaker>
+            <lg>
+               <l> Twas Iocund.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Laughter">Laughter.</speaker>
+            <lg>
+               <l>Did not I doe the foole well?</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker n="Admiration">Admiration.</speaker>
+            <lg>
+               <l> Most Admirably.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Laughter">Laughter.</speaker>
+            <lg>
+               <l> Nay, and the Ladies doe but take</l>
+               <l> My part, and Laugh at me, I am made, ha, ha.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Opinion">Opinion.</speaker>
+            <lg>
+               <l> I could wish something sir, of other nature</l>
+               <l> To satisfie the present expectation.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Phansie">Phansie.</speaker>
+            <lg>
+               <l>I imagine, nay, I’me not ignorant of proprieties</l>
+               <l> And persons, tis a time of peace, ile fit you.</l>
+               <l> And instantly make you a representation Of the effects.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Opinion">Opinion.</speaker>
+            <lg>
+               <l>Of peace? I like that well.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Phansie">Phansie.</speaker>
+            <lg>
+               <l> And since in nothing, they are more exprest</l>
+               <l> Then in good fellowship, ile present you with A Taverne.</l>
+            </lg>
+         </sp>
+
+         <p><stage type="business">The Scene is changed into a Taverne, with a flaming red Lettice,
+               severall drinking-roomes, and a backe doore, but especially, a conceited Signe, and
+               an eminent Bush.</stage></p>
+
+         <sp>
+            <speaker n="Novelty">Novelty.</speaker>
+            <lg>
+               <l> A spicke and span new Taverne.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Admiration"> Admiration.</speaker>
+            <lg>
+               <l>Wonderfull, heere was none within two minutes.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Laughter">Laughter.</speaker>
+            <lg>
+               <l> No such wonder Lady, Tauernes are quickly up, it is but hanging out</l>
+               <l> a Bush at a Noblemans doore, or an Aldermans gate, and tis made</l>
+               <l> instantly.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Confidence">Confidence.</speaker>
+            <lg>
+               <l> Wil’t please you Ladies to accept the wine?</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Iollity">Iollity.</speaker>
+            <lg>
+               <l> Well sayd Confidence.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Novelty">Novelty.</speaker>
+            <lg>
+               <l>It will bee new for Ladies</l>
+               <l> To go to th’ Taverne, but it may be a fashion,</l>
+               <l> Follow mee Admiration.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Laughter">Laughter.</speaker>
+            <lg>
+               <l> And the foole, |</l>
+               <l> I may supply the absence of your Fidlers.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Iollity">Iollity.</speaker>
+            <lg>
+               <l> If wee can, lets leave Opinion behind us,</l>
+               <l> Phansie will make him drunke&lt;!-->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--> Exeunt to
+                  the Taverne.</l>
+            </lg>
+         </sp>
+
+         <lg>
+            <l>Another Antimasque</l>
+            <l>of the Master of the Taverne,</l>
+            <l>His Wife,</l>
+            <l>and Servants. after these–</l>
+         </lg>
+
+         <lg>
+            <l> A Maquerelle.</l>
+            <l>two Wenches.</l>
+            <l>two wanton Gamsters.</l>
+            <!-- A right pointed bracket including the 3 names above ; and has the text: "These having
+            danc’d and expressed their natures, goe into the Taverne. then–" to the right of bracket.-->
+
+            <l>A Gentleman.</l>
+            <l>Beggers 4.</l>
+         </lg>
+         <!-- A right pointed bracket including the 2 names above and has the text:" The Gentleman first
+            danceth alone: to him the Beggers, he bestows his charity, the Cripples upon his going
+            off, throw away their leggs, and dance," to the right of bracket-->
+
+         <sp>
+            <speaker n="Opinion">Opinion.</speaker>
+            <lg>
+               <l> I am glad they are off, are these effects of peace?</l>
+               <l> Corruption rather.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Phansie">Phansie.</speaker>
+            <lg>
+               <l> Oh the Beggers shew</l>
+               <l> The benefit of peace.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Opinion">Opinion.</speaker>
+            <lg>
+               <l> Their very breath</l>
+               <l> Hath stifled all the Candles, poyson’d the</l>
+               <l> Perfumes, Beggers a fit presentment? how</l>
+               <l> They cleave still to my nosthrill, I must tell you,</l>
+               <l> I doe not like such base and sordide persons.</l>
+               <l> And they become not here.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Phansie">Phansie.</speaker>
+            <lg>
+               <l>I apprehend,</l>
+               <l> If these distaste you, I can fit you with</l>
+               <l> Persons more cleanly,</l>
+               <l> What thinke you of Proiectors?</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Opinion">Opinion.</speaker>
+            <lg>
+               <l> How Proiectors!</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Phansie">Phansie.</speaker>
+            <lg>
+               <l> Here’s one already. <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> --><stage type="entrance"
+                     >Enter a Iocky.</stage></l>
+               <l>This is a Iocky, |</l>
+               <note type="foot"><hi rend="italic"> start of sig B4</hi></note>
+               <l>He is to advance a rare, and cunning brindle</l>
+               <l>Made hollow in the iron part, wherein</l>
+               <l>A vapor subtly conveyd, shall so</l>
+               <l>Coole and refresh a horse, he shall nere tire</l>
+               <l>And now he fals to his pace.</l>
+            </lg>
+         </sp>
+
+         <lg>
+            <l><!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> --><stage type="business">Iocky
+               dances.</stage></l>
+         </lg>
+
+         <sp>
+            <speaker n="Opinion">Opinion.</speaker>
+            <lg>
+               <l> This other?</l>
+            </lg>
+         </sp>
+
+         <p><stage type="entrance">Enter a Country fellow.</stage></p>
+
+         <sp>
+            <speaker n="Phansie">Phansie.</speaker>
+            <lg>
+               <l> His habite speakes him</l>
+               <l> A Country fellow, that has sold his acres</l>
+               <l> To purchase him a flayle, which by the motion</l>
+               <l> Of a queint wheele, shall without helpe of hands,</l>
+               <l> thresh Corne all day, and now he layes about him.</l>
+            </lg>
+         </sp>
+
+         <p>
+            <stage type="business">The Country fellow dances.</stage></p>
+
+
+         <p><stage type="entrance">Enter another Proiector.</stage></p>
+
+         <lg>
+            <l>This with a face Phylosophicall, and beard </l>
+            <l>Hath with the study of twenty yeares found out </l>
+            <l>A lampe, which plac’d beneath a Furnace, shall </l>
+            <l>Boyle Beefe so thoroughly, that the uery steame </l>
+            <l>Of the first Vessell shall be able</l>
+            <l>to make another Pot, aboue seeth ouer.</l>
+         </lg>
+
+         <sp>
+            <speaker n="Opinion">Opinion.</speaker>
+            <lg>
+               <l> A most Scholasticke Proiect, his feete follow </l>
+               <l>The motions of his braine.</l>
+            </lg>
+         </sp>
+
+         <l><!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--><stage type="business">The third Proiector
+               dances.</stage></l>
+
+         <l>But what thing’s this?</l>
+         <l>A Chimera out of Rablais?</l>
+
+         <sp>
+            <speaker n="Phansie">Phansie.</speaker>
+            <lg>
+               <l> A new Proiect,</l>
+               <l>A Case to walke you all day vnder water. |</l>
+               <l>So uast for the necessity of ayre,</l>
+               <l>Which, with an arificiall<note type="foot"><hi rend="italic">
+                     for</hi>artificiall</note> bellowes cool</l>
+               <l>Vnder each arme, is kept still from corruption</l>
+               <l>With those glasse eyes, he sees, and can fetch up</l>
+               <l>Gold or what ever jewels ha’ beene lost,</l>
+               <l>in any River o’the World.</l>
+            </lg>
+         </sp>
+
+         <lg>
+            <l><!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> --><stage type="business">The fourth Proiector
+                  dances.</stage></l>
+         </lg>
+
+         <sp>
+            <speaker n="Opinion">Opinion.</speaker>
+            <lg>
+               <l>Strange Water-Rat!</l>
+            </lg>
+         </sp>
+
+         <lg>
+            <l><!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> --><stage type="entrance">Enter another
+                  Proiector.</stage></l>
+         </lg>
+
+         <sp>
+            <speaker n="Phansie">Phansie.</speaker>
+            <lg>
+               <l> This grave man, some yeares past was a Physition,</l>
+               <l>A Galenist, and parcell Paraselsus,</l>
+               <l>Thriu’d by diseases, but quite lost his practice,</l>
+               <l>To study<note type="foot">u<hi rend="italic"> is turned letter or foul case</hi>
+                  </note> a new way to fatten Poultry </l>
+               <l>With scrapings of a Carrot, a great benefit</l>
+               <l>To th’ Commonwealth.</l>
+            </lg>
+         </sp>
+
+         <lg>
+            <l><!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> --><stage type="business">The fift proiector
+                  dances.</stage></l>
+         </lg>
+
+         <sp>
+            <speaker n="Opinion">Opinion.</speaker>
+            <lg>
+               <l>He will deserue a monument.</l>
+            </lg>
+         </sp>
+
+         <p><stage type="entrance">Enter the sixt proiector.</stage></p>
+
+         <sp>
+            <speaker n="Phansie">Phansie.</speaker>
+            <lg>
+               <l> This is a kind of Seagull too, that will</l>
+               <l>Compose a ship to saile against the winds,</l>
+               <l>Hee’l undertake to build a most strong castle</l>
+
+               <l>On Goodwin sands, to melt huge Rockes to jelley, </l>
+               <l>And cut ’em out like sweetmeats with his keele, </l>
+               <l>And thus he sayles.</l>
+            </lg>
+         </sp>
+
+         <lg>
+            <l>Maquerelle.</l>
+            <l> Wenches.</l>
+            <l>Gentlemen.</l>
+         </lg>
+         <!-- A Right pointed bracket that includes the 3 names above, the text: "All the proiectors dance after their Antimasque,
+            Returne, as from the Taverne, they dance together, The Gallants are cheated, and left to
+            dance in, with a drunken repentance." is to the right of the bracket.-->
+
+         <sp>
+            <speaker n="Opinion">Opinion.</speaker>
+            <lg>
+               <l>I know not sir, how this may satisfie, </l>
+               <l>But might we be beholding to your fancy </l>
+               <l>For some more queint variety, some other </l>
+               <l>Then humane shapes, would happily delight, </l>
+               <l>And reach the expectation; I ha’ seene </l>
+               <l>Dainty devices in this kind, Baboones</l>
+               <l>In Quellios, and so forth.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Phansie">Phansie.</speaker>
+            <lg>
+               <l> I can furnish you.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Opinion">Opinion.</speaker>
+            <lg>
+               <l> Phansie will much obliege us. </l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Phansie">Phansie.</speaker>
+            <lg>
+               <l> If these objects</l>
+               <l>Please not, Phansie can present a change,</l>
+               <l>What see you now?</l>
+            </lg>
+         </sp>
+
+         <p>The Scene becomes a woody Landschape with low grounds proper for hunting, the furthest
+            part more desert, with bushes and by waies representing a place fit for purse-taking. </p>
+         <p>In the furthest part of the Scene is seene an Ivy-bush, out of which comes an Owle.</p>
+
+         <sp>
+            <speaker n="Opinion">Opinion.</speaker>
+            <lg>
+               <l> A Wood, a broad-fac’d Owle,</l>
+               <l> An Ivy-bush, and other Birds about her.</l>
+               <l> Ph. These can imagination create,</l>
+               <l>Silence, observe. |</l>
+            </lg>
+         </sp>
+
+         <lg>
+            <l>An Owle.</l>
+            <l>A Crow.</l>
+            <l>A Kite.</l>
+            <l>A Iay.</l>
+            <l>A Magpy.</l>
+         </lg>
+         <!-- A Right pointed bracket that includes the 5 names above; the text: "The Birds dance and wonder at the Owle. When
+            these are gone, enter" is to the right of the bracket-->
+
+         <lg>
+            <l>A Merchant, a Horse-backe, with his Portmantue.</l>
+            <l> Two Theeves, set vpon him and robbe him: these by</l>
+         </lg>
+
+         <lg>
+            <l>A Constable,</l>
+            <l> and</l>
+            <l>Officers.</l>
+         </lg>
+         <!-- A Right pointed bracket that includes text above; the text: "are apprehended and carryed off. then" is to the right of the bracket-->
+
+         <lg>
+            <stage type="entrance"><l>Foure Nimphes enter dancing with their Iavelins.</l></stage>
+            <stage type="mixed"><l> Three Satires spie them, and attempt their persons, one of the
+                  Nimphes</l><l> escapeth, a noyse of Hunters and their hornes within, as at</l><l>
+                  the fall of a Deere, then Enter</l></stage>
+         </lg>
+
+         <lg>
+            <l>Foure Huntsmen</l>
+            <l>and</l>
+            <l>One Nimph.</l>
+         </lg>
+         <!-- A Right pointed bracket that includes text above; the text: " These drive away the Satires, and having rescued the
+            Nimphes, dance with them." is to the right of the bracket-->
+
+         <sp>
+            <speaker n="Opinion">Opinion.</speaker>
+            <lg>
+               <l> This all you will present?</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Phansie">Phansie.</speaker>
+            <lg>
+               <l> You speake as if</l>
+               <l>Phansie could be exhaust, Invention flowes</l>
+               <l>From an immortall spring, you shall taste other</l>
+               <l>Variety, nimble as thought. We change the Scene.</l>
+            </lg>
+         </sp>
+
+
+         <p><stage type="mixed">A Landschape the Scene. and Enter</stage></p>
+
+
+         <lg>
+            <l>Three Dotterells.</l>
+            <l>Three Dotterell-catchers. |</l>
+         </lg>
+
+         <sp>
+            <speaker n="Opinion">Opinion.</speaker>
+            <lg>
+               <l> What are these?</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Phansie">Phansie.</speaker>
+            <lg>
+               <l>Dotterells, be patient, and expect.</l>
+            </lg>
+         </sp>
+
+         <p><stage type="entrance">After the Dotterells are caught by severall imitations,
+               enters</stage></p>
+
+         <lg>
+            <l>A Windmill.</l>
+            <l>A phantastique Knight.</l>
+            <l>and</l>
+            <l>His Squire armed.</l>
+         </lg>
+         <!-- A Right pointed bracket that includes the text above; the text:" The phantastique Aduenturer,
+            with his lance makes attempts vpon the Windmill, his Squire imitates: to them Enter" is to the right of the bracket-->
+
+         <lg>
+            <l> A Country Gentleman,</l>
+            <l> and</l>
+            <l>his Servant.</l>
+         </lg>
+         <!-- A Right pointed bracket that includes the text above; the text:"These are assavlted by the Knight and his
+            Squire, but are sent off lame for their folly." is to the right of the bracket-->
+
+         <lg>
+            <l> Bowlers, 4. </l>
+         </lg>
+
+         <p><stage type="entrance">Enter Confidence, Iollity, Laughter, Novelty,
+            Admiration.</stage></p>
+
+         <sp>
+            <speaker n="Opinion">Opinion.</speaker>
+            <lg>
+               <l> Madam accuse your absence,</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Novelty">Novelty.</speaker>
+            <lg>
+               <l> We know </l>
+               <l>All your devices sir.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Opinion">Opinion.</speaker>
+            <lg>
+               <l>Ha, what’s the matter,</l>
+               <l>Confidence, Iollity, Laughter, Admiration,</l>
+               <l>And Madam Novelty, all drunke! these are</l>
+               <l>extreames indeed. </l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Admiration"> Admiration.</speaker>
+            <lg>
+               <l> Admirable Opinion.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Confidence">Confidence.</speaker>
+            <lg>
+               <l> Be confident.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Laughter">Laughter.</speaker>
+            <lg>
+               <l> And foolish. |</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Iollity">Iollity.</speaker>
+            <lg>
+               <l> I am as light now.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Phansie">Phansie.</speaker>
+            <lg>
+               <l>Let ’em enioy their Phansies. </l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Opinion">Opinion.</speaker>
+            <lg>
+               <l> What new change</l>
+               <l>Is this? these straines are heavenly.</l>
+            </lg>
+         </sp>
+
+         <p><stage type="exit" rend="right">Phansie and the rest goe off fearefully.</stage></p>
+
+         <p>The Antimasquers being gone, there appeares in the highest and formost part of the
+            heaven by little and little to breake forth a whitish Cloud, bearing a Chariot fained of
+            Goldsmiths-worke, and in it sate Irene, or Peace, in a flowery vesture like the spring,
+            a Garland of Olives on her head, a branch of Palme in her hand, Buskins of greene
+            Taffata, great puffs about her necke and shoulders.</p>
+
+         <p><stage type="business">Shee sings.</stage></p>
+
+         <sp>
+            <speaker n="Irene">Irene.</speaker>
+            <lg>
+               <l> Hence yee profane, farre hence away </l>
+               <l>Time hath sicke feathers while you stay,</l>
+               <l>Is this delight</l>
+               <l>For such a glorious night,</l>
+               <l> Wherein two skies</l>
+               <l>are to be seene, </l>
+               <l>One starry, but an aged sphere</l>
+               <l>another here,</l>
+
+               <l>Created new and brighter from the Eyes</l>
+               <l>of King and Queene?</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Choir">CHO.</speaker>
+            <lg>
+               <l> Hence you prophane, farre hence away,</l>
+               <l>Time hath sicke feathers while you stay. | </l>
+            </lg>
+         </sp>
+
+         <p><title type="song">Song 2.</title></p>
+         <sp>
+            <speaker n="Irene">Irene.</speaker>
+            <lg>
+               <l> Wherefore doe my sisters stay </l>
+               <l>Appeare, appeare Eunomia,</l>
+               <l>’Tis Irene calls to thee,</l>
+               <l>Irene calls,</l>
+               <l>Like dew that falls </l>
+               <l>Into a streame,</l>
+               <l>I’me lost with them,</l>
+               <l>That know not how to order me.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Choir">CHO.</speaker>
+            <lg>
+               <l>See where shee shines, oh see</l>
+               <l>In her celestiall gayety</l>
+               <l>Crownd with a wreath of Starres to shew </l>
+               <l>The Evening glory in her brow.</l>
+            </lg>
+         </sp>
+
+         <p><stage type="entrance">Here out the highest part of the opposite side came softly
+               descending another Cloud, of an orient colour, bearing a silver Chariot curiously
+               wrought, and differing in all things from the first, in which sate Eunomia or Law, in
+               a purple Sattin Robe, adorn’d with golden Starres, a mantle of carnation Lac’d, and
+               Fring’d with Gold, a Coronet of light upon her head, Buskins of Purple, drawne out
+               with Yellow.</stage></p>
+
+         <p><title type="song">Song 3.</title></p>
+         <sp>
+            <speaker n="Eunomia">Eunomia.</speaker>
+            <lg>
+               <l> Thinke not I could absent my selfe this night, </l>
+               <l>But Peace is gentle and doth still invite</l>
+               <l>Eunomia, yet shouldst thou silent be |</l>
+               <l>The Rose and Lilly which thou strowest </l>
+               <l>All the cheerefull way thou goest</l>
+               <l>Would direct to follow thee.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Irene">Irene.</speaker>
+            <lg>
+               <l> Thou dost beautifie increase, </l>
+               <l>And chaine security with peace.</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker n="Eunomia">Eunomia.</speaker>
+            <l> Irene faire, and first devine, </l>
+            <l>All my blessings spring from thine,</l>
+         </sp>
+
+         <sp>
+            <speaker n="Irene">Irene.</speaker>
+            <l> I am but wilde without thee, thou abhorrest </l>
+            <l>What is rude, or apt to wound,</l>
+            <l>Canst throw proud trees to the ground, </l>
+            <l>And make a Temple of a Forrest.</l>
+         </sp>
+         <sp>
+            <speaker n="Eunomia">Eunomia.</speaker>
+            <l> No more, no more, but ioyne </l>
+            <l>Thy voyce, and Lute with mine.</l>
+         </sp>
+
+         <sp>
+            <speaker n="Irene and Eunomia">Both.</speaker>
+            <l> The world shall giue prerogative to neyther. </l>
+            <l>We cannot flourish but together.</l>
+         </sp>
+
+         <p>CHORI.</p>
+
+         <sp>
+            <speaker n="Choir">Cho.</speaker>
+            <lg>
+               <l> Irene enters like a perfum’d spring,</l>
+               <l>Eunomia ripens every thing,</l>
+               <l>And in the golden harvest leaves</l>
+               <l>To every sickle his owne sheaves.</l>
+            </lg>
+         </sp>
+
+         <p><stage type="entrance">At this a third Cloud of a various color from the other two,
+               begins to descend toward the middle of the Scene with somewhat a more swifter motion,
+               and in it sate a Person representing Diche or Iustice in the midst in a white Robe
+               and mantle of Sattin, a faire long haire circled with a Coronet of Siluer Pikes,
+               white Wings and Buskins, a Crowne imperiall in her hand. |<note type="foot"><hi
+                     rend="italic">start of sig C4</hi></note></stage></p>
+
+         <p><title type="song">Song 4.</title></p>
+
+         <sp>
+            <speaker n="Diche">Diche.</speaker>
+            <lg>
+               <l> Swiftly, oh swiftly, I doe move to slow, </l>
+               <l>What holds my wing from making hast </l>
+               <l>When every Cloud sailes by so fast?</l>
+               <l>I heard my sisters voyce, and know</l>
+               <l>They haue forsaken Heavens bright gate,</l>
+               <l>To attend another State,</l>
+               <l> of gods below.</l>
+               <l>Irene chast Evnomia.</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker n="Eunomia and Irene">Eu. Ir.</speaker>
+            <lg>
+               <l> We</l>
+               <l>Diche, haue stayd expecting thee, </l>
+               <l>Thou giu’st perfection to our glory,</l>
+               <l>And seale to this nights story.</l>
+               <l>Astrea shake the cold dew from thy wing.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Eunomia">Eunomia.</speaker>
+            <lg>
+               <l> Descend.</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker n="Irene">Irene.</speaker>
+            <lg>
+               <l> Descend.</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker n="Eunomia">Eunomia.</speaker>
+            <lg>
+               <l> Descend, and helpe vs sing,</l>
+               <l>The Triumph of Ioves upper Court abated </l>
+               <l>And all the Deities translated.</l>
+            </lg>
+         </sp>
+
+         <p>CHOR.</p>
+         <lg>
+            <l>The Triumph of Ioves vpper Court abated </l>
+            <l>And all the Deities translated.</l>
+         </lg>
+         <sp>
+            <speaker n="Eunomia">Eunomia.</speaker>
+            <lg>
+               <l> Now gaze, and when thy wonder will allow,</l>
+               <l>Tell what thou hast beheld.</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker n="Diche">Dich.</speaker>
+            <lg>
+               <l> Never, till now,</l>
+               <l>Was poore Astrea blind, oh strange surprize, </l>
+               <l>That too much sight should take away my eyes, </l>
+               <l>Am I in Earth or Heaven? |</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Irene">Irene.</speaker>
+            <lg>
+               <l> What throne is that,</l>
+               <l>On which so many starres doe waite?</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker n="Diche">Dich.</speaker>
+            <lg>
+               <l> My eyes are blest agen, and now I see</l>
+               <l> The Parents of vs three.</l>
+               <l>Tis Iove and Themis forward move,</l>
+               <l>And sing to Themis, and to Iove.</l>
+            </lg>
+         </sp>
+
+         <p><stage type="business">Then the whole traine of Musitians move in a comely figure toward
+               the King and Queene, and bowing to their State, this following Ode is
+            sung.</stage></p>
+
+         <p><title type="song">Song 5.</title></p>
+         <lg>
+            <l>To you great King and Queene, whose smile, </l>
+            <l>Doth scatter blessings through this Ile,</l>
+            <l>To make it best</l>
+            <l>And wonder of the rest,</l>
+            <l>We pay the duty of our birth,</l>
+            <l>Proud to waite vpon that Earth</l>
+            <l> Whereon you moue, </l>
+            <l>Which shall be nam’d</l>
+            <l>And by your chast embraces fam’d, </l>
+            <l>The Paradise of loue,</l>
+            <l>Irene plant thy Olives here,</l>
+            <l>Thus warm’d, at once, theyle bloome and beare,</l>
+            <l>Eunomia pay thy light,</l>
+            <l>While Diche, covetous to stay, </l>
+            <l>Shall throw her silver Wings away,</l>
+            <l>To dwell within your sight.</l>
+         </lg>
+
+         <p><stage type="mixed">The Scene is changed, and the Masquers appeare | setting on the
+               ascent of an Hill, cut out like the degrees of a Theater, and ouer them a delicious
+               Arbor with termes of young Men their Armes converted into Scrowles, and under their
+               wasts a foliage with other caruings to cover the ioyning of the terme from the naked,
+               all fained of Siluer, these bore up an Architraue, from which was raised a light
+               covering arched, and interwoven with Branches through which the Sky beyond was
+               seene.</stage></p>
+
+         <p>The Masquers were sixteene in number, the sonnes of Peace Law and Iustice, who setting
+            in a gracious but not set forme, every part of the seates made a various Composition,
+            but all together tending to a Piramidall figure.</p>
+
+         <p>Their habits was mixt, betweene the ancient and moderne, their bodies Carnation, the
+            shoulders trimd with Knots of pure silver, and scallops of White and Carnation, vnder
+            them the Labels of the same, the under-sleeves white, and a puft sleeve full of
+            gathering, falling downe to the elbow, about their waste was a small scallop, and a
+            slender Girdle, their vnder Bases were Carnation and White, with Labels as at their
+            shoulders, and all this in every part was richly Embroydered with pure silver: their
+            Hats Carnation low croun’d, the brimme double, and cut into severall quarters lined with
+            white, and all ouer richly Embroydered, as the rest, about their Hats were wreathes of
+            Olive, and plumes of white Feathers, with severall falls, the longest toward the backe;
+            their long stockings were white, with white shooes and Roses. |</p>
+
+         <p><stage type="entrance">Beneath these a Genius or Angelicall person, with wings, of
+               seuerall coloured feathers, a carnation Robe tuck’d up, yellow long haire bound with
+               a siluer Coronet, a small white Rod in his hand, white Buskins, who descending to the
+               Stage speaketh,</stage></p>
+
+         <sp>
+            <speaker n="Genius">Gen.</speaker>
+            <lg>
+               <l> No forraigne persons I make knowne, </l>
+               <l>But here present you with your owne,</l>
+               <l>The Children of your Raigne, not blood</l>
+               <l>Of age, when they are vnderstood.</l>
+               <l>Not seene by faction or Owles sight, </l>
+               <l>Whose trouble is the clearest light,</l>
+               <l>But treasures to their eye, and eare,</l>
+               <l>That loue good for it selfe, not feare.</l>
+               <l>Oh smile on what your selues have made, </l>
+               <l>These haue no forme, no sunne, no shade,</l>
+               <l>But what your vertue doth create,</l>
+               <l>Exalted by your glorious fate,</l>
+               <l>Thei’le towre to heaven, next which, they know, </l>
+               <l>And wish no blessednesse but you. <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> --><stage
+                     type="business">The Masquers moue.</stage></l>
+               <l>That very looke into each eye</l>
+               <l>Hath shot a soule, I saw it flie.</l>
+
+               <l>Descend, move nimbly, and advance, </l>
+               <l>Your ioyfull tribute in a dance.</l>
+            </lg>
+         </sp>
+
+         <p><stage type="mixed">Here with loud Musicke, the Masquers descend and dance their entry
+               to the Violins, which ended, they retire to the Scene, and then the Howers and Chori
+               againe move toward the State and sing.</stage></p>
+
+         <p><title type="song">Song 6.</title></p>
+         <lg>
+            <l>They that were never happy Howers |<note type="foot"><hi rend="italic">start of sig
+                     D2</hi></note></l>
+            <l>Till now, returne to thanke the powers</l>
+            <l>that made them so,</l>
+            <l> The Ilands doth reioyce,</l>
+            <l>And all her waues are Ecco to our voyce, </l>
+            <l>Which in no ages past, hath knowne</l>
+            <l>such treasures of her owne.</l>
+            <l>Live royall pare, and when Your sands are spent</l>
+            <l>with Heavens and Your consent,</l>
+            <l>Though late, from Your high Bowers, </l>
+            <l>Looke downe on what was Yours,</l>
+            <l>For till old time his glasse hath hurl’d </l>
+            <l>And lost it in the ashes of the world,</l>
+            <l>We prophesie, you shall be read and seene,</l>
+            <l>In every Branch, a King or Queene.</l>
+         </lg>
+
+         <p><stage type="mixed">The song ended, and the Musitians returned, the Masquers dance their
+               maine dance, after which they againe retire to the Scene, at which they no sooner
+               arrive, but there is heard a great noyse, and confusion of voyces within, some
+               crying, they will come in, others knocke ’em downe, call the rest of the Guard: then
+               a cracke is heard in the workes, as if there were some danger by some piece of the
+               Machines falling, this continued a little time, there rush in</stage></p>
+
+         <table>
+            <row>
+               <cell> A Carpenter.</cell>
+               <cell>The Taylors Wife.</cell>
+            </row>
+            <row>
+               <cell>A Paynter.</cell>
+               <cell>An Embroyderers wife.</cell>
+            </row>
+            <row>
+               <cell>One of the Black-guard.</cell>
+               <cell>A Feather-makers wife.</cell>
+            </row>
+            <row>
+               <cell>A Taylor</cell>
+               <cell>A Property-mans wife.</cell>
+            </row>
+         </table>
+         <!-- A Right pointed bracket is in the middle, seperating the 2 cells making up each row -->
+         <sp>
+            <speaker n="Carpenter">Carpenter.</speaker>
+            <lg>
+               <l> D’ee thinke to keepe vs out? |</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker n="Guard">1 Guard.</speaker>
+            <lg>
+               <l> Knocke her downe.</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker n="Taylor">Taylor.</speaker>
+            <lg>
+               <l>Knocke downe my Wife, I’de see the tallest Beefe-eater on you all, but hold vp his
+                  Halberd in the way of knocking my Wife downe, and ile bring him a button-hole
+                  lower.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Taylors Wife">Taylors Wife.</speaker>
+            <lg>
+               <l> Nay, let ’em, let ’em Husband, at their perrill.</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker n="Guard">2 Guard.</speaker>
+            <lg>
+               <l> Complaine to my Lord Chamberlaine.</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker n="Property-mans wife">Property-mans wife.</speaker>
+            <lg>
+               <l> My husband is somewhere in the workes, I’me sure I helpt to make</l>
+               <l>him an Owle and a Hobbihorse, and I see no reason but his Wife may bee</l>
+               <l> admitted in Forma paperis, to see as good a Maske as this.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Black-guard">Bla.</speaker>
+            <lg>
+               <l> I never saw one afore, I am one of the Guard, though of another</l>
+               <l> complexion, and I will see’t now I am here, though I be turn’d out of the</l>
+               <l> Kitchin to morrow for’t.</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker n="Paynter">Paynter.</speaker>
+            <lg>
+               <l> I, come, be resolute, we know the worst, and let us challenge a</l>
+               <l> priviledge, those staires were of my painting.</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker n="Carpenter">Car.</speaker>
+            <lg>
+               <l> And that Timber I set vp: some body is my witnesse.</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker n="Feather-makers wife">Feather-makers wife.</speaker>
+            <lg>
+               <l> I am sure my husband sold ’em most of the Feathers; somebody</l>
+               <l> promis’d me a fall too if I came to Court, but let that passe.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="Embroyderers wife">Embroyderers wife.</speaker>
+            <lg>
+               <l> And mine embroyder’d two of the best habits, what though we be</l>
+               <l> no Ladies, we are Christians in these cloathes, and the Kings subiects God</l>
+               <l> blesse us.</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker n="Taylor">Taylor.</speaker>
+            <lg>
+               <l> Nay, now I am in, I will see a dance, though my shop-windowes be</l>
+               <l> shut vp for’t, tell us?—hum? dee heare? doo not they laugh at us? what were</l>
+               <l> wee best to doe, the Masquers will doe no feates as long | we are here, be
+                  rul’d</l>
+               <l> by me, harke euery one, ’tis our best course to dance a figary our selues,
+                  and</l>
+               <l> then they’l thinke it a peece of the Plot, and we may goe off agen with the</l>
+               <l> more credite, we may else kisse the Porters-lodge for’t, let’s put a tricke
+                  vpon</l>
+               <l> ’em in reuenge, ’twill seeme a new device too.</l>
+            </lg>
+         </sp>
+
+         <sp>
+            <speaker n="">Om.</speaker>
+            <lg>
+               <l> Content.</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker n="Taylor">Taylor.</speaker>
+            <lg>
+               <l> And the Musitians knew but our mind now:</l>
+            </lg>
+         </sp>
+
+         <lg>
+            <l><!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> --><stage type="business">The Violins
+                  play.</stage></l>
+         </lg>
+
+         <p>Harke they are at it, now for a lively friske.</p>
+
+         <lg>
+            <l><!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> --><stage type="business">They dance.</stage></l>
+         </lg>
+
+         <p>now, let vs goe off cleanely, and some body will thinke, this was meant for an
+            Antimasque.</p>
+
+         <p>They being gone, the Masquers are encouraged by a Song, to their Revells with the
+            Ladies.</p>
+
+         <p><title type="song">Song 7.</title></p>
+         <lg>
+            <l>Why doe you dwell so long in clouds</l>
+            <l>And smother your best graces,</l>
+            <l>’Tis time to cast away those shrouds</l>
+            <l>And cleere your manly faces.</l>
+            <l>Doe not behave your selues like Spies, </l>
+            <l>Vpon the Ladies here,</l>
+            <l>On even termes goe meete their eyes, </l>
+            <l>Beauty and love shine there.</l>
+            <l>You tread dull measures thus alone, </l>
+            <l>Not satisfie delight,</l>
+            <l>Goe kisse their hands, and make your owne </l>
+            <l>With every touch more white. |</l>
+         </lg>
+
+         <p><stage type="mixed">The Revels being past, the Scene is changed into a plaine Champion
+               Country which terminates with the Horizon, and above a darkish Skie, with dusky
+               clouds, through which appeared the new Moone, but with a faint light by the approach
+               of the morning; from the furthest part of this ground, arose by little and little a
+               great vapour which being come about the middle of the Scene, it slackens its motion,
+               and begins to fall downeward to the earth from whence it came: and out of this rose
+               another cloud of a strange shape, and colour, on which sate a young Maide, with a
+               dimme Torch in her hand, her face was an Olive-colour, so was her armes and breast,
+               on her head a curious dressing, and about her necke a string of great Pearle, her
+               garment was transparent, the ground darke Blue, and sprinkled with siluer Spangles,
+               her Buskins white, trim’d with Gold: by these markes she was knowne to be the
+               forerunner of the morning, called by the Ancients Amphiluche, and is that glimps of
+               light, which is seene when the night is past, and the day not yet
+            appearing.</stage></p>
+
+         <p>
+            <title type="song">Song 8.</title></p>
+
+         <sp>
+            <speaker n="Amphiluche">Amphiluche.</speaker>
+            <lg>
+               <l> In envy to the night,</l>
+               <l>That keepes such Revels here,</l>
+               <l>With my unwelcome light, </l>
+               <l>Thus I invade her spheare.</l>
+               <l>Proclayming warres </l>
+               <l>To Cynthia, and all her starres</l>
+               <l>That like proud Spangles dresse</l>
+               <l>her azure Tresse. |<note type="foot"><hi rend="italic"> start of
+                  D4</hi></note></l>
+               <l>Because I cannot be a guest, I rise</l>
+               <l>To shame the Moone, and put out both her eyes.</l>
+            </lg>
+         </sp>
+
+         <p><stage type="mixed">Amphiluche ascending, the Masquers are called from their Reuels by
+               other voyces.</stage></p>
+
+         <p><title type="song">Song 9.</title></p>
+         <p><lg>
+               <l>1 Come away, away, away,</l>
+               <l>See the dawning of the day,</l>
+               <l>Risen from the murmuring streames, </l>
+               <l>Some starres shew with sickly beames,</l>
+               <l>What stocke of flame they are allow’d,</l>
+               <l>Each retiring to a Cloud,</l>
+               <l>Bid your active sports adieu,</l>
+               <l>The morning else will blush for you.</l>
+            </lg></p>
+
+         <p><lg>
+               <l>2 Yee feather-footed howers runne</l>
+               <l>To dresse the Chariot of the Sunne,</l>
+               <l>Harnesse the Steeds, it quickly will</l>
+               <l>Be time to mount the Easterne hill.</l>
+            </lg></p>
+         <p><lg>
+               <l>3 The lights grow pale with modest feares,</l>
+               <l>Least you offend those sacred eares,</l>
+               <l>And eyes, that lent you all this grace,</l>
+               <l>Retire, retire, to your owne place.</l>
+            </lg></p>
+         <p><lg>
+               <l>4 And as you move from that blest Paire,</l>
+               <l>Let each heart kneele, and thinke a Prayer,</l>
+               <l>That all, that can make vp the glory,</l>
+               <l>Of good and great may fill their story. |</l>
+            </lg></p>
+
+         <p><stage type="exit">Amphiluche hidden in the Heavens, and the Masquers retired. The Scene
+               closeth.</stage></p>
+
+         <p>And thus concluded this Masque, which was, for the variety of the Shewes, and richnesse
+            of the Habits, the most magnificent that hath beene brought to Court in our time.</p>
+
+         <p>THe Scene and Ornament, was the act of Inigo Iones Esquire, Surueyer of his Maiesties
+            workes.</p>
+
+         <p>The Composition of the Musicke, was perform’d by Mr. William Lawes, and Mr. Simon Ives,
+            whose Art gaue an Harmonious soule to the otherwise languishing Numbers.</p>
+
+         <p>FINIS.</p>
+
+
+      </body>
+   </text>
+</TEI>

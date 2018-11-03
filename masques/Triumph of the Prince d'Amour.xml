@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>APPENDIX 2 613</p>
+         <lg>
+            <l><hi rend="italic">1635/6</hi></l>
+            <l><hi rend="italic">Triumphs of the Prince d’Amour</hi> STC: 6308</l>
+            <l>sigs A3–C4</l>
+         </lg>
+
+         <p><title>TO EVERY READER.</title></p>
+
+         <p>THe intention of this Entertainement to the Prince ELECTOR<note type="foot"><hi
+                  rend="italic">Charles Lewis, elector palatine of the Rhine</hi></note>, being
+            hastily prepar’d, as from eager hearts that could delay no Ceremony that might render an
+            expression of their Loves: It could not be, but I must share the inconvenience of that
+            hast: since length and aptitude of time is still allow’d to these Composures: And this
+            (devis’d and written in three dayes) might happely have found an excuse, if the
+            presentation had beene as suddenly perform’d, as it was prepar’d: but | there was a sad
+            necessitie for the delay; and I may justly stile it a misfortune, that the generall
+            worke could not receive the benefit of alteration by that unprofitable leasure, which
+            since we have rather lost than enjoy’d. Though some Truthes are not conveniently urg’d,
+            this I was forc’d to say in a malignant time, when most men strive to raise themselves a
+            reputation of witt, by Cavill and Dislike.</p>
+
+         <p><hi rend="right">VV. D. | <note type="foot"><hi rend="italic">William
+                  Davenant</hi></note></hi></p>
+
+         <p><title>A MASQVE PRESENTED BY his HIGHNESSE<note type="foot"><hi rend="italic">ie, Prince
+                     d'Amour</hi></note>, at his Pallace in the Middle-Temple, the 24th. of
+               February, 1635.</title></p>
+
+         <p> BEFORE the Scene was discovered, the Princes being prepar’d under the state at the
+            upper end of the Hall; the Master of Ceremonies to the Prince D’AMOVR, receives an
+            Imployment by a whisper from his Master, then moves to the Prince Elector (to whom this
+            Entertainment was onely directed) and speakes this.</p>
+         <lg>
+            <l>SIr, this short journey from my Princes Throne,</l>
+            <l>Is meant in Embassie to You alone; |</l>
+            <l>To You, whom he receives not as his Ghest,</l>
+            <l>For You are both his Ornament and Feast.</l>
+            <l>Although his Greatnesse is not taught to bow,</l>
+            <l>His Subjects feare, he will doe homage now,</l>
+            <l>Which he esteemes no less’ning to his State,</l>
+            <l>Since ’tis his Love decrees it, not his Fate.</l>
+
+            <!-- 614 TRIUMPHS OF THE PRINCE D’AMOUR -->
+
+            <l>Nay more, his Message moves so low, I feare,</l>
+            <l>What sounds like tender Courtship in your eare,</l>
+            <l>His Iealous Barons will dislike, and cry,</l>
+            <l>I am perverted to disloyaltie;</l>
+            <l>Vrge my Commission false, then taxe me for</l>
+            <l>An easie Traytor, no Embassadour;</l>
+            <l>As if my words would pull his Empire downe,</l>
+            <l>Shorten his Scepter, and contract his Crowne;</l>
+            <l>Thus whisper’d by my feares, I must impart</l>
+            <l>For Ceremony now, what is his heart,</l>
+            <l>Though with content of Truth, I may report</l>
+            <l>You haue a num’rous Faction in his Court.</l>
+            <l>This Pallace where, by sword, then law maintain’d</l>
+            <l>His few, but mighty Ancestors have raign’d,</l>
+            <l>Is consecrated yours; which he doth give,</l>
+            <l>Not in regard he hath short time to live;</l>
+            <l>For so, since his Successor is unknowne,</l>
+            <l>You take what is his Subjects, not his owne, |<note type="foot"><hi rend="italic"
+                     >start of sig B1</hi></note></l>
+            <l>And what is a surrender now, would be</l>
+            <l>Receiv’d to morrow as a Legacie:</l>
+            <l>If more of his free love, I should relate,</l>
+            <l>They’d stile it homage in our Iealous state.</l>
+         </lg>
+
+         <p>At the upper end, opposite to the state, was a stage of six foot high: and there was
+            presented to sight a Front of Architecture with two Pillasters at each side, and in the
+            middle of the Coronich a Compartement, with this inscription in an Ovall.</p>
+
+         <p><title>Les Triumphes du Prince d’ Amour.</title></p>
+
+         <p> The Curtaine flying up, on the sudden the Scene was discovered with a Village
+            consisting of Alehouses and Tobacco shops, each fronted with a red Lettice, on which
+            blacke Indian Boyes sate bestriding Roles of Tobacco, and in the place of Signes, Globes
+            hung up, stucke up full of broken Pipes. Before each dore were seene old Loggs, and
+            Trunkes of hollow Trees, on them sate the Persons of the first Anti-masque drinking, and
+            making to each other such ridiculous salutes, as did intimate a joy of meeting, and
+            acquaintance. This continued a while, and then they prepar’d for their first entry.
+            |</p>
+
+         <p>APPENDIX 2 615</p>
+
+         <p><title>The first Anti-Masque.</title></p>
+         <castList>
+            <castItem>Two, whose habits presented them, for swaggering Souldiers, and of the cheaper
+               quallity, such as are said to roare, not fight, their Beards mishapen, with long
+               whiskers of the Stilletto cut.</castItem>
+            <castItem>Two Dutch Sea Officers, a Gunner and a Boatswaine.</castItem>
+            <castItem>An old over-growne debaush’d Cavalier, that seem’d unwieldy with his weight,
+               his Riots had so inlarg’d him.</castItem>
+            <castItem>A Begging Souldier, with a Knapsack hanging at his backe.</castItem>
+            <castItem>A Suttlers wife, denoted by her dresse of the Campe, her head being bound with
+               a Saddle girth, instead of Phylliting.</castItem>
+         </castList>
+         <p><stage type="mixed">These after their Entry was perform’d, retire.</stage></p>
+
+         <p>On the sudden, the Scene wholly changing, appeares a Campe of Tents, distinguished by
+            their severall Colours: And in the middst was discover’d the Temple of Mars, the forme
+            being square, and of the Dorick Order, with Trophies of Armes on the Front. Within the
+            middle of the Temple stood the Statue of Mars, of Copper, upon a Pedestall.</p>
+
+         <p> This having continu’d a while in prospect, the Priests of Mars came out of the Temple,
+            cloath’d in Crimson robes, of the Antick shape, girt in the wast and being tuck’d up,
+            fall in a fold; on their heads, | Miters of a Helmet forme, with a Poniard advanc’d on
+            the top, and they sing this by way of Preparation.</p>
+
+         <p><title type="song">(1)</title></p>
+         <lg>
+            <l>Come shut our Temple and away,</l>
+            <l>Our bold seditious God shall stay;</l>
+            <l>Wee’l serve no sacrifice to day,</l>
+            <l>Our humor is to Feast, not Pray.</l>
+         </lg>
+
+         <p><title type="song">(2)</title></p>
+         <lg>
+            <l>The Battell which our Knights have won,</l>
+            <l>Did last untill th’ amazed Sun</l>
+            <l>For feare, did mend his usuall pace,</l>
+            <l>And set betimes to hide his face.</l>
+         </lg>
+
+         <p><title type="song">(3)</title></p>
+         <lg>
+            <l>And now the story of their fight</l>
+            <l>Is universall, as his light,</l>
+            <l>Which Fame upon her swifter wing</l>
+            <l>Hath early brought for us to sing.</l>
+         </lg>
+
+         <p>616 TRIUMPHS OF THE PRINCE D’AMOUR</p>
+
+         <p><stage type="mixed">This Song ended, with a slow pace they descend (playing on their
+               Instruments) and being advanc’d | neere the State, sing this to signifie some Battell
+               lately fought.</stage></p>
+
+         <p><title type="song">(1)</title></p>
+         <lg>
+            <l>Heark! heark! the trouble of the day draws neere,</l>
+            <l>And now the Drum doth teach the heart to beat,</l>
+            <l>Whilst Trumpets cherish not, but wound the eare</l>
+            <l>Of such, who are ordain’d for a defeat.</l>
+         </lg>
+
+         <p><title type="song">Chorus.</title></p>
+         <lg>
+            <l>Heark! Heark! some groane, and curse uncertaine Fate,</l>
+            <l>Which vs for blood and ruine, doth create.</l>
+         </lg>
+
+         <p><title type="song">(2)</title></p>
+         <lg>
+            <l>Charge! charge! cries ev’ry bold ambitious knight,</l>
+            <l>Whilst artificiall darknesse hid their way,</l>
+            <l>The lightning of their Swords was all their light,</l>
+            <l>For dust, &amp; sulphrous clouds had chok’d the day.</l>
+         </lg>
+
+         <p><title type="song">Chorus.</title></p>
+         <lg>
+            <l>Heark! heark! some groane, and curse uncertaine Fate,</l>
+            <l>Which vs for blood and ruine, doth create. |<note type="foot"><hi rend="italic">start
+                     of sig B3</hi></note></l>
+         </lg>
+
+         <p><title type="song">(3)</title></p>
+         <lg>
+            <l>Burn, burn, was straight the noyse in ev’ry Tent,</l>
+            <l>Whilst some mis-led by their disorder’d feare,</l>
+            <l>Did helpe to kindle what they should prevent,</l>
+            <l>And scap’d the Van to perish in the Reere.</l>
+         </lg>
+
+         <p><title type="song">Chorus.</title></p>
+         <lg>
+            <l>Heark! heark! some groane, and curse uncertaine Fate,</l>
+            <l>Which vs for blood and ruine, doth create.</l>
+         </lg>
+
+         <p><title type="song">(4)</title></p>
+         <lg>
+            <l>Fly, fly, cryes then the tame dejected Foe,</l>
+            <l>Each wondring at the terror which he feeles,</l>
+            <l>And in the hurry of their overthrow,</l>
+            <l>Forsook their Arms, and trusted to their heels.</l>
+         </lg>
+
+         <p>APPENDIX 2 617</p>
+
+         <p><title type="song">Chorus.</title></p>
+         <lg>
+            <l>Heark! heark! some groane, and curse uncertaine Fate,</l>
+            <l>Which vs for blood and ruine, doth create.</l>
+         </lg>
+
+         <p><title type="song">(5)</title></p>
+         <lg>
+            <l>Stand! stand! was now the word our Knights did give,</l>
+            <l>For weary of pursuit, they had no will |</l>
+            <l>To grace with death, who basely sought to live,</l>
+            <l>As if unworthy of their paines to kill.</l>
+         </lg>
+
+         <p><title type="song">Chorus.</title></p>
+         <lg>
+            <l>Heark! heark! some groane, and curse uncertaine Fate,</l>
+            <l>Which vs for blood and ruine, doth create.</l>
+         </lg>
+
+         <p>The Priests of Mars retire, and strait the Masquers appeare as coming out of severall
+            Tents, their habits being Martiall and richly imbroder’d, inclining neere the old Romane
+            shape; their Helmets Triumphantly plum’d, whiles the Bevir falling ore the face, serv’d
+            for a disguise, and supply’d to each the office of a Vizard. These by their appearance
+            and demeanour were devis’d to intimate those heroique Knights Templers, to which the
+            Pallace of the Prince D’Amour was anciently Dedicated. They descend with a Majestique
+            pace, and dance their first entry, then retire towards the Scene: whilst with amazement
+            they discover Cupid descending in a bright cloud, who at their interview sings this.</p>
+
+         <p><title type="song">(1)</title></p>
+         <lg>
+            <l> Whither so gladly, and so fast,</l>
+            <l>As if you knew all danger past</l>
+            <l>Of Combat, and of War? |</l>
+            <l>As you believ’d my armes were bound,</l>
+            <l>Or when I shoot, still ev’ry wound</l>
+            <l>I make, is but a scar.</l>
+         </lg>
+
+         <p><title type="song">(2)</title></p>
+         <lg>
+            <l>Arme now your brests with shields of steele,</l>
+            <l>And plates of Brasse, yet you shall feele</l>
+            <l>My arrowes are so keene,</l>
+            <l>Like lightning that not hurts the skin,</l>
+            <l>Yet melts the solid parts within,</l>
+            <l>They’l wound, although unseene.</l>
+         </lg>
+
+         <p>618 TRIUMPHS OF THE PRINCE D’AMOUR</p>
+
+         <p><title type="song">(3)</title></p>
+         <lg>
+            <l>My Mother taught mee long agoe</l>
+            <l>To ayme my shafts, and draw my Bow</l>
+            <l>When Mars shee did subdue.</l>
+            <l>And now you must resigne to Love,</l>
+            <l>Your warlike hearts, that shee may prove</l>
+            <l>Those antick Stories true.</l>
+         </lg>
+
+         <p>This being sung, Cupid having dispersed his darts amongst them, which charmes them from
+            designes of warre to inclinations of love, they all retire.</p>
+         <p>The Scene wholly changing, there appeares a square Piazza, resembling that of Venice,
+            and ’tis | compos’d of Pallaces, and lesser Fabricks, with Courtizans looking out of
+            windows, and Balconees, fantastically adorn’d, some in Italian, others in a Turkish
+            dresse, and this prospect, prepares the second Anti-masque, who strait are discovered
+            walking in the Piazza.</p>
+
+         <p><title>The second Anti-masque.</title></p>
+         <castList>
+            <castItem> The first A grave formall Spanish Lover, who addressing himselfe to some
+               Courtizan, in a Balconee, salutes her often with congies tedious and low.</castItem>
+
+            <castItem> The second A jealous Italian Lover, who fixing his eyes on another Mistresse
+               at her window, dinotes the vexation of his humour, by desperate sighes, beating on
+               his breast, and sometimes a melancholly posture, standing with his Armes
+               wreath’d.</castItem>
+
+            <castItem> The third. A giddy Fantasticke French Lover, who being likewise addressed to
+               some beauty, gazing at her windore, his humour is discern’d by strange ridiculous
+               cringes, and frisks in his salutes, with which hee seemes to invite her acquaintance:
+               having divers notes of Levitie in his habit, and wearing his Mistresse Fanne ty’d
+               with a Ribband in his eare. |<note type="foot"><hi rend="italic">start of sig
+                  C1</hi></note></castItem>
+
+            <castItem> The Fourth A dull Dutch Lover, personating some Yonker of Vtrecht, who gazing
+               upwards too, doth often apply his Handkerchiefe to his eyes, as if the griefe of his
+               dispaire did make him weepe.</castItem>
+
+            <!-- APPENDIX 2 619-->
+
+            <castItem> The Fifth A furious debaush’d English Lover, who in his habit striving to
+               imitate his Neighbour (the Monsier) still outdoes his vanitie, which his accoutrement
+               doth severally expresse, and he hangs in the right eare his Mistresses Muffe, in the
+               left her Shooe with a Chapeen. He is not fix’d to one Balconee, but directs himselfe
+               to all, offers to draw his Sword, and seemes to threaten with his fist, as he would
+               rather breake their windowes, then desire them opned, that hee might gaine a looke
+               from his Lady.</castItem>
+         </castList>
+
+         <p><stage type="mixed">These severall humors being a while artificially expressed, they
+               descend, and dance their second entry, and retire.</stage></p>
+         <p><stage type="setting">The Scene wholly changing againe: There was observ’d in a Grove of
+               Cypresse intermingled with Mirtle Trees, the Temple of Venus, being an eight square
+               of the Corinthian order: within the Temple her Satue<note type="foot"><hi
+                     rend="italic">for</hi>Statue</note> of Siluer, standing in an Neech, with Cupid
+               by her, to whom she seemes to deliver an Arrow; the Pilasters, and Ornaments were
+               heightned with Siluer.</stage></p>
+
+         <p><stage type="mixed">From this Temple the Priests of Venus are dis-|cern’d to come in
+               loose white Robes, their heads adorn’d with Coronets of Flowres, and playing on their
+               Instruments, they descend and sing this.</stage></p>
+
+         <p><title type="song">(1)</title></p>
+         <lg>
+            <l>Unarme, unarme! no more your fights</l>
+            <l>Must cause the virgins teares,</l>
+            <l>But such as in the silent nights,</l>
+            <l>Spring rather from their feares.</l>
+         </lg>
+
+         <p><title type="song">(2)</title></p>
+         <lg>
+            <l>Such diff’rence as when Doves do bill,</l>
+            <l>Must now be all your strife:</l>
+            <l>For all the blood that you shall spill,</l>
+            <l>Will usher in a life.</l>
+         </lg>
+
+         <p><title type="song">(3)</title></p>
+         <lg>
+            <l>And when your Ladies falsly coy</l>
+            <l>Shall timerous appeare,</l>
+            <l>Believe, they then would faine enjoy</l>
+            <l>What they pretend to feare.</l>
+         </lg>
+
+         <p><title type="song">(4)</title></p>
+         <lg>
+            <l>Breath then each others breath, and kisse</l>
+            <l>Your soules to union:</l>
+
+            <!--620 TRIUMPHS OF THE PRINCE D’AMOUR-->
+
+            <l>And whilst they shall injoy this blisse,</l>
+            <l>Your bodies too, are one. |</l>
+         </lg>
+
+         <lg>
+            <l><title type="song">(5)</title></l>
+         </lg>
+         <lg>
+            <l>Too morrow will the hasty Sun</l>
+            <l>Be fear’d more of each Lover,</l>
+            <l>For hindring to repeat what’s done,</l>
+            <l>Than what it may discover.</l>
+         </lg>
+
+         <p><stage type="mixed">The Priests of Venus retire, and the Masquers appeare in the Scene,
+               their vests altered to a more soft and Courtly change; with severall adornements,
+               that might present them to every understanding for a Troope of noble Lovers. Their
+               second entry being daunc’d, they retire into the Temple.</stage></p>
+
+         <p><stage type="mixed">The Scene wholly changing, strait was perceiv’d in a Grove of
+               Lawrell Trees, the Temple of Apollo, being round, and transparent, of the order of
+               Composita, the Columnes and Ornamants, being heightned with gold, his statue of gold
+               standing in the middle of the Temple, upon a round Pedestall: behind and betweene the
+               Columnes did appeare a prospect of Landskap.</stage></p>
+
+         <p><stage type="mixed">The Priests of Apollo approach from severall parts of the Temple,
+               cloath’d in Carnation Robes, with wreathes of Laurell on their heads, they sing this
+               when they descend.</stage></p>
+
+         <p><title type="song">(1)</title></p>
+         <lg>
+            <l>Make roome for our God too, make roome,</l>
+            <l>For now surpriz’d, and ravish’d with delight, |</l>
+            <l>Apollo is from Delphos come,</l>
+            <l>T’inspire, and breath himself in every Knight.</l>
+         </lg>
+
+         <p><title type="song">(2)</title></p>
+         <lg>
+            <l>His God-head is inclin’d to prove</l>
+            <l>How justly proud, and happy you will be,</l>
+            <l>When with the powers of War and Love,</l>
+            <l>Hee shall unite his wiser Deity.</l>
+         </lg>
+
+         <p><title type="song">(3)</title></p>
+         <lg>
+            <l>Then still, as if not made of Earth,</l>
+            <l>Expresse your thankfulnesse<note type="foot"><hi rend="italic">second</hi>n<hi
+                     rend="italic">is turned letter or foul case</hi></note> in active pleasure.</l>
+            <l>Whilst you designe your hearts to Mirth,</l>
+            <l>Your eares to numbers, &amp; your feet to measure.</l>
+         </lg>
+
+         <p>APPENDIX 2 621</p>
+
+         <p><stage type="mixed">This ended, the Priests of Apollo retire to make way for a new
+               discovery of certaine persons in the Scene, which seeme halfe hidden behind the
+               Trees: Then invite them to descend by singing this.</stage></p>
+
+         <p><title type="song">(1)</title></p>
+         <lg>
+            <l>Behold, how this conjunction thrives!</l>
+            <l>His radiant beames Apollo strives</l>
+            <l>So much to strengthen and increase,</l>
+            <l>As growth and verdure nere should cease.</l>
+         </lg>
+
+         <p><title type="song">(2)</title></p>
+         <lg>
+            <l>Come you industrious slaves of plenty, bring</l>
+            <l>All that is hop’d for in an Eastern Spring: |<note type="foot"><hi rend="italic"
+                     >start of sig C3</hi></note></l>
+            <l>Or all that Autumne yields, when she doth pay</l>
+            <l>Those promis’d hopes where ’tis perpetuall day.</l>
+         </lg>
+
+         <p><title type="song">(3)</title></p>
+         <lg>
+            <l>Come strew this ground (delay us not with slowth)</l>
+            <l>Strew till we walke on sweet Cecillian Flowres,</l>
+            <l>To prove how Seeds have hastned in their growth,</l>
+            <l>Drop Indian fruits, as thick as Aprill showres.</l>
+         </lg>
+
+         <p><stage type="mixed">Now descending from the Scene, appeares twelve men, wildly habited,
+               Wastcotes of flesh color made them shew naked to the middle, their heads cover’d with
+               greene leaves, their wastes girt with the like, and a greene Basis fring’d, reach’d
+               to their knees, which did declare them Labourers on a Fruitfull Soyle; and what they
+               carryed did demonstrate a Fruitfull Season.</stage></p>
+
+         <p><stage type="setting">For moving downe in order towards the State, each supported in his
+               Armes, a small square frame, the wood hidden with greene Boughes, and on that bore a
+               Charger full of precious fruits, and cover’d with blossom’d twigs and flowers: Which
+               being fix’d neere to the State, were so joyn’d together, that there was straight
+               discovered a Table richly furnish’d with a Banquet, that look’d as it were hidden in
+               a Grove: And whilst the Princes accepted of this entertainment, the Priests belonging
+               to the three severall Deities sung this. </stage></p>
+
+         <lg>
+            <l>The song of Valediction, after the Banquet. |</l>
+         </lg>
+
+         <p><title type="song">Priests of Mars.</title></p>
+         <lg>
+            <l>The furious Steed, the Phyph and Drum</l>
+            <l>Invite you still to Triumphs of the War,</l>
+
+            <l>Till you as glorious shall become</l>
+            <l>On Earth as Mars, in Heaven as bright a Star.</l>
+         </lg>
+
+         <p><title type="song">Priests of Venus.</title></p>
+         <lg>
+            <l>The Balmes rich swet, the Myrrhs sweet teares</l>
+            <l>Perfume your breath when you would Passion move:</l>
+            <l>And may her heart, that you indeeres,</l>
+            <l>The center be, her Eye the sphære of Love!</l>
+         </lg>
+
+         <p><title type="song">Priests of Apollo.</title></p>
+         <lg>
+            <l>And may your Language be of force</l>
+            <l>To body winds, and animate the Trees,</l>
+            <l>So full of wonder your discourse,</l>
+            <l>Till all your guesses shall be Prophecies.</l>
+         </lg>
+
+         <p><title type="song">Chorus of all.</title></p>
+         <lg>
+            <l>May our three Gods so long conjoyne,</l>
+            <l>To raise your soule, and rarefie your sense,</l>
+            <l>Till you are render’d so Divine,</l>
+            <l>’Twill be no Sin t’ implore your Influence.</l>
+         </lg>
+
+         <p>Thus, as all Pleasures and Triumphs are full of haste, and aptest to decay, this had an
+            end; yet may live mention’d a while, if the envie of such as were absent do not rebuke
+            the courteous memory of those who vouchsaf’d to enjoy it. |</p>
+
+         <p>The Masquers Names, According as they were rank’d by their Antiquity, in that Noble
+            Society.</p>
+
+         <!--Tho: Maunsell. Edw: Smyth.W ill: Morgan. Edw: Turnor.W ill: Wheeler. Tho: Way.Mich: Hutchenson. !"Tho: Trenchard.Laur: Hyde. Geo: Probert.Tho: Bourke.-->
+
+         <lg>
+            <l><title>Those in the first Anti-masque.</title></l>
+         </lg>
+         <castList>
+            <castItem>Phillip Morgan.</castItem>
+            <castItem>Iohn Freman.</castItem>
+            <castItem>Iohn Bramston.</castItem>
+            <castItem>Ed: Smyth.</castItem>
+            <castItem>Clement Spillman.</castItem>
+
+
+            <!--APPENDIX 2 623-->
+
+            <castItem>Iohn Norden.</castItem>
+            <castItem>Will: Lysle.</castItem>
+         </castList>
+
+         <lg>
+            <l><title>Those in the second Anti-masque.</title></l>
+         </lg>
+         <castList>
+            <castItem>Iohn Stepkin.</castItem>
+            <castItem>Charles Adderly.</castItem>
+            <castItem>Iohn Ratcliffe.</castItem>
+            <castItem>Rich: May.</castItem>
+            <castItem>Giles Hungerford.</castItem>
+         </castList>
+
+         <p>The Musick of the Songs and Symphanies were excellently compos’d by Mr. Henry, and Mr.
+            William Laws, his Majesties Servants.</p>
+
+         <p> FINIS.</p>
+
+
+      </body>
+   </text>
+</TEI>
