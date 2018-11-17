@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="reed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title type="main">Occupations</title>
+
+
+            <funder><orgName>Andrew W. Mellon Foundation, New York, United States of
+                  America</orgName></funder>
+            <funder><orgName>CANARIE</orgName></funder>
+
+            <funder><orgName>British Academy, London, UK</orgName></funder>
+            <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>
+            <funder><orgName>National Endowment for the Humanities, Washington, DC, United States of
+                  America</orgName></funder>
+            <funder><orgName>Social Sciences and Humanities Research Council, Ottawa,
+                  Canada</orgName></funder>
+
+            <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
+            <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
+
+
+            <!-- REED staff -->
+            <respStmt>
+               <persName xml:id="CB">Carolyn Black</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Project Manager</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>William Cooke</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>English Glossarian</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="PG">Patrick Gregory</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Paleographer, Translator</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Alexandra F. Johnston</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>REED Founder and Senior Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Arleane Ralph</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Paleographer</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Abigail Ann Young</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Latin Glossarian</resp>
+            </respStmt>
+
+
+            <!-- NHPRC-Mellon Team, 2018 -->
+            <respStmt>
+               <persName>John Bradley</persName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Susan Brown</persName>
+               <orgName>University of Guelph</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="KC">Kathy Chung</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>REED Research Associate, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="JC">James Cummings</persName>
+               <orgName>Newcastle University</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+               <resp>TEI Schema Designer, Technical Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Matthew Davies</persName>
+               <orgName>University of London, Birkbeck College</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Tanya Hagen</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Bibliographer, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Mihaela Iloven</persName>
+               <orgName>Canadian Writing Research Collaboratory</orgName>
+               <resp>CWRC project manager, NHPRC-Mellon advisor</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="JAKA1">Diane K. Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>Principal Investigator, NHPRC-Mellon Digital Edition Publishing Cooperatives
+                  Planning Grant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>David Kathman</persName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Sally-Beth MacLean</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Principal Investigator, SSHRC grant; Director of Research and General
+                  Editor</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="KM">Kimberley Martin</persName>
+               <orgName>University of Guelph</orgName>
+               <resp>NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Christopher Matusiak</persName>
+               <orgName>Ithaca College</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="JN">Jamie Norrish</persName>
+               <resp>Programmer, EATS developer, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Dorothy Porter</persName>
+               <orgName>University of Pennsylvania</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Suzanne Westfall</persName>
+               <orgName>Lafayette College</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board Member</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <!-- Bucknell Research Assistantx -->
+            <respStmt>
+               <persName>Ari Baughman</persName>
+               <orgName>Bucknell Univerity</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Maureen Maclean</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Rachel Milio</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Charlotte Simon</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+
+         </titleStmt>
+         <editionStmt>
+            <edition>Print version, published <date when-iso="2010">2010</date>. Electronic edition,
+               anticipated publication <date when-iso="2018">2018</date></edition>
+         </editionStmt>
+
+         <publicationStmt>
+            <authority><orgName>Records of Early English Drama (REED)</orgName>
+               <address>
+                  <addrLine>University of Toronto</addrLine>
+                  <addrLine>170 St George Street, Suite 810</addrLine>
+                  <addrLine>Toronto, Ontario, Canada</addrLine>
+                  <addrLine>M5R 2M8</addrLine>
+               </address>
+            </authority>
+
+            <publisher>D.S. Brewer, Cambridge, an imprint of Boydell &amp; Brewer Ltd./Boydell &amp;
+               Brewer Ltd.</publisher>
+            <pubPlace>Rochester, NY</pubPlace>
+            <date>2010</date>
+            <idno type="other">978-1-84384-259-0</idno>
+
+            <availability>
+               <p>Copyright <orgName>Records of Early English Drama (REED)</orgName>,
+                     <date>2017</date></p>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed
+                  under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+                  (CC BY-NC-SA 4.0) licence.</licence>
+            </availability>
+         </publicationStmt>
+
+         <seriesStmt>
+            <title>Records of Early English Drama</title>
+         </seriesStmt>
+         <sourceDesc>
+            <p>This publication constitutes a remediation of the printed Inns of Court collection.
+               Information on original sources for transcriptions can be accessed via the Document
+               Descriptions.</p>
+            <p>This record can be found on [PAGE(S)] of REED: Inns of Court, Vol. [#]</p>
+            <p>For a full list of REED collections, editors, executive board members, and staff,
+               please visit http://reed.utoronto.ca/people</p>
+         </sourceDesc>
+      </fileDesc>
+
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="taxon" matchPattern="([A-Za-z0-9_-]+)"
+               replacementPattern="../taxonomy.xml#$1">
+               <p>Private URIs using the <code>taxon</code> prefix are pointers to entities in the
+                  taxonomy.xml file. For example, <code>taxon:church</code> dereferences to
+                     <code>taxonomy.xml#church</code>.</p>
+            </prefixDef>
+            <prefixDef ident="gloss" matchPattern="([A-Za-z0-9_-]+)"
+               replacementPattern="../glossary.xml#$1">
+               <p>Private URIs using the <code>gloss</code> prefix are pointers to entities in the
+                  glossary.xml file. For example, <code>gloss:histrio-1</code> dereferences to
+                     <code>glossary.xml#histrio-1</code>.</p>
+            </prefixDef>
+            <prefixDef ident="occ" matchPattern="([A-Za-z0-9_-]+"
+               replacementPattern="../occupations.xml#$1">
+               <p>Private URIs using the <code>gloss</code> prefix are pointers to entities in the
+                  glossary.xml file. For example, <code>occ:higherGovernment</code> dereferences to
+                     <code>occupations.xml#higherGovernment</code></p>
+            </prefixDef>
+         </listPrefixDef>
+
+         <projectDesc>
+            <p>Records of Early English Drama (REED) is an international scholarly project that is
+               establishing for the first time the context from which the drama of Shakespeare and
+               his contemporaries grew. Founded in 1976, REED has worked since then to locate,
+               transcribe, and edit historical documents containing evidence of drama, secular
+               music, and other communal entertainment and ceremony from the Middle Ages until 1642,
+               when the Puritans closed the London theatres.</p>
+         </projectDesc>
+      </encodingDesc>
+
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">English</language>
+            <language ident="lat">Latin</language>
+            <language ident="fra">Anglo-French</language>
+         </langUsage>
+         <settingDesc>
+            <place>
+               <placeName>London</placeName>
+            </place>
+         </settingDesc>
+      </profileDesc>
+
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="bibliography_sections">
+                  <!-- this is an adaptation of the REED Online encoding information for bibliography -->
+                  <catDesc/>
+               </category>
+
+               <category xml:id="repositories">
+                  <!-- this is an adaptation of the REED Online encoding information for repositories -->
+                  <catDesc/>
+               </category>
+               <category xml:id="record_types">
+                  <!-- this is an adaptation of the REED Online encoding information for record types -->
+                  <catDesc/>
+               </category>
+
+               <category xml:id="occupations">
+                  <!-- this is a categorical list of occupations referred to in IoC index and records; using @@corresp to point to CWRC ontology and @sameAs to point to EATS ids -->
+                  <catDesc>Occupations and Offices</catDesc>
+                  <category xml:id="animalKeeper">
+                     <!-- Will add topline level to CWRC occupation ontology -->
+                     <catDesc>Occupation Type: Animal Keeper</catDesc>
+                     <category xml:id="monkeyKeeper">
+                        <catDesc>Monkey keeper (any kind)</catDesc>
+                     </category>
+                     <category xml:id="birdKeeper">
+                        <catDesc>Bird keeper (any kind)</catDesc>
+                     </category>
+                     <category xml:id="dogKeeper">
+                        <catDesc>Dog keeper</catDesc>
+                     </category>
+                     <category xml:id="lionKeeper">
+                        <catDesc>Lion keeper</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="armorer">
+                     <catDesc>Occupation Type: armorer</catDesc>
+                  </category>
+                  <category xml:id="attorneyGeneral" corresp="cwrc:attorneyGeneral">
+                     <catDesc>Office Type: attorney general</catDesc>
+                  </category>
+                  <category xml:id="baker" corresp="cwrc:baker">
+                     <catDesc>Occupation Type: baker</catDesc>
+                  </category>
+                  <category xml:id="beggar" corresp="cwrc:beggar">
+                     <catDesc>Occupation Type: beggar</catDesc>
+                  </category>
+                  <category xml:id="brewer" corresp="cwrc:brewer">
+                     <catDesc>Occupation Type: brewer</catDesc>
+                  </category>
+                  <category xml:id="censor" corresp="cwrc:censor">
+                     <catDesc>Occupation Type: censor</catDesc>
+                  </category>
+                  <category xml:id="chandler">
+                     <catDesc>Occupation Type: chandler (any kind)</catDesc>
+                     <category xml:id="waxChandler">
+                        <catDesc>Occupation Type: wax chandler</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="scrivener" corresp="cwrc:clericalWork">
+                     <catDesc>Occupation Type: scrivener</catDesc>
+                  </category>
+                  <category xml:id="laceMaker" corresp="cwrc:clothingProduction">
+                     <catDesc>Occupation Type: lace maker</catDesc>
+                  </category>
+                  <category xml:id="coachMaker">
+                     <catDesc>Occupation Type: coachmaker</catDesc>
+                  </category>
+                  <category xml:id="cobbler" corresp="cwrc:cobbler">
+                     <catDesc>Occupation Type: cobbler (any kind)</catDesc>
+                     <category xml:id="cordwainer" corresp="cwrc:cobbler">
+                        <catDesc>Occupation Type: cordwainer</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="composer" corresp="cwrc:composer">
+                     <catDesc>Occupation Type: composer</catDesc>
+                  </category>
+                  <category xml:id="construction" corresp="cwrc:construction">
+                     <catDesc>Occupation Type: construction (any type)</catDesc>
+                     <category xml:id="carpenter" corresp="cwrc:construction">
+                        <catDesc>Occupation Type: carpenter</catDesc>
+                     </category>
+                     <category xml:id="joiner" corresp="cwrc:construction">
+                        <catDesc>Occupation Type: joiner</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="cook" corresp="cwrc:cooking">
+                     <catDesc>Occupation Type: cook</catDesc>
+                  </category>
+                  <category xml:id="dancer" corresp="cwrc:dance">
+                     <catDesc>Occupation Type: dancer</catDesc>
+                  </category>
+                  <category xml:id="messenger" corresp="cwrc:deliveryPerson">
+                     <catDesc>Occupation Type: messenger</catDesc>
+                  </category>
+                  <category xml:id="diplomat" corresp="cwrc:diplomat">
+                     <catDesc>Occupation Type: diplomat (any kind)</catDesc>
+                     <category xml:id="ambassador" corresp="cwrc:diplomat">
+                        <catDesc>Occupation Type: ambassador</catDesc>
+                     </category>
+                     <category xml:id="consul" corresp="cwrc:diplomat">
+                        <catDesc>Occupation Type: consul</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="domesticServant" corresp="cwrc:domesticServant">
+                     <catDesc>Occupation Type: domestic servant (any kind)</catDesc>
+                     <category xml:id="chambermaid" corresp="cwrc:domesticServant">
+                        <catDesc>Occupation Type: chambermaid</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="draper" corresp="cwrc:draper">
+                     <catDesc>Occupation Type: draper</catDesc>
+                     <category xml:id="linenDraper" corresp="cwrc:draper">
+                        <catDesc>Occupation Type: linen draper</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="silkwoman" corresp="cwrc:dressMaking">
+                     <!-- @KimMartin to review with CWRC occupation ontology -->
+                     <catDesc>Occupation Type: silkwoman</catDesc>
+                  </category>
+                  <category xml:id="horseman" corresp="cwrc:equineActivity">
+                     <catDesc>Occupation Type: horseman (any kind)</catDesc>
+                     <category xml:id="jockey" corresp="cwrc:equineActivity">
+                        <catDesc>Occupation Type: jockey</catDesc>
+                     </category>
+                     <category xml:id="ostler" corresp="cwrc:equineActivity">
+                        <catDesc>Occupation Type: ostler</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="gardener" corresp="cwrc:gardener">
+                     <catDesc>Occupation Type: gardener</catDesc>
+                  </category>
+                  <category xml:id="haberdasher" corresp="cwrc:haberdasher">
+                     <catDesc>Occupation Type: haberdasher</catDesc>
+                  </category>
+                  <category xml:id="lordLieutenant" corresp="cwrc:higherGovernment">
+                     <catDesc>Office Type: Lord Lieutenant (of Ireland)</catDesc>
+                  </category>
+                  <category xml:id="lordCouncil" corresp="cwrc:higherGovernment">
+                     <catDesc>Office Type: Lord of the Council</catDesc>
+                  </category>
+                  <category xml:id="lordPrivyseal" corresp="cwrc:higherGovernment">
+                     <catDesc>Office Type: Lord Privy Seal</catDesc>
+                  </category>
+                  <category xml:id="lordSteward" corresp="cwrc:higherGovernment">
+                     <catDesc>Office Type: Lord Steward</catDesc>
+                  </category>
+                  <category xml:id="lordTreasurer" corresp="cwrc:higherGovernment">
+                     <catDesc>Office Type: Lord Treasurer</catDesc>
+                  </category>
+                  <category xml:id="privyCouncillor" corresp="cwrc:higherGovernment">
+                     <catDesc>Office Type: Privy Councillor</catDesc>
+                  </category>
+                  <category xml:id="warden" corresp="cwrc:higherGovernment">
+                     <catDesc>Occupation Type: warden</catDesc>
+                  </category>
+                  <category xml:id="housekeeper" corresp="cwrc:housekeeper">
+                     <catDesc>Occupation Type: housekeeper</catDesc>
+                  </category>
+                  <category xml:id="InnsOfCourtOfficial">
+                     <catDesc>Occupation Type: Inns of Court official (any kind)</catDesc>
+                     <category xml:id="officer">
+                        <!-- @KimMartin to review with CWRC occupation ontology -->
+                        <catDesc>Occupation Type: Inns of Court officer</catDesc>
+                     </category>
+                     <category xml:id="panierMan">
+                        <catDesc>Occupation Type: Inns of Court panier man</catDesc>
+                     </category>
+                     <category xml:id="reader">
+                        <!-- @KimMartin to review with CWRC occupation ontology -->
+                        <catDesc>Occupation Type: Inns of Court reader</catDesc>
+                     </category>
+                     <category xml:id="steward">
+                        <catDesc>Occupation Type: Inns of Court steward</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="judge" corresp="cwrc:judge">
+                     <catDesc>Occupation Type: judge (any kind)</catDesc>
+                  </category>
+                  <category xml:id="lordChiefJustice" corresp="cwrc:judge">
+                     <catDesc>Office Type: Lord Chief Justice</catDesc>
+                     <category xml:id="lordChiefJusticeSC" corresp="cwrc:judge">
+                        <catDesc>Office Type: Lord Chief Justice (Star Chamber)</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="lordChiefBaron" corresp="cwrc:judge">
+                     <catDesc>Office Type: Lord Chief Baron</catDesc>
+                  </category>
+                  <category xml:id="knight" corresp="cwrc:knight">
+                     <catDesc>Office Type: knight</catDesc>
+                  </category>
+                  <category xml:id="sheriffLondon" corresp="cwrc:lawEnforcement">
+                     <catDesc>Office Type: Sheriff of London</catDesc>
+                  </category>
+                  <category xml:id="constaable" corresp="cwrc:lawEnforcement">
+                     <catDesc>Occupation Type: constable</catDesc>
+                  </category>
+                  <category xml:id="escheator" corresp="cwrc:lawEnforcement">
+                     <catDesc>Occupation Type: escheator</catDesc>
+                  </category>
+                  <category xml:id="serjeant" corresp="cwrc:lawEnforcement">
+                     <catDesc>Occupation Type: serjeant</catDesc>
+                  </category>
+                  <category xml:id="justice" corresp="cwrc:lawEnforcement">
+                     <catDesc>Occupation Type: justice</catDesc>
+                  </category>
+                  <category xml:id="watchman" corresp="cwrc:lawEnforcement">
+                     <catDesc>Occupation Type: watchman</catDesc>
+                  </category>
+                  <category xml:id="lawyer" corresp="cwrc:lawyer">
+                     <catDesc>Occupation Type: lawyer (any kind)</catDesc>
+                     <category xml:id="ancient" corresp="cwrc:lawyer">
+                        <catDesc>Occupation Type: ancient</catDesc>
+                     </category>
+                     <category xml:id="barrister" corresp="cwrc:lawyer">
+                        <catDesc>Occupation Type: barrister</catDesc>
+                     </category>
+                     <category xml:id="bencher" corresp="cwrc:lawyer">
+                        <catDesc>Occupation Type: bencher</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="saddler" corresp="cwrc:leatherWorker">
+                     <catDesc>Occupation Type: saddler</catDesc>
+                  </category>
+                  <category xml:id="receiverAccounts" corresp="cwrc:legalWork">
+                     <!-- @KimMartin to review with CWRC occupation ontology -->
+                     <catDesc>Occupation Type: receiver of accounts (a.k.a. collector of accounts,
+                        steward of accounts, keeper of accounts</catDesc>
+                     <!-- Confirm that these various account keepers all resolve to the same 'type' -->
+                  </category>
+                  <category xml:id="clerk" corresp="cwrc:legalWork">
+                     <!-- @KimMartin to review with CWRC occupation ontology -->
+                     <catDesc>Occupation Type: clerk</catDesc>
+                  </category>
+                  <category xml:id="guardianSigns" corresp="cwrc:legalWork">
+                     <!-- @KimMartin to review with CWRC occupation ontology -->
+                     <catDesc>Occupation Type: guardian of signs</catDesc>
+                  </category>
+                  <category xml:id="butler" corresp="cwrc:legalWork">
+                     <!-- @KimMartin to review with CWRC occupation ontology -->
+                     <catDesc>Occupation Type: butler (Inns of Court)</catDesc>
+                  </category>
+                  <category xml:id="collector" corresp="cwrc:legalWork">
+                     <!-- @KimMartin to review with CWRC occupation ontology -->
+                     <catDesc>Occupation Type: collector</catDesc>
+                  </category>
+                  <category xml:id="comptroller" corresp="cwrc:legalWork">
+                     <!-- @KimMartin to review with CWRC occupation ontology -->
+                     <catDesc>Occupation Type: comptroller</catDesc>
+                  </category>
+                  <category xml:id="pensioner" corresp="cwrc:legalWork">
+                     <!-- @KimMartin to review with CWRC occupation ontology -->
+                     <catDesc>Occupation Type: pensioner</catDesc>
+                  </category>
+                  <category xml:id="recorder" corresp="cwrc:legalWork">
+                     <!-- @KimMartin to review with CWRC occupation ontology -->
+                     <catDesc>Occupation Type: recorder</catDesc>
+                  </category>
+                  <category xml:id="governor" corresp="cwrc:legalWork">
+                     <!-- @KimMartin to review with CWRC occupation ontology -->
+                     <catDesc>Occupation Type: governor</catDesc>
+                  </category>
+                  <category xml:id="marshall" corresp="cwrc:legalWork">
+                     <!-- @KimMartin to review with CWRC occupation ontology -->
+                     <catDesc>Occupation Type: marshall</catDesc>
+                  </category>
+                  <category xml:id="auditor" corresp="cwrc:legalWork">
+                     <!-- @KimMartin to review with CWRC occupation ontology -->
+                     <catDesc>Occupation Type: auditor</catDesc>
+                  </category>
+                  <category xml:id="alderman" corresp="cwrc:localGovernment">
+                     <catDesc>Office Type: alderman</catDesc>
+                  </category>
+                  <category xml:id="lordChamberlain" corresp="cwrc:lordChamberlain">
+                     <catDesc>Office Type: lord chamberlain</catDesc>
+                  </category>
+                  <category xml:id="lordChancellor" corresp="cwrc:lordChancellor">
+                     <catDesc>Office Type: lord chancellor</catDesc>
+                  </category>
+                  <category xml:id="servant" corresp="cwrc:manservant">
+                     <catDesc>Occupation Type: servant (any kind)</catDesc>
+                     <category xml:id="footman" corresp="cwrc:manservant">
+                        <catDesc>Occupation Type: footman</catDesc>
+                     </category>
+                     <category xml:id="servingman" corresp="cwrc:manservant">
+                        <catDesc>Occupation Type: servingman</catDesc>
+                     </category>
+                     <category xml:id="page" corresp="cwrc:manservant">
+                        <!-- @KimMartin to review with CWRC occupation ontology -->
+                        <catDesc>Occupation Type: page</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="labourer" corresp="cwrc:manualLabourer">
+                     <catDesc>Occupation Type: labourer (any kind)</catDesc>
+                  </category>
+                  <category xml:id="masterOfTheRevels" corresp="cwrc:masterOfTheRevels">
+                     <catDesc>Office Type: master of the revels (a.k.a., Christmas king, Christmas
+                        lord, Christmas prince) </catDesc>
+                     <category xml:id="lieutenantMasterRevels" corresp="cwrc:masterOfTheRevels">
+                        <catDesc>Office Type: lieutenant master of the revels</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="matlayer">
+                     <catDesc>Occupation Type: matlayer</catDesc>
+                  </category>
+                  <category xml:id="mayorLondon" corresp="cwrc:mayor">
+                     <catDesc>Office Type: lord mayor of London</catDesc>
+                  </category>
+                  <category xml:id="mercer" corresp="cwrc:mercer">
+                     <catDesc>Occupation Type: mercer</catDesc>
+                  </category>
+                  <category xml:id="pewterer" corresp="cwrc:metalWork">
+                     <catDesc>Occupation Type: pewterer</catDesc>
+                  </category>
+                  <category xml:id="soldier" corresp="cwrc:soldier">
+                     <catDesc>Occupation Type: soldier</catDesc>
+                  </category>
+                  <category xml:id="musician" corresp="cwrc:music">
+                     <catDesc>Occupation Type: musician (any kind)</catDesc>
+                     <category xml:id="lutenist" corresp="cwrc:music">
+                        <catDesc>Occupation Type: lutenist (lute player)</catDesc>
+                     </category>
+                     <category xml:id="shawmPlayer" corresp="cwrc:music">
+                        <catDesc>Occupation Type: shawm player</catDesc>
+                     </category>
+                     <category xml:id="bagpiper" corresp="cwrc:music">
+                        <catDesc>Occupation Type: bagpiper</catDesc>
+                     </category>
+                     <category xml:id="drummer" corresp="cwrc:music">
+                        <catDesc>Occupation Type: drummer</catDesc>
+                     </category>
+                     <category xml:id="fiddler" corresp="cwrc:music">
+                        <catDesc>Occupation Type: fiddler</catDesc>
+                     </category>
+                     <category xml:id="harper" corresp="cwrc:music">
+                        <catDesc>Occupation Type: harper</catDesc>
+                     </category>
+                     <category xml:id="hornPlayer" corresp="cwrc:music">
+                        <catDesc>Occupation Type: horn player</catDesc>
+                     </category>
+                     <category xml:id="trumpeter" corresp="cwrc:music">
+                        <catDesc>Occupation Type: trumpet player</catDesc>
+                     </category>
+                     <category xml:id="piper" corresp="cwrc:music">
+                        <catDesc>Occupation Type: piper (any kind)</catDesc>
+                     </category>
+                     <category xml:id="wait" corresp="cwrc:wait">
+                        <catDesc>Occupation Type: wait</catDesc>
+                     </category>
+                     <category xml:id="taborer" corresp="cwrc:music">
+                        <catDesc>Occupation Type: taborer</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="embroiderer" corresp="cwrc:needlework">
+                     <catDesc>Occupation Type: embroiderer</catDesc>
+                  </category>
+                  <category xml:id="pavier">
+                     <catDesc>Occupation Type: pavier</catDesc>
+                  </category>
+                  <category xml:id="performer" corresp="cwrc:performer">
+                     <catDesc>Occupation Type: performer (any kind)</catDesc>
+                     <category xml:id="player" corresp="cwrc:performer">
+                        <catDesc>Occupation Type: player or actor</catDesc>
+                     </category>
+                     <category xml:id="antimasquer" corresp="cwrc:performer">
+                        <catDesc>Occupation Type: antimasquer</catDesc>
+                     </category>
+                     <category xml:id="boyPlayer" corresp="cwrc:performer">
+                        <catDesc>Occupation Type: boy player</catDesc>
+                     </category>
+                     <category xml:id="entertainer" corresp="cwrc:performer">
+                        <catDesc>Occupation Type: entertainer</catDesc>
+                     </category>
+                     <category xml:id="fencer" corresp="cwrc:performer">
+                        <catDesc>Occupation Type: fencer</catDesc>
+                     </category>
+                     <category xml:id="fool" corresp="cwrc:performer">
+                        <catDesc>Occupation Type: fool</catDesc>
+                     </category>
+                     <category xml:id="juggler" corresp="cwrc:performer">
+                        <catDesc>Occupation Type: juggler</catDesc>
+                     </category>
+                     <category xml:id="masquer" corresp="cwrc:performer">
+                        <catDesc>Occupation Type: masquer</catDesc>
+                     </category>
+                     <category xml:id="morrisDancer" corresp="cwrc:performer">
+                        <catDesc>Occupation Type: morris dancer</catDesc>
+                     </category>
+                     <category xml:id="mummer" corresp="cwrc:performer">
+                        <catDesc>Occupation Type: mummer</catDesc>
+                     </category>
+                     <category xml:id="minstrel" corresp="cwrc:performer">
+                        <catDesc>Occupation Type: minstrel</catDesc>
+                     </category>
+                     <category xml:id="puppeteer" corresp="cwrc:performer">
+                        <catDesc>Occupation Type: puppeteer</catDesc>
+                     </category>
+                     <category xml:id="tumbler" corresp="cwrc:performer">
+                        <catDesc>Occupation Type: tumbler</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="porter"><!-- waiting for Kim's response about whether a porter would be a type of labourer-or manservant-->
+                     <catDesc>Occupation Type: porter</catDesc>
+                  </category>
+                  <category xml:id="printer" corresp="cwrc:printing">
+                     <catDesc>Occupation Type: printer</catDesc>
+                  </category>
+                  <category xml:id="propertyMan"><!--is this a kind of theatre worker?-->
+                     <catDesc>Occupation Type: property man</catDesc>
+                  </category>
+                  <category xml:id="archbishop" corresp="cwrc:religiousOfficial">
+                     <catDesc>Office Type: archbishop</catDesc>
+               </category>
+                  <category xml:id="bishop" corresp="cwrc:religiousOfficial">
+                     <catDesc>Office Type: bishop</catDesc>
+                  </category>
+                  <category xml:id="cardinal" corresp="cwrc:religiousOfficial">
+                     <catDesc>Office Type: cardinal</catDesc>
+                  </category>
+                  <category xml:id="chaplain" corresp="cwrc:religiousOfficial">
+                     <catDesc>Occupation Type: chaplain</catDesc>
+                  </category>
+                  <category xml:id="preacher" corresp="cwrc:religiousOfficial">
+                     <catDesc>Occupation Type: preacher</catDesc>
+                  </category>
+                  <category xml:id="priest" corresp="cwrc:religiousOfficial">
+                     <catDesc>Occupation Type: priest</catDesc>
+                  </category>
+                  <category xml:id="reveller">
+                     <catDesc>Occupation Type: reveller</catDesc>
+                  </category>
+                  <category xml:id="sailor" corresp="cwrc:sailor">
+                     <catDesc>Occupation Type: sailor</catDesc>
+                  </category>
+                  <category xml:id="seaman" corresp="cwrc:sailor">
+                     <catDesc>Occupation Type: seaman</catDesc>
+                  </category>
+                  <category xml:id="waterman" corresp="cwrc:sailor">
+                     <catDesc>Occupation Type: waterman</catDesc>
+                  </category>
+                  <category xml:id="salter" corresp="cwrc:salter">
+                     <catDesc>Occupation Type: salter</catDesc>
+                  </category>
+                  <category xml:id="singer" corresp="cwrc:singer">
+                     <catDesc>Occupation Type: singer</catDesc>
+                  </category>
+                  <category xml:id="stringer">
+                     <catDesc>Occupation Type: stringer</catDesc>
+                  </category>
+                 <category xml:id="suttler">
+                     <catDesc>Occupation Type: suttler</catDesc>
+                  </category>
+                  <category xml:id="tailor" corresp="cwrc:tailor">
+                     <catDesc>Occupation Type: tailor</catDesc>
+                  </category>
+                  <category xml:id="vizardMaker" corresp="theatreWork">
+                     <catDesc>Occupation Type: vizard maker</catDesc>
+                  </category>
+                  <category xml:id="usher" corresp="cwrc:theatreWork">
+                     <catDesc>Occupation Type: usher</catDesc>
+                  </category>
+                  <category xml:id="torchbearer"><!-- Should this be placed with other labourers or manservant? -->
+                     <catDesc>Occupation Type: torchbearer</catDesc>
+                  </category>
+                  <category xml:id="charioteer" corresp="cwrc:transportationWork">
+                     <catDesc>Occupation Type: charioteer</catDesc>
+                  </category>
+                  <category xml:id="coachman" corresp="cwrc:transportationWork">
+                     <catDesc>Occupation Type: coachman</catDesc>
+                  </category>
+                  <category xml:id="vintner" corresp="cwrc:vintner">
+                     <catDesc>Occupation Type: vintner</catDesc>
+                  </category>
+                  <category xml:id="painter" corresp="cwrc:visualArtist">
+                     <catDesc>Occupation Type: painter</catDesc>
+                  </category>
+                  <category xml:id="playwright" corresp="cwrc:writer">
+                     <catDesc>Occupation Type: playwright</catDesc>
+                  </category>
+               </category>
+
+<!-- Here is the categorical listing for objects, including CWRC ontology and EATS IDs -->
+               <category xml:id="object_types">
+                  <catDesc/>
+               </category>
+            </taxonomy>
+
+         </classDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2018-11-17" who="#JAKA1">Created new taxonomy file for REED London/Inns of Court - so far just occupation taxonomy</change>
+      </revisionDesc>
+
+   </teiHeader>
+
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+
+</TEI>

@@ -959,7 +959,7 @@
             
           <!-- delete lots of attributes -->
 
-          <!-- persName: modify @cert for CWRC -->
+          <!-- persName: modify @cert for CWRC 
           <elementSpec ident="persName" mode="change" module="namesdates">
             <attList>
               <attDef ident="cert" mode="change">
@@ -981,7 +981,7 @@
             </attList>            
           </elementSpec>
           
-          <!-- placeName: modify @cert for CWRC -->
+           placeName: modify @cert for CWRC 
           <elementSpec ident="placeName" mode="change" module="namesdates">
             <attList>
               <attDef ident="cert" mode="change">
@@ -1001,7 +1001,7 @@
                 </valList>
               </attDef>
             </attList>            
-          </elementSpec>
+          </elementSpec>-->
           
           <!-- delete lots of attributes for CWRC -->
           <elementSpec ident="orgName" mode="change" module="namesdates">
