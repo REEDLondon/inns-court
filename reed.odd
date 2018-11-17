@@ -191,6 +191,9 @@
                   <valItem ident="holiday">
                     <desc>Describes a holiday</desc>
                   </valItem>
+                  <valItem ident="event">
+                    <desc>Describes an event that is not covered by entertainment</desc>
+                  </valItem>
                 </valList>
               </attDef>
  
@@ -204,7 +207,7 @@
                   <valItem ident="armorer">
                     <desc>armorer</desc>
                   </valItem>                  
-                  <valItem ident="attorneyGeneral">
+                  <valItem ident="attorneyGeneral" source="CWRC Ontology"  corresp="http://sparql.cwrc.ca/ontologies/cwrc.html#attorneyGeneral">
                     <desc>attorney general</desc>
                   </valItem>
                   <valItem ident="baker">
