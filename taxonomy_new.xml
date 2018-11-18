@@ -6,7 +6,7 @@
       <fileDesc>
          <titleStmt>
 
-            <title type="main">Occupations</title>
+            <title type="main">REED London: Inns of Court Taxonomy and Bibliography</title>
 
 
             <funder><orgName>Andrew W. Mellon Foundation, New York, United States of
@@ -240,12 +240,6 @@
                <p>Private URIs using the <code>gloss</code> prefix are pointers to entities in the
                   glossary.xml file. For example, <code>gloss:histrio-1</code> dereferences to
                      <code>glossary.xml#histrio-1</code>.</p>
-            </prefixDef>
-            <prefixDef ident="occ" matchPattern="([A-Za-z0-9_-]+"
-               replacementPattern="../occupations.xml#$1">
-               <p>Private URIs using the <code>gloss</code> prefix are pointers to entities in the
-                  glossary.xml file. For example, <code>occ:higherGovernment</code> dereferences to
-                     <code>occupations.xml#higherGovernment</code></p>
             </prefixDef>
          </listPrefixDef>
 
@@ -678,7 +672,7 @@
                   <category xml:id="sheriffLondon" corresp="cwrc:lawEnforcement">
                      <catDesc>Office Type: Sheriff of London</catDesc>
                   </category>
-                  <category xml:id="constaable" corresp="cwrc:lawEnforcement">
+                  <category xml:id="constable" corresp="cwrc:lawEnforcement">
                      <catDesc>Occupation Type: constable</catDesc>
                   </category>
                   <category xml:id="escheator" corresp="cwrc:lawEnforcement">
@@ -885,7 +879,7 @@
                         <catDesc>Occupation Type: tumbler</catDesc>
                      </category>
                   </category>
-                  <category xml:id="porter"><!-- waiting for Kim's response about whether a porter would be a type of labourer-or manservant-->
+                  <category xml:id="porter" corresp="cwrc:manservant">
                      <catDesc>Occupation Type: porter</catDesc>
                   </category>
                   <category xml:id="printer" corresp="cwrc:printing">
@@ -945,7 +939,7 @@
                   <category xml:id="usher" corresp="cwrc:theatreWork">
                      <catDesc>Occupation Type: usher</catDesc>
                   </category>
-                  <category xml:id="torchbearer"><!-- Should this be placed with other labourers or manservant? -->
+                  <category xml:id="torchbearer" corresp="manualLabourer">
                      <catDesc>Occupation Type: torchbearer</catDesc>
                   </category>
                   <category xml:id="charioteer" corresp="cwrc:transportationWork">
@@ -968,6 +962,9 @@
                <category xml:id="objects">
                   <catDesc/>
                </category>
+               <category xml:id="crimesMisdemeanours"></category>
+               <category xml:id="characters"></category>
+               <category xml:id="entertainments"></category>
             </taxonomy>
 
          </classDecl>
