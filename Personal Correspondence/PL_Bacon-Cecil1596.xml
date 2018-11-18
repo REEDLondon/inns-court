@@ -247,10 +247,10 @@
       <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
          <mods:mods>
             <mods:titleInfo>
-               <mods:title>Middle Temple Letter of Sir Edward Phelips and Henry Hobart to Actors in the Masque</mods:title>
+               <mods:title>Letter of Francis Bacon to William Cecil, Lord Burghley</mods:title>
             </mods:titleInfo>
-            <mods:name type="corporate">
-               <mods:namePart>Middle Temple</mods:namePart>
+            <mods:name type="personal">
+               <mods:namePart>Francis Bacon</mods:namePart>
             </mods:name>
             <mods:typeOfResource>text</mods:typeOfResource>
             <mods:genre type="formatType">Born Digital</mods:genre>
@@ -289,28 +289,28 @@
       </xenoData>
    </teiHeader>
 
-   <text ana="taxon:letter" type="record" xml:id="RLMTL1">
+   <text ana="taxon:letter" type="record" xml:id="RLP003">
       <body>
          <head>
-            <date when-iso="1613">1613</date></head>
+            <date when-iso="1595">1595</date></head>
          <div type="transcription" xml:lang="en">
-            <!-- If there is a translation, it should also have a xml:lang="" -->
             <div>
                <head>
-                  <supplied>Middle Temple Letter of Sir Edward Phelips and Henry Hobart to Actors in the Masque</supplied></head>
-               <pb type="folio" n="1"/>
+                  <supplied>Letter of Francis Bacon to William Cecil, Lord Burghley</supplied></head>
+               <pb type="sheet" n="1"/>
                <gap reason="omitted"/>
                <ab> 
-                  Whereas yow haue bin worthilie employed both for yo<ex>u</ex>r <orgName>Societyes</orgName> and yo<ex>u</ex>r owne honor in this o<ex>u</ex>r late Maske vnto the Co<ex>u</ex>rte wherin wee noe way dowbte but yow well apprehend the greate and exceeding charg that yo<ex>u</ex>r and o<ex>u</ex>r Society haue bin put vnto And therfore wee resolued according to all former president<ex>es</ex> that the Masking attire should be disposed toward the defraying of soe greate a charge, And therfore doe hartily praie yow to be pleased that the same may be deliuered to the com<ex>m</ex>on vse of both o<ex>u</ex>r societyes, Wherin yow shall doe worthie yo<ex>u</ex>rselues, and answerable to all former president<ex>es</ex> of this kinde. And soe noe way dowbting of yo<ex>u</ex>r due considerac<ex>i</ex>ons of this o<ex>u</ex>r iuste advice and request doe com<ex>m</ex>end o<ex>u</ex>r loves to yow and yow to thalmightie</ab>
-               <ab>
-                  <seg type="signed">Yo<ex>u</ex>r ever affectionate frend<ex>es</ex> <persName
-                        n="Edward Phelipps">Ed<ex>ward</ex> Phelipps</persName></seg><lb/>
-                  <seg type="signed"><persName n="Henry Hobarte">Henry Hobarte</persName></seg>
-                     </ab>
-               
-               <note type="editorial">add endnote here</note>
+                  Yt may please <persName n="William Cecil">your good L<ex>ordship</ex></persName> I am sory the joynt maske from the <orgName n="Inns of Court (combined)">fowr Innes of Cowrt</orgName> faileth. Whearin I conceyue thear is no other grownd of that euent, but impossibility.</ab>
+                        
+                        <ab>Neuerthelesse bycause it falleth owt that at this tyme <orgName n="Gray's Inn">Graies Inne</orgName> is well furnyshed, of galant yowng gentlemen, <persName n="William Cecil">your l<ex>ordship</ex></persName> may be pleased to know, that rather then this occasion shall passe withowt some demonstration of affection from <orgName n="Inns of Court (combined)">the Innes of Cowrt</orgName>, Thear are a dozen gentlemen of <orgName n="Gray's Inn">Graies Inne</orgName>/ that owt of the honor which they bear to <persName n="William Cecil">your l<ex>ordship</ex></persName>, and <persName n="Henry Hunsdon" cert="high" resp="REED">my l<ex>ord</ex> Chamberlayne</persName> to whome at theyr last maske they were so much bownden, will be ready to furnysh a maske wyshing it were in their powers to performe it according to theyr mynd<ex>es</ex>. And so for the pr<ex>e</ex>sent I humbly take my leaue resting</ab>
+                        
+                        <ab><seg type="signed" rend="middle">Y<ex>ou</ex>r l<ex>ordshi</ex>ps very humbly<lb/> And much bownden<lb/>
+                           <hi rend="right"><persName n="Francis Bacon">Fr<ex>ancis</ex> Bacon</persName></hi></seg></ab>
+                        
+                        <note type="editorial">
+                           <ab>Francis Bacon and William Cecil were members of Gray’s Inn. This letter was clearly composed before 4 August 1598, the date of Burghley’s death. Since both the proposed masque and a previous masque are associated with ‘my lord Chamberlayne,’ that official was probably Henry Carey, first Baron Hunsdon (1526–96), rather than his successor, William Brooke (1527–97), who served only a year before his death. The previous masque may have been part of Gesta Grayorum. </ab>
+            </note>
             </div>
-                                         
          </div>
       </body>
    </text>

@@ -37,10 +37,7 @@
             <respStmt>
                <persName xml:id="PG">Patrick Gregory</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
-               <resp>Associate Editor</resp>
-               <!-- confirm -->
                <resp>Paleographer, Translator</resp>
-               <!-- confirm -->
             </respStmt>
 
             <respStmt>
@@ -91,7 +88,6 @@
             <respStmt>
                <persName>Matthew Davies</persName>
                <orgName>University of London, Birkbeck College</orgName>
-               <!-- confirm -->
                <resp>Records of Early English Drama (REED) Executive Board</resp>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
@@ -213,7 +209,7 @@
          </seriesStmt>
          <sourceDesc>
             <p>This publication constitutes a remediation of the printed Inns of Court collection. Information on original sources for transcriptions can be accessed via the Document Descriptions.</p>
-            <p>This record can be found on [PAGE(S)] of REED: Inns of Court, Vol. [#]</p>
+            <p>This record can be found on pages 170-1 of REED: Inns of Court, Vol. 1</p>
             <p>For a full list of REED collections, editors, executive board members, and staff, please visit http://reed.utoronto.ca/people</p>
          </sourceDesc>
       </fileDesc>
@@ -247,7 +243,7 @@
       <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
          <mods:mods>
             <mods:titleInfo>
-               <mods:title>Middle Temple Letter of Sir Edward Phelips and Henry Hobart to Actors in the Masque</mods:title>
+               <mods:title>Middle Temple Summary of Payments</mods:title>
             </mods:titleInfo>
             <mods:name type="corporate">
                <mods:namePart>Middle Temple</mods:namePart>
@@ -266,7 +262,7 @@
                <mods:internetMediaType>text/xml</mods:internetMediaType>
                <mods:digitalOrigin>born digital</mods:digitalOrigin>
             </mods:physicalDescription>
-            <mods:abstract>Some abstract here.</mods:abstract>
+            <mods:abstract>Middle Temple summary of expenses for performance of The Memorable Masque in 1613. On or after October 1613</mods:abstract>
             <mods:subject>
                <mods:topic valueURI="http://id.loc.gov/authorities/subjects/sh2002012473">Theater--England--London--History--17th century </mods:topic>
             </mods:subject>
@@ -289,28 +285,61 @@
       </xenoData>
    </teiHeader>
 
-   <text ana="taxon:letter" type="record" xml:id="RLMTL1">
+   <text ana="taxon:middle_temple" type="record" xml:id="RLMTSP2">
       <body>
          <head>
-            <date when-iso="1613">1613</date></head>
+            <date when-iso="1613">1612-1613</date></head>
          <div type="transcription" xml:lang="en">
-            <!-- If there is a translation, it should also have a xml:lang="" -->
             <div>
                <head>
-                  <supplied>Middle Temple Letter of Sir Edward Phelips and Henry Hobart to Actors in the Masque</supplied></head>
-               <pb type="folio" n="1"/>
-               <gap reason="omitted"/>
-               <ab> 
-                  Whereas yow haue bin worthilie employed both for yo<ex>u</ex>r <orgName>Societyes</orgName> and yo<ex>u</ex>r owne honor in this o<ex>u</ex>r late Maske vnto the Co<ex>u</ex>rte wherin wee noe way dowbte but yow well apprehend the greate and exceeding charg that yo<ex>u</ex>r and o<ex>u</ex>r Society haue bin put vnto And therfore wee resolued according to all former president<ex>es</ex> that the Masking attire should be disposed toward the defraying of soe greate a charge, And therfore doe hartily praie yow to be pleased that the same may be deliuered to the com<ex>m</ex>on vse of both o<ex>u</ex>r societyes, Wherin yow shall doe worthie yo<ex>u</ex>rselues, and answerable to all former president<ex>es</ex> of this kinde. And soe noe way dowbting of yo<ex>u</ex>r due considerac<ex>i</ex>ons of this o<ex>u</ex>r iuste advice and request doe com<ex>m</ex>end o<ex>u</ex>r loves to yow and yow to thalmightie</ab>
-               <ab>
-                  <seg type="signed">Yo<ex>u</ex>r ever affectionate frend<ex>es</ex> <persName
-                        n="Edward Phelipps">Ed<ex>ward</ex> Phelipps</persName></seg><lb/>
-                  <seg type="signed"><persName n="Henry Hobarte">Henry Hobarte</persName></seg>
-                     </ab>
+                  <supplied>Middle Temple Summary of Payments*</supplied></head>
+               <pb type="single_sheet"/>
+
+               <ab>Mondey de <gap reason="illegible"/> ^<add place="above">&amp; payd</add> toward<ex>es</ex> the <del>last</del> late Maske</ab>
                
-               <note type="editorial">add endnote here</note>
+               <table>
+                  <row>
+                     <cell>Inprimis Deliu<ex>er</ex>ed by mr Daston</cell>
+                     <cell rend="align_right">Diij<hi rend="superscript">C</hi> l li.</cell>
+                  </row>
+                  <row>
+                     <cell>The xxvj<hi rend="superscript">th</hi> daye of ffebruary 1612<lb/>
+                        Deliu<ex>ered</ex> ^<add place="above">by the vnder Tr<ex>easur</ex>er</add><lb/>
+                        to mr Herman ^<add place="above">mr martyns man</add></cell>
+                     <cell rend="align_right">vj li. xiij s. iiij d.</cell>
+                  </row>
+                  <row>
+                     <cell>The first of march Anno 1612 Deliu<ex>er</ex>ed<lb/>
+                     ^<add place="above">by the vnder Tr<ex>easur</ex>er</add> to mr Brooke<lb/>
+                     of Lincolns Inn</cell>
+                     <cell rend="align_right">lx li.</cell>
+                  </row>
+                  <row>
+                     <cell>The xix<hi rend="superscript">th</hi> daye of Iune Anno 1613<lb/>
+                        Deliu<ex>er</ex>ed ^<add place="above">by the vnder Tr<ex>easur</ex>er</add><lb/>
+                        to mr Herman <add place="above">mr martin<ex>es</ex> man</add></cell>
+                     <cell rend="align_right">C li.</cell>
+                  </row>
+                  <row>
+                     <cell>The xxvj<hi rend="superscript">th</hi> daye of Iune Anno 1613<lb/>
+                        Deliu<ex>er</ex>ed <add place="above">by the vnder Treasurer</add> to<lb/>
+                        mr Herman <add place="above">mr martin<ex>es</ex> man</add></cell>
+                     <cell rend="align_right">1 li.</cell>
+                  </row>
+                  <row>
+                     <cell>The xxviij<hi rend="superscript">th</hi> Daye of Iune Anno 1613<lb/>
+                        Deliu<ex>er</ex>ed ^<add place="above">by the vnder Tr<ex>easur</ex>er</add> to<lb/>
+                        the sayd mr Herman</cell>
+                     <cell rend="align_right">1 li.</cell>
+                  </row>
+                  <row>
+                     <cell></cell>
+                     <cell rend="align_right">Sum<ex>m</ex>a Total<ex>is</ex> Mj<hi rend="superscript">C</hi> xvj li. xiij s. iiij <gap reason="illegible"/>
+                     </cell>
+                  </row>
+               </table>                                          
             </div>
-                                         
+
          </div>
       </body>
    </text>

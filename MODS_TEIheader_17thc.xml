@@ -37,10 +37,7 @@
             <respStmt>
                <persName xml:id="PG">Patrick Gregory</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
-               <resp>Associate Editor</resp>
-               <!-- confirm -->
                <resp>Paleographer, Translator</resp>
-               <!-- confirm -->
             </respStmt>
 
             <respStmt>
@@ -91,7 +88,6 @@
             <respStmt>
                <persName>Matthew Davies</persName>
                <orgName>University of London, Birkbeck College</orgName>
-               <!-- confirm -->
                <resp>Records of Early English Drama (REED) Executive Board</resp>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>

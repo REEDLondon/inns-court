@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <lg>
+            <l>APPENDIX 2 563</l>
+         </lg>
+
+         <p><hi rend="bold">1617/18</hi></p>
+         <p><hi rend="bold"> Masque of Mountebanks alias The First Antimasque of
+            Mountebanks</hi></p>
+         <p>Gray’s Inn Library: MS. 29</p>
+         <p>pp 1–21</p>
+
+         <p><title>The Ante maske ^<add rend="above">of</add> Mountebankes viz: English Italian
+                  Ducth<note type="foot"><hi rend="italic">for</hi>Dutch</note> Russian Frenche
+               Spanish: Egip[.>]tian Iewe</title></p>
+
+         <p>The mountebankes speech</p>
+
+         <p>The greate m<ex>aste</ex>r of Medecine Esculapius preserue and prolong the sanity of
+            these royall [spect] and Princely Spectators and if any here present hapen to be
+            valitudinarij. the Blessed finga<damage type="illegible"/> of our grande maister
+            Paracelsus be at hand for there spedy reparation. I haue hard of a mad fellowe that
+            stiles himselfe a mery gree<damage type="illegible"/> and goes abroade by the name of
+            Paradoxe who with frisking and dancing and new bracht doct!…"<note type="foot"><hi
+                  rend="italic">Nichols reads</hi> new-broached doctrine</note> haith stolne
+            himselfe this festiuall time of ch!…"mas in to fauore at the Court of Purpole and
+               h<damage type="illegible"/> there got some aprobation for his small perform!…" is
+            growne soe audacious as to intrud himselfe in t<damage type="illegible"/> this honorable
+            presence. to preuent whose far growing fame. I haue with these my fellowe Actor<damage
+               type="illegible"/> of seuerall nations all famous for the Banke h<damage
+               type="illegible"/> made repare to present vnto your veiwe mor<damage type="illegible"
+            /> more<note type="foot"><hi rend="italic">Dittography (?)</hi></note> wholesome more
+            pleasing and more nouell d<damage type="illegible"/>lights which to avoide prolixity I
+            distribute i!…" these following places</p>
+
+         <lg>
+            <l>1 Names of deseases cured by vs (which being infinit</l>
+            <l>wee purposely ommit<note type="foot"><hi rend="italic">closing parenthesis
+                     omitted</hi></note></l>
+            <l>2 Musicall charmes</l>
+            <l>3 Familiar receipts</l>
+         </lg>
+
+
+         <p><title>The Mountebankes songes on the 2d p!…" of his deuision &amp; Musicall charm!.."
+               |</title></p>
+
+         <p><title type="song">Chorus to the Mountebankes song</title></p>
+         <lg>
+            <l>What ist you lake what would you bye</l>
+            <l> What is it that you need</l>
+            <l> Come to me gallants tast and try</l>
+            <l> Heres that will doe the deed</l>
+         </lg>
+         <lg>
+            <l>564 MASQUE OF MOUNTEBANKS</l>
+         </lg>
+
+         <p><title type="song">1 Song</title></p>
+         <lg>
+            <l>Heres water to quench mayden fires</l>
+            <l> Heres spirits for ould occupiers</l>
+            <l> Heres pouder to preserue youth long</l>
+            <l> Heres oyle to make weake sinewes strong</l>
+            <l> What ist you lake etc</l>
+            <l> This powder doth preserue from fate</l>
+            <l> this cures the malificikate</l>
+            <l> Lost maiden heads this doth restore</l>
+            <l> And makes them virgines as before</l>
+            <l> What etc</l>
+            <l> Here is cura for toothache Feuer Lurdens</l>
+            <l> vnlawfull or vntimely Burthens</l>
+            <l> Deaseses of all sex all ages</l>
+            <l> this medicine cures or els aswages</l>
+            <l> What etc</l>
+            <l> I haue receipts to cure the goute</l>
+            <l> To kepe pox in and put pox out</l>
+            <l> Hot blods to coole colde blods to warme</l>
+            <l> Shall doe yf noe good noe harme</l>
+            <l> What etc |</l>
+         </lg>
+
+         <p><title type="song">2d Mountebankes Songe</title></p>
+         <lg>
+            <l>Is any deafe is any blinde</l>
+            <l> Is any bounde or loose behinde</l>
+            <l> Is any foule that would be fayre</l>
+            <l> Would any Lady change her hayre</l>
+            <l> Does any dreame dos any walke</l>
+            <l> Or in theire sleepe affrighted talke</l>
+            <note type="Margin" rend="left"> Chorus=</note>
+            <l> I come to cure what ere you feele</l>
+            <l> Within without from head to heele</l>
+            <l> Be Drumes or ratles in thy heade</l>
+            <l> are not thy braines well tempered</l>
+            <l> Does Eolus thy stomake gnawe</l>
+            <l> Or brede there vermine in thy mawe</l>
+            <l> Doste thou desire and cannot please</l>
+            <l> Loe here the Best Cantharides</l>
+            <l> I come etc</l>
+            <l> Euen all deseases that arise</l>
+            <l> From ill disposed Crudities</l>
+         </lg>
+
+         <lg>
+            <l>APPENDIX 2 565</l>
+         </lg>
+
+         <lg>
+            <l>From too much study too much payne</l>
+            <l> From laizines or from a straine</l>
+            <l> From any humor doing harme</l>
+            <l> Be it dry or moist or colde or warme</l>
+            <l> I come etc</l>
+            <l> Of lazy goute I cure the riche</l>
+            <l> I rid the beggar of his icth</l>
+            <l> I fleame auoid both thike and thin</l>
+            <l> I dislocated ioynts put in</l>
+            <l> I can olde Eson’s youth restore</l>
+            <l> And doe a thousand wonders more</l>
+            <l> Thou come to me what ere you feele</l>
+            <l> Within without from head to heele |</l>
+         </lg>
+
+         <p><title type="song">3 Mountebankes Songe</title></p>
+         <lg>
+            <l>Maids of the chamber or the kicthinge</l>
+            <l> If you be trobled with an itchinge</l>
+            <l> Come giue me but a kisse or two</l>
+            <l> Ile giue you that shall ^L LsooneJ J cure you</l>
+            <note type="Margin" rend="left"> Chorus=</note>
+            <l> Nor Gallen or hipocrates<note type="foot">c<hi rend="italic">corrected
+                  from</hi>p</note></l>
+            <l> Did euer doe such cures as these</l>
+            <l> Crackt mayds that cannot hould there water</l>
+            <l> Or vse to break winde in your laughter</l>
+            <l> Or be you vext with chibes or cornes</l>
+            <l> Ile cure y[ou]or Cuckolds of there hornes</l>
+            <l> Nor gallen etc</l>
+            <l> If lusty Doll mayde of the Dayry</l>
+            <l> Chance to be blew nipt by the fairye<note type="foot">y<hi rend="italic">corrected
+                     from</hi>e</note></l>
+            <l> for making Butter with her tayle</l>
+            <l> Ile giue her that did neuer fayle</l>
+            <l> Nor gallen etc</l>
+            <l> Or if some worse mischance betide her</l>
+            <l> Or that the night mare ouer ride her</l>
+            <l> Or if she tell all in a dreame</l>
+            <l> Ile cure her for a messe of Chreme</l>
+            <l> Nor Gallen or Hipocrates</l>
+            <l> Did euer doe such cures as these |<note type="foot"><hi rend="italic">start of p
+                     5</hi></note></l>
+         </lg>
+         <lg>
+            <l> 566 MASQUE OF MOUNTEBANKES</l>
+         </lg>
+
+         <p><title type="song">4 Mountebankes Songe</title></p>
+         <lg>
+            <l>Is any soe spente that his wife keeps lent</l>
+            <l> Does any waste in his marrowe</l>
+            <l> Is any a slugge let him taste of a Drugge</l>
+            <l> Twill make him as quike as a sparrowe</l>
+            <note type="Margin" rend="left"> Chorus=</note>
+            <l> My powder and oyle extrackted with toyle</l>
+            <l> by rare sublimde infusions</l>
+            <l> Haue proofe the ar good by my owne blod</l>
+            <l> In<note type="foot"><hi rend="italic">3 minims for</hi>n<hi rend="italic">in
+                  MS</hi></note> many strange conclusions</l>
+            <l> Does any consume with the sault frenche Rhewme</l>
+            <l> Doth the goute or palsy shak him</l>
+            <l> or haith he the stone ere a month be gone</l>
+            <l> As sound as a Bell Ile make him</l>
+            <l> My powder etc</l>
+            <l> The grefe of the splene or mayds that be gren[d]</l>
+            <l> Or the heat in Ladys faces</l>
+            <l> The gripes<note type="foot">i<hi rend="italic">corrected from</hi>g</note> of the
+               stich or the scollers itch</l>
+            <l> In my cure deserues no place</l>
+            <l> My pouder etc</l>
+            <l> The webb or the pinne or the Morphew of skine</l>
+            <l> Or the rising of the mother</l>
+            <l> I can cure in a trice: oh: then be not nice</l>
+            <l> Or ougt that greiues you smother</l>
+            <l> My powder etc |</l>
+         </lg>
+
+         <p><title>Familiar receipts</title></p>
+         <lg>
+            <l>An approued receipt againste melencholy feminine</l>
+         </lg>
+
+         <p>If [there] L Lany LadyJ J be [any] sike of the sullens she knowes not where let her take
+            an handfull of simples I know not what and vse them I know not how apliing them to the
+            part greued I know not which and she shall be well I knowe not when</p>
+
+         <p>If any scoller be trobled with an itch or breaking out which in time may proue the
+            scuruy let him first forbeare clawinge and fretting meats and then purge coller but by
+            noe meanes vpward</p>
+
+         <p>For restoring gentlemen vshers leggs</p>
+         <p>If any gentelman vsher haith the consumption in his leggs let him feed lustily on veale
+            two moneths [in] in the spring time and forbeare all manner of mutton and he shall
+            increase in calfe</p>
+
+         <lg>
+            <l>APPENDIX 2 567</l>
+         </lg>
+
+         <p>If any be trobled with tentige let him trauele to Iapan or because the forest of
+            Turnebolia is of the same altitud or eleuation of the pole and at hand Let him hunt
+            theire for his recreation and it shall be donne in an Instant.</p>
+
+         <p>If any scoller laboure of the Angina a dangerous deasese in the throate soe that he
+            cannot speake an hower together once in a quarter of a yeare let him forbere all violent
+            exercises, as trotting to westminster hall euery tearme and all hot liquor let him
+            abstaine from Company retiring himselfe warme clad in his study foure days in a weeke et
+            fiet</p>
+
+         <p><title>For a felon</title></p>
+         <p>If any be trobled with a Fellon on his finger whereby he haith lost the lawfull vse of
+            his hand let him but once vse the exercise of swinging and strech himselfe vppon the
+            souerainge tree of Tiburnia and it will presently kill the fellon probatum etc |</p>
+
+         <p>If any virgine be soe sicke of Cupid that the deasese is grow<damage type="illegible"/>
+            to a timpany let her with all speede possible remoue her selfe changing ayre for fourty
+            weekes at lest keping a spare diet as she trauels allwayes vsing after lawfull exercises
+            till she be maried, and then she is past danger:</p>
+
+         <p><title>For Barrannese</title></p>
+         <p>If any Lady be longe maried yet Childlesse let her first desire to be a mother. and to
+            her breakfast take a new layd egge in a spounefull of goates milk with a scruple of
+            Ambergreece and at supper feed on a hen troden but by one coke But aboue all thinges let
+            her avoide hurriing in choches<note type="foot"><hi rend="italic">for</hi>coches</note>
+            especial!.." on the stones and assuming a finer moulde then nat!…" lent her And noe
+            doubt she shall fructifie</p>
+
+         <p><title>For the falling<note type="foot"><hi rend="italic">first</hi>l<hi rend="italic"
+                     >corrected from</hi>f</note> Sicknes</title></p>
+         <p>If any woman be trobled with the faling sicknes let her not traueile Westward Hoe<note
+               type="foot"><hi rend="italic">Thames boatman's cry, meaning westward (or upriver)
+                  service</hi></note> because she muste auoyde the Ile of man, and for that is an
+            euL LiJ Jll spirit onely entred into her let her for a charme allwayes haue her leggs
+            acrosse when she is not walking and this will helpe her</p>
+
+         <p><title>For a rupture</title></p>
+         <p>If any tradsman be trobled with a rupture in the Bowells of his estate that he cannot
+            goe abroad let him decockt gold from a pound to a taking the brothe thereof from six
+            months to s!.." months and he shallbe as able a man as euer he was</p>
+         <lg>
+            <l> 568 MASQUE OF MOUNTEBANKES</l>
+         </lg>
+
+         <sp>
+            <speaker rend="left" n="Mountebanks">Mountebanke</speaker>
+            <p>Now princely spectators to lett you see we are men qualified from head to foote we
+               will shew a peece of our footemanship</p>
+         </sp>
+
+         <p><stage type="business">Dance et exeunt |</stage></p>
+
+         <p><stage type="entrance">Enter Paradox</stage></p>
+
+         <p>Health and Iouisance to this fayre asembly. Now the thrice three learned sisters forsake
+            me yf I euer beheld such buties in Athens you aske p<ex>er</ex>haps who I am that thus
+            conceitedly salute I am a mery greek and a Sophister of Athens, whoe by fame of certen
+            nouell and rare presentments vndertaken and p<ex>ro</ex>mised by the gallant spirits of
+            graia drawne hither, haue intruded my selfe Sophister like, in at the Bake dore to be a
+            spectator or rather a lensor of theire vndertakins: the muses grante the may satisfie
+            our exspectation. Ah the shewes and the songes and the speeches and the playes and the
+            Commodies and the actings that I L LhaueJ J seene at Athens The vniuerse neuer saw the
+            like. but let that passe: there was an other end of my comming and that was to get some
+            of theese Bueties to be my deciplL LesJ J for I teach them rare doctrines but
+            delightfull and yf you be true Athenians (as I hope you all are) you will giue my hopes
+            there lookt for exspectation, Know then my name is Paradox A strang name but proper to
+            my discent for I blush not to tell you truth I am a slip of darknes my father a Iesuite
+            my mother an AL LnaJ Jbaptist and as my name is strange [name] soe is my
+            p<ex>ro</ex>fession and the art that I teach (my selfe being the firste that reduced it
+            to rules and methode) beares my owne name Paradox and I pray what is a paradox it is
+            Quodlibet or a strayne of witt and inuention shrewd aboue the vulgar conceipt to beget
+            admiration. and because methode is the mother of disipline I deuide my Paradoxes into
+            these thre heads: Masculine. feminine. and Newter and first of the first for the
+            masculine is more worthy then the feminine and the feminine more worthy then the Newter
+            Hum Hum</p>
+
+         <p><stage type="business">He drawes his Booke and reads</stage></p>
+         <p><title>Paradoxes masculine</title></p>
+         <list>
+            <item>He cannot be a Cuckould that weares<note type="foot">r<hi rend="italic">corrected
+                     from</hi>k</note> a gregorian for a peruwige will [w] neuer fit such an
+               head</item>
+            <item>A Knight of the long robe is more Honorable than a knight made in the feild for
+               furres are derer then spurres |<note type="foot"><hi rend="italic">marginale</hi>1<hi
+                     rend="italic">and</hi>2<hi rend="italic">lost due to
+               trimming</hi></note></item>
+
+            <item n="3"> A drunkard is a good Philosopher for he thinkes aright that the world goes
+               round</item>
+
+            <!--APPENDIX 2 569-->
+
+            <item n="4">The deuill cannot take tobaccho through his nose for St Dunstan<note
+                  type="foot"><hi rend="italic">is supposed to have tweaked the devil's nose with a
+                     pair of tongs</hi></note> seared vp that with his tonges</item>
+            <item n="5">A Shomaker is the fittest [for] man for a Cunstable for he virtute officij
+               may put any man in the stokes and inlarge him at the laste</item>
+            <item n="6">A prisoner is the best fencer for he euer lies at a close ward</item>
+            <item n="7">An elder Brother may be a wise man for he haith wherewithall to buy wisedome
+               at any rate.</item>
+            <item n="8">A nimble page is more vsefull for a Lady then a long gentleman vsher for a
+               sparow is more actiue then a bauld Buzard</item>
+            <item n="9">Burgomasters ought not to weare there furd gounes at midsomer for soe the
+               may bring in the sweting Sicknes againe</item>
+            <item n="10">It is Better to be a Coward then a Captaine for a goos<damage
+                  type="illegible"/> liues longer then a Cock of the game</item>
+            <item n="11">A Cutpurse is the surest trade for his work is noe soone<damage
+                  type="illegible"/> done<note type="foot"><hi rend="italic">3 minims in
+                  MS</hi></note> but he haith his money in his hand</item>
+            <item n="12">A Caniball is the louingst man to his enymy for willingly none eates that
+               he loues not.</item>
+            <item n="13">A musitian will neuer make good vintener for he deales too mu!.."
+                  w<ex>i</ex>th flats and sharpes</item>
+            <item n="14">A man should doe in the caise of a wife as he doth in the cai!.." of a
+               peece of satten feele and see and turne vp both ends for he may finde a breach in the
+               fagge end</item>
+            <item n="15">A Bankrupt is a good house keper for he seldom flitts from h!…"</item>
+            <item n="16">He cannot be a brave gentlman that is not in debt for h<damage
+                  type="illegible"/> must follow the fashion though it grow to a disease</item>
+            <item n="17">A city heire cannot be a prodigall for: est in Ieuencis patr!.."
+                  vinctur<ex>us</ex></item>
+            <item n="18">Of all men a scoller makes the nimblest caruer for vend!…" est magister
+               virtu’</item>
+            <item n="19">A foole is the hapiest of men for he hath often enterance wh!…" his Betters
+               ar kept out</item>
+            <item n="20">He is !…" slepe !…" <note type="foot"><hi rend="italic">bottom of leaf
+                     cropped, resulting in loss of text</hi></note>|<note type="foot"><hi
+                     rend="italic">start of p 10</hi></note></item>
+         </list>
+
+         <p>Paradoxes feminine:</p>
+         <list>
+            <item n="1">Tis better to mary a widow<note type="foot">d<hi rend="italic">corrected
+                     from</hi>s</note> then a mayd causa patet</item>
+            <item n="2">Downright Language is the best rethorike to winne a woman: for plaine
+               dealing is a Iewell and no Lady L LhathJ J her lapfull of them:</item>
+            <!-- 570 MASQUE OF MOUNTEBANKES -->
+            <item n="3">A painted Lady is the fittest mistris for a captaine for soe may both fight
+               vnder there Collers</item>
+            <item n="4">Rich widdowes were ordened for yonger Brothers for they being borne to no
+               lande must plow in another mans soyle</item>
+            <item n="5">A mayd should mary before the yeares of discretion: for malitia[m] supplet
+                  etatem:<note type="foot"><hi rend="italic">'evil intent makes (a minor's) age
+                     sufficient'</hi></note></item>
+            <item n="6">Tis dangerous to mary a widdow for she haith cast her rider</item>
+            <item n="7">An english virgine sings sweter here then at Brussells, for a voluntary is
+               sweter then a forced note:</item>
+            <item n="8">Tis goode for a young popish lasse to mary an ould man for soe she shall be
+               sure to kepe all fasting nights:</item>
+            <item n="9">A dangerous secret is safe placed in a womans brest for [noe] noe wiseman
+               will search for it there:</item>
+            <item n="10">A woman of learninge and tonges is an Admirable [thing] creature for a
+               starling that can speake is a present for an emperor</item>
+            <item n="11">If a woman with Childe longe for to lie with an other man her husband must
+               consent: for yf he will not: she will doe it without him:</item>
+            <item n="12">A great Lady should not weare her owne hayre, for thats as meane as a
+               garment of her owne spinning</item>
+            <item n="13">A fayre womans neke should stande awry for soe shee lookes as yf she were
+               looking for a kisse</item>
+            <item n="14">Women loue fish more then flesh for they will haue place what euer the pay
+               for it. |</item>
+            <item n="15">Women are to be Commended for louing stage playes<note type="foot"><hi
+                     rend="italic">for</hi>players</note> for they are men of knowne action</item>
+            <item n="16">A greate Lady may with honnor weare her sarvants picter for a shadowe yet
+               neuer made a Cukold</item>
+            <item n="17">There were neuer soe many chast wiues as in this age, for it is out of
+               fashion to lie with there owne husbands</item>
+            <item n="18">The quickest way to preferment is to mary a young wench for she bringes her
+               husband many frends, and great ones and a frend at Courte is euer worth a penny in a
+               mans purse</item>
+            <item n="19">A Blinde man makes the best husband for what he wants in seing inreacheth
+               in feeling and thats a womans best sence</item>
+            <item n="20">A Negre is the Butyfullest mistris for nether age nor siknes can spoyle her
+               Complexion</item>
+            <item n="21">A woman is more tirannous then a man for the falcon [hawke] is feircer then
+               the Tercell gentle |</item>
+         </list>
+
+         <lg>
+            <l>APPENDIX 2 571</l>
+         </lg>
+
+         <p><title>Newter Paradoxes</title></p>
+         <list>
+            <item n="1">A vsurer is the best [creature] Christian for Quantu<ex>m</ex>
+                  nummoru<ex>m</ex> habet in arca tantum habet et fideij<note type="foot"><hi
+                     rend="italic">'as much money as he has in his strong-box, so much credit he has
+                     also'; cp Juvenal, Saturae 3.143-4</hi></note>
+               <note type="foot"><hi rend="italic">for</hi>fidei</note></item>
+            <item n="2">The best Bodies<note type="foot"><hi rend="italic">only the dot of
+                     the</hi>i<hi rend="italic">is present</hi></note> should weare the plainest
+               clothes for painted clothes were made<note type="foot">m<hi rend="italic">corrected
+                     from</hi>t</note> to hide bare walles</item>
+            <item n="3">Desemblers may safely be trusted for theire meaning is allwayes contrary to
+               there wordes</item>
+            <item n="4">It is better to be a beggar then a merchant for all the world lies open to
+               his trafficke and yet he payes noe custom</item>
+            <item n="5">Tis more safe to be drunke with the hoppe then the grape for a man should be
+               more inward w<ex>i</ex>th his CountryL LmenJ J then w<ex>i</ex>th strangers</item>
+            <item n="6">A man that is deepe in debt should be as deepe in drinke for Bacchus Cancels
+               all manner of Obligations:</item>
+            <item n="7">Play houses are more necessary in a Commonwelth well Gouerned then publicke
+               scoles for men are better taught by example then preceipt</item>
+            <item n="8">Tauernes are more requisite in a city then Academies for tis better the
+               multitude were louing then learned</item>
+            <item n="9">A tobaccho shoppe and a baudy house are concidents<note type="foot"><hi
+                     rend="italic">for</hi>coincidents</note> for smoke is not without fire:</item>
+            <item n="10">Welth is better then witt for few poets haue had the fortune to be chosen
+               Alderman</item>
+            <item n="11">Marage frees a man from care for then his wife takes all vppon her:</item>
+            <item n="12">A kennell of hounds is the best consort for the need noe tuning from
+               morning till night</item>
+            <item n="13">The courte makes Better scollers then the vniuersities for where a kinge
+               vouchafes to be a leacher euery man Blushes to be a non profitiant:</item>
+            <item n="14">Vserers are necessary members of the Commonwelth for the binde men to good
+               dealings:</item>
+            <item n="15">Louers are but smalle feders for sweete meats soonest cloy the
+               stomake:</item>
+            <item n="16">Musitians cannot be healthfull<note type="foot"><hi rend="italic"
+                  >for</hi>unhealthfull (?)</note> for the liue by a good ayre</item>
+            <item n="17">A flatterer is better to be loued then a true frend for oyle cures better
+               then vinegar: |</item>
+            <item n="18">Tis better haue a good taylor then a good Body and a good purse then a good
+               face, for a good taylor will euer keepe one in good fashion and a good purse supply
+               the other with good looking</item>
+            <item n="19">Tis better to bye honnore then deserue it for what is farre fecth<note
+                  type="foot"><hi rend="italic">for</hi>fecht (?)</note> and deare bought is good
+               for Ladyes</item>
+            <!-- 572 MASQUE OF MOUNTEBANKES -->
+            <item n="20">If there be any purgatory tis on earth for wheres there is none that liues
+               by the fire but the salamand!.."</item>
+            <item n="21">Tis better be a theefe then a footeman for the like d!…" yf the runne not
+               as there maister would haue them are presently cast away</item>
+            <item n="22">A Bulbion hose is best to goe a woing in for the are full of promising
+               promontoryes</item>
+         </list>
+
+         <p><stage type="business">Musicke sounds</stage></p>
+
+         <sp>
+
+            <speaker n="Paradox" rend="left">Paradox:</speaker>
+            <lg>
+               <l>But harke musicke. the are vppon enteran!.."</l>
+               <l>I must put vp: exit</l>
+            </lg>
+         </sp>
+
+         <p>
+            <note type="Margin" rend="left">Maine maske:</note><stage type="entrance">Enter foure
+               pages mournfully and singe this dialogue wise</stage></p>
+
+         <lg>
+            <l>Where shall we finde releafe</l>
+            <l> Is there no end of greefe Is there no comfort left<damage type="illegible"/></l>
+            <l> what cruell charmes berefte</l>
+            <l> the patrons of our youth</l>
+            <l> we must nowe begg for ruth kinde pity is the moste</l>
+            <note type="Margin" rend="left">Enter obsecurity</note>
+            <l> pore boyes can hope for, when</l>
+            <l> there Ioyes are lost</l>
+         </lg>
+
+         <p><title type="song">Obscurity</title></p>
+         <lg>
+            <l>Light I salute thee. I obscurity</l>
+            <l> The sonne of Darknes and forgetfull lethe</l>
+            <l> I that enuy thy Brightnes greete the now</l>
+            <l> Enforct by fate fate makes the strongest bow</l>
+            <l> The ouer youthfull knights by spells inchainde</l>
+            <l> And longe within my study nookes restraynde</l>
+            <l> Must be inlardged !…" |<note type="foot"><hi rend="italic">bottom of leaf cropped,
+                     resulting in loss of text; Nichols reads</hi>and I then usher bee/ To their
+                  night-glories: so the Fates agree./ Then put on life, Obsecurity, and prove/ As
+                  light as Light, for awe if not for love.</note></l>
+            <l> Let here theire tender yearde kinde harted Squires</l>
+            <l> Mourning<note type="foot"><hi rend="italic">6 minims in MS</hi></note> theire
+               maisters losse, no new desires</l>
+            <l> Can traine them from these walkes but here the wende</l>
+            <l> ffrom shade to shade and give theire toyles no end</l>
+            <l> But now will I releaue theire sufferinge care</l>
+            <l> Heare me you faire youthes since you soe constant are</l>
+            <l> In faith to your loued knights, goe. hast apace</l>
+
+            <!-- APPENDIX 2 573 -->
+            <l>And with your bright[s] lights guide them to this place</l>
+            <l> for yf you fall directly that descent</l>
+            <l> Theire wisht approch will further search preuent</l>
+            <l> Hast, By the vertue of a Charming songe</l>
+            <l> While I retriue them least the lagge to longe</l>
+         </lg>
+
+         <p><title type="song">The Call or Songe of obscurity</title></p>
+         <lg>
+            <l>Appeare appeare Purpulian knights</l>
+            <l> Here are seuerall sorts of lights</l>
+            <l> fire and beauty shine together</l>
+            <l> your slow steppes inviting hether</l>
+            <l> Come away and from your eyes</l>
+            <l> The ould shades remoue</l>
+            <l> for now the destinies</l>
+            <l> Release you at the suite of loue</l>
+         </lg>
+         <lg>
+            <note type="Margin" rend="left"><lg>
+                  <l>The knights</l>
+                  <l>appeare</l>
+               </lg></note>
+            <l>Soe soe tis well marche marche on apace</l>
+            <l> Too by tow fill vp the place</l>
+            <l> And then with voice and measure</l>
+            <l> Greet the kinge of loue and pleasure</l>
+            <l> Now musicke [meet] change thy notes &amp; meet<damage type="illegible"/></l>
+            <l> Aptly with the dancers feete</l>
+            <l> for tis the pleasure of delight</l>
+            <l> that the shall triumph all this night</l>
+         </lg>
+
+         <p><stage type="business">The pages songe wherevnto the first measure is
+            daunced</stage></p>
+         <lg>
+            <l>Frolike measures now becom you</l>
+            <l> Ouer long obscured knights</l>
+            <l> What yf leth doth benume you</l>
+            <l> Loue now makes you to delights</l>
+            <l> Loue is like a goulden flower</l>
+            <l> your comly youth adorninge !…" <note type="foot"><hi rend="italic">bottom of leaf
+                     cropped, resulting in loss of text; Nichols reads</hi>Pleasure is a gentle
+                  shower,/ Shed in some Aprill morninge.</note>|<note type="foot"><hi rend="italic"
+                     >start of p 15</hi></note></l>
+         </lg>
+         <lg>
+            <l>Lightly rise and lighty fall you</l>
+            <l> In the motion of your feete</l>
+
+            <!-- 574 MASQUE OF MOUNTEBANKES -->
+            <l>Moue not till our notes doe call you</l>
+            <l> Musicke makes the measures sweet</l>
+            <l> Musicke breathing blowes the fire</l>
+            <l>Which Cupid feeds with fewell<note type="foot">ew<hi rend="italic">corrected from
+                     other letters</hi></note></l>
+            <l> Kindling honnor and desire</l>
+            <l> And taming harts most cruell</l>
+            <l> Quickly Quickly mend your paces</l>
+            <l> Nimbly changing measure graces</l>
+            <l> Liuely mounted high aspire<note type="foot">pire<hi rend="italic">corrected from
+                     other letters</hi></note></l>
+            <l> for onely Ioy is found in fire</l>
+         </lg>
+         <lg>
+            <note type="Margin" rend="left">3</note>
+            <l>Musicke is the soule of measure</l>
+            <l> mixing both in equall grace</l>
+            <l> Twins are the begot of pleasure</l>
+            <l> When she wisely numbred space</l>
+            <l> Nothinge is more ould or newer</l>
+            <l> then number all aduancing</l>
+            <l> And noe number, can be truer</l>
+            <l> Then musicke Ioynd with dauncing</l>
+         </lg>
+         <lg>
+            <note type="Margin" rend="left">4</note>
+            <l>Euery knight elect a beauty</l>
+            <l> Such as may thy hart inflame</l>
+            <l> Thinke that her bright eye doth veiwe th!.."</l>
+            <l> And to her thy action frame</l>
+            <l> So shall none be faint or weary</l>
+            <l> Though treading endles paces</l>
+            <l> For the all are light and mery</l>
+            <l> Whoses<note type="foot"><hi rend="italic">for</hi>Whose</note> hopes are fed with
+               graces</l>
+            <l> Sprightly Sprightly end<note type="foot"><hi rend="italic">for</hi>mend (?)</note>
+               your paces</l>
+            <l> Nimbly changinge mesurde graces</l>
+            <l> Liuely mounted high aspire</l>
+            <l> For ioy is onley found in fire</l>
+         </lg>
+
+         <p><title>Obscurity speeches</title></p>
+         <lg>
+            <l>Seruants of loue for soe it fits you bee</l>
+            <l> Since he alone haith wrought your liberty</l>
+            <l> his ceremonies now and Courtly rights</l>
+            <l> Performe<note type="foot"><hi rend="italic">corrected from</hi>Performance<hi
+                     rend="italic">by changing</hi>a<hi rend="italic">to</hi>e<hi rend="italic">and
+                     deleting</hi>nce</note> with care and free resolued sprigh!.."</l>
+         </lg>
+
+         <lg>
+            <l>APPENDIX 2 575</l>
+         </lg>
+         <lg>
+            <l>To sullen darknes my dull stepps reflect</l>
+            <l>A!.."!…" <note type="foot"><hi rend="italic">bottom of leaf cropped, resulting in
+                     loss of text; Nichols reads</hi>All cover that which nature doth affeete;
+                     affeete<hi rend="italic">likely for</hi>affecte</note>|</l>
+         </lg>
+
+         <p><stage type="business">The Seconde Measure which daunct obscurity by this Songe inuites
+               them to take out theire Ladyes</stage></p>
+         <lg>
+            <note type="Margin" rend="left">1</note>
+            <l>On on braue knights you haue well shewed</l>
+            <l> Each his due part in Nimble daunces</l>
+            <l> These beauties to whose hands are vowed</l>
+            <l> Yours<note type="foot"><hi rend="italic">for</hi>You</note> wonder why</l>
+            <l> You spare to try</l>
+            <l> Marke how inuiting are theire glances</l>
+            <l> Such such a charme such faces such a call</l>
+            <l> Would make ould Eson skipp about the hall</l>
+         </lg>
+
+         <lg>
+            <note type="margin" rend="left">2</note>
+            <l>See see faire choyse a starry speere</l>
+            <l> Might dime bright day choyse heere at pleasure</l>
+            <l> Please your owne eye Aproue you heere</l>
+            <l> Right gentle knights</l>
+            <l> To thes softe wights</l>
+            <l> Veiwe talke and cacth but all in measure</l>
+            <l> Far far from hence be roughnesse far a frowne</l>
+            <l> Your fayre deportment this fayre night shall crowne</l>
+            <l> They daunce with the Ladyes then the fall to theire last measure and depart</l>
+         </lg>
+
+         <p><stage type="entrance">Enter Paradox</stage></p>
+         <p>Silence lordings Ladys and fidlers let my toung twang a while I haue seene what haith
+            beene shewed and now giue me leaue to shew what haith not bin seene for the honnor of
+            Athens. By vertue of this musicall whisle I will sumon vp my Deciples:</p>
+
+         <p><stage type="entrance">He whistles and his fower deciples enter</stage></p>
+
+         <p>See obedience here they are allready: Put forwarde my Paradoxicall pupills Methodically
+            and Arithmetically one by one: |</p>
+
+         <p>
+            <note type="Margin" rend="left">To the first</note> Behold this principall Artist that
+            first incounters me whose head is honored by his heeles for dauncinge in the Chorus of a
+            Tradgedy presented at Athens <!-- 576 MASQUE OF MOUNTEBANKS --> whe!.." he produced such
+            learned variety of footing and disgeste<damage type="illegible"/> it so orderly and
+            close to the ground: that he was r<damage type="illegible"/>warded with this relike, the
+            Cothurne or Buskine of Sophocles which for more eminence he weares on his he!.." The
+            Paradoxicall vertue therof is, that being dipt in any riuer or Springe it alters the
+            nature of the lic!…" and returnethe full of wine of Clios Palerno or Zaunts</p>
+
+         <p>
+            <note type="Margin" rend="left">To the 2d</note> The second m<ex>aste</ex>r of the
+            science of footmanshipe for he neu!.." came on horsbake in all his life was famed at the
+               feast<damage type="illegible"/> of Pallas wherein daunching he came of with such
+            lofty trickes, turnes aboue grounde Capers Crosse caper<damage type="illegible"/> and
+            horsecapers. so high an<damage type="illegible"/> soe loftley performed, that he for
+            price bare away the Helmet of Palla<damage type="illegible"/> the very same that she
+            wore at Scamander in the grea<damage type="illegible"/> incounter betwene the Greekes
+            and Troians. The Paradoxicall vertue of the laske is that if in ou<ex>r</ex> traue!…" if
+            whe chance to fall foule vppon any Banditties or outlawes Mountaneires or highlanders
+            desperate vaga!…" that lie in waite to asault passingers let vs but shew this claske and
+            suddenly vanich all, like ferefull shadow!.."</p>
+
+         <p>
+            <note type="Margin" rend="left">To the 3d</note> Now veiwe this thirde peece of
+            excellencie this is hee that put downe all the bakers at the feast of Ceres and soe
+            danced theire as if he had kneded dow with his fee<damage type="illegible"/> wherewith
+            the goddesse was soe tickled that she in rewarde set this goodly loafe on his heade, and
+            indued it with thi<damage type="illegible"/> Paradoxicall influence that cut of it and
+            eate as ofte<damage type="illegible"/> as you please it streight fills vp againe, and is
+            in the Instant healed of any wounde our hungar can inflic<damage type="illegible"/> on
+            it:</p>
+
+         <p>
+            <note type="Margin" rend="left">To the 4th</note> Aproach now thou that commest in the
+            reare of my disciples but worthy to march in the vantgarde for thy validity for at the
+            Celebration of the Feast of Venus Cythera this Amoroso did express<damage
+               type="illegible"/> such pashion with his eyes such casts such winkes such glances,
+            and with his whole body such delightfull iectures<note type="foot"><hi rend="italic"
+                  >Nichols reads</hi>gestures</note> such cringes such !…"<note type="foot"><hi
+                  rend="italic">bottom of leaf cropped, resulting in loss of text; Nichols
+                  reads</hi>pretty</note> wanton minickles<note type="foot"><hi rend="italic"
+                  >reading uncertain; word bisected by trimming of the leaf</hi></note> | that he
+            wonne the aplause of all, and as it was necessary at the feaste of that goddesse, he had
+            then a most ample and inflaming codpeece. and in it a most rare deuice !…" was at his
+            pleasure to spout sweete water inn the Ladies faces, which Courtly cariage purchast him
+            this priz: the smocke of Venus wrapt Turbandwise about his heade the same she had on
+            when she went to bed Mars:<note type="foot">M<hi rend="italic">corrected
+               from</hi>v</note> and was taken napping by Vlcan<note type="foot"><hi rend="italic"
+                  >for</hi>Vulcan</note> The Paradox of it is that yf it be hanged on the toppe of
+            <!-- APPENDIX 2   577 --> our maypole it straight drawes to vs all the Ladds and lasses
+            nere adioyning with out power to departe till we strike</p>
+
+         <p>
+            <note type="Margin" rend="left"><lg>
+                  <l>...he bring in</l>
+                  <l>...e maypole</l>
+               </lg></note> And now I haue namedour maypole goe L Lour selfesJ J bringe it forthe
+            thoughe it be more troblesome then the Troian horse Bringe it by force of armes and see
+            you fix[t] it fast in the midst of this place lest when you cirkle it with your
+               Capritious<note type="foot">o<hi rend="italic">corrected from another
+               letter</hi></note> daunces, it falls from the fowndation, lights on some Ladys: heade
+            and cuffes of her Periwige: But now for the glory of Athens.</p>
+
+         <p><stage type="business">The deciples dance aboute the maypole</stage></p>
+
+         <p>
+            <note type="Margin" rend="left"><lg>
+                  <l>Paradox</l>
+                  <l>...ts his owne</l>
+               </lg></note> We haue giuen you a taste of the excellency of our Athenian reuells,
+            which I will now dignifie with my owne person: Lye theire inpediment whereof being free
+            I will desende<note type="foot">s<hi rend="italic">corrected from another
+               letter</hi></note>.</p>
+
+         <p><stage type="business">The maypole meets him</stage></p>
+
+         <p>
+            <note type="Margin" rend="left">Paradox</note> Oh you the authors of grek wonders what
+            osten!…" is this what supernaturall Paradox A wodden Maypoole finde the vse of voluntary
+            motion Assuredly this tree was formerly the habitation of some wood [!.."] Nimphe for
+            the Dryads (as poets say) liue in trees and perhaps to honnor my dauncinge, the nimphe
+            haith crept in to this tree againe: soe I aprehend it and will entertaine curtesie:</p>
+
+         <p><stage type="business">Paradox his deciples and the Maypole Dance together |</stage></p>
+
+         <p>
+            <note type="Margin" rend="left"> Paradox</note> Did euer eye see the like footing of a
+            tree or could any tree but an Athenian tree do this: or could any nimphe moue it but an
+            Athenian nimphe: Faire nimphe thoughe I cannot ariue at thy lipps yet will I kisse the
+            wodden maske that hides the (no dought) most Beautifull face.</p>
+
+         <p>He offers to kisse and a Nimph shewes her face in the maypoole <note type="Margin"
+               rend="left">Paradox</note> Wonder of wonders sweet nimphe forbeare my wh!…" structure
+            trembles mortality cannot stand the brightnesse of thy countenance Pursue me not I
+            beseche the [not] put vp thy face for loue sake: helpe helpe deciples take away this
+            dismall pole from me rescue me Rescue me with all you<ex>r</ex> violence</p>
+
+         <p><stage type="business">The carry away the maypole</stage></p>
+
+         <p>
+            <note type="Margin" rend="left"> Paradox</note> Sea the diuill is gone and I will not
+            stay longe after: Lordings and ladys yf theire be any desirous to b<damage
+               type="illegible"/> instructed in the mistery of Paradoxing you shall haue me at my
+            lodginge in the Blak and White Courte at the singe<note type="foot"><hi rend="italic"
+                  >for</hi>signe</note> of the naked Boy and soe to you all the Best wish!.." of the
+            night:</p>
+
+         <!-- 578 MASQUE OF MOUNTEBANKS -->
+         <p><stage type="mixed">He departs and Mountebank meets him attyred he and fiue of his
+               fellowes like Swisses and shewing an other maypoole</stage></p>
+
+         <p>
+            <note type="Margin" rend="left">Mou<ex>ntebank</ex></note> Stay presumptuous paradoxe I
+            haue veiwed thy Articl!.." and thus<note type="foot"><hi rend="italic">for</hi>these<hi
+                  rend="italic">or</hi>those (?)</note> puppets which haue kindled in me the fire of
+            emulation Looke am not I in habite as fantastike as thy selfe? Dost thou hope for grace
+            with Ladies by thy nouell doctrine I am a man of art (witnesse this my charming
+               ro<damage type="illegible"/><note type="foot"><hi rend="italic">for</hi>rod</note>
+            wherewith I worke miracles: and wheras thou like a fabu!…" greeke hast made monsters of
+            thy deciples: for I will oppose squ<damage type="illegible"/>dron with squadron and
+            plaine truth againste painted fiction. Now for thy mouing All signe<note type="foot"><hi
+                  rend="italic">for</hi>singe</note> but for frighting the deuill out of it I could
+            incounter thee with Totnam hi!.."<note type="foot"><hi rend="italic">for</hi>high</note>
+            Crosse or Cheape Crosse though it be new gilte: but I scorne odds and therfore I will
+            affront thee poole to pole Soe disciples vsher in ou<ex>r</ex> lofty inchanted motion,
+            and Paradox now betake you to [gou!…"] you<ex>r</ex> tacklinge for !…"<note type="foot"
+                  ><hi rend="italic">bottom of leaf cropped, resulting in loss of text; Nichols
+                  reads</hi>you deale with men that have agew and fyer in them.</note> |<note
+               type="foot"><hi rend="italic">start of p 20</hi></note></p>
+
+         <p>
+            <note type="Margin" rend="left">Paradox</note> Assist me oh thou actiue nimphe and you
+            my glorious Asociats victory victory for Athens</p>
+
+         <p><stage type="mixed">Paradox and his Company daunce and then the Swisses and after both
+                  ioine<note type="foot">i<hi rend="italic">corrected from another
+                  letter</hi></note> in a dance and depart</stage></p>
+
+         <p>Mountebanke &amp; Paradox</p>
+         <p>Accomplisht greek now as we be true Mountebancks this was brauely performed on both
+            partes and nothing now remaynes but to make these tow Maypooles better accquainted but
+            we must giue place the knights appeare exeunt</p>
+
+         <p><stage type="entrance">Enter Obscurity</stage>
+            <lg>
+               <l>Ynough of those night[s] sports part fayre knights</l>
+               <l> And leaue an edge on plesure lest these lights</l>
+               <l> I suddenly dyme all And pray how then</l>
+               <l> Will all these Ladys shift amoung thees men</l>
+               <l> In such confusions some theire homes may misse</l>
+               <l> Obscurity knowes trickes as mad as this</l>
+               <l> but make your parting inocent for me</l>
+               <l> I will not Author now of Error be</l>
+
+               <!-- APPENDIX 2   579 -->
+               <l> My selfe shall passe ^L Lwith youJ J a frend of light</l>
+               <l>giuing to all this rounde a kinde goodnight</l>
+            </lg>
+            <lg>
+               <l><title type="song">Last Songe</title></l>
+            </lg>
+            <lg>
+               <l>The howers of slepy night decay a pace</l>
+               <l> And now warme beds are fitter then this place</l>
+               <l> All time is longe that is vnwilling spent</l>
+               <l> but howers are minutes When they yeld content</l>
+               <l> The gatherer<note type="foot"><hi rend="italic">for</hi>gathered</note> flowers
+                  we loue that breathe sweet L Lsent</l>
+               <l> But leaue them theire sweet odour being spent</l>
+               <l> It is a life is neuer ill</l>
+               <l> To lie and sleepe in roses still |</l>
+            </lg>
+            <lg>
+               <l>
+                  <note type="margin" rend="left">2</note> The rarer pleasure[s] is it is more
+                  sweete</l>
+               <l> And frendes are kindeste when the seldomst meete</l>
+               <l> Who would not heare the nightingall still singe</l>
+               <l> Or who grew euer weary of the spring</l>
+               <l> The day must haue her night the springe her fall</l>
+               <l> All is deuided none is lord of all</l>
+               <l> It weare a most delightfull thinge</l>
+               <l> To liue in a perpetuall Springe</l>
+            </lg>
+            <lg>
+               <l>
+                  <note type="Margin" rend="left">Chorus</note> Yet let vs not to much tire out
+                  delight</l>
+               <l>But roundly singe to all goodnight goodnighte</l>
+               <l>Finis of grays In maske</l>
+            </lg>
+            <lg>
+               <l>p 23</l>
+            </lg>
+            <lg>
+               <l>The Songe for entertainement of the Lord Chancellor<note type="foot"><hi
+                        rend="italic">Sir Francis Bacon</hi></note> at grais Ine on Candlemas day
+                  and of other Lords</l>
+            </lg>
+            <lg>
+               <l>
+                  <note type="Margin" rend="left"> Chorus</note> Welcome grandees to you all</l>
+               <l>all our best of wishes fall</l>
+               <l>On you now as still they shall</l>
+            </lg>
+            <lg>
+               <l>
+                  <note type="Margin" rend="left"><lg>
+                        <l>This song was</l>
+                        <l>songe by 5</l>
+                        <l>voices to 6</l>
+                        <l>Lutes at the</l>
+                        <l>Lords first</l>
+                        <l>comming</l>
+                     </lg></note> Would we knew great lords the way</l>
+               <l> Best to welcome you this day</l>
+               <l> you deserue our best who thus</l>
+               <l> Come and seeke to honnor vs</l>
+               <l> But as men with too much light</l>
+
+               <!-- 580 INNER TEMPLE MASQUE -->
+               <l>Dazzled, yf not blinded quite</l>
+               <l> Or as men haste past theire hope</l>
+               <l> Ioynde beyonde theire wish we grope</l>
+               <l> And at somwhat cacthe and say</l>
+               <l> What we wot not that you may</l>
+               <l> See by that our hartes be fitted<note type="foot"><hi rend="italic"
+                     >for</hi>filled (?)</note></l>
+               <l> that as yf we were distilled</l>
+               <l> Into wonder we giue ore</l>
+               <l> Criing welcom and no<note type="foot"><hi rend="italic">corrected from another
+                        word, perhaps</hi>euere<hi rend="italic">or vice versa</hi></note> more</l>
+            </lg>
+            <lg>
+               <l>In midle of dinner this song to my lord Chancello<damage type="illegible"/></l>
+            </lg>
+            <lg>
+               <l>You are the first in this great Common we!…"</l>
+               <l> Whose selfe and sire weere kepers of the seale</l>
+               <l> Sprunge from that gouldon steme of worth &amp; w!…"<note type="foot"><hi
+                        rend="italic">for</hi>witt</note></l>
+               <l> Who for his wisedome liues admered yet</l>
+               <l> And wheras other families decline</l>
+               <l> In honnor you you<ex>r</ex> Ancetors<note type="foot">for Ancestors</note>
+                  outshine.</l>
+               <l> Hence sprunge your roote and you till cald fro<damage type="illegible"/> L LvsJ
+                  J</l>
+               <l> Both grewe the goodliest trees in Libanus</l>
+               <l> O that your fate might with our wish ag!…"</l>
+               <l> You should be then as fertile too as he</l>
+               <l> And put forth Branches ere you lette this !…"<note type="foot"><hi rend="italic"
+                        >bottom of leaf cropped, resulting in loss of text; Nichols
+                     reads</hi>life</note></l>
+            </lg>
+         </p>
+      </body>
+   </text>
+</TEI>

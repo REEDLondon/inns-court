@@ -37,10 +37,7 @@
             <respStmt>
                <persName xml:id="PG">Patrick Gregory</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
-               <resp>Associate Editor</resp>
-               <!-- confirm -->
                <resp>Paleographer, Translator</resp>
-               <!-- confirm -->
             </respStmt>
 
             <respStmt>
@@ -91,7 +88,6 @@
             <respStmt>
                <persName>Matthew Davies</persName>
                <orgName>University of London, Birkbeck College</orgName>
-               <!-- confirm -->
                <resp>Records of Early English Drama (REED) Executive Board</resp>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
@@ -247,7 +243,7 @@
       <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
          <mods:mods>
             <mods:titleInfo>
-               <mods:title>Middle Temple Letter of Sir Edward Phelips and Henry Hobart to Actors in the Masque</mods:title>
+               <mods:title>Middle Temple Summary of Payments</mods:title>
             </mods:titleInfo>
             <mods:name type="corporate">
                <mods:namePart>Middle Temple</mods:namePart>
@@ -266,7 +262,7 @@
                <mods:internetMediaType>text/xml</mods:internetMediaType>
                <mods:digitalOrigin>born digital</mods:digitalOrigin>
             </mods:physicalDescription>
-            <mods:abstract>Some abstract here.</mods:abstract>
+            <mods:abstract>Middle Temple summary of expenses for performance of The Memorable Masque in 1613.</mods:abstract>
             <mods:subject>
                <mods:topic valueURI="http://id.loc.gov/authorities/subjects/sh2002012473">Theater--England--London--History--17th century </mods:topic>
             </mods:subject>
@@ -289,28 +285,59 @@
       </xenoData>
    </teiHeader>
 
-   <text ana="taxon:letter" type="record" xml:id="RLMTL1">
+   <text ana="taxon:middle_temple" type="record" xml:id="RLMTSP1">
       <body>
          <head>
-            <date when-iso="1613">1613</date></head>
+            <date when-iso="1613">1612-1613</date></head>
          <div type="transcription" xml:lang="en">
-            <!-- If there is a translation, it should also have a xml:lang="" -->
             <div>
                <head>
-                  <supplied>Middle Temple Letter of Sir Edward Phelips and Henry Hobart to Actors in the Masque</supplied></head>
-               <pb type="folio" n="1"/>
-               <gap reason="omitted"/>
-               <ab> 
-                  Whereas yow haue bin worthilie employed both for yo<ex>u</ex>r <orgName>Societyes</orgName> and yo<ex>u</ex>r owne honor in this o<ex>u</ex>r late Maske vnto the Co<ex>u</ex>rte wherin wee noe way dowbte but yow well apprehend the greate and exceeding charg that yo<ex>u</ex>r and o<ex>u</ex>r Society haue bin put vnto And therfore wee resolued according to all former president<ex>es</ex> that the Masking attire should be disposed toward the defraying of soe greate a charge, And therfore doe hartily praie yow to be pleased that the same may be deliuered to the com<ex>m</ex>on vse of both o<ex>u</ex>r societyes, Wherin yow shall doe worthie yo<ex>u</ex>rselues, and answerable to all former president<ex>es</ex> of this kinde. And soe noe way dowbting of yo<ex>u</ex>r due considerac<ex>i</ex>ons of this o<ex>u</ex>r iuste advice and request doe com<ex>m</ex>end o<ex>u</ex>r loves to yow and yow to thalmightie</ab>
+                  <supplied>Middle Temple Summary of Payments*</supplied></head>
+               <pb type="single_sheet"/>
                <ab>
-                  <seg type="signed">Yo<ex>u</ex>r ever affectionate frend<ex>es</ex> <persName
-                        n="Edward Phelipps">Ed<ex>ward</ex> Phelipps</persName></seg><lb/>
-                  <seg type="signed"><persName n="Henry Hobarte">Henry Hobarte</persName></seg>
-                     </ab>
-               
-               <note type="editorial">add endnote here</note>
+               <table>
+                  <row>
+                     <cell>Paid to mr Daston out of the house stocke</cell>
+                     <cell>100 li.</cell>
+                  </row>
+                  <row>
+                     <cell>Paid more by me w<ex>hi</ex>ch I receyved of some of my Masters of the Bench</cell>
+                     <cell>200 li.</cell>
+                  </row>
+                  <row>
+                     <cell>Paid more that the officers stand bounden for</cell>
+                     <cell>200 li.</cell>
+                  </row>
+                  <row>
+                     <cell>Paid more by Iohn Hopkins</cell>
+                     <cell>350 li.</cell>
+                  </row>
+                  <row> 
+                     <cell rend="align_center">Sum<ex>m</ex>a total<ex>is</ex> paid to mr Daston ys</cell>
+                     <cell>850 li.</cell>
+                  </row>
+               </table>
+                  
+                  
+                  <note type="marginal" rend="left">R<ex>eceived</ex></note>
+                  <table>
+                  <row>
+                     <cell>Paid to mr Brooke of Lincolnes Inn by the appointm<ex>en</ex>t of mr Richard Marten</cell>
+                     <cell rend="align_right">lx li.</cell>
+                  </row>
+                     <row>
+                        <cell>Paid more to mr Marten hs man</cell>
+                        <cell rend="align_right">vj li. <del>vj s. vij d.</del> ^<add place="above">xiij s. iiij d.</add></cell>
+                     </row>
+                     <row>
+                        <cell>The some of lxvj li. <add place="above">13</add> xiij s. iiij d. ^<add place="above">above written</add> was receaved of
+                           Sir Henry Mountague Knight Recorder of London by the vnder Trea<ex>sure</ex>r, And payd by the vnder Trea<ex>sure</ex>r to mr ^<add place="above">Brooke</add> of Lincolns Inn lx li. &amp; to mr Martyns man vj li. xiij s. iiij d. And by mr Martyns appoyntm<ex>en</ex>t</cell>
+                     </row>
+
+                  </table>
+               </ab>
             </div>
-                                         
+
          </div>
       </body>
    </text>

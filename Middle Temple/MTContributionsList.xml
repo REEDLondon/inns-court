@@ -37,10 +37,7 @@
             <respStmt>
                <persName xml:id="PG">Patrick Gregory</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
-               <resp>Associate Editor</resp>
-               <!-- confirm -->
                <resp>Paleographer, Translator</resp>
-               <!-- confirm -->
             </respStmt>
 
             <respStmt>
@@ -91,7 +88,6 @@
             <respStmt>
                <persName>Matthew Davies</persName>
                <orgName>University of London, Birkbeck College</orgName>
-               <!-- confirm -->
                <resp>Records of Early English Drama (REED) Executive Board</resp>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
@@ -213,7 +209,7 @@
          </seriesStmt>
          <sourceDesc>
             <p>This publication constitutes a remediation of the printed Inns of Court collection. Information on original sources for transcriptions can be accessed via the Document Descriptions.</p>
-            <p>This record can be found on [PAGE(S)] of REED: Inns of Court, Vol. [#]</p>
+            <p>This record can be found on page 167 of REED: Inns of Court, Vol. 1</p>
             <p>For a full list of REED collections, editors, executive board members, and staff, please visit http://reed.utoronto.ca/people</p>
          </sourceDesc>
       </fileDesc>
@@ -247,7 +243,8 @@
       <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
          <mods:mods>
             <mods:titleInfo>
-               <mods:title>Middle Temple Letter of Sir Edward Phelips and Henry Hobart to Actors in the Masque</mods:title>
+               <mods:title>Middle Temple Contributions List</mods:title>
+               <mods:subTitle>Some subtitle here</mods:subTitle>
             </mods:titleInfo>
             <mods:name type="corporate">
                <mods:namePart>Middle Temple</mods:namePart>
@@ -289,28 +286,64 @@
       </xenoData>
    </teiHeader>
 
-   <text ana="taxon:letter" type="record" xml:id="RLMTL1">
+   <text ana="taxon:middle_temple" type="record" xml:id="RLMTCL1">
+
       <body>
          <head>
-            <date when-iso="1613">1613</date></head>
+            <date when-iso="1613-06-12">1613</date></head>
          <div type="transcription" xml:lang="en">
-            <!-- If there is a translation, it should also have a xml:lang="" -->
             <div>
                <head>
-                  <supplied>Middle Temple Letter of Sir Edward Phelips and Henry Hobart to Actors in the Masque</supplied></head>
-               <pb type="folio" n="1"/>
-               <gap reason="omitted"/>
-               <ab> 
-                  Whereas yow haue bin worthilie employed both for yo<ex>u</ex>r <orgName>Societyes</orgName> and yo<ex>u</ex>r owne honor in this o<ex>u</ex>r late Maske vnto the Co<ex>u</ex>rte wherin wee noe way dowbte but yow well apprehend the greate and exceeding charg that yo<ex>u</ex>r and o<ex>u</ex>r Society haue bin put vnto And therfore wee resolued according to all former president<ex>es</ex> that the Masking attire should be disposed toward the defraying of soe greate a charge, And therfore doe hartily praie yow to be pleased that the same may be deliuered to the com<ex>m</ex>on vse of both o<ex>u</ex>r societyes, Wherin yow shall doe worthie yo<ex>u</ex>rselues, and answerable to all former president<ex>es</ex> of this kinde. And soe noe way dowbting of yo<ex>u</ex>r due considerac<ex>i</ex>ons of this o<ex>u</ex>r iuste advice and request doe com<ex>m</ex>end o<ex>u</ex>r loves to yow and yow to thalmightie</ab>
+                  <supplied/></head>
+               <pb type="single_sheet"/>
+               <ab>Iune th<damage>.</damage> 12<hi rend="superscript">th</hi> 1613</ab>
                <ab>
-                  <seg type="signed">Yo<ex>u</ex>r ever affectionate frend<ex>es</ex> <persName
-                        n="Edward Phelipps">Ed<ex>ward</ex> Phelipps</persName></seg><lb/>
-                  <seg type="signed"><persName n="Henry Hobarte">Henry Hobarte</persName></seg>
-                     </ab>
-               
-               <note type="editorial">add endnote here</note>
+                  <table>
+                     <row>
+                        <cell>
+                           Cutt out of the Rolle for the contrybuc<ex>i</ex>on towards<lb/>
+                           the maske in number 354<lb/>
+                           The p<ex>ar</ex>ticulars followeth vizt</cell>
+                        <cell rend="right">404 li. 10 s.</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <note type="marginal">att. 50 s.</note> The number of the masters of the Bench. 25.</cell>
+                        <cell rend="right">62 li. 10 s.</cell>
+                     </row>
+                     <row>
+                        <cell><note type="marginal">att 30 s.</note> The number of the masters of the vtter barr. 128.</cell>
+                        <cell rend="right">192 li.</cell>
+                     </row>
+                     <row>
+                        <cell><note type="marginal">att 15 s.</note> The number of hte younge gentl<ex>emen</ex> vnder the barr. 200.</cell>
+                        <cell rend="right">150 li.</cell>
+                     </row>
+                     <row>
+                        <cell></cell>
+                        <cell rend="right">Sum<ex>m</ex>a total<ex>is</ex> 404 li. 10 s./</cell>
+                     </row>
+                     <row>
+                        <cell>Paid to mr Daston</cell>
+                        <cell rend="right">350 li.</cell>
+                     </row>
+                     <row>
+                        <cell>Paid to mr Baldwyn the vnderthesaurer</cell>
+                        <cell rend="right">30 li.</cell>
+                     </row>
+                     <row>
+                        <cell>p<ex>ro</ex> Collectore</cell>
+                        <cell rend="right">10 li. 2 s. 3 d.</cell>
+                     </row>
+                     <row>
+                        <cell></cell>
+                        <cell rend="right">Sum<ex>m</ex>a total<ex>is</ex> 390 li. 2 s. 3 d.</cell>
+                     </row>                        
+                  </table>                  
+               </ab>
+               <ab>Soe there remayneth in my hand<ex>es</ex> 14 li. s. 9 d.</ab>
             </div>
-                                         
+
          </div>
       </body>
    </text>

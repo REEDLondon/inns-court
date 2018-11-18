@@ -176,6 +176,186 @@
               <attDef ident="extent" mode="delete"/>
               <attDef ident="scope" mode="delete"/>
               <attDef ident="source" mode="delete"/>
+ <!-- These @type changes are for experimentation in CWRC -->             
+              <attDef ident="type" mode="change">
+                <valList mode="add" type="closed">
+                  <valItem ident="occupation">
+                    <desc>Describes a categorical occupation, either individually or collectively</desc>
+                  </valItem>
+                  <valItem ident="object">
+                    <desc>Describes a categorical object (for example 'food', 'drink', 'animal')</desc>
+                  </valItem>
+                  <valItem ident="entertainment">
+                    <desc>Describes a categorical entertainment (for example: 'play', 'masque', 'oration')</desc>
+                  </valItem>
+                  <valItem ident="holiday">
+                    <desc>Describes a holiday</desc>
+                  </valItem>
+                  <valItem ident="event">
+                    <desc>Describes an event that is not covered by entertainment</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+ 
+ <!-- These @subtypes are for occupations and are for experimentation / synced with the CWRC ontology -->
+              <attDef ident="subtype" mode="change">
+                <valList mode="add" type="closed">
+                  
+                  <valItem ident="animalKeeper">
+                    <desc>animal keeper, marmoset (monkeys), baboon keeper, bird keeper, crow keeper, lion keeper, dog keeper</desc>
+                  </valItem>
+                  <valItem ident="armorer">
+                    <desc>armorer</desc>
+                  </valItem>                  
+                  <valItem ident="attorneyGeneral" source="CWRC Ontology"  corresp="http://sparql.cwrc.ca/ontologies/cwrc.html#attorneyGeneral">
+                    <desc>attorney general</desc>
+                  </valItem>
+                  <valItem ident="baker">
+                    <desc>baker</desc>
+                  </valItem>
+                  <valItem ident="beggar">
+                    <desc>beggar</desc>
+                  </valItem>
+                  <valItem ident="brewer">
+                    <desc>brewer</desc>
+                  </valItem>
+                  <valItem ident="construction">
+                    <desc>construction</desc>
+                  </valItem>
+                  <valItem ident="censor">
+                    <desc>censor</desc>
+                  </valItem>
+                  <valItem ident="chandler">
+                    <desc>chandler</desc>
+                  </valItem>
+                  <valItem ident="clothingProduction">
+                    <desc></desc>
+                  </valItem>
+                  <valItem ident="coachmaker">
+                    <desc>coachmaker</desc>
+                  </valItem>
+                  <valItem ident="cobbler">
+                    <desc>cobbler</desc>
+                  </valItem>
+                  <valItem ident="composer">
+                    <desc></desc>
+                  </valItem>
+                  <valItem ident="cooking">
+                    <desc>cooking</desc>
+                  </valItem>                  
+                  <valItem ident="dance">
+                    <desc>dance</desc>
+                  </valItem>                  
+                 <valItem ident="diplomat" sameAs="cwrc:diplomat">
+                    <desc>diplomat, ambassador, consul</desc>
+                  </valItem>
+                  <valItem ident="domesticServant">
+                    <desc>domestic servant</desc>
+                  </valItem>                  
+                  <valItem ident="draper">
+                    <desc>draper</desc>
+                  </valItem>
+                  <valItem ident="equineActivity">
+                    <desc></desc>
+                  </valItem>
+                  <valItem ident="gardener">
+                    <desc></desc>
+                  </valItem>
+                  <valItem ident="haberdasher">
+                    <desc></desc>
+                  </valItem>
+                  <valItem ident="higherGovernment">
+                    <desc></desc>
+                  </valItem>
+                  <valItem ident="housekeeper">
+                    <desc></desc>
+                  </valItem>
+                  <valItem ident="judge">
+                    <desc></desc>
+                  </valItem>
+                  <valItem ident="knight">
+                    <desc></desc>
+                  </valItem>
+                  <valItem ident="lawyer">
+                    <desc>Any type of lawyer</desc>
+                  </valItem> 
+                  <valItem ident="legalWork">
+                    <desc>legal work</desc>
+                  </valItem>
+                  <valItem ident="lawEnforcement">
+                    <desc>la enforcement</desc>
+                  </valItem>
+                  <valItem ident="localGovernment" sameAs="cwrc:localGovernment">
+                    <desc>local government official, alderman</desc>
+                  </valItem>
+                  <valItem ident="lordChamberlain">
+                    <desc></desc>
+                  </valItem>
+                  <valItem ident="lordChancellor">
+                    <desc></desc>
+                  </valItem>
+                  <valItem ident="manservant">
+                    <desc>manservant</desc>
+                  </valItem>
+                  <valItem ident="manualLabourer">
+                    <desc></desc>
+                  </valItem>
+                  <valItem ident="masterOfTheRevels">
+                    <desc></desc>
+                  </valItem>
+                  <valItem ident="mayor">
+                    <desc></desc>
+                  </valItem>
+                  <valItem ident="mercer">
+                    <desc></desc>
+                  </valItem>                                    
+                  <valItem ident="metalWork">
+                    <desc></desc>
+                  </valItem>   
+                  <valItem ident="music">
+                    <desc>music</desc>
+                  </valItem>                  
+                  <valItem ident="needlework">
+                    <desc></desc>
+                  </valItem>                  
+                  <valItem ident="performer" sameAs="cwrc:performer">
+                    <desc>performer, player, antimasquer, boy player, entertainer, fencer, fool, juggler, masquer, morris dancer, mummer, minstrel, puppeteer</desc>
+                  </valItem>
+                  <valItem ident="religiousOfficial">
+                    <desc>religious official</desc>
+                  </valItem>
+                  <valItem ident="salter">
+                    <desc></desc>
+                  </valItem>
+                  <valItem ident="singer">
+                    <desc></desc>
+                  </valItem>
+                  <valItem ident="surveyor">
+                    <desc></desc>
+                  </valItem>
+                  <valItem ident="tailor">
+                    <desc></desc>
+                  </valItem>
+                  <valItem ident="theatreWork">
+                    <desc></desc>
+                  </valItem>
+                  <valItem ident="transportationWork" sameAs="cwrc:construction">
+                    <desc>transportation work</desc>
+                  </valItem>
+                  <valItem ident="treasurer">
+                    <desc>treasurer</desc>
+                  </valItem>                    
+                  <valItem ident="visualArtist">
+                    <desc></desc>
+                  </valItem>
+                  <valItem ident="writer">
+                    <desc></desc>
+                  </valItem>
+
+
+                  
+                </valList>
+              </attDef>
               <!-- commenting out for now as requested to 'leave it open and flexible'  -->
               <!--      <attDef ident="type" mode="change">
                      <valList mode="add" type="closed">
@@ -321,7 +501,7 @@
             </attList>
           </elementSpec>
 
-<!-- date: modify @cert -->
+          <!-- date: modify @cert -->
           <elementSpec ident="date" mode="change" module="core">
             <attList>
               <attDef ident="cert" mode="change">
@@ -341,7 +521,7 @@
                 </valList>
               </attDef>
             </attList>
-            
+
           </elementSpec>
           <!-- expan: delete attributes -->
           <elementSpec ident="expan" mode="change" module="core">
@@ -430,6 +610,9 @@
                     <desc>The note to this REED Record is another type of note. (If you use this
                       more than a handful of times we should update the TEI ODD
                       Customisation.)</desc>
+                  </valItem>
+                  <valItem ident="real">
+                    <desc>This note satisfies the CWRC note entity attribute</desc>
                   </valItem>
                 </valList>
               </attDef>
@@ -771,10 +954,56 @@
           <!-- delete att.msExcerpt -->
           <classSpec ident="att.msExcerpt" module="msdescription" type="atts" mode="delete"/>
 
-          <!-- namesdates: only include orgName, persName, placeName, and settlement. Not doing metadata records for named entities...yet-->
-          <moduleRef key="namesdates" include="orgName persName place placeName settlement"/>
-
+          <!-- namesdates: only include orgName, persName, placeName, occupation, and settlement. Not doing metadata records for named entities...yet-->
+          <moduleRef key="namesdates" include="orgName persName place placeName settlement occupation"/>
+            
           <!-- delete lots of attributes -->
+
+          <!-- persName: modify @cert for CWRC 
+          <elementSpec ident="persName" mode="change" module="namesdates">
+            <attList>
+              <attDef ident="cert" mode="change">
+                <valList mode="add" type="closed">
+                  <valItem ident="definite" sameAs="high">
+                    <desc>There is a high degree of certainty about this person</desc>
+                  </valItem>
+                  <valItem ident="reasonably certain" sameAs="moderate">
+                    <desc>There is a moderate degree of certainty about this person</desc>
+                  </valItem>
+                  <valItem ident="probable" sameAs="low">
+                    <desc>There is a low degree of certainty about this person</desc>
+                  </valItem>
+                  <valItem ident="speculative" sameAs="unknown">
+                    <desc>The person is unknown</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+            </attList>            
+          </elementSpec>
+          
+           placeName: modify @cert for CWRC 
+          <elementSpec ident="placeName" mode="change" module="namesdates">
+            <attList>
+              <attDef ident="cert" mode="change">
+                <valList mode="add" type="closed">
+                  <valItem ident="definite" sameAs="high">
+                    <desc>There is a high degree of certainty about this place</desc>
+                  </valItem>
+                  <valItem ident="reasonably certain" sameAs="moderate">
+                    <desc>There is a moderate degree of certainty about this place</desc>
+                  </valItem>
+                  <valItem ident="probable" sameAs="low">
+                    <desc>There is a low degree of certainty about this place</desc>
+                  </valItem>
+                  <valItem ident="speculative" sameAs="unknown">
+                    <desc>The place is unknown</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+            </attList>            
+          </elementSpec>-->
+          
+          <!-- delete lots of attributes for CWRC -->
           <elementSpec ident="orgName" mode="change" module="namesdates">
             <attList>
               <attDef ident="calendar" mode="delete"/>
@@ -791,6 +1020,28 @@
             </attList>
           </elementSpec>
 
+          <!-- orgName: modify @cert -->
+          <elementSpec ident="orgName" mode="change" module="namesdates">
+            <attList>
+              <attDef ident="cert" mode="change">
+                <valList mode="add" type="closed">
+                  <valItem ident="definite" sameAs="high">
+                    <desc>There is a high degree of certainty about this organization</desc>
+                  </valItem>
+                  <valItem ident="reasonably certain" sameAs="moderate">
+                    <desc>There is a moderate degree of certainty about this organization</desc>
+                  </valItem>
+                  <valItem ident="probable" sameAs="low">
+                    <desc>There is a low degree of certainty about this organization</desc>
+                  </valItem>
+                  <valItem ident="speculative" sameAs="unknown">
+                    <desc>Identification is speculative</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
           <!-- delete lots of attributes -->
           <elementSpec ident="persName" mode="change" module="namesdates">
             <attList>
@@ -808,6 +1059,28 @@
             </attList>
           </elementSpec>
 
+          <!-- persName: modify @cert -->
+          <elementSpec ident="persName" mode="change" module="namesdates">
+            <attList>
+              <attDef ident="cert" mode="change">
+                <valList mode="add" type="closed">
+                  <valItem ident="definite">
+                    <desc>There is a high degree of certainty about this person</desc>
+                  </valItem>
+                  <valItem ident="reasonably certain">
+                    <desc>There is a moderate degree of certainty about this person</desc>
+                  </valItem>
+                  <valItem ident="probable">
+                    <desc>There is a low degree of certainty about this person</desc>
+                  </valItem>
+                  <valItem ident="speculative">
+                    <desc>Identification is speculative</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
           <!-- delete lots of attributes -->
           <elementSpec ident="placeName" mode="change" module="namesdates">
             <attList>
@@ -825,6 +1098,28 @@
             </attList>
           </elementSpec>
 
+          <!-- placeName: modify @cert -->
+          <elementSpec ident="placeName" mode="change" module="namesdates">
+            <attList>
+              <attDef ident="cert" mode="change">
+                <valList mode="add" type="closed">
+                  <valItem ident="definite">
+                    <desc>There is a high degree of certainty about this place</desc>
+                  </valItem>
+                  <valItem ident="reasonably certain">
+                    <desc>There is a moderate degree of certainty about this place</desc>
+                  </valItem>
+                  <valItem ident="probable">
+                    <desc>There is a low degree of certainty about this place</desc>
+                  </valItem>
+                  <valItem ident="speculative">
+                    <desc>Identification is speculative</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
           <!-- delete lots of attributes -->
           <elementSpec ident="settlement" mode="change" module="namesdates">
             <attList>
