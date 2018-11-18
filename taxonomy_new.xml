@@ -522,13 +522,13 @@
                   <category xml:id="baker" corresp="cwrc:baker">
                      <catDesc>Occupation Type: baker</catDesc>
                   </category>
-                  <category xml:id="beggar" corresp="cwrc:beggar">
+                  <category xml:id="beggar" corresp="cwrc:beggar"> <!-- @DianeJakacki to Team: is this just a masque character? should we remove from Occupations? -->
                      <catDesc>Occupation Type: beggar</catDesc>
                   </category>
                   <category xml:id="brewer" corresp="cwrc:brewer">
                      <catDesc>Occupation Type: brewer</catDesc>
                   </category>
-                  <category xml:id="censor" corresp="cwrc:censor">
+                  <category xml:id="censor" corresp="cwrc:censor"> <!-- @DianeJakacki to Team: is this just a masque character? should we remove from Occupations? -->
                      <catDesc>Occupation Type: censor</catDesc>
                   </category>
                   <category xml:id="chandler">
@@ -578,7 +578,7 @@
                      <category xml:id="ambassador" corresp="cwrc:diplomat">
                         <catDesc>Occupation Type: ambassador</catDesc>
                      </category>
-                     <category xml:id="consul" corresp="cwrc:diplomat">
+                     <category xml:id="consul" corresp="cwrc:diplomat"> <!-- @DianeJakacki to Team: is this just a masque character? should we remove from Occupations? -->
                         <catDesc>Occupation Type: consul</catDesc>
                      </category>
                   </category>
@@ -909,10 +909,7 @@
                   <category xml:id="reveller">
                      <catDesc>Occupation Type: reveller</catDesc>
                   </category>
-                  <category xml:id="sailor" corresp="cwrc:sailor">
-                     <catDesc>Occupation Type: sailor</catDesc>
-                  </category>
-                  <category xml:id="seaman" corresp="cwrc:sailor">
+                  <category xml:id="seaman" corresp="cwrc:sailor"> <!-- @DianeJakacki to Team: is this just a masque character? should we remove from Occupations? -->
                      <catDesc>Occupation Type: seaman</catDesc>
                   </category>
                   <category xml:id="waterman" corresp="cwrc:sailor">
@@ -927,7 +924,7 @@
                   <category xml:id="stringer">
                      <catDesc>Occupation Type: stringer</catDesc>
                   </category>
-                 <category xml:id="suttler">
+                  <category xml:id="suttler"><!-- @DianeJakacki to Team: is this just a masque character? should we remove from Occupations? -->
                      <catDesc>Occupation Type: suttler</catDesc>
                   </category>
                   <category xml:id="tailor" corresp="cwrc:tailor">
