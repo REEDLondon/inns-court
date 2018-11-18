@@ -1337,7 +1337,27 @@
                   <ab type="techDesc">MT.2/TRB/4; <date from-iso="1641" to-iso="1646">1641–6</date>; English; paper; iv + 74 + iv; 290mm x 180mm; contemporary ink pagination 1–48; bound in vellum. Contains annual summaries of receipts, each category of receipt being entered in a separate ruled box and assigned a number which appears in the index at the front of the book.</ab>
                </msDesc>
                
-               <!-- Pick up Middle Temple Loose Papers here -->
+               <!-- Middle Temple Papers Relating to Middle Temple Entertainments, Feasts, Grand Days, and Dinners (GDE) -->
+               
+               <msDesc xml:id="RLMTGDE003">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Musicians' Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/GDE/3; <date when-iso="1613-02-02">2 February 1612/13</date>; single sheet; 300mm x 215mm; endorsed: ‘Mr Dowland &amp; his ffellowes for the consort on the feast day of the purificac<ex>i</ex>on of our Ladye Anno 1612.’</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTGDE004">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Musicians' Petition</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/GDE/4; <date from-iso="1612" to-iso="1613">1612–13</date> (MS undated); bifolium; 205mm x 300mm; unnumbered; writing on first page only, lengthwise; badly torn and worm-eaten; addressed in the same hand: ‘To the Righte Worshipfull the Maisters and benchers of the middell Tempell./,’ and endorsed in another hand: ‘Musycyons: <del>This petit<ex>i</ex>on ys Referrd to the Tresorer</del> The some of xl s. ys to be allowed to them/,’ and in yet another hand: ‘The musicions peticion where vppon theire was granted vnto them by order of parliament xl s.’ This copy is a draft and has no signatures.</ab>
+               </msDesc>
+               
+<!-- Start with Musicians' Receipts on lviii -->               
                
             </listBibl>
          </div>
