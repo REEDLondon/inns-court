@@ -454,6 +454,9 @@
                   <category xml:id="church">
                      <catDesc>church</catDesc>
                   </category>
+                  <category xml:id="diary">
+                     <catDesc>diaries and reminiscences</catDesc>
+                  </category>
                   <category xml:id="education">
                      <catDesc>educational institution</catDesc>
                   </category>
@@ -1357,7 +1360,20 @@
                   <ab type="techDesc">MT.7/GDE/4; <date from-iso="1612" to-iso="1613">1612–13</date> (MS undated); bifolium; 205mm x 300mm; unnumbered; writing on first page only, lengthwise; badly torn and worm-eaten; addressed in the same hand: ‘To the Righte Worshipfull the Maisters and benchers of the middell Tempell./,’ and endorsed in another hand: ‘Musycyons: <del>This petit<ex>i</ex>on ys Referrd to the Tresorer</del> The some of xl s. ys to be allowed to them/,’ and in yet another hand: ‘The musicions peticion where vppon theire was granted vnto them by order of parliament xl s.’ This copy is a draft and has no signatures.</ab>
                </msDesc>
                
-<!-- Start with Musicians' Receipts on lviii -->               
+<!-- Start with Musicians' Receipts on lviii -->
+
+
+<!-- Autobiography of Gervase Holles -->
+               <msDesc xml:id="RLGH01">
+                  <msIdentifier>
+                     <settlement>Wiltshire</settlement>
+                     <repository sameAs="#LH"/>
+                     <msName>Autobiography of Gervase Holles</msName>
+                  </msIdentifier>
+                  <ab type="edDesc">Gervase Holles (1606/7–75) was a notable antiquary, with prominent connections to Lincolnshire (see also <title>REED: Lincolnshire</title>, vol 2, p 528). Holles’ manuscript breaks off after the paragraphs transcribed here. See further A.C. Wood, ‘A Fragment of the Autobiography of Gervase Holles,’ <title>Report and Papers of the Architectural and Archaeological Societies of Lincoln and ... Northampton</title> 41 (1935), 50–60. This excerpt was printed previously in A.C. Wood (ed), <title>Memorials of the Holles Family</title>, Camden Society, 3rd ser, vol 55 (London, 1937), 236.</ab>
+                  <ab type="techDesc">MS Portland Papers XXIV; <date when-iso="1658">1658</date>; English; paper; 104 leaves; 315mm x 200mm; modern pencil foliation; display script usually used for text of quotations and proper names; excellent condition; f 1 reads: ‘PARENTELA &amp; PARENTALIA HOLLESIORUM: SIVE TRACTATVS DE ORIGINE, PROGENIE, REBUS (TAM BELLO QVAM PACE) PERACTIS, NVPTIIS OBITIBUS. &amp; SEPVLTVRIS EIVSDEM FAMILIAE. AVTHORE GERVASION HOLLESIO GRIMESBÆENSI. ANNO DOMINI: 1658.’ Bound into guard book with letters, other documents, and illustrations imilarly fixed onto stubs; title on spine: ‘PORTLAND PAPERS VOL. XXIV. GERVASE HOLLES
+                     HISTORY OF THE HOLLES FAMILY, 1658.’</ab>
+               </msDesc>
                
             </listBibl>
          </div>

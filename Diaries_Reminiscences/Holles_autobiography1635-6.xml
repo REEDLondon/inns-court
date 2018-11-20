@@ -6,7 +6,7 @@
       <fileDesc>
          <titleStmt>
 
-            <title type="main">Inns of Court</title>
+            <title type="main">Autobiography of Gervase Holles</title>
 
 
             <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>
@@ -243,14 +243,10 @@
       <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
          <mods:mods>
             <mods:titleInfo>
-               <mods:title>Title</mods:title>
-               <mods:subTitle>Some subtitle here</mods:subTitle>
+               <mods:title>Autobiography of Gervase Holles</mods:title>
             </mods:titleInfo>
-            <mods:titleInfo type="alternative">
-               <mods:title>Alternative title</mods:title>
-            </mods:titleInfo>
-            <mods:name type="corporate">
-               <mods:namePart>Corporate Author Name</mods:namePart>
+            <mods:name type="personal">
+               <mods:namePart>Gervase Holles</mods:namePart>
             </mods:name>
             <mods:typeOfResource>text</mods:typeOfResource>
             <mods:genre type="formatType">Born Digital</mods:genre>
@@ -289,19 +285,44 @@
       </xenoData>
    </teiHeader>
 
-   <text ana="taxon:letter taxon:abcde" type="record">
-      <!-- match with taxonomy document IDs -->
+   <text ana="taxon:letter taxon:RLGH01" type="taxon:diary">
       <body>
          <head>
-            <date when-iso="YYY-MM-DD">1234</date></head>
+            <date from-iso="1635-12" to-iso="1636-02">1635-6</date></head>
          <div type="transcription" xml:lang="en">
             <!-- If there is a translation, it should also have a xml:lang="" -->
             <div>
                <head>
-                  <supplied/></head>
-               <pb type="sheet"/>
+                  <supplied>(Christmas 1635–February 1635/6)</supplied></head>
+               <pb type="folio" n="104v"/>
                <gap reason="omitted"/>
-               <ab> </ab>
+               <p>The next <name type="holiday">Michaelmasse Terme</name> I returned to ye <orgName>Midle
+                  Temple</orgName>, where I was the following Christmas chosen Comptroller of ye house;
+                  And about fiue dayes after we resolued to make it a grand <name type="holiday"
+                     >Christmas</name>, and haue a <name type="entertainment">Masque</name><note
+                        type="foot"><hi rend="italic">Davenant's</hi> Triumphs of the Prince d'Amour,<hi
+                           rend="italic"> 23 or 24 February 1635/6</hi></note>. Whereupon we elected
+                  <persName>Mr Richard Viuian</persName> (a Cornish gentleman, whose father was lately
+                  dead, and had left him a good estate both in landes and mony) to be Prince d’Amour. This solemnity (or mocke-show of
+                  Royalty) lasted from ye beginning of <name type="holiday">Christmas</name> vntill
+                  towardes ye end of February, when for three Nightes together we had a <name
+                     type="entertainment">Masque</name>, ye second Night being honoured w<ex>i</ex>th ye
+                  presence of ye <persName>Queene</persName>, <persName>Prince Electour</persName>,
+                  <persName>Prince Rupert</persName>, w<ex>i</ex>th many of Nobility and Gentry, and
+                  most of ye great Ladies and prime beauties in or neare the Towne. The society carried on
+                  ye whole designe equall to Expectation, in w<ex>hi</ex>ch they expended neare .20000.
+                  li. Sterling. Of w<ex>hi</ex>ch it cost ye Prince d’Amour about
+                  .6000. li., and myselfe for my share above two hundred and fifty. The <name
+                     type="entertainment">Masque</name> ended, <persName>Viuian</persName> layd downe his
+                  Title of Prince, and in lieu of it receaued ye next day from the
+                  <persName>King</persName> ye honour of Knighthood.</p>
+               
+               <p>Besides ye expence of this gay foolery it cost me a quarrell w<ex>i</ex>th one
+                  <persName>Thomas Ogle</persName>, a <placeName>Northumberland</placeName> gentleman,
+                  who pressing rudely one day into ye <placeName>Temple Hall</placeName> when ye English
+                  Nobility were treated by ye prince d’Amour, necessitated me to lay
+                  my Comptrollers staffe foure or fiue times soundly ouer his Shoulders. This happened
+                  about a fortnight before ye <name type="entertainment">Masque</name></p>
             </div>
 
          </div>
