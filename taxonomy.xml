@@ -7,7 +7,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Taxonomy</title>
+            <title type="main">REED London Taxonomy</title>
             <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>
             <funder><orgName>CANARIE [need info]</orgName></funder>
                   <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
@@ -161,7 +161,7 @@
             </fileDesc>
             
             <encodingDesc>
-               <listPrefixDef> <!-- RESOLVE: how do we refer to this section for IoC? -->
+               <listPrefixDef> 
                   <prefixDef ident="taxon" matchPattern="([A-Za-z0-9_-]+)"
                      replacementPattern="../taxonomy.xml#$1">
                      <p>Private URIs using the <code>taxon</code> prefix are pointers to entities in the

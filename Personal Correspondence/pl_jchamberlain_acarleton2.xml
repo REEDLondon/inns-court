@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="https://beta.cwrc.ca/islandora/object/cwrc%3A5d5159ce-8710-4717-b977-cc528dedc25e/datastream/CSS/view" type="text/css"?>
+<?xml-model href="https://beta.cwrc.ca/islandora/object/cwrc%3A5d5159ce-8710-4717-b977-cc528dedc25e/datastream/SCHEMA/view" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cw="http://cwrc.ca/ns/cw#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xml:base="tei/records/" xml:id="london" xml:lang="eng"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cw="http://cwrc.ca/ns/cw#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:time="http://www.w3.org/2006/time#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+<rdf:Description rdf:about="https://beta.cwrc.ca/sites/default/modules/islandora_cwrc_writer/build/editor/documents/reed:14356614-8c1e-458d-8db1-f9c450e028f0">
+	<cw:mode>0</cw:mode>
+	<cw:allowOverlap>false</cw:allowOverlap>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/74d5f902-4ca7-4b44-a8ff-66dde2a3d5ce">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/2a57bf02-531f-45c0-a31b-cd530846e0e4"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/date/7e07e660-a19b-4352-86f8-c018f355cd70"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.382Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.382Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
+	<cw:hasCertainty xmlns:cw="http://cwrc.ca/ns/cw#" rdf:resource="http://cwrc.ca/ns/cw#definite"/>
+	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{}</cw:cwrcInfo>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"when":"1613-02-16","cert":"definite"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/date/7e07e660-a19b-4352-86f8-c018f355cd70"><xsd:date xmlns:xsd="http://www.w3.org/2001/XMLSchema#">1613-02-16</xsd:date>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://www.w3.org/2006/time#Instant"/>
+	<rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/2a57bf02-531f-45c0-a31b-cd530846e0e4">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/93bcd30a-e7c7-4acb-8888-c995475cfa4e"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/4f662473-746b-480c-894d-9cd370991493"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/4f662473-746b-480c-894d-9cd370991493">
+	<rdf:value>xpointer(//date[@annotationId="ent_333"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/4bc80e11-11b9-4ee2-b958-ab54d3894294">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/4bad02c8-a00e-46d9-82bf-ad5d9286ea52"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/date/995bed6c-cbe0-479f-8c45-da1281785746"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.385Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.385Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
+	<cw:hasCertainty xmlns:cw="http://cwrc.ca/ns/cw#" rdf:resource="http://cwrc.ca/ns/cw#definite"/>
+	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{}</cw:cwrcInfo>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"when":"1613-02-20","cert":"definite"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/date/995bed6c-cbe0-479f-8c45-da1281785746"><xsd:date xmlns:xsd="http://www.w3.org/2001/XMLSchema#">1613-02-20</xsd:date>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://www.w3.org/2006/time#Instant"/>
+	<rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/4bad02c8-a00e-46d9-82bf-ad5d9286ea52">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/40c8d220-5054-4094-8263-8246497506ec"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/4474f102-d78b-43d6-9f24-fe2eb846d1dc"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/4474f102-d78b-43d6-9f24-fe2eb846d1dc">
+	<rdf:value>xpointer(//date[@annotationId="ent_340"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/df7a726d-ad55-4065-a90d-cffc09635cd0">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/233a594c-e353-4888-87db-70680c00df4e"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/place/baf08cb7-9908-4279-ad9e-04adf4e45018"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/user/c458eabe-c0dd-44b0-97a5-23615776bd51"/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.388Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.388Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
+	<cw:hasCertainty xmlns:cw="http://cwrc.ca/ns/cw#" rdf:resource="http://cwrc.ca/ns/cw#definite"/>
+	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{"id":"https://commons.cwrc.ca/reed:91ba01de-454a-4fd7-8463-a5795a81eacd","uri":"https://commons.cwrc.ca/reed:91ba01de-454a-4fd7-8463-a5795a81eacd","uriForDisplay":"https://commons.cwrc.ca/reed:91ba01de-454a-4fd7-8463-a5795a81eacd","name":"Fleet Street","repository":"CWRC","originalQueryString":"fleet street"}</cw:cwrcInfo>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"ref":"https://commons.cwrc.ca/reed:91ba01de-454a-4fd7-8463-a5795a81eacd","cert":"definite"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/place/baf08cb7-9908-4279-ad9e-04adf4e45018">
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/233a594c-e353-4888-87db-70680c00df4e">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/1a391573-84c4-4f06-aba9-a09ddc884df6"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/db673b18-3854-410e-82d4-6704041249b5"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/db673b18-3854-410e-82d4-6704041249b5">
+	<rdf:value>xpointer(//placeName[@annotationId="ent_665"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/cacc5ace-3cd6-4845-8f9f-41b55894cce4">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/3e6b316d-e42f-4e35-8341-c506c5b4479e"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/place/8fa76892-7ee6-4fdc-95b7-6c6c0691d013"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/user/fcedce06-4931-44c5-bb42-b782f59f9e15"/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.388Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.388Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
+	<cw:hasCertainty xmlns:cw="http://cwrc.ca/ns/cw#" rdf:resource="http://cwrc.ca/ns/cw#definite"/>
+	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{"id":"https://commons.cwrc.ca/reed:e9def7ec-f5e9-4fdb-8896-e6563fd47e1c","uri":"https://commons.cwrc.ca/reed:e9def7ec-f5e9-4fdb-8896-e6563fd47e1c","uriForDisplay":"https://commons.cwrc.ca/reed:e9def7ec-f5e9-4fdb-8896-e6563fd47e1c","name":"the Strand","repository":"CWRC","originalQueryString":"the Strand"}</cw:cwrcInfo>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"ref":"https://commons.cwrc.ca/reed:e9def7ec-f5e9-4fdb-8896-e6563fd47e1c","cert":"definite"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/place/8fa76892-7ee6-4fdc-95b7-6c6c0691d013">
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/3e6b316d-e42f-4e35-8341-c506c5b4479e">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/66dddfc6-a4e5-400b-8418-58ff5b28cea8"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/edfcde4f-f97a-41f0-896c-8a5b07d3f1e3"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/edfcde4f-f97a-41f0-896c-8a5b07d3f1e3">
+	<rdf:value>xpointer(//placeName[@annotationId="ent_666"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/2d7c8b74-8d90-40de-a693-fce85d80c7c5">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/a10d428e-11fd-4e44-a480-09a3d67d70ea"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/person/c8ff5c56-81d4-4409-a07e-045771d36bf2"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/user/edb72bad-6817-4343-9721-e31be190052a"/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.390Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.390Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
+	<cw:hasCertainty xmlns:cw="http://cwrc.ca/ns/cw#" rdf:resource="http://cwrc.ca/ns/cw#definite"/>
+	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{"id":"https://commons.cwrc.ca/cwrc:8a57280a-fe83-4d33-87ba-63cb0ad588cd","uri":"https://commons.cwrc.ca/cwrc:8a57280a-fe83-4d33-87ba-63cb0ad588cd","uriForDisplay":"https://commons.cwrc.ca/cwrc:8a57280a-fe83-4d33-87ba-63cb0ad588cd","name":"James I, King of England","repository":"CWRC","originalQueryString":"King James i"}</cw:cwrcInfo>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"ref":"https://commons.cwrc.ca/cwrc:8a57280a-fe83-4d33-87ba-63cb0ad588cd","cert":"definite","type":"real"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/person/c8ff5c56-81d4-4409-a07e-045771d36bf2">
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/a10d428e-11fd-4e44-a480-09a3d67d70ea">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/6767f73c-f413-41f9-8301-d4eff401b6d5"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/2e4a2ce5-ebcb-47c2-947b-9bc09d8c312a"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/2e4a2ce5-ebcb-47c2-947b-9bc09d8c312a">
+	<rdf:value>xpointer(//persName[@annotationId="ent_667"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/ec71b0f8-8699-4c38-aa3e-285997d51139">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/307cba24-3324-463a-9c1b-e0eb061528ec"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/place/51421829-6b37-4798-b2aa-97d9a2fb6950"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/user/8727a664-35af-45de-910e-b55b64c4b344"/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.390Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.390Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
+	<cw:hasCertainty xmlns:cw="http://cwrc.ca/ns/cw#" rdf:resource="http://cwrc.ca/ns/cw#definite"/>
+	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{"id":"https://commons.cwrc.ca/reed:e0bfb4ba-85da-4ce9-88d2-c775a5150942","uri":"https://commons.cwrc.ca/reed:e0bfb4ba-85da-4ce9-88d2-c775a5150942","uriForDisplay":"https://commons.cwrc.ca/reed:e0bfb4ba-85da-4ce9-88d2-c775a5150942","name":"St James Park","repository":"CWRC","originalQueryString":"St James's park"}</cw:cwrcInfo>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"ref":"https://commons.cwrc.ca/reed:e0bfb4ba-85da-4ce9-88d2-c775a5150942","cert":"definite"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/place/51421829-6b37-4798-b2aa-97d9a2fb6950">
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/307cba24-3324-463a-9c1b-e0eb061528ec">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/67a2c7e8-4457-4cfd-beba-b40c22fc4887"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/104c2d73-0203-454f-8845-8156ee2898a5"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/104c2d73-0203-454f-8845-8156ee2898a5">
+	<rdf:value>xpointer(//placeName[@annotationId="ent_668"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/c90e3f11-0803-4f08-bc22-38bad306e76d">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/2ad792f8-1dc9-408d-b681-6f04d3fa006f"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/person/73f4f895-117b-4785-bc99-5584b5b55249"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/user/1b5850d1-5691-4679-868c-4ddd6243ea0a"/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.392Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.392Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
+	<cw:hasCertainty xmlns:cw="http://cwrc.ca/ns/cw#" rdf:resource="http://cwrc.ca/ns/cw#definite"/>
+	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{"id":"https://commons.cwrc.ca/cwrc:8a57280a-fe83-4d33-87ba-63cb0ad588cd","uri":"https://commons.cwrc.ca/cwrc:8a57280a-fe83-4d33-87ba-63cb0ad588cd","uriForDisplay":"https://commons.cwrc.ca/cwrc:8a57280a-fe83-4d33-87ba-63cb0ad588cd","name":"James I, King of England","repository":"CWRC","originalQueryString":"king james i"}</cw:cwrcInfo>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"ref":"https://commons.cwrc.ca/cwrc:8a57280a-fe83-4d33-87ba-63cb0ad588cd","cert":"definite","type":"real"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/person/73f4f895-117b-4785-bc99-5584b5b55249">
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/2ad792f8-1dc9-408d-b681-6f04d3fa006f">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/9e8c6942-e8d6-4f12-aa16-2f35fc6ee625"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/4191e396-04a8-474b-92a0-33d8d9029842"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/4191e396-04a8-474b-92a0-33d8d9029842">
+	<rdf:value>xpointer(//persName[@annotationId="ent_669"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/ee854ecc-ac76-4df5-a065-bd9d26eec388">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/f09b267c-903f-4e18-89eb-213479c5e6ab"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/person/92acc426-985f-45e9-95e0-df884a74362f"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/user/755d334b-ba10-4318-a0e9-b52a6a9e61eb"/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.393Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.393Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
+	<cw:hasCertainty xmlns:cw="http://cwrc.ca/ns/cw#" rdf:resource="http://cwrc.ca/ns/cw#definite"/>
+	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{"id":"https://commons.cwrc.ca/cwrc:8a57280a-fe83-4d33-87ba-63cb0ad588cd","uri":"https://commons.cwrc.ca/cwrc:8a57280a-fe83-4d33-87ba-63cb0ad588cd","uriForDisplay":"https://commons.cwrc.ca/cwrc:8a57280a-fe83-4d33-87ba-63cb0ad588cd","name":"James I, King of England","repository":"CWRC","originalQueryString":"king james i"}</cw:cwrcInfo>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"ref":"https://commons.cwrc.ca/cwrc:8a57280a-fe83-4d33-87ba-63cb0ad588cd","cert":"definite","type":"real"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/person/92acc426-985f-45e9-95e0-df884a74362f">
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/f09b267c-903f-4e18-89eb-213479c5e6ab">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/3b9a8a96-edb3-45e7-976a-4486b3271b32"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/ab43aab5-f1c8-488f-89fb-10cbcff2d80a"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/ab43aab5-f1c8-488f-89fb-10cbcff2d80a">
+	<rdf:value>xpointer(//persName[@annotationId="ent_670"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/253e5282-5ddc-48d9-9291-6c68f13a4a99">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/b5e91aad-46ba-4b28-8fbf-d20691468cbc"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/person/42282d2a-fb2b-4788-92f8-eba92d512b26"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/user/e28b572f-b212-4f01-a174-a5ef9eb9e12f"/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.393Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.393Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
+	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{}</cw:cwrcInfo>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/person/42282d2a-fb2b-4788-92f8-eba92d512b26">
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/b5e91aad-46ba-4b28-8fbf-d20691468cbc">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/6fe5d761-3d2f-4ce9-970b-35b5398b2754"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/a2861043-734c-4349-9637-0a9473a72283"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/a2861043-734c-4349-9637-0a9473a72283">
+	<rdf:value>xpointer(//persName[@annotationId="ent_672"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/36a81de2-59c5-44f5-90e1-65822319171b">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/11656429-fd54-471c-89d7-6ed15c042bc8"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/person/4c6de267-37b6-48d5-8ba8-f2b15193deb9"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/user/d369aec5-cf7d-45df-84aa-d0614320148c"/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.394Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.394Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
+	<cw:hasCertainty xmlns:cw="http://cwrc.ca/ns/cw#" rdf:resource="http://cwrc.ca/ns/cw#definite"/>
+	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{"id":"https://commons.cwrc.ca/cwrc:46f75788-e32f-4a9b-a31a-ceead5b56922","uri":"https://commons.cwrc.ca/cwrc:46f75788-e32f-4a9b-a31a-ceead5b56922","uriForDisplay":"https://commons.cwrc.ca/cwrc:46f75788-e32f-4a9b-a31a-ceead5b56922","name":"Edward Phelips","repository":"CWRC","originalQueryString":"Edward Phelips"}</cw:cwrcInfo>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"ref":"https://commons.cwrc.ca/cwrc:46f75788-e32f-4a9b-a31a-ceead5b56922","cert":"definite","type":"real"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/person/4c6de267-37b6-48d5-8ba8-f2b15193deb9">
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/11656429-fd54-471c-89d7-6ed15c042bc8">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/cedae53a-c9b4-4fa3-b630-66c7d203ff02"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/0549347f-b404-470e-8d44-71c20d994c9e"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/0549347f-b404-470e-8d44-71c20d994c9e">
+	<rdf:value>xpointer(//persName[@annotationId="ent_673"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/de8e17ad-326f-4cb2-b1f2-f596cb307faa">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/5e19da9b-7b38-4978-a807-915736509b51"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/person/86f6199c-9b3f-475e-9dc2-e6534f477493"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/user/e226d294-94ee-461c-8f49-0cb79ca742d9"/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.395Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.395Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
+	<cw:hasCertainty xmlns:cw="http://cwrc.ca/ns/cw#" rdf:resource="http://cwrc.ca/ns/cw#definite"/>
+	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{"id":"https://commons.cwrc.ca/cwrc:0d51cf83-de71-4ac9-ae47-04abb0922548","uri":"https://commons.cwrc.ca/cwrc:0d51cf83-de71-4ac9-ae47-04abb0922548","uriForDisplay":"https://commons.cwrc.ca/cwrc:0d51cf83-de71-4ac9-ae47-04abb0922548","name":"Bacon, Francis","repository":"CWRC","originalQueryString":"sir Francis Bacon"}</cw:cwrcInfo>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"ref":"https://commons.cwrc.ca/cwrc:0d51cf83-de71-4ac9-ae47-04abb0922548","cert":"definite","type":"real"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/person/86f6199c-9b3f-475e-9dc2-e6534f477493">
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/5e19da9b-7b38-4978-a807-915736509b51">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/15ccae48-7825-497d-8b57-6c8f33f00558"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/64f6fd19-6937-4e53-bd6b-d104419f4b84"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/64f6fd19-6937-4e53-bd6b-d104419f4b84">
+	<rdf:value>xpointer(//persName[@annotationId="ent_674"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/5d00970c-edfa-448b-b306-63d096f802e3">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/59988433-14b2-4f10-a833-79dbd6195c15"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/place/17c2424e-926e-449b-aff6-b26782e4ccc0"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/user/0dfc0bd1-1ffe-4ee8-a708-061b884e9bca"/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.395Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.395Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
+	<cw:hasCertainty xmlns:cw="http://cwrc.ca/ns/cw#" rdf:resource="http://cwrc.ca/ns/cw#definite"/>
+	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{"id":"https://commons.cwrc.ca/reed:9e0a8e53-8a1e-487b-b15f-249f068c6642","uri":"https://commons.cwrc.ca/reed:9e0a8e53-8a1e-487b-b15f-249f068c6642","uriForDisplay":"https://commons.cwrc.ca/reed:9e0a8e53-8a1e-487b-b15f-249f068c6642","name":"Winchester Palace","repository":"CWRC","originalQueryString":"winchester place"}</cw:cwrcInfo>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"ref":"https://commons.cwrc.ca/reed:9e0a8e53-8a1e-487b-b15f-249f068c6642","cert":"definite"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/place/17c2424e-926e-449b-aff6-b26782e4ccc0">
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/59988433-14b2-4f10-a833-79dbd6195c15">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/5d1ff5de-30fa-4cb6-8a55-a59c0e9c4369"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/a6cb4342-2750-474a-bdc8-bd8c64861e60"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/a6cb4342-2750-474a-bdc8-bd8c64861e60">
+	<rdf:value>xpointer(//placeName[@annotationId="ent_675"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/b127d8f5-fc16-49ca-8687-b22da267c4e4">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/1530216a-710e-4588-a478-a3eaab39b1c6"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/place/42dcf593-c41d-4ce7-9f13-5d5c2adf9f76"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/user/8dce037b-54b4-4eac-b53c-55b557333dd3"/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.397Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.397Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
+	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{}</cw:cwrcInfo>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/place/42dcf593-c41d-4ce7-9f13-5d5c2adf9f76">
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/1530216a-710e-4588-a478-a3eaab39b1c6">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/9363334b-2190-4888-988c-94bcbfa92d26"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/989f860a-cf68-4843-a106-6d73426945b2"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/989f860a-cf68-4843-a106-6d73426945b2">
+	<rdf:value>xpointer(//placeName[@annotationId="ent_676"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/9b39f8ef-aeae-4a34-97a9-98568200856d">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/70317fe8-43fc-456a-a929-ccc8c48e11eb"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/person/167156d9-e6aa-47f6-82f0-b0bf9afb6ad3"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/user/75a7ec8e-f9dc-48a7-8fdf-cfefc2dbe357"/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.398Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.398Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
+	<cw:hasCertainty xmlns:cw="http://cwrc.ca/ns/cw#" rdf:resource="http://cwrc.ca/ns/cw#definite"/>
+	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{"id":"https://commons.cwrc.ca/cwrc:8a57280a-fe83-4d33-87ba-63cb0ad588cd","uri":"https://commons.cwrc.ca/cwrc:8a57280a-fe83-4d33-87ba-63cb0ad588cd","uriForDisplay":"https://commons.cwrc.ca/cwrc:8a57280a-fe83-4d33-87ba-63cb0ad588cd","name":"James I, King of England","repository":"CWRC","originalQueryString":"king james i"}</cw:cwrcInfo>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"ref":"https://commons.cwrc.ca/cwrc:8a57280a-fe83-4d33-87ba-63cb0ad588cd","cert":"definite","type":"real"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/person/167156d9-e6aa-47f6-82f0-b0bf9afb6ad3">
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/70317fe8-43fc-456a-a929-ccc8c48e11eb">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/7734cb2f-4f24-42ce-9625-7dfbc29196e5"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/2f359cac-ac9b-4fab-acb1-ee86ec8a1222"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/2f359cac-ac9b-4fab-acb1-ee86ec8a1222">
+	<rdf:value>xpointer(//persName[@annotationId="ent_678"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/d8bcf70b-b736-40ea-9356-de0c9d638814">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/70ffc4ec-c1e0-42f5-8061-ffc289bb994a"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/person/d2edd78b-4ac6-47d2-a0cc-19c879f8a015"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/user/a89cf462-26e5-4bf9-b571-73ed79f0d77d"/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.398Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.398Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
+	<cw:hasCertainty xmlns:cw="http://cwrc.ca/ns/cw#" rdf:resource="http://cwrc.ca/ns/cw#definite"/>
+	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{"id":"https://commons.cwrc.ca/cwrc:0d51cf83-de71-4ac9-ae47-04abb0922548","uri":"https://commons.cwrc.ca/cwrc:0d51cf83-de71-4ac9-ae47-04abb0922548","uriForDisplay":"https://commons.cwrc.ca/cwrc:0d51cf83-de71-4ac9-ae47-04abb0922548","name":"Bacon, Francis","repository":"CWRC","originalQueryString":"Sir Francis Bacon"}</cw:cwrcInfo>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"ref":"https://commons.cwrc.ca/cwrc:0d51cf83-de71-4ac9-ae47-04abb0922548","cert":"definite","type":"real"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/person/d2edd78b-4ac6-47d2-a0cc-19c879f8a015">
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/70ffc4ec-c1e0-42f5-8061-ffc289bb994a">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/4ef95d28-1484-4273-92b5-fa26028260b9"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/155df663-35f0-4e13-9e5b-5ebbb3bc1c29"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/155df663-35f0-4e13-9e5b-5ebbb3bc1c29">
+	<rdf:value>xpointer(//persName[@annotationId="ent_679"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/11f3a68a-f004-4a10-9c79-5bf86871c7f2">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/7daaa9bd-e614-4531-b999-0c88cf30c7ef"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/person/a2965356-5e45-4fd6-8cb3-517b67979f00"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/user/20d529af-e989-4583-8f1b-2e3b2e425e32"/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.399Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.399Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
+	<cw:hasCertainty xmlns:cw="http://cwrc.ca/ns/cw#" rdf:resource="http://cwrc.ca/ns/cw#definite"/>
+	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{"id":"https://commons.cwrc.ca/cwrc:8a57280a-fe83-4d33-87ba-63cb0ad588cd","uri":"https://commons.cwrc.ca/cwrc:8a57280a-fe83-4d33-87ba-63cb0ad588cd","uriForDisplay":"https://commons.cwrc.ca/cwrc:8a57280a-fe83-4d33-87ba-63cb0ad588cd","name":"James I, King of England","repository":"CWRC","originalQueryString":"king james i"}</cw:cwrcInfo>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"ref":"https://commons.cwrc.ca/cwrc:8a57280a-fe83-4d33-87ba-63cb0ad588cd","cert":"definite","type":"real"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/person/a2965356-5e45-4fd6-8cb3-517b67979f00">
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/7daaa9bd-e614-4531-b999-0c88cf30c7ef">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/92bcef23-b0da-4adc-8e5a-2c866cf4eef8"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/fb9a6efe-151c-4cad-9b5b-1a284b5042a6"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/fb9a6efe-151c-4cad-9b5b-1a284b5042a6">
+	<rdf:value>xpointer(//persName[@annotationId="ent_680"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/a12a7c5b-2e92-4028-a090-0203875fbdfc">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/a2377465-c484-42a3-a3b5-acd9ef05b9d0"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/person/ac6dfbf1-426e-4b54-a9a5-708a0773474b"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/user/ee347f55-6255-4d8b-98cf-e4ca51a16c13"/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.399Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.399Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
+	<cw:hasCertainty xmlns:cw="http://cwrc.ca/ns/cw#" rdf:resource="http://cwrc.ca/ns/cw#definite"/>
+	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{"id":"https://commons.cwrc.ca/cwrc:8a57280a-fe83-4d33-87ba-63cb0ad588cd","uri":"https://commons.cwrc.ca/cwrc:8a57280a-fe83-4d33-87ba-63cb0ad588cd","uriForDisplay":"https://commons.cwrc.ca/cwrc:8a57280a-fe83-4d33-87ba-63cb0ad588cd","name":"James I, King of England","repository":"CWRC","originalQueryString":"king james i"}</cw:cwrcInfo>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"ref":"https://commons.cwrc.ca/cwrc:8a57280a-fe83-4d33-87ba-63cb0ad588cd","cert":"definite","type":"real"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/person/ac6dfbf1-426e-4b54-a9a5-708a0773474b">
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/a2377465-c484-42a3-a3b5-acd9ef05b9d0">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/aacf3230-6f02-4bb0-9169-521cac09a74b"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/ecd5f4ce-fe80-4ac6-a3f1-ed521f1e23ea"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/ecd5f4ce-fe80-4ac6-a3f1-ed521f1e23ea">
+	<rdf:value>xpointer(//persName[@annotationId="ent_681"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/ceda3697-66d2-44d1-9473-043cfed91dbe">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/6c01f650-ba61-4872-8b60-66c2f086b1eb"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="https://commons.cwrc.ca/reed:1bc0d9ab-b2ba-4c4f-865d-51c1e3e11885"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/user/ac2a26b7-0159-4409-85c3-fc6cb59b5218"/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.401Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-10-25T15:33:43.401Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
+	<cw:hasCertainty xmlns:cw="http://cwrc.ca/ns/cw#" rdf:resource="http://cwrc.ca/ns/cw#definite"/>
+	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{"id":"https://commons.cwrc.ca/reed:1bc0d9ab-b2ba-4c4f-865d-51c1e3e11885","uri":"https://commons.cwrc.ca/reed:1bc0d9ab-b2ba-4c4f-865d-51c1e3e11885","uriForDisplay":"https://commons.cwrc.ca/reed:1bc0d9ab-b2ba-4c4f-865d-51c1e3e11885","name":"Chamberlain, John","repository":"CWRC","originalQueryString":"John Chamberlain"}</cw:cwrcInfo>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"ref":"https://commons.cwrc.ca/reed:1bc0d9ab-b2ba-4c4f-865d-51c1e3e11885","cert":"definite","type":"real"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://commons.cwrc.ca/reed:1bc0d9ab-b2ba-4c4f-865d-51c1e3e11885">
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/6c01f650-ba61-4872-8b60-66c2f086b1eb">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/3a3dc2f0-6bfd-40c3-af86-cebd893b1a1b"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/cb089f52-8f78-47dd-8a71-265309197d4d"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/cb089f52-8f78-47dd-8a71-265309197d4d">
+	<rdf:value>xpointer(//persName[@annotationId="ent_682"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+</rdf:RDF>
+
+
+
+
+
+
+
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title type="main">Inns of Court</title>
+
+
+            <funder><orgName>Andrew W. Mellon Foundation, New York, United States of
+                  America</orgName></funder>
+            <funder><orgName>CANARIE</orgName></funder>
+
+            <funder><orgName>British Academy, London, UK</orgName></funder>
+            <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>
+            <funder><orgName>National Endowment for the Humanities, Washington, DC, United States of
+                  America</orgName></funder>
+            <funder><orgName>Social Sciences and Humanities Research Council, Ottawa,
+                  Canada</orgName></funder>
+
+            <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
+            <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
+
+
+            <!--        REED staff        -->
+            <respStmt>
+               <persName xml:id="CB">Carolyn Black</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Project Manager</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>William Cooke</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>English Glossarian</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="PG">Patrick Gregory</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Associate Editor</resp>
+               <!--        confirm        -->
+               <resp>Paleographer, Translator</resp>
+               <!--        confirm        -->
+            </respStmt>
+
+            <respStmt>
+               <persName>Alexandra F. Johnston</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>REED Founder and Senior Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Arleane Ralph</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Paleographer</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Abigail Ann Young</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Latin Glossarian</resp>
+            </respStmt>
+
+
+            <!--        NHPRC-Mellon Team, 2018        -->
+            <respStmt>
+               <persName>John Bradley</persName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Susan Brown</persName>
+               <orgName>University of Guelph</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="KC">Kathy Chung</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>REED Research Associate, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="JC">James Cummings</persName>
+               <orgName>Newcastle University</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+               <resp>TEI Schema Designer, Technical Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Matthew Davies</persName>
+               <orgName>University of London, Birkbeck College</orgName>
+               <!--        confirm        -->
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Tanya Hagen</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Bibliographer, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Mihaela Iloven</persName>
+               <orgName>Canadian Writing Research Collaboratory</orgName>
+               <resp>CWRC project manager, NHPRC-Mellon advisor</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="JAKA1">Diane K. Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>Principal Investigator, NHPRC-Mellon Digital Edition Publishing Cooperatives
+                  Planning Grant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>David Kathman</persName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Sally-Beth MacLean</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Principal Investigator, SSHRC grant; Director of Research and General
+                  Editor</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="KM">Kimberley Martin</persName>
+               <orgName>University of Guelph</orgName>
+               <resp>NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Christopher Matusiak</persName>
+               <orgName>Ithaca College</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="JN">Jamie Norrish</persName>
+               <resp>Programmer, EATS developer, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Dorothy Porter</persName>
+               <orgName>University of Pennsylvania</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Suzanne Westfall</persName>
+               <orgName>Lafayette College</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board Member</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <!--        Bucknell Research Assistantx        -->
+            <respStmt>
+               <persName>Ari Baughman</persName>
+               <orgName>Bucknell Univerity</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Maureen Maclean</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Rachel Milio</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Charlotte Simon</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+
+         </titleStmt>
+         <editionStmt>
+            <edition>Print version, published <date when-iso="2010">2010</date>. Electronic edition,
+               anticipated publication <date when-iso="2018">2018</date></edition>
+         </editionStmt>
+
+         <publicationStmt>
+            <authority><orgName>Records of Early English Drama (REED)</orgName>
+               <address>
+                  <addrLine>University of Toronto</addrLine>
+                  <addrLine>170 St George Street, Suite 810</addrLine>
+                  <addrLine>Toronto, Ontario, Canada</addrLine>
+                  <addrLine>M5R 2M8</addrLine>
+               </address>
+            </authority>
+
+            <publisher>D.S. Brewer, Cambridge, an imprint of Boydell &amp; Brewer Ltd./Boydell &amp;
+               Brewer Ltd.</publisher>
+            <pubPlace>Rochester, NY</pubPlace>
+            <date>2010</date>
+            <idno type="other">978-1-84384-259-0</idno>
+
+            <availability>
+               <p>Copyright <orgName>Records of Early English Drama (REED)</orgName>,
+                     <date>2017</date></p>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed
+                  under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+                  (CC BY-NC-SA 4.0) licence.</licence>
+            </availability>
+         </publicationStmt>
+
+         <seriesStmt>
+            <title>Records of Early English Drama</title>
+         </seriesStmt>
+         <sourceDesc>
+            <p>This publication constitutes a remediation of the printed Inns of Court collection.
+               Information on original sources for transcriptions can be accessed via the Document
+               Descriptions.</p>
+            <p>This record can be found on pp. 687-8 of REED: Inns of Court, Vol. 2</p>
+            <p>For a full list of REED collections, editors, executive board members, and staff,
+               please visit http://reed.utoronto.ca/people</p>
+         </sourceDesc>
+
+      </fileDesc>
+
+
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="taxon" matchPattern="([A-Za-z0-9_-]+)" replacementPattern="../taxonomy.xml#$1">
+               <p>Private URIs using the <code>taxon</code> prefix are pointers to entities in the
+                  taxonomy.xml file. For example, <code>taxon:church</code> dereferences to
+                     <code>taxonomy.xml#church</code>.</p>
+            </prefixDef>
+            <prefixDef ident="gloss" matchPattern="([A-Za-z0-9_-]+)" replacementPattern="../glossary.xml#$1">
+               <p>Private URIs using the <code>gloss</code> prefix are pointers to entities in the
+                  glossary.xml file. For example, <code>gloss:histrio-1</code> dereferences to
+                     <code>glossary.xml#histrio-1</code>.</p>
+            </prefixDef>
+         </listPrefixDef>
+
+         <projectDesc>
+            <p>Records of Early English Drama (REED) is an international scholarly project that is
+               establishing for the first time the context from which the drama of Shakespeare and
+               his contemporaries grew. Founded in 1976, REED has worked since then to locate,
+               transcribe, and edit historical documents containing evidence of drama, secular
+               music, and other communal entertainment and ceremony from the Middle Ages until 1642,
+               when the Puritans closed the London theatres.</p>
+         </projectDesc>
+      </encodingDesc>
+
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+         <settingDesc>
+            <place>
+               <placeName>London</placeName>
+            </place>
+         </settingDesc>
+      </profileDesc>
+      <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
+         <mods:mods>
+            <mods:titleInfo>
+               <mods:title>Letter of John Chamberlain to Mistress Alice Carleton</mods:title>
+            </mods:titleInfo>
+            <mods:name type="personal">
+               <mods:namePart type="family">Chamberlain</mods:namePart>
+               <mods:namePart type="given">John</mods:namePart>
+               <mods:form authority="viaf">http://viaf.org/viaf/39748463</mods:form>
+            </mods:name>
+            <mods:typeOfResource>text</mods:typeOfResource>
+            <mods:genre type="formatType">Born Digital</mods:genre>
+            <mods:genre type="format">born digital</mods:genre>
+            <mods:genre type="primaryGenre">Scholarly writing</mods:genre>
+            <mods:genre type="subgenre">Reference work</mods:genre>
+            <mods:genre>Performance</mods:genre>
+            <mods:language>
+               <mods:languageTerm type="text">English</mods:languageTerm>
+            </mods:language>
+            <mods:physicalDescription>
+               <mods:form authority="marccategory">electronic resource</mods:form>
+               <mods:internetMediaType>text/xml</mods:internetMediaType>
+               <mods:digitalOrigin>born digital</mods:digitalOrigin>
+            </mods:physicalDescription>
+            <mods:abstract>John Chamberlain (1553-1628) was a professional letter-writer employed by
+               contemporaries who preserved his letters in considerable numbers. Chief among his
+               employers was Sir Dudley Carlteton (1574-1632), Viscount Dorchester, a career
+               diplomat who served in Venice from 1610 to 1615. (Carleton was admitted to Gray's Inn
+               in 1605). Carleton's sister Alice was a favourite of Chamberlain. This letter, dated
+               18 February 1612/13, describes the performance events staged for the wedding of
+               Princess Elizabeth to Frederick, Elector Palatine.</mods:abstract>
+            <mods:subject>
+               <mods:topic valueURI="http://id.loc.gov/authorities/subjects/sh2002012473">Theater--England--London--History--17th century </mods:topic>
+            </mods:subject>
+            <mods:subject>
+               <mods:geographic valueURI="http://www.geonames.org/2643743/">London</mods:geographic>
+            </mods:subject>
+            <mods:subject>
+               <mods:temporal point="start">1601</mods:temporal>
+               <mods:temporal point="end">1700</mods:temporal>
+            </mods:subject>
+            <mods:accessCondition type="use and reproduction">Use of this public-domain resource is
+               governed by the &lt;a rel="license"
+               href="http://creativecommons.org/licenses/by-nc/4.0/" target="blank"&gt;Creative
+               Commons Attribution-NonCommercial 4.0 International
+               License&lt;/a&gt;.</mods:accessCondition>
+            <mods:recordInfo>
+               <mods:recordOrigin>This MODS record was created using the Islandora XML Forms
+                  collection of Drupal modules.</mods:recordOrigin>
+               <mods:languageOfCataloging>
+                  <mods:languageTerm type="text">English</mods:languageTerm>
+               </mods:languageOfCataloging>
+               <mods:recordContentSource>Canadian Writing Research
+                  Collaboratory</mods:recordContentSource>
+            </mods:recordInfo>
+         </mods:mods>
+      </xenoData>
+   </teiHeader>
+
+   <text ana="taxon:letter" type="record" xml:id="RLC011">
+      <body>
+         <div>
+            <head>Letter of <persName annotationId="ent_682" ref="https://commons.cwrc.ca/reed:1bc0d9ab-b2ba-4c4f-865d-51c1e3e11885" cert="definite" type="real">John Chamberlain</persName> to Mistress Alice Carleton <date when-iso="1613-02-18"/></head>
+            <div type="transcription" xml:lang="en">
+               <head>ff <del>1v-2v</del>
+                  <supplied>(18 February 1612/13)</supplied></head>
+               <pb n="1v-2v" type="folio"/>
+               <gap reason="omitted"/>
+               <ab>on <date when-iso="1613-02-15">munday night</date><note type="foot">munday night:
+                        <hi rend="15 February 1612/13"/></note> was <title n="The Memorable Masque">the Middle Temple and Lincolns<del><damage/>.</del> ynne <name type="entertainment">maske</name></title>
+                  presented in the <placeName>hall at court</placeName>, wheras the Lords was in the
+                     <placeName>bancketting roome</placeName>. yt went from <placeName>the
+                     Rolles</placeName> all vp <placeName annotationId="ent_665" ref="https://commons.cwrc.ca/reed:91ba01de-454a-4fd7-8463-a5795a81eacd" cert="definite">fleetstreet</placeName> and <placeName annotationId="ent_666" ref="https://commons.cwrc.ca/reed:e9def7ec-f5e9-4fdb-8896-e6563fd47e1c" cert="definite">the
+                     Strand</placeName>, and made such a gallant and glorious shew that yt is highly
+                  commended. they had forty gentlemen of best choise out of both houses rode before
+                  them in theyre best array, vpon the k<ex>ing</ex>s <name subtype="animal" type="object">horses</name>: and the twelue <name type="occupation">maskers</name>
+                     w<ex>i</ex>th theyre <name type="occupation">torchbearers</name> and <name type="occupation">pages</name> rode likewise vpon <name subtype="animal" type="object">horses</name>
+                  exceedingly well trapped and furnished. besides a dousen litle boyes drest like
+                  <name subtype="animal" type="object">babones</name> that serued for an <name type="entertainment">antimaske</name>, (and they say performed yt exceedingly well
+                  when they came to yt), and three open <name type="object">chariots</name> drawne with fowre <name subtype="animal" type="object">horses</name> a peece
+                  that caried theyre <name type="occupation">musicians</name>, and other personages that had parts to speake: all
+                     w<ex>hi</ex>ch together w<ex>i</ex>th theyre <name type="occupation">trumpetters</name> and other attendants
+                  were so well set out, that yt is generally held for the best <name type="entertainment">shew</name> that hath ben
+                  seen many a day. the <persName annotationId="ent_667" ref="https://commons.cwrc.ca/cwrc:8a57280a-fe83-4d33-87ba-63cb0ad588cd" cert="definite" type="real">King</persName> stoode in the
+                     <placeName>gallerie</placeName> to behold them and made them ride about the
+                     <placeName>tilt-yard</placeName>, and then were receued into <placeName annotationId="ent_668" ref="https://commons.cwrc.ca/reed:e0bfb4ba-85da-4ce9-88d2-c775a5150942" cert="definite">St
+                     Iames parke</placeName> and went all along the <placeName>galleries</placeName>
+                  into the <placeName>hall</placeName>, where themselues and theyre devises
+                     (<del><damage/></del>
+                  <add place="above">which</add> they say were excellent) made such a glittering
+                  shew that the <persName annotationId="ent_669" ref="https://commons.cwrc.ca/cwrc:8a57280a-fe83-4d33-87ba-63cb0ad588cd" cert="definite" type="real">king</persName> and all the companie were exceedingly
+                  pleased and specially w<ex>i</ex>th theyre <name type="entertainment">dauncing</name>. w<ex>hi</ex>ch was beyond all
+                  that hath ben yet. the <persName annotationId="ent_670" ref="https://commons.cwrc.ca/cwrc:8a57280a-fe83-4d33-87ba-63cb0ad588cd" cert="definite" type="real">king</persName> made the <name type="occupation">maskers</name> kisse his hand
+                  at parting; and gaue them many thanckes, sayeng he never saw so many proper men
+                  together, and himself accompanied them at the <name type="event">banket</name>, and took care yt shold be
+                  well ordered, and speakes much of them behind theyre backes, and strokes <add place="above">thanckes to</add> the <name type="occupation">master of the rolles</name><note type="foot">master of the rolles: <hi rend="italic"/><persName annotationId="ent_673" ref="https://commons.cwrc.ca/cwrc:46f75788-e32f-4a9b-a31a-ceead5b56922" cert="definite" type="real">Edard
+                     Phelips</persName></note> and <persName annotationId="ent_672">Dick Martin</persName> who were the
+                  cheife dooers and vndertakers.</ab>
+               <ab>on <date when-iso="1613-02-16"><date annotationId="ent_333" when="1613-02-16" cert="definite">teusday</date></date><note target="foot">teusday: <hi rend="italic">16 February 1612/13</hi></note> yt came to <orgName>Grayes
+                     ynne</orgName> and the <orgName>inner Temple</orgName>s turne to come
+                     w<ex>i</ex>th theyre <name type="entertainment">maske</name>, wherof <persName annotationId="ent_674" ref="https://commons.cwrc.ca/cwrc:0d51cf83-de71-4ac9-ae47-04abb0922548" cert="definite" type="real">s<ex>i</ex>r Fra<ex>ncis</ex>
+                     Bacon</persName> was the cheife contriuer, and because the former came on horse
+                  backe, and open <name type="object">chariots</name>, they made choise to come by water from
+                     <placeName annotationId="ent_675" ref="https://commons.cwrc.ca/reed:9e0a8e53-8a1e-487b-b15f-249f068c6642" cert="definite">winchester place</placeName> in <placeName annotationId="ent_676">Southwarke</placeName>:
+                     (w<ex>hi</ex>ch suted well enough w<ex>i</ex>th theyre deuise), w<ex>hi</ex>ch
+                  was the mariage of the riuer of Thames to the Rhine: and theyre shew by water was
+                  very gallant by reason of infinite store of lights very curiously set and placed:
+                  and many <name type="object">boats</name> and <name type="object">barges</name> w<ex>i</ex>th deuises of light and <name type="object">lampes</name>, w<ex>i</ex>th
+                  three peales of ordinance, one at theyre taking water, another in the
+                     <placeName>Temple garden</placeName>, and the last at theyre landing:
+                     w<ex>hi</ex>ch passage by water cost them better then <measure type="currency"><measure type="currency">three hundred pound</measure></measure>. they were <del>by</del> receued at the priuie
+                  stayres: <del>but by</del> and great expectation theyre was that they should euery
+                  way exceed theyre competitors that went before them, both in deuise, daintines, of
+                  apparell, and aboue all in dauncing (wherin they are held excellent) and esteemed
+                  far the properer men but by what yll planet yt fell out I know not, they came home
+                  as they went w<ex>i</ex>thout dooing any thing, the reason wherof I cannot yet
+                  lerne thoroughly, <del>s</del> but only <add place="above">was</add> that the hall
+                  was so full that yt was not possible to auoyde yt or make roome for them, besides
+                  that most of the ladies were in the galleries to see them land, and could not get
+                  in. but the worst of all was that the <persName annotationId="ent_678" ref="https://commons.cwrc.ca/cwrc:8a57280a-fe83-4d33-87ba-63cb0ad588cd" cert="definite" type="real">king</persName> was so wearied and
+                  sleepie w<ex>i</ex>th sitting vp almost two whole nights before, that he had no
+                  edge to yt, wherupon <persName annotationId="ent_679" ref="https://commons.cwrc.ca/cwrc:0d51cf83-de71-4ac9-ae47-04abb0922548" cert="definite" type="real">S<ex>i</ex>r Fra<ex>ncis</ex> Bacon</persName>
+                  aduentured to intreat <persName annotationId="ent_680" ref="https://commons.cwrc.ca/cwrc:8a57280a-fe83-4d33-87ba-63cb0ad588cd" cert="definite" type="real">his maiestie</persName>, that by this disgrace he
+                  wold not as yt were bury them quicke: and I heare <persName annotationId="ent_681" ref="https://commons.cwrc.ca/cwrc:8a57280a-fe83-4d33-87ba-63cb0ad588cd" cert="definite" type="real">the king</persName>
+                  should aunswer, that then they must burie him quicke for he could last no longer,
+                  but w<ex>i</ex>th all gaue them very goode wordes and appointed them to come again
+                  on <date when-iso="1613-02-20"><date annotationId="ent_340" when="1613-02-20" cert="definite">saterday</date></date><note type="foot">saterday: <hi rend="italic">20 February 1612/13</hi></note>: but the grace of theyre <name type="entertainment">maske</name>
+                  is quite gon when theyre apparell hath ben alredy shewed and theyre deuises
+                  vented. how yt will fall out God knowes, for they are much discouraged, and out of
+                  countenance, and the world sayes yt <del>sa</del> comes to passe after the old
+                  prouerb, the properer men the worse lucke. One thing I had almost forgotten for
+                  hast that all this time there was a course taken and so notified that no lady or
+                  gentlewoman should be admitted to any of these sights w<ex>i</ex>th a vardingale,
+                     w<ex>hi</ex>ch was to gaine the more roome, and I hope may serue to make them
+                  quite left of in time. <del><damage/>.</del>] and yet there were more scaffolds
+                  and more prouision made for roome then euer I saw both in the
+                     <placeName>hall</placeName> and <placeName>banketting roome</placeName>.
+                  besides a new roome built to dine sup and daunce in....... </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
