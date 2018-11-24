@@ -289,7 +289,7 @@
       </xenoData>
    </teiHeader>
 
-   <text ana="taxon:letter" type="record" xml:id="RLMTMP">
+   <text ana="taxon:letter taxon:RLMTGDE004" type="record">
       <body>
          <head>
             <date from-iso="1612" to-iso="1613">1612-13</date></head>

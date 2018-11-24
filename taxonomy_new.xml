@@ -1360,9 +1360,337 @@
                   <ab type="techDesc">MT.7/GDE/4; <date from-iso="1612" to-iso="1613">1612–13</date> (MS undated); bifolium; 205mm x 300mm; unnumbered; writing on first page only, lengthwise; badly torn and worm-eaten; addressed in the same hand: ‘To the Righte Worshipfull the Maisters and benchers of the middell Tempell./,’ and endorsed in another hand: ‘Musycyons: <del>This petit<ex>i</ex>on ys Referrd to the Tresorer</del> The some of xl s. ys to be allowed to them/,’ and in yet another hand: ‘The musicions peticion where vppon theire was granted vnto them by order of parliament xl s.’ This copy is a draft and has no signatures.</ab>
                </msDesc>
                
-<!-- Start with Musicians' Receipts on lviii -->
+               <msDesc xml:id="RLMTGDE005"> <!-- CREATE RECORD -->
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Musicians' Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/GDE/5; <date when-iso="1613-02-13">13 February 1612/13</date>; single sheet; 94mm x 165mm; endorsed: ‘Papson ye Musicions bill for the receipt of xl s. for wages.’</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTGDE006"> <!-- CREATE RECORD -->
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Musicians' Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/GDE/6; 21 June 1613; single sheet; 313mm x 193mm; endorsed: ‘The musicions Bill for xl s. when they gave their attendance abowt the tyme when the Prince dyed.’</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTGDE007"> <!-- CREATE RECORD -->
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Musicians' Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/GDE/7; 1616; single sheet; 63mm x 152mm.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTGDE008"> <!-- CREATE RECORD -->
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Players' Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/GDE/8; 2 February 1615/16; single sheet (fragment); 152mm x 205mm; endorsed: ‘The players Bill for a playe on Candlemas Daye 1615/.’</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTGDE009"><!-- CREATE RECORD -->
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Musicians' Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/GDE/9; 15 February 1618/19; single sheet; 50mm x 200mm; writing on 1 side only.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTGDE010"><!-- CREATE RECORD -->
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Players' Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/GDE/10; 1618–19 (MS undated); single sheet; 210mm x 215mm.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTGDE011"><!-- CREATE RECORD -->
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Musicians' Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/GDE/11; 15 January 1627/8; single sheet; 97mm x 154mm; endorsed: ‘1627 Musitians p<ex>ai</ex>d.’</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTGDE012"><!-- CREATE RECORD -->
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Musicians' Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/GDE/12; 20 January 1628/9; single sheet; 95mm x 151mm; endorsed: ‘20<hi rend="superscript">mo</hi> Ian<ex>uarij</ex> 1628. Musitians allowance 2 l. 13 s. 4 d. p<ex>ai</ex>d.’</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTGDE014"><!-- CREATE RECORD -->
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Musicians' Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/GDE/14; 8 February 1629/30; single sheet; 110mm x 142mm; endorsed: ‘8<hi rend="superscript">uo</hi> ffeb<ex>ruarij</ex> 1629 Musitians 3–13–4 p<ex>ai</ex>d.’</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTGDE016"><!-- CREATE RECORD -->
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Players' Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/GDE/16; 3 November 1632; single sheet; 86mm x 146mm; endorsed: ‘3<hi rend="superscript">o</hi> Nov<ex>ember</ex> 1632 The players bill 10 li. p<ex>ai</ex>d.’</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTGDE018"><!-- CREATE RECORD -->
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Players' Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/GDE/18; 6 February 1632/3; single sheet; 102mm x 153mm; endorsed: ‘6<hi rend="superscript">to</hi> ffeb<ex>ruarij</ex> 1632 The players bill 2 li. 10 s. p<ex>ai</ex>d.’</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTGDE019"><!-- CREATE RECORD -->
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Musicians' Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/GDE/19; 16 February 1632/3; single sheet; 75mm x 125mm; endorsed: ‘16<hi rend="superscript">to</hi> ffeb<ex>ruarij</ex> 1632 The Musitians acq<ex>uittance</ex> 3–03–4 p<ex>ai</ex>d.’</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTGDE020"><!-- CREATE RECORD -->
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Masque Roll</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/GDE/20; 16 October 1635; single sheet; 152mm x 100mm; endorsed: ‘Masque T<ex>ermi</ex>nis Mich<ex>aelis</ex> Hil<ex>arij</ex> Pasche &amp; Trinit<ex>atis</ex> 1634. 1635. 39 li. 00 s. &amp; rec<ex>eived</ex> on last yeares roll 7 li. in tot<ex>o</ex> 46.’</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTGDE021"><!-- CREATE RECORD -->
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Receipt Concerning Masque Roll</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/GDE/21; 1638–9; single sheet; 78mm x 149mm; endorsed: ‘T<ex>erm</ex>inis Mich<ex>aelis</ex> Hil<ex>larij</ex> pas<ex>che</ex> &amp; Trinit<ex>atis</ex> 1638. 1639. Church roll 5 li. Masque roll 2 li.’</ab>
+               </msDesc>
+               
 
-
+<!-- Miscellaneous Papers Relating to The Memorable Masque (MMA) -->
+               
+               <msDesc xml:id="RLMTMAA001">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Summary of Taxation Assessments</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/1; <date when-iso="1613-06-11">11 June 1613</date>; single sheet; 310mm x 205mm. C.1.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA003">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Summary of Taxation Receipts</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/3; 1613; bifolium (leaves no longer conjugate); 262mm x 174mm; unnumbered. Folio <del>2V</del> contains the following names: ‘mon<gap reason="illegible"/>’; ‘Hale’; ‘Sordley’; ‘ffarlbell’; ‘pie’; ‘bomer.’ C.2.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA004">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Certificate of Admission for Inigo Jones</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/4; <date when-iso="1613-02-21">21 February 1612/13</date>; single sheet; 202mm x 154mm. Not in Orbison.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA006">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/6; <date when-iso="1613-02-26">26 February 1612/13</date>; single sheet; 205mm x 205mm. C.5.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA007">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/7; <date when-iso="1613-03-01">1 March 1612/13</date>; single sheet; 175mm x 155mm. C.6.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA008">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Summary of Payments</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/8; <date when-iso="1613-06">June 1613</date> (MS undated); single sheet; 307mm x 200mm. C.12.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA009">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Reckoning</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/9; between <date from-iso="1613-06-12" to-iso="1613-06-16">12 and 16 June 1613</date> (MS undated); bifolium; 310mm x 200mm; unnumbered. C.11.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA012">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Contributions List</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/12; <date when-iso="1613-06-12">12 June 1613</date>; single sheet; 310mm x 205mm. C.9.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA013">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Summary of Receipts</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/13; <date when-iso="1613-06-14">14 June 1613</date>; single sheet; 310mm x 205mm. C.10.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA014">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/14; <date when-iso="1613-06-16">16 June 1613</date>; single sheet; 225mm x 222mm. C.13.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA015">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/15; <date when-iso="1613-06-17">17 June 1613</date>; single sheet; 154mm x 195mm. C.14.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA016">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/16; <date when-iso="1613-06-18">18 June 1613</date>; single sheet; 209mm x 210mm. C.16.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA017">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/17; <date when-iso="1613-06-18">18 June 1613</date>; single sheet; 305mm x 205mm. C.15.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA018">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/18; <date when-iso="1613-06-19">19 June 1613</date>; single sheet; 310mm x 196mm. C.17.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA019">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/19; <date when-iso="1613-06-26">26 June 1613</date>; single sheet; 155mm x 205mm. C.18.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA020">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/20; <date when-iso="1613-06-28">28 June 1613</date>; single sheet; 307mm x 205mm. C.19.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA021">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Summary of Payments </msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/21; <date notBefore-iso="1613-06-28">on or after 28 June 1613</date> (MS undated); single sheet; 310mm x 208mm. C.20.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA022">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Summary of Receipts </msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/22; <date when-iso="1613-08-14">14 August 1613</date>; single sheet; 310mm x 205mm. C.21.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA023">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/23; <date when-iso="1613-08-25">25 August 1613</date>; single sheet; 125mm x 203mm. C.22.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA024">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple List of Receipts</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/24; <date notBefore-iso="1613-08-25">on or after 25 August 1613</date> (MS undated); single sheet; 270mm x 196mm. C.23.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA025">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Summary of Receipts</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/25; <date notBefore-iso="1613-10-15">on or after 15 October 1613</date> (MS undated); single sheet; 310mm x 200mm. C.24.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA026">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/27; <date from-iso="1613" to-iso="1614">1613–14</date> (MS undated); single sheet; 270mm x 200mm. C.30.</ab>
+               </msDesc>
+               
+               
+               
+               
+               
 <!-- Autobiography of Gervase Holles -->
                <msDesc xml:id="RLGH01">
                   <msIdentifier>

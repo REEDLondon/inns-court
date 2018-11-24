@@ -289,32 +289,36 @@
       </xenoData>
    </teiHeader>
 
-   <text ana="taxon:middle_temple" type="record" xml:id="RLMTMR">
+   <text ana="taxon:middle_temple taxon:RLMTGDE003" type="record">
       <body>
          <head>
             <date from-iso="1612" to-iso="1613">1612-13</date></head>
          <div type="transcription" xml:lang="en">
             <div>
                <head>
-                  <supplied>Middle Temple Musicians' Receipt (13 February 1613)</supplied></head>
+                  <supplied>(2 February 1613)</supplied></head>
                <pb type="sheet" n="1"/>
                <gap reason="omitted"/>
                <ab>
                   <table>
                      <row>
-                        <cell>xiij<hi rend="superscript">o</hi> die februarij 1612.</cell>
+                        <cell>Receaved by mee Iohn Dowland for my selfe and my fellowes Musitians, vpon candellmas daye, 1612<note type="foot">2 corrected from 3</note> for the consorte p<ex>er</ex>formed before the Iudges and Reverent benchers, of the honnorable Society, of the Midle Temple by the hand<ex>es</ex> of Mr Richard baldwine vnder Tresorer of the sayd midle Temple the some of <measure type="currency">five pound<ex>es</ex> sterlinge</measure> I saye by mee Receaved</cell>
+                        <cell><measure type="currency">5 lb.</measure></cell>
                      </row>
-                     <row>
-                        <cell>Receiued by me Iohn Papson of Mr Baldwyne vndert<ex>reasur</ex>er of the Midle temple <add place="above">the some of ffortie shillinges</add> to me due at the feast  of the purificac<ex>i</ex>on last I saye R<ex>eceiued</ex></cell>
-                        <cell>xl s.</cell>
-                     </row>
-                     <row>
-                        <cell><seg type="signed">Iohn Papson</seg></cell>
-                     </row>
-                  </table> 
+                  </table>
+                  
+                  <list>
+                     <item><seg type="signed">Io<ex>hn</ex> dowlande</seg></item>
+                     <item>Lutenist to the King<ex>es</ex> maiestie</item>
+                     <item><seg type="signed">William Corkine</seg></item>
+                     <item><seg type="signed">Richarde Goosey</seg></item>
+                  </list>
+                  
+                  <note type="editorial">
+                     <ab> The implications of this document for Dowland studies is discussed by Frank, ‘A New Dowland Document.’ (Frank transcribes Richard Goosey’s first name correctly but calls him ‘William’ in the body of the article.) </ab>
+                  </note>
                </ab>
-            </div>
-
+            </div>                     
          </div>
       </body>
    </text>
