@@ -1,646 +1,1040 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="REED.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/" xml:id="taxonomy">
+<?xml-model href="reed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="eng">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">REED London Taxonomy</title>
-            <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>
-            <funder><orgName>CANARIE [need info]</orgName></funder>
-                  <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
-                  <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
-                  
-                  <respStmt>
-                     <persName xml:id="CB">Carolyn Black</persName>
-                     <orgName>Records of Early English Drama (REED)</orgName>
-                     <resp>Project Manager</resp>
-                  </respStmt>
-                  
-                  <respStmt>
-                     <persName>John Bradley</persName>
-                     <resp>NHPRC-Mellon Project Team Member</resp>
-                  </respStmt>
-                  
-                  <respStmt>
-                     <persName>Susan Brown</persName> 
-                     <orgName>University of Guelph</orgName>
-                     <resp>NHPRC-Mellon Project Team Member</resp>
-                  </respStmt>
-                  
-                  <respStmt>
-                     <persName xml:id="CK">Kathy Chung</persName>
-                     <orgName>Records of Early English Drama (REED)</orgName>
-                     <resp>REED Research Associate, NHPRC-Mellon Project Consultant</resp>
-                  </respStmt>
-                  <respStmt>
-                     <persName xml:id="JC">James Cummings</persName>
-                     <orgName>Newcastle University</orgName>
-                     <resp>Records of Early English Drama (REED) Executive Board</resp>
-                     <resp>NHPRC-Mellon Project Team Member</resp>
-                     <resp>TEI Schema Designer, Technical Consultant</resp>
-                  </respStmt>
-                  
-                  <respStmt>
-                     <persName>Matthew Davies</persName>
-                     <orgName>University of London, Birkbeck College</orgName> <!-- confirm -->
-                     <resp>Records of Early English Drama (REED) Executive Board</resp>
-                     <resp>NHPRC-Mellon Project Team Member</resp>
-                  </respStmt>
-                  
-                  <respStmt>
-                     <persName xml:id="PG">Patrick Gregory</persName>
-                     <orgName>Records of Early English Drama (REED)</orgName>
-                     <resp>Associate Editor</resp> <!-- confirm -->
-                     <resp>Paleographer, Translator, Latin and Anglo-French Glossarian</resp> <!-- confirm -->
-                  </respStmt>
-            
-                  <respStmt>
-                     <persName>Tanya Hagen</persName>
-                     <orgName>Records of Early English Drama (REED)</orgName>
-                     <resp>Bibliographer, NHPRC-Mellon Project Consultant</resp>
-                  </respStmt>
-                  
-                  <respStmt>
-                     <persName xml:id="JAKA1">Diane K. Jakacki</persName>
-                     <orgName>Bucknell University</orgName>
-                     <resp>Records of Early English Drama (REED) Executive Board</resp>
-                     <resp>Principal Investigator, NHPRC-Mellon Digital Edition Publishing Cooperatives Planning Grant</resp>
-                  </respStmt>
-                  
-                  <respStmt>
-                     <persName>Alexandra F. Johnston</persName>
-                     <orgName>Records of Early English Drama (REED)</orgName>
-                     <resp>REED Founder and Senior Consultant</resp>
-                  </respStmt>
-                  
-                  <respStmt>
-                     <persName>David Kathman</persName>
-                     <resp>NHPRC-Mellon Project Team Member</resp>
-                  </respStmt>
-                  
-                  <respStmt>
-                     <persName>Sally-Beth MacLean</persName>
-                     <orgName>Records of Early English Drama (REED)</orgName>
-                     <resp>Principal Investigator, SSHRC grant; Director of Research and General Editor</resp>
-                     <resp>NHPRC-Mellon Project Team Member</resp>
-                  </respStmt>
-                  
-                  <respStmt>
-                     <persName>Kimberly Martin</persName>
-                     <orgName>University of Guelph</orgName>
-                     <resp>NHPRC-Mellon Project Consultant</resp>
-                  </respStmt>
-                  
-                  <respStmt>
-                     <persName>Christopher Matusiak</persName>
-                     <orgName>Ithaca College</orgName>
-                     <resp>NHPRC-Mellon Project Team Member</resp>
-                  </respStmt>
-                  
-                  <respStmt>
-                     <persName xml:id="JN">Jamie Norrish</persName>
-                     <resp>Programmer, EATS developer, NHPRC-Mellon Project Consultant</resp>
-                  </respStmt>
-                  
-                  <respStmt>
-                     <persName>Dorothy Porter</persName>
-                     <orgName>University of Pennsylvania</orgName>
-                     <resp>NHPRC-Mellon Project Team Member</resp>
-                  </respStmt>
-                  
-                  <respStmt>
-                     <persName>Suzanne Westfall</persName>
-                     <orgName>Lafayette College</orgName>
-                     <resp>Records of Early English Drama (REED) Executive Board Member</resp>
-                     <resp>NHPRC-Mellon Project Team Member</resp>
-                  </respStmt>                        
-               </titleStmt>
-               <editionStmt>
-                  <edition>Print version, published <date when-iso="2010">2010</date>. Electronic edition, anticipated publication <date when-iso="2018">2018</date></edition>
-               </editionStmt>
-               
-               <publicationStmt>
-                  <authority><orgName>Records of Early English Drama (REED)</orgName>
-                     <address>
-                        <addrLine>University of Toronto</addrLine>
-                        <addrLine>170 St George Street, Suite 810</addrLine>
-                        <addrLine>Toronto, Ontario, Canada</addrLine>
-                        <addrLine>M5R 2M8</addrLine>
-                     </address>
-                  </authority>
-                  <!-- RESOLVE: Include Boydell & Brewer publication information? -->
-                  <authority>
-                     <orgName>D.S. Brewer, Cambridge, an imprint of Boydell &amp; Brewer Ltd./Boydell &amp; Brewer Ltd.</orgName>
-                     <address>
-                        <addrLine>PO Box 9, Woodbridge</addrLine>
-                        <addrLine>Suffolk IP12 3DF, UK</addrLine>
-                        <addrLine>668 Mt. Hope Avenue</addrLine>
-                        <addrLine>Rochester, NY 14620</addrLine>
-                     </address>
-                  </authority>
-                  
-                  <availability>
-                     <p>Copyright <orgName>Records of Early English Drama (REED)</orgName>,
-                        <date>2017</date></p>
-                     <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a
-                        Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA
-                        4.0) licence.</licence>
-                  </availability>
-               </publicationStmt>
-               
-               <seriesStmt>
-                  <title>Records of Early English Drama</title>
-               </seriesStmt>
-               <sourceDesc>
-                  <p>This publication constitutes a remediation of the printed Inns of Court collection. Information on original sources for transcriptions can be accessed via the Document Descriptions.</p>
-                  <p>For a full list of REED collections, editors, executive board members, and staff, please visit http://reed.utoronto.ca/people</p>       
-               </sourceDesc>
-            </fileDesc>
-            
-            <encodingDesc>
-               <listPrefixDef> 
-                  <prefixDef ident="taxon" matchPattern="([A-Za-z0-9_-]+)"
-                     replacementPattern="../taxonomy.xml#$1">
-                     <p>Private URIs using the <code>taxon</code> prefix are pointers to entities in the
-                        taxonomy.xml file. For example, <code>taxon:church</code> dereferences to
-                        <code>taxonomy.xml#church</code>.</p>
-                  </prefixDef>
-                  <prefixDef ident="gloss" matchPattern="([A-Za-z0-9_-]+)"
-                     replacementPattern="../glossary.xml#$1">
-                     <p>Private URIs using the <code>gloss</code> prefix are pointers to entities in the
-                        glossary.xml file. For example, <code>gloss:histrio-1</code> dereferences to
-                        <code>glossary.xml#histrio-1</code>.</p>
-                  </prefixDef>
-               </listPrefixDef>
-               
-               <projectDesc>
-                  <p>Records of Early English Drama (REED) is an international scholarly project that is
-                     establishing for the first time the context from which the drama of Shakespeare and his
-                     contemporaries grew. Founded in 1976, REED has worked since then to locate, transcribe,
-                     and edit historical documents containing evidence of drama, secular music, and other
-                     communal entertainment and ceremony from the Middle Ages until 1642, when the Puritans
-                     closed the London theatres.</p>
-                  
-                  <p>REED London is ... </p>
-               </projectDesc>
-            </encodingDesc>
-            
-            <profileDesc>
-               <langUsage>
-                  <language ident="eng">English</language>
-                  <language ident="lat">Latin</language>
-                  <language ident="fra">Anglo-French</language>
-               </langUsage>
-               <settingDesc>
-                  <place>
-                     <placeName>London</placeName> 
-                  </place>
-               </settingDesc>
-            </profileDesc>
-      <encodingDesc>
-         <classDecl>
-      <taxonomy>
-         <category xml:id="bibliography_sections">
-            <catDesc>Bibliography Sections</catDesc>
-            <category xml:id="generalBib">
-               <catDesc>General</catDesc>
-            </category>
-            <category xml:id="londonBib">
-               <catDesc>London</catDesc>
-            </category>
-         </category>
-         <category xml:id="record_types">
-            <catDesc>Record types</catDesc>
-            <category xml:id="central_gvt">
-               <catDesc>central government and royal</catDesc>
-            </category>
-            <category xml:id="local_gvt">
-               <catDesc>local government</catDesc>
-            </category>
-            <category xml:id="church">
-               <catDesc>church</catDesc>
-            </category>
-            <category xml:id="education">
-               <catDesc>educational institution</catDesc>
-            </category>
-            <category xml:id="guild_craft">
-               <catDesc>guild, craft/trade</catDesc>
-            </category>
-            <category xml:id="guild_rel">
-               <catDesc>guild, religious</catDesc>
-            </category>
-            <category xml:id="rel_community">
-               <catDesc>religious community</catDesc>
-            </category>
-            <category xml:id="manor">
-               <catDesc>manorial</catDesc>
-            </category>
-            <category xml:id="family">
-               <catDesc>family</catDesc>
-            </category>
-            <category xml:id="chron_hist">
-               <catDesc>chronicles and histories</catDesc>
-            </category>
-            <category xml:id="letter">
-               <catDesc>correspondence</catDesc>
-            </category>
-            <category xml:id="grays_inn">
-               <catDesc>inns of court, Gray's Inn</catDesc>
-            </category>
-         </category>
-         <category xml:id="repositories">
-            <catDesc>Repositories</catDesc>
-            <category xml:id="AGS">
-               <catDesc>
-                  <choice>
-                     <abbr>AGS</abbr>
-                     <expan>Archivo General de Simancas</expan>
-                  </choice>
-               </catDesc>
-            </category>
-            <category xml:id="ASV">
-               <catDesc>
-                  <choice>
-                     <abbr>ASV</abbr>
-                     <expan>Archivo di Stato, Venice</expan>
-                  </choice>
-               </catDesc>
-            </category>
-            <category xml:id="BL">
-               <catDesc>
-                  <choice>
-                     <abbr>BL</abbr>
-                     <expan>British Library</expan>
-                  </choice>
-               </catDesc>
-            </category>
-            <category xml:id="Bodl.">
-               <!-- Bodleian not used for Inns of Court -->
-               <catDesc>
-                  <choice>
-                     <abbr>Bodl.</abbr>
-                     <expan>Bodleian</expan>
-                  </choice>
-               </catDesc>
-            </category>
-            <category xml:id="brampton-museum">
-               <!-- Brampton Museum not used for Inns of Court -->
-               <catDesc>Brampton Museum</catDesc>
-            </category>
-            <category xml:id="cheshire-record-office">
-               <!-- Cheshire Record Office not used for Inns of Court -->
-               <catDesc>Cheshire Record Office</catDesc>
-            </category>
-            <category xml:id="chetham-library">
-               <!-- Chetham's Library not used for Inns of Court -->
-               <catDesc>Chetham's Library</catDesc>
-            </category>
-            <category xml:id="CUL">
-               <!-- Cambridge University Library not used for Inns of Court -->
-               <catDesc>
-                  <choice>
-                     <abbr>CUL</abbr>
-                     <expan>Cambridge University Library</expan>
-                  </choice>
-               </catDesc>
-            </category>
-            <category xml:id="DHC">
-               <catDesc>
-                  <choice>
-                     <abbr>DHC</abbr>
-                     <expan>Dorchester History Center</expan>
-                  </choice>
-               </catDesc>
-            </category>   
-            <category xml:id="DRO">
-               <catDesc>
-                  <choice>
-                     <abbr>DRO</abbr>
-                     <expan>Derbyshire Record Office, Matlock, Derbyshire</expan>
-                  </choice>
-               </catDesc>
-            </category>
-            <category xml:id="folger-shakespeare-library">
-               <catDesc>Folger Shakespeare Library</catDesc>
-            </category>            
-            <category xml:id="GIA">
-               <catDesc>
-                  <choice>
-                     <abbr>GIS</abbr>
-                     <expan>Gray's Inn Archives</expan>
-                  </choice>
-               </catDesc>
-            </category>
-            <category xml:id="HHL">
-               <catDesc>
-                  <choice>
-                     <abbr>HHL</abbr>
-                     <expan>Hatfield House Library</expan>
-                  </choice>
-               </catDesc>
-            </category>
-            <category xml:id="ITA">
-               <catDesc>
-                  <choice>
-                     <abbr>ITA</abbr>
-                     <expan>Inner Temple Archives</expan>
-                  </choice>
-               </catDesc>
-            </category>
-            <category xml:id="ITL">
-               <catDesc>
-                  <choice>
-                     <abbr>ITL</abbr>
-                     <expan>Inner Temple Library</expan>
-                  </choice>
-               </catDesc>
-            </category>
-            <category xml:id="LIA">
-               <catDesc>
-                  <choice>
-                     <abbr>LIA</abbr>
-                     <expan>Lincoln's Inn Archives</expan>
-                  </choice>
-               </catDesc>
-            </category>
-            <category xml:id="LIL">
-               <catDesc>
-                  <choice>
-                     <abbr>LIL</abbr>
-                     <expan>Linoln's Inn Library</expan>
-                  </choice>
-               </catDesc>
-            </category>
-            <category xml:id="LP">
-               <catDesc>
-                  <choice>
-                     <abbr>LP</abbr>
-                     <expan>Lambeth Palace</expan>
-                  </choice>
-               </catDesc>
-            </category>
-            <category xml:id="lichfield-cathedral-library">
-               <!-- Lichfield Cathedral Library not used for Inns of Court -->
-               <catDesc>Lichfield Cathedral Library</catDesc>
-            </category>
-            <category xml:id="lincolnshire-archives">
-               <!-- Lincolnshire Archives not used for Inns of Court -->
-               <catDesc>Lincolnshire Archives</catDesc>
-            </category>
-            <category xml:id="LRO">
-               <!-- Lichfield Record Office not used for Inns of Court -->
-               <catDesc>
-                  <choice>
-                     <abbr>LRO</abbr>
-                     <expan>Lichfield Record Office</expan>
-                  </choice>
-               </catDesc>
-            </category>
-            <category xml:id="LH">
-               <catDesc>
-                  <choice>
-                     <abbr>LH</abbr>
-                     <expan>Longleat House</expan>
-                  </choice>
-               </catDesc>
-            </category>
-            <category xml:id="MTA">
-               <catDesc>
-                  <choice>
-                     <abbr>MTA</abbr>
-                     <expan>Middle Temple Archives</expan>
-                  </choice>
-               </catDesc>
-            </category>
-            <category xml:id="MTL">
-               <catDesc>
-                  <choice>
-                     <abbr>MTL</abbr>
-                     <expan>Middle Temple Library</expan>
-                  </choice>
-               </catDesc>
-            </category>
-            <category xml:id="RH">
-               <catDesc>
-                  <choice>
-                     <abbr>RH</abbr>
-                     <expan>Rousham House</expan>
-                  </choice>
-               </catDesc>
-            </category>
-            <category xml:id="REED">
-               <catDesc>
-                  <choice>
-                     <abbr>REED</abbr>
-                     <expan>Records of Early English Drama</expan>
-                  </choice>
-               </catDesc>
-            </category>
-            <category xml:id="STRO">
-               <!-- Staffordshire Record Office not used for Inns of Court -->
-               <catDesc>
-                  <choice>
-                     <abbr>STRO</abbr>
-                     <expan>Staffordshire Record Office</expan>
-                  </choice>
-               </catDesc>
-            </category>
-            <category xml:id="TNA">
-               <catDesc>
-                  <choice>
-                     <abbr>TNA</abbr>
-                     <expan>The National Archives</expan>
-                  </choice>
-               </catDesc>
-            </category>
-            <category xml:id="william-salt-library">
-               <!-- William Salt Library not used for Inns of Court -->
-               <catDesc>William Salt Library</catDesc>
-            </category>
-            <category xml:id="WLHC">
-               <!-- Walsall Local History Centre not used for Inns of Court -->
-               <catDesc>
-                  <choice>
-                     <abbr>WLHC</abbr>
-                     <expan>Walsall Local History Centre</expan>
-                  </choice>
-               </catDesc>
-            </category>
-            <category xml:id="WRO">
-               <!-- Worcestershire Record Office not used for Inns of Court -->
-               <catDesc>
-                  <choice>
-                     <abbr>WRO</abbr>
-                     <expan>Worcestershire Record Office</expan>
-                  </choice>
-               </catDesc>
-            </category>
-         </category>
-         <category xml:id="short_title_catalogues">
-            <!-- Short Title Catalogues not used for Inns of Court -->
-            <catDesc>Short-Title Catalogues</catDesc>
-            <category xml:id="STC">
-               <catDesc>
-                  <choice>
-                     <abbr>STC</abbr>
-                     <expan>Pollard and Redgrave (eds), Short-Title Catalogue</expan>
-                  </choice>
-               </catDesc>
-            </category>
-            <category xml:id="Wing">
-               <!-- Wing, Short-Title Catalogue not used for Inns of Court -->
-               <catDesc>
-                  <choice>
-                     <abbr>Wing</abbr>
-                     <expan>Wing, Short-Title Catalogue</expan>
-                  </choice>
-               </catDesc>
-            </category>
-         </category>
 
-      </taxonomy>
-      </classDecl>
+            <title type="main">REED London: Inns of Court Taxonomy and Bibliography</title>
+
+
+            <funder><orgName>Andrew W. Mellon Foundation, New York, United States of
+                  America</orgName></funder>
+            <funder><orgName>CANARIE</orgName></funder>
+
+            <funder><orgName>British Academy, London, UK</orgName></funder>
+            <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>
+            <funder><orgName>National Endowment for the Humanities, Washington, DC, United States of
+                  America</orgName></funder>
+            <funder><orgName>Social Sciences and Humanities Research Council, Ottawa,
+                  Canada</orgName></funder>
+
+            <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
+            <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
+
+
+            <!-- REED staff -->
+            <respStmt>
+               <persName xml:id="CB">Carolyn Black</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Project Manager</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>William Cooke</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>English Glossarian</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="PG">Patrick Gregory</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Paleographer, Translator</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Alexandra F. Johnston</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>REED Founder and Senior Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Arleane Ralph</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Paleographer</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Abigail Ann Young</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Latin Glossarian</resp>
+            </respStmt>
+
+
+            <!-- NHPRC-Mellon Team, 2018 -->
+            <respStmt>
+               <persName>John Bradley</persName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Susan Brown</persName>
+               <orgName>University of Guelph</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="KC">Kathy Chung</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>REED Research Associate, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="JC">James Cummings</persName>
+               <orgName>Newcastle University</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+               <resp>TEI Schema Designer, Technical Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Matthew Davies</persName>
+               <orgName>University of London, Birkbeck College</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Tanya Hagen</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Bibliographer, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Mihaela Iloven</persName>
+               <orgName>Canadian Writing Research Collaboratory</orgName>
+               <resp>CWRC project manager, NHPRC-Mellon advisor</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="JAKA1">Diane K. Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>Principal Investigator, NHPRC-Mellon Digital Edition Publishing Cooperatives
+                  Planning Grant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>David Kathman</persName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Sally-Beth MacLean</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Principal Investigator, SSHRC grant; Director of Research and General
+                  Editor</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="KM">Kimberley Martin</persName>
+               <orgName>University of Guelph</orgName>
+               <resp>NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Christopher Matusiak</persName>
+               <orgName>Ithaca College</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="JN">Jamie Norrish</persName>
+               <resp>Programmer, EATS developer, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Dorothy Porter</persName>
+               <orgName>University of Pennsylvania</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Suzanne Westfall</persName>
+               <orgName>Lafayette College</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board Member</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <!-- Bucknell Research Assistantx -->
+            <respStmt>
+               <persName>Ari Baughman</persName>
+               <orgName>Bucknell Univerity</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Maureen Maclean</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Rachel Milio</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Charlotte Simon</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+
+         </titleStmt>
+         <editionStmt>
+            <edition>Print version, published <date when-iso="2010">2010</date>. Electronic edition,
+               anticipated publication <date when-iso="2018">2018</date></edition>
+         </editionStmt>
+
+         <publicationStmt>
+            <authority><orgName>Records of Early English Drama (REED)</orgName>
+               <address>
+                  <addrLine>University of Toronto</addrLine>
+                  <addrLine>170 St George Street, Suite 810</addrLine>
+                  <addrLine>Toronto, Ontario, Canada</addrLine>
+                  <addrLine>M5R 2M8</addrLine>
+               </address>
+            </authority>
+
+            <publisher>D.S. Brewer, Cambridge, an imprint of Boydell &amp; Brewer Ltd./Boydell &amp;
+               Brewer Ltd.</publisher>
+            <pubPlace>Rochester, NY</pubPlace>
+            <date>2010</date>
+            <idno type="other">978-1-84384-259-0</idno>
+
+            <availability>
+               <p>Copyright <orgName>Records of Early English Drama (REED)</orgName>,
+                     <date>2017</date></p>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed
+                  under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+                  (CC BY-NC-SA 4.0) licence.</licence>
+            </availability>
+         </publicationStmt>
+
+         <seriesStmt>
+            <title>Records of Early English Drama</title>
+         </seriesStmt>
+         <sourceDesc>
+            <p>This publication constitutes a remediation of the printed Inns of Court collection.
+               Information on original sources for transcriptions can be accessed via the Document
+               Descriptions.</p>
+            <p>This record can be found on [PAGE(S)] of REED: Inns of Court, Vol. [#]</p>
+            <p>For a full list of REED collections, editors, executive board members, and staff,
+               please visit http://reed.utoronto.ca/people</p>
+         </sourceDesc>
+      </fileDesc>
+
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="taxon" matchPattern="([A-Za-z0-9_-]+)"
+               replacementPattern="../taxonomy.xml#$1">
+               <p>Private URIs using the <code>taxon</code> prefix are pointers to entities in the
+                  taxonomy.xml file. For example, <code>taxon:church</code> dereferences to
+                     <code>taxonomy.xml#church</code>.</p>
+            </prefixDef>
+            <prefixDef ident="gloss" matchPattern="([A-Za-z0-9_-]+)"
+               replacementPattern="../glossary.xml#$1">
+               <p>Private URIs using the <code>gloss</code> prefix are pointers to entities in the
+                  glossary.xml file. For example, <code>gloss:histrio-1</code> dereferences to
+                     <code>glossary.xml#histrio-1</code>.</p>
+            </prefixDef>
+         </listPrefixDef>
+
+         <projectDesc>
+            <p>Records of Early English Drama (REED) is an international scholarly project that is
+               establishing for the first time the context from which the drama of Shakespeare and
+               his contemporaries grew. Founded in 1976, REED has worked since then to locate,
+               transcribe, and edit historical documents containing evidence of drama, secular
+               music, and other communal entertainment and ceremony from the Middle Ages until 1642,
+               when the Puritans closed the London theatres.</p>
+         </projectDesc>
       </encodingDesc>
+
       <profileDesc>
          <langUsage>
             <language ident="eng">English</language>
             <language ident="lat">Latin</language>
+            <language ident="fra">Anglo-French</language>
          </langUsage>
+         <settingDesc>
+            <place>
+               <placeName>London</placeName>
+            </place>
+         </settingDesc>
       </profileDesc>
+
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="bibliography_sections">
+                  <!-- this is a minimal adaptation of the REED Online encoding information for bibliography, adding London to General **Is this necessary?** -->
+                  <catDesc>Bibliography Sections</catDesc>
+                  <category xml:id="generalBib">
+                     <catDesc>General Bibliography</catDesc>
+                  </category>
+                  <category xml:id="londonBib">
+                     <catDesc>London Bibliography</catDesc>
+                  </category>
+               </category>
+               <category xml:id="repositories">
+                  <!-- this is an adaptation of the REED Online encoding information for repositories -->
+                  <catDesc>Repositories</catDesc>
+                  <category xml:base="AGS">
+                     <catDesc>
+                        <choice>
+                           <abbr>AGS</abbr>
+                           <expan>Archivo General de Simancas</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="ASV">
+                     <catDesc>
+                        <choice>
+                           <abbr>ASV</abbr>
+                           <expan>Archivo di Stato, Venice</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="BL">
+                     <catDesc>
+                        <choice>
+                           <abbr>BL</abbr>
+                           <expan>British Library</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="Bodl.">
+                     <catDesc>
+                        <choice>
+                           <abbr>Bodl.</abbr>
+                           <expan>Bodleian</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="CUL">
+                     <catDesc>
+                        <choice>
+                           <abbr>CUL</abbr>
+                           <expan>Cambridge University Library</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="DRO">
+                     <catDesc>
+                        <choice>
+                           <abbr>DRO</abbr>
+                           <expan>Dorchester History Center</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="folger_shakespeare_library">
+                     <catDesc>Folger Shakespeare Library</catDesc>
+                  </category>
+                  <category xml:id="GIA">
+                     <catDesc>
+                        <choice>
+                           <abbr>GIA</abbr>
+                           <expan>Gray's Inn Archives</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="HHL">
+                     <catDesc>
+                        <choice>
+                           <abbr>HHL</abbr>
+                           <expan>Hatfield House Library</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="ITA">
+                     <catDesc>
+                        <choice>
+                           <abbr>ITA</abbr>
+                           <expan>Inner Temple Archives</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="ITL">
+                     <catDesc>
+                        <choice>
+                           <abbr>ITL</abbr>
+                           <expan>Inner Temple Library</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="LIA">
+                     <catDesc>
+                        <choice>
+                           <abbr>LIA</abbr>
+                           <expan>Lincoln's Inn Archives</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="LIL">
+                     <catDesc>
+                        <choice>
+                           <abbr>LIL</abbr>
+                           <expan>Lincoln's Inn Library</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="LP">
+                     <catDesc>
+                        <choice>
+                           <abbr>LP</abbr>
+                           <expan>Lambeth Palace</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="LH">
+                     <catDesc>
+                        <choice>
+                           <abbr>LH</abbr>
+                           <expan>Longleat House</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="MTA">
+                     <catDesc>
+                        <choice>
+                           <abbr>MTA</abbr>
+                           <expan>Middle Temple Archives</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="MTL">
+                     <catDesc>
+                        <choice>
+                           <abbr>MTL</abbr>
+                           <expan>Middle Temple Library</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="RH">
+                     <catDesc>
+                        <choice>
+                           <abbr>RH</abbr>
+                           <expan>Rousham House</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="REED">
+                     <catDesc>
+                        <choice>
+                           <abbr>REED</abbr>
+                           <expan>Records of Early English Drama</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="TNA">
+                     <catDesc>
+                        <choice>
+                           <abbr>TNA</abbr>
+                           <expan>The National Archives</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="short_title_catalogues">
+                     <catDesc>Short Title Catalogues</catDesc>
+                  </category>
+
+               </category>
+               <category xml:id="record_types">
+                  <!-- this is an adaptation of the REED Online encoding information for record types to include London-specific types -->
+                  <catDesc>Record types</catDesc>
+                  <category xml:id="central_gvt">
+                     <catDesc>central government and royal</catDesc>
+                  </category>
+                  <category xml:id="chron_hist">
+                     <catDesc>chronicles and histories</catDesc>
+                  </category>
+                  <category xml:id="church">
+                     <catDesc>church</catDesc>
+                  </category>
+                  <category xml:id="diary">
+                     <catDesc>diaries and reminiscences</catDesc>
+                  </category>
+                  <category xml:id="education">
+                     <catDesc>educational institution</catDesc>
+                  </category>
+                  <category xml:id="family">
+                     <catDesc>family</catDesc>
+                  </category>
+                  <category xml:id="furnivals_inn">
+                     <catDesc>Inns of Chancery, Furnival's Inn</catDesc>
+                  </category>
+                  <category xml:id="grays_inn">
+                     <catDesc>Inns of Court, Gray's Inn</catDesc>
+                  </category>
+                  <category xml:id="guild_craft">
+                     <catDesc>guild, craft/trade</catDesc>
+                  </category>
+                  <category xml:id="guild_rel">
+                     <catDesc>guild, religious</catDesc>
+                  </category>
+                  <category xml:id="inner_temple">
+                     <catDesc>Inns of Court, Inner Temple</catDesc>
+                  </category>
+                  <category xml:id="letter">
+                     <catDesc>correspondence</catDesc>
+                  </category>
+                  <category xml:id="lincolns_inn">
+                     <catDesc>Inns of Court, Lincoln's Inn</catDesc>
+                  </category>
+                  <category xml:id="local_gvt">
+                     <catDesc>local and civic government</catDesc>
+                  </category>
+                  <category xml:id="manor">
+                     <catDesc>manorial</catDesc>
+                  </category>
+                  <category xml:id="middle_temple">
+                     <catDesc>Inns of Court, Middle Temple</catDesc>
+                  </category>
+                  <category xml:id="rel_community">
+                     <catDesc>religious community</catDesc>
+                  </category>
+               </category>
+               <category xml:id="occupations">
+                  <!-- this is a categorical list of occupations referred to in IoC index and records; using @@corresp to point to CWRC ontology and @sameAs to point to EATS ids -->
+                  <catDesc>Occupations and Offices</catDesc>
+                  <category xml:id="animalKeeper">
+                     <!-- Will add topline level to CWRC occupation ontology -->
+                     <catDesc>Occupation Type: Animal Keeper</catDesc>
+                     <category xml:id="monkeyKeeper">
+                        <catDesc>Monkey keeper (any kind)</catDesc>
+                     </category>
+                     <category xml:id="birdKeeper">
+                        <catDesc>Bird keeper (any kind)</catDesc>
+                     </category>
+                     <category xml:id="dogKeeper">
+                        <catDesc>Dog keeper</catDesc>
+                     </category>
+                     <category xml:id="lionKeeper">
+                        <catDesc>Lion keeper</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="armorer">
+                     <catDesc>Occupation Type: armorer</catDesc>
+                  </category>
+                  <category xml:id="attorneyGeneral" corresp="cwrc:attorneyGeneral">
+                     <catDesc>Office Type: attorney general</catDesc>
+                  </category>
+                  <category xml:id="baker" corresp="cwrc:baker">
+                     <catDesc>Occupation Type: baker</catDesc>
+                  </category>
+                  <category xml:id="beggar" corresp="cwrc:beggar"> <!-- @DianeJakacki to Team: is this just a masque character? should we remove from Occupations? -->
+                     <catDesc>Occupation Type: beggar</catDesc>
+                  </category>
+                  <category xml:id="brewer" corresp="cwrc:brewer">
+                     <catDesc>Occupation Type: brewer</catDesc>
+                  </category>
+                  <category xml:id="censor" corresp="cwrc:censor"> <!-- @DianeJakacki to Team: is this just a masque character? should we remove from Occupations? -->
+                     <catDesc>Occupation Type: censor</catDesc>
+                  </category>
+                  <category xml:id="chandler">
+                     <catDesc>Occupation Type: chandler (any kind)</catDesc>
+                     <category xml:id="waxChandler">
+                        <catDesc>Occupation Type: wax chandler</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="scrivener" corresp="cwrc:clericalWork">
+                     <catDesc>Occupation Type: scrivener</catDesc>
+                  </category>
+                  <category xml:id="laceMaker" corresp="cwrc:clothingProduction">
+                     <catDesc>Occupation Type: lace maker</catDesc>
+                  </category>
+                  <category xml:id="coachMaker">
+                     <catDesc>Occupation Type: coachmaker</catDesc>
+                  </category>
+                  <category xml:id="cobbler" corresp="cwrc:cobbler">
+                     <catDesc>Occupation Type: cobbler (any kind)</catDesc>
+                     <category xml:id="cordwainer" corresp="cwrc:cobbler">
+                        <catDesc>Occupation Type: cordwainer</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="composer" corresp="cwrc:composer">
+                     <catDesc>Occupation Type: composer</catDesc>
+                  </category>
+                  <category xml:id="construction" corresp="cwrc:construction">
+                     <catDesc>Occupation Type: construction (any type)</catDesc>
+                     <category xml:id="carpenter" corresp="cwrc:construction">
+                        <catDesc>Occupation Type: carpenter</catDesc>
+                     </category>
+                     <category xml:id="joiner" corresp="cwrc:construction">
+                        <catDesc>Occupation Type: joiner</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="cook" corresp="cwrc:cooking">
+                     <catDesc>Occupation Type: cook</catDesc>
+                  </category>
+                  <category xml:id="dancer" corresp="cwrc:dance">
+                     <catDesc>Occupation Type: dancer</catDesc>
+                  </category>
+                  <category xml:id="messenger" corresp="cwrc:deliveryPerson">
+                     <catDesc>Occupation Type: messenger</catDesc>
+                  </category>
+                  <category xml:id="diplomat" corresp="cwrc:diplomat">
+                     <catDesc>Occupation Type: diplomat (any kind)</catDesc>
+                     <category xml:id="ambassador" corresp="cwrc:diplomat">
+                        <catDesc>Occupation Type: ambassador</catDesc>
+                     </category>
+                     <category xml:id="consul" corresp="cwrc:diplomat"> <!-- @DianeJakacki to Team: is this just a masque character? should we remove from Occupations? -->
+                        <catDesc>Occupation Type: consul</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="domesticServant" corresp="cwrc:domesticServant">
+                     <catDesc>Occupation Type: domestic servant (any kind)</catDesc>
+                     <category xml:id="chambermaid" corresp="cwrc:domesticServant">
+                        <catDesc>Occupation Type: chambermaid</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="draper" corresp="cwrc:draper">
+                     <catDesc>Occupation Type: draper</catDesc>
+                     <category xml:id="linenDraper" corresp="cwrc:draper">
+                        <catDesc>Occupation Type: linen draper</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="silkwoman" corresp="cwrc:dressMaking">
+                     <!-- @KimMartin to review with CWRC occupation ontology -->
+                     <catDesc>Occupation Type: silkwoman</catDesc>
+                  </category>
+                  <category xml:id="horseman" corresp="cwrc:equineActivity">
+                     <catDesc>Occupation Type: horseman (any kind)</catDesc>
+                     <category xml:id="jockey" corresp="cwrc:equineActivity">
+                        <catDesc>Occupation Type: jockey</catDesc>
+                     </category>
+                     <category xml:id="ostler" corresp="cwrc:equineActivity">
+                        <catDesc>Occupation Type: ostler</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="gardener" corresp="cwrc:gardener">
+                     <catDesc>Occupation Type: gardener</catDesc>
+                  </category>
+                  <category xml:id="haberdasher" corresp="cwrc:haberdasher">
+                     <catDesc>Occupation Type: haberdasher</catDesc>
+                  </category>
+                  <category xml:id="lordLieutenant" corresp="cwrc:higherGovernment">
+                     <catDesc>Office Type: Lord Lieutenant (of Ireland)</catDesc>
+                  </category>
+                  <category xml:id="lordCouncil" corresp="cwrc:higherGovernment">
+                     <catDesc>Office Type: Lord of the Council</catDesc>
+                  </category>
+                  <category xml:id="lordPrivyseal" corresp="cwrc:higherGovernment">
+                     <catDesc>Office Type: Lord Privy Seal</catDesc>
+                  </category>
+                  <category xml:id="lordSteward" corresp="cwrc:higherGovernment">
+                     <catDesc>Office Type: Lord Steward</catDesc>
+                  </category>
+                  <category xml:id="lordTreasurer" corresp="cwrc:higherGovernment">
+                     <catDesc>Office Type: Lord Treasurer</catDesc>
+                  </category>
+                  <category xml:id="privyCouncillor" corresp="cwrc:higherGovernment">
+                     <catDesc>Office Type: Privy Councillor</catDesc>
+                  </category>
+                  <category xml:id="warden" corresp="cwrc:higherGovernment">
+                     <catDesc>Occupation Type: warden</catDesc>
+                  </category>
+                  <category xml:id="housekeeper" corresp="cwrc:housekeeper">
+                     <catDesc>Occupation Type: housekeeper</catDesc>
+                  </category>
+                  <category xml:id="InnsOfCourtOfficial">
+                     <catDesc>Occupation Type: Inns of Court official (any kind)</catDesc>
+                     <category xml:id="officer">
+                        <!-- @KimMartin to review with CWRC occupation ontology -->
+                        <catDesc>Occupation Type: Inns of Court officer</catDesc>
+                     </category>
+                     <category xml:id="panierMan">
+                        <catDesc>Occupation Type: Inns of Court panier man</catDesc>
+                     </category>
+                     <category xml:id="reader">
+                        <!-- @KimMartin to review with CWRC occupation ontology -->
+                        <catDesc>Occupation Type: Inns of Court reader</catDesc>
+                     </category>
+                     <category xml:id="steward">
+                        <catDesc>Occupation Type: Inns of Court steward</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="judge" corresp="cwrc:judge">
+                     <catDesc>Occupation Type: judge (any kind)</catDesc>
+                  </category>
+                  <category xml:id="lordChiefJustice" corresp="cwrc:judge">
+                     <catDesc>Office Type: Lord Chief Justice</catDesc>
+                     <category xml:id="lordChiefJusticeSC" corresp="cwrc:judge">
+                        <catDesc>Office Type: Lord Chief Justice (Star Chamber)</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="lordChiefBaron" corresp="cwrc:judge">
+                     <catDesc>Office Type: Lord Chief Baron</catDesc>
+                  </category>
+                  <category xml:id="knight" corresp="cwrc:knight">
+                     <catDesc>Office Type: knight</catDesc>
+                  </category>
+                  <category xml:id="sheriffLondon" corresp="cwrc:lawEnforcement">
+                     <catDesc>Office Type: Sheriff of London</catDesc>
+                  </category>
+                  <category xml:id="constable" corresp="cwrc:lawEnforcement">
+                     <catDesc>Occupation Type: constable</catDesc>
+                  </category>
+                  <category xml:id="escheator" corresp="cwrc:lawEnforcement">
+                     <catDesc>Occupation Type: escheator</catDesc>
+                  </category>
+                  <category xml:id="serjeant" corresp="cwrc:lawEnforcement">
+                     <catDesc>Occupation Type: serjeant</catDesc>
+                  </category>
+                  <category xml:id="justice" corresp="cwrc:lawEnforcement">
+                     <catDesc>Occupation Type: justice</catDesc>
+                  </category>
+                  <category xml:id="watchman" corresp="cwrc:lawEnforcement">
+                     <catDesc>Occupation Type: watchman</catDesc>
+                  </category>
+                  <category xml:id="lawyer" corresp="cwrc:lawyer">
+                     <catDesc>Occupation Type: lawyer (any kind)</catDesc>
+                     <category xml:id="ancient" corresp="cwrc:lawyer">
+                        <catDesc>Occupation Type: ancient</catDesc>
+                     </category>
+                     <category xml:id="barrister" corresp="cwrc:lawyer">
+                        <catDesc>Occupation Type: barrister</catDesc>
+                     </category>
+                     <category xml:id="bencher" corresp="cwrc:lawyer">
+                        <catDesc>Occupation Type: bencher</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="saddler" corresp="cwrc:leatherWorker">
+                     <catDesc>Occupation Type: saddler</catDesc>
+                  </category>
+                  <category xml:id="receiverAccounts" corresp="cwrc:legalWork">
+                     <!-- @KimMartin to review with CWRC occupation ontology -->
+                     <catDesc>Occupation Type: receiver of accounts (a.k.a. collector of accounts,
+                        steward of accounts, keeper of accounts</catDesc>
+                     <!-- Confirm that these various account keepers all resolve to the same 'type' -->
+                  </category>
+                  <category xml:id="clerk" corresp="cwrc:legalWork">
+                     <!-- @KimMartin to review with CWRC occupation ontology -->
+                     <catDesc>Occupation Type: clerk</catDesc>
+                  </category>
+                  <category xml:id="guardianSigns" corresp="cwrc:legalWork">
+                     <!-- @KimMartin to review with CWRC occupation ontology -->
+                     <catDesc>Occupation Type: guardian of signs</catDesc>
+                  </category>
+                  <category xml:id="butler" corresp="cwrc:legalWork">
+                     <!-- @KimMartin to review with CWRC occupation ontology -->
+                     <catDesc>Occupation Type: butler (Inns of Court)</catDesc>
+                  </category>
+                  <category xml:id="collector" corresp="cwrc:legalWork">
+                     <!-- @KimMartin to review with CWRC occupation ontology -->
+                     <catDesc>Occupation Type: collector</catDesc>
+                  </category>
+                  <category xml:id="comptroller" corresp="cwrc:legalWork">
+                     <!-- @KimMartin to review with CWRC occupation ontology -->
+                     <catDesc>Occupation Type: comptroller</catDesc>
+                  </category>
+                  <category xml:id="pensioner" corresp="cwrc:legalWork">
+                     <!-- @KimMartin to review with CWRC occupation ontology -->
+                     <catDesc>Occupation Type: pensioner</catDesc>
+                  </category>
+                  <category xml:id="recorder" corresp="cwrc:legalWork">
+                     <!-- @KimMartin to review with CWRC occupation ontology -->
+                     <catDesc>Occupation Type: recorder</catDesc>
+                  </category>
+                  <category xml:id="governor" corresp="cwrc:legalWork">
+                     <!-- @KimMartin to review with CWRC occupation ontology -->
+                     <catDesc>Occupation Type: governor</catDesc>
+                  </category>
+                  <category xml:id="marshall" corresp="cwrc:legalWork">
+                     <!-- @KimMartin to review with CWRC occupation ontology -->
+                     <catDesc>Occupation Type: marshall</catDesc>
+                  </category>
+                  <category xml:id="auditor" corresp="cwrc:legalWork">
+                     <!-- @KimMartin to review with CWRC occupation ontology -->
+                     <catDesc>Occupation Type: auditor</catDesc>
+                  </category>
+                  <category xml:id="alderman" corresp="cwrc:localGovernment">
+                     <catDesc>Office Type: alderman</catDesc>
+                  </category>
+                  <category xml:id="lordChamberlain" corresp="cwrc:lordChamberlain">
+                     <catDesc>Office Type: lord chamberlain</catDesc>
+                  </category>
+                  <category xml:id="lordChancellor" corresp="cwrc:lordChancellor">
+                     <catDesc>Office Type: lord chancellor</catDesc>
+                  </category>
+                  <category xml:id="servant" corresp="cwrc:manservant">
+                     <catDesc>Occupation Type: servant (any kind)</catDesc>
+                     <category xml:id="footman" corresp="cwrc:manservant">
+                        <catDesc>Occupation Type: footman</catDesc>
+                     </category>
+                     <category xml:id="servingman" corresp="cwrc:manservant">
+                        <catDesc>Occupation Type: servingman</catDesc>
+                     </category>
+                     <category xml:id="page" corresp="cwrc:manservant">
+                        <!-- @KimMartin to review with CWRC occupation ontology -->
+                        <catDesc>Occupation Type: page</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="labourer" corresp="cwrc:manualLabourer">
+                     <catDesc>Occupation Type: labourer (any kind)</catDesc>
+                  </category>
+                  <category xml:id="masterOfTheRevels" corresp="cwrc:masterOfTheRevels">
+                     <catDesc>Office Type: master of the revels (a.k.a., Christmas king, Christmas
+                        lord, Christmas prince) </catDesc>
+                     <category xml:id="lieutenantMasterRevels" corresp="cwrc:masterOfTheRevels">
+                        <catDesc>Office Type: lieutenant master of the revels</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="matlayer">
+                     <catDesc>Occupation Type: matlayer</catDesc>
+                  </category>
+                  <category xml:id="mayorLondon" corresp="cwrc:mayor">
+                     <catDesc>Office Type: lord mayor of London</catDesc>
+                  </category>
+                  <category xml:id="mercer" corresp="cwrc:mercer">
+                     <catDesc>Occupation Type: mercer</catDesc>
+                  </category>
+                  <category xml:id="pewterer" corresp="cwrc:metalWork">
+                     <catDesc>Occupation Type: pewterer</catDesc>
+                  </category>
+                  <category xml:id="soldier" corresp="cwrc:soldier">
+                     <catDesc>Occupation Type: soldier</catDesc>
+                  </category>
+                  <category xml:id="musician" corresp="cwrc:music">
+                     <catDesc>Occupation Type: musician (any kind)</catDesc>
+                     <category xml:id="lutenist" corresp="cwrc:music">
+                        <catDesc>Occupation Type: lutenist (lute player)</catDesc>
+                     </category>
+                     <category xml:id="shawmPlayer" corresp="cwrc:music">
+                        <catDesc>Occupation Type: shawm player</catDesc>
+                     </category>
+                     <category xml:id="bagpiper" corresp="cwrc:music">
+                        <catDesc>Occupation Type: bagpiper</catDesc>
+                     </category>
+                     <category xml:id="drummer" corresp="cwrc:music">
+                        <catDesc>Occupation Type: drummer</catDesc>
+                     </category>
+                     <category xml:id="fiddler" corresp="cwrc:music">
+                        <catDesc>Occupation Type: fiddler</catDesc>
+                     </category>
+                     <category xml:id="harper" corresp="cwrc:music">
+                        <catDesc>Occupation Type: harper</catDesc>
+                     </category>
+                     <category xml:id="hornPlayer" corresp="cwrc:music">
+                        <catDesc>Occupation Type: horn player</catDesc>
+                     </category>
+                     <category xml:id="trumpeter" corresp="cwrc:music">
+                        <catDesc>Occupation Type: trumpet player</catDesc>
+                     </category>
+                     <category xml:id="piper" corresp="cwrc:music">
+                        <catDesc>Occupation Type: piper (any kind)</catDesc>
+                     </category>
+                     <category xml:id="wait" corresp="cwrc:wait">
+                        <catDesc>Occupation Type: wait</catDesc>
+                     </category>
+                     <category xml:id="taborer" corresp="cwrc:music">
+                        <catDesc>Occupation Type: taborer</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="embroiderer" corresp="cwrc:needlework">
+                     <catDesc>Occupation Type: embroiderer</catDesc>
+                  </category>
+                  <category xml:id="pavier">
+                     <catDesc>Occupation Type: pavier</catDesc>
+                  </category>
+                  <category xml:id="performer" corresp="cwrc:performer">
+                     <catDesc>Occupation Type: performer (any kind)</catDesc>
+                     <category xml:id="player" corresp="cwrc:performer">
+                        <catDesc>Occupation Type: player or actor</catDesc>
+                     </category>
+                     <category xml:id="antimasquer" corresp="cwrc:performer">
+                        <catDesc>Occupation Type: antimasquer</catDesc>
+                     </category>
+                     <category xml:id="boyPlayer" corresp="cwrc:performer">
+                        <catDesc>Occupation Type: boy player</catDesc>
+                     </category>
+                     <category xml:id="entertainer" corresp="cwrc:performer">
+                        <catDesc>Occupation Type: entertainer</catDesc>
+                     </category>
+                     <category xml:id="fencer" corresp="cwrc:performer">
+                        <catDesc>Occupation Type: fencer</catDesc>
+                     </category>
+                     <category xml:id="fool" corresp="cwrc:performer">
+                        <catDesc>Occupation Type: fool</catDesc>
+                     </category>
+                     <category xml:id="juggler" corresp="cwrc:performer">
+                        <catDesc>Occupation Type: juggler</catDesc>
+                     </category>
+                     <category xml:id="masquer" corresp="cwrc:performer">
+                        <catDesc>Occupation Type: masquer</catDesc>
+                     </category>
+                     <category xml:id="morrisDancer" corresp="cwrc:performer">
+                        <catDesc>Occupation Type: morris dancer</catDesc>
+                     </category>
+                     <category xml:id="mummer" corresp="cwrc:performer">
+                        <catDesc>Occupation Type: mummer</catDesc>
+                     </category>
+                     <category xml:id="minstrel" corresp="cwrc:performer">
+                        <catDesc>Occupation Type: minstrel</catDesc>
+                     </category>
+                     <category xml:id="puppeteer" corresp="cwrc:performer">
+                        <catDesc>Occupation Type: puppeteer</catDesc>
+                     </category>
+                     <category xml:id="tumbler" corresp="cwrc:performer">
+                        <catDesc>Occupation Type: tumbler</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="porter" corresp="cwrc:manservant">
+                     <catDesc>Occupation Type: porter</catDesc>
+                  </category>
+                  <category xml:id="printer" corresp="cwrc:printing">
+                     <catDesc>Occupation Type: printer</catDesc>
+                  </category>
+                  <category xml:id="propertyMan"><!--is this a kind of theatre worker?-->
+                     <catDesc>Occupation Type: property man</catDesc>
+                  </category>
+                  <category xml:id="archbishop" corresp="cwrc:religiousOfficial">
+                     <catDesc>Office Type: archbishop</catDesc>
+               </category>
+                  <category xml:id="bishop" corresp="cwrc:religiousOfficial">
+                     <catDesc>Office Type: bishop</catDesc>
+                  </category>
+                  <category xml:id="cardinal" corresp="cwrc:religiousOfficial">
+                     <catDesc>Office Type: cardinal</catDesc>
+                  </category>
+                  <category xml:id="chaplain" corresp="cwrc:religiousOfficial">
+                     <catDesc>Occupation Type: chaplain</catDesc>
+                  </category>
+                  <category xml:id="preacher" corresp="cwrc:religiousOfficial">
+                     <catDesc>Occupation Type: preacher</catDesc>
+                  </category>
+                  <category xml:id="priest" corresp="cwrc:religiousOfficial">
+                     <catDesc>Occupation Type: priest</catDesc>
+                  </category>
+                  <category xml:id="reveller">
+                     <catDesc>Occupation Type: reveller</catDesc>
+                  </category>
+                  <category xml:id="seaman" corresp="cwrc:sailor"> <!-- @DianeJakacki to Team: is this just a masque character? should we remove from Occupations? -->
+                     <catDesc>Occupation Type: seaman</catDesc>
+                  </category>
+                  <category xml:id="waterman" corresp="cwrc:sailor">
+                     <catDesc>Occupation Type: waterman</catDesc>
+                  </category>
+                  <category xml:id="salter" corresp="cwrc:salter">
+                     <catDesc>Occupation Type: salter</catDesc>
+                  </category>
+                  <category xml:id="singer" corresp="cwrc:singer">
+                     <catDesc>Occupation Type: singer</catDesc>
+                  </category>
+                  <category xml:id="stringer">
+                     <catDesc>Occupation Type: stringer</catDesc>
+                  </category>
+                  <category xml:id="suttler"><!-- @DianeJakacki to Team: is this just a masque character? should we remove from Occupations? -->
+                     <catDesc>Occupation Type: suttler</catDesc>
+                  </category>
+                  <category xml:id="tailor" corresp="cwrc:tailor">
+                     <catDesc>Occupation Type: tailor</catDesc>
+                  </category>
+                  <category xml:id="vizardMaker" corresp="theatreWork">
+                     <catDesc>Occupation Type: vizard maker</catDesc>
+                  </category>
+                  <category xml:id="usher" corresp="cwrc:theatreWork">
+                     <catDesc>Occupation Type: usher</catDesc>
+                  </category>
+                  <category xml:id="torchbearer" corresp="manualLabourer">
+                     <catDesc>Occupation Type: torchbearer</catDesc>
+                  </category>
+                  <category xml:id="charioteer" corresp="cwrc:transportationWork">
+                     <catDesc>Occupation Type: charioteer</catDesc>
+                  </category>
+                  <category xml:id="coachman" corresp="cwrc:transportationWork">
+                     <catDesc>Occupation Type: coachman</catDesc>
+                  </category>
+                  <category xml:id="vintner" corresp="cwrc:vintner">
+                     <catDesc>Occupation Type: vintner</catDesc>
+                  </category>
+                  <category xml:id="painter" corresp="cwrc:visualArtist">
+                     <catDesc>Occupation Type: painter</catDesc>
+                  </category>
+                  <category xml:id="playwright" corresp="cwrc:writer">
+                     <catDesc>Occupation Type: playwright</catDesc>
+                  </category>
+               </category>
+<!-- Here is the categorical listing for objects, including CWRC ontology and EATS IDs -->
+               <category xml:id="objects">
+                  <catDesc/>
+               </category>
+               <category xml:id="crimesMisdemeanours"></category>
+               <category xml:id="characters"></category>
+               <category xml:id="entertainments"></category>
+            </taxonomy>
+
+         </classDecl>
+      </encodingDesc>
       <revisionDesc>
-         <!-- Add new major milestone changes to top -->
-         <change when="2017-12-10" who="#JAKA1">start document list for REED London with Inns of Court</change>
+         <change when="2018-11-18" who="#JAKA1">Added bibliography sections, repositories, and record types to taxonomy</change>
+         <change when="2018-11-17" who="#JAKA1">Created new taxonomy file for REED London/Inns of Court - occupation taxonomy</change>
       </revisionDesc>
+
    </teiHeader>
+
    <text>
       <body>
-         <head>Abbreviations, symbols and taxonomies used in REED London</head>
-         <!-- This list begins with Inns of Court and will be added to as other collections are included -->
-         
-            <div xml:id="introduction">
-               <head>Introduction to Documents</head>
-            
-               <p>Documents described below are grouped first under the four Inns of Court in alphabetical order, then under a single Inn of Chancery (Furnival’s). Documents not assignable to a particular Inn follow, grouped as Letters (diplomatic and private), Diaries and Reminiscences, Histories, and Miscellaneous. Individual items within the latter categories are listed in chronological order.</p>
-               
-               <div n="Inns of Court">
-                  <head>Inns of Court</head>
-                  
-                  <div n="Gray's Inn">
-                     <head>Gray's Inn</head>
-                     <p>The history of Gray’s Inn as a site of legal activity may be traced back before 1370. The Inn occupied property owned or controlled by the dean and chapter of St Paul’s, and subsequently by the family of Grey of Wilton. Historically the manor was called Portpoole, remembered today in Portpool Street which runs eastward from Gray’s Inn Road. (In Elizabethan and Stuart times the site gave its name to the Inn’s lord of Christmas, called the Prince of Portpool or Purpoole.)</p>
-                        <p>The northernmost of the four Inns of Court, Gray’s Inn, is bounded on the east by Gray’s Inn Lane (now Gray’s Inn Road), on the south by shops fronting on High Holborn, on the west by Bedford Mews (now Jockey’s Fields), and on the north by the King’s Way (now Theobalds Road) and fields not yet built over. Within its walls Gray’s Inn comprises law chambers (still used for residence), a hall, a chapel, a library, a treasury, and walks and gardens. Today’s Gray’s Inn is mostly post-Restoration in its architecture, though it preserves the original layout of its buildings and grounds.</p>
-                        <p>The governing body of Gray’s Inn is called the <orgName>pension</orgName>. Orders of pension were recorded in a series of Pension Books. Archival documents, maintained under the care of an archivist, are produced and read in the library.</p>
-                  </div>
-                  
-                  <div n="Inner Temple">
-                     <head>Inner Temple</head>
-                     <p>Seat of the Knights Templar prior to the suppression of the order in 1312, the ‘Temple’ lay just beyond the western reach of London Wall, between Fleet Street and the Thames. As early as the reign of Edward III (1312–77) the Temple accommodated both the Knights Hospitaller of St John of Jerusalem and legal professionals, the latter enjoying easy access to the royal courts of Westminster. The Paston letters of November 1440 contain the earliest known reference to the Inner Temple, also called a ‘college’; subsequent letters in the same series identify the Middle Temple in similar terms. Though the site was and remains a walled (or fenced) and gated enclosure, the internal boundary between the two inns is not a wall but a lane. Symbolic of the traditionally peaceful coexistence of the two Inns is the Temple Church, shared and governed by both.</p>
-                        <p>The Inner Temple occupies the eastern (down-river) half of the Temple grounds. Further to the east is the site of the Whitefriars’ monastery, historically a ‘liberty.’ Entrances to the Inner Temple include one or more gates to the north along Fleet Street and a water-gate leading to the Thames (now to the Embankment).
-                        Physically the Inner Temple comprised law chambers, which traditionally doubled as residential facilities, a hall, the Temple Church, a library, gardens, and a treasury. Alone among the four Inns the Inner Temple lacks its early-modern hall, demolished in 1866 (see p xlii). The Inner Temple retains an old-world atmosphere, a consequence of careful reconstruction following extensive devastation in World War II.</p>
-                        <p>The governing body of the Inner Temple, called the parliament, consisted of all members holding the rank of master of the bench (or ‘bencher’). Parliament was convened in the hall (‘at the bench,’ that is, the benchers’ or high table) at two- or three-week intervals throughout the year. The orders of this body, called acts of parliament, were for the most part entered into a series of Parliament Books. By tradition the benchers governed only during term, while the masters of the bar (‘barristers’) governed during vacations, and junior members governed during Christmas vacation.</p>
-                        <p>All Inner Temple administrative records earlier than 1505 and all financial records earlier than 1606 are wanting. At the close of World War II, when the surviving archives were being returned after having been removed for safe-keeping, certain documents were damaged by fire in a road accident. Had they not been removed, however, they would not have survived at all, as the Inner Temple was almost completely destroyed by enemy bombing, including all of the library’s records and all its modern printed books.</p>
-                     <p>Archives of the Inner Temple are in the custody of the sub-treasurer. Prior to 1989 they were maintained in a strong room in the treasurer’s office. In 1990 the historical archives were moved to a new purpose-built room, where they are supervised by the master of the archives.</p>
-                  </div>
-                  
-                  <div n="Lincoln's Inn">
-                     <head>Lincoln's Inn</head>
-                     <p>Lincoln’s Inn takes its name from Henry de Lacy, earl of Lincoln, who died in 1310/11. The site comprised the episcopal palace of Ralph Nevill, bishop of Chichester and chancellor of England (d. 1244); and buildings from a defunct Blackfriars’ monastery in Holborn. Lincoln’s Inn acquired absolute ownership of its land from the see of Chichester in 1580.</p>
-                     <p>The site is bounded on the east by Chancery Lane, on the south by Carey Street and the Royal Courts of Justice, on the west by Lincoln’s Inn Fields, and on the north by High Holborn. Physically Lincoln’s Inn comprises law chambers, which traditionally doubled as residential facilities, an old hall, a new hall, a chapel, a library, and gardens. Except for its old hall (see p xlii), and its chapel which was designed by Inigo Jones, Lincoln’s Inn today is essentially Victorian in its architecture.</p>
-                     <p>The governing body of Lincoln’s Inn is called the council. Orders of council are preserved in a sequence of ‘Black Books’: beginning in 1422 the series is the oldest and most complete of any of the Inns of Court. Archival documents, maintained under the care of an archivist, are produced and read in the library.</p>
-                     <!-- not sure where description of ALL Lincoln's Inn Black Books goes PLEASE RESOLVE-->
-                     <p>All eight volumes described below were rebound in 1965 in black morocco, giving them a uniform appearance despite notable differences in size (from 210mm x 135mm to 310mm x 205mm). Foliation is sometimes nightmarish, as for example in A1a7 (Black Book 7), due to successive inconsistencies, errors, corrections, and rationalizations. A set of microfilms is preserved in the Public Record Office (TNA: PRO 30/77): the eight volumes referenced here occupy the first five reels.</p>
-                     <p>The standard essential publication is William Paley Baildon (ed), <title>The Records of the Honorable Society of Lincoln’s Inn. The Black Books</title>, 4 vols (London, 1897).<note n="58">58</note></p>
-                  </div>                     
-                  
-                  <div n="Middle Temple">
-                     <head>Middle Temple</head>
-                     <p>The early history of the Middle Temple is much the same as that of the Inner Temple. It occupies the western (or up-river) half of the Temple grounds. Entrance gates have historically included one or more gates to the north along Fleet Street, one to the west, and a water-gate to the Thames, now the north side of the Embankment.</p>
-                        <p>Physically the Middle Temple comprises law chambers, which traditionally doubled as residential facilities, an exceptionally large and magnificent hall, a chapel, a library, gardens, and a treasury. Architecturally the Middle Temple retains an old-world atmosphere, to some extent a consequence of careful reconstruction following World War II.</p>
-                        <p>The governing body of the Middle Temple is called the parliament; its orders, called minutes of parliament, are preserved in volumes called Parliament Books. Middle Temple Parliament Books survive from 1500, except that the second volume, for 1524–51, is lost (whence number ‘2’ is omitted from the sequence of shelfmarks).</p>
-                        <p>Financial documents surviving from our period include treasurers’ Receipt Books from a series which is complete only from 1637–8 to 1641–6, while a single book survives from earlier years, for 1614–15. The years just prior to 1642 are also represented by treasurers’ Disbursement Books for 1640–1 and 1641–2. A unique series of unbound scraps mostly associated with Inns of Court masques survives abundantly from 1612–13 and 1633–4, and occasionally for other years.</p>
-                        <p>The standard essential publications are Charles Henry Hopwood (ed), <hi rend="italic">Middle Temple Records</hi>, 3 vols and index (London, 1904–5); and <hi rend="italic">A Calendar of the Middle Temple Records</hi> (London, 1903).</p>
-                     
-                     <div n="Middle Temple Loose Papers">
-                        <head>Middle Temple Loose Papers</head>
-                        <p>When research for this collection began, the following loose papers, including many signed receipts still folded into little bundles, were maintained in archival boxes labelled, for example, ‘Papers and Accounts Concerning Masques.’ Recently the scraps have been unfolded and preserved in mylar sleeves gathered into ring binders. Most have been described and published by Orbison in ‘Traces of Two Jacobean Dramatic Performances at the Middle Temple,’ pp 55–62; ‘Research Opportunities at the Inns of Court,’ pp 27–33; and the Malone Society’s <hi rend="italic">Collections</hi> 12. A more recent publication is Elliott, ‘Musical and Dramatic Documents from the Middle Temple,’ pp 171–93.</p>
-                           <p>Various numbers have been assigned to these documents at various times, including numbers assigned or recorded by Orbison and Elliott. New numbers, assigned by the Middle Temple archivist in the course of recent organization and conservation, are followed here; previously assigned numbers are also recorded.</p>
-                           <p>We list the papers here, under four categories (GDE, MAA, MAB, TUT), in archive order. As all items are paper, and all are in English, those details are not individually noted. Single sheets are typically written on one side only, except for endorsements. Exceptions and bifolia are described in greater detail.</p>
-                     </div>
-                  </div>
-                     
-               </div>
-               
-               <div n="Inns of Chancery">
-                  <head>Inns of Chancery</head>
-                  
-                  <div n="Furnival's Inn">
-                     <head>Furnival's Inn</head>
-                     <p>An Inn of Chancery, Furnival’s Inn was apparently founded late in the fourteenth century and was purchased by Lincoln’s Inn in 1547. Situated between Portpool Street (later Gray’s Inn Road) on the west and Ely House (later Hatton Gardens) on the east, its imposing facade loomed over High Holborn. Having survived the Great Fire of London (1666), the Inn was dissolved in 1817 and replaced in 1897 by the Royal Assurance Society, whose building still stands.</p>
-                  </div>
-               </div>
-            </div>
-            
          <div xml:id="sources">
             <head>Sources</head>
-            <note>First set of sources corresponds with print 'IoC: The Documents' section, pages xlviii-lxxxii</note>
- 
+            
             <listBibl>
-<!-- REED Inns of Court volume with id's equating to "_R_EED _P_rint _C_ollection _I_nns of _C_ourt_ Volume _1_-->
-               <msDesc xml:id="RLPCIC1">
+               <!-- REED: Inns of Court, volumes 1-3 -->
+               <msDesc xml:id="REED_IC1">
                   <msIdentifier>
                      <settlement>Toronto, CA</settlement>
                      <repository sameAs="#REED"/>
-                     <msName>Inns of Court, Volume 1</msName>
+                     <msName>REED: Inns of Court, Volume 1 (print)</msName>
+                  </msIdentifier>                     
+               </msDesc>
+               <msDesc xml:id="REED_IC2">
+                  <msIdentifier>
+                     <settlement>Toronto, CA</settlement>
+                     <repository sameAs="#REED"/>
+                     <msName>REED: Inns of Court, Volume 2 (print)</msName>
+                  </msIdentifier>
+               </msDesc>
+               <msDesc xml:id="REED_IC3">
+                  <msIdentifier>
+                     <settlement>Toronto, CA</settlement>
+                     <repository sameAs="#REED"/>
+                     <msName>REED: Inns of Court, Volume 3 (print)</msName>
                   </msIdentifier>
                </msDesc>
                
-               <!-- REED Inns of Court volume with id's equating to "_R_EED _P_rint _C_ollection _I_nns of _C_ourt_ Volume _2_-->               
-               <msDesc xml:id="RPCIC2">
-                  <msIdentifier>
-                     <settlement>Toronto, CA</settlement>
-                     <repository sameAs="#REED"/>
-                     <msName>Inns of Court, Volume 2</msName>
-                  </msIdentifier>
-               </msDesc>
-               <!-- REED Inns of Court volume with id's equating to "_R_EED _P_rint _C_ollection _I_nns of _C_ourt_ Volume _3_-->              
-               <msDesc xml:id="IC3">
-                  <msIdentifier>
-                     <settlement>Toronto, CA</settlement>
-                     <repository sameAs="#REED"/>
-                     <msName>Inns of Court, Volume 3</msName>
-                  </msIdentifier>
-               </msDesc>
-
-<!-- Gray's Inn Pension Book  -->
-               <msDesc xml:id="RLGIPB01">
+               <!-- NB: all xml:id's for REED London documents begin with the prefix "RL". Wherever possible, information about the source includes name of inn, document series, and/or type of document following categories set out in the Documents section of REED: Inns of Court (print) -->
+               
+<!-- Gray's Inn Documents -->               
+               <!-- Gray's Inn Pension Book -->
+               <msDesc xml:id="RLGILBO1">
                   <msIdentifier>
                      <settlement>London</settlement>
                      <repository sameAs="#GIA"/>
                      <idno type="shelfmark">PEN/1/1</idno>
                      <msName>Gray's Inn Pension Book 1</msName>
                   </msIdentifier>
-                  <ab type="edDesc">Surviving Pension Books date from 1568–9. William Dugdale consulted an earlier volume, now lost. His <title>Origines Juridiciales</title> (1666) preserves entries from 1529–30 and 1550–1 (see pp 58–9, 74; see p lxxvi for document description). Financial accounts were entered in the Pension Book to 1582–3, and thereafter in Ledger Books. The library holds microfiche of the Pension Books produced in 1976 (skipping ff 234v–5), and digital photos of PEN/1/1 (Pension Book 1), taken in 2006 when the volume was disbound for conservation.<lb/>                    
+                  <ab type="edDesc">Surviving Pension Books date from 1568–9. William Dugdale consulted an earlier volume, now lost. His <title>Origines Juridiciales</title> (1666) preserves entries from 1529–30 and 1550–1 (see REED: Inns of Court, pp 58–9, 74; see p lxxvi for document description). Financial accounts were entered in the Pension Book to 1582–3, and thereafter in Ledger Books. The library holds microfiche of the Pension Books produced in 1976 (skipping ff 234v–5), and digital photos of PEN/1/1 (Pension Book 1), taken in 2006 when the volume was disbound for conservation.<lb/>                    
                      The standard essential publication is Reginald J. Fletcher (ed), <title>The Pension Book of Gray’s Inn (Records of the Honourable Society) 1569–1669</title>, vol 1 (London, 1901).</ab>
-                  <ab type="techDesc"><date>1569-1678</date>; Latin and English; paper; iii + 567; 375mm x 260mm;
-                     contemporary ink foliation 1–563 (40, 41, 84, 145 duplicated); 19th-c. binding in stamped leather over boards, title on spine in gold: ‘GRAY’S INN | BOOK OF ORDERS | VOL. I | 11 OF ELIZ. | TO | 18 OF CHA: 2. disbound and repaired 2006–7.’ Folio [i] contains a list of musicians dated 22 October 1618; ff [i verso] to [ii verso] contain a partial table of contents for the first 287 leaves; f [iii] is an account sheet from 1569.</ab>
+                  <ab type="techDesc"><date from-iso="1569" to-iso="1678">1569-1678</date>; Latin and English; paper; iii + 567; 375mm x 260mm;
+                     contemporary ink foliation 1–563 (40, 41, 84, 145 duplicated); 19th-c. binding in stamped leather over boards, title on spine in gold: ‘GRAY’S INN | BOOK OF ORDERS | VOL. I | 11 OF ELIZ. | TO | 18 OF CHA: 2. disbound and repaired 2006–7.’ Folio <del>i</del> contains a list of musicians dated 22 October 1618; ff <del>i verso</del> to <del>ii verso</del> contain a partial table of contents for the first 287 leaves; f <del>iii</del> is an account sheet from 1569.</ab>
                </msDesc>
-              
-<!-- Gray's Inn Admittance Book  -->               
-               <msDesc xml:id="RLGIAB01">
+               
+               <!-- Gray's Inn Admittance Book -->
+               <msDesc xml:id="RLGIABO1">
                   <msIdentifier>
                      <settlement>London</settlement>
                      <repository sameAs="#GIA"/>
                      <idno type="shelfmark">ADM/1/1</idno>
                      <msName>Gray's Inn Admittance Book</msName>
-                  </msIdentifier>                  
-                  <ab type="edDesc">Uniquely among Inns of Court admissions registers, the Gray’s Inn Admittance Book contains admissions entries signed by its Christmas prince, the ‘Prince of Purpoole’. The standard essential publication is Joseph Foster (ed), <title>The Register of Admissions to Gray’s Inn, 1521–1889, together with the Register of Marriages in Gray’s Inn Chapel, 1695–1754</title> (London, 1889).</ab>
-                  <ab type="techDesc"><date>1581–1649</date>; Latin and English; paper; v + 526 + v; 405mm x 280mm; pagination 5–1052 (pp 1–4, 7–8, 447–8 missing); rebound 1982 in half-leather, title on spine: ‘Gray’s Inn Admittance Book 1581–1649.’</ab>
+                  </msIdentifier>               
+                     <ab type="edDesc">Uniquely among Inns of Court admissions registers, the Gray’s Inn Admittance Book contains admissions entries signed by its Christmas prince, the ‘Prince of Purpoole’. The standard essential publication is Joseph Foster (ed), <title>The Register of Admissions to Gray’s Inn, 1521–1889, together with the Register of Marriages in Gray’s Inn Chapel, 1695–1754</title> (London, 1889).</ab>
+                     <ab type="techDesc"><date from-iso="1581" to-iso="1649">1581–1649</date>; Latin and English; paper; v + 526 + v; 405mm x 280mm; pagination 5–1052 (pp 1–4, 7–8, 447–8 missing); rebound 1982 in half-leather, title on spine: ‘Gray’s Inn Admittance Book 1581–1649.’</ab>
                </msDesc>
-
-<!-- Gray's Inn Ledger Book  --> 
+               
+               <!-- Gray's Inn Ledger Book -->
                <msDesc xml:id="RLGILB01">
                   <msIdentifier>
                      <settlement>London</settlement>
@@ -649,10 +1043,10 @@
                      <msName>Gray's Inn Ledger Book</msName>
                   </msIdentifier>
                   <ab type="edDesc">Accounts were kept from Easter to Easter by the pensioner, but from November to November by the treasurer. Despite the legend on the spine the earliest accounts are from 1584 (f 8v). Some butlers’ accounts are also included. Some accounts are out of order, apparently having been entered from rough books without strict attention to chronological sequence. Folios 91v–109v are largely blank, except for two accounts dated 1673 and 1677. No accounts survive for the years 1614–34. Two leaves covering receipts from 1634 to 1637 (ff 110–11v) are heavily damaged (but would not have contained payments relevant to REED).</ab>
-                  <ab type="techDesc"><date>1584–1680;</date> Latin and English; paper; ii + 406 + ii; 420mm x 270mm; contemporary ink foliation 1–225 and contemporary ink pagination 226–406; 19th-c. binding in leather over board, title on spine in gold: ‘LEDG. | A | 1586.’</ab>
+                  <ab type="techDesc"><date from-iso="1584" to-iso="1680">1584–1680;</date> Latin and English; paper; ii + 406 + ii; 420mm x 270mm; contemporary ink foliation 1–225 and contemporary ink pagination 226–406; 19th-c. binding in leather over board, title on spine in gold: ‘LEDG. | A | 1586.’</ab>
                </msDesc>
-
-<!-- Gray's Inn Account Book of John Bankes  --> 
+               
+               <!-- Gray's Inn Account Book of John Bankes -->
                <msDesc xml:id="RLGIJB01">
                   <msIdentifier>
                      <settlement>Dorchester</settlement>
@@ -661,12 +1055,12 @@
                      <msName>Account Book of John Bankes</msName>
                   </msIdentifier>
                   <ab type="edDesc">John Bankes was treasurer of Gray’s Inn.</ab>
-                  <ab type="techDesc"><date>1631–4</date>; English; paper; 15 quires of 12 leaves each except quire 3 with 14 leaves; 360mm x 220mm; unnumbered; writing on ff [1], [3–3v], [5], [8–10v] only; bound in parchment, f [1]: ‘Receits of Pentions Rent<hi rend="italic">es</hi> and other yearely profittes in the tyme of S<hi rend="italic">ir</hi> Iohn Bankes Treasurer since <hi rend="italic">(blank)</hi> November 1631.’</ab>
+                  <ab type="techDesc"><date from-iso="1631" to-iso="1634">1631–4</date>; English; paper; 15 quires of 12 leaves each except quire 3 with 14 leaves; 360mm x 220mm; unnumbered; writing on ff <del>1</del>, <del>3–3v</del>, <del>5</del>, <del>8–10v</del> only; bound in parchment, f <del>1</del>: ‘Receits of Pentions Rent<ex>es</ex> and other yearely profittes in the tyme of S<ex>ir</ex> Iohn Bankes Treasurer since <gap reason="blank"/> November 1631.’</ab>
                </msDesc>
-
-<!-- Inner Temple Documents -->
-<!-- Inner Temple Parliament Books, Book One -->
-               <msDesc xml:id="RLITPB01">
+               
+               <!-- Inner Temple Documents -->
+               <!-- Inner Temple Parliament Books, Book One -->
+               <msDesc xml:id="RLITP001">
                   <msIdentifier>
                      <settlement>London</settlement>
                      <repository sameAs="#ITA"/>
@@ -675,58 +1069,60 @@
                   </msIdentifier>
                   <ab type="edDesc">Most Inner Temple parliament acts were recorded in a series of Parliament Books. Occasionally, however, acts strayed into other documents, such as the act of 23 December 1624 concerning expenses at Christmas, which survives only in the Christmas Account Book for that year.<lb/>
                      Damaged by fire the three earliest Parliament Books are partly carbonized along all three outside edges, with the result that some lines of text and even whole entries are now illegible. Repaired and rebound c 1960 the volumes remain brittle and difficult to open (especially the first volume in the series).<lb/>
-                     The standard essential publication is F.A. Inderwick (ed),<title> A Calendar of the Inner Temple Records</title>, 2 vols (London, 1896, 1898). Lost text can sometimes be supplied from Inderwick.<note n="57">As a matter of historical justice it should be noted that the Calendar was extracted by William Page, while Inderwick wrote the Introduction.</note>
+                     The standard essential publication is F.A. Inderwick (ed),<title> A Calendar of the Inner Temple Records</title>, 2 vols (London, 1896, 1898). Lost text can sometimes be supplied from Inderwick.<note type="editorial">As a matter of historical justice it should be noted that the <title>Calendar</title> was extracted by William Page, while Inderwick wrote the Introduction.</note>
                   </ab>
-                  <ab type="techDesc">1505–89; Latin, French, and English; paper; iii + 247 + ii; because of damage by fire, leaves vary in size, averaging 410mm x 140mm, inset in modern backing paper 425mm x 165mm; modern pencil foliation 1–247 (1–12 are entirely or mostly blank, ff 47–86 bound out of order); bound in stiff parchment, with leather hinges and thongs.</ab>
+                  <ab type="techDesc"><date from-iso="1505" to-iso="1589">1505–89</date>; Latin, French, and English; paper; iii + 247 + ii; because of damage by fire, leaves vary in size, averaging 410mm x 140mm, inset in modern backing paper 425mm x 165mm; modern pencil foliation 1–247 (1–12 are entirely or mostly blank, ff 47–86 bound out of order); bound in stiff parchment, with leather hinges and thongs.</ab>
                </msDesc>
                
-<!-- Inner Temple Parliament Books, Book Two -->
-               <msDesc xml:id="RLITPB02">
+               <!-- Inner Temple Parliament Books, Book Two -->
+               <msDesc xml:id="RLITP002">
                   <msIdentifier>
                      <settlement>London</settlement>
                      <repository sameAs="#ITA"/>
                      <idno type="shelfmark">PAR/1/2</idno>
                      <msName>Inner Temple Parliament Books, Book Two</msName>
                   </msIdentifier>
-                  <ab type="techDesc"><date>1589–1638</date>; Latin and English; paper; ii + 266 + ii; 435mm x 180mm; earlier pen foliation on upper-right corners superseded by modern pencil foliation bottom right 1–265 (followed here); bound in red buckram with gold stamping on spine.</ab>
+                  <ab type="edDesc">See editorial description for Book One</ab>
+                  <ab type="techDesc"><date from-iso="1589" to-iso="1638">1589–1638</date>; Latin and English; paper; ii + 266 + ii; 435mm x 180mm; earlier pen foliation on upper-right corners superseded by modern pencil foliation bottom right 1–265 (followed here); bound in red buckram with gold stamping on spine.</ab>
                </msDesc>
-
-<!-- Inner Temple Parliament Books, Book Three -->
-               <msDesc xml:id="RLITPB03">
+               
+               <!-- Inner Temple Parliament Books, Book Three -->
+               <msDesc xml:id="RLITP003">
                   <msIdentifier>
                      <settlement>London</settlement>
                      <repository sameAs="#ITA"/>
                      <idno type="shelfmark">PAR/1/3</idno>
                      <msName>Inner Temple Parliament Books, Book Three</msName>
                   </msIdentifier>
-                  <ab type="techDesc"><date>1638–64</date>; Latin and English; paper; ii + 187 + ii; 435mm x 180mm; modern pencil foliation 1–186; bound in red buckram with gold stamping on spine.</ab>
+                  <ab type="edDesc">See editorial description for Book One</ab>
+                  <ab type="techDesc"><date from-iso="1638" to-iso="1664">1638–64</date>; Latin and English; paper; ii + 187 + ii; 435mm x 180mm; modern pencil foliation 1–186; bound in red buckram with gold stamping on spine.</ab>
                </msDesc>
-
-<!-- Inner Temple Admissions Register -->
-               <msDesc xml:id="RLITAR01">
+               
+               <!-- Inner Temple Admissions Register -->
+               <msDesc xml:id="RLITA001">
                   <msIdentifier>
                      <settlement>London</settlement>
                      <repository sameAs="#ITA"/>
                      <idno type="shelfmark">ADM/1/1</idno>
                      <msName>Inner Temple Admissions Register</msName>
                   </msIdentifier>
-                  <ab type="techDesc"><date>1547–61</date>; English; paper; vi + 47 + iv; 392mm x 150mm; contemporary ink pagination; all pages torn at sides and now archivally repaired by being pasted onto new paper; rebound in modern brown cloth, title on red leather insert on spine: ‘ADMISSIONS 1547– 1571.’ Bottom two thirds of p 46 and all of p 47 (missing top quarter of page) contain a draft list of payments and receipts.</ab>
+                  <ab type="techDesc"><date from-iso="1547" to-iso="1561">1547–61</date>; English; paper; vi + 47 + iv; 392mm x 150mm; contemporary ink pagination; all pages torn at sides and now archivally repaired by being pasted onto new paper; rebound in modern brown cloth, title on red leather insert on spine: ‘ADMISSIONS 1547– 1571.’ Bottom two thirds of p 46 and all of p 47 (missing top quarter of page) contain a draft list of payments and receipts.</ab>
                </msDesc>
-
-<!-- Inner Temple Treasurers', Stewards', and Butlers' Accounts -->
-               <msDesc xml:id="RLITTA01">
+               
+               <!-- Inner Temple Treasurers', Stewards', and Butlers' Accounts -->
+               <msDesc xml:id="RLITT001">
                   <msIdentifier>
                      <settlement>London</settlement>
                      <repository sameAs="#ITA"/>
-                        <idno type="shelfmark">FIN/1/1</idno>
-                        <msName>Inner Temple Treasurers', Stewards', and Butlers' Accounts</msName>
+                     <idno type="shelfmark">FIN/1/1</idno>
+                     <msName>Inner Temple Treasurers', Stewards', and Butlers' Accounts</msName>
                   </msIdentifier>
                   <ab type="edDesc">Early treasurers’ accounts survive in one volume only, 1606–48; the same volume preserves occasional accounts of the steward and butler. For the period 1606–9 separate accounts are given for the treasurer, the steward, and the butler. Thereafter accounts are undivided.<lb/>
                      In addition to the documents described below, two fragmentary copies of the treasurers’ accounts for 1621–2 and 1623–4 survive in the Birmingham Reference Library: Coventry MSS 660743, nos. 35 &amp; 36. These are duplicate copies which originally belonged to Sir Thomas Coventry, the treasurer. Each lacks the page recording payments for music and plays in those years, so are not collated here.</ab>
                   <ab type="techDesc"><date>1605–48</date>; Latin and English; paper; 321 leaves; 450mm x 160mm; modern pencil foliation a–f, 1–316 (f a originally a paste-down); original stamped leather binding, badly deteriorated.</ab>
                </msDesc>
-
-<!-- Inner Temple Christmas Accounts, 1614-82 -->
+               
+               <!-- Inner Temple Christmas Accounts, 1614-82 -->
                <msDesc xml:id="RLITCA01">
                   <msIdentifier>
                      <settlement>London</settlement>
@@ -734,11 +1130,12 @@
                      <idno type="shelfmark">COM/9/1</idno>
                      <msName>Inner Temple Christmas Accounts, 1614-82</msName>
                   </msIdentifier>
-                  <ab type="edDesc">The Christmas account book for 1614–82 is unique among the surviving records of the Inns, though there must have been others of its kind. It contains receipts and payments of the stewards of Christmas commons and is cited here largely for weekly expenditures on music for the revels. The stewards (of whom there were customarily three or four) entered receipts and expenses for the four weeks of Christmas commons beginning at the feast of St Thomas (21 December) and ending a week after Epiphany. For some years only three weeks of commons are recorded. Expenditures for food and drink are recorded daily, other expenses weekly. The volume also contains the text of some acts of parliament. Accounts for the following years are missing: 1625–6, 1630–1, 1632–40, 1642–60.</ab>
-                  <ab type="techDesc"><date>1614–82</date>; Latin and English; paper; i + 229; 445mm x 175mm; modern pencil foliation 1–229 (ff 133–226 blank); original tooled leather binding with 3 leather straps.</ab>
+                  <ab type="edDesc">The Christmas account book for 1614–82 is unique among the surviving records of the Inns, though there must have been others of its kind. It contains receipts and payments of the stewards of Christmas commons and is cited here largely for weekly expenditures on music for the revels. The stewards (of whom there were customarily three or four) entered receipts and expenses for the four weeks of Christmas commons beginning at the feast of St Thomas (21 December) and ending a week after Epiphany. For some years only three weeks of commons are recorded. Expenditures for food and drink are recorded daily, other expenses weekly. The volume also contains the text of some acts of parliament. Accounts for the following years are missing: 1625–6, 1630–1, 1632–40, 1642–60.<lb/>
+                     The Christmas account of William York for a single first week of the Christmas commons of 1633 fills a lacuna in the Christmas Account Book. A second account, kept by John Williams, another 1633 Christmas steward, was identified by archivists at the Derbyshire Record Office in 1988 (D258/Box 30/8), but as it yields no entries of REED interest further details are omitted here. A third account was kept by Henry Kemp for the third and fourth weeks of Christmas in this same year. All three documents are associated with the ‘Gell papers,’ documents from 1610–48 originally gathered by Thomas Gell of the Inner Temple (admitted 28 May 1612). Henry Chandos-Pole (1829–1902), second son of Edward Sacheverell Chandos-Pole, inherited Hopton Hall and estate from Philip Gell, formally taking the name Gell in 1865. The papers are now allocated permanently to the Derbyshire Record Office. Searches for the third docu- ment in the Derbyshire Record Office in 1988 and again in 1991 were unsuccessful.</ab>
+                  <ab type="techDesc"><date from-iso="1614" to-iso="1682">1614–82</date>; Latin and English; paper; i + 229; 445mm x 175mm; modern pencil foliation 1–229 (ff 133–226 blank); original tooled leather binding with 3 leather straps.</ab>
                </msDesc>
                
-<!-- Inner Temple Christmas Accounts, 1633 -->
+               <!-- Inner Temple Christmas Accounts, 1633 -->
                <msDesc xml:id="RLITCA02">
                   <msIdentifier>
                      <settlement>Matlock, Derbyshire</settlement>
@@ -747,31 +1144,32 @@
                      <msName>Inner Temple Christmas Accounts, 1633</msName>
                   </msIdentifier>
                   <ab type="edDesc">The Christmas account of William York for a single first week of the Christmas commons of 1633 fills a lacuna in the Christmas Account Book. A second account, kept by John Williams, another 1633 Christmas steward, was identified by archivists at the Derbyshire Record Office in 1988 (D258/Box 30/8), but as it yields no entries of REED interest further details are omitted here. A third account was kept by Henry Kemp for the third and fourth weeks of Christmas in this same year. All three documents are associated with the ‘Gell papers,’ documents from 1610–48 originally gathered by Thomas Gell of the Inner Temple (admitted 28 May 1612). Henry Chandos-Pole (1829–1902), second son of Edward Sacheverell Chandos-Pole, inherited Hopton Hall and estate from Philip Gell, formally taking the name Gell in 1865. The papers are now allocated permanently to the Derbyshire Record Office. Searches for the third document in the Derbyshire Record Office in 1988 and again in 1991 were unsuccessful.</ab>
-                  <ab type="techDesc">December 1633; English; paper; single bifolium half-sheet, writing on both sides; unnumbered; title at the top of first folio: ‘Inner Temple | The Accompt of William Yorke one of the Steward<ex>es</ex> for the ffirst weeke of chr<ex>is</ex>tmas Anno do<ex>mi</ex>ni 1633.’</ab>
+                  <ab type="techDesc"><date when-iso="1633-12">December 1633</date>; English; paper; single bifolium half-sheet, writing on both sides; unnumbered; title at the top of first folio: ‘Inner Temple | The Accompt of William Yorke one of the Steward<ex>es</ex> for the ffirst weeke of chr<ex>is</ex>tmas Anno do<ex>mi</ex>ni 1633.’</ab>
                </msDesc>
-                  
-
-<!-- Inner Temple, Expense Memorandum of Thomas Nash -->
-               <msDesc xml:id="RLITTN01">
+               
+               
+               <!-- Inner Temple, Expense Memorandum of Thomas Nash -->
+               <msDesc xml:id="RLITE001">
                   <msIdentifier>
                      <settlement>London</settlement>
                      <repository sameAs="#ITL"/>
                      <msName>Expense Memorandum of Thomas Nashe</msName>
                   </msIdentifier>
                   <ab type="edDesc">This Thomas Nash, not to be confused with the playwright of the same name, was a barrister (called 1617, d. 1648) with chambers in Hare Court. In July 1634 he was steward for the reader’s feast.</ab>
-                  <ab type="techDesc">MS Misc. 30, no. 63; 1634?; English; paper; single sheet; 200mm x 65mm; affixed to modern backing-paper and endorsed: 'his desire is: That Tho<ex>mas</ex> Hall his nephew may <add place="above">be</add> admitted of the howse, &amp; into his Chamber &amp; all the dutyes shall be paid.’</ab>
+                  <ab type="techDesc">MS Misc. 30, no. 63; <date when-iso="1634" cert="speculative">1634?</date>; English; paper; single sheet; 200mm x 65mm; affixed to modern backing-paper and endorsed: 'his desire is: That Tho<ex>mas</ex> Hall his nephew may <add place="above">be</add> admitted of the howse, &amp; into his Chamber &amp; all the dutyes shall be paid.’</ab>
                </msDesc>
 
-<!-- Lincoln's Inn Documents -->
-<!-- Lincoln's Inn Black Books -->
+               <!-- Lincoln's Inn Documents -->
+               <!-- Lincoln's Inn Black Books -->
                <msDesc xml:id="RLLIBB01">
                   <msIdentifier>
                      <settlement>London</settlement>
                      <repository sameAs="#LIA"/>
                      <msName>Black Book I</msName>
                   </msIdentifier>
-                  <ab type="edDesc"/>
-                  <ab type="techDesc">A1a1 (Black Book 1); 1422–71; Latin, French, and English; paper; v + 185 + vi; 210mm x 135mm; modern pencil foliation (leaf missing following f 160, containing treasurers’ accounts for 1469–70; leaf missing following f 180, remaining only as a fragment; ff 49–50, 70, 72–5, and 82 blank), 17th-c. ink foliation 1–180; title (in 17th-c. hand) on f 1: 'Liber hospicij de Lincolsin.'</ab>
+                  <ab type="edDesc">All eight volumes described below were rebound in 1965 in black morocco, giving them a uniform appearance despite notable differences in size (from 210mm x 135mm to 310mm x 205mm). Foliation is sometimes nightmarish, as for example in A1a7 (Black Book 7), due to successive inconsistencies, errors, corrections, and rationalizations. A set of microfilms is preserved in the Public Record Office (TNA: PRO 30/77): the eight volumes referenced here occupy the first five reels.<lb/>
+                     The standard essential publication is William Paley Baildon (ed), <title>The Records of the Honorable Society of Lincoln’s Inn. The Black Books</title>, 4 vols (London, 1897).<note type="editorial">Folio references in Baildon must sometimes be adjusted to match entries as the Black Books are now foliated</note></ab>
+                  <ab type="techDesc">A1a1 (Black Book 1); <date from-iso="1422" to-iso="1471">1422–71</date>; Latin, French, and English; paper; v + 185 + vi; 210mm x 135mm; modern pencil foliation (leaf missing following f 160, containing treasurers’ accounts for 1469–70; leaf missing following f 180, remaining only as a fragment; ff 49–50, 70, 72–5, and 82 blank), 17th-c. ink foliation 1–180; title (in 17th-c. hand) on f 1: 'Liber hospicij de Lincolsin.'</ab>
                </msDesc>
                
                <msDesc xml:id="RLLIBB02">
@@ -780,10 +1178,10 @@
                      <repository sameAs="#LIA"/>
                      <msName>Black Book 2</msName>
                   </msIdentifier>
-                  <ab type="edDesc"/>
-                  <ab type="techDesc">A1a2 (Black Book 2); 1472–1507; Latin, French, and English; paper; originally 2 volumes, bound together in the early 16th c., now referenced respectively as Part 1 and Part 2:<lb/>
-                     Part 1: 57 leaves; 280mm x 210mm; modern pencil foliation 1–57 supersedes early ink foliation which shows that the volume originally had 65 leaves. On f 1 of Part 1 is written ‘liber 2d’; ff 1v–16 contain notes and lists of names belonging to part of the period covered by Black Book 1 (1440–71); ff 17–57 contain the records of the Inn 1472–86; part of f 57 contains a short list of contents of Part 1 in a 17th-c. hand.<lb/>
-                     Part 2: ii + 83; 210mm x 295mm; early ink foliation 1–84 (f 69 now missing). Folio [i] of Part 2, the original cover, bears the title ‘[Liber secundus] liber 3’; f [ii] has a partial list of contents in a 17th-c. hand; ff 1–84 contain the records of the Inn 1487–1506; f 84v reads: ‘liber secundus.’</ab>
+                  <ab type="edDesc">See editorial description for Black Book 1</ab>
+                  <ab type="techDesc">A1a2 (Black Book 2); <date from-iso="1472" to-iso="1507">1472–1507</date>; Latin, French, and English; paper; originally 2 volumes, bound together in the early 16th c., now referenced respectively as Part 1 and Part 2:<lb/>
+                     Part 1: 57 leaves; 280mm x 210mm; modern pencil foliation 1–57 supersedes early ink foliation which shows that the volume originally had 65 leaves. On f 1 of Part 1 is written ‘liber 2<hi rend="superscript">d</hi>’; ff 1v–16 contain notes and lists of names belonging to part of the period covered by Black Book 1 (<date from-iso="1440" to-iso="1471">1440–71</date>); ff 17–57 contain the records of the Inn <date from-iso="1472" to-iso="1486">1472–86</date>; part of f 57 contains a short list of contents of Part 1 in a 17th-c. hand.<lb/>
+                     Part 2: ii + 83; 210mm x 295mm; early ink foliation 1–84 (f 69 now missing). Folio <del>i</del> of Part 2, the original cover, bears the title ‘<del>Liber secundus</del> liber 3’; f <del>ii</del> has a partial list of contents in a 17th-c. hand; ff 1–84 contain the records of the Inn <date from-iso="1487" to-iso="1506">1487–1506</date>; f 84v reads: ‘liber secundus.’</ab>
                </msDesc>
                
                <msDesc xml:id="RLLIBB03">
@@ -792,394 +1190,522 @@
                      <repository sameAs="#LIA"/>
                      <msName>Black Book 3</msName>
                   </msIdentifier>
-                  <ab type="edDesc"/>
-                  <ab type="techDesc">
-                     
-                     
-<!--               
-               <!-/- for Middle Temple Loose Papers Three Categories - each with edDesc: GDE, MAA, MAB, TUT -/->               
+                  <ab type="edDesc">See editorial description for Black Book 1</ab>
+                  <ab type="techDesc">A1a3 (Black Book 3); <date from-iso="1506" to-iso="1530">1506–30</date>; Latin, French, and English; paper; v + 223 + v; 305mm x 210mm; contemporary ink foliation 1–190, supplemented by an identical modern pencil foliation which includes a half-sheet foliated ‘143a’ (last 32 leaves blank); a flyleaf seen by Baildon, containing the price of the book (‘xij<hi rend="superscript">d</hi>’) and a verse inscription, now wanting.</ab>
+               </msDesc>
                
-               <!-/- Go back and fill in pages lvii to lxii -/->
-               
-               <msDesc xml:id="RLLIB05">
+               <msDesc xml:id="RLLIBB04">
                   <msIdentifier>
                      <settlement>London</settlement>
-                     <repository sameAs="#LIL"/>
-                     <idno type="shelfmark">c</idno>
-                     <msName>Lincoln's Inn Black Book 5</msName>
+                     <repository sameAs="#LIA"/>
+                     <msName>Black Book 4</msName>
                   </msIdentifier>
-                  <ab type="edDesc">
-                     
-
-<!-/- (Reed_London_Furnivals_Inn_Lincoln_Inn) -->
-               <!-- Inns of Chancery / Furnival's Inn -/->
-               <msDesc xml:id="RLFILI">
+                  <ab type="edDesc">See editorial description for Black Book 1</ab>
+                  <ab type="techDesc">A1a4 (Black Book 4); <date from-iso="1530" to-iso="1562">1530–62</date>; Latin, French, and English; paper; v + 387 + viii; 295mm x 200mm; contemporary ink foliation 1–387 (ff 56–7, 67–8, 89–90, 383–5 blank; 386 missing), front flyleaf numbered ‘A’ in pencil; front flyleaf bears title ‘liber quartus.’ Folios 380–2v contain partial indexes in 2 different 17th-c. hands.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLLIBB05">
                   <msIdentifier>
                      <settlement>London</settlement>
-                     <repository sameAs="#MTL"/>
-                     <idno type="shelfmark">LOFT MS 97</idno>
-                     <msName>Furnival’s Inn Accounts in a History of Lincoln’s Inn (AC) </msName>                     
+                     <repository sameAs="#LIA"/>
+                  <msName>Black Book 5</msName>
                   </msIdentifier>
-                  <ab type="edDesc">
-                     Furnival’s Inn, which has no archive of its own, is represented here by a single manuscript housed in the library of the Middle Temple. The full volume contains transcriptions from various sources, all dealing with Lincoln’s Inn and its associated Inns of Chancery. The unidentified compiler may have assembled his materials with an eye to publication. 
-                     Furnival’s Inn is treated ff 83–93v, while the source documents are described (f 84) as ‘the Auncyent Books of this house, bothe faire and legible in a Court hand.’ Foliation of the MS suggests the source material was out of order and this was not corrected by the compiler. Chronological order requires that the leaves be read in this sequence: ff 89, 90v, 90, 91v, 91, 89v, and 92. 
-                     The MS was given to the Middle Temple (rather than to Lincoln’s Inn, where it would more logically belong) in 1910 by Sir Rufus D. Isaacs (Lord Reading). A full transcription is in D.S. Bland (ed), Early Records of Furnival’s Inn (Newcastle upon Tyne, 1957).</ab>
-                  <ab type="techDesc">c 1639; Latin and English; paper; ii + 93 + ii; modern pencil foliation 1–93 (some leaves bear earlier ink foliation, ending at ‘394’ on f 92); repaired and rebound in 1927; title on spine: ‘History of | Lincolns Inn | [rule] | Seventeenth Century | Manuscript.’ Many passages have been cancelled with x’s or horizontal strikethrough.</ab>
-               </msDesc>
-
-
-<!-/- Diplomatic Letters -->
- 
-<!-- Diplomatic Letters, Spain, 1: id RLDLS1 (Diplomatic_letters Spain 1)-/->
-               <msDesc xml:id="RLDLS1">
-                  <msIdentifier>
-                     <settlement>Simancas</settlement>
-                     <repository sameAs="#AGS"/>
-                     <idno type="shelfmark">Legajo 818, 11</idno>
-                     <msName>Diplomatic Letters: Letters of Guzman de Silva, Spanish Ambassador, to the King of Spain and the Duchess of Parma</msName>
-                  </msIdentifier>
-                  <ab type="edDesc">For English translations of complete letters, see Martin A.S. Hume (ed), Calendar of Letters and State Papers, Relating to English Affairs, Preserved Principally in the Archives of Simancas (London, 1892; rpt Nendeln, 1971), 404–6, 564–6.</ab>
-                  <ab type="techDesc"><date>12 March 1564/5</date>; Spanish; paper; bifolia; 333mm x 225mm (text area varies); unnumbered; written in a scribal hand with Guzman’s signature at the end of each text; bound in guardbook.</ab>
-               </msDesc>
-
-<!-/- Diplomatic Letters, Spain, 2: id RLDLS2 (Diplomatic_letters Spain 2)-/->
-               <msDesc xml:id="RLDLS2">
-                  <msIdentifier>
-                     <settlement>Simancas, Spain</settlement>
-                     <repository sameAs="#AGS"/>
-                     <idno type="shelfmark">Legajo 819, 105</idno>
-                     <msName>Diplomatic Letters: Letters of Guzman de Silva, Spanish Ambassador, to the King of Spain and the Duchess of Parma</msName>
-                  </msIdentifier>
-                  <ab type="edDesc">See RLDL1</ab>
-                  <ab type="techDesc"><date>6 July 1566</date>; Spanish; paper; bifolia; 333mm x 228mm (text area varies); unnumbered; written in a scribal hand with Guzman’s signature at the end of each text; bound in guardbook.</ab>
-               </msDesc>
-
-<!-/- Diplomatic Letters, Italy, 1: id RLDLI1 (Diplomatic_letters Italy 1)-/->
-               <msDesc xml:id="RLDLI1">
-                  <msIdentifier>
-                     <settlement>Venice, Italy</settlement>
-                     <repository sameAs="#ASV"/>
-                     <!-/-<idno type="#a"/>-/->
-                     <msName>Diplomatic Letters: Letters of Venetian Ambassadors to the Doge</msName>
-                  </msIdentifier>
-                  <ab type="edDesc">For English translations of complete letters, see Allen B. Hinds (ed), Calendar of State Papers and Manuscripts Relating to English Affairs, Existing in the Archives and Collections of Venice, and in other Libraries of Northern Italy, vol 16 (London, 1910), 579; and vol 23 (London, 1921), 26, 180, 195. The editors are unable to provide full document descriptions of these manuscripts because they were being repaired at the time of publication.</ab>
-                  <ab type="techDesc">Senato, dispacci ambasciatori, Inghilterra, filza XXI; <date>16 February 1620/1</date>; Italian; paper.</ab>
+                     <ab type="edDesc">See editorial description for Black Book 1</ab>
+                  <ab type="techDesc">A1a5 (Black Book 5); <date from-iso="1562" to-iso="1593">1562–93</date>; Latin and English; paper; iii + 538 + iii; 310mm x 205mm; modern pencil foliation 1–10, followed by original ink foliation 1–528 (gathering containing ff 502–19 now misbound between ff 489 and 490; ff 2–10, 234–8, 511, 518 blank). Folio 1 has the title ‘Liber Quintus’ but also bears the earlier ink numbering ‘Fo. 27’ and some notes on council meetings in 1563. Folios 522–6v contain an alphabetical subject-index in a late 16th- or early 17th-c. hand (musicians are cross-indexed under ‘Disportes’).</ab>
                </msDesc>
                
-<!-/- Diplomatic Letters, Italy, 2: id RLDLI2 (Diplomatic_letters Italy 2)-/->
-               <msDesc xml:id="RLDLI2">
-                  <msIdentifier>
-                     <settlement>Venice, Italy</settlement>
-                     <repository sameAs="#ASV"/>
-                     <!-/-<idno type="n/a"/>-/->
-                     <msName>Diplomatic Letters: Letters of Venetian Ambassadors to the Doge</msName>
-                  </msIdentifier>
-                  <ab type="edDesc">See RLDL3</ab>
-                  <ab type="techDesc">Senato, dispacci ambasciatori, Inghilterra, filza XXXV; <date>27 December 1633</date>; Italian; paper.</ab>
-               </msDesc>
-               
-               <msDesc xml:id="RLDL5">
-                  <msIdentifier>
-                     <settlement>Venice, Italy</settlement>
-                     <!-/-<idno type="n/a"/>-/->
-                     <msName>Diplomatic Letters: Letters of Venetian Ambassadors to the Doge</msName>
-                  </msIdentifier>
-                  <ab type="edDesc">See RLDL3</ab>
-                  <ab type="techDesc">Senato, dispacci ambasciatori, Inghilterra, filza XXXV; <date>7 February 1633/4</date>; Italian; paper.</ab>
-               </msDesc>
-
-<!-/- Private Correspondence -/->
-
-<!-/- Private Correspondence, Inner Temple to Privy Council: id RLP001 (Private_correspondence 001) NB: making this a longer # to anticipate for large quantity of correspondence-/->               
-               <msDesc xml:id="RLP001">
+               <msDesc xml:id="RLLIBB06">
                   <msIdentifier>
                      <settlement>London</settlement>
-                     <repository sameAs="#TNA"/>
-                     <idno type="shelfmark">Public Record Office, SP 16/441/46</idno>
-                     <msName>Letter of the Inner Temple to the Privy Council</msName>
+                     <repository sameAs="#LIA"/>
+                     <msName>Black Book 6</msName>
                   </msIdentifier>
-                  <ab type="edDesc"/>
-                  <ab type="techDesc"><date>5 January 1639/40</date>; English; paper; single sheet; 335mm x 235mm. Unsigned copy, now bound and foliated as ff 126–7.</ab>
+                  <ab type="edDesc">See editorial description for Black Book 1</ab>
+                  <ab type="techDesc">A1a6 (Black Book 6); <date from-iso="1592" to-iso="1618">1592–1618</date>; Latin and English; paper; viii + 530 + v; 295mm x 195mm; contemporary ink foliation 1–704, accidentally or deliberately omitting ff 30, 77, 110–99, 202, and 220–99 (some blank pages have no folio numbers, some pairs of leaves have the same number with ‘A’ or ‘B’ added; a note by the binder on f 704 states erroneously that these leaves (rather than merely their numbers) are ‘wanting’); on f <del>vi</del> is the title: ‘Liber Sextus.’ Folios 700–3v contain an alphabetical subject-index in a 17th-c. hand.</ab>
                </msDesc>
                
-<!-/- Private Correspondence, William Baldwin to Sir Thomas Cawarden: id RLP002 (Private_correspondence 002)-/->     
-               <msDesc xml:id="RLP002">
-                  <msIdentifier>
-                     <settlement>Washington, DC</settlement>
-                     <repository sameAs="#folger-shakespeare-library"/>
-                     <idno type="shelfmark">MS L.b.298 </idno>
-                     <msName>Letter of William Baldwin to Sir Thomas Cawarden</msName>
-                  </msIdentifier>
-                  <ab type="edDesc"></ab>
-                  <ab type="techDesc"><date>c 1555</date>;English; paper; bifolium (no longer conjugate except by repair); 307mm x 218mm; previous foliation 115; addressed: ‘To the right wurshipfull Syr Thomas Caverden dd’; endorsed: ‘The note of a playe and the nayemes of players Anno 1556,’ ‘Revylls,’ ‘1556,’ ‘a lettre of a play’.</ab>
-               </msDesc>
-               
-<!-/- Private Correspondence, Francis Bacon to William Cecil: id RLP003 (Private_correspondence 003)-/-> 
-               <msDesc xml:id="RLP003">
+               <msDesc xml:id="RLLIBB07">
                   <msIdentifier>
                      <settlement>London</settlement>
-                     <repository sameAs="#BL"/>
-                     <idno type="shelfmark">Lansdowne MS 107</idno>
-                     <msName>Letter of Francis Bacon to William Cecil, Lord Burghley</msName>
+                     <repository sameAs="#LIA"/>
+                     <msName>Black Book 7</msName>
                   </msIdentifier>
-                  <ab type="edDesc">Francis Bacon and William Cecil were members of Gray’s Inn. This letter was clearly composed before 4 August 1598, the date of Burghley’s death. Since both the proposed masque and a previous masque are associated with ‘my lord Chamberlayne,’ that official was probably Henry Carey, first Baron Hunsdon (1526–96), rather than his successor, William Brooke (1527–97), who served only a year before his death. The previous masque may have been part of Gesta Grayorum.</ab>
-                  <ab type="techDesc">undated; English; paper; single sheet; 175mm x 260mm; written on 1 side only. Mounted in guardbook and numbered as f 13.</ab>
+                  <ab type="edDesc">See editorial description for Black Book 1</ab>
+                  <ab type="techDesc">A1a7 (Black Book 7); <date from-iso="1618" to-iso="1635">1618–35</date>; Latin and English; paper; ix + 458 + v; 295mm x 185mm; contemporary ink foliation 1–211 followed by modern pencil foliation 212–468 (ff 8–11 missing, folio numbers 192 and 290–300 skipped over due to misfoliation, ff 27, 35–45, 74–6, 101–20, 359, 464–8 blank); f <del>vi</del> endorsed: ‘1619 to 1635.’ Folios 461–3v contain an index in a contemporary hand.<lb/>
+                     The volume as seen by Baildon in the 1890s had several pages bound out of order in the first gathering, which had sometime previously degenerated into loose sheets (Baildon, vol 2, p 210). The leaves which he referred to as 5, 6, 7, 8, 9, and 10 are now numbered 1, 2, 5, 6, 7, and 4 respectively and bound in numerical order. The missing ff 8–11 must originally have been the first four leaves of the gathering, containing council orders from December 1618 to April 1619. Also, due to a foliation error now corrected, after f 211 the modern reader must add 90 to Baildon’s folio numbers (after f 289 the difference has been smoothed out by the modern foliation to 100). No accounts were entered for 1619–20, 1620–1, or 1621–2.</ab>
                </msDesc>
+               
+               <msDesc xml:id="RLLIBB08">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#LIA"/>
+                     <msName>Black Book 8</msName>
+                  </msIdentifier>
+                  <ab type="edDesc">See editorial description for Black Book 1</ab>
+                  <ab type="techDesc">A1a8 (Black Book 8); <date from-iso="1635" to-iso="1668">1635–68</date>; Latin and English; paper; xii + 454 + vii; 295mm x 190mm; contemporary ink foliation 361–773, continued from vol 7 which originally ended at f 360 (ff 774–90, 794–9 blank); on f 815 in an 18th-c. hand: ‘Finis 1668.’ Folios 800–5 contain an uncompleted index in the same hand; ff 792–3 contain an index in a contemporary hand.</ab>
+               </msDesc>
+               
+<!-- Middle Temple Documents -->    
+               <!-- Middle Temple Parliament Books -->
+               
+               <msDesc xml:id="RLMTPB01">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Parliament Book 1</msName>
+                  </msIdentifier>
+                  <ab type="edDesc">The governing body of the Middle Temple is called the parliament; its orders, called minutes of parliament, are preserved in volumes called Parliament Books. Middle Temple Parliament Books survive from 1500, except that the second volume, for 1524–51, is lost (whence number ‘2’ is omitted from the sequence of shelfmarks).</ab>
+                  <ab type="techDesc">MT.1/MPA/No. 1; <date from-iso="1500" to-iso="1524">1500-24</date>; Latin; paper; ii + <ex>c</ex> 100 + ii; 425mm x 150mm; modern ink foliation 1–48 (last c 50 leaves blank); bound in leather over board in 1926 (some edges repaired), gold-stamped title on spine: ‘A | I | 6 HEN. 7 | TO | 6 HEN. 8 | 1500 1524.’</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTPB03">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Parliament Book 3</msName>
+                  </msIdentifier>
+                  <ab type="edDesc">See editorial description for Parliament Book 1</ab>
+                  <ab type="techDesc">MT.1/MPA/No. 3; <date from-iso="1551" to-iso="1610">1551–1610</date>; English; paper; 413 leaves; 405mm x 150mm; contemporary ink foliation 1–413; repaired and rebound in vellum in 1931, no title page, gold-stamped title on spine: ‘D | R | 1551 | TO | 1610.’</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTPB04">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Parliament Book 4</msName>
+                  </msIdentifier>
+                  <ab type="edDesc">See editorial description for Parliament Book 1</ab>
+                  <ab type="techDesc">MT.1/MPA/No. 4; <date from-iso="1610" to-iso="1626">1610–26</date>; Latin and English; paper; ii + 208 + i; 410mm x 160mm; contemporary ink foliation 1–208; rebound in vellum in 1926, no title page, title on blank band on spine: ‘C | 3 | 1610 | TO | 1626.’</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTPB05">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Parliament Book 5</msName>
+                  </msIdentifier>
+                  <ab type="edDesc">See editorial description for Parliament Book 1</ab>
+                  <ab type="techDesc">MT.1/MPA/No. 5; <date from-iso="1626" to-iso="1658">1626–58</date>; Latin and English; paper; i + 304 + i; in contemporary ink, first foliated 1–38, then paginated 40–496 (f <del>290</del> blank, f <del>291</del> unnumbered, ff <del>292–304</del> paginated in contemporary ink 1–25); bound in vellum over board in 1926; gold-stamped title on spine: ‘B | 2 | 1626 | TO | 1658.’</ab>
+               </msDesc>
+               
+               <!-- Middle Temple Treasurers' Receipts -->
+               <msDesc xml:id="RLMTTR01">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Treasurers' Receipts, 1613-15</msName>
+                  </msIdentifier>
+                  <ab type="edDesc">Financial documents surviving from our period include treasurers’ Receipt Books from a series which is complete only from 1637–8 to 1641–6, while a single book survives from earlier years, for 1614–15. The years just prior to 1642 are also represented by treasurers’ Disbursement Books for 1640–1 and 1641–2. A unique series of unbound scraps mostly associated with Inns of Court masques survives abundantly from 1612–13 and 1633–4 (see pp lvii–lxii), and occasionally for other years.</ab>
+                  <ab type="techDesc">MT.2/TRB/1a; <date from-iso="1613" to-iso="1615">1613–15</date>; English; paper; i + 34 + i; 314mm x 200mm; modern pencil foliation; outer paper sheet serves as cover, stabbed and sewn, on cover: ‘Ioh<ex>ann</ex>es Iermy ar<ex>miger</ex> Thesaur<ex>arius</ex> Anno d<ex>omi</ex>ni 1614 &amp; 1615.’</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTTR02">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Treasurers' Receipts, 1637-9</msName>
+                  </msIdentifier>
+                     <ab type="edDesc">See editorial description for Treasurers' Receipts, 1613-15</ab>
+                  <ab type="techDesc">MT.2/TRB/1; <date from-iso="1637" to-iso="1639">1637–9</date>; English; paper; 91 leaves; 290mm x 200mm; contemporary ink foliation 1–91; f 91 glued into protective cover, back flyleaf dates the repair 25 January 1929; bound in vellum, title on cover: ‘A Booke of/ Accounts An: / Domini 1638: / Conyers /.’<lb/>
+                     Sometime after it was repaired in 1929 this volume was misplaced, until 1989, when it was rediscovered in the muniment room. The accounts run from <date from-iso="1637-10-14" to-iso="1639-10-11">14 October 1637 to 11 October 1639</date>. Those for <date from-iso="1637" to-iso="1638">1637–8</date> occupy ff 1–40; for <date from-iso="1638" to-iso="1639">1638–9</date>, ff 41–91. The receipts for each year are numbered consecutively and written in ruled boxes, with the date in the left margin. William Conyers was treasurer in 1638–9, replacing Richard Lane.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTTR03">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Treasurers' Receipts, 1639-40</msName>
+                  </msIdentifier>
+                  <ab type="edDesc">See editorial description for Treasurers' Receipts, 1613-15</ab>
+                  <ab type="techDesc">MT.2/TRB/2; <date from-iso="1639" to-iso="1640">1639–40</date>; English; paper; 67 leaves; 285mm x 190mm; modern pencil foliation 1–48 (first 12 and last 7 leaves ruled but unnumbered); vertical rules create left and right columns on each page, horizontal rules added subsequently to make boxes for each entry; bound in vellum. Each entry is numbered.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTTR04">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Treasurers' Receipts, 1640-1</msName>
+                  </msIdentifier>
+                  <ab type="edDesc">See editorial description for Treasurers' Receipts, 1613-15</ab>
+                  <ab type="techDesc">MT.2/TRB/3; <date from-iso="1640" to-iso="1641">1640–1</date>; English; paper; v + 23 + xviii; 300mm x 185mm; contemporary ink pagination 1–46; vertical rules for left and right columns on each page, horizontal rules added subsequently to make boxes for each entry; bound in vellum. Each entry is numbered.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTTR05">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Treasurers' Receipts, 1641-6</msName>
+                  </msIdentifier>
+                  <ab type="edDesc">See editorial description for Treasurers' Receipts, 1613-15</ab>
+                  <ab type="techDesc">MT.2/TRB/4; <date from-iso="1641" to-iso="1646">1641–6</date>; English; paper; iv + 74 + iv; 290mm x 180mm; contemporary ink pagination 1–48; bound in vellum. Contains annual summaries of receipts, each category of receipt being entered in a separate ruled box and assigned a number which appears in the index at the front of the book.</ab>
+               </msDesc>
+               
+               <!-- Middle Temple Papers Relating to Middle Temple Entertainments, Feasts, Grand Days, and Dinners (GDE) -->
+               
+               <msDesc xml:id="RLMTGDE003">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Musicians' Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/GDE/3; <date when-iso="1613-02-02">2 February 1612/13</date>; single sheet; 300mm x 215mm; endorsed: ‘Mr Dowland &amp; his ffellowes for the consort on the feast day of the purificac<ex>i</ex>on of our Ladye Anno 1612.’</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTGDE004">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Musicians' Petition</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/GDE/4; <date from-iso="1612" to-iso="1613">1612–13</date> (MS undated); bifolium; 205mm x 300mm; unnumbered; writing on first page only, lengthwise; badly torn and worm-eaten; addressed in the same hand: ‘To the Righte Worshipfull the Maisters and benchers of the middell Tempell./,’ and endorsed in another hand: ‘Musycyons: <del>This petit<ex>i</ex>on ys Referrd to the Tresorer</del> The some of xl s. ys to be allowed to them/,’ and in yet another hand: ‘The musicions peticion where vppon theire was granted vnto them by order of parliament xl s.’ This copy is a draft and has no signatures.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTGDE005"> <!-- CREATE RECORD -->
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Musicians' Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/GDE/5; <date when-iso="1613-02-13">13 February 1612/13</date>; single sheet; 94mm x 165mm; endorsed: ‘Papson ye Musicions bill for the receipt of xl s. for wages.’</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTGDE006"> <!-- CREATE RECORD -->
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Musicians' Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/GDE/6; 21 June 1613; single sheet; 313mm x 193mm; endorsed: ‘The musicions Bill for xl s. when they gave their attendance abowt the tyme when the Prince dyed.’</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTGDE007"> <!-- CREATE RECORD -->
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Musicians' Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/GDE/7; 1616; single sheet; 63mm x 152mm.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTGDE008"> <!-- CREATE RECORD -->
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Players' Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/GDE/8; 2 February 1615/16; single sheet (fragment); 152mm x 205mm; endorsed: ‘The players Bill for a playe on Candlemas Daye 1615/.’</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTGDE009"><!-- CREATE RECORD -->
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Musicians' Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/GDE/9; 15 February 1618/19; single sheet; 50mm x 200mm; writing on 1 side only.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTGDE010"><!-- CREATE RECORD -->
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Players' Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/GDE/10; 1618–19 (MS undated); single sheet; 210mm x 215mm.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTGDE011"><!-- CREATE RECORD -->
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Musicians' Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/GDE/11; 15 January 1627/8; single sheet; 97mm x 154mm; endorsed: ‘1627 Musitians p<ex>ai</ex>d.’</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTGDE012"><!-- CREATE RECORD -->
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Musicians' Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/GDE/12; 20 January 1628/9; single sheet; 95mm x 151mm; endorsed: ‘20<hi rend="superscript">mo</hi> Ian<ex>uarij</ex> 1628. Musitians allowance 2 l. 13 s. 4 d. p<ex>ai</ex>d.’</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTGDE014"><!-- CREATE RECORD -->
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Musicians' Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/GDE/14; 8 February 1629/30; single sheet; 110mm x 142mm; endorsed: ‘8<hi rend="superscript">uo</hi> ffeb<ex>ruarij</ex> 1629 Musitians 3–13–4 p<ex>ai</ex>d.’</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTGDE016"><!-- CREATE RECORD -->
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Players' Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/GDE/16; 3 November 1632; single sheet; 86mm x 146mm; endorsed: ‘3<hi rend="superscript">o</hi> Nov<ex>ember</ex> 1632 The players bill 10 li. p<ex>ai</ex>d.’</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTGDE018"><!-- CREATE RECORD -->
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Players' Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/GDE/18; 6 February 1632/3; single sheet; 102mm x 153mm; endorsed: ‘6<hi rend="superscript">to</hi> ffeb<ex>ruarij</ex> 1632 The players bill 2 li. 10 s. p<ex>ai</ex>d.’</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTGDE019"><!-- CREATE RECORD -->
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Musicians' Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/GDE/19; 16 February 1632/3; single sheet; 75mm x 125mm; endorsed: ‘16<hi rend="superscript">to</hi> ffeb<ex>ruarij</ex> 1632 The Musitians acq<ex>uittance</ex> 3–03–4 p<ex>ai</ex>d.’</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTGDE020"><!-- CREATE RECORD -->
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Masque Roll</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/GDE/20; 16 October 1635; single sheet; 152mm x 100mm; endorsed: ‘Masque T<ex>ermi</ex>nis Mich<ex>aelis</ex> Hil<ex>arij</ex> Pasche &amp; Trinit<ex>atis</ex> 1634. 1635. 39 li. 00 s. &amp; rec<ex>eived</ex> on last yeares roll 7 li. in tot<ex>o</ex> 46.’</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTGDE021"><!-- CREATE RECORD -->
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Receipt Concerning Masque Roll</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/GDE/21; 1638–9; single sheet; 78mm x 149mm; endorsed: ‘T<ex>erm</ex>inis Mich<ex>aelis</ex> Hil<ex>larij</ex> pas<ex>che</ex> &amp; Trinit<ex>atis</ex> 1638. 1639. Church roll 5 li. Masque roll 2 li.’</ab>
+               </msDesc>
+               
 
-<!-/- Private Correspondence, Middle Temple to the Earl of Shrewsbury: id RLP004 (Private_correspondence 004)-/-> 
-               <msDesc xml:id="RLP004">
+<!-- Miscellaneous Papers Relating to The Memorable Masque (MMA) -->
+               
+               <msDesc xml:id="RLMTMAA001">
                   <msIdentifier>
                      <settlement>London</settlement>
-                     <repository sameAs="#LP"/>
-                     <idno type="shelfmark">Talbot 3199, Letter 249</idno>
-                     <msName>Letter of the Middle Temple to the Earl of Shrewsbury</msName>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Summary of Taxation Assessments</msName>
                   </msIdentifier>
-                  <ab type="edDesc"></ab>
-                  <ab type="techDesc"><date>1597</date>; English; paper; bifolium; 290mm x 195mm. Now paginated 249–52 and bound in a volume of miscellaneous papers relating to the Talbot family; originally bound in Talbot Manuscript, Shrewsbury Letters, Vol. H, formerly at the College of Arms.</ab>
+                  <ab type="techDesc">MT.7/MAA/1; <date when-iso="1613-06-11">11 June 1613</date>; single sheet; 310mm x 205mm. C.1.</ab>
                </msDesc>
-
-               <!-/- Private Correspondence, Letter of the Prince d’Amour to the Earl of Shrewsbury: id RLP005 (Private_correspondence 005)-/-> 
-               <msDesc xml:id="RLP005">
+               
+               <msDesc xml:id="RLMTMAA003">
                   <msIdentifier>
                      <settlement>London</settlement>
-                     <repository sameAs="#LP"/>
-                     <idno type="shelfmark">Talbot 3201, Letter 77</idno>
-                     <msName>Letter of the Prince d’Amour to the Earl of Shrewsbury</msName>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Summary of Taxation Receipts</msName>
                   </msIdentifier>
-                  <ab type="edDesc"></ab>
-                  <ab type="techDesc"><date>25 December 1597</date>; English; parchment; bifolium; 270mm x 185mm. Now foliated 77–7v and bound in a volume of miscellaneous papers relating to the Talbot family; originally bound in Talbot Manuscript, Shrewsbury Letters, Vol. K, formerly at the College of Arms.</ab>
+                  <ab type="techDesc">MT.7/MAA/3; 1613; bifolium (leaves no longer conjugate); 262mm x 174mm; unnumbered. Folio <del>2V</del> contains the following names: ‘mon<gap reason="illegible"/>’; ‘Hale’; ‘Sordley’; ‘ffarlbell’; ‘pie’; ‘bomer.’ C.2.</ab>
                </msDesc>
-
-<!-/- Private Correspondence, Letter of Sir John Popham to Sir Robert Cecil: id RLP006 (Private_correspondence 006)-/-> 
-               <msDesc xml:id="RLP006">
-                  <msIdentifier>
-                     <settlement>Hatfield</settlement>
-                     <repository sameAs="#HHL"/>
-                     <idno type="shelfmark">Cecil Papers Vol. 85/18</idno>
-                     <msName>Letter of Sir John Popham, Lord Chief Justice, to Sir Robert Cecil</msName>
-                  </msIdentifier>
-                  <ab type="edDesc">At the time this letter was written Sir John Popham (c 1531–1607) was chief justice of the king’s bench. As a prominent member of the Middle Temple, he was in a position to offer the Inn’s funds, and the services of its young gentlemen, to entertain the queen. The recipient of Popham’s letter was Sir Robert Cecil (1563–1612), then secretary of state.</ab>
-                  <ab type="techDesc"><date>8 February 1601/2</date>; English; paper; bifolium; 301mm x 199mm; unnumbered; addressed: ‘To the Right honorable Sir Robert Cycell knight principall Secretarie to her Maiestie,’ and endorsed: ‘8: februar: 1610 Lord chief Justice To my Master.’</ab>
-               </msDesc>
-
-<!-/- Add letter for John Chamberlain to Sir Dudley Carleton = #RLP007 -/->
                
-<!-/- Diaries and Reminiscences -/->
-               <msDesc xml:id="RLDR001">
+               <msDesc xml:id="RLMTMAA004">
                   <msIdentifier>
                      <settlement>London</settlement>
-                     <repository sameAs="#BL"/>
-                     <idno type="shelfmark">Hargrave MS 388</idno>
-                     <msName>LEGAL REPORT OF SIR JOHN SPELMAN ON GRAY’S INN</msName>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Certificate of Admission for Inigo Jones</msName>
                   </msIdentifier>
-                  <ab type="edDesc"></ab>
-                  <ab type="techDesc"><date>c 1500</date>; French; iii + 255 + iii; 214mm x 148mm; 19th-c. pencil foliation 1–255, skipping many blanks and including preliminaries, supersedes older pen foliation. Rebound with BL: Hargrave MS 1963, title on spine: ‘REPORTS OF CASES, ETC.’</ab>
+                  <ab type="techDesc">MT.7/MAA/4; <date when-iso="1613-02-21">21 February 1612/13</date>; single sheet; 202mm x 154mm. Not in Orbison.</ab>
                </msDesc>
                
-               <msDesc xml:id="RLDR002">
+               <msDesc xml:id="RLMTMAA006">
                   <msIdentifier>
                      <settlement>London</settlement>
-                     <repository sameAs="#BL"/>
-                     <idno type="shelfmark">Additional MS 53726</idno>
-                     <msName>BULSTRODE WHITELOCKE’S ‘ANNALS’</msName>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Receipt</msName>
                   </msIdentifier>
-                  <ab type="edDesc">The MS remained in the possession of the Whitelocke family until purchased by the British Library in 1966. Fair copy, in the author’s hand, of an MS draft is now lost. The second volume, containing nothing of REED interest, is BL: Additional MS 37343 (beginning 1634).</ab>
-                  <ab type="techDesc"><date>1650?</date>; English; paper; 114 + ii; 300mm x 195mm; modern pencil foliation 1–114 supersedes 18th-c. ink pagination 25–245; each page divided by a vertical rule, text in 2 columns, each column headed by Whitelocke’s age (ie, 1633–4 is ‘Year 29’: each year begins on 6 August, his birthday); original parchment covers rebound in 19th-c. leather over board, now loose. The first 12 leaves, containing preface, are now BL: Additional MS 4992, ff 2–13.</ab>
+                  <ab type="techDesc">MT.7/MAA/6; <date when-iso="1613-02-26">26 February 1612/13</date>; single sheet; 205mm x 205mm. C.5.</ab>
                </msDesc>
                
-               <msDesc xml:id="RLDR003">
-                  <msIdentifier>
-                     <settlement>Rousham, Oxfordshire</settlement>
-                     <repository sameAs="#RH"/>
-                     <idno type="shelfmark">MS MC2</idno>
-                     <msName>MEMOIRS OF JOHN FINET</msName>
-                  </msIdentifier>
-                  <ab type="edDesc">Sir John Finet (or Finett) (1570 or 1571–1641), courtier, was knighted by James I in 1616 and served as master of ceremonies to Charles I beginning in 1627. Finet compiled written descriptions of ceremonies he witnessed and supervised, and took great care to preserve these for posterity. MS MC2 is the fourth of three notebooks, ‘Thyrd’ to ‘fift,’ from an original series of five. The majority of the first two, now lost, was published as Finetti Philoxenis (1656). Previously printed by Albert J. Loomie (ed), Ceremonies of Charles I: The Note Books of John Finet 1628–1641 (New York, 1987).</ab>
-                  <ab type="techDesc"><date>1632–7</date>; English; paper; v + 156 + iii; 209mm x 161mm (175mm x 110mm); contemporary foliation; vellum binding, written on f [v] verso ‘My 4th booke of notes and observations Concerning Ambassadores, &amp;c. Beginning [at] in May 1632.’</ab>
-               </msDesc>
-               
-               <msDesc xml:id="RLDR004">
-                  <msIdentifier>
-                     <settlement>??</settlement>
-                     <repository/>
-                     <idno>Wing: F947</idno>
-                     <msName>SIR JOHN FINET, FINETTI PHILOXENIS</msName>
-                  </msIdentifier>
-                  <ab type="edDesc">Sir John Finet (or Finett) (1570 or 1571–1641), courtier, was knighted by James I in 1616 and served as master of ceremonies to Charles I beginning in 1627. Finet compiled written descriptions of ceremonies he witnessed and supervised, and took great care to preserve these for posterity. MS MC2 is the fourth of three notebooks, ‘Thyrd’ to ‘fift,’ from an original series of five. The majority of the first two, now lost, was published as Finetti Philoxenis (1656). Previously printed by Albert J. Loomie (ed), Ceremonies of Charles I: The Note Books of John Finet 1628–1641 (New York, 1987).</ab>
-                  <ab type="pubDesc">FINETTI PHILOXENIS: | SOM CHOICE | OBSERVATIONS | OF | Sr. JOHN FINETT | KNIGHT, | And Master of the CEREMONIES | to the two last | KINGS, | Touching the Reception, and | Precedence, the Treatment and | Audience, the Puntillios and Con- | tests of Forren | AMBASSADORS | IN | ENGLAND. [rule] | Legati ligant Mundum. | [ rule] | LONDON | Printed by T. R. for H. Twyford and G. Bedell, and are | to be Sold at their Shops in Vine-Court Middle | Temple and the Middle Temple Gate. <date>1656</date>.</ab>
-               </msDesc>
-               
-<!-/- Published Histories (contemporary) -/->               
-               
-               <msDesc xml:id="RLPH001">
-                  <msIdentifier>
-                     <settlement/>
-                     <idno type="ESTC">STC : 12723a.</idno>
-                     <msName>EDWARD HALL, THE UNYON OF LANCASTRE AND YORKE</msName>
-                  </msIdentifier>
-                  <ab type="edDesc">The history of fifteenth-century England composed by Edward Hall (1497–1547), a member of Gray’s Inn by 1521, is most famous as a source for history plays by William Shakespeare.</ab>
-                  <ab type="pubDesc">Edward Halle, [The unyon of the two noble and illustre famelies of Lancastre and Yorke...], Jmprynted at Londo[n]: By Rychard Grafton, Prynter to the Kynges Maiesty, <date>1550</date>.</ab>
-               </msDesc>
-               
-               <msDesc xml:id="RLPH002">
-                  <msIdentifier>
-                     <settlement/>
-                     <idno type="ESTC">STC : 11225.</idno>
-                     <msName>JOHN FOXE, ACTES AND MONUMENTS</msName>
-                  </msIdentifier>
-                  <ab type="edDesc">John Foxe (1516 or 1517–1587), the martyrologist, published not only horrific descriptions and illustrations of martyrdom in his Actes and Monuments, but more pedestrian accounts which have proved of value to historians of English life and culture.</ab>
-                  <ab type="pubDesc">[within an illustrated border] ACTES | and Monuments of matters most | speciall and memorable, happenyng in the | Church, with an Vniuersall history of the same, | wherein is set forth at large the whole race and course | of the Church, from the primitiue age to these lat- | ter tymes of ours, with the bloudy times, horrible trou- | bles, and great persecutions agaynst the true Martyrs | of Christ, sought and wrought as well by Heathen | Emperours, as nowe lately practised | by Romish Prelates, especially in this | Realme of England and | Scotland. | ¶ Newly reuised and recognised, partly also | augmented, and now the fourth time agayne | published and recommended to the studious | Reader, by the Author (through the helpe of | Christ our Lord) IOHN FOXE, which | desireth thee good reader to helpe him | with thy Prayer. | APOC. VIII. | Salus sedenti super thronum &amp; agno. | An. 1583. Mens. Octobr. [Colophon:] At London: Imprinted by Iohn Daye, dwellyng ouer Aldersgate beneath S. Martins], 1583.</ab>
-               </msDesc>
-               
-               <msDesc xml:id="RLPH003">
-                  <msIdentifier>
-                     <settlement/>
-                     <idno type="ESTC">STC : 23338.</idno>
-                     <msName>JOHN STOW, THE ANNALES, OR GENERALL CHRONICLE OF ENGLAND</msName>
-                  </msIdentifier>
-                  <ab type="edDesc">John Stow (1524 or 1525–1605) was a prolific historian whose oft-published Annales (of England) and Survay (of London) survived his own death under the hands of later editors.</ab>
-                  <ab type="pubDesc">[within illustrated border] THE | ANNALES, | OR | GENERALL CHRO- | nicle of England, begun first by | maister IOHN STOW, and | after him continued and augmented | with matters forreyne, and do- | mestique, auncient and moderne, | vnto the ende of this | present yeere 1614. | by EDMOND | Howes, gen- | tleman, | [(triangle of dots)] | LONDINI | Impensis Thomæ | Adams. | <date>1615</date>.</ab>
-               </msDesc>
-               
-               <msDesc xml:id="RLPH004">
-                  <msIdentifier>
-                     <settlement/>
-                     <idno type="ESTC">Wing: L1189</idno>
-                     <msName>HAMON L’ESTRANGE, THE REIGN OF KING CHARLES: AN HISTORY</msName>
-                  </msIdentifier>
-                  <ab type="edDesc">Hamon L’Estrange (1605–60) was a theologian and royalist whose history of Charles I was published, with a claim of impartiality, during the interregnum.</ab>
-                  <ab type="pubDesc">THE | REIGN | OF | King CHARLES: | An HISTORY | Faithfully and Impartially delivered and dispo- | sed into ANNALS. | [rule] | [illustration of crown, within a square of rules] | [rule] | LONDON, | Printed by E. C. for Edward Dod, and Henry Seile the younger, | and are to be sold at the Gun in Ivie-lane, and over against | St. Dunstans Church in Fleet-street, <date>1655</date>.</ab>
-               </msDesc>
-               
-               <msDesc xml:id="RLPH005">
-                  <msIdentifier>
-                     <settlement/>
-                     <idno type="ESTC">Wing: D2488</idno>
-                     <msName>SIR WILLIAM DUGDALE, ORIGINES JURIDICIALES</msName>
-                  </msIdentifier>
-                  <ab type="edDesc">(supplied in Appendix 11</ab>
-                  <ab type="pubDesc">ORIGINES | JURIDICALES, | OR | Historical Memorials | OF THE | English Laws, Courts of Justice, | Forms of Tryall, | Punishment in Cases Criminal, | Law Writers, Law Books, | Grants and Settlements of Estates, | Degree of Serjeant, | Innes of Court and Chancery. | [rule] | Also A | CHRONOLOGIE | Of the Lord Chancelors and Keepers of the great Seal, | Lord Treasurers, | Justices Itinerant, | Justices of the Kings Bench and Common Pleas, | Barons of the Exchequer, | Masters of the Rolls, | Kings Attorneys and Sollicitors, | &amp; | Serjeants at Law, | BY | WILLIAM DVGDALE Esq: | NORROY King of Arms. | [rule] | LONDON, | Printed by F. and T. Warren, for the Author. | <date>MDCLXVI</date>.</ab>
-               </msDesc>
-               
-               <msDesc xml:id="RLPH006">
-                  <msIdentifier>
-                     <settlement/>
-                     <idno type="ESTC">Wing: H1699M</idno>
-                     <msName>PETER HEYLYN, CYPRIANUS ANGLICUS</msName>
-                  </msIdentifier>
-                  <ab type="edDesc">Peter Heylyn (1599–1662) was a Church of England clergyman whose biography of William Laud, archbishop of Canterbury, was published posthumously.</ab>
-                  <ab type="pubDesc">Cyprianus Anglicus: | OR, THE | HISTORY | OF THE | Life and Death, | OF | The most Reverend and renowned Prelate | WILLIAM | By Divine Providence, | Lord Archbishop of Canterbury ... By P. Heylyn D.D. and Chaplin to Charles the | first and Charles the second, Monarchs of Great Britain ... London: | Printed for A. Seile, <date>MDCLXVIII</date>.</ab>
-               </msDesc>
-
-<!-\- Miscellaneous Documents -\->
-               
-               <msDesc xml:id="RLMD001">
+               <msDesc xml:id="RLMTMAA007">
                   <msIdentifier>
                      <settlement>London</settlement>
-                     <repository sameAs="#LIL"/>
-                     <idno type="shelfmark">MS Misc. 2 (Misc. 46)</idno>
-                     <msName>PRIVATE MEMORANDUM IN A LINCOLN’S INN STATUTE BOOK</msName>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Receipt</msName>
                   </msIdentifier>
-                  <ab type="edDesc">The statute book described here is further described by N.R. Ker, Medieval Manuscripts in British Libraries, vol 1 (Oxford, 1969), 141. An unknown former owner inscribed a private memorandum on its flyleaves.</ab>
-                  <ab type="techDesc"><date>14th-c.</date> with 15th-c. additions; Latin, with English notation on flyleaves; parchment; i + 227 + vi; 55mm x 85mm; modern pencil foliation i–iv, 1–223; 16th-c. binding of stamped leather over board, clasp (partly missing).</ab>
+                  <ab type="techDesc">MT.7/MAA/7; <date when-iso="1613-03-01">1 March 1612/13</date>; single sheet; 175mm x 155mm. C.6.</ab>
                </msDesc>
                
-               <msDesc xml:id="RLMD002">
-                  <msIdentifier>
-                     <settlement/>
-                     <idno type="ESTC">STC: 11193</idno>
-                     <msName>SIR JOHN FORTESCUE, PRENOBILIS MILITIS</msName>
-                  </msIdentifier>
-                  <ab type="edDesc"></ab>
-                  <ab type="pubDesc">Prenobilis | militis, cognomento Fo- | rescu, qui temporibus Henrici | sexti floruit, de politica ad | ministratione, et legibus | ciuilibus florentisummi | regni Anglie, com- | mentarius | Excusum Londini: Tipis Edwardi | Whitechurche, et veneunt in | edibus Henrici Smyth | bibliopole [<date>1543?</date>].</ab>
-               </msDesc>
-               
-               <msDesc xml:id="RLMD003">
+               <msDesc xml:id="RLMTMAA008">
                   <msIdentifier>
                      <settlement>London</settlement>
-                     <repository sameAs="#BL"/>
-                     <idno type="shelfmark">Lansdowne MS 55</idno>
-                     <msName>CAST LIST FOR GRAY’S INN ‘ROMAN COMEDY’</msName>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Summary of Payments</msName>
                   </msIdentifier>
-                  <ab type="edDesc"></ab>
-                  <ab type="techDesc"><date>16 January 1587/8</date>; English and Latin; paper; bifolium; 310mm x 205mm; unnumbered; written on 1st page only, prominent fold marks; endorsed. Mounted in guardbook and numbered ff 11–12 and labelled as piece number 4.</ab>
+                  <ab type="techDesc">MT.7/MAA/8; <date when-iso="1613-06">June 1613</date> (MS undated); single sheet; 307mm x 200mm. C.12.</ab>
                </msDesc>
                
-               <msDesc xml:id="RLMD004">
+               <msDesc xml:id="RLMTMAA009">
                   <msIdentifier>
                      <settlement>London</settlement>
-                     <repository sameAs="#BL"/>
-                     <idno type="shelfmark">Additional MS 4125</idno>
-                     <msName>POEM ON THE MISFORTUNES OF ARTHUR</msName>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Reckoning</msName>
                   </msIdentifier>
-                  <ab type="edDesc">For more on this poem, see Janet Cowen and Joanna Udall, ‘The Critical Misfortunes of Arthur?’ Notes and Queries 228 (1983), 402–5.</ab>
-                     <ab type="techDesc"><date>1587–8</date>; paper; single sheet; 280mm x 164mm; written on 1 side only. Mounted in guardbook and numbered f 394.</ab>
+                  <ab type="techDesc">MT.7/MAA/9; between <date from-iso="1613-06-12" to-iso="1613-06-16">12 and 16 June 1613</date> (MS undated); bifolium; 310mm x 200mm; unnumbered. C.11.</ab>
                </msDesc>
                
-               <msDesc xml:id="RLMD005">
-                  <msIdentifier>
-                     <settlement/>
-                     <idno type="ESTC">STC: 18044</idno>
-                     <msName>JORGE DE MONTEMAYOR, DIANA OF GEORGE OF MONTEMAYOR</msName>
-                  </msIdentifier>
-                  <ab type="pubDesc">[within border] DIANA | OF GEORGE OF | MONTEMAYOR: | Translated out of Spanish into | English by BARTHOLOMEW | YONG of the Middle | Temple Gentleman. | [flower] | [ornament] | At London, | Printed by Edm. Bollifant, | Impensis G. B. | <date>1598</date>. G. B. Is George Bishop.</ab>
-               </msDesc>
-               
-               <msDesc xml:id="RLMD006">
+               <msDesc xml:id="RLMTMAA012">
                   <msIdentifier>
                      <settlement>London</settlement>
-                     <repository sameAs="#BL"/>
-                     <idno type="shelfmark">Additional MS 23723</idno>
-                     <msName>GRAY’S INN MASQUE</msName>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Contributions List</msName>
                   </msIdentifier>
-                  <ab type="techDesc">undated; English; paper; iii + 37 + i; 154mm x 100mm; modern foliation 1–33 plus 4 unfoliated blanks, superseding original foliation; half-calf binding; title on spine: ‘POETRY, &amp;C. M.S.’</ab>
-               </msDesc>
-
-               <msDesc xml:id="RLMD007">
-                  <msIdentifier>
-                     <settlement/>
-                     <idno type="ESTC">STC : 17878</idno>
-                     <msName>THOMAS MIDDLETON, CIVITATIS AMOR</msName>
-                  </msIdentifier>
-                  <ab type="pubDesc">CIVITATIS AMOR. | The Cities Loue | An entertainement by water, at | Chelsey, and White-hall. | At the ioyfull receiuing of that Illustrious Hope | of Great Britaine, the High and Mighty | CHARLES, | To bee created Prince of Wales, Duke of Corne- | wall, Earle of Chester, &amp;c. | Together with the Ample Order and Solemnity | of his Highnesse creation, as it was celebra- | ted in his Maiesties Palace of White-hall | on Monday, the fourth of | Nouember. 1616. | As also the Ceremonies of that Ancient and | Honourable Order of the Knights of the Bath; | And all the Triumphs showne in honour | of his Royall Creation. | [rule] | LONDON, | Printed by Nicholas Okes for Thomas Archer, and | are to be sold at his shop in Popes- | head-Pallace. 1616.</ab>
+                  <ab type="techDesc">MT.7/MAA/12; <date when-iso="1613-06-12">12 June 1613</date>; single sheet; 310mm x 205mm. C.9.</ab>
                </msDesc>
                
-               <msDesc xml:id="RLMD008">
+               <msDesc xml:id="RLMTMAA013">
                   <msIdentifier>
-                     <settlement/>
-                     <idno type="ESTC">STC: 17944a.5</idno>
-                     <msName>JOHN MINSHEU, A CATALOGUE AND TRUE NOTE</msName>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Summary of Receipts</msName>
                   </msIdentifier>
-                  <ab type="edDesc">John Minsheu (1559 or 1560–1627) was a notable language teacher and lexicographer. STC: 17944a.5 is a list of individual or institutional purchasers of John Minsheu’s 1617 ‘Dictionary’ (STC : 17944), printed on both sides of a single sheet. The list was reprinted at least seven times, each time with new names added. An unbound variant, Cambridge University Library: Broadsides XVII (1617), is the first to include the two Inns of Court names, and indeed con- cludes with them. Neither Inn currently holds a copy of Minsheu which might have been acquired through its prince.<lb/>
-                     The complex publication history of the list is noted by the STC and, at greater length, by Franklin B. Williams, Jr, ‘Scholarly Publication in Shakespeare’s Day: A Leading Case,’ in Joseph Quincy Adams Memorial Studies, James G. McManaway, Giles E. Dawson, and Edwin E. Willoughby (eds) (Washington, DC, 1948), 755–73.</ab>
-                  <ab type="pubDesc">[ornamental rule] | A CATALOGVE and true note of the Names of such Persons which (vpon good liking they haue to the worke being a great helpe to memorie) haue receaued the Etymological DICTIONARIE of XI. Languages ... from the handes of Maister MINSHEV the Author, and Publisher of the same ... [1617?].</ab>
+                  <ab type="techDesc">MT.7/MAA/13; <date when-iso="1613-06-14">14 June 1613</date>; single sheet; 310mm x 205mm. C.10.</ab>
                </msDesc>
                
-               <!-\- How to structure BULSTRODE WHITELOCKE’S PAPERS FOR THE TRIUMPH OF PEACE (pp. lxxix-lxxxi -\->
-                  
-<!-\- continuing? -\->  
-               
-<!-\- Masque Texts -\->               
-               <msDesc xml:id="RLMTF1">
+               <msDesc xml:id="RLMTMAA014">
                   <msIdentifier>
-                     <settlement/>
-                     <idno type="ESTC">STC: 17625</idno>
-                     <msName>Masque of Flowers (Gray's Inn, 1613/14)</msName>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Receipt</msName>
                   </msIdentifier>
-                  <ab type="edDesc">Whether this masque was performed in Gray’s Inn Hall is unknown. It was certainly presented at the ‘old’ Banqueting House, Whitehall, and financed (but not written) by Sir Francis Bacon.<lb/>
-                     <hi rend="italic">The Masque of Flowers</hi> was performed 6 January (Twelfth Night) 1613/14, entered in the Stationers’ Register on 21 January, and published soon thereafter. Music for the masque is printed on sigs C4v–E2 (see Inns of Court-Print, Appendix 12, p 783).</ab>
-                  <ab type="pubDesc">THE | MASKE OF | FLOWERS. | PRESENTED | By the Gentlemen of Graies-Inne, at | <hi rend="italic">the Court of</hi> White-hall, <hi rend="italic">in the Ban-</hi> | quetting House, vpon Twelfe | night, 1613. | Being the last of the Solemnities and Magnificences | <hi rend="italic">which were performed at the marriage of the right</hi> | honourable the Earle of <hi rend="italic">Somerset</hi>, and the | <hi rend="italic">Lady</hi> Francis <hi rend="italic">daughter of the Earle</hi> | of <hi rend="italic">Suffolke</hi>, Lord Cham- | <hi rend="italic">berlaine</hi>. | [rule] | [ornament] | [rule] | London | Printed by N.O. for <hi rend="italic">Robert Wilson</hi>, and are to be | sold at his Shop at Graies-Inne | new gate. 1614.</ab>
+                  <ab type="techDesc">MT.7/MAA/14; <date when-iso="1613-06-16">16 June 1613</date>; single sheet; 225mm x 222mm. C.13.</ab>
                </msDesc>
-
-
+               
+               <msDesc xml:id="RLMTMAA015">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/15; <date when-iso="1613-06-17">17 June 1613</date>; single sheet; 154mm x 195mm. C.14.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA016">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/16; <date when-iso="1613-06-18">18 June 1613</date>; single sheet; 209mm x 210mm. C.16.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA017">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/17; <date when-iso="1613-06-18">18 June 1613</date>; single sheet; 305mm x 205mm. C.15.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA018">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/18; <date when-iso="1613-06-19">19 June 1613</date>; single sheet; 310mm x 196mm. C.17.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA019">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/19; <date when-iso="1613-06-26">26 June 1613</date>; single sheet; 155mm x 205mm. C.18.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA020">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/20; <date when-iso="1613-06-28">28 June 1613</date>; single sheet; 307mm x 205mm. C.19.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA021">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Summary of Payments </msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/21; <date notBefore-iso="1613-06-28">on or after 28 June 1613</date> (MS undated); single sheet; 310mm x 208mm. C.20.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA022">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Summary of Receipts </msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/22; <date when-iso="1613-08-14">14 August 1613</date>; single sheet; 310mm x 205mm. C.21.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA023">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/23; <date when-iso="1613-08-25">25 August 1613</date>; single sheet; 125mm x 203mm. C.22.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA024">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple List of Receipts</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/24; <date notBefore-iso="1613-08-25">on or after 25 August 1613</date> (MS undated); single sheet; 270mm x 196mm. C.23.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA025">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Summary of Receipts</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/25; <date notBefore-iso="1613-10-15">on or after 15 October 1613</date> (MS undated); single sheet; 310mm x 200mm. C.24.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA026">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/27; <date from-iso="1613" to-iso="1614">1613–14</date> (MS undated); single sheet; 270mm x 200mm. C.30.</ab>
+               </msDesc>
+               
+               
+               
+               
+               
+<!-- Autobiography of Gervase Holles -->
+               <msDesc xml:id="RLGH01">
+                  <msIdentifier>
+                     <settlement>Wiltshire</settlement>
+                     <repository sameAs="#LH"/>
+                     <msName>Autobiography of Gervase Holles</msName>
+                  </msIdentifier>
+                  <ab type="edDesc">Gervase Holles (1606/7–75) was a notable antiquary, with prominent connections to Lincolnshire (see also <title>REED: Lincolnshire</title>, vol 2, p 528). Holles’ manuscript breaks off after the paragraphs transcribed here. See further A.C. Wood, ‘A Fragment of the Autobiography of Gervase Holles,’ <title>Report and Papers of the Architectural and Archaeological Societies of Lincoln and ... Northampton</title> 41 (1935), 50–60. This excerpt was printed previously in A.C. Wood (ed), <title>Memorials of the Holles Family</title>, Camden Society, 3rd ser, vol 55 (London, 1937), 236.</ab>
+                  <ab type="techDesc">MS Portland Papers XXIV; <date when-iso="1658">1658</date>; English; paper; 104 leaves; 315mm x 200mm; modern pencil foliation; display script usually used for text of quotations and proper names; excellent condition; f 1 reads: ‘PARENTELA &amp; PARENTALIA HOLLESIORUM: SIVE TRACTATVS DE ORIGINE, PROGENIE, REBUS (TAM BELLO QVAM PACE) PERACTIS, NVPTIIS OBITIBUS. &amp; SEPVLTVRIS EIVSDEM FAMILIAE. AVTHORE GERVASION HOLLESIO GRIMESBÆENSI. ANNO DOMINI: 1658.’ Bound into guard book with letters, other documents, and illustrations imilarly fixed onto stubs; title on spine: ‘PORTLAND PAPERS VOL. XXIV. GERVASE HOLLES
+                     HISTORY OF THE HOLLES FAMILY, 1658.’</ab>
+               </msDesc>
+               
             </listBibl>
--->
-
-                     
-                  
-                    
-                  
          </div>
       </body>
    </text>
+
 </TEI>
