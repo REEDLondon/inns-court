@@ -1678,7 +1678,7 @@
                   <ab type="techDesc">MT.7/MAA/25; <date notBefore-iso="1613-10-15">on or after 15 October 1613</date> (MS undated); single sheet; 310mm x 200mm. C.24.</ab>
                </msDesc>
                
-               <msDesc xml:id="RLMTMAA026">
+               <msDesc xml:id="RLMTMAA027">
                   <msIdentifier>
                      <settlement>London</settlement>
                      <repository sameAs="#MTA"/>
@@ -1687,9 +1687,124 @@
                   <ab type="techDesc">MT.7/MAA/27; <date from-iso="1613" to-iso="1614">1613–14</date> (MS undated); single sheet; 270mm x 200mm. C.30.</ab>
                </msDesc>
                
+               <msDesc xml:id="RLMTMAA028">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/28; <date when-iso="1613-10-16">16 October 1613</date>; single sheet; 270mm x 198mm. C.25.</ab>
+               </msDesc>
                
+               <msDesc xml:id="RLMTMAA029">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Summary of Payments</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/29; <date notBefore-iso="1613-11-05">on or after 5 November 1613</date> (MS undated); single sheet; 310mm x 204mm. C.27.</ab>
+               </msDesc>
                
+               <msDesc xml:id="RLMTMAA030">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Summary of Payments</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/30; <date notBefore-iso="1613-11-05">on or after 5 November 1613</date> (MS undated); single sheet; 310mm x 204mm. C.28.</ab>
+               </msDesc>
                
+               <msDesc xml:id="RLMTMAA031">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/31; <date when-iso="1613-11-05">5 November 1613</date>; single sheet; 103mm x 148mm. C.26.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA032">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Accounts</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/32; <date when-iso="1613-11-18">18 November 1613</date>; bifolium; 268mm x 198mm; unnumbered. C.29.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA033">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Letter of Sir Edward Phelips and Henry Hobart to Actors in the Masque</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/33; <date when-iso="1613">1613</date> (MS undated); bifolium; 305mm x 205mm.; unnumbered. C.7</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA034">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/34; <hi rend="italic">c</hi> <date when-iso="1613-02-16">16 February 1612/13</date>; single sheet; 218mm x 205mm. C.3.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA035">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/35; <date when-iso="1613-02-18">18 February 1612/13</date>; single sheet; 210mm x 203mm. C.4.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA036">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Letter of Masters of the Bench to Sir Edward Philips</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/36; <date notBefore-iso="1613-05-14">after 14 May 1613</date>; single sheet; 197mm x 311mm. C.8.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA037">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Accounts</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/37; <date when-iso="1614-04-14">14 April 1614</date>; bifolium; 280mm x 173mm; unnumbered. C.31.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA039">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Petition to the Middle Temple</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/39; <date notBefore-iso="1616-11-16">after 16 November 1616</date> (MS undated); single sheet; 195mm x 310mm. C.34.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA040">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Certificate</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/40; <date when-iso="1616-11-16">16 November 1616</date>; single sheet; 308mm x 205mm. C.32.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAA041">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Petition to Lincoln's Inn</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAA/41; <date notBefore-iso="1616-11-16">after 16 November 1616</date> (MS undated); single sheet; 205mm x 309mm (originally folded to 205mm x 138mm). C.33.</ab>
+               </msDesc>
+
+<!-- Pick up at Miscellaneous Papers Relating to The Triumph of Peace (MAB) on p. lxii -->
                
 <!-- Autobiography of Gervase Holles -->
                <msDesc xml:id="RLGH01">
