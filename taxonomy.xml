@@ -1804,7 +1804,669 @@
                   <ab type="techDesc">MT.7/MAA/41; <date notBefore-iso="1616-11-16">after 16 November 1616</date> (MS undated); single sheet; 205mm x 309mm (originally folded to 205mm x 138mm). C.33.</ab>
                </msDesc>
 
-<!-- Pick up at Miscellaneous Papers Relating to The Triumph of Peace (MAB) on p. lxii -->
+<!-- Miscellaneous Papers Relating to The Triumph of Peace (MAB) -->
+               
+               <msDesc xml:id="RLMTMAB001">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Letter of Philip Herbert, Lord Chamberlain, to Thomas Coventry, Lord Keeper</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/1; <date when-iso="1634-02-05">5 February 1633/4</date>; bifolium; 228mm x 338mm; unnumbered; written on first page only; endorsed: ‘Masque: A Copye of the Lord Chamb<ex>er</ex>laynes l<ex>ettre</ex> to the Lord Keeper. 5<hi rend="superscript">to</hi> ffebr<ex>uarij</ex> 1633.’</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB002">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/2; <date when-iso="1633-12-20">20 December 1633</date>; single sheet; 310mm x 198mm; endorsed (item 3). S.1.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB003">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/3; <date when-iso="1613-12-24">24 December 1633</date>; single sheet; 225mm x 195mm; endorsed (item 4). S.2.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB004">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/4; <date when-iso="1634-01-04">4 January 1633/4</date>; single sheet; 242mm x 198mm; endorsed (item 5). S.3.</ab>                </msDesc>
+               
+               <msDesc xml:id="RLMTMAB005">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/5; <date when-iso="1634-01-13">13 January 1633/4</date>; single sheet; 310mm x 188mm; endorsed (item 6). S.8.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB006">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/6; <date when-iso="1634-01-11">11 January 1633/4</date>; single sheet; 254mm x 188mm; endorsed (item 7). S.4.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB007">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/7; <date when-iso="1634-01-13">13 January 1633/4</date>; single sheet; 230mm x 163mm; endorsed (item 8). S.5.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB008">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/8; <date when-iso="1634-01-13">13 January 1633/4</date>; single sheet; 215mm x 162mm; endorsed (item 9). S.7.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB009">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/9; <date when-iso="1634-01-13">13 January 1633/4</date>; single sheet; 245mm x 220mm; endorsed (item 10). S.6.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB010">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/10; <date when-iso="1634-01-15">15 January 1633/4</date>; single sheet; 273mm x 160mm; endorsed (item 11). S.10.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB011">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/11; <date when-iso="1634-01-15">15 January 1633/4</date>; single sheet; 270mm x 160mm; endorsed (item 12). S.9.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB012">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/12; <date when-iso="1634-01-20">20 January 1633/4</date>; single sheet; 273mm x 163mm; endorsed (item 13). S.11.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB013">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/13; <date when-iso="1634-01-23">23 January 1633/4</date>; single sheet; 268mm x 163mm; endorsed (item 14). S.15.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB014">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/14; 23 January 1633/4; single sheet; 270mm x 160mm; endorsed (item 15). S.13.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB015">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/15; <date when-iso="1634-01-23">23 January 1633/4</date>; single sheet; 270mm x 157mm; endorsed (item 16). S.12.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB016">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/16; <date when-iso="1634-01-23">23 January 1633/4</date>; single sheet; 267mm x 160mm; endorsed (item 17). S.16.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB017">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/17; <date when-iso="1634-01-23">23 January 1633/4</date>; single sheet; 272mm x 162mm; endorsed (item 18). S.14.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB018">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/18; <date when-iso="1634-01-24">24 January 1633/4</date>; single sheet; 272mm x 160mm; endorsed (item 19). S.17.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB019">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/19; <date when-iso="1634-01-28">28 January 1633/4</date>; single sheet; 272mm x 162mm; endorsed (item 20). S.18.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB020">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/20; <date when-iso="1634-01-31">31 January 1633/4</date>; single sheet; 272mm x 163mm; endorsed (item 21). S.19.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB021">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/21; <date when-iso="1634-01-31">31 January 1633/4</date>; single sheet; 272mm x 161mm; endorsed (item 22). S.20.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB022">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/22; <date when-iso="1634-02-03">3 February 1633/4</date>; single sheet; 272mm x 162mm; endorsed (item 25). S.21.</ab>
+               </msDesc>
+                     
+               <msDesc xml:id="RLMTMAB023">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/23; <date when-iso="1634-02-04">4 February 1633/4</date>; single sheet; 260mm x 190mm; endorsed (item 23). S.22.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB024">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/24; <date when-iso="1634-02-08">8 February 1633/4</date>; single sheet; 272mm x 168mm; endorsed (item 24). S.23.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB025">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/25; <date when-iso="1634-02-12">12 February 1633/4</date>; single sheet; 272mm x 168mm; endorsed (item 26). S.24.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB026">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/26; <date when-iso="1634-02-14">14 February 1633/4</date>; single sheet; 270mm x 165mm; endorsed (item 27). S.25.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB027">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/27; <date when-iso="1634-02-17">17 February 1633/4</date>; single sheet; 245mm x 198mm; endorsed (item 28). S.30.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB028">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/28; <date when-iso="1634-02-17">17 February 1633/4</date>; single sheet; 272mm x 165mm; endorsed (item 29). S.31.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB029">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/29; <date when-iso="1634-02-17">17 February 1633/4</date>; single sheet; 229mm x 200mm; endorsed (item 30). S.27.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB030">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/30; <date when-iso="1634-02-17">17 February 1633/4</date>; single sheet; 252mm x 198mm; endorsed (item 31). S.32.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB031">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/31; <date when-iso="1634-02-17">17 February 1633/4</date>; single sheet; 223mm x 184mm; endorsed (item 32). S.26.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB032">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/32; <date when-iso="1634-02-17">17 February 1633/4</date>; single sheet; 260mm x 202mm; endorsed (item 33). S.28.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB033">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/33; <date when-iso="1634-02-17">17 February 1633/4</date>; single sheet; 256mm x 198mm; endorsed (item 34). S.29.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB034">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/34; <date when-iso="1634-02-18">18 February 1633/4</date>; single sheet; 242mm x 183mm; endorsed (item 35). S.33.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB035">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/35; <date when-iso="1634-02-19">19 February 1633/4</date>; single sheet; 270mm x 168mm; endorsed (item 36). S.37.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB036">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/36; <date when-iso="1634-02-19">19 February 1633/4</date>; single sheet; 272mm x 168mm; endorsed (item 37). S.35.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB037">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/37; <date when-iso="1634-02-19">19 February 1633/4</date>; single sheet; 272mm x 168mm; endorsed (item 38). S.36.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB038">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/38; <date when-iso="1634-02-19">19 February 1633/4</date>; single sheet; 270mm x 168mm; endorsed (item 39). S.34.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB039">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/39; <date when-iso="1634-02-20">20 February 1633/4</date>; single sheet; 272mm x 168mm; endorsed (item 40). S.42.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB040">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/40; <date when-iso="1634-02-20">20 February 1633/4</date>; single sheet; 270mm x 168mm; endorsed (item 41). S.39.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB041">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/41; <date when-iso="1634-02-20">20 February 1633/4</date>; single sheet; 270mm x 168mm; endorsed (item 42). S.38.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB042">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/42; <date when-iso="1634-02-20">20 February 1633/4</date>; single sheet; 270mm x 168mm; endorsed (item 43). S.43.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB043">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/43; <date when-iso="1634-02-20">20 February 1633/4</date>; single sheet; 300mm x 191mm; endorsed (item 44). S.40.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB044">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/44; <date when-iso="1634-02-20">20 February 1633/4</date>; single sheet; 270mm x 167mm; endorsed (item 45). S.41.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB045">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/45; <date when-iso="1634-02-21">21 February 1633/4</date>; single sheet; 207mm x 168mm; endorsed (item 46). S.47.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB046">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/46; <date when-iso="1634-02-21">21 February 1633/4</date>; single sheet; 270mm x 168mm; endorsed (item 47). S.46.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB047">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/47; <date when-iso="1634-02-21">21 February 1633/4</date>; single sheet; 210mm x 168mm; endorsed (item 48). S.48.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB048">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/48; <date when-iso="1634-02-21">21 February 1633/4</date>; single sheet; 200mm x 167mm; endorsed (item 49). S.44.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB049">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/49; <date when-iso="1634-02-21">21 February 1633/4</date>; single sheet; 240mm x 197mm; endorsed (item 50). S.60.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB050">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/50; <date when-iso="1634-02-21">21 February 1633/4</date>; single sheet; 203mm x 162mm; endorsed (item 51). S.45.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB051">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/51; <date when-iso="1634-02-22">22 February 1633/4</date>; single sheet; 207mm x 168mm; endorsed (item 52). S.49.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB052">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/52; <date when-iso="1634-02-24">24 February 1633/4</date>; single sheet; 276mm x 203mm; endorsed (item 54). S.50.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB053">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/53; <date when-iso="1634-02-25">25 February 1633/4</date>; single sheet; 127mm x 152mm; endorsed: ‘25<hi rend="superscript">o</hi> ffeb<ex>ruarij</ex> 1633. Masque j li. 10 s.’ and ‘ 25<hi rend="superscript">o</hi> ffeb<ex>ruarij</ex> 1633. Horsse &amp; Coach hyre j li. 10 s. p<ex>ai</ex>d.’ S.52.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB054">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/54; <date when-iso="1634-02-25">25 February 1633/4</date>; single sheet; 215mm x 162mm; endorsed (item 53). S.53.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB055">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/55; <date when-iso="1634-02-25">25 February 1633/4</date>; single sheet; 300mm x 193mm; endorsed (item 60). S.51.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB056">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/56; <date when-iso="1634-02-26">26 February 1633/4</date>; single sheet; 235mm x 195mm; endorsed (item 55). S.54.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB057">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/57; <date when-iso="1634-02-26">26 February 1633/4</date>; single sheet; 227mm x 198mm. S.55.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB058">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/58; <date when-iso="1634-02-27">27 February 1633/4</date>; single sheet; 215mm x 168mm; endorsed (item 56). S.56.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB059">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/59; <date when-iso="1634-02-28">28 February 1633/4</date>; single sheet; 270mm x 165mm; endorsed (item 57). S.58.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB060">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/60; <date when-iso="1634-02-28">28 February 1633/4</date>; single sheet; 213mm x 165mm; endorsed (item 58). S.57.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB061">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/61; <date when-iso="1634-02-28">28 February 1633/4</date>; single sheet; 203mm x 165mm; endorsed (item 59). S.59.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB062">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Bill</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/62; <date when-iso="1634-03-04">4 March 1633/4</date>; single sheet; 72mm x 202mm; endorsed: ‘4<hi rend="superscript">to</hi> Mar<ex>tij</ex> 1633. p<ex>ai</ex>d Rob<ex>ert</ex> Day Coach hyre 12 s.’ S.61.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB063">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/63; <date when-iso="1634-11-21">21 November 1634</date>; single sheet; 189mm x 165mm; endorsed (item 61). S.65.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB064">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/64; <date when-iso="1634-11-21">21 November 1634</date>; single sheet; 190mm x 162mm; endorsed (item 62). S.64.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB065">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/65; <date when-iso="1634-11-21">21 November 1634</date>; single sheet; 190mm x 163mm; endorsed (item 63). S.69.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB066">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/66; <date when-iso="1634-11-21">21 November 1634</date>; single sheet; 194mm x 165mm; endorsed (item 64). S.63.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB067">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/67; <date when-iso="1634-11-21">21 November 1634</date>; single sheet; 194mm x 165mm; endorsed (item 65). S.62.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB068">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/68; <date when-iso="1634-11-21">21 November 1634</date>; single sheet; 194mm x 168mm; endorsed (item 66). S.67.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB069">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/69; <date when-iso="1634-11-21">21 November 1634</date>; single sheet; 195mm x 163mm; endorsed (item 68). S.68.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB070">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Warrant</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/70; <date when-iso="1634-11-21">21 November 1634</date>; single sheet; 213mm x 168mm; endorsed (item 68). S.66.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB71">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple List of Monies Delivered to Herne</msName>                        
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/71; <date from-iso="1634" to-iso="1635">1634–5</date> (MS undated); single sheet; 123mm x 148mm. S.72.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB72">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Bill and Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/72/1; <date when-iso="1635-06-17">17 June 1635</date>; single sheet; 126mm x 200mm; endorsed: ‘17<hi rend="superscript">o</hi> Iunij 1635. Mr Hyde E<ex>dward</ex> for Torche<ex>s</ex> &amp; silke stocking<ex>es</ex> 3 li. 6 s. p<ex>ai</ex>d.’ S.75.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB72-1">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#MTA"/>
+                     <msName>Middle Temple Receipt</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">MT.7/MAB/72/2; <date when-iso="1636-02-16">16 February 1635/6</date>; single sheet; 115mm x 168mm; endorsed: ‘16<hi rend="superscript">o</hi> ffebr<ex>uarij</ex> 1635: Mr Pepys 40 s. p<ex>ai</ex>d Masque. S.77.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMTMAB72-3">
+                  <msIdentifier></msIdentifier>
+               </msDesc>
+               
+<!-- Pick up at lxx -->               
                
 <!-- Autobiography of Gervase Holles -->
                <msDesc xml:id="RLGH01">
