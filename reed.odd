@@ -196,7 +196,9 @@
                   </valItem>
                 </valList>
               </attDef>
- 
+
+
+
  <!-- These @subtypes are for occupations and are for experimentation / synced with the CWRC ontology -->
               <attDef ident="subtype" mode="change">
                 <valList mode="add" type="closed">
@@ -1198,6 +1200,14 @@
               <attDef ident="nymRef" mode="delete"/>
             </attList>
           </classSpec>
+          
+          <!-- CUSTOMIZATION DKJ 12-22-2018: added occuName for occupation attributes -->
+          <classSpec ident="att.naming" module="tei" type="atts" mode="change">
+            <attList>
+              <attDef ident="occuName" mode="change"/>
+            </attList>
+          </classSpec>
+          
           <!-- delete lots of attributes -->
           <classSpec ident="att.pointing" module="tei" type="atts" mode="change">
             <attList>

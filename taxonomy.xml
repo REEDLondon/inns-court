@@ -1337,7 +1337,7 @@
                      660743, nos. 35 &amp; 36. These are duplicate copies which originally belonged
                      to Sir Thomas Coventry, the treasurer. Each lacks the page recording payments
                      for music and plays in those years, so are not collated here.</ab>
-                  <ab type="techDesc"><date>1605–48</date>; Latin and English; paper; 321 leaves;
+                  <ab type="techDesc"><date from-iso="1605" to-iso="1648">1605–48</date>; Latin and English; paper; 321 leaves;
                      450mm x 160mm; modern pencil foliation a–f, 1–316 (f a originally a
                      paste-down); original stamped leather binding, badly deteriorated.</ab>
                </msDesc>
@@ -3126,7 +3126,7 @@
                      sheet; 213mm x 168mm; endorsed (item 68). S.66.</ab>
                </msDesc>
 
-               <msDesc xml:id="RLMTMAB71">
+               <msDesc xml:id="RLMTMAB071">
                   <msIdentifier>
                      <settlement>London</settlement>
                      <repository sameAs="#MTA"/>
@@ -3137,7 +3137,7 @@
                      undated); single sheet; 123mm x 148mm. S.72.</ab>
                </msDesc>
 
-               <msDesc xml:id="RLMTMAB72-1">
+               <msDesc xml:id="RLMTMAB072-1">
                   <msIdentifier>
                      <settlement>London</settlement>
                      <repository sameAs="#MTA"/>
@@ -3150,7 +3150,7 @@
                      s. p<ex>ai</ex>d.’ S.75.</ab>
                </msDesc>
 
-               <msDesc xml:id="RLMTMAB72-2">
+               <msDesc xml:id="RLMTMAB072-2">
                   <msIdentifier>
                      <settlement>London</settlement>
                      <repository sameAs="#MTA"/>
@@ -3162,7 +3162,7 @@
                         ffebr<ex>uarij</ex> 1635: Mr Pepys 40 s. p<ex>ai</ex>d Masque. S.77.</ab>
                </msDesc>
 
-               <msDesc xml:id="RLMTMAB72-3">
+               <msDesc xml:id="RLMTMAB072-3">
                   <msIdentifier>
                      <settlement>London</settlement>
                      <repository sameAs="#MTA"/>
@@ -3174,7 +3174,7 @@
                      saddle 3 li. p<ex>ai</ex>d.’ S.74.</ab>
                </msDesc>
 
-               <msDesc xml:id="RLMTMAB73-a">
+               <msDesc xml:id="RLMTMAB073-a">
                   <msIdentifier>
                      <settlement>London</settlement>
                      <repository sameAs="#MTA"/>
@@ -3188,7 +3188,7 @@
                      6 d. p<ex>ai</ex>d.’ S.76.</ab>
                </msDesc>
 
-               <msDesc xml:id="RLMTMAB73">
+               <msDesc xml:id="RLMTMAB073">
                   <msIdentifier>
                      <settlement>London</settlement>
                      <repository sameAs="#MTA"/>
@@ -3199,7 +3199,7 @@
                      undated); single sheet; 184mm x 143mm; written on both sides. S.70.</ab>
                </msDesc>
 
-               <msDesc xml:id="RLMTMAB74">
+               <msDesc xml:id="RLMTMAB074">
                   <msIdentifier>
                      <settlement>London</settlement>
                      <repository sameAs="#MTA"/>
@@ -3210,7 +3210,7 @@
                      undated); single sheet; 285mm x 196mm. S.73.</ab>
                </msDesc>
 
-               <msDesc xml:id="RLMTMAB74-1">
+               <msDesc xml:id="RLMTMAB074-1">
                   <msIdentifier>
                      <settlement>London</settlement>
                      <repository sameAs="#MTA"/>
@@ -3221,7 +3221,7 @@
                      undated); single sheet; 285mm x 196mm. S.71A.</ab>
                </msDesc>
 
-               <msDesc xml:id="RLMTMAB74-2">
+               <msDesc xml:id="RLMTMAB074-2">
                   <msIdentifier>
                      <settlement>London</settlement>
                      <repository sameAs="#MTA"/>
