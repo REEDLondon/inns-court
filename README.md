@@ -1,6 +1,6 @@
 # Inns of Court
-Tagging Protocols
-(last updated by Diane Jakacki, 12-24-2018)
+Tagging <br />
+*(last updated by Diane Jakacki, 12-24-2018)*
 
 <!-- MarkdownTOC autolink="true" style="unordered"-->
 
@@ -57,7 +57,9 @@ A corresponding list of the document/objects including REED London unique identi
 
 <a name="tei-header"></a>
 ## TEI Header
-The project-based TEI header is maintained at least on an annual basis, recognizing REED's authority over the REED London project, documenting funding agencies, editorial and production staff, their respective roles and dates of participation. The header also includes xenodata section modeling MODS metadata (this metadata is specified for each record. TEI header templates can be found in the GitHub ../Templates sub-directory.
+The project-based TEI header is maintained at least on an annual basis, recognizing REED's authority over the REED London project, documenting funding agencies, editorial and production staff, their respective roles and dates of participation. The header also includes xenodata section modeling MODS metadata (this metadata is specified for each record. 
+The REED London TEI Header for 2018 is published on the wiki and can be found here: https://github.com/REEDLondon/inns-court/wiki/REED-London-TEI-Header---2018
+TEI header templates (by century) can be found in the GitHub ../Templates sub-directory.
 
 <a name="tei-markup"></a>
 ## TEI Markup
@@ -94,16 +96,13 @@ Beyond the file structure, records are tagged to replicate as accurately as poss
 * Footnotes and glosses from the printed collection are represented inline with the marked up text (rather than at the foot of a web page). Where dates have been implicit in the printed text (e.g., 'Last Saturday', note: 25 December 1589) they have been made explicit and marked with date tags, replacing the note (e.g., `<date when-iso="1589-12-25">Last Saturday</ab>date>`). 
 * Marginal notes from original documents have been maintained in REED transcription style, so that `<note type="marginal" rend="align-left">` or "align-right" is meant to recognize that placement in the document. This notation is not meant for display purposes at this point.
 * Long and editorial endnotes are placed inline in CWRC-Writer. Where in the printed collection references within long and endnotes to other records are indicated by page number, wherever possible those interleaved notes are now recognized with a `<ref target="#">` to that/those objects within the CWRC collection.
+* Lists are marked up using TEI list element - http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-list.html, containing items
+* Tables are marked up using TEI table element http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-table.html. Where information in a table cell is right- or center-aligned in the original transcribed document, the cell is tagged thus: `<cell rend="align-right">Summa £10</cell>`. Complicated tables that include curly braces or are similarly not easily represented in TEI are marked with @rend="right_brace" or similar.
 
 <a name="semantic-markup"></a>
 ### Semantic Markup
 * People, places, and organizations are tagged as RDF-XML entities in CWRC; wherever possible, these entities resolve to authority files in VIAF, Wikidata, Geonames, ODNB, or similar using @corresp attribute. When entities also have a REED-EATS entity identifier, these entities are tagged with @sameAs attribute.
+	* We plan to make "white lists" of REED people and place entities available in 2019.
 * entities that are of value to REED London (objects, occupations, performance- and entertainer-types, etc.) are managed using taxonomies and prefixed with `taxon:` in the record object.
-* Currency is of particular interest in our work; monies are therefore tagged as `<measure type="currency" n=#">`, where the pound/shilling/pence string is replaced in the @n attribute with a cumulative calculation of pence. https://en.wikipedia.org/wiki/%C2%A3sd#Origins
-
-
-
-
-
-
+* Currency is of particular interest in our work; monies are therefore tagged as `<measure type="currency" n=#">[amount]</measure>`, where the pound/shilling/pence string is replaced in the @n attribute with a cumulative calculation of pence. https://en.wikipedia.org/wiki/%C2%A3sd#Origins
 
