@@ -961,6 +961,60 @@
             
           <!-- delete lots of attributes -->
 
+          <!-- CUSTOMIZATION: modify name:@role -->
+          <elementSpec ident="name" mode="change" module="namesdates">
+            <attList>
+              <attDef ident="role" mode="change">
+                <valList mode="add" type="semi">
+                  <valItem ident="animal keeper"/>
+                  <valItem ident="monkey keeper"/>
+                  <valItem ident="bird keeper"/>
+                  <valItem ident="dog keeper"/>
+                  <valItem ident="lion keeper"/>
+                  <valItem ident="armorer"/>
+                  <valItem ident="attorney general" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#attorneyGeneral"/>
+                  <valItem ident="baker" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#baker"/>
+                  <valItem ident="beggar" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#beggar"/>
+                  <valItem ident="brewer" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#brewer"/>
+                  <valItem ident="censor" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#censor"/>
+                  <valItem ident="chandler"/>
+                  <valItem ident="scrivener" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#clericalWork"/>
+                  <valItem ident="lace maker" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#clothingProduction"/>
+                  <valItem ident="coach maker"/>
+                  <valItem ident="cobbler" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#cobbler"/>
+                  <valItem ident="cordwainer" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#cobbler"/>
+                  <valItem ident="composer" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#composer"/>
+                  <valItem ident="construction" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#construction"/>
+                  <valItem ident="carpenter" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#construction"/>
+                  <valItem ident="joiner" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#construction"/>
+                  <valItem ident="cook" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#cooking"/>
+                  <valItem ident="dancer" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#dance"/>
+                  <valItem ident="messenger" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#deliveryPerson"/>
+                  <valItem ident="diplomat" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#diplomat"/>
+                  <valItem ident="ambassador" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#diplomat"/>
+                  <valItem ident="consul" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#diplomat"/>
+                  <valItem ident="domestic servant" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#domesticServant"/>
+                  <valItem ident="chambermaid" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#domesticServant"/>
+                  <valItem ident="draper" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#draper"/>
+                  <valItem ident="linen draper" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#draper"/>
+                  <valItem ident="silkwoman" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#dressmaking"/>
+                  <valItem ident="horseman" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#equineActivity"/>
+                  <valItem ident="jockey" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#equineActivity"/>
+                  <valItem ident="ostler" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#equineActivity"/>
+                  <valItem ident="gardener" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#gardener"/>
+                  <valItem ident="haberdasher" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#haberdasher"/>
+                  <valItem ident="lord lieutenant" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#higherGovernment"/>
+                  <valItem ident="lord of the council" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#higherGovernment"/>
+                  <valItem ident="lord privy seal" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#higherGovernment"/>
+                  <valItem ident="lord steward" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#higherGovernment"/>
+                  <valItem ident="lord treasurer" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#higherGovernment"/>
+                  <valItem ident="privy councillor" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#higherGovernment"/>
+                  
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
           <!-- persName: modify @cert for CWRC 
           <elementSpec ident="persName" mode="change" module="namesdates">
             <attList>
@@ -1200,14 +1254,7 @@
               <attDef ident="nymRef" mode="delete"/>
             </attList>
           </classSpec>
-          
-          <!-- CUSTOMIZATION DKJ 12-22-2018: added occuName for occupation attributes -->
-          <classSpec ident="att.naming" module="tei" type="atts" mode="change">
-            <attList>
-              <attDef ident="occuName" mode="change"/>
-            </attList>
-          </classSpec>
-          
+                    
           <!-- delete lots of attributes -->
           <classSpec ident="att.pointing" module="tei" type="atts" mode="change">
             <attList>
