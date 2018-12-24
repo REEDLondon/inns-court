@@ -18,7 +18,8 @@ Tagging Protocols
 <!-- /MarkdownTOC -->
 
 
-<a name="introduction"># Introduction</a>
+<a name="introduction"></a>
+	# Introduction
 REED London is developed in conjunction with the Canadian Writing Research Collaboratory (CWRC), with TEI files tagged using CWRC-Writer and employing REED London-specific entities. The REED London CWRC home-page is available here: https://beta.cwrc.ca/reed. Information about the project, its participants, and collections can be accessed at that URL. The project is currently identified by REED as a "prototype" - and therefore are available in a provisional state.
 
 Because the Inns of Court collection of REED London is transliterated from the original 2010 print collection, the process of tagging records has involved interpretation of print conventions for symbols, spacing, and alignment. Wherever possible we have adhered to representation of those symbols in the markup. This has created different challenges from REED Online collections (e.g., Staffordshire, Berkshire, etc., which can be found here: https://ereed.library.utoronto.ca/. Any differences in tagging protocols are decided in consultation with the REED editorial staff.
