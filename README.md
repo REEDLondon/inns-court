@@ -18,7 +18,7 @@ We will use the term "object" (as used in CWRC/Islandora) to describe a tagged r
 
 ## FILE STRUCTURE
 An object containing a single transcribed record follows this structure:
-<text ana="taxon:[record-type] taxon:[unique id]" type="record">
+````<text ana="taxon:[record-type] taxon:[unique id]" type="record">
 	<body>
 		<head>
 			<date from-iso="YYYY" to-iso="YYYY">YYYY-YYYY</date></head> 
@@ -32,7 +32,8 @@ An object containing a single transcribed record follows this structure:
 		</div>
 	</body>
 </text>
-*if there is a gap included in the printed record, that should be placed outside of the <ab> tags thus: <gap reason="omitted"/>*
+````
+*if there is a gap included in the printed record, that should be placed outside of the <ab> tags thus: `<gap reason="omitted"/>`*
 
-If the record is translated, the translation appears directly below the <div type="transcription"> with the same nested structure, replacing <div type="transcription"> with <div type="translation">
+If the record is translated, the translation appears directly below the `<div type="transcription">` with the same nested structure, replacing `<div type="transcription"> with <div type="translation">`
 
