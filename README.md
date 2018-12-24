@@ -2,13 +2,25 @@
  of Court Tagging Protocols
 (last updated 12-24-2018)
 
-# Table of Contents
-1. [Introduction(#introduction)]
-2. [Schema(#schema)]
-3. [Taxonomy(#taxonomy)]
-4. [File Organization(#file-organization)]
+<!-- MarkdownTOC -->
 
-## Introduction
+- Introduction
+	- Schema
+	- Taxonomy
+	- File Organization
+	- TEI Header
+	- TEI Markup
+		- File Structure
+		- Structural Markup
+		- Editorial Markup
+		- Semantic Markup
+
+<!-- /MarkdownTOC -->
+
+
+#Introduction
+REED London is developed in conjunction with the Canadian Writing Research Collaboratory (CWRC), with TEI files tagged using CWRC-Writer and employing REED London-specific entities. The REED London CWRC home-page is available here: https://beta.cwrc.ca/reed. Information about the project, its participants, and collections can be accessed at that URL. The project is currently identified by REED as a "prototype" - and therefore are available in a provisional state.
+
 Because the Inns of Court collection of REED London is transliterated from the original 2010 print collection, the process of tagging records has involved interpretation of print conventions for symbols, spacing, and alignment. Wherever possible we have adhered to representation of those symbols in the markup. This has created different challenges from REED Online collections (e.g., Staffordshire, Berkshire, etc., which can be found here: https://ereed.library.utoronto.ca/. Any differences in tagging protocols are decided in consultation with the REED editorial staff.
 
 ## Schema
@@ -70,4 +82,14 @@ Beyond the file structure, records are tagged to replicate as accurately as poss
 `<ex>` to indicate letters missing for scribal reasons from the original document
 `<add place="above">`to indicate an insertion above the line (may also be below)
 
+### Editorial Markup
+* Footnotes and glosses from the printed collection are represented inline with the marked up text (rather than at the foot of a web page). Where dates have been implicit in the printed text (e.g., 'Last Saturday', note: 25 December 1589) they have been made explicit and marked with date tags, replacing the note (e.g., `<date when-iso="1589-12-25">Last Saturday</ab>date>`). 
+* Marginal notes from original documents have been maintained in REED transcription style, so that `<note type="marginal" rend="align-left">` or "align-right" is meant to recognize that placement in the document. This notation is not meant for display purposes at this point.
+* Long and editorial endnotes are placed inline in CWRC-Writer. Where in the printed collection references within long and endnotes to other records are indicated by page number, wherever possible those interleaved notes are now recognized with a `<ref target="#">` to that/those objects within the CWRC collection.
 
+### Semantic Markup
+* People, places, and organizations are tagged as RDF-XML entities in CWRC; wherever possible, these entities resolve to authority files in VIAF, Wikidata, Geonames, ODNB, or similar using @corresp attribute. When entities also have a REED-EATS entity identifier, these entities are tagged with @sameAs attribute.
+* entities that are of value to REED London (objects, occupations, performance- and entertainer-types, etc.) are managed using taxonomies and prefixed with `taxon:` in the record object.
+* Currency is of particular interest in our work; monies are therefore tagged as `<measure type="currency" n=#">`, where the pound/shilling/pence string is replaced in the @n attribute with a cumulative calculation of pence. https://en.wikipedia.org/wiki/%C2%A3sd#Origins
+
+ 
