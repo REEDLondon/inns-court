@@ -1,5 +1,4 @@
-# Inns of Court
-Tagging <br />
+# Inns of Court README
 *(last updated by Diane Jakacki, 12-24-2018)*
 
 <!-- MarkdownTOC autolink="true" style="unordered"-->
