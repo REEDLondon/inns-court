@@ -1,11 +1,11 @@
 # Inns of Court
- of Court Tagging Protocols
+Tagging Protocols
 (last updated 12-24-2018)
 
-<!-- MarkdownTOC -->
+<!-- MarkdownTOC autolink="true" style="unordered"-->
 
-- Introduction
-	- Schema
+- [Introduction](#introduction)
+	- [Schema](#schema)
 	- Taxonomy
 	- File Organization
 	- TEI Header
@@ -18,12 +18,12 @@
 <!-- /MarkdownTOC -->
 
 
-#Introduction
+<a name="introduction">#Introduction</a>
 REED London is developed in conjunction with the Canadian Writing Research Collaboratory (CWRC), with TEI files tagged using CWRC-Writer and employing REED London-specific entities. The REED London CWRC home-page is available here: https://beta.cwrc.ca/reed. Information about the project, its participants, and collections can be accessed at that URL. The project is currently identified by REED as a "prototype" - and therefore are available in a provisional state.
 
 Because the Inns of Court collection of REED London is transliterated from the original 2010 print collection, the process of tagging records has involved interpretation of print conventions for symbols, spacing, and alignment. Wherever possible we have adhered to representation of those symbols in the markup. This has created different challenges from REED Online collections (e.g., Staffordshire, Berkshire, etc., which can be found here: https://ereed.library.utoronto.ca/. Any differences in tagging protocols are decided in consultation with the REED editorial staff.
 
-## Schema
+<a name="schema">## Schema</a>
 Inns of Court records are tagged using customized TEI schema adapted from REED schema developed by James Cummings. The REED London schema is integrated into the CWRC environment. The file can be found here: 
 https://raw.githubusercontent.com/REEDLondon/inns-court/master/out/reed.rng)
 
@@ -92,4 +92,5 @@ Beyond the file structure, records are tagged to replicate as accurately as poss
 * entities that are of value to REED London (objects, occupations, performance- and entertainer-types, etc.) are managed using taxonomies and prefixed with `taxon:` in the record object.
 * Currency is of particular interest in our work; monies are therefore tagged as `<measure type="currency" n=#">`, where the pound/shilling/pence string is replaced in the @n attribute with a cumulative calculation of pence. https://en.wikipedia.org/wiki/%C2%A3sd#Origins
 
- 
+
+
