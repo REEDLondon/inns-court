@@ -621,13 +621,13 @@
                      corresp="http://sparql.cwrc.ca/ontology/cwrc.html#domesticServant">
                      <catDesc>Occupation Type: chambermaid</catDesc>
                   </category>
-                  <category xml:id="draper" corresp="cwrc:draper" sameAs="eats:39060">
+                  <category xml:id="draper" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#draper" sameAs="eats:39060">
                      <catDesc>Occupation Type: draper</catDesc>
+                  </category>
                      <category xml:id="linenDraper"
                         corresp="http://sparql.cwrc.ca/ontology/cwrc.html#draper">
                         <catDesc>Occupation Type: linen draper</catDesc>
                      </category>
-                  </category>
                   <category xml:id="silkwoman"
                      corresp="http://sparql.cwrc.ca/ontology/cwrc.html#dressmaking">
                      <!-- @KimMartin to review with CWRC occupation ontology -->
@@ -3271,7 +3271,7 @@
 
                <!-- Furnival's Inn -->
 
-               <msDesc xml:id="RLFIHLI">
+               <msDesc xml:id="RLFIHLI01">
                   <msIdentifier>
                      <settlement>London</settlement>
                      <repository sameAs="#MTL"/>

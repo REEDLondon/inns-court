@@ -209,19 +209,19 @@
                   <valItem ident="armorer">
                     <desc>armorer</desc>
                   </valItem>                  
-                  <valItem ident="attorneyGeneral" source="CWRC Ontology"  corresp="http://sparql.cwrc.ca/ontologies/cwrc.html#attorneyGeneral">
+                  <valItem ident="attorneyGeneral" corresp="cwrc:attorneyGeneral">
                     <desc>attorney general</desc>
                   </valItem>
-                  <valItem ident="baker">
+                  <valItem ident="baker" corresp="cwrc:baker">
                     <desc>baker</desc>
                   </valItem>
-                  <valItem ident="beggar">
+                  <valItem ident="beggar" corresp="cwrc:beggar">
                     <desc>beggar</desc>
                   </valItem>
-                  <valItem ident="brewer">
+                  <valItem ident="brewer" corresp="cwrc:brewer">
                     <desc>brewer</desc>
                   </valItem>
-                  <valItem ident="construction">
+                  <valItem ident="construction" >
                     <desc>construction</desc>
                   </valItem>
                   <valItem ident="censor">
@@ -966,13 +966,14 @@
             <attList>
               <attDef ident="role" mode="change">
                 <valList mode="add" type="semi">
+                  <valItem ident="" xml:base="cwrc:attorneyGeneral"/>
                   <valItem ident="animal keeper"/>
                   <valItem ident="monkey keeper"/>
                   <valItem ident="bird keeper"/>
                   <valItem ident="dog keeper"/>
                   <valItem ident="lion keeper"/>
                   <valItem ident="armorer"/>
-                  <valItem ident="attorney general" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#attorneyGeneral"/>
+                  <valItem ident="reed:attorney general" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#attorneyGeneral"/>
                   <valItem ident="baker" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#baker"/>
                   <valItem ident="beggar" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#beggar"/>
                   <valItem ident="brewer" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#brewer"/>
