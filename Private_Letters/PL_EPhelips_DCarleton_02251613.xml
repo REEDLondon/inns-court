@@ -313,13 +313,12 @@
       </revisionDesc>
    </teiHeader>
 
-   <text ana="taxon:letter" type="record" xml:id="RLC012">
+   <text ana="taxon:letter taxon:RLPC012" type="record">
       <body>
          <div>
             <head>Letter of Sir Edward Phelips to Sir Dudley Carleton<date when-iso="1613-02-25"/></head>
             <div type="transcription" xml:lang="en">
-               <head>f<del>1</del>
-                  <supplied>(25 February 1612/13)</supplied></head>
+               <head><supplied>(25 February)</supplied></head>
                <pb n="1" type="folio"/>
 
                <ab>I cannot but acknowledg with all thanckfullnes (My hono<ex>ra</ex>ble and much esteemed good frend) yo<ex>u</ex>r kinde remembring of him whoe longe hath and ever will both acknowledge yo<ex>u</ex>r vertues and owe yow much Loue; The Coldnese of this English time affordeth not much worthie the passage by Sea, but that o<ex>u</ex>r well liked of marriage was solemnized the 14<add place="above">th</add> of this p<ex>rese</ex>nte moneth of ffebr<ex>uary</ex> Wherat all <persName>foraine Embassadors</persName> (the Spanish only excepted) were p<ex>rese</ex>nte. And soe were they <date from-iso="1613-02-15" to-iso="1613-02-16">Mundaie and tuesday</date><note type="foot">Mundaie and tuedsay: <hi rend="italic">15 and 16 February 1612/13</hi></note> following The marriage was accompanied with much Noblenesse and Royalty <date when-iso="1613-02-11">Thursdaie</date> and <date when-iso="1613-02-13">Satturdaie</date><note type="foot">Thrusdaie and Satturdaie: <hi rend="italic"
