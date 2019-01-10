@@ -12,14 +12,12 @@
           <email>James.Cummings@it.ox.ac.uk</email>
         </authority>
         <availability>
-          <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
-            Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <p>This TEI P5 Customisation file was based on exploration of the REED project Fortune
-          Theatre Documents, then manual customisation based on refinements in discussion and
-          collaboration with the REED project. The intention is that it should evolve over time.</p>
+        <p>This TEI P5 Customisation file was based on exploration of the REED project Fortune Theatre Documents, then manual customisation based on refinements in discussion and collaboration with
+          the REED project. The intention is that it should evolve over time.</p>
         <p>Updates have now also been made to support the REED:London project.</p>
       </sourceDesc>
     </fileDesc>
@@ -33,34 +31,19 @@
   </teiHeader>
   <text>
     <body>
-
       <!-- No encoding manual is being provided by REED, but this would be where it would go. -->
-
       <div>
         <head>Formal Declaration</head>
-
         <schemaSpec ident="REED" start="TEI">
-
           <!-- tei module sets up class structure, etc. -->
-          <moduleRef key="tei"/>
-
+          <moduleRef key="tei" />
           <!-- analysis module, span and w -->
-
-          <moduleRef key="analysis" include="span w"/>
-
-
-
+          <moduleRef key="analysis" include="span w" />
           <!-- core module, lots of things. -->
-
           <!-- sp/speaker/stage needed by REED:London -->
-          <moduleRef key="core"
-            include="abbr add addrLine address author bibl biblScope cb choice
-                     cit citedRange corr date del editor expan foreign gap
-                     gloss head hi item label l lb lg list listBibl measure
-                     milestone name note orig p pb ptr pubPlace
-                     publisher quote ref reg relatedItem resp respStmt
-                     rs sic sp speaker stage term textLang title unclear"/>
-
+          <moduleRef key="core" include="abbr add addrLine address author bibl biblScope cb choice                      cit citedRange corr date del editor expan foreign gap                      gloss
+            head hi item label l lb lg list listBibl measure                      milestone name note orig p pb ptr pubPlace                      publisher quote ref reg relatedItem resp respStmt
+            rs sic sp speaker stage term textLang title unclear" />
           <!-- added 'erasure' to del as per request -->
           <elementSpec ident="del" mode="change" module="core">
             <attList>
@@ -70,22 +53,18 @@
                     <desc>The deletion in the REED record was an erasure</desc>
                   </valItem>
                   <valItem ident="other">
-                    <desc>The deletion in the REED record was of another type. (If you use this more
-                      than a handful of times we should update the TEI ODD Customisation.)</desc>
+                    <desc>The deletion in the REED record was of another type. (If you use this more than a handful of times we should update the TEI ODD Customisation.)</desc>
                   </valItem>
                 </valList>
               </attDef>
             </attList>
           </elementSpec>
-
           <!-- abbr: deleted @type from abbr as per request-->
           <elementSpec ident="abbr" mode="change" module="core">
             <attList>
-              <attDef ident="type" mode="delete"/>
+              <attDef ident="type" mode="delete" />
             </attList>
           </elementSpec>
-
-
           <!-- gap: removed previously-used agents  -->
           <elementSpec ident="gap" mode="change" module="core">
             <attList>
@@ -100,22 +79,18 @@
               <attDef ident="unit" mode="change">
                 <valList mode="replace" type="closed">
                   <valItem ident="chars">
-                    <desc>The unit of the gap in this REED record (if known) is measured in
-                      characters</desc>
+                    <desc>The unit of the gap in this REED record (if known) is measured in characters</desc>
                   </valItem>
                   <valItem ident="lines">
-                    <desc>The unit of the gap in this REED record (if known) is measured in
-                      lines</desc>
+                    <desc>The unit of the gap in this REED record (if known) is measured in lines</desc>
                   </valItem>
                   <valItem ident="mm">
-                    <desc>The unit of the gap in this REED record (if known) is measured in
-                      millimetres</desc>
+                    <desc>The unit of the gap in this REED record (if known) is measured in millimetres</desc>
                   </valItem>
                 </valList>
               </attDef>
             </attList>
           </elementSpec>
-
           <!-- add:  -->
           <elementSpec ident="add" mode="change" module="core">
             <attList>
@@ -125,19 +100,16 @@
                     <desc>The addition to this REED record was written below the line</desc>
                   </valItem>
                   <valItem ident="bottom">
-                    <desc>The addition to this REED record was written at the foot of the
-                      page</desc>
+                    <desc>The addition to this REED record was written at the foot of the page</desc>
                   </valItem>
                   <valItem ident="top">
                     <desc>The addition to this REED record was written at the top of the page</desc>
                   </valItem>
                   <valItem ident="opposite">
-                    <desc>The addition to this REED record was written on the opposite, i.e. facing,
-                      page</desc>
+                    <desc>The addition to this REED record was written on the opposite, i.e. facing, page</desc>
                   </valItem>
                   <valItem ident="overleaf">
-                    <desc>The addition to this REED record was written on the other side of the
-                      leaf</desc>
+                    <desc>The addition to this REED record was written on the other side of the leaf</desc>
                   </valItem>
                   <valItem ident="above">
                     <desc>The addition to this REED record was written above the line</desc>
@@ -150,8 +122,7 @@
                            <desc>within the body of the text.</desc>
                         </valItem>-->
                   <valItem ident="inspace">
-                    <desc>The addition to this REED record was written in a predefined space, for
-                      example left by an earlier scribe.</desc>
+                    <desc>The addition to this REED record was written in a predefined space, for example left by an earlier scribe.</desc>
                   </valItem>
                   <valItem ident="over">
                     <desc>The addition to this REED record was written over existing text</desc>
@@ -160,23 +131,22 @@
               </attDef>
             </attList>
           </elementSpec>
-
           <!-- Name: delete lots of attributes -->
           <elementSpec ident="name" mode="change" module="core">
             <attList>
-              <attDef ident="calendar" mode="delete"/>
-              <attDef ident="when" mode="delete"/>
-              <attDef ident="when-iso" mode="delete"/>
-              <attDef ident="notBefore-iso" mode="delete"/>
-              <attDef ident="notAfter-iso" mode="delete"/>
-              <attDef ident="from-iso" mode="delete"/>
-              <attDef ident="to-iso" mode="delete"/>
-              <attDef ident="unit" mode="delete"/>
-              <attDef ident="quantity" mode="delete"/>
-              <attDef ident="extent" mode="delete"/>
-              <attDef ident="scope" mode="delete"/>
-              <attDef ident="source" mode="delete"/>
- <!-- These @type changes are for experimentation in CWRC -->             
+              <attDef ident="calendar" mode="delete" />
+              <attDef ident="when" mode="delete" />
+              <attDef ident="when-iso" mode="delete" />
+              <attDef ident="notBefore-iso" mode="delete" />
+              <attDef ident="notAfter-iso" mode="delete" />
+              <attDef ident="from-iso" mode="delete" />
+              <attDef ident="to-iso" mode="delete" />
+              <attDef ident="unit" mode="delete" />
+              <attDef ident="quantity" mode="delete" />
+              <attDef ident="extent" mode="delete" />
+              <attDef ident="scope" mode="delete" />
+              <attDef ident="source" mode="delete" />
+              <!-- These @type changes are for experimentation in CWRC -->
               <attDef ident="type" mode="change">
                 <valList mode="add" type="closed">
                   <valItem ident="occupation">
@@ -191,19 +161,23 @@
                   <valItem ident="holiday">
                     <desc>Describes a holiday</desc>
                   </valItem>
+                  <valItem ident="character">
+                    <desc>Describes a character</desc>
+                  </valItem>
+                  <valItem ident="event">
+                    <desc>Describes an event</desc>
+                  </valItem>
                 </valList>
               </attDef>
- 
- <!-- These @subtypes are for occupations and are for experimentation / synced with the CWRC ontology -->
+              <!-- These @subtypes are for occupations and are for experimentation / synced with the CWRC ontology -->
               <attDef ident="subtype" mode="change">
                 <valList mode="add" type="closed">
-                  
                   <valItem ident="animalKeeper">
                     <desc>animal keeper, marmoset (monkeys), baboon keeper, bird keeper, crow keeper, lion keeper, dog keeper</desc>
                   </valItem>
                   <valItem ident="armorer">
                     <desc>armorer</desc>
-                  </valItem>                  
+                  </valItem>
                   <valItem ident="attorneyGeneral">
                     <desc>attorney general</desc>
                   </valItem>
@@ -226,7 +200,7 @@
                     <desc>chandler</desc>
                   </valItem>
                   <valItem ident="clothingProduction">
-                    <desc></desc>
+                    <desc />
                   </valItem>
                   <valItem ident="coachmaker">
                     <desc>coachmaker</desc>
@@ -235,47 +209,47 @@
                     <desc>cobbler</desc>
                   </valItem>
                   <valItem ident="composer">
-                    <desc></desc>
+                    <desc />
                   </valItem>
                   <valItem ident="cooking">
                     <desc>cooking</desc>
-                  </valItem>                  
+                  </valItem>
                   <valItem ident="dance">
                     <desc>dance</desc>
-                  </valItem>                  
-                 <valItem ident="diplomat" sameAs="cwrc:diplomat">
+                  </valItem>
+                  <valItem ident="diplomat" sameAs="cwrc:diplomat">
                     <desc>diplomat, ambassador, consul</desc>
                   </valItem>
                   <valItem ident="domesticServant">
                     <desc>domestic servant</desc>
-                  </valItem>                  
+                  </valItem>
                   <valItem ident="draper">
                     <desc>draper</desc>
                   </valItem>
                   <valItem ident="equineActivity">
-                    <desc></desc>
+                    <desc />
                   </valItem>
                   <valItem ident="gardener">
-                    <desc></desc>
+                    <desc />
                   </valItem>
                   <valItem ident="haberdasher">
-                    <desc></desc>
+                    <desc />
                   </valItem>
                   <valItem ident="higherGovernment">
-                    <desc></desc>
+                    <desc />
                   </valItem>
                   <valItem ident="housekeeper">
-                    <desc></desc>
+                    <desc />
                   </valItem>
                   <valItem ident="judge">
-                    <desc></desc>
+                    <desc />
                   </valItem>
                   <valItem ident="knight">
-                    <desc></desc>
+                    <desc />
                   </valItem>
                   <valItem ident="lawyer">
                     <desc>Any type of lawyer</desc>
-                  </valItem> 
+                  </valItem>
                   <valItem ident="legalWork">
                     <desc>legal work</desc>
                   </valItem>
@@ -286,35 +260,35 @@
                     <desc>local government official, alderman</desc>
                   </valItem>
                   <valItem ident="lordChamberlain">
-                    <desc></desc>
+                    <desc />
                   </valItem>
                   <valItem ident="lordChancellor">
-                    <desc></desc>
+                    <desc />
                   </valItem>
                   <valItem ident="manservant">
                     <desc>manservant</desc>
                   </valItem>
                   <valItem ident="manualLabourer">
-                    <desc></desc>
+                    <desc />
                   </valItem>
                   <valItem ident="masterOfTheRevels">
-                    <desc></desc>
+                    <desc />
                   </valItem>
                   <valItem ident="mayor">
-                    <desc></desc>
+                    <desc />
                   </valItem>
                   <valItem ident="mercer">
-                    <desc></desc>
-                  </valItem>                                    
+                    <desc />
+                  </valItem>
                   <valItem ident="metalWork">
-                    <desc></desc>
-                  </valItem>   
+                    <desc />
+                  </valItem>
                   <valItem ident="music">
                     <desc>music</desc>
-                  </valItem>                  
+                  </valItem>
                   <valItem ident="needlework">
-                    <desc></desc>
-                  </valItem>                  
+                    <desc />
+                  </valItem>
                   <valItem ident="performer" sameAs="cwrc:performer">
                     <desc>performer, player, antimasquer, boy player, entertainer, fencer, fool, juggler, masquer, morris dancer, mummer, minstrel, puppeteer</desc>
                   </valItem>
@@ -322,35 +296,32 @@
                     <desc>religious official</desc>
                   </valItem>
                   <valItem ident="salter">
-                    <desc></desc>
+                    <desc />
                   </valItem>
                   <valItem ident="singer">
-                    <desc></desc>
+                    <desc />
                   </valItem>
                   <valItem ident="surveyor">
-                    <desc></desc>
+                    <desc />
                   </valItem>
                   <valItem ident="tailor">
-                    <desc></desc>
+                    <desc />
                   </valItem>
                   <valItem ident="theatreWork">
-                    <desc></desc>
+                    <desc />
                   </valItem>
                   <valItem ident="transportationWork" sameAs="cwrc:construction">
                     <desc>transportation work</desc>
                   </valItem>
                   <valItem ident="treasurer">
                     <desc>treasurer</desc>
-                  </valItem>                    
+                  </valItem>
                   <valItem ident="visualArtist">
-                    <desc></desc>
+                    <desc />
                   </valItem>
                   <valItem ident="writer">
-                    <desc></desc>
+                    <desc />
                   </valItem>
-
-
-                  
                 </valList>
               </attDef>
               <!-- commenting out for now as requested to 'leave it open and flexible'  -->
@@ -474,7 +445,6 @@
 -->
             </attList>
           </elementSpec>
-
           <!-- date: modify @type -->
           <elementSpec ident="date" mode="change" module="core">
             <attList>
@@ -490,14 +460,12 @@
                     <desc>The type of date in this REED record is a regnal date</desc>
                   </valItem>
                   <valItem ident="other">
-                    <desc>The type of date in this REED record is another form of non-standard
-                      date</desc>
+                    <desc>The type of date in this REED record is another form of non-standard date</desc>
                   </valItem>
                 </valList>
               </attDef>
             </attList>
           </elementSpec>
-
           <!-- date: modify @cert -->
           <elementSpec ident="date" mode="change" module="core">
             <attList>
@@ -518,19 +486,17 @@
                 </valList>
               </attDef>
             </attList>
-
           </elementSpec>
           <!-- expan: delete attributes -->
           <elementSpec ident="expan" mode="change" module="core">
             <attList>
-              <attDef ident="unit" mode="delete"/>
-              <attDef ident="quantity" mode="delete"/>
-              <attDef ident="extent" mode="delete"/>
-              <attDef ident="scope" mode="delete"/>
-              <attDef ident="source" mode="delete"/>
+              <attDef ident="unit" mode="delete" />
+              <attDef ident="quantity" mode="delete" />
+              <attDef ident="extent" mode="delete" />
+              <attDef ident="scope" mode="delete" />
+              <attDef ident="source" mode="delete" />
             </attList>
           </elementSpec>
-
           <!-- note:@place and @type -->
           <elementSpec ident="note" mode="change" module="core">
             <attList>
@@ -549,24 +515,19 @@
                     <desc>The note to this REED Record is provided at the top of the page</desc>
                   </valItem>
                   <valItem ident="opposite">
-                    <desc>The note to this REED Record is provided on the opposite, i.e. facing,
-                      page</desc>
+                    <desc>The note to this REED Record is provided on the opposite, i.e. facing, page</desc>
                   </valItem>
                   <valItem ident="overleaf">
-                    <desc>The note to this REED Record is provided on the other side of the
-                      leaf</desc>
+                    <desc>The note to this REED Record is provided on the other side of the leaf</desc>
                   </valItem>
                   <valItem ident="end">
-                    <desc>The note to this REED Record is provided at the end of e.g. chapter or
-                      volume.</desc>
+                    <desc>The note to this REED Record is provided at the end of e.g. chapter or volume.</desc>
                   </valItem>
                   <valItem ident="inline">
-                    <desc>The note to this REED Record is provided within the body of the
-                      text.</desc>
+                    <desc>The note to this REED Record is provided within the body of the text.</desc>
                   </valItem>
                   <valItem ident="inspace">
-                    <desc>The note to this REED Record is provided in a predefined space, for
-                      example left by an earlier scribe.</desc>
+                    <desc>The note to this REED Record is provided in a predefined space, for example left by an earlier scribe.</desc>
                   </valItem>
                   <valItem ident="over">
                     <desc>The note to this REED Record is provided written over existing text</desc>
@@ -579,8 +540,7 @@
                     <desc>The note to this REED Record is from antiquarian source</desc>
                   </valItem>
                   <valItem ident="edDesc">
-                    <desc>This note is the editorial note on a print source from which record/s were
-                      derived</desc>
+                    <desc>This note is the editorial note on a print source from which record/s were derived</desc>
                   </valItem>
                   <valItem ident="foot">
                     <desc>The note to this REED Record is at the foot of the leaf</desc>
@@ -597,16 +557,13 @@
                     <desc>The note to this REED Record is a court-related note</desc>
                     </valItem> -->
                   <valItem ident="techDesc">
-                    <desc>This note is the full bibliographic citation for a print source from which
-                      record/s were derived</desc>
+                    <desc>This note is the full bibliographic citation for a print source from which record/s were derived</desc>
                   </valItem>
                   <valItem ident="editorial">
                     <desc>The note to this REED Record is an editorial note</desc>
                   </valItem>
                   <valItem ident="other">
-                    <desc>The note to this REED Record is another type of note. (If you use this
-                      more than a handful of times we should update the TEI ODD
-                      Customisation.)</desc>
+                    <desc>The note to this REED Record is another type of note. (If you use this more than a handful of times we should update the TEI ODD Customisation.)</desc>
                   </valItem>
                   <valItem ident="real">
                     <desc>This note satisfies the CWRC note entity attribute</desc>
@@ -615,8 +572,6 @@
               </attDef>
             </attList>
           </elementSpec>
-
-
           <!-- pb: @type -->
           <elementSpec ident="pb" mode="change" module="core">
             <attList>
@@ -626,8 +581,7 @@
                     <desc>The page break in this REED record is the beginning of a new folio</desc>
                   </valItem>
                   <valItem ident="membrane">
-                    <desc>The page break in this REED record is the beginning of a new
-                      membrane</desc>
+                    <desc>The page break in this REED record is the beginning of a new membrane</desc>
                   </valItem>
                   <valItem ident="page">
                     <desc>The page break in this REED record is the beginning of a new page</desc>
@@ -637,27 +591,21 @@
                   </valItem>
                   <!-- Need to convert Fortune for consistency: <valItem ident="sig"/>-->
                   <valItem ident="signature">
-                    <desc>The page break in this REED record is the beginning of new page marked
-                      with a signature</desc>
+                    <desc>The page break in this REED record is the beginning of new page marked with a signature</desc>
                   </valItem>
                   <valItem ident="single_membrane">
-                    <desc>The page break in this REED record is the beginning of a new
-                      single_membrane</desc>
+                    <desc>The page break in this REED record is the beginning of a new single_membrane</desc>
                   </valItem>
                   <valItem ident="single_sheet">
-                    <desc>The page break in this REED record is the beginning of a new
-                      single_sheet</desc>
+                    <desc>The page break in this REED record is the beginning of a new single_sheet</desc>
                   </valItem>
                   <valItem ident="other">
-                    <desc>The page break in this REED record is the another type of page break. (If
-                      you use this more than a handful of times we should update the TEI ODD
-                      Customisation.)</desc>
+                    <desc>The page break in this REED record is the another type of page break. (If you use this more than a handful of times we should update the TEI ODD Customisation.)</desc>
                   </valItem>
                 </valList>
               </attDef>
             </attList>
           </elementSpec>
-
           <!-- title:  -->
           <elementSpec ident="title" mode="change" module="core">
             <attList>
@@ -680,8 +628,7 @@
                     <desc>title of a database</desc>
                   </valItem>
                   <valItem ident="edName">
-                    <desc>This title is the editorially supplied name of record/s derived from a
-                      print source</desc>
+                    <desc>This title is the editorially supplied name of record/s derived from a print source</desc>
                   </valItem>
                   <valItem ident="journal">
                     <desc>title of a journal</desc>
@@ -708,44 +655,26 @@
                     <desc>title of a section</desc>
                   </valItem>
                   <valItem ident="sourceName">
-                    <desc>This is the title of the print source from which record/s were
-                      derived</desc>
+                    <desc>This is the title of the print source from which record/s were derived</desc>
                   </valItem>
                   <valItem ident="title_page">
                     <desc>title of a title page</desc>
                   </valItem>
                 </valList>
               </attDef>
-
             </attList>
           </elementSpec>
-
-
-          <moduleRef key="corpus" include="settingDesc"/>
-
-
+          <moduleRef key="corpus" include="settingDesc" />
           <!-- dictionaries -->
           <!-- added for glossary work -->
-          <moduleRef key="dictionaries"
-            include="entry form 
-             case orth hyph pron gram gramGrp def colloc etym gen hom lang mood number per pos re sense tns syll usg xr "/>
-
-
+          <moduleRef key="dictionaries" include="entry form               case orth hyph pron gram gramGrp def colloc etym gen hom lang mood number per pos re sense tns syll usg xr " />
           <!-- figures -->
-
-          <moduleRef key="figures" include="cell row table figure figDesc"/>
-
-
-
+          <moduleRef key="figures" include="cell row table figure figDesc" />
           <!-- header module -->
           <!-- xenodata needed by REED:London for mods crosswalk -->
-          <moduleRef key="header"
-            include="authority availability calendar calendarDesc catDesc  category change classDecl distributor edition editionStmt 
-               editorialDecl encodingDesc fileDesc funder keywords idno langUsage language licence 
-               namespace noteStmt profileDesc projectDesc publicationStmt refsDecl revisionDesc 
-               seriesStmt sourceDesc tagUsage tagsDecl taxonomy teiHeader titleStmt listPrefixDef prefixDef xenoData"/>
-
-
+          <moduleRef key="header" include="authority availability calendar calendarDesc catDesc  category change classDecl distributor edition editionStmt                 editorialDecl encodingDesc
+            fileDesc funder keywords idno langUsage language licence                 namespace noteStmt profileDesc projectDesc publicationStmt refsDecl revisionDesc                 seriesStmt
+            sourceDesc tagUsage tagsDecl taxonomy teiHeader titleStmt listPrefixDef prefixDef xenoData" />
           <!-- idno: @type -->
           <elementSpec ident="idno" mode="change" module="header">
             <attList>
@@ -771,42 +700,34 @@
                     <desc>This idno is a shortened title</desc>
                   </valItem>
                   <valItem ident="other">
-                    <desc>This idno is other ID number. (If you use this more than a handful of
-                      times we should update the TEI ODD Customisation.)</desc>
+                    <desc>This idno is other ID number. (If you use this more than a handful of times we should update the TEI ODD Customisation.)</desc>
                   </valItem>
                 </valList>
               </attDef>
             </attList>
           </elementSpec>
-
           <!-- licence delete some attributes -->
           <elementSpec ident="licence" mode="change" module="header">
             <attList>
-              <attDef ident="when" mode="delete"/>
-              <attDef ident="from-iso" mode="delete"/>
-              <attDef ident="to-iso" mode="delete"/>
+              <attDef ident="when" mode="delete" />
+              <attDef ident="from-iso" mode="delete" />
+              <attDef ident="to-iso" mode="delete" />
             </attList>
           </elementSpec>
-
-
           <!-- change: delete some attributes -->
           <elementSpec ident="change" mode="change" module="header">
             <attList>
-              <attDef ident="calendar" mode="delete"/>
-              <attDef ident="when-iso" mode="delete"/>
-              <attDef ident="notBefore-iso" mode="delete"/>
-              <attDef ident="notAfter-iso" mode="delete"/>
-              <attDef ident="from-iso" mode="delete"/>
-              <attDef ident="to-iso" mode="delete"/>
+              <attDef ident="calendar" mode="delete" />
+              <attDef ident="when-iso" mode="delete" />
+              <attDef ident="notBefore-iso" mode="delete" />
+              <attDef ident="notAfter-iso" mode="delete" />
+              <attDef ident="from-iso" mode="delete" />
+              <attDef ident="to-iso" mode="delete" />
             </attList>
           </elementSpec>
-
           <!-- linking module -->
-
-          <moduleRef key="linking" include="ab anchor link seg"/>
-
+          <moduleRef key="linking" include="ab anchor link seg" />
           <!-- Fortune really abuses <link> when they should use <ptr/>-->
-
           <!-- Migration Fortune material to use <ptr/> -->
           <!--<elementSpec ident="link" mode="change">
                <attList>
@@ -822,7 +743,6 @@
                </attList>
             </elementSpec>
             -->
-
           <!-- ab: REED use of ab is atypical, they use it to structure the record extracts -->
           <elementSpec ident="ab" mode="change" module="linking">
             <attList>
@@ -833,77 +753,65 @@
                         <valItem ident="body_p_exdented"/>
                         <valItem ident="body_p_indented"/>-->
                   <valItem ident="edDesc">
-                    <desc>This ab is the editorial note on a manuscript source from which record/s
-                      were derived</desc>
+                    <desc>This ab is the editorial note on a manuscript source from which record/s were derived</desc>
                   </valItem>
-                  <valItem ident="exdent"/>
-                  <valItem ident="indent"/>
+                  <valItem ident="exdent" />
+                  <valItem ident="indent" />
                   <!--<valItem ident="closer"/>-->
                   <!--<valItem ident="endnote"/>-->
-                  <valItem ident="head"/>
+                  <valItem ident="head" />
                   <!-- <valItem ident="heading"/>-->
-                  <valItem ident="initial_letter"/>
+                  <valItem ident="initial_letter" />
                   <!--<valItem ident="list"/>-->
                   <!--<valItem ident="marginalia"/>-->
-                  <valItem ident="opener"/>
+                  <valItem ident="opener" />
                   <!--<valItem ident="play_text"/>-->
                   <!--<valItem ident="prologue"/>-->
-                  <valItem ident="signature"/>
+                  <valItem ident="signature" />
                   <!--<valItem ident="sub"/>-->
-                  <valItem ident="subhead"/>
-                  <valItem ident="table"/>
+                  <valItem ident="subhead" />
+                  <valItem ident="table" />
                   <valItem ident="techDesc">
-                    <desc>This ab is the technical description for a manuscript source from which
-                      record/s were derived</desc>
+                    <desc>This ab is the technical description for a manuscript source from which record/s were derived</desc>
                   </valItem>
                   <!--<valItem ident="title_page"/>-->
-                  <valItem ident="other"/>
+                  <valItem ident="other" />
                 </valList>
               </attDef>
             </attList>
           </elementSpec>
-
-
           <!-- seg: type -->
           <elementSpec ident="seg" mode="change" module="linking">
             <attList>
               <attDef ident="type" mode="change">
                 <valList mode="add" type="closed">
-                  <valItem ident="closer"/>
-                  <valItem ident="signed"/>
-                  <valItem ident="signed_mark"/>
-                  <valItem ident="table"/>
+                  <valItem ident="closer" />
+                  <valItem ident="signed" />
+                  <valItem ident="signed_mark" />
+                  <valItem ident="table" />
                 </valList>
               </attDef>
-              <attDef ident="source" mode="delete"/>
+              <attDef ident="source" mode="delete" />
             </attList>
           </elementSpec>
-
           <!-- delete various att.global.linking attributes-->
           <classSpec ident="att.global.linking" module="linking" type="atts" mode="change">
             <attList>
-              <attDef ident="synch" mode="delete"/>
-              <attDef ident="copyOf" mode="delete"/>
-              <attDef ident="exclude" mode="delete"/>
-              <attDef ident="select" mode="delete"/>
+              <attDef ident="synch" mode="delete" />
+              <attDef ident="copyOf" mode="delete" />
+              <attDef ident="exclude" mode="delete" />
+              <attDef ident="select" mode="delete" />
             </attList>
           </classSpec>
-
           <!-- never use @key, use @ref and documented private URIs instead  -->
           <classSpec ident="att.canonical" module="tei" type="atts" mode="change">
             <attList>
-              <attDef ident="key" mode="delete"/>
+              <attDef ident="key" mode="delete" />
             </attList>
           </classSpec>
-
-
           <!-- Include all of msdescription -->
-          <moduleRef key="msdescription"/>
-
-
-
+          <moduleRef key="msdescription" />
           <!-- Commented out since this is now solved by https://github.com/TEIC/TEI/issues/1597 -->
-
           <!--    <!-\- Non-conformant change to msName to allow rs inside -\->
           <elementSpec ident="msName" mode="change" module="msdescription">
             <content>
@@ -913,49 +821,41 @@
               </alternate>
             </content>
           </elementSpec>-->
-
-
-
           <!-- origDate: delete lots of attributes -->
           <elementSpec ident="origDate" mode="change" module="msdescription">
             <attList>
-              <attDef ident="calendar" mode="delete"/>
-              <attDef ident="when-iso" mode="delete"/>
-              <attDef ident="notBefore-iso" mode="delete"/>
-              <attDef ident="notAfter-iso" mode="delete"/>
-              <attDef ident="from-iso" mode="delete"/>
-              <attDef ident="to-iso" mode="delete"/>
-              <attDef ident="unit" mode="delete"/>
-              <attDef ident="quantity" mode="delete"/>
-              <attDef ident="extent" mode="delete"/>
-              <attDef ident="scope" mode="delete"/>
+              <attDef ident="calendar" mode="delete" />
+              <attDef ident="when-iso" mode="delete" />
+              <attDef ident="notBefore-iso" mode="delete" />
+              <attDef ident="notAfter-iso" mode="delete" />
+              <attDef ident="from-iso" mode="delete" />
+              <attDef ident="to-iso" mode="delete" />
+              <attDef ident="unit" mode="delete" />
+              <attDef ident="quantity" mode="delete" />
+              <attDef ident="extent" mode="delete" />
+              <attDef ident="scope" mode="delete" />
             </attList>
           </elementSpec>
-
           <!-- origin: delete lots of attributes -->
           <elementSpec ident="origin" mode="change" module="msdescription">
             <attList>
-              <attDef ident="unit" mode="delete"/>
-              <attDef ident="quantity" mode="delete"/>
-              <attDef ident="extent" mode="delete"/>
-              <attDef ident="scope" mode="delete"/>
-              <attDef ident="calendar" mode="delete"/>
-              <attDef ident="when-iso" mode="delete"/>
-              <attDef ident="notBefore-iso" mode="delete"/>
-              <attDef ident="notAfter-iso" mode="delete"/>
-              <attDef ident="from-iso" mode="delete"/>
-              <attDef ident="to-iso" mode="delete"/>
+              <attDef ident="unit" mode="delete" />
+              <attDef ident="quantity" mode="delete" />
+              <attDef ident="extent" mode="delete" />
+              <attDef ident="scope" mode="delete" />
+              <attDef ident="calendar" mode="delete" />
+              <attDef ident="when-iso" mode="delete" />
+              <attDef ident="notBefore-iso" mode="delete" />
+              <attDef ident="notAfter-iso" mode="delete" />
+              <attDef ident="from-iso" mode="delete" />
+              <attDef ident="to-iso" mode="delete" />
             </attList>
           </elementSpec>
-
           <!-- delete att.msExcerpt -->
-          <classSpec ident="att.msExcerpt" module="msdescription" type="atts" mode="delete"/>
-
+          <classSpec ident="att.msExcerpt" module="msdescription" type="atts" mode="delete" />
           <!-- namesdates: only include orgName, persName, placeName, occupation, and settlement. Not doing metadata records for named entities...yet-->
-          <moduleRef key="namesdates" include="orgName persName place placeName settlement occupation"/>
-            
+          <moduleRef key="namesdates" include="orgName persName place placeName settlement occupation" />
           <!-- delete lots of attributes -->
-
           <!-- persName: modify @cert for CWRC -->
           <elementSpec ident="persName" mode="change" module="namesdates">
             <attList>
@@ -975,9 +875,8 @@
                   </valItem>
                 </valList>
               </attDef>
-            </attList>            
+            </attList>
           </elementSpec>
-          
           <!-- placeName: modify @cert for CWRC -->
           <elementSpec ident="placeName" mode="change" module="namesdates">
             <attList>
@@ -997,26 +896,24 @@
                   </valItem>
                 </valList>
               </attDef>
-            </attList>            
+            </attList>
           </elementSpec>
-          
           <!-- delete lots of attributes for CWRC -->
           <elementSpec ident="orgName" mode="change" module="namesdates">
             <attList>
-              <attDef ident="calendar" mode="delete"/>
-              <attDef ident="when-iso" mode="delete"/>
-              <attDef ident="notBefore-iso" mode="delete"/>
-              <attDef ident="notAfter-iso" mode="delete"/>
-              <attDef ident="from-iso" mode="delete"/>
-              <attDef ident="to-iso" mode="delete"/>
-              <attDef ident="unit" mode="delete"/>
-              <attDef ident="quantity" mode="delete"/>
-              <attDef ident="extent" mode="delete"/>
-              <attDef ident="scope" mode="delete"/>
-              <attDef ident="source" mode="delete"/>
+              <attDef ident="calendar" mode="delete" />
+              <attDef ident="when-iso" mode="delete" />
+              <attDef ident="notBefore-iso" mode="delete" />
+              <attDef ident="notAfter-iso" mode="delete" />
+              <attDef ident="from-iso" mode="delete" />
+              <attDef ident="to-iso" mode="delete" />
+              <attDef ident="unit" mode="delete" />
+              <attDef ident="quantity" mode="delete" />
+              <attDef ident="extent" mode="delete" />
+              <attDef ident="scope" mode="delete" />
+              <attDef ident="source" mode="delete" />
             </attList>
           </elementSpec>
-
           <!-- orgName: modify @cert -->
           <elementSpec ident="orgName" mode="change" module="namesdates">
             <attList>
@@ -1038,24 +935,22 @@
               </attDef>
             </attList>
           </elementSpec>
-          
           <!-- delete lots of attributes -->
           <elementSpec ident="persName" mode="change" module="namesdates">
             <attList>
-              <attDef ident="calendar" mode="delete"/>
-              <attDef ident="when-iso" mode="delete"/>
-              <attDef ident="notBefore-iso" mode="delete"/>
-              <attDef ident="notAfter-iso" mode="delete"/>
-              <attDef ident="from-iso" mode="delete"/>
-              <attDef ident="to-iso" mode="delete"/>
-              <attDef ident="unit" mode="delete"/>
-              <attDef ident="quantity" mode="delete"/>
-              <attDef ident="extent" mode="delete"/>
-              <attDef ident="scope" mode="delete"/>
-              <attDef ident="source" mode="delete"/>
+              <attDef ident="calendar" mode="delete" />
+              <attDef ident="when-iso" mode="delete" />
+              <attDef ident="notBefore-iso" mode="delete" />
+              <attDef ident="notAfter-iso" mode="delete" />
+              <attDef ident="from-iso" mode="delete" />
+              <attDef ident="to-iso" mode="delete" />
+              <attDef ident="unit" mode="delete" />
+              <attDef ident="quantity" mode="delete" />
+              <attDef ident="extent" mode="delete" />
+              <attDef ident="scope" mode="delete" />
+              <attDef ident="source" mode="delete" />
             </attList>
           </elementSpec>
-
           <!-- persName: modify @cert -->
           <elementSpec ident="persName" mode="change" module="namesdates">
             <attList>
@@ -1077,24 +972,22 @@
               </attDef>
             </attList>
           </elementSpec>
-          
           <!-- delete lots of attributes -->
           <elementSpec ident="placeName" mode="change" module="namesdates">
             <attList>
-              <attDef ident="calendar" mode="delete"/>
-              <attDef ident="when-iso" mode="delete"/>
-              <attDef ident="notBefore-iso" mode="delete"/>
-              <attDef ident="notAfter-iso" mode="delete"/>
-              <attDef ident="from-iso" mode="delete"/>
-              <attDef ident="to-iso" mode="delete"/>
-              <attDef ident="unit" mode="delete"/>
-              <attDef ident="quantity" mode="delete"/>
-              <attDef ident="extent" mode="delete"/>
-              <attDef ident="scope" mode="delete"/>
-              <attDef ident="source" mode="delete"/>
+              <attDef ident="calendar" mode="delete" />
+              <attDef ident="when-iso" mode="delete" />
+              <attDef ident="notBefore-iso" mode="delete" />
+              <attDef ident="notAfter-iso" mode="delete" />
+              <attDef ident="from-iso" mode="delete" />
+              <attDef ident="to-iso" mode="delete" />
+              <attDef ident="unit" mode="delete" />
+              <attDef ident="quantity" mode="delete" />
+              <attDef ident="extent" mode="delete" />
+              <attDef ident="scope" mode="delete" />
+              <attDef ident="source" mode="delete" />
             </attList>
           </elementSpec>
-
           <!-- placeName: modify @cert -->
           <elementSpec ident="placeName" mode="change" module="namesdates">
             <attList>
@@ -1116,131 +1009,120 @@
               </attDef>
             </attList>
           </elementSpec>
-          
           <!-- delete lots of attributes -->
           <elementSpec ident="settlement" mode="change" module="namesdates">
             <attList>
-              <attDef ident="calendar" mode="delete"/>
-              <attDef ident="when-iso" mode="delete"/>
-              <attDef ident="notBefore-iso" mode="delete"/>
-              <attDef ident="notAfter-iso" mode="delete"/>
-              <attDef ident="from-iso" mode="delete"/>
-              <attDef ident="to-iso" mode="delete"/>
+              <attDef ident="calendar" mode="delete" />
+              <attDef ident="when-iso" mode="delete" />
+              <attDef ident="notBefore-iso" mode="delete" />
+              <attDef ident="notAfter-iso" mode="delete" />
+              <attDef ident="from-iso" mode="delete" />
+              <attDef ident="to-iso" mode="delete" />
             </attList>
           </elementSpec>
-
-          <classSpec ident="att.datable.custom" module="namesdates" type="atts" mode="delete"/>
-          <classSpec ident="att.cReferencing" module="tei" type="atts" mode="delete"/>
-
+          <classSpec ident="att.datable.custom" module="namesdates" type="atts" mode="delete" />
+          <classSpec ident="att.cReferencing" module="tei" type="atts" mode="delete" />
           <!-- delete lots of attributes -->
           <classSpec ident="att.datable" module="tei" type="atts" mode="change">
             <attList>
-              <attDef ident="when-custom" mode="delete"/>
-              <attDef ident="notBefore-custom" mode="delete"/>
-              <attDef ident="notAfter-custom" mode="delete"/>
-              <attDef ident="from-custom" mode="delete"/>
-              <attDef ident="to-custom" mode="delete"/>
-              <attDef ident="datingPoint" mode="delete"/>
-              <attDef ident="datingMethod" mode="delete"/>
+              <attDef ident="when-custom" mode="delete" />
+              <attDef ident="notBefore-custom" mode="delete" />
+              <attDef ident="notAfter-custom" mode="delete" />
+              <attDef ident="from-custom" mode="delete" />
+              <attDef ident="to-custom" mode="delete" />
+              <attDef ident="datingPoint" mode="delete" />
+              <attDef ident="datingMethod" mode="delete" />
             </attList>
           </classSpec>
           <!-- delete lots of attributes -->
-          <classSpec ident="att.datcat" module="tei" type="atts" mode="delete"/>
-          <classSpec ident="att.declarable" module="tei" type="atts" mode="delete"/>
-          <classSpec ident="att.declaring" module="tei" type="atts" mode="delete"/>
-          <classSpec ident="att.divLike" module="tei" type="atts" mode="delete"/>
-          <classSpec ident="att.duration.iso" module="tei" type="atts" mode="delete"/>
-
+          <classSpec ident="att.datcat" module="tei" type="atts" mode="delete" />
+          <classSpec ident="att.declarable" module="tei" type="atts" mode="delete" />
+          <classSpec ident="att.declaring" module="tei" type="atts" mode="delete" />
+          <classSpec ident="att.divLike" module="tei" type="atts" mode="delete" />
+          <classSpec ident="att.duration.iso" module="tei" type="atts" mode="delete" />
           <!-- delete lots of attributes -->
           <classSpec ident="att.editLike" module="tei" type="atts" mode="change">
             <attList>
-              <attDef ident="evidence" mode="delete"/>
+              <attDef ident="evidence" mode="delete" />
             </attList>
           </classSpec>
           <!-- delete lots of attributes -->
           <classSpec ident="att.rangin" module="tei" type="atts" mode="change">
             <attList>
-              <attDef ident="atLeast" mode="delete"/>
-              <attDef ident="atMost" mode="delete"/>
-              <attDef ident="min" mode="delete"/>
-              <attDef ident="max" mode="delete"/>
-              <attDef ident="confidence" mode="delete"/>
+              <attDef ident="atLeast" mode="delete" />
+              <attDef ident="atMost" mode="delete" />
+              <attDef ident="min" mode="delete" />
+              <attDef ident="max" mode="delete" />
+              <attDef ident="confidence" mode="delete" />
             </attList>
           </classSpec>
-
           <!-- delete lots of attributes -->
           <classSpec ident="att.global.rendition" module="tei" type="atts" mode="change">
             <attList>
-              <attDef ident="style" mode="delete"/>
+              <attDef ident="style" mode="delete" />
             </attList>
           </classSpec>
-
           <!-- delete lots of attributes -->
           <classSpec ident="att.global.change" module="tei" type="atts" mode="change">
             <attList>
-              <attDef ident="change" mode="delete"/>
+              <attDef ident="change" mode="delete" />
             </attList>
           </classSpec>
           <!-- delete lots of attributes -->
           <classSpec ident="att.media" module="tei" type="atts" mode="change">
             <attList>
-              <attDef ident="scale" mode="delete"/>
+              <attDef ident="scale" mode="delete" />
             </attList>
           </classSpec>
           <!-- delete lots of attributes -->
-          <classSpec ident="att.interpLike" module="tei" type="atts" mode="delete"/>
+          <classSpec ident="att.interpLike" module="tei" type="atts" mode="delete" />
           <!-- delete lots of attributes -->
           <classSpec ident="att.naming" module="tei" type="atts" mode="change">
             <attList>
-              <attDef ident="nymRef" mode="delete"/>
+              <attDef ident="nymRef" mode="delete" />
             </attList>
           </classSpec>
           <!-- delete lots of attributes -->
           <classSpec ident="att.pointing" module="tei" type="atts" mode="change">
             <attList>
-              <attDef ident="targetLang" mode="delete"/>
-              <attDef ident="evaluate" mode="delete"/>
+              <attDef ident="targetLang" mode="delete" />
+              <attDef ident="evaluate" mode="delete" />
             </attList>
           </classSpec>
           <!-- delete lots of attributes -->
           <classSpec ident="att.pointing.group" module="tei" type="atts" mode="change">
             <attList>
-              <attDef ident="domains" mode="delete"/>
-              <attDef ident="targFunc" mode="delete"/>
-              <attDef ident="targetLang" mode="delete"/>
-              <attDef ident="evaluate" mode="delete"/>
+              <attDef ident="domains" mode="delete" />
+              <attDef ident="targFunc" mode="delete" />
+              <attDef ident="targetLang" mode="delete" />
+              <attDef ident="evaluate" mode="delete" />
             </attList>
           </classSpec>
           <!-- delete lots of attributes -->
           <classSpec ident="att.segLike" module="tei" type="atts" mode="change">
             <attList>
-              <attDef ident="function" mode="delete"/>
-              <attDef ident="met" mode="delete"/>
-              <attDef ident="real" mode="delete"/>
-              <attDef ident="rhyme" mode="delete"/>
-              <attDef ident="datcat" mode="delete"/>
-              <attDef ident="valueDatcat" mode="delete"/>
+              <attDef ident="function" mode="delete" />
+              <attDef ident="met" mode="delete" />
+              <attDef ident="real" mode="delete" />
+              <attDef ident="rhyme" mode="delete" />
+              <attDef ident="datcat" mode="delete" />
+              <attDef ident="valueDatcat" mode="delete" />
             </attList>
           </classSpec>
           <!-- delete lots of attributes -->
-          <classSpec ident="att.timed" module="tei" type="atts" mode="delete"/>
+          <classSpec ident="att.timed" module="tei" type="atts" mode="delete" />
           <!-- delete lots of attributes -->
-          <classSpec ident="att.translatable" module="tei" type="atts" mode="delete"/>
+          <classSpec ident="att.translatable" module="tei" type="atts" mode="delete" />
           <!-- delete lots of attributes -->
           <classSpec ident="att.personal" module="tei" type="atts" mode="change">
             <attList>
-              <attDef ident="nymRef" mode="delete"/>
+              <attDef ident="nymRef" mode="delete" />
             </attList>
           </classSpec>
-
           <!-- tagsdoc module to include code -->
-          <moduleRef key="tagdocs" include="code"/>
-
+          <moduleRef key="tagdocs" include="code" />
           <!-- textstructure module -->
-          <moduleRef key="textstructure"
-            include="TEI body div group text floatingText closer front back salute signed trailer"/>
-
-
+          <moduleRef key="textstructure" include="TEI body div group text floatingText closer front back salute signed trailer" />
           <!-- text: @type -->
           <elementSpec ident="text" mode="change" module="textstructure">
             <attList>
@@ -1253,7 +1135,6 @@
               </attDef>
             </attList>
           </elementSpec>
-
           <!-- floatingText: @type -->
           <elementSpec ident="floatingText" mode="change" module="textstructure">
             <attList>
@@ -1266,7 +1147,6 @@
               </attDef>
             </attList>
           </elementSpec>
-
           <!-- div -->
           <elementSpec ident="div" mode="change" module="textstructure">
             <attList>
@@ -1285,28 +1165,19 @@
                     <desc>This REED division is a translation</desc>
                   </valItem>
                   <valItem ident="other">
-                    <desc>This REED division is something else. (If you use this more than a handful
-                      of times we should update the TEI ODD Customisation.)</desc>
+                    <desc>This REED division is something else. (If you use this more than a handful of times we should update the TEI ODD Customisation.)</desc>
                   </valItem>
-
                 </valList>
               </attDef>
-
             </attList>
           </elementSpec>
-
           <!-- transcription module -->
-          <moduleRef key="transcr"
-            include="am addSpan damage delSpan ex fw handShift 
-               space subst supplied surplus"/>
-
+          <moduleRef key="transcr" include="am addSpan damage delSpan ex fw handShift                 space subst supplied surplus" />
           <elementSpec ident="addSpan" mode="change" module="transcr">
             <attList>
-              <attDef ident="scope" mode="delete"/>
+              <attDef ident="scope" mode="delete" />
             </attList>
           </elementSpec>
-
-
           <!-- damage:type and agent -->
           <elementSpec ident="damage" mode="change" module="transcr">
             <attList>
@@ -1316,16 +1187,12 @@
                     <desc>This damage is characterised by REED as a hole</desc>
                   </valItem>
                   <valItem ident="other">
-                    <desc>This damage is characterised by REED as something else. (If you use this
-                      more than a handful of times we should update the TEI ODD
-                      Customisation.)</desc>
+                    <desc>This damage is characterised by REED as something else. (If you use this more than a handful of times we should update the TEI ODD Customisation.)</desc>
                   </valItem>
-
                   <!--<valItem ident="natural_hole"/>-->
                   <!-- Other values -->
                 </valList>
               </attDef>
-
               <attDef ident="agent" mode="change">
                 <valList mode="add" type="semi">
                   <valItem ident="bookbinding">
@@ -1359,22 +1226,18 @@
                   </valItem>
                   <!-- other values -->
                   <valItem ident="other">
-                    <desc>There is some other sort of agent for this damage. (If you use this more
-                      than a handful of times we should update the TEI ODD Customisation.)</desc>
+                    <desc>There is some other sort of agent for this damage. (If you use this more than a handful of times we should update the TEI ODD Customisation.)</desc>
                   </valItem>
-
                 </valList>
               </attDef>
             </attList>
           </elementSpec>
-
           <!-- delete attribute -->
           <elementSpec ident="ex" mode="change" module="transcr">
             <attList>
-              <attDef ident="scope" mode="delete"/>
+              <attDef ident="scope" mode="delete" />
             </attList>
           </elementSpec>
-
           <!-- fw: place -->
           <elementSpec ident="fw" mode="change" module="transcr">
             <attList>
@@ -1407,48 +1270,36 @@
                     <desc>The forme work for this REED record was a catchword</desc>
                   </valItem>
                   <valItem ident="other">
-                    <desc>There is some other sort of formework. (If you use this more than a
-                      handful of times we should update the TEI ODD Customisation.)</desc>
+                    <desc>There is some other sort of formework. (If you use this more than a handful of times we should update the TEI ODD Customisation.)</desc>
                   </valItem>
-
                 </valList>
               </attDef>
             </attList>
           </elementSpec>
-
-
           <!-- delete attributes -->
           <elementSpec ident="subst" mode="change" module="transcr">
             <attList>
-              <attDef ident="scope" mode="delete"/>
-              <attDef ident="source" mode="delete"/>
+              <attDef ident="scope" mode="delete" />
+              <attDef ident="source" mode="delete" />
             </attList>
           </elementSpec>
-
           <!-- delete attributes -->
           <elementSpec ident="supplied" mode="change" module="transcr">
             <attList>
-              <attDef ident="scope" mode="delete"/>
+              <attDef ident="scope" mode="delete" />
             </attList>
           </elementSpec>
-
           <!-- delete attributes -->
           <elementSpec ident="surplus" mode="change" module="transcr">
             <attList>
-              <attDef ident="scope" mode="delete"/>
+              <attDef ident="scope" mode="delete" />
             </attList>
           </elementSpec>
-
           <!-- delete attributes -->
-          <classSpec ident="att.global.change" module="transcr" type="atts" mode="delete"/>
-
-
+          <classSpec ident="att.global.change" module="transcr" type="atts" mode="delete" />
           <!-- end of schema -->
-
         </schemaSpec>
-
       </div>
-
     </body>
   </text>
 </TEI>
