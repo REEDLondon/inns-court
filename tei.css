@@ -236,9 +236,10 @@ publicationStmt > date{
 dateline{
     display: inline;
 }
-del{
+/* Changed deletion strikethrough to gray from red for CWRC-REED London */
+del{ 
     display: inline;
-    color: red;
+    color: gray;
     background-color: inherit;
     text-decoration: line-through;
 }
