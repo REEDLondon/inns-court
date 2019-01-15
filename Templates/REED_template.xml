@@ -37,10 +37,7 @@
             <respStmt>
                <persName xml:id="PG">Patrick Gregory</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
-               <resp>Associate Editor</resp>
-               <!-- confirm -->
                <resp>Paleographer, Translator</resp>
-               <!-- confirm -->
             </respStmt>
 
             <respStmt>
@@ -91,7 +88,6 @@
             <respStmt>
                <persName>Matthew Davies</persName>
                <orgName>University of London, Birkbeck College</orgName>
-               <!-- confirm -->
                <resp>Records of Early English Drama (REED) Executive Board</resp>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
@@ -244,70 +240,22 @@
             </place>
          </settingDesc>
       </profileDesc>
-      <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
-         <mods:mods>
-            <mods:titleInfo>
-               <mods:title>Middle Temple Receipt</mods:title>
-               <mods:subTitle>Some subtitle here</mods:subTitle>
-            </mods:titleInfo>
-            <mods:titleInfo type="alternative">
-               <mods:title>Alternative title</mods:title>
-            </mods:titleInfo>
-            <mods:name type="corporate">
-               <mods:namePart>Middle Temple</mods:namePart>
-            </mods:name>
-            <mods:typeOfResource>text</mods:typeOfResource>
-            <mods:genre type="formatType">Born Digital</mods:genre>
-            <mods:genre type="format">born digital</mods:genre>
-            <mods:genre type="primaryGenre">Record</mods:genre>
-            <mods:genre type="subgenre">Archival Material</mods:genre>
-            <mods:genre>Performance</mods:genre>
-            <mods:language>
-               <mods:languageTerm type="text">English</mods:languageTerm>
-            </mods:language>
-            <mods:physicalDescription>
-               <mods:form authority="marccategory">electronic resource</mods:form>
-               <mods:internetMediaType>text/xml</mods:internetMediaType>
-               <mods:digitalOrigin>born digital</mods:digitalOrigin>
-            </mods:physicalDescription>
-            <mods:abstract>"The governing body of the Middle Temple is called the parliament; its orders, called minutes of parliament, are preserved in volumes called Parliament Books. Middle Temple Parliament Books survive from 1500, except that the second volume, for 1524–51, is lost (whence number ‘2’ is omitted from the sequence of shelfmarks)."</mods:abstract>
-            <mods:subject>
-               <mods:topic valueURI="http://id.loc.gov/authorities/subjects/sh2002012473">Theater--England--London--History--17th century </mods:topic>
-            </mods:subject>
-            <mods:subject>
-               <mods:geographic valueURI="http://www.geonames.org/2643743/">London</mods:geographic>
-            </mods:subject>
-            <mods:subject>
-               <mods:temporal point="start">1601</mods:temporal>
-               <mods:temporal point="end">1700</mods:temporal>
-            </mods:subject>
-            <mods:accessCondition type="use and reproduction">Use of this public-domain resource is governed by the &lt;a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="blank"&gt;Creative Commons Attribution-NonCommercial 4.0 International License&lt;/a&gt;.</mods:accessCondition>
-            <mods:recordInfo>
-               <mods:recordOrigin>This MODS record was created using the Islandora XML Forms collection of Drupal modules.</mods:recordOrigin>
-               <mods:languageOfCataloging>
-                  <mods:languageTerm type="text">English</mods:languageTerm>
-               </mods:languageOfCataloging>
-               <mods:recordContentSource>Canadian Writing Research Collaboratory</mods:recordContentSource>
-            </mods:recordInfo>
-         </mods:mods>
-      </xenoData>
    </teiHeader>
 
-   <text ana="taxon:middle_temple" type="record" xml:id="RLMTR6">
-      <!-- match with IDs -->
+   <text ana="taxon:letter taxon:abcde" type="record">
+      <!-- match with taxonomy document IDs -->
       <body>
          <head>
-            <date from-iso="1612" to-iso="1613">1612-13</date></head>
-         <div type="transcription" xml:lang="en">
-            <!-- If there is a translation, it should also have a xml:lang="" -->
+            <date when-iso="YYY-MM-DD">1234</date></head>
+         <div type="transcription" xml:lang=""> <!-- This should include the correct transcription language -->
             <div>
                <head>
-                  <supplied>17 June 1613</supplied></head>
-               <pb type="sheet"/>
-               <ab>xvij<hi rend="sup">mo</hi> die Iunij Anno 1613</ab>
-               <ab>Receaved the daye &amp; yeare above written of Iohn Hopkyns money w<ex>hi</ex>ch he receaved of the Rowles toward<ex>es</ex> the late Maske of the some of one hundred pound<ex>es</ex></ab>
-               <ab><seg type="signed">Richard Baldwin Subth<ex>esaurari</ex>o</seg></ab>
+                  <supplied/></head>
+               <pb type="type"/> <!-- include correct type (folio, sheet, single_sheet, etc.) -->
+               <gap reason="omitted"/>
+               <ab> </ab>
             </div>
+
          </div>
       </body>
    </text>

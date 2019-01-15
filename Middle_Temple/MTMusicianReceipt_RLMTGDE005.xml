@@ -289,14 +289,14 @@
       </xenoData>
    </teiHeader>
 
-   <text ana="taxon:middle_temple" type="record" xml:id="RLMTMR">
+   <text ana="taxon:middle_temple taxon:RLMTGDE005" type="record">
       <body>
          <head>
-            <date from-iso="1612" to-iso="1613">1612-13</date></head>
+            <date when-iso="1613-02-13">1612-13</date></head>
          <div type="transcription" xml:lang="en">
             <div>
                <head>
-                  <supplied>Middle Temple Musicians' Receipt (13 February 1613)</supplied></head>
+                  <supplied>(13 February 1613)</supplied></head>
                <pb type="sheet" n="1"/>
                <gap reason="omitted"/>
                <ab>

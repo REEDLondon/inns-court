@@ -1,9 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="REED.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="https://beta.cwrc.ca/islandora/object/cwrc%3A5d5159ce-8710-4717-b977-cc528dedc25e/datastream/CSS/view" type="text/css"?>
+<?xml-model href="https://beta.cwrc.ca/islandora/object/cwrc%3A5d5159ce-8710-4717-b977-cc528dedc25e/datastream/SCHEMA/view" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cw="http://cwrc.ca/ns/cw#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xml:base="tei/records/" xml:id="london" xml:lang="eng"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cw="http://cwrc.ca/ns/cw#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+<rdf:Description rdf:about="https://beta.cwrc.ca/sites/default/modules/islandora_cwrc_writer/build/editor/documents/ceww:7c9b881b-e669-436d-95a2-e851afec5699">
+	<cw:mode>0</cw:mode>
+	<cw:allowOverlap>false</cw:allowOverlap>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/5a8bd20e-4a79-4598-9284-9fbba9db3a92">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/124b6aec-8c0d-4eda-9e0b-a688d8fa5b7a"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/person/948c83b2-b53e-4464-86f2-1aeb03a2f7fd"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/user/3cd60e75-4c13-4bb2-bc56-e77010f038d2"/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-12-24T22:00:03.591Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-12-24T22:00:03.591Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
+	<cw:hasCertainty xmlns:cw="http://cwrc.ca/ns/cw#" rdf:resource="http://cwrc.ca/ns/cw#definite"/>
+	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{"id":"https://commons.cwrc.ca/reed:c5a655b0-ec93-46e7-ad35-450cfba5e1c7","uri":"https://commons.cwrc.ca/reed:c5a655b0-ec93-46e7-ad35-450cfba5e1c7","uriForDisplay":"https://commons.cwrc.ca/reed:c5a655b0-ec93-46e7-ad35-450cfba5e1c7","name":"Spencer, Thomas","nameType":"person","repository":"CWRC","originalQueryString":"Thomas Spencer","logo":"https://beta.cwrc.ca/sites/default/files/rl_kempe.png"}</cw:cwrcInfo>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"n":"Thomas Spencer","ref":"https://commons.cwrc.ca/reed:c5a655b0-ec93-46e7-ad35-450cfba5e1c7","cert":"definite","type":"real"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/person/948c83b2-b53e-4464-86f2-1aeb03a2f7fd">
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/124b6aec-8c0d-4eda-9e0b-a688d8fa5b7a">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/e620ddf9-1b8c-40dd-9d4d-de12253e0265"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/11bfd68f-afbe-413c-b309-bb5698e37b81"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/11bfd68f-afbe-413c-b309-bb5698e37b81">
+	<rdf:value>xpointer(//persName[@annotationId="ent_255"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/24f8e8f2-0719-4646-a1db-ffd44206985f">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/ecadc38a-023b-443b-9684-d728326dde51"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/person/53f137a0-0595-4485-8142-539a8b406b38"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/user/f38c87ac-c0df-4319-953b-efd8d67e7dc3"/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-12-24T22:00:03.591Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-12-24T22:00:03.591Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
+	<cw:hasCertainty xmlns:cw="http://cwrc.ca/ns/cw#" rdf:resource="http://cwrc.ca/ns/cw#definite"/>
+	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{"id":"https://commons.cwrc.ca/reed:c5a655b0-ec93-46e7-ad35-450cfba5e1c7","uri":"https://commons.cwrc.ca/reed:c5a655b0-ec93-46e7-ad35-450cfba5e1c7","uriForDisplay":"https://commons.cwrc.ca/reed:c5a655b0-ec93-46e7-ad35-450cfba5e1c7","name":"Spencer, Thomas","nameType":"person","repository":"CWRC","originalQueryString":"Thomas Spencer","logo":"https://beta.cwrc.ca/sites/default/files/rl_kempe.png"}</cw:cwrcInfo>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"ref":"https://commons.cwrc.ca/reed:c5a655b0-ec93-46e7-ad35-450cfba5e1c7","cert":"definite","type":"real"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/person/53f137a0-0595-4485-8142-539a8b406b38">
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/ecadc38a-023b-443b-9684-d728326dde51">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/0bf7a015-87a0-42e7-a445-678558ba843c"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/46ec16d7-baa1-4c28-9439-6430048a383c"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/46ec16d7-baa1-4c28-9439-6430048a383c">
+	<rdf:value>xpointer(//persName[@annotationId="ent_256"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+</rdf:RDF>
 
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="eng"> 
+
+
+ 
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -63,7 +125,7 @@
             
             <respStmt>
                <persName>Matthew Davies</persName>
-               <orgName>University of London, Birkbeck College</orgName> <!-- confirm -->
+               <orgName>University of London, Birkbeck College</orgName> <!--      confirm      -->
                <resp>Records of Early English Drama (REED) Executive Board</resp>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
@@ -71,8 +133,8 @@
             <respStmt>
                <persName xml:id="PG">Patrick Gregory</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
-               <resp>Associate Editor</resp> <!-- confirm -->
-               <resp>Paleographer, Translator</resp> <!-- confirm -->
+               <resp>Associate Editor</resp> <!--      confirm      -->
+               <resp>Paleographer, Translator</resp> <!--      confirm      -->
             </respStmt>
             <respStmt>
                <persName>Tanya Hagen</persName>
@@ -193,14 +255,12 @@
       
       <encodingDesc>
          <listPrefixDef>
-            <prefixDef ident="taxon" matchPattern="([A-Za-z0-9_-]+)"
-               replacementPattern="../taxonomy.xml#$1">
+            <prefixDef ident="taxon" matchPattern="([A-Za-z0-9_-]+)" replacementPattern="../taxonomy.xml#$1">
                <p>Private URIs using the <code>taxon</code> prefix are pointers to entities in the
                   taxonomy.xml file. For example, <code>taxon:church</code> dereferences to
                   <code>taxonomy.xml#church</code>.</p>
             </prefixDef>
-            <prefixDef ident="gloss" matchPattern="([A-Za-z0-9_-]+)"
-               replacementPattern="../glossary.xml#$1">
+            <prefixDef ident="gloss" matchPattern="([A-Za-z0-9_-]+)" replacementPattern="../glossary.xml#$1">
                <p>Private URIs using the <code>gloss</code> prefix are pointers to entities in the
                   glossary.xml file. For example, <code>gloss:histrio-1</code> dereferences to
                   <code>glossary.xml#histrio-1</code>.</p>
@@ -268,8 +328,7 @@
                <mods:temporal point="start">1601</mods:temporal>
                <mods:temporal point="end">1700</mods:temporal>
             </mods:subject>    
-            <mods:accessCondition
-               type="use and reproduction">Use of this public-domain resource is governed by the &lt;a
+            <mods:accessCondition type="use and reproduction">Use of this public-domain resource is governed by the &lt;a
                rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"
                target="blank"&gt;Creative Commons Attribution-NonCommercial 4.0 International
                License&lt;/a&gt;.</mods:accessCondition>
@@ -283,48 +342,49 @@
          </mods:mods>
       </xenoData>  
       <revisionDesc>
-      <!-- Add new major milestone changes to top -->
+      <!--      Add new major milestone changes to top      -->
       <change when="2018-07-30" who="#JAKA1">added xenodata and MODS metadata</change>
       <change when="2018-02-17" who="#JAKA1">corrected tagging</change>
       <change when="2018-02-03" who="#JAKA1">created document</change>
       </revisionDesc>
    </teiHeader>
    
-   <text ana="taxon:grays_inn" type="record" xml:id="RLGIJB01" corresp="taxon:RPCIC1 p. 229">
+   <text ana="taxon:grays_inn taxon:RLGIJB01" type="record">
       <body>
-         <head>Gray's Inn: Account Book of John Bankes, 1631-32 <date from-iso="1631-09-29" to-iso="1632-09-29"/></head>
-         <div type="transcription"  xml:lang="eng">
+         <head>
+            <date from-iso="1631-09-29" to-iso="1632-09-29">1631-2</date>
+            </head>
+         <div type="transcription" xml:lang="en">
             <div>
-            <head>f [8]<ptr type="endnote" target="endnote:RLE00200"/><date when-iso="1631-11"/></head>
+            <head><supplied/></head>
             <pb n="8" type="folio"/>
                <ab rend="center">Disbursements in the tyme of Sir Iohn Bankes Treasurer<lb/> 
                   since <supplied>(blank)</supplied> November 1631:./</ab>
                <gap reason="omitted"/>              
                <table>
                   <row>
-                     <cell>To the <orgName>Trumpeters of the Lorde of the Councell</orgName> by direction of the bench</cell>
+                     <cell>To the Trumpeters of the Lorde of the Councell by direction of the bench</cell>
                      <cell rend="right"><measure type="currency">0. 10. 0.</measure></cell>
                   </row>
                   <row>
-                     <cell>To <persName n="Thomas Spencer">Thomas Spencer</persName> for himselfe and his fellowe musitioners for Candlemas last</cell>
+                     <cell>To <persName annotationId="ent_255" n="Thomas Spencer" ref="https://commons.cwrc.ca/reed:c5a655b0-ec93-46e7-ad35-450cfba5e1c7" cert="definite" type="real">Thomas Spencer</persName> for himselfe and his fellowe musitioners for Candlemas last</cell>
                      <cell rend="right"><measure type="currency">2. 0. 0.</measure></cell>
                   </row>
                </table>               
                <gap reason="omitted"/>
             </div>
-            
                                                       
             <div>            
-            <head>f [9]<ptr type="endnote" target="endnote:RLE00200"/></head>
+            <head><supplied/></head>
             <pb n="f 9" type="folio"/>
                <gap reason="omitted"/>               
                <table>
                   <row>
-                     <cell>payed to <persName>Thomas Spenser</persName> &amp; other the musitianes for their wages due at Hallowtyde 1631.</cell>
+                     <cell>payed to <persName annotationId="ent_256" ref="https://commons.cwrc.ca/reed:c5a655b0-ec93-46e7-ad35-450cfba5e1c7" cert="definite" type="real">Thomas Spenser</persName> &amp; other the musitianes for their wages due at Hallowtyde 1631.</cell>
                      <cell rend="right"><measure type="currency">2 l.–0–0</measure></cell>
                   </row>
                </table>
-            <gap reason="omitted"/>              
+            <gap reason="omitted"/> <ab><note type="editorial">The ‘Lorde of the Councell’ is probably a reference to a member of the privy council. Which councillor may have patronized these trumpeters has not been determined.</note></ab>             
          </div>
          </div>
       </body>

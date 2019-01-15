@@ -6,7 +6,7 @@
       <fileDesc>
          <titleStmt>
 
-            <title type="main">Inns of Court</title>
+            <title type="main">Occupations</title>
 
 
             <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>
@@ -37,10 +37,7 @@
             <respStmt>
                <persName xml:id="PG">Patrick Gregory</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
-               <resp>Associate Editor</resp>
-               <!-- confirm -->
                <resp>Paleographer, Translator</resp>
-               <!-- confirm -->
             </respStmt>
 
             <respStmt>
@@ -91,7 +88,6 @@
             <respStmt>
                <persName>Matthew Davies</persName>
                <orgName>University of London, Birkbeck College</orgName>
-               <!-- confirm -->
                <resp>Records of Early English Drama (REED) Executive Board</resp>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
@@ -247,16 +243,20 @@
       <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
          <mods:mods>
             <mods:titleInfo>
-               <mods:title>Middle Temple Musicians' Petition</mods:title>
+               <mods:title>Title</mods:title>
+               <mods:subTitle>Some subtitle here</mods:subTitle>
+            </mods:titleInfo>
+            <mods:titleInfo type="alternative">
+               <mods:title>Alternative title</mods:title>
             </mods:titleInfo>
             <mods:name type="corporate">
-               <mods:namePart>Middle Temple</mods:namePart>
+               <mods:namePart>Corporate Author Name</mods:namePart>
             </mods:name>
             <mods:typeOfResource>text</mods:typeOfResource>
             <mods:genre type="formatType">Born Digital</mods:genre>
             <mods:genre type="format">born digital</mods:genre>
-            <mods:genre type="primaryGenre">Record</mods:genre>
-            <mods:genre type="subgenre">Archival Material</mods:genre>
+            <mods:genre type="primaryGenre">Scholarly writing</mods:genre>
+            <mods:genre type="subgenre">Reference work</mods:genre>
             <mods:genre>Performance</mods:genre>
             <mods:language>
                <mods:languageTerm type="text">English</mods:languageTerm>
@@ -289,19 +289,21 @@
       </xenoData>
    </teiHeader>
 
-   <text ana="taxon:letter" type="record" xml:id="RLMTMP">
+   <text ana="taxon:letter" type="record" xml:id="abcde">
+      <!-- match with IDs -->
       <body>
          <head>
-            <date from-iso="1612" to-iso="1613">1612-13</date></head>
+            <date when-iso="YYY-MM-DD">1234</date></head>
          <div type="transcription" xml:lang="en">
+            <!-- If there is a translation, it should also have a xml:lang="" -->
             <div>
                <head>
-                  <supplied>Middle Temple Musicians’ Petition</supplied></head>
-               <pb type="sheet" n="1"/>
+                  <supplied/></head>
+               <pb type="sheet"/>
                <gap reason="omitted"/>
-               <ab>We your poore orratoures the mvsissians intreates your worshipes for fower nightes paye, as namely the f<damage>.</damage>fte of Nouember, the Satterdaye followinge,<note type="foot">the Satterdaye followinge: <hi rend="italic">7 November 1612</hi></note> the satterdaye before the Princes funerall,<note type="foot">the satterdaye ... funerall: <hi rend="italic">5 December (the Saturday before the funeral on 7 December 1612)</hi></note> and one Satterdaye after Chrismas<note type="foot">one Satterdaye ... Christmas: <hi rend="italic">26 December 1612</hi></note></ab>
+               <ab> </ab>
             </div>
-                                       
+
          </div>
       </body>
    </text>

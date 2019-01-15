@@ -236,9 +236,10 @@ publicationStmt > date{
 dateline{
     display: inline;
 }
-del{
+/* Changed deletion strikethrough to gray from red for CWRC-REED London */
+del{ 
     display: inline;
-    color: red;
+    color: gray;
     background-color: inherit;
     text-decoration: line-through;
 }
@@ -728,10 +729,11 @@ mentioned{
 milestone{
     display: none;
 }
-name{
+/* IF WE WANT TO FIND AN OFFSET COLOR FOR SOME OF THE TAGGED NAMES */
+/*  name{ 
     display: inline;
-    color: purple;  /* testing adding color for names in documents */
-}
+    color: purple;  testing adding color for names in documents 
+}*/
 note{
     display: block;
     color: #999;

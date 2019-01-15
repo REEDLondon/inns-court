@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="reed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="eng">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -9,16 +9,32 @@
             <title type="main">Inns of Court</title>
 
 
-            <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>
-            <funder><orgName>CANARIE</orgName></funder>
+            <funder>
+               <orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName>
+            </funder>
+            <funder>
+               <orgName>CANARIE</orgName>
+            </funder>
 
-            <funder><orgName>British Academy, London, UK</orgName></funder>
-            <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>
-            <funder><orgName>National Endowment for the Humanities, Washington, DC, United States of America</orgName></funder>
-            <funder><orgName>Social Sciences and Humanities Research Council, Ottawa, Canada</orgName></funder>
+            <funder>
+               <orgName>British Academy, London, UK</orgName>
+            </funder>
+            <funder>
+               <orgName>Jackman Foundation, Toronto, Canada</orgName>
+            </funder>
+            <funder>
+               <orgName>National Endowment for the Humanities, Washington, DC, United States of America</orgName>
+            </funder>
+            <funder>
+               <orgName>Social Sciences and Humanities Research Council, Ottawa, Canada</orgName>
+            </funder>
 
-            <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
-            <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
+            <editor resp="print">
+               <persName xml:id="AHN1">Alan H. Nelson</persName>
+            </editor>
+            <editor resp="print">
+               <persName>John R. Elliott, Jr.</persName>
+            </editor>
 
 
             <!-- REED staff -->
@@ -188,7 +204,8 @@
          </editionStmt>
 
          <publicationStmt>
-            <authority><orgName>Records of Early English Drama (REED)</orgName>
+            <authority>
+               <orgName>Records of Early English Drama (REED)</orgName>
                <address>
                   <addrLine>University of Toronto</addrLine>
                   <addrLine>170 St George Street, Suite 810</addrLine>
@@ -213,7 +230,7 @@
          </seriesStmt>
          <sourceDesc>
             <p>This publication constitutes a remediation of the printed Inns of Court collection. Information on original sources for transcriptions can be accessed via the Document Descriptions.</p>
-            <p>This record can be found on [PAGE(S)] of REED: Inns of Court, Vol. [#]</p>
+            <p>This record can be found on pp. 690 of REED: Inns of Court, Vol. 2</p>
             <p>For a full list of REED collections, editors, executive board members, and staff, please visit http://reed.utoronto.ca/people</p>
          </sourceDesc>
       </fileDesc>
@@ -247,14 +264,16 @@
       <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
          <mods:mods>
             <mods:titleInfo>
-               <mods:title>Middle Temple Musicians' Receipt</mods:title>
+               <mods:title>Letter of Sir Edward Phelips to Sir Dudley Carleton</mods:title>
             </mods:titleInfo>
-            <mods:name type="corporate">
-               <mods:namePart>Middle Temple</mods:namePart>
+            <mods:name type="personal">
+               <mods:namePart type="family">Phelips</mods:namePart>
+               <mods:namePart type="given">Edward</mods:namePart>
+               <mods:form authority="viaf">http://viaf.org/viaf/88489445</mods:form>
             </mods:name>
             <mods:typeOfResource>text</mods:typeOfResource>
             <mods:genre type="formatType">Born Digital</mods:genre>
-            <mods:genre type="format">born digital</mods:genre>
+            <mods:genre type="format">Born digital</mods:genre>
             <mods:genre type="primaryGenre">Scholarly writing</mods:genre>
             <mods:genre type="subgenre">Reference work</mods:genre>
             <mods:genre>Performance</mods:genre>
@@ -266,7 +285,7 @@
                <mods:internetMediaType>text/xml</mods:internetMediaType>
                <mods:digitalOrigin>born digital</mods:digitalOrigin>
             </mods:physicalDescription>
-            <mods:abstract>Some abstract here.</mods:abstract>
+            <mods:abstract>Sir Edward Phelips (c. 1555-1614) was speaker of the House of Commons. In this letter to Sir Dudley Carleton, Viscount Dorchester, dated February 25, 1613, he describes the masques that took place at the marriage of Princess Elizabeth to Frederick V, Elector Palatine.</mods:abstract>
             <mods:subject>
                <mods:topic valueURI="http://id.loc.gov/authorities/subjects/sh2002012473">Theater--England--London--History--17th century </mods:topic>
             </mods:subject>
@@ -287,40 +306,28 @@
             </mods:recordInfo>
          </mods:mods>
       </xenoData>
+      <revisionDesc>
+         <!-- Add new major milestone changes to top -->
+         <change when="2018-03-10" who="#KM">created document</change>
+         <change when="2018-09-08" who="#KM">added mods header</change>
+      </revisionDesc>
    </teiHeader>
 
-   <text ana="taxon:middle_temple" type="record" xml:id="RLMTMR">
+   <text ana="taxon:letter taxon:RLPC012" type="record">
       <body>
-         <head>
-            <date from-iso="1612" to-iso="1613">1612-13</date></head>
-         <div type="transcription" xml:lang="en">
-            <div>
-               <head>
-                  <supplied>Middle Temple Musicians' Receipt (2 February 1613)</supplied></head>
-               <pb type="sheet" n="1"/>
-               <gap reason="omitted"/>
-               <ab>
-                  <table>
-                     <row>
-                        <cell>Receaved by mee Iohn Dowland for my selfe and my fellowes Musitians, vpon candellmas daye, 1612<note type="foot">2 corrected from 3</note> for the consorte p<ex>er</ex>formed before the Iudges and Reverent benchers, of the honnorable Society, of the Midle Temple by the hand<ex>es</ex> of Mr Richard baldwine vnder Tresorer of the sayd midle Temple the some of <measure type="currency">five pound<ex>es</ex> sterlinge</measure> I saye by mee Receaved</cell>
-                        <cell><measure type="currency">5 lb.</measure></cell>
-                     </row>
-                  </table>
-                  
-                  <list>
-                     <item><seg type="signed">Io<ex>hn</ex> dowlande</seg></item>
-                     <item>Lutenist to the King<ex>es</ex> maiestie</item>
-                     <item><seg type="signed">William Corkine</seg></item>
-                     <item><seg type="signed">Richarde Goosey</seg></item>
-                  </list>
-                  
-                  <note type="editorial">
-                     <ab> The implications of this document for Dowland studies is discussed by Frank, ‘A New Dowland Document.’ (Frank transcribes Richard Goosey’s first name correctly but calls him ‘William’ in the body of the article.) </ab>
-                  </note>
-               </ab>
-            </div>                     
+         <div>
+            <head>Letter of Sir Edward Phelips to Sir Dudley Carleton<date when-iso="1613-02-25"/></head>
+            <div type="transcription" xml:lang="en">
+               <head><supplied>(25 February)</supplied></head>
+               <pb n="1" type="folio"/>
+
+               <ab>I cannot but acknowledg with all thanckfullnes (My hono<ex>ra</ex>ble and much esteemed good frend) yo<ex>u</ex>r kinde remembring of him whoe longe hath and ever will both acknowledge yo<ex>u</ex>r vertues and owe yow much Loue; The Coldnese of this English time affordeth not much worthie the passage by Sea, but that o<ex>u</ex>r well liked of marriage was solemnized the 14<add place="above">th</add> of this p<ex>rese</ex>nte moneth of ffebr<ex>uary</ex> Wherat all <persName>foraine Embassadors</persName> (the Spanish only excepted) were p<ex>rese</ex>nte. And soe were they <date from-iso="1613-02-15" to-iso="1613-02-16">Mundaie and tuesday</date><note type="foot">Mundaie and tuedsay: <hi rend="italic">15 and 16 February 1612/13</hi></note> following The marriage was accompanied with much Noblenesse and Royalty <date when-iso="1613-02-11">Thursdaie</date> and <date when-iso="1613-02-13">Satturdaie</date><note type="foot">Thrusdaie and Satturdaie: <hi rend="italic"
+                        >11 and 13 February 1612/13</hi></note> before with firework<ex>es</ex> and shippfight<ex>es</ex> vpon <placeName>Thames</placeName>, <date when-iso="1613-02-14">Sunday night</date><note type="foot">Sunday night: <hi rend="italic">14 February 1612/13</hi></note> with <title>the Erles and Ladyes Maske</title>
+                  <date when-iso="1613-02-15">Munday night</date><note type="foot">Munday night: <hi rend="italic">15 February 1612/13</hi></note> with <title>the Maske of the Middle Temple and Lyncolnes Inn</title> whoe came through the streete on greate horses w<ex>hi</ex>ch with the sumptuousnesse of the Maske the device therof with the requisite performance hadd the price and praise of all others. On Tuesday night<date>16 February 1612/13</date> was the <title>Maske of the Inner Temple and Greys Inn</title> readie for the performance of their Maske ther com<ex>m</ex>ing and shewe being by water but they retourned that night without execuc<ex>i</ex>on But on satturday night<date>20 February 1612/13</date> after they performed the same w<ex>i</ex>th good approbac<ex>i</ex>on; On <date when-iso="1613-02-21">Sunday night</date><note type="foot">Sunday night: <hi rend="italic">21 February 1612/13</hi></note> after the <persName>Kinge</persName> feasted the <orgName>Innes of
+                     Courte</orgName> w<ex>i</ex>th a greate deale of ioye and comforte himself sitting at the same Boorde, Soe that I may well write yow that never <persName>Kinge</persName> was more gloriouslie and Royally served by them, nor they more honored or graced by <persName>a Soueraigne</persName>.... </ab>
+
+            </div>
          </div>
       </body>
    </text>
-
 </TEI>

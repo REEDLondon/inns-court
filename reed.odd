@@ -161,6 +161,7 @@
                   <valItem ident="holiday">
                     <desc>Describes a holiday</desc>
                   </valItem>
+<<<<<<< HEAD
                   <valItem ident="character">
                     <desc>Describes a character</desc>
                   </valItem>
@@ -170,6 +171,17 @@
                 </valList>
               </attDef>
               <!-- These @subtypes are for occupations and are for experimentation / synced with the CWRC ontology -->
+=======
+                  <valItem ident="event">
+                    <desc>Describes an event that is not covered by entertainment</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+
+
+
+ <!-- These @subtypes are for occupations and are for experimentation / synced with the CWRC ontology -->
+>>>>>>> 3bea80d2a49604309da4282e21ab6ef954ebef6c
               <attDef ident="subtype" mode="change">
                 <valList mode="add" type="closed">
                   <valItem ident="animalKeeper">
@@ -177,20 +189,25 @@
                   </valItem>
                   <valItem ident="armorer">
                     <desc>armorer</desc>
+<<<<<<< HEAD
                   </valItem>
                   <valItem ident="attorneyGeneral">
+=======
+                  </valItem>                  
+                  <valItem ident="attorneyGeneral" corresp="cwrc:attorneyGeneral">
+>>>>>>> 3bea80d2a49604309da4282e21ab6ef954ebef6c
                     <desc>attorney general</desc>
                   </valItem>
-                  <valItem ident="baker">
+                  <valItem ident="baker" corresp="cwrc:baker">
                     <desc>baker</desc>
                   </valItem>
-                  <valItem ident="beggar">
+                  <valItem ident="beggar" corresp="cwrc:beggar">
                     <desc>beggar</desc>
                   </valItem>
-                  <valItem ident="brewer">
+                  <valItem ident="brewer" corresp="cwrc:brewer">
                     <desc>brewer</desc>
                   </valItem>
-                  <valItem ident="construction">
+                  <valItem ident="construction" >
                     <desc>construction</desc>
                   </valItem>
                   <valItem ident="censor">
@@ -856,7 +873,67 @@
           <!-- namesdates: only include orgName, persName, placeName, occupation, and settlement. Not doing metadata records for named entities...yet-->
           <moduleRef key="namesdates" include="orgName persName place placeName settlement occupation" />
           <!-- delete lots of attributes -->
+<<<<<<< HEAD
           <!-- persName: modify @cert for CWRC -->
+=======
+
+          <!-- CUSTOMIZATION: modify name:@role -->
+          <elementSpec ident="name" mode="change" module="namesdates">
+            <attList>
+              <attDef ident="role" mode="change">
+                <valList mode="add" type="semi">
+                  <valItem ident="" xml:base="cwrc:attorneyGeneral"/>
+                  <valItem ident="animal keeper"/>
+                  <valItem ident="monkey keeper"/>
+                  <valItem ident="bird keeper"/>
+                  <valItem ident="dog keeper"/>
+                  <valItem ident="lion keeper"/>
+                  <valItem ident="armorer"/>
+                  <valItem ident="reed:attorney general" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#attorneyGeneral"/>
+                  <valItem ident="baker" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#baker"/>
+                  <valItem ident="beggar" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#beggar"/>
+                  <valItem ident="brewer" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#brewer"/>
+                  <valItem ident="censor" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#censor"/>
+                  <valItem ident="chandler"/>
+                  <valItem ident="scrivener" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#clericalWork"/>
+                  <valItem ident="lace maker" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#clothingProduction"/>
+                  <valItem ident="coach maker"/>
+                  <valItem ident="cobbler" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#cobbler"/>
+                  <valItem ident="cordwainer" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#cobbler"/>
+                  <valItem ident="composer" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#composer"/>
+                  <valItem ident="construction" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#construction"/>
+                  <valItem ident="carpenter" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#construction"/>
+                  <valItem ident="joiner" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#construction"/>
+                  <valItem ident="cook" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#cooking"/>
+                  <valItem ident="dancer" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#dance"/>
+                  <valItem ident="messenger" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#deliveryPerson"/>
+                  <valItem ident="diplomat" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#diplomat"/>
+                  <valItem ident="ambassador" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#diplomat"/>
+                  <valItem ident="consul" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#diplomat"/>
+                  <valItem ident="domestic servant" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#domesticServant"/>
+                  <valItem ident="chambermaid" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#domesticServant"/>
+                  <valItem ident="draper" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#draper"/>
+                  <valItem ident="linen draper" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#draper"/>
+                  <valItem ident="silkwoman" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#dressmaking"/>
+                  <valItem ident="horseman" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#equineActivity"/>
+                  <valItem ident="jockey" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#equineActivity"/>
+                  <valItem ident="ostler" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#equineActivity"/>
+                  <valItem ident="gardener" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#gardener"/>
+                  <valItem ident="haberdasher" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#haberdasher"/>
+                  <valItem ident="lord lieutenant" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#higherGovernment"/>
+                  <valItem ident="lord of the council" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#higherGovernment"/>
+                  <valItem ident="lord privy seal" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#higherGovernment"/>
+                  <valItem ident="lord steward" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#higherGovernment"/>
+                  <valItem ident="lord treasurer" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#higherGovernment"/>
+                  <valItem ident="privy councillor" corresp="http://sparql.cwrc.ca/ontology/cwrc.html#higherGovernment"/>
+                  
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <!-- persName: modify @cert for CWRC 
+>>>>>>> 3bea80d2a49604309da4282e21ab6ef954ebef6c
           <elementSpec ident="persName" mode="change" module="namesdates">
             <attList>
               <attDef ident="cert" mode="change">
@@ -877,7 +954,12 @@
               </attDef>
             </attList>
           </elementSpec>
+<<<<<<< HEAD
           <!-- placeName: modify @cert for CWRC -->
+=======
+          
+           placeName: modify @cert for CWRC 
+>>>>>>> 3bea80d2a49604309da4282e21ab6ef954ebef6c
           <elementSpec ident="placeName" mode="change" module="namesdates">
             <attList>
               <attDef ident="cert" mode="change">
@@ -896,8 +978,14 @@
                   </valItem>
                 </valList>
               </attDef>
+<<<<<<< HEAD
             </attList>
           </elementSpec>
+=======
+            </attList>            
+          </elementSpec>-->
+          
+>>>>>>> 3bea80d2a49604309da4282e21ab6ef954ebef6c
           <!-- delete lots of attributes for CWRC -->
           <elementSpec ident="orgName" mode="change" module="namesdates">
             <attList>
@@ -1082,6 +1170,7 @@
               <attDef ident="nymRef" mode="delete" />
             </attList>
           </classSpec>
+                    
           <!-- delete lots of attributes -->
           <classSpec ident="att.pointing" module="tei" type="atts" mode="change">
             <attList>
