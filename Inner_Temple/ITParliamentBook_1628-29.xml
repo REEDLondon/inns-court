@@ -219,9 +219,9 @@
       
       <profileDesc>
          <langUsage>
-            <language ident="eng">English</language>
-            <language ident="lat">Latin</language>
-            <language ident="fra">Anglo-French</language>
+            <language ident="en">English</language>
+            <language ident="la">Latin</language>
+            <language ident="fr">Anglo-French</language>
          </langUsage>
          <settingDesc>
             <place>
@@ -282,21 +282,20 @@
       </xenoData>                 
       <revisionDesc>
          <!-- Add new major milestone changes to top -->
+         <change when="2019-01-19" who="#JAKA1">Final check before CWRC ingestion</change>
          <change when="2018-07-30" who="#JAKA1">Added xenodata and MODS metadata</change>
          <change when="2018-07-27" who="#KC">split single file with multiple records into separate files, one record per file</change>
          <change when="2018-04-23" who="#KC">start adding records to file</change>
          <change when="2018-02-03" who="#JAKA1">created document</change>
       </revisionDesc>
    </teiHeader>
-   <text ana="taxon:inner_temple" type="record">
-      <body xml:lang="eng">
-         <head>
-            <date from-iso="1628-09-29" to-iso="1629-09-29" cert="medium">1628-9</date>
-            <seg ana="taxon:RLITP002" corresp="taxon:RLPIC1 pp. 220-1">RLITP002</seg>
-         </head>
-         <div type="transcription">
+   <text ana="taxon:inner_temple taxon:RLITP002" type="record">
+      <body>
+         <head>Inner Temple Parliament Book, 
+            <date from-iso="1628-09-29" to-iso="1629-09-29" cert="medium">1628-9</date></head>
+         <div type="transcription" xml:lang="en">
             <div>
-               <head>f 182 <ptr type="endnote" target="endnote:RLE00190"/><date when-iso="1628-11-23"></date><supplied>(23 November 1628)</supplied></head>  
+               <head><ptr type="endnote" target="endnote:RLE00190"/><date when-iso="1628-11-23"></date><supplied>(23 November 1628)</supplied></head>  
             <pb n="182" type="folio"/>
             <gap reason="omitted"/>
             <ab>
@@ -331,6 +330,7 @@
             </ab>
  
             </div>
+            <note type="editorial">NEED ENDNOTE TEXT HERE</note>
          </div>
       </body>
    </text>

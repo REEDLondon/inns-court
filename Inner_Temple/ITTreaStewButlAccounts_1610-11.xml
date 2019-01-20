@@ -219,9 +219,9 @@
       
       <profileDesc>
          <langUsage>
-            <language ident="eng">English</language>
-            <language ident="lat">Latin</language>
-            <language ident="fra">Anglo-French</language>
+            <language ident="en">English</language>
+            <language ident="la">Latin</language>
+            <language ident="fr">Anglo-French</language>
          </langUsage>
          <settingDesc>
             <place>
@@ -281,6 +281,7 @@
       </xenoData>
       <revisionDesc>
          <!-- Add new major milestone changes to top -->
+         <change when="2019-01-19" who="#JAKA1">Final check before CWRC ingestion</change>
          <change when="2018-07-14" who="#JAKA1">Added xenodata and MODS info</change>
          <change when="2018-06-20" who="#KC">Split single file into multiple records files</change>
          <change when="2018-05-30" who="#KC">Completed adding records to file and first round of structural tagging. Needs proofing.</change>
@@ -289,17 +290,15 @@
       </revisionDesc>
    </teiHeader>
    
-<text ana="taxon:inner_temple" type="record">
-      <body xml:lang="eng">
-         <head>
-            <date from-iso="1610-09-29" to-iso="1611-09-29" cert="medium">1610-11</date>
-            <seg ana="taxon:RLITT001" corresp="taxon:RPCIC p. 146">RLITT001</seg>
-         </head>
+   <text ana="taxon:inner_temple taxon:RLITT001" type="record">
+      <body>
+         <head>Inner Temple Treasurers', Stewards', and Butlers' Accounts,  
+            <date from-iso="1610-09-29" to-iso="1611-09-29" cert="medium">1610-11</date></head>
          
-         <div type="transcription">
+         <div type="transcription" xml:lang="en">
             
             <div>
-               <head>f 55v <date from-iso="1610-11-01" to-iso="1611-11-01"></date><supplied>(1 November 1610-1 November 1611) (All payments)</supplied>
+               <head><date from-iso="1610-11-01" to-iso="1611-11-01"></date><supplied>(1 November 1610-1 November 1611) (All payments)</supplied>
                </head>
                <pb n="55v" type="folio"/> 
                <gap reason="omitted"/>      

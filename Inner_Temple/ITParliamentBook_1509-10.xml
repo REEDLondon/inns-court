@@ -282,20 +282,20 @@
       </xenoData>             
       <revisionDesc>
          <!-- Add new major milestone changes to top -->
+         <change when="2019-01-19" who="#JAKA1">Finalized for CWRC ingestion</change>
          <change when="2018-07-30" who="#JAKA1">Added xenodata and MODS metadata</change>
          <change when="2018-07-27" who="#KC">split single file with multiple records into separate files, one record per file</change>
          <change when="2018-04-23" who="#KC">start adding records to file</change>
          <change when="2018-02-03" who="#JAKA1">created document</change>
       </revisionDesc>
    </teiHeader>
-   <text ana="taxon:inner_temple" type="record">
-      <body xml:lang="lat">
-         <head>
-            <date from-iso="1509-09-29" to-iso="1510-09-29" cert="medium">1509-10</date>
-            <seg ana="taxon:RLITP001" corresp="taxon:RPCIC p. 34-5">RLITP001</seg></head>
-         <div type="transcription">
+   <text ana="taxon:inner_temple taxon:RLITP001" type="record">
+      <body>
+         <head>Inner Temple Parliament Book, 
+            <date from-iso="1509-09-29" to-iso="1510-09-29" cert="medium">1509-10</date></head>
+         <div type="transcription"  xml:lang="la">
             <div>
-               <head>f 22 <ptr type="endnote" target="endnote:RLE00029"/><date when-iso="1509-11-02"></date><supplied>(2 November 1509) (Christmas officers)</supplied></head>
+               <head>f 22 <date when-iso="1509-11-02"></date><supplied>(2 November 1509) (Christmas officers)</supplied></head>
             <pb n="22" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -309,22 +309,10 @@
             </table>
             <gap reason="omitted"/>               
          </div>
-         
-          <div>
-             <head>f 22v <date when-iso="1510-02-03"></date><supplied>(3 February 1509/10)</supplied></head> 
-               <pb n="22v" type="folio"/> 
-               
-               <gap reason="omitted"/>
-               <ab>Dracotes <note type="marginal" place="margin_left">It<ex>em</ex></note>am<ex>er</ex>c<ex>iatur</ex> <del><damage><gap unit="chars" extent="2"></gap></damage></del> ad <measure type="currency">vj s. viij d.</measure> q<ex>ui</ex>a no<ex>n</ex> <del>assumps<damage><gap unit="chars" extent="2"/></damage></del> assumpsit
-                  sup<ex>er</ex> se offic<ex>ium</ex> M<ex>agist</ex>ri dez Reuels in festo Nat<ex>alis</ex> d<ex>om</ex>ini <damage><gap unit="chars" extent="3"/></damage>
-               </ab>
-               <gap reason="omitted"/>
-            </div>
-         </div>
             
-         <div xml:lang="eng" type="translation">
-            <div>
-               <head>f 22 <ptr type="endnote" target="endnote:RLE00029"/><date when-iso="1509-11-02"></date><supplied>(2 November 1509) (Christmas officers)</supplied></head>
+            <div type="translation" xml:lang="en">
+               <div>
+               <head>Translation</head>
                <pb n="22" type="folio"/> 
                
                <gap reason="omitted"/>
@@ -339,9 +327,24 @@
                </table>
                <gap reason="omitted"/>               
             </div>
+            </div>
             
+          <div type="transcription" xml:lang="la">
+             <div>
+             <head>f 22v <date when-iso="1510-02-03"></date><supplied>(3 February 1509/10)</supplied></head> 
+               <pb n="22v" type="folio"/> 
+               
+               <gap reason="omitted"/>
+               <ab>Dracotes <note type="marginal" place="margin_left">It<ex>em</ex></note>am<ex>er</ex>c<ex>iatur</ex> <del><damage><gap unit="chars" extent="2"></gap></damage></del> ad <measure type="currency">vj s. viij d.</measure> q<ex>ui</ex>a no<ex>n</ex> <del>assumps<damage><gap unit="chars" extent="2"/></damage></del> assumpsit
+                  sup<ex>er</ex> se offic<ex>ium</ex> M<ex>agist</ex>ri dez Reuels in festo Nat<ex>alis</ex> d<ex>om</ex>ini <damage><gap unit="chars" extent="3"/></damage>
+               </ab>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+            
+         <div type="translation" xml:lang="en">                       
             <div>
-               <head>f 22v <date when-iso="1510-02-03"></date><supplied>(3 February 1509/10)</supplied></head> 
+               <head>Translation</head> 
                <pb n="22v" type="folio"/> 
                
                <gap reason="omitted"/>
@@ -349,7 +352,9 @@
                   master of the revels in the feast of Christmas <damage><gap unit="chars" extent="3"/></damage>.
                </ab>
                <gap reason="omitted"/>
+               <note type="editorial">NEED ENDNOTE TEXT HERE</note>
             </div>
+         </div>
          </div>
       </body>
    </text>

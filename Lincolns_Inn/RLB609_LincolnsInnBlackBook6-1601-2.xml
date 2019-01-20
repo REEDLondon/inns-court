@@ -284,6 +284,7 @@
       
       <revisionDesc>
          <!-- Add new major milestone changes to top -->
+         <change when="2019-01-19" who="#JAKA1">Final check before CWRC ingestion</change>
          <change when="2018-07-15" who="#KM">added xenodata</change>
          <change when="2018-05-30" who="#KM">created document</change>
          <change when="2018-06-12" who="KM">added translation</change>
@@ -292,55 +293,89 @@
    </teiHeader>
         
    
-   <text ana="taxon:letter" type="record" xml:id="RLLIBB06" corresp="taxon:RLPIC1 pp. 134">
+   <text ana="taxon:lincolns_inn taxon:RLLIBB06" type="record">
       <body>
-         <head>Lincoln's Inn Black Book 6
+         <head>Lincoln's Inn Black Book 6, 
             <date from-iso="1601-09-29" to-iso="1602-09-29">1601-2</date></head> 
          
-         <div type="transcription" xml:lang="eng">
-            <head>f 91v<date when-iso="1601-11-26"/> <supplied>(26 November)(Christmas officers)</supplied></head>
+         <div type="transcription" xml:lang="en">
+            <div>
+            <head><date when-iso="1601-11-26"/> <supplied>(26 November)(Christmas officers)</supplied></head>
             <pb n="f 91v" type="folio"/>
             <gap reason="omitted"/>
-            <ab> It is ordered that Mr Randill and Mr Price shalbe M<ex>aste</ex>rs of the Revells</ab>
+            <table>
+               <row>
+                  <cell>It is ordered that Mr Randill and Mr Price shalbe M<ex>aste</ex>rs of the Revells</cell>
+                  <cell></cell>
+               </row>
+            </table>
             <gap reason="omitted"/>
+         </div>
          </div>
            
-         <div>
-            <head>f 109<date from-iso="1601-11-26" to-iso="1602-11-26"/> <supplied>(26 November-26 November) (Treasurer's Receipts)</supplied></head>
+         <div type="transcription" xml:lang="la">
+            <div>
+            <head><date from-iso="1601-11-26" to-iso="1602-11-26"/> <supplied>(26 November-26 November) (Treasurer's Receipts)</supplied></head>
             <pb n="f 109" type="folio"/>
-            <note type="marginal" rend="right">Surplusag<ex>ia</ex> Rot<ex>u</ex>lor<ex>um</ex></note>
-            <ab> Et de lvij s. iiij d. recept<ex>is</ex> de Ioh<ex>ann</ex>e Helliar Scenescallo hospicij p<ex>re</ex>d<ex>i</ex>c<ex>t</ex>i p<ex>ro</ex> Surplusag<ex>ia</ex> Rotulor<ex>um</ex> Musicor<ex>um</ex> hoc Anno...</ab>
+            <table>
+               <row>
+                  <cell>Et de lvij s. iiij d. recept<ex>is</ex> de Ioh<ex>ann</ex>e Helliar Scenescallo hospicij p<ex>re</ex>d<ex>i</ex>c<ex>t</ex>i p<ex>ro</ex> Surplusag<ex>ia</ex> Rotulor<ex>um</ex> Musicor<ex>um</ex> hoc Anno...</cell>
+                  <cell><note type="marginal" rend="right">Surplusag<ex>ia</ex> Rot<ex>u</ex>lor<ex>um</ex></note></cell>
+               </row>
+            </table>
             <gap reason="omitted"/>
          </div>  
-            
-         <div> 
-            <head>f 201<supplied>(Treasurer's payments)</supplied></head>
-            <pb n="f 201" type="folio"/>
-            <gap reason="omitted"/>
-            <note type="marginal" rend="right">Stipend<ex>ia</ex> musicor<ex>um</ex></note>   
-            <ab> Et de Nihil hoc Anno quia Mort<ex>uus</ex>
-            <note type="foot">quia Mort<ex>uus</ex>: <hi rend="italic">William Perryn died in the previous year</hi></note>
-               Sum<ex>ma</ex> Nihil</ab>
-         </div>
-            
-         
-         <div type="translation" xml:lang="eng">
-            <head>f 109<date from-iso="1601-11-26" to-iso="1602-11-26"/> <supplied>(26 November-26 November) (Treasurer's Receipts)</supplied></head>
-            <pb n="f 109" type="folio"/>
-            <note type="marginal" rend="right">Balance due from the rolls</note>
-            <ab>And (the accountant renders account) of 57s 4d received from John Helliar, steward of the aforesaid Inn, for the balance due from the musicians' rolls this year...</ab>
-            <gap reason="omitted"/>
          </div>
          
-         <div>
-            <head>f 201<supplied>(Treasurer's payments)</supplied></head>
+         <div type="translation" xml:lang="en">
+            <div>
+               <head>Translation</head>
+            <table>
+               <row>
+                  <cell>And (the accountant renders account) of 57s 4d received from John Helliar, steward of the aforesaid Inn, for the balance due from the musicians' rolls this year...</cell>
+                  <cell><note type="marginal" rend="right">Balance due from the rolls</note></cell>
+               </row>
+            </table>
+               <gap reason="omitted"/>
+         </div>
+         </div>
+
+         <div type="transcription" xml:lang="la"> 
+            <div>
+            <head><supplied>(Treasurer's payments)</supplied></head>
             <pb n="f 201" type="folio"/>
             <gap reason="omitted"/>
-            <note type="marginal" rend="right">Musicians' stipends</note>
-            <ab>And (the accountant seeks to be allowed the sum) of nil this year because he (ie, William Perryn, musician) has died.
-               Total:nil</ab>
-            <gap reason="omitted"/>
-         </div>    
+               <table>
+                  <row>
+                     <cell>Et de Nihil hoc Anno quia Mort<ex>uus</ex><note type="editorial">William Perryn died in the previous year</note></cell>
+                     <cell><note type="marginal" rend="right">Stipend<ex>ia</ex> musicor<ex>um</ex></note></cell>
+                  </row>
+                  <row>
+                     <cell></cell>
+                     <cell>Sum<ex>ma</ex> Nihil</cell>
+                  </row>
+               </table>
+         </div>
+         </div>
+         
+         <div type="translation" xml:lang="en">
+            <div>
+               <head>Translation</head>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell>And (the accountant seeks to be allowed the sum) of nil this year because he (ie, William Perryn, musician) has died.</cell>
+                     <cell><note type="marginal" rend="right">Musicians' stipends</note></cell>
+                  </row>
+                  <row>
+                     <cell></cell>
+                     <cell>Total:nil</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>            
+         </div>
+
       </body>
    </text>
 </TEI>

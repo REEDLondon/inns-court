@@ -282,21 +282,20 @@
       </xenoData>                 
       <revisionDesc>
          <!-- Add new major milestone changes to top -->
+         <change when="2019-01-19" who="#JAKA1">Final check before CWRC ingestion</change>
          <change when="2018-07-30" who="#JAKA1">Added xenodata and MODS metadata</change>
          <change when="2018-07-27" who="#KC">split single file with multiple records into separate files, one record per file</change>
          <change when="2018-04-23" who="#KC">start adding records to file</change>
          <change when="2018-02-03" who="#JAKA1">created document</change>
       </revisionDesc>
    </teiHeader>
-   <text ana="taxon:inner_temple" type="record">
-      <body xml:lang="eng">
-         <head>
-            <date from-iso="1615-09-29" to-iso="1616-09-29" cert="medium">1615-16</date>
-            <seg ana="taxon:RLITP002" corresp="taxon:RLPIC1 pp. 185-6">RLITP002</seg>
-         </head>
-         <div type="transcription">
+   <text ana="taxon:inner_temple taxon:RLITP002" type="record">
+      <body>
+         <head>Inner Temple Parliament Book, 
+            <date from-iso="1615-09-29" to-iso="1616-09-29" cert="medium">1615-16</date></head>
+         <div type="transcription" xml:lang="en">
             <div>
-               <head>f 129v <ptr type="endnote" target="endnote:RLE00162"/><date when-iso="1616-04-21"></date><supplied>(21 April 1616)</supplied></head>  
+               <head><date when-iso="1616-04-21"></date><supplied>(21 April 1616)</supplied></head>  
             <pb n="129v" type="folio"/>
             <gap reason="omitted"/>
             <ab>
@@ -318,6 +317,7 @@
             </ab>
  
             </div>
+            <note type="editorial">NEED ENDNOTE TEXT HERE</note>
          </div>
       </body>
    </text>
