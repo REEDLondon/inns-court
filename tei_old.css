@@ -237,7 +237,7 @@ dateline{
     display: inline;
 }
 /* Changed deletion strikethrough to gray from red for CWRC-REED London */
-del{
+del{ 
     display: inline;
     color: gray;
     background-color: inherit;
@@ -738,15 +738,13 @@ note{
     display: block;
     color: #999;
 }
-/*  HIDING type of note */
-/*  note:before{
+note:before{
     content: 'note: ';
     font-variant: small-caps;
 }
 note[type]:before{
     content: attr(type) ': ';
 }
-*/
 opener note{
     display: block;
     color: #999;
