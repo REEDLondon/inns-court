@@ -1,5 +1,5 @@
 # REED London Online: _Inns of Court_ README
-*(last updated by Diane Jakacki, 12-24-2018)*
+*(last updated by Diane Jakacki, 01-31-2019)*
 
 <!-- MarkdownTOC autolink="true" style="unordered"-->
 
@@ -25,8 +25,12 @@ Because the REED London: _Inns of Court_ collection is transliterated from the o
 
 <a name="schema"></a>
 ## Schema
+<<<<<<< HEAD
 REED London: _Inns of Court_ records are tagged using customized TEI schema adapted from REED schema developed by James Cummings. The REED London Online schema is integrated into the CWRC environment. The file can be found here: 
 https://raw.githubusercontent.com/REEDLondon/inns-court/master/out/reed.rng
+
+Inns of Court records are tagged using customized TEI schema adapted from REED schema developed by James Cummings. The REED London schema is integrated into the CWRC environment. The file can be found here: 
+https://raw.githubusercontent.com/REEDLondon/inns-court/master/out/REED_London.rng
 
 <a name="taxonomy"></a>
 ## Taxonomy
@@ -99,7 +103,7 @@ In general, REED London Online follows the transcription conventions adopted by 
 <a name="editorial-markup"></a>
 ### Editorial Markup
 * Footnotes and glosses from the printed collection are represented inline with the marked up text (rather than at the foot of a web page). Where dates have been implicit in the printed text (e.g., 'Last Saturday', note: 25 December 1589) they have been made explicit and marked with date tags, replacing the note (e.g., `<date when-iso="1589-12-25">Last Saturday</ab>date>`). 
-* Marginal notes from original documents have been maintained in REED transcription style, so that `<note type="marginal" place="align_left">` or `<note type="marginal" place="align_right">` is meant to recognize that placement in the document. This notation is not meant for display purposes at this point.
+* Marginal notes from original documents have been maintained in REED transcription style, so that `<note type="marginal" place="margin_left">` or `<note type="marginal" place="margin_right">` is meant to recognize that placement in the document. This notation is not meant for display purposes at this point.
 * Long and editorial endnotes are placed inline in CWRC-Writer. Where in the printed collection references within long and endnotes to other records are indicated by page number, wherever possible those interleaved notes are now recognized with a `<ref target="#">` to that/those objects within the CWRC collection.
 * Lists are marked up using TEI list element - http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-list.html, containing items.
 * Tables are marked up using TEI table element http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-table.html. Where information in a table cell is right- or center-aligned in the original transcribed document, the cell is tagged thus: `<cell rend="right">Summa £10</cell>`. Complicated tables that include curly braces or are similarly not easily represented in TEI are marked with `@rend="right_brace"` or similar.
