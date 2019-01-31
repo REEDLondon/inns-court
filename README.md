@@ -1,4 +1,4 @@
-# Inns of Court README
+# REED London Online: _Inns of Court_ README
 *(last updated by Diane Jakacki, 12-24-2018)*
 
 <!-- MarkdownTOC autolink="true" style="unordered"-->
@@ -19,13 +19,13 @@
 
 <a name="introduction"></a>
 # Introduction
-REED London is developed in conjunction with the Canadian Writing Research Collaboratory (CWRC) http://cwrc.ca, with TEI files tagged using CWRC-Writer and employing REED London-specific entities. Information about the REED London project, its participants and collections can be accessed at the REED London CWRC home-page: https://beta.cwrc.ca/reed. The project is currently identified by REED as a ***prototype*** - and therefore is available in a provisional state.
+REED London Online is developed in conjunction with the Canadian Writing Research Collaboratory (CWRC) http://cwrc.ca, with TEI files tagged using CWRC-Writer and employing REED London-specific entities. Information about the REED London Online project, its participants and collections can be accessed at the REED London Online CWRC home-page: https://beta.cwrc.ca/reed. The project is currently identified by REED as a ***prototype*** - and therefore is available in a provisional state.
 
-Because the Inns of Court collection of REED London is transliterated from the original 2010 print collection, the process of tagging records has involved interpretation of print conventions for symbols, spacing, and alignment. Wherever possible we have adhered to representation of those symbols in the markup. This has created different challenges from REED Online collections (e.g., *Staffordshire*, *Berkshire*, etc., which can be found here: https://ereed.library.utoronto.ca/. Any differences in tagging protocols are decided in consultation with the REED editorial staff.
+Because the REED London: _Inns of Court_ collection is transliterated from the original REED: _Inns of Court_  print collection (2010), the process of tagging records has involved interpretation of print conventions for symbols, spacing, and alignment. Wherever possible we have adhered to representation of those symbols in the markup. This has created different challenges from REED Online collections (e.g., _Staffordshire_, _Berkshire_, etc., which can be found here: https://ereed.library.utoronto.ca/. Any differences in tagging protocols are decided in consultation with the REED editorial staff.
 
 <a name="schema"></a>
 ## Schema
-Inns of Court records are tagged using customized TEI schema adapted from REED schema developed by James Cummings. The REED London schema is integrated into the CWRC environment. The file can be found here: 
+REED London: _Inns of Court_ records are tagged using customized TEI schema adapted from REED schema developed by James Cummings. The REED London Online schema is integrated into the CWRC environment. The file can be found here: 
 https://raw.githubusercontent.com/REEDLondon/inns-court/master/out/reed.rng
 
 <a name="taxonomy"></a>
@@ -51,15 +51,15 @@ On Github, files are grouped in sub-directories based on categories identified i
 10. Miscellaneous-Documents
 11. Private-Letters
 
-A corresponding list of the document/objects including REED London unique identifiers can be found in the ../taxonomy.xml file. 
+A corresponding list of the document/objects including REED London Online unique identifiers can be found in the ../taxonomy.xml file. 
 
 The GitHub directory structure also includes sub-directories for templates, schemas, and deprecated files.
 
 <a name="tei-header"></a>
 ## TEI Header
-The project-based TEI header is maintained at least on an annual basis, recognizing REED's authority over the REED London project, documenting funding agencies, editorial and production staff, their respective roles and dates of participation. The header also includes xenodata section modeling MODS metadata (this metadata is specified for each record.) 
+The project-based TEI header is maintained at least on an annual basis, recognizing REED's authority over the REED London Online project, documenting funding agencies, editorial and production staff, their respective roles and dates of participation. The header also includes xenodata section modeling MODS metadata (this metadata is specified for each record.) 
 
-The REED London TEI Header for 2018 is published on the wiki and can be found here: https://github.com/REEDLondon/inns-court/wiki/REED-London-TEI-Header---2018
+The REED London Online TEI Header for 2018 is published on the wiki and can be found here: https://github.com/REEDLondon/inns-court/wiki/REED-London-TEI-Header---2018
 TEI header templates (by century) can be found in the GitHub  ../Templates sub-directory.
 
 <a name="tei-markup"></a>
@@ -94,7 +94,7 @@ Abbreviated words have been expanded, with italics to indicate letters supplied 
 `<ex>` to indicate letters supplied by the editor to expand abbreviated words; `<del>` to indicate letters or words that have been struck through in the original; 
 `<add place="above">`to indicate an insertion above the line (may also be below the line). 
 
-In general, REED London follows the transcription conventions adopted by REED Online, which can be found here: https://ereed.library.utoronto.ca/about/series/#editorial
+In general, REED London Online follows the transcription conventions adopted by REED Online, which can be found here: https://ereed.library.utoronto.ca/about/series/#editorial
 
 <a name="editorial-markup"></a>
 ### Editorial Markup
