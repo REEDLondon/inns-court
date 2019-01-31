@@ -291,49 +291,75 @@
       
    </teiHeader>
    
-   <text ana="taxon:letter" type="record" xml:id="RLLIBB06" corresp="taxon:RLPIC1 pp. 121">
+   <text ana="taxon:lincolns_inn taxon:RLLIBB06" type="record">
       <body>
-         <head>Lincoln's Inn Black Book 6
+         <head>Lincoln's Inn Black Book 6, 
             <date from-iso="1593-09-29" to-iso="1594-09-29">1593-4</date></head> 
-         <div>
-            <div type="transcription" xml:lang="eng">
-               <head>f 4v<ptr type="endnote" target="endnote:RLE00103"/><date when-iso="1593-11-25-1594-11-20"/> <supplied>(25 November-20 November) (Treasurer's Receipts)</supplied></head>
-               <pb n="f4v" type="folio"/>
+            <div type="transcription" xml:lang="la">
+               <div>
+               <head><date from-iso="1593-11-25" to-iso="1594-11-20"/><supplied>(25 November-20 November) (Treasurer's Receipts)*</supplied></head>
+               <pb n="4v" type="folio"/>
                <gap reason="omitted"/>
-               <note type="marginal" rend="left">Surplusagia Rot<ex>u</ex>lor<ex>um</ex></note>
-               <ab> Et de nihil receptus<note type="foot">receptus: <hi rend="italic">for</hi> recepto</note> de Abrahamo Ripley Sen<ex>esca</ex>llo hospicij p<ex>re</ex>d<ex>i</ex>c<ex>t</ex>i p<ex>ro</ex> Surplusagia Rot<ex>u</ex>lor<ex>um</ex> Musicor<ex>um</ex> hoc Anno./ </ab>
+                  <table>
+                     <row>
+                        <cell><note type="marginal" rend="left">Surplusagia Rot<ex>u</ex>lor<ex>um</ex></note></cell>
+                        <cell>Et de nihil receptus<note type="foot">receptus: <hi rend="italic">for</hi> recepto</note> de Abrahamo Ripley Sen<ex>esca</ex>llo hospicij p<ex>re</ex>d<ex>i</ex>c<ex>t</ex>i p<ex>ro</ex> Surplusagia Rot<ex>u</ex>lor<ex>um</ex> Musicor<ex>um</ex> hoc Anno./ </cell>
+                     </row>
+                  </table>
                <gap reason="omitted"/>
                <note type="editorial">The musicians' roll was not collected this year (or in 1592-3) because plague in London forced Lincoln's Inn to move its operations to St. Albans</note>
             </div>  
-            
-            <div> 
-               <head>f 7 <supplied>(Treasurer's payments)</supplied></head>
-               <pb n="f 7" type="folio"/>
-               <gap reason="omitted"/>
-               <note type="marginal" rend="right">Stipendi<ex>a</ex> musicor<ex>u</ex>m</note>
-               <ab> Et de xxvj s. viij d. solut<ex>is</ex> <persName>Will<ex>elmo</ex> Peren</persName> music<ex>i</ex>on<ex>i</ex> p<ex>ro</ex> an<ex>n</ex>ual<ex>i</ex> Stipend<ex>io</ex> ei concess<ex>o</ex> p<ex>er</ex> warrant<ex>um</ex> gubernator<ex>um</ex> hospicij p<ex>re</ex>d<ex>i</ex>c<ex>t</ex>i 
-                                       Summa xxvj s. viij d. </ab>
-               <gap reason="omitted"/>
             </div>
-            
-            <div type="translation" xml:lang="lat">
-               <head>f 4v<ptr type="endnote" target="endnote:RLE00103"/><date when-iso="1593-11-25-1594-11-20"/> <supplied>(25 November-20 November) (Treasurer's Receipts)</supplied></head>
-               <pb n="f4v" type="folio"/>
-               <gap reason="omitted"/>
-               <note type="marginal" rend="left">Balance due from the rolls</note>
-               <ab>And (the accountant renders account) of nil received from Abraham Ripley, steward of the aforesaid Inn, for the balance from the musicians' rolls this year ...</ab>
-               <gap reason="omitted"/>
-            </div>
-            
+         
+         <div type="translation" xml:lang="en">
             <div>
-               <head>f 7 <supplied>(Treasurer's payments)</supplied></head>
-               <pb n="f 7" type="folio"/>
+               <head>Translation</head>
+               <table>
+                  <row>
+                     <cell><note type="marginal" rend="left">Balance due from the rolls</note></cell>
+                     <cell>And (the accountant renders account) of nil received from Abraham Ripley, steward of the aforesaid Inn, for the balance from the musicians' rolls this year ...</cell>
+                  </row>
+               </table>
+         </div>
+         </div>
+         
+         <div type="transcription">
+            <div> 
+               <head><supplied>(Treasurer's payments)</supplied></head>
+               <pb n="7" type="folio"/>
                <gap reason="omitted"/>
-               <note type="marginal" rend="right">Musicians' stipends</note>
-               <ab>And (the accountant seeks to be allowed the sum) of 26s 8d paid to William Perryn, musician, for the annual stipend granted him by a warrant of the governors of the aforesaid Inn.
-                  Total: 26s. 8d</ab>
+               <table>
+                  <row>
+                     <cell>Et de xxvj s. viij d. solut<ex>is</ex> <persName>Will<ex>elmo</ex> Peren</persName> music<ex>i</ex>on<ex>i</ex> p<ex>ro</ex> an<ex>n</ex>ual<ex>i</ex> Stipend<ex>io</ex> ei concess<ex>o</ex> p<ex>er</ex> warrant<ex>um</ex> gubernator<ex>um</ex> hospicij p<ex>re</ex>d<ex>i</ex>c<ex>t</ex>i 
+                        </cell>
+                     <cell><note type="marginal" rend="right">Stipendi<ex>a</ex> musicor<ex>u</ex>m</note></cell>
+                  </row>
+                  <row>
+                     <cell>Summa xxvj s. viij d. </cell>
+                     <cell></cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
             </div>
          </div>
+         
+         <div type="translation" xml:lang="en">            
+            <div>
+               <head>Translation</head>
+               <table>
+                  <row>
+                     <cell>And (the accountant seeks to be allowed the sum) of 26s 8d paid to William Perryn, musician, for the annual stipend granted him by a warrant of the governors of the aforesaid Inn.
+                        </cell>
+                     <cell><note type="marginal" rend="right">Musicians' stipends</note></cell>
+                  </row>
+                  <row>
+                     <cell>Total: 26s. 8d</cell>
+                     <cell></cell>
+                  </row>
+               </table>
+            </div>
+            </div>
+         
       </body>
    </text>
 </TEI>
