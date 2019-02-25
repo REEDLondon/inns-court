@@ -25,7 +25,6 @@ Because the REED London: _Inns of Court_ collection is transliterated from the o
 
 <a name="schema"></a>
 ## Schema
-<<<<<<< HEAD
 REED London: _Inns of Court_ records are tagged using customized TEI schema adapted from REED schema developed by James Cummings. The REED London Online schema is integrated into the CWRC environment. The file can be found here: 
 https://raw.githubusercontent.com/REEDLondon/inns-court/master/out/reed.rng
 
