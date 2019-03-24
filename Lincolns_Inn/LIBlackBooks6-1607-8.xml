@@ -234,7 +234,7 @@
       <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
          <mods:mods>
             <mods:titleInfo>
-               <mods:title>Lincoln's Inn Black Book 6, 1606-07</mods:title>
+               <mods:title>Lincoln's Inn Black Book 6, 1607-08</mods:title>
             </mods:titleInfo>
             <mods:name
                type="corporate">
@@ -290,35 +290,43 @@
       </revisionDesc>
    </teiHeader>
    
-   <text ana="taxon:letter" type="record" xml:id="RLLIBB06" corresp="taxon:RLPIC1 pp. 139-40">
+   <text ana="taxon:lincolns_inn taxon:RLLIBB06" type="record">
       <body>
          <head>Lincoln's Inn Black Book 6
-            <date from-iso="1606-09-29" to-iso="1607-09-29">1606-7</date></head>
+            <date from-iso="1607-09-29" to-iso="1608-09-29">1607-8</date></head>
          
          <div>
-            <div type="transcription" xml:lang="eng">
-               <head>f 348<date when-iso="1606-11-27"/> <supplied>(27 November) (Christmas officers)</supplied></head>
-               <pb n="f 348" type="folio"/>
+            <div type="transcription" xml:lang="en">
+               <head><date when-iso="1607-11-30"/> <supplied>(30 November) (Christmas officers)</supplied></head>
+               <pb n="372v" type="folio"/>
                <gap reason="omitted"/>
-               <ab>Yt is ordered, that M<ex>r</ex> Vcoby<del>.</del> Wright; &amp;M<ex>r</ex> William Wills,  shalbe maisters of the Revells;</ab>
+               <ab>Yt is Ordered That r<ex>r</ex> fferne, &amp;m<ex>r</ex> Steward, shalbe maisters of the Revells.</ab>
                <gap reason="omitted"/>
+            </div>
+            
+            <div><div type="transcription" xml:lang="en">
+               <head><date when-iso="1607-02-11"/> <supplied>(11 February) (Council Orders)</supplied></head>
+               <pb n="385v" type="folio"/>
+               <gap reason="omitted"/>
+               <ab>Mr Raynar<note type="foot">Mr Rayner: <hi rend="italic">pointing hand in left margin</hi></note> is desired by the M<ex>aste</ex>rs of the Benche for this yeare followinge to be guider and directer of the Revells and to take Course for direction therein that better order maie bee hereafter thein than<note type="foot">than: n <hi rend="italic">altered from</hi> t</note> hath beene of late.</ab>
+               <gap reason="omitted"/></div>
             </div>
             
             <div>
-               <head>f 382<date from-iso="1606-11-25" to-iso="1607-11-25"/><supplied>(25 November-25 November) (Treasurer's receipts)</supplied></head>
-               <pb n="f 382" type="folio"/>
-               <note type="marginal" rend="right">Surplusagia Rotulorum</note>
-               <ab>Et de x xj s. iiij d. recept<ex>is</ex> de Ioh<ex>ann</ex>e Helliar Senescal<ex>li</ex> hospicij p<ex>re</ex>d<ex>i</ex>c<ex>t</ex>i p<ex>ro</ex> Surplusag<ex>ia</ex> Rotulor<ex>um</ex> Musicor<ex>um</ex>/ et Carbonar<ex>um... </ex> </ab>
-               <gap reason="omitted"/>
+               <div type="transcription" xml:lang="la">
+                  <head><date from-iso="1607-11-25" to-iso="1608-11-25"/><supplied>(25 November - 25 November) (Treasurer's receipts)</supplied></head>
+               <pb n="406" type="folio"/>
+
+                  <ab><table><row><cell>Et de viij li. v s. iiij d. recept<ex>is</ex> de Ioh<ex>ann</ex>e Helliar Senescal<ex>li</ex> hospicij p<ex>re</ex>d<ex>i</ex>c<ex>t</ex>i p<ex>ro</ex> Surplusag<ex>ia</ex> Rotulor<ex>um</ex> Musicor<ex>um</ex>/ et Carbonor<ex>um </ex> </cell><cell><note type="marginal" rend="right">Surplusagia Rotulorum</note></cell></row></table></ab>
+               <gap reason="omitted"/></div>
             </div>   
-            
-            <div type="translation" xml:lang="eng">
-               <head>f 382<date from-iso="1606-11-25" to-iso="1607-11-25"/><supplied>(25 November-25 November) (Treasurer's receipts)</supplied></head>
-               <pb n="f 382" type="folio"/>
-               <note type="marginal" rend="right">Balance due from the rolls</note>
-               <ab>And (the accountant renders account) of £10 11s 4d received from John Helliar, steward of the aforesaid Inn, for the balance due from the musicians' rolls and for coals ...</ab>
-               <gap reason="omitted"/>
-            </div>
+         
+            <div><div type="translation" xml:lang="en">
+               <head>Translation</head>
+               <ab><table><row>
+                  <cell>And (the accountant renders account) of £8 5s 4d received from John Helliar, steward of the aforesaid Inn, for the balance due from the musicians' rolls and for coals</cell><cell><note type="marginal" rend="right">Balance due from the rolls</note></cell></row></table></ab>
+
+            </div></div>
          </div>
       </body>
    </text>
