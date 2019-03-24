@@ -161,7 +161,6 @@
                   <valItem ident="holiday">
                     <desc>Describes a holiday</desc>
                   </valItem>
-<<<<<<< HEAD
                   <valItem ident="character">
                     <desc>Describes a character</desc>
                   </valItem>
@@ -170,18 +169,10 @@
                   </valItem>
                 </valList>
               </attDef>
-              <!-- These @subtypes are for occupations and are for experimentation / synced with the CWRC ontology -->
-=======
-                  <valItem ident="event">
-                    <desc>Describes an event that is not covered by entertainment</desc>
-                  </valItem>
-                </valList>
-              </attDef>
 
 
 
  <!-- These @subtypes are for occupations and are for experimentation / synced with the CWRC ontology -->
->>>>>>> 3bea80d2a49604309da4282e21ab6ef954ebef6c
               <attDef ident="subtype" mode="change">
                 <valList mode="add" type="closed">
                   <valItem ident="animalKeeper">
@@ -189,13 +180,10 @@
                   </valItem>
                   <valItem ident="armorer">
                     <desc>armorer</desc>
-<<<<<<< HEAD
                   </valItem>
                   <valItem ident="attorneyGeneral">
-=======
                   </valItem>                  
                   <valItem ident="attorneyGeneral" corresp="cwrc:attorneyGeneral">
->>>>>>> 3bea80d2a49604309da4282e21ab6ef954ebef6c
                     <desc>attorney general</desc>
                   </valItem>
                   <valItem ident="baker" corresp="cwrc:baker">
@@ -873,9 +861,7 @@
           <!-- namesdates: only include orgName, persName, placeName, occupation, and settlement. Not doing metadata records for named entities...yet-->
           <moduleRef key="namesdates" include="orgName persName place placeName settlement occupation" />
           <!-- delete lots of attributes -->
-<<<<<<< HEAD
           <!-- persName: modify @cert for CWRC -->
-=======
 
           <!-- CUSTOMIZATION: modify name:@role -->
           <elementSpec ident="name" mode="change" module="namesdates">
@@ -933,7 +919,6 @@
           </elementSpec>
 
           <!-- persName: modify @cert for CWRC 
->>>>>>> 3bea80d2a49604309da4282e21ab6ef954ebef6c
           <elementSpec ident="persName" mode="change" module="namesdates">
             <attList>
               <attDef ident="cert" mode="change">
@@ -953,13 +938,11 @@
                 </valList>
               </attDef>
             </attList>
-          </elementSpec>
-<<<<<<< HEAD
+          </elementSpec>-->
+
           <!-- placeName: modify @cert for CWRC -->
-=======
-          
-           placeName: modify @cert for CWRC 
->>>>>>> 3bea80d2a49604309da4282e21ab6ef954ebef6c
+
+
           <elementSpec ident="placeName" mode="change" module="namesdates">
             <attList>
               <attDef ident="cert" mode="change">
@@ -978,14 +961,9 @@
                   </valItem>
                 </valList>
               </attDef>
-<<<<<<< HEAD
             </attList>
           </elementSpec>
-=======
-            </attList>            
-          </elementSpec>-->
-          
->>>>>>> 3bea80d2a49604309da4282e21ab6ef954ebef6c
+
           <!-- delete lots of attributes for CWRC -->
           <elementSpec ident="orgName" mode="change" module="namesdates">
             <attList>
