@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--This is just an example file.-->
+<files>
+ <file>RELS-EXT.rdf</file>
+ <file>PDF.pdf</file>
+ <file>OBJ.tif</file>
+ <file>DC.xml</file>
+ <file>TN.jpg</file>
+ <file>JPG.jpg</file>
+ <file>JP2.jp2</file>
+ <file>RELS-INT.rdf</file>
+ <file>POLICY.bin</file>
+</files>

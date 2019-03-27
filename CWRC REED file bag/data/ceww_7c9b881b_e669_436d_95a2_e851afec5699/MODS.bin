@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/mods.xsd">
+  <mods:titleInfo>
+    <mods:title>Account Book of John Bankes</mods:title>
+  </mods:titleInfo>
+  <mods:name type="corporate">
+    <mods:namePart>Gray's Inn</mods:namePart>
+    <mods:namePart type="date">1631-32</mods:namePart>
+  </mods:name>
+  <mods:name type="personal">
+    <mods:namePart type="standard">Bankes, John</mods:namePart>
+    <mods:namePart type="surName">Bankes</mods:namePart>
+    <mods:namePart type="foreName">John</mods:namePart>
+  </mods:name>
+  <mods:typeOfResource>text</mods:typeOfResource>
+  <mods:genre type="formatType">Born Digital</mods:genre>
+  <mods:genre type="format">born digital</mods:genre>
+  <mods:genre type="primaryGenre">Scholarly writing</mods:genre>
+  <mods:genre type="subgenre">Reference work</mods:genre>
+  <mods:language>
+    <mods:languageTerm type="text">English</mods:languageTerm>
+  </mods:language>
+  <mods:physicalDescription>
+    <mods:form authority="marccategory">electronic resource</mods:form>
+    <mods:internetMediaType>text/xml</mods:internetMediaType>
+    <mods:digitalOrigin>born digital</mods:digitalOrigin>
+  </mods:physicalDescription>
+  <mods:abstract>John Bankes was treasurer of Gray’s Inn. This account complement the other corporate financial transactions for Gray's Inn.</mods:abstract>
+  <mods:subject>
+    <mods:topic valueURI="http://id.loc.gov/authorities/subjects/sh2002012473">Theater--England--London--History--17th century</mods:topic>
+  </mods:subject>
+  <mods:subject>
+    <mods:geographic valueURI="http://www.geonames.org/2643743/">London</mods:geographic>
+  </mods:subject>
+  <mods:subject>
+    <mods:temporal point="start">1601</mods:temporal>
+    <mods:temporal point="end">1700</mods:temporal>
+  </mods:subject>
+  <mods:accessCondition type="use and reproduction">Use of this public-domain resource is governed by the &lt;a
+               rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"
+               target="blank"&gt;Creative Commons Attribution-NonCommercial 4.0 International
+               License&lt;/a&gt;.</mods:accessCondition>
+  <mods:recordInfo>
+    <mods:recordOrigin>This MODS record was created using the Islandora XML Forms collection of Drupal modules.</mods:recordOrigin>
+    <mods:languageOfCataloging>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+    </mods:languageOfCataloging>
+    <mods:recordContentSource>Canadian Writing Research Collaboratory</mods:recordContentSource>
+  </mods:recordInfo>
+  <mods:originInfo>
+    <mods:dateIssued encoding="w3cdtf">1631-1632</mods:dateIssued>
+  </mods:originInfo>
+</mods:mods>

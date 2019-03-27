@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/mods.xsd">
+  <titleInfo>
+    <title>Letter of William Baldwin to Sir Thomas Cawarden</title>
+    <subTitle>Private Letter</subTitle>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre type="formatType">Born Digital</genre>
+  <language>
+    <languageTerm type="text">English</languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="marccategory">electronic resource</form>
+    <digitalOrigin>born digital</digitalOrigin>
+    <note>Washington DC, Folger Shakespeare Library, MS L.b.298; c 1555; English, bifolium (no longer conjugate except by repair); 307mm x 218mm; previous foliation 115; addressed: ‘To the right wurshipfull Syr Thomas Caverden dd’; endorsed: ‘The note of a playe and the nayemes of players Anno 1556,’ ‘Revylls,’ ‘1556,’ ‘a lettre of a play’.</note>
+  </physicalDescription>
+  <recordInfo>
+    <recordOrigin>This MODS record was created using the Islandora XML Forms collection of Drupal modules.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm type="text">English</languageTerm>
+    </languageOfCataloging>
+    <recordContentSource>REED London</recordContentSource>
+  </recordInfo>
+  <name type="personal">
+    <namePart>Jakacki, Diane</namePart>
+    <namePart type="family">Jakacki</namePart>
+    <namePart type="given">Diane Katherine</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Editor</roleTerm>
+    </role>
+    <affiliation>Records of Early English Drama</affiliation>
+    <namePart type="date">1964-07-27</namePart>
+    <namePart>REED London</namePart>
+  </name>
+  <genre type="format">Letter</genre>
+  <genre type="primaryGenre">Record</genre>
+  <genre type="subgenre">Letter</genre>
+  <originInfo>
+    <publisher>Records of Early English Drama</publisher>
+    <dateIssued encoding="w3cdtf">2010</dateIssued>
+  </originInfo>
+  <abstract>Letter from William Baldwin to Sir Thomas Cawarden, describing the play 'The Way to Life'. The play was composed c 1555-6(?), negotiations undertaken with Inns of Court but not played (?)</abstract>
+  <note type="scholarNote">In his letter to Sir Thomas Cawarden c 1555–6 (?), Baldwin claims to ‘have made a Commodie concernyng the way to lyfe’ appropriate for performance before the queen (Mary); moreover, ‘there be of the Innes of court that desyer to have the setting furth therof.’</note>
+  <note type="researchNote">The letter appears originally in Inns of Court Vol. 1, p. 80, lines 7-28.</note>
+  <subject>
+    <topic>Performance</topic>
+  </subject>
+  <subject>
+    <geographic>London</geographic>
+  </subject>
+  <subject>
+    <temporal point="start">Sixteenth Century</temporal>
+  </subject>
+  <subject>
+    <temporal point="start">1555</temporal>
+  </subject>
+  <subject>
+    <temporal point="end">1556</temporal>
+  </subject>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>REED London</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

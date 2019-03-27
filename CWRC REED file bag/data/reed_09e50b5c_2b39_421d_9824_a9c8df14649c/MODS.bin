@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/mods.xsd">
+  <titleInfo>
+    <title>John Stow, The Annales, or Generall Chronicle</title>
+  </titleInfo>
+  <name type="personal" valueURI="http://viaf.org/viaf/7488414">
+    <role>
+      <roleTerm authority="marcrelator" type="text">Author</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>text</typeOfResource>
+  <genre type="formatType">Born Digital</genre>
+  <genre type="format">Book</genre>
+  <genre type="subgenre">History</genre>
+  <originInfo>
+    <dateIssued encoding="w3cdtf">1615</dateIssued>
+  </originInfo>
+  <language>
+    <languageTerm type="text">English</languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="marccategory">electronic resource</form>
+    <internetMediaType>text/xml</internetMediaType>
+    <note>[within illustrated border] THE | ANNALES, | OR | GENERALL CHRO- | nicle of England, begun first by | maister IOHN STOW, and | after him continued and augmented | with matters forreyne, and do- | mestique, auncient and moderne, | vnto the ende of this | present yeere 1614. | by EDMOND | Howes, gen- | tleman, | [(triangle of dots)] | LONDINI | Impensis Thomæ | Adams. | 1615. STC : 23338.</note>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <abstract>John Stow (1524 or 1525–1605) was a prolific historian whose oft-published Annales (of England) and Survay (of London) survived his own death under the hands of later editors.&#13;
+In this excerpt, he refers to the masque (The Masque of Flowers) performed by the gentlemen of Gray's Inn for the wedding of Robert Ker and Frances Howard on 23 December, 1613.</abstract>
+  <subject>
+    <topic valueURI="http://id.loc.gov/authorities/subjects/sh2002012473">Theater--England--London--History--17th century</topic>
+    <geographic valueURI="http://www.geonames.org/2643743/">London, England</geographic>
+  </subject>
+  <subject>
+    <temporal point="start">1613-12-23</temporal>
+  </subject>
+  <subject>
+    <temporal point="start">1613</temporal>
+  </subject>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Inns of Court</title>
+    </titleInfo>
+  </relatedItem>
+  <accessCondition type="use and reproduction">Use of this public-domain resource is governed by the &lt;a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"&gt;Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</accessCondition>
+  <recordInfo>
+    <recordOrigin>This MODS record was created using the Islandora XML Forms collection of Drupal modules.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm type="text">English</languageTerm>
+    </languageOfCataloging>
+    <recordContentSource>Canadian Writing Research Collaboratory</recordContentSource>
+    <recordContentSource>REED London</recordContentSource>
+  </recordInfo>
+</mods>

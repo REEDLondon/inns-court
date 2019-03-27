@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="https://beta.cwrc.ca/islandora/object/cwrc%3A5d5159ce-8710-4717-b977-cc528dedc25e/datastream/CSS/view"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cw="http://cwrc.ca/ns/cw#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xml:base="tei/records/" xml:id="london" xml:lang="eng"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cw="http://cwrc.ca/ns/cw#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:time="http://www.w3.org/2006/time#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+<rdf:Description rdf:about="https://beta.cwrc.ca/sites/default/modules/islandora_cwrc_writer/build/editor/documents/reed:26975a1f-a890-4ea1-bc4c-7c5e1399ce5d">
+	<cw:mode>0</cw:mode>
+	<cw:allowOverlap>false</cw:allowOverlap>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/342dec41-3fe0-43a8-9f81-ea9b86f722b9">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/1df4468e-19a8-42e6-ae27-f3d6bd877286"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/date/6a98f80b-38dc-4129-828b-c840c4e6f6ee"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-12-03T14:24:10.354Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-12-03T14:24:10.354Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
+	<cw:hasCertainty xmlns:cw="http://cwrc.ca/ns/cw#" rdf:resource="http://cwrc.ca/ns/cw#definite"/>
+	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{}</cw:cwrcInfo>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"when":"1612-02-15","cert":"definite"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/date/6a98f80b-38dc-4129-828b-c840c4e6f6ee"><xsd:date xmlns:xsd="http://www.w3.org/2001/XMLSchema#">1612-02-15</xsd:date>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://www.w3.org/2006/time#Instant"/>
+	<rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/1df4468e-19a8-42e6-ae27-f3d6bd877286">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/11d571fa-c0fe-47d9-98d0-b0421b6cd0dc"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/f9c08f1b-5917-45a2-a15a-d49d1b86a61c"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/f9c08f1b-5917-45a2-a15a-d49d1b86a61c">
+	<rdf:value>xpointer(//date[@annotationId="ent_2198"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/8f17e3ff-cf8b-4032-a885-f44a88b8a6e4">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/87292130-6a05-497b-8080-82e1fc3f7266"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/date/7abc6279-e69b-4040-81fb-16bf7c33342f"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-12-03T14:24:10.356Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-12-03T14:24:10.356Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
+	<cw:hasCertainty xmlns:cw="http://cwrc.ca/ns/cw#" rdf:resource="http://cwrc.ca/ns/cw#definite"/>
+	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{}</cw:cwrcInfo>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"when":"14 February 1612/13","cert":"definite"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/date/7abc6279-e69b-4040-81fb-16bf7c33342f"><xsd:date xmlns:xsd="http://www.w3.org/2001/XMLSchema#">14 February 1612/13</xsd:date>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://www.w3.org/2006/time#Instant"/>
+	<rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/87292130-6a05-497b-8080-82e1fc3f7266">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/e6c083a6-d399-41da-b625-c944947fd92d"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/817e4f2f-2e5f-4cd1-872f-77af9d9cda7a"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/817e4f2f-2e5f-4cd1-872f-77af9d9cda7a">
+	<rdf:value>xpointer(//date[@annotationId="ent_2204"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/49b912b2-0eb3-4f4e-8a22-31dfc2b632b0">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/af33876a-3b40-46d6-a253-3710069ff8ae"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/date/268f0756-d6a5-4e51-aeb9-d91be404f028"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-12-03T14:24:10.357Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-12-03T14:24:10.357Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
+	<cw:hasCertainty xmlns:cw="http://cwrc.ca/ns/cw#" rdf:resource="http://cwrc.ca/ns/cw#definite"/>
+	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{}</cw:cwrcInfo>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"when":"7 May 1613","cert":"definite"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/date/268f0756-d6a5-4e51-aeb9-d91be404f028"><xsd:date xmlns:xsd="http://www.w3.org/2001/XMLSchema#">7 May 1613</xsd:date>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://www.w3.org/2006/time#Instant"/>
+	<rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/af33876a-3b40-46d6-a253-3710069ff8ae">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/af729028-e0e6-4d29-ab09-a1d5082ecdc5"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/51689d8e-4974-4b04-aa62-e87115928953"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/51689d8e-4974-4b04-aa62-e87115928953">
+	<rdf:value>xpointer(//date[@annotationId="ent_2218"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/84ef8f9e-5591-4ceb-9ec5-df975d5bbbe5">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/b85e7c3c-913b-4e3c-ae6b-0b8b5027802e"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/date/25facc0c-0584-4c5b-bbe1-6788b37080e2"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-12-03T14:24:10.359Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-12-03T14:24:10.359Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
+	<cw:hasCertainty xmlns:cw="http://cwrc.ca/ns/cw#" rdf:resource="http://cwrc.ca/ns/cw#definite"/>
+	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{}</cw:cwrcInfo>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"when":"11 May 1613","cert":"definite"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/date/25facc0c-0584-4c5b-bbe1-6788b37080e2"><xsd:date xmlns:xsd="http://www.w3.org/2001/XMLSchema#">11 May 1613</xsd:date>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://www.w3.org/2006/time#Instant"/>
+	<rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/b85e7c3c-913b-4e3c-ae6b-0b8b5027802e">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/26f737d6-ed69-4bef-b88e-d487e3539b20"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/6d8eadaf-5189-43ef-a154-920ddfd02d99"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/6d8eadaf-5189-43ef-a154-920ddfd02d99">
+	<rdf:value>xpointer(//date[@annotationId="ent_2222"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/8c4a4591-b28b-4fcd-a9fb-21bc44844351">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/c7e0925d-ffde-4810-a1c6-f5a771117048"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="https://commons.cwrc.ca/reed:b57c2478-ec4e-405e-84a4-5a409013a7e5"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-12-03T14:24:10.361Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-12-03T14:24:10.361Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
+	<cw:hasCertainty xmlns:cw="http://cwrc.ca/ns/cw#" rdf:resource="http://cwrc.ca/ns/cw#definite"/>
+	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{"id":"https://commons.cwrc.ca/reed:b57c2478-ec4e-405e-84a4-5a409013a7e5","uri":"https://commons.cwrc.ca/reed:b57c2478-ec4e-405e-84a4-5a409013a7e5","uriForDisplay":"https://commons.cwrc.ca/reed:b57c2478-ec4e-405e-84a4-5a409013a7e5","name":"Jones, Inigo","nameType":"person","repository":"CWRC","originalQueryString":"Inigo Jones","logo":"https://beta.cwrc.ca/sites/default/files/rl_kempe.png"}</cw:cwrcInfo>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"ref":"https://commons.cwrc.ca/reed:b57c2478-ec4e-405e-84a4-5a409013a7e5","cert":"definite","type":"real"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://commons.cwrc.ca/reed:b57c2478-ec4e-405e-84a4-5a409013a7e5">
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/c7e0925d-ffde-4810-a1c6-f5a771117048">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/93a00fab-ed3b-41ef-a0b7-c5ac2761a382"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/50f4928b-c8ce-47ad-b487-8358d93efc5b"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/50f4928b-c8ce-47ad-b487-8358d93efc5b">
+	<rdf:value>xpointer(//persName[@annotationId="ent_3069"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/ad69c947-3db2-42dc-afaa-711d377c2dd7">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/f47cc1f1-e62e-49f7-91e7-b91f62af8450"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="https://commons.cwrc.ca/reed:d0db3261-3dd1-4edb-b9a3-16759d7b6696"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/user/71e0f1cb-8125-42d8-b11f-d19ca72d8858"/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-12-03T14:24:10.361Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-12-03T14:24:10.361Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
+	<cw:hasCertainty xmlns:cw="http://cwrc.ca/ns/cw#" rdf:resource="http://cwrc.ca/ns/cw#definite"/>
+	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{"id":"https://commons.cwrc.ca/reed:d0db3261-3dd1-4edb-b9a3-16759d7b6696","uri":"https://commons.cwrc.ca/reed:d0db3261-3dd1-4edb-b9a3-16759d7b6696","uriForDisplay":"https://commons.cwrc.ca/reed:d0db3261-3dd1-4edb-b9a3-16759d7b6696","name":"Stuart, Elizabeth","nameType":"person","repository":"CWRC","originalQueryString":"Elizabeth stuart","logo":"https://beta.cwrc.ca/sites/default/files/rl_kempe.png"}</cw:cwrcInfo>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"ref":"https://commons.cwrc.ca/reed:d0db3261-3dd1-4edb-b9a3-16759d7b6696","cert":"definite","type":"real"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://commons.cwrc.ca/reed:d0db3261-3dd1-4edb-b9a3-16759d7b6696">
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/f47cc1f1-e62e-49f7-91e7-b91f62af8450">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/c7ac851c-11d8-40b1-b0da-a06f7ef22caf"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/1af81704-8b8f-4d6f-b980-87bad3d1a76c"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/1af81704-8b8f-4d6f-b980-87bad3d1a76c">
+	<rdf:value>xpointer(//persName[@annotationId="ent_3917"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/d20d0e3a-f2a7-4310-babe-a5074b9a1241">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/d7d7e9b5-92d7-4c97-bcea-b52e7a4a6fd7"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="https://commons.cwrc.ca/reed:835bd31f-f4b6-42b3-91b3-4338f67cce2a"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/user/509ef13c-0247-4b1b-9723-92cecc16a7f7"/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-12-03T14:24:10.363Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-12-03T14:24:10.363Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
+	<cw:hasCertainty xmlns:cw="http://cwrc.ca/ns/cw#" rdf:resource="http://cwrc.ca/ns/cw#definite"/>
+	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{"id":"https://commons.cwrc.ca/reed:835bd31f-f4b6-42b3-91b3-4338f67cce2a","uri":"https://commons.cwrc.ca/reed:835bd31f-f4b6-42b3-91b3-4338f67cce2a","uriForDisplay":"https://commons.cwrc.ca/reed:835bd31f-f4b6-42b3-91b3-4338f67cce2a","name":"Frederick V","nameType":"person","repository":"CWRC","originalQueryString":"Frederick V","logo":"https://beta.cwrc.ca/sites/default/files/rl_kempe.png"}</cw:cwrcInfo>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"ref":"https://commons.cwrc.ca/reed:835bd31f-f4b6-42b3-91b3-4338f67cce2a","cert":"definite","type":"real"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://commons.cwrc.ca/reed:835bd31f-f4b6-42b3-91b3-4338f67cce2a">
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/d7d7e9b5-92d7-4c97-bcea-b52e7a4a6fd7">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/0f042d10-130a-49eb-bc8f-8e9c8cae2286"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/589e6b5b-b795-4024-9d8e-1c09766b1220"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/589e6b5b-b795-4024-9d8e-1c09766b1220">
+	<rdf:value>xpointer(//persName[@annotationId="ent_3918"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/ecc318c8-7299-420f-9477-dc0d6beaace9">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/1ed66f44-6f28-4520-a597-2a9f16dce32d"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="https://commons.cwrc.ca/reed:ce34b0ad-858b-4f6b-99c6-f61d24c97b61"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/user/f09bedb2-0964-4627-bf7c-f49610167331"/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-12-03T14:24:10.364Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-12-03T14:24:10.364Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
+	<cw:hasCertainty xmlns:cw="http://cwrc.ca/ns/cw#" rdf:resource="http://cwrc.ca/ns/cw#definite"/>
+	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{"id":"https://commons.cwrc.ca/reed:ce34b0ad-858b-4f6b-99c6-f61d24c97b61","uri":"https://commons.cwrc.ca/reed:ce34b0ad-858b-4f6b-99c6-f61d24c97b61","uriForDisplay":"https://commons.cwrc.ca/reed:ce34b0ad-858b-4f6b-99c6-f61d24c97b61","name":"Whitehall Palace","nameType":"place","repository":"CWRC","originalQueryString":"whitehall","logo":"https://beta.cwrc.ca/sites/default/files/rl_kempe.png"}</cw:cwrcInfo>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"ref":"https://commons.cwrc.ca/reed:ce34b0ad-858b-4f6b-99c6-f61d24c97b61","cert":"definite"}</cw:cwrcAttributes>
+<cw:hasPrecision xmlns:cw="http://cwrc.ca/ns/cw#" rdf:resource="http://cwrc.ca/ns/cw#high"/></rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://commons.cwrc.ca/reed:ce34b0ad-858b-4f6b-99c6-f61d24c97b61">
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/1ed66f44-6f28-4520-a597-2a9f16dce32d">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/0e6db690-9d66-4905-9697-91f703c71d52"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/83cdffb3-8fd1-4e97-a0c4-0ebfcb73ac1a"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/83cdffb3-8fd1-4e97-a0c4-0ebfcb73ac1a">
+	<rdf:value>xpointer(//placeName[@annotationId="ent_3919"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/157f814c-1953-44e2-b968-d1cce0daa9e6">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/f91897d0-345f-45b2-a42a-98a2084d281b"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="https://commons.cwrc.ca/reed:4d021b18-7d84-42de-9519-bf1fcedcaa71"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/user/51d6383f-7313-4806-b57c-cf620dcace33"/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-12-03T14:24:10.367Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-12-03T14:24:10.367Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
+	<cw:hasCertainty xmlns:cw="http://cwrc.ca/ns/cw#" rdf:resource="http://cwrc.ca/ns/cw#reasonable"/>
+	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{"id":"https://commons.cwrc.ca/reed:4d021b18-7d84-42de-9519-bf1fcedcaa71","uri":"https://commons.cwrc.ca/reed:4d021b18-7d84-42de-9519-bf1fcedcaa71","uriForDisplay":"https://commons.cwrc.ca/reed:4d021b18-7d84-42de-9519-bf1fcedcaa71","name":"Pyne, John","nameType":"person","repository":"CWRC","originalQueryString":"Mr Pyne","logo":"https://beta.cwrc.ca/sites/default/files/rl_kempe.png"}</cw:cwrcInfo>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"cert":"reasonably certain","ref":"https://commons.cwrc.ca/reed:4d021b18-7d84-42de-9519-bf1fcedcaa71","type":"real"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://commons.cwrc.ca/reed:4d021b18-7d84-42de-9519-bf1fcedcaa71">
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/f91897d0-345f-45b2-a42a-98a2084d281b">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/3a77f598-714f-4803-b60e-a2a9af1a3f0b"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/3a66f348-68a2-4038-8a8c-1e6cb2b0f1bf"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/3a66f348-68a2-4038-8a8c-1e6cb2b0f1bf">
+	<rdf:value>xpointer(//persName[@annotationId="ent_3920"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/cd07fa70-ba1d-4dda-9a14-8dba5c2dd3c8">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/b6a91cb2-7ad7-4ab1-b92c-aa852cf4f579"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="https://commons.cwrc.ca/reed:afb5dce7-6d77-4c33-bca6-975f527e3abb"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/user/e269ae6d-8a59-4e5b-9683-4905fa79fbb5"/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-12-03T14:24:10.367Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-12-03T14:24:10.367Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
+	<cw:hasCertainty xmlns:cw="http://cwrc.ca/ns/cw#" rdf:resource="http://cwrc.ca/ns/cw#reasonable"/>
+	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{"id":"https://commons.cwrc.ca/reed:afb5dce7-6d77-4c33-bca6-975f527e3abb","uri":"https://commons.cwrc.ca/reed:afb5dce7-6d77-4c33-bca6-975f527e3abb","uriForDisplay":"https://commons.cwrc.ca/reed:afb5dce7-6d77-4c33-bca6-975f527e3abb","name":"Cheeke, Thomas","nameType":"person","repository":"CWRC","originalQueryString":"Mr Cheeke","logo":"https://beta.cwrc.ca/sites/default/files/rl_kempe.png"}</cw:cwrcInfo>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"cert":"reasonably certain","ref":"https://commons.cwrc.ca/reed:afb5dce7-6d77-4c33-bca6-975f527e3abb","type":"real"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://commons.cwrc.ca/reed:afb5dce7-6d77-4c33-bca6-975f527e3abb">
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/b6a91cb2-7ad7-4ab1-b92c-aa852cf4f579">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/f9560564-1b4f-4e23-b41a-2ad21eb15799"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/a6fbb65d-7f70-4133-860b-efa7207cd948"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/a6fbb65d-7f70-4133-860b-efa7207cd948">
+	<rdf:value>xpointer(//persName[@annotationId="ent_3921"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/7e59ea51-9c6b-4f57-a2da-11186838631f">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/52238e11-4c6a-4bcb-9b38-0aa0600e8c75"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="https://commons.cwrc.ca/reed:63b3be89-1e59-42d5-ab1d-0f96cdf527e0"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/user/b38b25d7-e761-4992-9aea-7fc10a6031dc"/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-12-03T14:24:10.368Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-12-03T14:24:10.368Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
+	<cw:hasCertainty xmlns:cw="http://cwrc.ca/ns/cw#" rdf:resource="http://cwrc.ca/ns/cw#reasonable"/>
+	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{"id":"https://commons.cwrc.ca/reed:63b3be89-1e59-42d5-ab1d-0f96cdf527e0","uri":"https://commons.cwrc.ca/reed:63b3be89-1e59-42d5-ab1d-0f96cdf527e0","uriForDisplay":"https://commons.cwrc.ca/reed:63b3be89-1e59-42d5-ab1d-0f96cdf527e0","name":"Rich, Robert","nameType":"person","repository":"CWRC","originalQueryString":"Mr Roberte Riche","logo":"https://beta.cwrc.ca/sites/default/files/rl_kempe.png"}</cw:cwrcInfo>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"cert":"reasonably certain","ref":"https://commons.cwrc.ca/reed:63b3be89-1e59-42d5-ab1d-0f96cdf527e0","type":"real"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://commons.cwrc.ca/reed:63b3be89-1e59-42d5-ab1d-0f96cdf527e0">
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/52238e11-4c6a-4bcb-9b38-0aa0600e8c75">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/18915f31-8b94-48a7-b47c-cee84f1424e1"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/a802d2bc-c893-4009-8a50-8610b17556d1"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/a802d2bc-c893-4009-8a50-8610b17556d1">
+	<rdf:value>xpointer(//persName[@annotationId="ent_3922"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/f32f618e-4ebf-4814-b8ec-2116a95b8f70">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/9dc45547-24a1-43c1-ac92-ab379c03819e"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="https://commons.cwrc.ca/reed:683e79f9-50ad-4465-819c-b49bfbb064be"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/user/e7e35aab-2909-41b6-abbb-5b432101d709"/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-12-03T14:24:10.369Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-12-03T14:24:10.369Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
+	<cw:hasCertainty xmlns:cw="http://cwrc.ca/ns/cw#" rdf:resource="http://cwrc.ca/ns/cw#reasonable"/>
+	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{"id":"https://commons.cwrc.ca/reed:683e79f9-50ad-4465-819c-b49bfbb064be","uri":"https://commons.cwrc.ca/reed:683e79f9-50ad-4465-819c-b49bfbb064be","uriForDisplay":"https://commons.cwrc.ca/reed:683e79f9-50ad-4465-819c-b49bfbb064be","name":"Bedingfeild, Thomas","nameType":"person","repository":"CWRC","originalQueryString":"Thomas Bedingfeild","logo":"https://beta.cwrc.ca/sites/default/files/rl_kempe.png"}</cw:cwrcInfo>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"cert":"reasonably certain","ref":"https://commons.cwrc.ca/reed:683e79f9-50ad-4465-819c-b49bfbb064be","type":"real"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://commons.cwrc.ca/reed:683e79f9-50ad-4465-819c-b49bfbb064be">
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/9dc45547-24a1-43c1-ac92-ab379c03819e">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/23a7f709-8c70-4dc3-95f7-df894bbae7c5"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/511f01b1-9055-4536-8196-2defb72f1b25"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/511f01b1-9055-4536-8196-2defb72f1b25">
+	<rdf:value>xpointer(//persName[@annotationId="ent_3923"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+</rdf:RDF>
+
+
+
+
+
+
+
+
+
+
+
+
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title type="main">Inns of Court</title>
+
+
+            <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>
+            <funder><orgName>CANARIE</orgName></funder>
+
+            <funder><orgName>British Academy, London, UK</orgName></funder>
+            <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>
+            <funder><orgName>National Endowment for the Humanities, Washington, DC, United States of America</orgName></funder>
+            <funder><orgName>Social Sciences and Humanities Research Council, Ottawa, Canada</orgName></funder>
+
+            <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
+            <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
+
+
+            <!--             REED staff             -->
+            <respStmt>
+               <persName xml:id="CB">Carolyn Black</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Project Manager</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>William Cooke</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>English Glossarian</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="PG">Patrick Gregory</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Associate Editor</resp>
+               <!--             confirm             -->
+               <resp>Paleographer, Translator</resp>
+               <!--             confirm             -->
+            </respStmt>
+
+            <respStmt>
+               <persName>Alexandra F. Johnston</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>REED Founder and Senior Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Arleane Ralph</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Paleographer</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Abigail Ann Young</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Latin Glossarian</resp>
+            </respStmt>
+
+
+            <!--             NHPRC-Mellon Team, 2018             -->
+            <respStmt>
+               <persName>John Bradley</persName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Susan Brown</persName>
+               <orgName>University of Guelph</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="KC">Kathy Chung</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>REED Research Associate, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="JC">James Cummings</persName>
+               <orgName>Newcastle University</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+               <resp>TEI Schema Designer, Technical Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Matthew Davies</persName>
+               <orgName>University of London, Birkbeck College</orgName>
+               <!--             confirm             -->
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Tanya Hagen</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Bibliographer, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Mihaela Iloven</persName>
+               <orgName>Canadian Writing Research Collaboratory</orgName>
+               <resp>CWRC project manager, NHPRC-Mellon advisor</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="JAKA1">Diane K. Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>Principal Investigator, NHPRC-Mellon Digital Edition Publishing Cooperatives Planning Grant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>David Kathman</persName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Sally-Beth MacLean</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Principal Investigator, SSHRC grant; Director of Research and General Editor</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="KM">Kimberley Martin</persName>
+               <orgName>University of Guelph</orgName>
+               <resp>NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Christopher Matusiak</persName>
+               <orgName>Ithaca College</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="JN">Jamie Norrish</persName>
+               <resp>Programmer, EATS developer, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Dorothy Porter</persName>
+               <orgName>University of Pennsylvania</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Suzanne Westfall</persName>
+               <orgName>Lafayette College</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board Member</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <!--             Bucknell Research Assistantx             -->
+            <respStmt>
+               <persName>Ari Baughman</persName>
+               <orgName>Bucknell Univerity</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Maureen Maclean</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Rachel Milio</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Charlotte Simon</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+
+         </titleStmt>
+         <editionStmt>
+            <edition>Print version, published <date when-iso="2010">2010</date>. Electronic edition, anticipated publication <date when-iso="2018">2018</date></edition>
+         </editionStmt>
+
+         <publicationStmt>
+            <authority><orgName>Records of Early English Drama (REED)</orgName>
+               <address>
+                  <addrLine>University of Toronto</addrLine>
+                  <addrLine>170 St George Street, Suite 810</addrLine>
+                  <addrLine>Toronto, Ontario, Canada</addrLine>
+                  <addrLine>M5R 2M8</addrLine>
+               </address>
+            </authority>
+
+            <publisher>D.S. Brewer, Cambridge, an imprint of Boydell &amp; Brewer Ltd./Boydell &amp; Brewer Ltd.</publisher>
+            <pubPlace>Rochester, NY</pubPlace>
+            <date>2010</date>
+            <idno type="other">978-1-84384-259-0</idno>
+
+            <availability>
+               <p>Copyright <orgName>Records of Early English Drama (REED)</orgName>, <date>2017</date></p>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) licence.</licence>
+            </availability>
+         </publicationStmt>
+
+         <seriesStmt>
+            <title>Records of Early English Drama</title>
+         </seriesStmt>
+         <sourceDesc>
+            <p>This publication constitutes a remediation of the printed Inns of Court collection. Information on original sources for transcriptions can be accessed via the Document Descriptions.</p>
+            <p>This record can be found on [PAGE(S)] of REED: Inns of Court, Vol. [#]</p>
+            <p>For a full list of REED collections, editors, executive board members, and staff, please visit http://reed.utoronto.ca/people</p>
+         </sourceDesc>
+      </fileDesc>
+
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="taxon" matchPattern="([A-Za-z0-9_-]+)" replacementPattern="../taxonomy.xml#$1">
+               <p>Private URIs using the <code>taxon</code> prefix are pointers to entities in the taxonomy.xml file. For example, <code>taxon:church</code> dereferences to <code>taxonomy.xml#church</code>.</p>
+            </prefixDef>
+            <prefixDef ident="gloss" matchPattern="([A-Za-z0-9_-]+)" replacementPattern="../glossary.xml#$1">
+               <p>Private URIs using the <code>gloss</code> prefix are pointers to entities in the glossary.xml file. For example, <code>gloss:histrio-1</code> dereferences to <code>glossary.xml#histrio-1</code>.</p>
+            </prefixDef>
+         </listPrefixDef>
+
+         <projectDesc>
+            <p>Records of Early English Drama (REED) is an international scholarly project that is establishing for the first time the context from which the drama of Shakespeare and his contemporaries grew. Founded in 1976, REED has worked since then to locate, transcribe, and edit historical documents containing evidence of drama, secular music, and other communal entertainment and ceremony from the Middle Ages until 1642, when the Puritans closed the London theatres.</p>
+         </projectDesc>
+      </encodingDesc>
+
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+         <settingDesc>
+            <place>
+               <placeName>London</placeName>
+            </place>
+         </settingDesc>
+      </profileDesc>
+      <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
+         <mods:mods>
+            <mods:titleInfo>
+               <mods:title>Lincoln's Inn Black Book 6, 1612-13</mods:title>
+            </mods:titleInfo>
+            <mods:name type="corporate">
+               <mods:namePart>Lincoln's Inn</mods:namePart>
+            </mods:name>
+            <mods:typeOfResource>text</mods:typeOfResource>
+            <mods:genre type="formatType">Born Digital</mods:genre>
+            <mods:genre type="format">born digital</mods:genre>
+            <mods:genre type="primaryGenre">Record</mods:genre>
+            <mods:genre type="subgenre">Archival material</mods:genre>
+            <mods:genre>Performance</mods:genre>
+            <mods:language>
+               <mods:languageTerm type="text">English</mods:languageTerm>
+            </mods:language>
+            <mods:physicalDescription>
+               <mods:form authority="marccategory">electronic resource</mods:form>
+               <mods:internetMediaType>text/xml</mods:internetMediaType>
+               <mods:digitalOrigin>born digital</mods:digitalOrigin>
+            </mods:physicalDescription>
+            <mods:abstract>"All eight volumes described below were rebound in 1965 in black morocco, giving them a uniform appearance despite notable differences in size (from 210mm x 135mm to 310mm x 205mm). Foliation is sometimes nightmarish, as for example in A1a7 (Black Book 7), due to successive inconsistencies, errors, corrections, and rationalizations. A set of microfilms is preserved in the Public Record Office (TNA: PRO 30/77): the eight volumes referenced here occupy the first five reels. The standard essential publication is William Paley Baildon (ed), The Records of the Honorable Society of Lincoln’s Inn. The Black Books, 4 vols (London, 1897)."</mods:abstract>
+            <mods:subject>
+               <mods:topic valueURI="http://id.loc.gov/authorities/subjects/sh2010116269">Theater--England--London--History--17th </mods:topic>
+            </mods:subject>
+            <mods:subject>
+               <mods:geographic valueURI="http://www.geonames.org/2643743/">London</mods:geographic>
+            </mods:subject>
+            <mods:subject>
+               <mods:temporal point="start">1601</mods:temporal>
+               <mods:temporal point="end">1700</mods:temporal>
+            </mods:subject>
+            <mods:accessCondition type="use and reproduction">Use of this public-domain resource is governed by the &lt;a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="blank"&gt;Creative Commons Attribution-NonCommercial 4.0 International License&lt;/a&gt;.</mods:accessCondition>
+            <mods:recordInfo>
+               <mods:recordOrigin>This MODS record was created using the Islandora XML Forms collection of Drupal modules.</mods:recordOrigin>
+               <mods:languageOfCataloging>
+                  <mods:languageTerm type="text">English</mods:languageTerm>
+               </mods:languageOfCataloging>
+               <mods:recordContentSource>Canadian Writing Research Collaboratory</mods:recordContentSource>
+            </mods:recordInfo>
+         </mods:mods>
+      </xenoData>
+   </teiHeader>
+
+   <text ana="taxon:lincolns-inn" type="record" xml:id="RLLIB6">
+      <body>
+         <head>
+            <date from-iso="1612-11-28" to-iso="1613-11-27">1612-13</date></head>
+         <div type="transcription" xml:lang="en">
+            <div>
+               <head>
+                  <supplied>(26 November) (Christmas officers)</supplied></head>
+               <pb type="folio" n="505v"/>
+               <gap reason="omitted"/>
+               <table>
+                  <row>
+                     <cell><name type="occupation">Master of the Revells</name></cell>
+                     <cell>Mr Stevens./<lb/> Mr Sanderson./</cell>
+                  </row>
+               </table>
+               <gap reason="omitted"/>
+            </div>            
+         </div>
+         
+         <div type="transcription" xml:lang="en">
+            <div>
+               <head>
+                  <supplied>(26 January) (Council orders)</supplied></head>
+               <pb type="folio" n="506v"/>
+            <gap reason="omitted"/>
+            <ab> At this Councell every one of the <name type="occupation">M<ex>aste</ex>rs of the bench</name> and the Assotiatt<ex>es</ex> therevnto are rated and taxed to paie the somme of <measure n="960" type="currency">ffower pounds</measure> towards the Charge of the <name type="event">Maske</name> that is intended to be p<ex>re</ex>sented by the gent<ex>lemen</ex> of this howse and of the middle Temple at his Maiesties Courte <del>of</del>
+               <add place="above">at</add> <placeName annotationId="ent_3919" ref="https://commons.cwrc.ca/reed:ce34b0ad-858b-4f6b-99c6-f61d24c97b61" cert="definite">whitehall<precision annotationId="ent_3919" precision="high"/></placeName> vppon the <date annotationId="ent_2204" when="14 February 1612/13" cert="definite">ffourtenth<note type="foot">for fifteenth</note> daie of ffebr<damage>.</damage>arij</date> next at the <name type="event">marriage</name> of the <persName annotationId="ent_3917" ref="https://commons.cwrc.ca/reed:d0db3261-3dd1-4edb-b9a3-16759d7b6696" cert="definite" type="real">Ladie Elizabeth</persName> her grace with the <persName annotationId="ent_3918" ref="https://commons.cwrc.ca/reed:835bd31f-f4b6-42b3-91b3-4338f67cce2a" cert="definite" type="real">Counte<del>e</del> Palentine of Rhene</persName> And every <name type="occupation">vtterbarrester</name> of this howse is rated to paie towards the same the som<ex>m</ex>e of <measure n="600" type="currency">ffiftie shillings</measure> and every other gent<ex>leman</ex> of this howse vnder the barr the som<ex>m</ex>e of <measure n="360" type="currency">Thirty shillings</measure>/ </ab>
+            <gap reason="omitted"/>
+         </div>
+
+         <div type="endnote">
+            <ab>Editorial note: Chapman’s <hi rend="italic">Memorable Masque</hi>  was performed in Whitehall Palace hall on <date annotationId="ent_2198" when="1612-02-15" cert="definite">15 February 1612/13</date>, the day after the marriage of Princess Elizabeth and the count palatine. </ab>
+         </div>
+         </div>
+         
+         <div type="transcription" xml:lang="en">
+            <div>
+               <head>
+                  <supplied>(12 February)</supplied></head>
+               <pb type="folio" n="590"/>
+            <gap reason="omitted"/>
+            <ab> The <name type="occupation">M<ex>aste</ex>rs of the Bench</name> and others that haue lent and shall lend any mony towards the Charges of the <name type="entertainment">maske</name> to be p<ex>re</ex>sented at the Courte at the <name type="event">marriage</name> L J of the Ladie Elizabeth her grace with the Counte<del>e</del>^<add place="above">e</add> Palentine of Rhene shalbe repaid there mony soe lent at such tyme <del>at such tyme</del> as the same can be gotten vpp./ </ab>
+            <gap reason="omitted"/>
+         </div>
+         </div>
+
+         <div type="transcription" xml:lang="en">
+            <div>
+            <head><supplied>(30 April)</supplied></head>
+            <pb n="f 510v" type="folio"/>
+            <gap reason="omitted"/>
+            <ab> Whereas <persName annotationId="ent_3920" cert="reasonably certain" ref="https://commons.cwrc.ca/reed:4d021b18-7d84-42de-9519-bf1fcedcaa71" type="real">Mr Pyne</persName> now deceased sometymes one of the <name type="occupation">M<ex>aste</ex>rs of the bench</name> haue given <measure n="2400" type="currency">tenne pounds</measure> towards the building of the new Chappell the same to be paid when the said Chappell shalbe in building And Mr Pyne his sonne being an <name type="occupation">vtterbarrester</name> of this howse being his executor is Content to deliu<ex>er</ex> the said <measure n="2400" type="currency">Tenne pounds</measure> to the <name type="currency">M<ex>aste</ex>rs of the bench</name> they to vse the same at theire pleasure till the said Chappell shalbe in building and then the same to be imployed towards the building of the said Chappell It is therefore ordered that the said <measure n="2400" type="currency">tenne pounds</measure> shalbe received by Mr Spencer the appointed <name type="occupation">Trea<ex>sure</ex>r</name> for for<note type="foot">dittography</note> the monyes to be Collected for the late maske presented to the kings Ma<ex>ies</ex>ties Courte at whithall at the <name type="event">marriage</name> of the Ladie Elizabeth her grace w<ex>i</ex>th the Counte Palentine of Rhene./ </ab>
+            <ab> <persName annotationId="ent_3921" cert="reasonably certain" ref="https://commons.cwrc.ca/reed:afb5dce7-6d77-4c33-bca6-975f527e3abb" type="real">Mr Cheeke</persName> is to lend towards the Charge of the said <name type="entertainment">maske</name> the som<ex>m</ex>e of <measure n="2400" type="currency">tenne pounds</measure> to be paid by him to Mr Spencer by theise daie <date annotationId="ent_2218" when="7 May 1613" cert="definite">seaven night</date><note type="foot">7 May 1613</note> w<ex>hi</ex>ch money to be repaid assone as Conveniently may be </ab>
+            <ab> <persName annotationId="ent_3922" cert="reasonably certain" ref="https://commons.cwrc.ca/reed:63b3be89-1e59-42d5-ab1d-0f96cdf527e0" type="real">Mr Rob<ex>er</ex>te Riche</persName> is to lend the like som<ex>m</ex>e of <measure n="2400" type="currency">tenne pounds</measure> for that p<ex>ur</ex>pose to be paid as aforesaid and to be repaid as aforesaid./ </ab>
+         </div>
+         </div>
+
+         <div type="transcription" xml:lang="en">
+            <div>
+            <head><supplied>(4 May)</supplied></head>
+            <pb n="f 511" type="folio"/>
+            <gap reason="omitted"/>
+            <ab> Mr Randall is to lend towards the <name type="entertainment">maske</name> the som<ex>m</ex>e of <measure type="currency">xx</measure> <del>li.</del>
+               <add place="above">marks</add> and the same to be paid to Mr Spencer by this daie <date annotationId="ent_2222" when="11 May 1613" cert="definite">seavennigh</date>t<note type="foot">11 May 1613</note> And the same <measure type="currency">xx</measure> <del>li.</del>
+               <add place="above">marks</add> to be <del>paid</del> repaid to Mr Randall as soone as mony can Conveniently be gotten vpp./ </ab>
+            <gap reason="omitted"/>
+            </div>
+         </div>
+
+         <div type="transcription" xml:lang="en">
+            <div>
+            <head><supplied>(11 May)</supplied></head>
+            <pb n="f 512" type="folio"/>
+            <gap reason="omitted"/>
+            <ab> Mr Cheeke and Mr Palmer are seu<ex>er</ex>ally to lend the seu<ex>er</ex>all som<ex>m</ex>es of <measure n="2400" type="currency">x40 li.</measure> towards the charge of the late <name type="entertainment">Maske</name> and then to paie the same before the end of this terme to Mr Spencer or els w<ex>hi</ex>ch of them then shall fayle in payment to fforfaite <measure n="480" type="currency">xl s.</measure> to the vse of the howse and for default of payment of the said <measure n="2400" type="currency">x li.</measure> the chamber of him that shall make default to be sequestred to the vse of the howse./ </ab>
+            <gap reason="omitted"/>
+            </div>
+         </div>
+
+         <div type="transcription" xml:lang="en">
+            <div>
+            <head><supplied>(13 May)</supplied></head>
+            <pb n="f 513" type="folio"/>
+            <gap reason="omitted"/>
+            <ab> It appeareth by a petition now exhibited by Roger Garners that he is paid by the <name type="occupation">Cheife Butler</name> the som<ex>m</ex>e of <measure n="720" type="currency">iij li.</measure> p<ex>ar</ex>cell of the som<ex>m</ex>e of <measure n="1550" type="currency">vj li. ix s. ij d</measure>. w<ex>hi</ex>ch he had laid out to Mr Long for one of the Masking suites w<ex>hi</ex>ch som<ex>m</ex>e of <measure n="720" type="currency">iij li.</measure> <name type="currency">M<ex>ast</ex>er Trea<ex>sure</ex>r</name> shalbe allowed vppon his accounte./ </ab>
+            <gap reason="omitted"/>
+            </div>
+         </div>
+
+         <div type="transcription" xml:lang="en">
+            <div>
+            <head/>
+            <pb n="f 526-7v" type="folio"/>
+            <gap reason="omitted"/>
+            <ab> The Charge of Mr Ch<ex>rist</ex>ofer Brooke <name type="occupation">Expenditor for the Maske</name> </ab>
+            <table>
+               <row>
+                  <cell>Received<note type="foot">i corrected from v</note> at seuerall tymes from the 27th of Ianuary: 1612 vntill the 16th of Iune 1613: of Mr Spencer Threasurer for the reiciptes and disbursmentes towards the Maske at Courte</cell>
+                  <cell rend="right"><measure n="269280" type="currency">1122 li.</measure></cell>
+               </row>
+               <row>
+                  <cell><seg type="signed">Thomas Spencer</seg></cell>
+               </row>
+               <row>
+                  <cell>Received of the deputie <name type="occupation">Trea<ex>sure</ex>r</name> of the Temple</cell>
+                  <cell rend="right"><measure n="14400" type="currency">60 li.</measure></cell>
+               </row>
+               <row>
+                  <cell>Mr Brooke his accompt of the disbursments of the same./</cell>
+                  <cell rend="right"><measure type="currency">l 182</measure></cell>
+               </row>
+               <row>
+                  <cell>Inprimis, to Thomas Watson Taylor for stuff<ex>es</ex> &amp; <name type="object">Lace</name></cell>
+                  <cell rend="right"><measure n="12000" type="currency">50 li.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item to Thomas Pitt<ex>es</ex> Butler for overplus of the Maskers Diet and fier</cell>
+                  <cell rend="right"><measure n="2400" type="currency">10 li.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item to Mr Anton Mercer for diu<ex>er</ex>se p<ex>ar</ex>cells of <name type="object">Clothe of Silver</name></cell>
+                  <cell rend="right"><measure n="43836" type="currency">182 li. 13 s.</measure></cell>
+               </row>
+               <row>
+                  <cell>It<ex>e</ex>m to Mr Smith mercer dwelling in St Martins for <name type="object">144 yards of gold stuffe</name> at <measure n="84" type="currency">7 s</measure>. a yard, <measure n="96" type="currency">8 s</measure>. odd mony abated,<note type="foot">ie, 1008s was rounded to the nearest pound</note> <measure n="12000" type="currency">50 li.</measure> for 6 yards<note type="foot">for 60</note> of fflaunders <name subtype="clothing" type="object">Sattin</name> at <measure n="60" type="currency">5 s</measure>. a yard <measure n="3600" type="currency">15 li.</measure></cell>
+                  <cell rend="right"><measure n="15600" type="currency">65 li.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item to Mr Morrice <name type="occupation">Imbroderer</name> for Imbrodering worke</cell>
+                  <cell rend="right"><measure n="24000" type="currency">100 li.</measure></cell>
+               </row>
+               <row>
+                  <cell>ffor the som<ex>m</ex>es abouesaid disbursed Mr Spencer tooke acquittanc<ex>es</ex></cell>
+                  <cell rend="right"><measure type="currency"><measure n="97836" type="currency">407 li. 13 s</measure>.</measure>/</cell>
+               </row>
+               <row>
+                  <cell>Item more to Thomas Watson Taylor for makeing all the <name subtype="clothing" type="object">maskeing app<ex>ar</ex>ell</name> and for lyning<ex>es</ex> and other thinges by him disbursed and sett downe in his bill</cell>
+                  <cell rend="right"><measure type="currency"><measure n="9600" type="currency">40 li.</measure></measure></cell>
+               </row>
+               <row>
+                  <cell>Item more to Thomas Pitt<ex>es</ex> Butler for overplus of the Maskers dyett and fyer</cell>
+                  <cell rend="right"><measure type="currency"><measure n="3840" type="currency">16 l</measure>i</measure>.</cell>
+               </row>
+               <row>
+                  <cell>Item more to Mr Morrice <name type="occupation">Imbroderer</name> for Imbrodering worke in his Bill</cell>
+                  <cell rend="right"><measure type="currency"><measure n="28800" type="currency">120 li.</measure></measure></cell>
+               </row>
+               <row>
+                  <cell>Item to Mr Barlowe <name type="occupation">Imbroderer</name> for the like worke</cell>
+                  <cell rend="right"><del>55 li.</del> <measure type="currency"><measure n="13200" type="currency">55 li.</measure></measure>/</cell>
+               </row>
+               <row>
+                  <cell>Item to Mr Inigoe Iohnes towards the workes for the Hall and streete</cell>
+                  <cell rend="right"><measure n="24000" type="currency">100 li.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item to Mr Rob<ex>er</ex>te Iohnson for <name type="entertainment">musicke</name> and <name type="entertainment">son</name>g<ex>es</ex></cell>
+                  <cell rend="right"><measure n="10800" type="currency">45 li</measure>.</cell>
+               </row>
+               <row>
+                  <cell>Item to Mr Rob<ex>er</ex>te Iohnes <name type="occupation">Haberdasher</name> for <name subtype="clothing" type="object">ffeathers</name> and Triminge of <name subtype="clothing" type="object">suit</name><ex>es</ex> and <name subtype="clothing" type="object">head attires</name></cell>
+                  <cell rend="right"><measure n="45600" type="currency">190 li.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item to Iohn Banck<ex>es</ex> <name type="occupation">Coachmaker</name> for Caroches hier and Coachmakers worke</cell>
+                  <cell rend="right"><measure n="2400" type="currency">10 li.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item to the <name type="occupation">Trumpetters</name></cell>
+                  <cell rend="right"><measure n="2400" type="currency">10 li</measure>.</cell>
+               </row>
+               <row>
+                  <cell>Item to Charles Hilyarde<note type="foot">ie, Helliar, a porter</note> for a <name subtype="clothing" type="object">hatt band</name> and <name subtype="clothing" type="object">feather</name></cell>
+                  <cell rend="right"><measure n="120" type="currency">10 s.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item to the <name type="occupation">Actors musicions</name> &amp;c for <name subtype="clothing" type="object">gloues</name> <name type="object">Ribbin</name> and other thinges the maske nighte</cell>
+                  <cell rend="right"><measure n="720" type="currency">3 li.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item rewards to <name type="occupation">Coachmen</name> for ffower <name type="object">Coaches</name></cell>
+                  <cell rend="right"><measure n="144" type="currency">12 s</measure>.</cell>
+               </row>
+               <row>
+                  <cell>Item to a <name type="occupation">Porter</name> for going to S<ex>i</ex>r Norrice Bartlett<ex>es</ex> howse for <name type="object">horses</name> and <name type="object">saddles</name></cell>
+                  <cell rend="right"><measure n="6" type="currency">6 d</measure>.</cell>
+               </row>
+               <row>
+                  <cell>Item to Baughan<note type="foot">B corrected from Mr</note> one of the Marshall<ex>es</ex> for buying him <name subtype="clothing" type="object">hatt and feather</name></cell>
+                  <cell rend="right"><del>6 d.</del> <measure n="72" type="currency">6 s.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item to <del>a</del> 3 <name type="occupation">porters</name> for ffetching <name type="object">Horses</name></cell>
+                  <cell rend="right"><measure n="18" type="currency">1s. 6d.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item for horsemeate at the <del>At</del> Antilopp<note type="foot">The Antelope Inn on the south side of Holborn</note> for 4 horses one night and to the Osteler</cell>
+                  <cell rend="right"><measure n="68" type="currency">5s. 8d.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item for bringing a greate <name type="object">saddle</name></cell>
+                  <cell rend="right"><measure n="6" type="currency">6 d.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item to a <name type="occupation">porter</name> for going home w<ex>i</ex>th horses</cell>
+                  <cell rend="right"><measure n="12" type="currency">1 s.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item for one dozen of <name type="object">white Torches</name></cell>
+                  <cell rend="right"><measure n="144" type="currency">12 s.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item to Mr Maunder Taylor to hyer horses w<ex>i</ex>thall</cell>
+                  <cell rend="right"><measure n="72" type="currency">6 s</measure>.</cell>
+               </row>
+               <row>
+                  <cell>Item for twelue dozen of point<ex>es</ex></cell>
+                  <cell rend="right"><measure n="216" type="currency">18 s.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item to Mr Ingrams man for buying him<note type="foot">ie, Mr Ingram</note> a <name subtype="clothing" type="object">hatt band and feather</name></cell>
+                  <cell rend="right"><measure n="60" type="currency">5 s.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item for Heming<ex>es</ex> boy<note type="foot">William Heminges, 10-year-old son of John Heminges, actor-manager of the king’s men</note> for a payre <name subtype="clothing" type="object">stockinges</name><note type="foot">for payre of stockinges (?)</note> <measure type="currency">8 s</measure>. for a <name subtype="clothing" type="object">payre of white shoos</name> <measure type="currency">3 s. 8 d.</measure> a <name subtype="clothing" type="object">payre of gloues</name> <measure type="currency">16 d</measure>. <name subtype="clothing" type="object">Carnation Ribben</name> <measure type="currency">2 s. 6 d.</measure></cell>
+                  <cell rend="right"><measure n="180" type="currency">15 s.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item to the <name type="occupation">players of Tabers and pipe</name>s</cell>
+                  <cell n="132" rend="right">11 s.</cell>
+               </row>
+               <row>
+                  <cell>Item to 3 <name type="occupation">porters</name> for Carrying Torches and attending</cell>
+                  <cell rend="right"><measure n="76" type="currency">6s. 4d.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item to Thomas the <name type="occupation">Porter</name></cell>
+                  <cell rend="right"><measure n="16" type="currency">1 s. 4 d.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item to Baugham one of the <name type="occupation">Marshalls</name></cell>
+                  <cell rend="right"><measure n="120" type="currency">10 s</measure>.</cell>
+               </row>
+               <row>
+                  <cell>Item for <name type="object">Torches</name></cell>
+                  <cell rend="right"><measure n="3120" type="currency">13 li</measure>.</cell>
+               </row>
+               <row>
+                  <cell>Item to Robert the <name type="occupation">Porter</name> for his paynes</cell>
+                  <cell rend="right"><measure n="18" type="currency">1 s. 6 d.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item to ffrauncis Pearson for <name subtype="clothing" type="object">80 backe<note type="foot">for blacke (?)</note> Capps</name></cell>
+                  <cell rend="right"><measure n="1320" type="currency">5 li. 10 s.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item to Mr Tristram w<ex>hi</ex>ch he disbursed for hier of 13 horses and three mens attendance</cell>
+                  <cell rend="right"><measure n="348" type="currency">1 li. 9 s.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item more to Mr Tristram<note type="foot">John Tristram, barrister</note> w<ex>hi</ex>ch he disbursed for <name subtype="clothing" type="object">18 paire of gantlett gloves</name> at <measure n="36" type="currency">three shilling</measure><ex>es</ex> a payre <measure n="648" type="currency">2 li. <del><damage/></del> 14 s</measure>. To ffower <name type="occupation">Torche bearers</name> <measure n="48" type="currency">4 s.</measure></cell>
+                  <cell rend="right"><measure n="696" type="currency">2 li. 18 s</measure>.</cell>
+               </row>
+               <row>
+                  <cell>Item to Robert Barwicke for three Tyers</cell>
+                  <cell rend="right"><measure n="360" type="currency">1 li. 10 s.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item to 9<del><damage/></del>
+                     <add place="above">4</add><note type="foot">eading doubtful: possibly 90 corrected to 94</note> backe<note type="foot">for blacke (?)</note> boyes</cell>
+                  <cell rend="right"><measure n="960" type="currency">4 li. 10 s</measure>.</cell>
+               </row>
+               <row>
+                  <cell>Item to the <name type="occupation">groomes</name><note type="foot">g corrected from another letter</note> of the king<ex>es</ex> stables</cell>
+                  <cell rend="right"><measure n="720" type="currency">3 li.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item to Mr Hamerton for the <name type="occupation">music<ex>i</ex>ons</name> and <name type="occupation">Actors</name> dinner the Maskeing daie</cell>
+                  <cell rend="right"><del>3</del> <measure n="960" type="currency">4 li.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item to Mr Goodman w<ex>hi</ex>ch he disbursed for <name subtype="costume" type="object">14 payre of shoos for the Baboones</name> <measure n="420" type="currency">1 li. 15 s</measure>. for <name subtype="clothing" type="object">12 payre of gloues</name> <measure n="168" type="currency">14 s</measure>. to a <name type="occupation">Coachman</name> <measure n="24" type="currency">2 s.</measure></cell>
+                  <cell rend="right"><measure n="612" type="currency">2 li. <del>ij</del> 11 s.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item for <name type="object">pins</name></cell>
+                  <cell rend="right"><measure n="12" type="currency">1 s.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item to Mr Hackwells man w<ex>hi</ex>ch he disbursed for howse Roome for horses and <name subtype="food" type="object">bread and beare</name> <measure n="36" type="currency">3 s.</measure> for bringing 2 horses <measure n="12" type="currency">12 d</measure>. to a <name type="occupation">Coachman</name> <measure n="60" type="currency">5 s.</measure> for bringing 3 horses <measure n="24" type="currency">2 s.</measure> to a Coachman <measure n="30" type="currency">2 s. 6 d.</measure> for horse meate <measure n="17" type="currency">1 s. 9 d.</measure> for <name type="object">pins</name> <measure n="12" type="currency">12 d.</measure></cell>
+                  <cell rend="right"><measure n="195" type="currency">16 s. 3 d.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item to the <name type="occupation">vizard maker</name></cell>
+                  <cell rend="right"><measure n="5520" type="currency">23 li</measure>.</cell>
+               </row>
+               <row>
+                  <cell>Item to the <name type="occupation">Saddler</name> for <name type="object">yellowe footeclothes and bridles</name></cell>
+                  <cell rend="right"><measure n="1920" type="currency">8 li.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item to Richard Ansell the king<ex>es</ex> matlayer</cell>
+                  <cell rend="right"><measure n="480" type="currency">2 li.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item to Thomas Brewer Cordiner for 27 payre of buskins makinge</cell>
+                  <cell rend="right"><measure n="2520" type="currency">10 li. 10 s.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item to Hudson the <name type="occupation">Oversee<del>r</del>re of Carpenters</name> for his paynes for beating downe <name type="occupation">Master Attorney</name> walls <measure n="60" type="currency">5 s</measure>. and to his men for the like and other worke <measure n="40" type="currency">3 s. 4 d.</measure><note type="editorial">This payment has strayed from the building accounts on ff 522–3v for new lodgings for the attorney general, Sir Henry Hobart.</note></cell>
+                  <cell rend="right"><measure n="100" type="currency">8 s. 4 d</measure>.</cell>
+               </row>
+               <row>
+                  <cell>Item to the king<ex>es</ex> <name type="occupation">vshers of the Hall</name></cell>
+                  <cell rend="right"><measure n="240" type="currency">l li.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item to Thomas Cutting Iohn Dowland and Phillip Rosseter for playing of <name subtype="musical instrument" type="object">Lutes</name> every one of them <measure n="600" type="currency">2 li. 10 s.</measure></cell>
+                  <cell rend="right"><measure n="1800" type="currency">7 li. 10 s.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item to Mr Thomas fforde for playing of <name subtype="musical instrument" type="object">Lute</name> <measure n="600" type="currency">2 li. 10 s</measure>. and more for setting song<ex>es</ex> vsed at the <name type="event">maske</name> <measure n="1200" type="currency">5 li.</measure>, and for Mathias Iohnson for <name type="entertainment">singing</name> <measure n="480" type="currency">2 li</measure>.</cell>
+                  <cell rend="right"><measure n="2280" type="currency">9 li. 10 s.</measure>/</cell>
+               </row>
+               
+               <row>
+                  <cell>Item to Iohn Sturte Robert Taylor Rob<ex>e</ex>rte Dowland Thomas Davies for playing of <name subtype="musical instrument" type="object">Lutes</name> every one of them <measure n="480" type="currency">2 li.</measure></cell>
+                  <cell rend="right"><measure n="1920" type="currency">8 li.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item to Mr Ionas<note type="foot">Jonas Wrench, musician to Prince Henry</note> and Mr Mynars two of the <name type="occupation">music<ex>io</ex>ns</name> for the <name type="event">maske</name></cell>
+                  <cell rend="right"><measure n="1604" type="currency">6 li. 13 s. 8 d.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item to Thomas Daye for (blank)</cell>
+                  <cell rend="right"><measure n="800" type="currency">3 li. 6 s. 8 d.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item to 7 singing men v<ex>izt.</ex> Iohn Drue Will<ex>ia</ex>m Godball Iohn ffrost Davies one of the Queresters Marke Thwaites Walter Porter and Richard Ball every one of them, <measure n="480" type="currency">2 li.</measure> saving Davies whoe had bout<note type="foot">for but</note> <measure n="396" type="currency">1 li. 13 s.</measure></cell>
+                  <cell rend="right"><measure n="3276" type="currency">13 li. 13 s.</measure></cell>
+               </row>
+               <row>
+                  <cell>Item to Mrs Iohnes<note type="foot">Joan, Judith, or Mary Jones, sisters of Inigo Jones</note> for her brother Mr <persName annotationId="ent_3069" ref="https://commons.cwrc.ca/reed:b57c2478-ec4e-405e-84a4-5a409013a7e5" cert="definite" type="real">Inego Iohnes</persName></cell>
+                  <cell rend="right"><measure n="2400" type="currency">10 li.</measure></cell>
+               </row>
+               <row>
+                  <cell>Sum<ex>m</ex>a totalis of the money disbursed is</cell>
+                  <cell rend="right"><measure n="275147" type="currency">1146 li. 8 s. 11 d.</measure></cell>
+               </row>
+               <row>
+                  <cell n="14400">Whereof abated 60 li. and the money disbursed by Lincolnes Inne onely amount<ex>es</ex> to</cell>
+                  <cell rend="right"><measure n="260747" type="currency">1086 li. 8 s. 11 d.</measure></cell>
+               </row>
+               <row>
+                  <cell>Ramanet vndisbursed</cell>
+                  <cell rend="right"><measure n="8533" type="currency">35 li. 11 s. 1 d.</measure></cell>
+               </row>
+            </table>
+            <ab>Examinat<ex>ur</ex> et allocatur p<ex>er</ex></ab>
+            <list rend="align-center">
+               <item>Thom<ex>as</ex> Bedingfeild</item>
+               <item>W<ex>illia</ex>m Rauenscroft</item>
+               <item>Will<ex>iam</ex> Iones</item>
+            </list><note type="editorial">Of the musicians listed on p 158, ll.19–32, most appear in court records for 1612–13 as members of either Prince Henry’s servants or the gentlemen of the Chapel: see Andrew Ashbee (ed), Records of English Court Music, vol 4 (Snodland, Kent, 1991). The exceptions are Robert Dowland, Thomas Davies, William Godball, and Mark Thwaites, who may have been borrowed from other bands and choirs.</note>
+            <ab>We haue sene an acquittance for <measure n="12000" type="currency">ffiftie pound</measure>s paid to Inigoe Iones: and we are satisfied that the other <measure n="12000" type="currency">50 li.</measure> was paid thoughe there was noe acquittance shewed</ab>
+            <ab>Some of the petty paymentes wee haue allowed thoughe there were noe acquittances taken and we haue seene acquittances for the rest./</ab>
+            <list>
+               <item><persName annotationId="ent_3923" cert="reasonably certain" ref="https://commons.cwrc.ca/reed:683e79f9-50ad-4465-819c-b49bfbb064be" type="real">Tho<ex>mas</ex> Bedingfeild</persName></item>
+               <item>W<ex>illia</ex>m Ravencroft</item>
+               <item>Will<ex>iam</ex> Iones/</item></list></div>
+         </div>
+
+         <ab> </ab><div type="transcription" xml:lang="en">
+            <div>
+            <head><supplied>(26 November - 26 November) (Treasurer's receipts)</supplied></head>
+            <pb n="f 585v" type="folio"/>
+            <ab>Et de ix li. ij s. viij d. recept<ex>is</ex> de eodem Ioh<ex>ann</ex>e p<ex>ro</ex> Surplusag<ex>ia</ex> Rotul<ex>orum</ex> Musicor<ex>um</ex> et Carbono<ex>rum</ex>...</ab>
+            <gap reason="omitted"/>
+         </div>
+         </div>
+
+         <div type="translation">
+            <div>
+            <ab>And (the accountant renders account) of <measure n="2192" type="currency">£9 2s 8d</measure> received from the same John for the balance due from the musicians’ rolls and for coals...</ab>
+            <gap reason="omitted"/>
+            </div>
+         </div>
+      </body>
+   </text>
+
+</TEI>

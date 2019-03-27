@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/mods.xsd">
+  <titleInfo>
+    <title>Gray's Inn Admittance Book</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre type="formatType">Born Digital</genre>
+  <language>
+    <languageTerm type="text">la</languageTerm>
+    <languageTerm type="text">en</languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="marccategory">electronic resource</form>
+    <digitalOrigin>born digital</digitalOrigin>
+    <internetMediaType>text/xml</internetMediaType>
+  </physicalDescription>
+  <recordInfo>
+    <recordOrigin>This MODS record was created using the Islandora XML Forms collection of Drupal modules.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm type="text">English</languageTerm>
+    </languageOfCataloging>
+    <recordContentSource>Canadian Writing Research Collaboratory</recordContentSource>
+  </recordInfo>
+  <name type="corporate">
+    <namePart>Gray's Inn</namePart>
+    <namePart type="date">1594-5</namePart>
+  </name>
+  <genre type="format">Born digital</genre>
+  <genre type="primaryGenre">Record (Documents)</genre>
+  <genre type="subgenre">Archival material</genre>
+  <originInfo>
+    <publisher>Gray's Inn</publisher>
+    <dateIssued encoding="w3cdtf">1594-1595</dateIssued>
+  </originInfo>
+  <abstract>Uniquely among Inns of Court admissions registers, the Gray’s  Inn Admittance Book contains admissions entries signed by its Christmas prince, the ‘Prince of Purpoole’.</abstract>
+  <subject>
+    <topic>Theater--England--London--History--16th century</topic>
+  </subject>
+  <subject>
+    <geographic>London</geographic>
+  </subject>
+  <subject>
+    <temporal point="start">1594</temporal>
+  </subject>
+  <subject>
+    <temporal point="end">1595</temporal>
+  </subject>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>REED London</title>
+    </titleInfo>
+  </relatedItem>
+  <accessCondition type="use and reproduction">Use of this public-domain resource is governed by the &lt;a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"&gt;Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</accessCondition>
+</mods>
