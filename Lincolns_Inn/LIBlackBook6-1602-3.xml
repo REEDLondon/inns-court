@@ -234,7 +234,7 @@
       <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
          <mods:mods>
             <mods:titleInfo>
-               <mods:title>Lincoln's Inn Black Book 6, 1611-12</mods:title>
+               <mods:title>Lincoln's Inn Black Book 6, 1602-03</mods:title>
             </mods:titleInfo>
             <mods:name
                type="corporate">
@@ -290,45 +290,46 @@
       </revisionDesc>
    </teiHeader>
    
-   <text ana="taxon:letter" type="record" xml:id="RLLIBB06" corresp="taxon:RLPIC1 pp. 147">
-      <body >
+   <text ana="taxon:lincolns_inn taxon:RLLIBB06" type="record">
+      <body>
          <head>Lincoln's Inn Black Book 6
-            <date from-iso="1611-09-29" to-iso="1612-09-29">1611-12</date></head>
-         
-         <div>
-            <div type="transcription" xml:lang="eng">
-               <head>f 483v<date when-iso="1611-11-26"/> <supplied>(26 November) (Christmas officers)</supplied></head>
-               <pb n="f 483v" type="folio"/>
-               <gap reason="omitted"/>
-               <table>
-                  <row>
-                     <cell rend="left_brace">M<ex>aste</ex>r of the Revells</cell>
-                     <cell>Mr William Buckworth</cell>
-                  </row>
-                  <row>
-                     <cell>M<ex>r</ex> Vghtred Shutleworth</cell>
-                  </row>
-               </table>
-               <gap reason="omitted"/>
-            </div>
-            
-            <div>
-               <head>f 518v<date from-iso="1611-11-19" to-iso="1612-11-20"/><supplied>(19 November 1611-20 November 1612) (Treasurer's receipts)</supplied></head>
-               <pb n="f 518v" type="folio"/>
-               <gap reason="omitted"/>
-               <note type="marginal" rend="left">Surplusagia Rotulorum</note>
-               <ab>Et de xj li. viij d. recept<ex>is</ex> de eodem Iohanne <note type="foot">eodem Iohanne: <hi rend="italic">John Clarke, steward</hi></note> p<ex>ro</ex> surplusag<ex>ia</ex> rot<ex>u</ex>lo<ex>rum</ex> musicor<ex>um</ex>/ et Carbonor<ex>um/</ex> </ab>
-               <gap reason="omitted"/>
-            </div>
+            <date from-iso="1602-09-29" to-iso="1603-09-29">1602-3</date></head>
         
-            <div type="translation" xml:lang="eng">
-               <head>f 518v<date from-iso="1611-11-19" to-iso="1612-11-20"/><supplied>(19 November 1611-20 November 1612) (Treasurer's receipts)</supplied></head>
-               <pb n="f 518v" type="folio"/>
+         <div>
+            <div type="transcription" xml:lang="en">
+               <head><date when-iso="1602-11-20"/> <supplied>(20 November) (Christmas officers)</supplied></head>
+               <pb n="106v" type="folio"/>
                <gap reason="omitted"/>
-               <note type="marginal" rend="left">Balance due from the rolls</note>
-               <ab>And (the accountant renders account) of £11 8d received from the same John Clerke for the balance due from the musicians' rolls and for coals ...</ab>
+               <ab>It<ex>e</ex>m that Mr Lewes &amp;Mr Moore the eleventh shalbe M<ex>aste</ex>rs of the revells</ab>
                <gap reason="omitted"/>
-            </div>
+         </div>
+            
+         <div>
+            <div type="transcription" xml:lang="en">
+            <head><date when-iso="1602-11-22"/><supplied>(22 November) (Council Orders)*</supplied></head>
+            <pb n="105B" type="folio"/>
+            <gap reason="omitted"/>
+            <ab>Wheras at this Counsell it was informed by Mr Hughes<note type="foot">Mr Hughes: <hi rend="italic">Hugh Hughes, treasurer</hi></note> and Mr Ley<note type="foot">Mr Ley: <hi rend="italic">James Ley, bencher, later attorney general and lord treasurer, 1st earl of Marlborough</hi></note> / two Masterso f the benche/ ... that the musicions claine to have after their supper &amp; the revells two loaffes of bredd a pece to carye home with them/ which Claymes, Challences &amp;demaundes are vtterly misliked/ therefore it is ordered that from henceforth/ not any suche allowances or Claymes be permitted/ but altogether abbolished/</ab>
+            <gap reason="omitted"/></div>
+         </div>
+            
+         <div>
+            <div type="transcription" xml:lang="la">
+            <head><date from-iso="1602-11-25" to-iso="1603-02-11"/> <supplied>(25 November 1602-11 February 1603/4) (Treasurer’s receipts)*</supplied></head>
+            <pb n="316" type="folio"/> 
+            <gap reason="omitted"/> 
+            <note type="marginal" rend="right">Surplusagia Rotulorum</note>
+            <ab>Et de x li. viij d. recept<ex>is</ex> de Ioh<ex>anne</ex> Hellyar Senescall<ex>o</ex> hospicij p<ex>re</ex>d<ex>i</ex>ct<ex>i</ex> p<ex>ro</ex> Surplusag<ex>ia</ex> rotuloru<ex>m</ex> Musicor<ex>um</ex> et Carbonar<ex>um</ex> </ab>
+            <gap reason="omitted"/>
+         </div> 
+          
+         <div type="translation" xml:lang="en">     
+            <ab>
+            <table>
+               <row><cell>And (the accountant renders account) of £10 8d received from John Helliar, steward of the aforesaid Inn, for the balance due from the musicians' rolls and for coals...</cell><cell><note type="marginal" rend="right">Balance due from the rolls</note></cell></row></table>
+            </ab>
+         </div>
+         </div>
          </div>
       </body>
    </text>
