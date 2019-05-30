@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/mods.xsd">
+  <titleInfo>
+    <title>Middle Temple Summary of Payments</title>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>Middle Temple</namePart>
+    <namePart type="date">on or after 1613-11-05</namePart>
+  </name>
+  <typeOfResource>text</typeOfResource>
+  <genre type="formatType">Born Digital</genre>
+  <genre type="format">born digital</genre>
+  <genre type="primaryGenre">Scholarly writing</genre>
+  <genre type="subgenre">Reference work</genre>
+  <genre>Performance</genre>
+  <originInfo>
+    <dateIssued encoding="w3cdtf">1613-11-05</dateIssued>
+  </originInfo>
+  <language>
+    <languageTerm type="text">English</languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="marccategory">electronic resource</form>
+    <internetMediaType>text/xml</internetMediaType>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <abstract>Middle Temple summary of expenses for performance of The Memorable Masque in 1613.</abstract>
+  <subject>
+    <topic valueURI="http://id.loc.gov/authorities/subjects/sh2002012473">Theater--England--London--History--17th century</topic>
+    <geographic valueURI="http://www.geonames.org/2643743/">London</geographic>
+    <temporal point="start">1601</temporal>
+    <temporal point="end">1700</temporal>
+  </subject>
+  <accessCondition type="use and reproduction">Use of this public-domain resource is governed by the &lt;a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="blank"&gt;Creative Commons Attribution-NonCommercial 4.0 International License&lt;/a&gt;.</accessCondition>
+  <recordInfo>
+    <recordOrigin>This MODS record was created using the Islandora XML Forms collection of Drupal modules.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm type="text">English</languageTerm>
+    </languageOfCataloging>
+    <recordContentSource>Canadian Writing Research Collaboratory</recordContentSource>
+  </recordInfo>
+</mods>

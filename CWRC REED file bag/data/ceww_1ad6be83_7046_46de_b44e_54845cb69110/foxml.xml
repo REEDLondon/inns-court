@@ -1,0 +1,1913 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<foxml:digitalObject VERSION="1.1" PID="ceww:1ad6be83-7046-46de-b44e-54845cb69110"
+xmlns:foxml="info:fedora/fedora-system:def/foxml#"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+<foxml:objectProperties>
+<foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Active"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE="Account Book of John Bankes"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE="adminUP"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2018-08-28T18:35:24.607Z"/>
+<foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2019-01-07T16:08:36.687Z"/>
+</foxml:objectProperties>
+<foxml:datastream ID="AUDIT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="AUDIT.0" LABEL="Audit Trail for this object" CREATED="2018-08-28T18:35:24.607Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:format/xml.fedora.audit">
+<foxml:xmlContent>
+<audit:auditTrail xmlns:audit="info:fedora/fedora-system:def/audit#">
+<audit:record ID="AUDREC1">
+<audit:process type="Fedora API-M"/>
+<audit:action>addDatastream</audit:action>
+<audit:componentID>WORKFLOW</audit:componentID>
+<audit:responsibility>adminUP</audit:responsibility>
+<audit:date>2018-08-28T18:35:25.525Z</audit:date>
+<audit:justification>Copied datastream from ceww:1ad6be83-7046-46de-b44e-54845cb69110.</audit:justification>
+</audit:record>
+<audit:record ID="AUDREC2">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-09-08T12:59:54.672Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC3">
+<audit:process type="Fedora API-M"/>
+<audit:action>addDatastream</audit:action>
+<audit:componentID>POLICY</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-09-08T12:59:54.854Z</audit:date>
+<audit:justification>Copied datastream from ceww:1ad6be83-7046-46de-b44e-54845cb69110.</audit:justification>
+</audit:record>
+<audit:record ID="AUDREC4">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-09-09T23:34:17.684Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC5">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-09-09T23:34:17.908Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC6">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-09-14T12:43:35.493Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC7">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByReference</audit:action>
+<audit:componentID>POLICY</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-09-14T12:43:35.843Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC8">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-10-08T15:04:18.395Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC9">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByReference</audit:action>
+<audit:componentID>POLICY</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-10-08T15:04:18.505Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC10">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-29T20:35:17.426Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC11">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByReference</audit:action>
+<audit:componentID>POLICY</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-29T20:35:18.753Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC12">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-29T20:35:19.655Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC13">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyObject</audit:action>
+<audit:componentID></audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-29T20:36:58.050Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC14">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByReference</audit:action>
+<audit:componentID>MODS</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-29T20:36:58.450Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC15">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-29T20:36:58.732Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC16">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-29T20:36:59.454Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC17">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByReference</audit:action>
+<audit:componentID>POLICY</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-29T20:37:01.403Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC18">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-29T20:37:01.714Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC19">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByReference</audit:action>
+<audit:componentID>MODS</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-29T20:37:02.289Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC20">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByReference</audit:action>
+<audit:componentID>DC</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-29T20:37:04.173Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC21">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByReference</audit:action>
+<audit:componentID>WORKFLOW</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-29T20:38:05.661Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC22">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-29T20:39:00.166Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC23">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByReference</audit:action>
+<audit:componentID>POLICY</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-29T20:39:00.343Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC24">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-29T20:39:00.660Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC25">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-29T20:51:58.883Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC26">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByReference</audit:action>
+<audit:componentID>CWRC</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-29T20:51:59.131Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC27">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-29T20:52:00.178Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC28">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByReference</audit:action>
+<audit:componentID>CWRC</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-29T20:52:00.362Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC29">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-29T20:56:20.428Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC30">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByReference</audit:action>
+<audit:componentID>CWRC</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-29T20:56:21.030Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC31">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-29T21:02:53.416Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC32">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByReference</audit:action>
+<audit:componentID>CWRC</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-29T21:02:53.552Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC33">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-29T21:02:54.827Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC34">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-29T21:02:55.012Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC35">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByReference</audit:action>
+<audit:componentID>POLICY</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-29T21:02:55.104Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC36">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-29T21:02:55.570Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC37">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByReference</audit:action>
+<audit:componentID>WORKFLOW</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-29T21:05:28.105Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC38">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByReference</audit:action>
+<audit:componentID>WORKFLOW</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-29T21:17:33.663Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC39">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByReference</audit:action>
+<audit:componentID>WORKFLOW</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-29T21:17:52.804Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC40">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByReference</audit:action>
+<audit:componentID>WORKFLOW</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-29T21:18:11.824Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC41">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByReference</audit:action>
+<audit:componentID>WORKFLOW</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-29T21:18:35.203Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC42">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-30T20:28:46.415Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC43">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByReference</audit:action>
+<audit:componentID>POLICY</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-30T20:28:46.578Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC44">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-30T20:28:46.755Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC45">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-30T20:30:30.810Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC46">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByReference</audit:action>
+<audit:componentID>POLICY</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-12-30T20:30:30.929Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC47">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>adminUP</audit:responsibility>
+<audit:date>2018-12-31T20:53:33.165Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC48">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>adminUP</audit:responsibility>
+<audit:date>2018-12-31T20:53:34.190Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC49">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByReference</audit:action>
+<audit:componentID>POLICY</audit:componentID>
+<audit:responsibility>adminUP</audit:responsibility>
+<audit:date>2018-12-31T20:53:34.615Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC50">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>adminUP</audit:responsibility>
+<audit:date>2018-12-31T20:53:35.137Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC51">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2019-01-07T16:07:53.809Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC52">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByReference</audit:action>
+<audit:componentID>POLICY</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2019-01-07T16:07:54.594Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC53">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2019-01-07T16:07:54.992Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC54">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyObject</audit:action>
+<audit:componentID></audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2019-01-07T16:08:11.761Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC55">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByReference</audit:action>
+<audit:componentID>MODS</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2019-01-07T16:08:12.189Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC56">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2019-01-07T16:08:12.386Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC57">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2019-01-07T16:08:12.988Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC58">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByReference</audit:action>
+<audit:componentID>POLICY</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2019-01-07T16:08:14.100Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC59">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2019-01-07T16:08:15.291Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC60">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByReference</audit:action>
+<audit:componentID>DC</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2019-01-07T16:08:19.494Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC61">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByReference</audit:action>
+<audit:componentID>WORKFLOW</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2019-01-07T16:08:36.687Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+</audit:auditTrail>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="RELS-EXT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+<foxml:datastreamVersion ID="RELS-EXT.0" LABEL="Fedora Object to Object Relationship Metadata." CREATED="2018-08-28T18:35:24.607Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="717">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:islandora="http://islandora.ca/ontology/relsext#" xmlns:cwrc="http://cwrc.ca/ns/cw#">
+  <rdf:Description rdf:about="info:fedora/ceww:1ad6be83-7046-46de-b44e-54845cb69110">
+    <fedora-model:hasModel rdf:resource="info:fedora/cwrc:documentCModel"></fedora-model:hasModel>
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/reed:GraysInnRecords"></fedora:isMemberOfCollection>
+    <cwrc:hasSchema rdf:resource="info:fedora/cwrc:5d5159ce-8710-4717-b977-cc528dedc25e"></cwrc:hasSchema>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.1" LABEL="Fedora Object to Object Relationship Metadata." CREATED="2018-09-08T12:59:54.672Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="3056">
+<foxml:xmlContent>
+<rdf:RDF xmlns:cwrc="http://cwrc.ca/ns/cw#" xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:islandora="http://islandora.ca/ontology/relsext#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/ceww:1ad6be83-7046-46de-b44e-54845cb69110">
+    <fedora-model:hasModel rdf:resource="info:fedora/cwrc:documentCModel"></fedora-model:hasModel>
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/reed:GraysInnRecords"></fedora:isMemberOfCollection>
+    <cwrc:hasSchema rdf:resource="info:fedora/cwrc:5d5159ce-8710-4717-b977-cc528dedc25e"></cwrc:hasSchema>
+    <islandora:isViewableByUser>adminUP</islandora:isViewableByUser>
+    <islandora:isViewableByUser>aribaughman</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CarolynBlack</islandora:isViewableByUser>
+    <islandora:isViewableByUser>cmatusiak</islandora:isViewableByUser>
+    <islandora:isViewableByUser>dot.porter</islandora:isViewableByUser>
+    <islandora:isViewableByUser>ilovan</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jakacki</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jamescummings</islandora:isViewableByUser>
+    <islandora:isViewableByUser>John Bradley</islandora:isViewableByUser>
+    <islandora:isViewableByUser>kchung</islandora:isViewableByUser>
+    <islandora:isViewableByUser>KimMartin</islandora:isViewableByUser>
+    <islandora:isViewableByUser>mpdavies</islandora:isViewableByUser>
+    <islandora:isViewableByUser>pgregory</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sally-beth</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sbrown</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Suzanne Westfall</islandora:isViewableByUser>
+    <islandora:isViewableByUser>fedoraAdmin</islandora:isViewableByUser>
+    <islandora:isViewableByRole>administrator</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:2:member</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:4:project contributor</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:5:project editor</islandora:isViewableByRole>
+    <islandora:isManageableByUser>adminUP</islandora:isManageableByUser>
+    <islandora:isManageableByUser>aribaughman</islandora:isManageableByUser>
+    <islandora:isManageableByUser>ilovan</islandora:isManageableByUser>
+    <islandora:isManageableByUser>jakacki</islandora:isManageableByUser>
+    <islandora:isManageableByUser>John Bradley</islandora:isManageableByUser>
+    <islandora:isManageableByUser>KimMartin</islandora:isManageableByUser>
+    <islandora:isManageableByUser>fedoraAdmin</islandora:isManageableByUser>
+    <islandora:isManageableByRole>administrator</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:4:project contributor</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:5:project editor</islandora:isManageableByRole>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.2" LABEL="Fedora Object to Object Relationship Metadata." CREATED="2018-09-09T23:34:17.684Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="3189">
+<foxml:xmlContent>
+<rdf:RDF xmlns:cwrc="http://cwrc.ca/ns/cw#" xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:islandora="http://islandora.ca/ontology/relsext#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/ceww:1ad6be83-7046-46de-b44e-54845cb69110">
+    <fedora-model:hasModel rdf:resource="info:fedora/cwrc:documentCModel"></fedora-model:hasModel>
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/reed:GraysInnRecords"></fedora:isMemberOfCollection>
+    <cwrc:hasSchema rdf:resource="info:fedora/cwrc:5d5159ce-8710-4717-b977-cc528dedc25e"></cwrc:hasSchema>
+    <islandora:isViewableByUser>adminUP</islandora:isViewableByUser>
+    <islandora:isViewableByUser>aribaughman</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CarolynBlack</islandora:isViewableByUser>
+    <islandora:isViewableByUser>cmatusiak</islandora:isViewableByUser>
+    <islandora:isViewableByUser>dot.porter</islandora:isViewableByUser>
+    <islandora:isViewableByUser>ilovan</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jakacki</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jamescummings</islandora:isViewableByUser>
+    <islandora:isViewableByUser>John Bradley</islandora:isViewableByUser>
+    <islandora:isViewableByUser>kchung</islandora:isViewableByUser>
+    <islandora:isViewableByUser>KimMartin</islandora:isViewableByUser>
+    <islandora:isViewableByUser>mpdavies</islandora:isViewableByUser>
+    <islandora:isViewableByUser>pgregory</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sally-beth</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sbrown</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Suzanne Westfall</islandora:isViewableByUser>
+    <islandora:isViewableByUser>fedoraAdmin</islandora:isViewableByUser>
+    <islandora:isViewableByRole>administrator</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:2:member</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:4:project contributor</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:5:project editor</islandora:isViewableByRole>
+    <islandora:isManageableByUser>adminUP</islandora:isManageableByUser>
+    <islandora:isManageableByUser>aribaughman</islandora:isManageableByUser>
+    <islandora:isManageableByUser>ilovan</islandora:isManageableByUser>
+    <islandora:isManageableByUser>jakacki</islandora:isManageableByUser>
+    <islandora:isManageableByUser>John Bradley</islandora:isManageableByUser>
+    <islandora:isManageableByUser>KimMartin</islandora:isManageableByUser>
+    <islandora:isManageableByUser>fedoraAdmin</islandora:isManageableByUser>
+    <islandora:isManageableByRole>administrator</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:4:project contributor</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:5:project editor</islandora:isManageableByRole>
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/reed:da9840b3-1c42-47eb-b338-775bb96e1545"></fedora:isMemberOfCollection>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.3" LABEL="Fedora Object to Object Relationship Metadata." CREATED="2018-09-09T23:34:17.908Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="3077">
+<foxml:xmlContent>
+<rdf:RDF xmlns:cwrc="http://cwrc.ca/ns/cw#" xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:islandora="http://islandora.ca/ontology/relsext#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/ceww:1ad6be83-7046-46de-b44e-54845cb69110">
+    <fedora-model:hasModel rdf:resource="info:fedora/cwrc:documentCModel"></fedora-model:hasModel>
+    <cwrc:hasSchema rdf:resource="info:fedora/cwrc:5d5159ce-8710-4717-b977-cc528dedc25e"></cwrc:hasSchema>
+    <islandora:isViewableByUser>adminUP</islandora:isViewableByUser>
+    <islandora:isViewableByUser>aribaughman</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CarolynBlack</islandora:isViewableByUser>
+    <islandora:isViewableByUser>cmatusiak</islandora:isViewableByUser>
+    <islandora:isViewableByUser>dot.porter</islandora:isViewableByUser>
+    <islandora:isViewableByUser>ilovan</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jakacki</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jamescummings</islandora:isViewableByUser>
+    <islandora:isViewableByUser>John Bradley</islandora:isViewableByUser>
+    <islandora:isViewableByUser>kchung</islandora:isViewableByUser>
+    <islandora:isViewableByUser>KimMartin</islandora:isViewableByUser>
+    <islandora:isViewableByUser>mpdavies</islandora:isViewableByUser>
+    <islandora:isViewableByUser>pgregory</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sally-beth</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sbrown</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Suzanne Westfall</islandora:isViewableByUser>
+    <islandora:isViewableByUser>fedoraAdmin</islandora:isViewableByUser>
+    <islandora:isViewableByRole>administrator</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:2:member</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:4:project contributor</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:5:project editor</islandora:isViewableByRole>
+    <islandora:isManageableByUser>adminUP</islandora:isManageableByUser>
+    <islandora:isManageableByUser>aribaughman</islandora:isManageableByUser>
+    <islandora:isManageableByUser>ilovan</islandora:isManageableByUser>
+    <islandora:isManageableByUser>jakacki</islandora:isManageableByUser>
+    <islandora:isManageableByUser>John Bradley</islandora:isManageableByUser>
+    <islandora:isManageableByUser>KimMartin</islandora:isManageableByUser>
+    <islandora:isManageableByUser>fedoraAdmin</islandora:isManageableByUser>
+    <islandora:isManageableByRole>administrator</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:4:project contributor</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:5:project editor</islandora:isManageableByRole>
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/reed:da9840b3-1c42-47eb-b338-775bb96e1545"></fedora:isMemberOfCollection>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.4" LABEL="Fedora Object to Object Relationship Metadata." CREATED="2018-09-14T12:43:35.493Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="3219">
+<foxml:xmlContent>
+<rdf:RDF xmlns:cwrc="http://cwrc.ca/ns/cw#" xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:islandora="http://islandora.ca/ontology/relsext#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/ceww:1ad6be83-7046-46de-b44e-54845cb69110">
+    <fedora-model:hasModel rdf:resource="info:fedora/cwrc:documentCModel"></fedora-model:hasModel>
+    <cwrc:hasSchema rdf:resource="info:fedora/cwrc:5d5159ce-8710-4717-b977-cc528dedc25e"></cwrc:hasSchema>
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/reed:da9840b3-1c42-47eb-b338-775bb96e1545"></fedora:isMemberOfCollection>
+    <islandora:isViewableByUser>adminUP</islandora:isViewableByUser>
+    <islandora:isViewableByUser>aribaughman</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CarolynBlack</islandora:isViewableByUser>
+    <islandora:isViewableByUser>cmatusiak</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CSimon</islandora:isViewableByUser>
+    <islandora:isViewableByUser>dot.porter</islandora:isViewableByUser>
+    <islandora:isViewableByUser>ilovan</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jakacki</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jamescummings</islandora:isViewableByUser>
+    <islandora:isViewableByUser>John Bradley</islandora:isViewableByUser>
+    <islandora:isViewableByUser>kchung</islandora:isViewableByUser>
+    <islandora:isViewableByUser>KimMartin</islandora:isViewableByUser>
+    <islandora:isViewableByUser>mpdavies</islandora:isViewableByUser>
+    <islandora:isViewableByUser>pgregory</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Rachel Milio</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sally-beth</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sbrown</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Suzanne Westfall</islandora:isViewableByUser>
+    <islandora:isViewableByUser>fedoraAdmin</islandora:isViewableByUser>
+    <islandora:isViewableByRole>administrator</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:2:member</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:4:project contributor</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:5:project editor</islandora:isViewableByRole>
+    <islandora:isManageableByUser>adminUP</islandora:isManageableByUser>
+    <islandora:isManageableByUser>aribaughman</islandora:isManageableByUser>
+    <islandora:isManageableByUser>ilovan</islandora:isManageableByUser>
+    <islandora:isManageableByUser>jakacki</islandora:isManageableByUser>
+    <islandora:isManageableByUser>John Bradley</islandora:isManageableByUser>
+    <islandora:isManageableByUser>KimMartin</islandora:isManageableByUser>
+    <islandora:isManageableByUser>fedoraAdmin</islandora:isManageableByUser>
+    <islandora:isManageableByRole>administrator</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:4:project contributor</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:5:project editor</islandora:isManageableByRole>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.5" LABEL="Fedora Object to Object Relationship Metadata." CREATED="2018-10-08T15:04:18.395Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="3501">
+<foxml:xmlContent>
+<rdf:RDF xmlns:cwrc="http://cwrc.ca/ns/cw#" xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:islandora="http://islandora.ca/ontology/relsext#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/ceww:1ad6be83-7046-46de-b44e-54845cb69110">
+    <fedora-model:hasModel rdf:resource="info:fedora/cwrc:documentCModel"></fedora-model:hasModel>
+    <cwrc:hasSchema rdf:resource="info:fedora/cwrc:5d5159ce-8710-4717-b977-cc528dedc25e"></cwrc:hasSchema>
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/reed:da9840b3-1c42-47eb-b338-775bb96e1545"></fedora:isMemberOfCollection>
+    <islandora:isViewableByUser>adminUP</islandora:isViewableByUser>
+    <islandora:isViewableByUser>aribaughman</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CarolynBlack</islandora:isViewableByUser>
+    <islandora:isViewableByUser>cmatusiak</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CSimon</islandora:isViewableByUser>
+    <islandora:isViewableByUser>dot.porter</islandora:isViewableByUser>
+    <islandora:isViewableByUser>ilovan</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jakacki</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jamescummings</islandora:isViewableByUser>
+    <islandora:isViewableByUser>John Bradley</islandora:isViewableByUser>
+    <islandora:isViewableByUser>katiefaull</islandora:isViewableByUser>
+    <islandora:isViewableByUser>kchung</islandora:isViewableByUser>
+    <islandora:isViewableByUser>KimMartin</islandora:isViewableByUser>
+    <islandora:isViewableByUser>mpdavies</islandora:isViewableByUser>
+    <islandora:isViewableByUser>obedomar</islandora:isViewableByUser>
+    <islandora:isViewableByUser>pgregory</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Rachel Milio</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sally-beth</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sbrown</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Suzanne Westfall</islandora:isViewableByUser>
+    <islandora:isViewableByUser>tlusty</islandora:isViewableByUser>
+    <islandora:isViewableByUser>fedoraAdmin</islandora:isViewableByUser>
+    <islandora:isViewableByRole>administrator</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:2:member</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:4:project contributor</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:5:project editor</islandora:isViewableByRole>
+    <islandora:isManageableByUser>adminUP</islandora:isManageableByUser>
+    <islandora:isManageableByUser>aribaughman</islandora:isManageableByUser>
+    <islandora:isManageableByUser>CSimon</islandora:isManageableByUser>
+    <islandora:isManageableByUser>ilovan</islandora:isManageableByUser>
+    <islandora:isManageableByUser>jakacki</islandora:isManageableByUser>
+    <islandora:isManageableByUser>KimMartin</islandora:isManageableByUser>
+    <islandora:isManageableByUser>Rachel Milio</islandora:isManageableByUser>
+    <islandora:isManageableByUser>fedoraAdmin</islandora:isManageableByUser>
+    <islandora:isManageableByRole>administrator</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:4:project contributor</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:5:project editor</islandora:isManageableByRole>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.6" LABEL="Fedora Object to Object Relationship Metadata." CREATED="2018-12-29T20:35:17.426Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="3501">
+<foxml:xmlContent>
+<rdf:RDF xmlns:cwrc="http://cwrc.ca/ns/cw#" xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:islandora="http://islandora.ca/ontology/relsext#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/ceww:1ad6be83-7046-46de-b44e-54845cb69110">
+    <fedora-model:hasModel rdf:resource="info:fedora/cwrc:documentCModel"></fedora-model:hasModel>
+    <cwrc:hasSchema rdf:resource="info:fedora/cwrc:5d5159ce-8710-4717-b977-cc528dedc25e"></cwrc:hasSchema>
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/reed:da9840b3-1c42-47eb-b338-775bb96e1545"></fedora:isMemberOfCollection>
+    <islandora:isViewableByUser>adminUP</islandora:isViewableByUser>
+    <islandora:isViewableByUser>aribaughman</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CarolynBlack</islandora:isViewableByUser>
+    <islandora:isViewableByUser>cmatusiak</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CSimon</islandora:isViewableByUser>
+    <islandora:isViewableByUser>dot.porter</islandora:isViewableByUser>
+    <islandora:isViewableByUser>ilovan</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jakacki</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jamescummings</islandora:isViewableByUser>
+    <islandora:isViewableByUser>John Bradley</islandora:isViewableByUser>
+    <islandora:isViewableByUser>katiefaull</islandora:isViewableByUser>
+    <islandora:isViewableByUser>kchung</islandora:isViewableByUser>
+    <islandora:isViewableByUser>KimMartin</islandora:isViewableByUser>
+    <islandora:isViewableByUser>mpdavies</islandora:isViewableByUser>
+    <islandora:isViewableByUser>obedomar</islandora:isViewableByUser>
+    <islandora:isViewableByUser>pgregory</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Rachel Milio</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sally-beth</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sbrown</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Suzanne Westfall</islandora:isViewableByUser>
+    <islandora:isViewableByUser>tlusty</islandora:isViewableByUser>
+    <islandora:isViewableByUser>fedoraAdmin</islandora:isViewableByUser>
+    <islandora:isViewableByRole>administrator</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:2:member</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:4:project contributor</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:5:project editor</islandora:isViewableByRole>
+    <islandora:isManageableByUser>adminUP</islandora:isManageableByUser>
+    <islandora:isManageableByUser>aribaughman</islandora:isManageableByUser>
+    <islandora:isManageableByUser>CSimon</islandora:isManageableByUser>
+    <islandora:isManageableByUser>ilovan</islandora:isManageableByUser>
+    <islandora:isManageableByUser>jakacki</islandora:isManageableByUser>
+    <islandora:isManageableByUser>KimMartin</islandora:isManageableByUser>
+    <islandora:isManageableByUser>Rachel Milio</islandora:isManageableByUser>
+    <islandora:isManageableByUser>fedoraAdmin</islandora:isManageableByUser>
+    <islandora:isManageableByRole>administrator</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:4:project contributor</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:5:project editor</islandora:isManageableByRole>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.7" LABEL="Fedora Object to Object Relationship Metadata." CREATED="2018-12-29T20:35:19.655Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="3758">
+<foxml:xmlContent>
+<rdf:RDF xmlns:cwrc="http://cwrc.ca/ns/cw#" xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:islandora="http://islandora.ca/ontology/relsext#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/ceww:1ad6be83-7046-46de-b44e-54845cb69110">
+    <fedora-model:hasModel rdf:resource="info:fedora/cwrc:documentCModel"></fedora-model:hasModel>
+    <cwrc:hasSchema rdf:resource="info:fedora/cwrc:5d5159ce-8710-4717-b977-cc528dedc25e"></cwrc:hasSchema>
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/reed:da9840b3-1c42-47eb-b338-775bb96e1545"></fedora:isMemberOfCollection>
+    <islandora:isViewableByUser>adminUP</islandora:isViewableByUser>
+    <islandora:isViewableByUser>aribaughman</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CarolynBlack</islandora:isViewableByUser>
+    <islandora:isViewableByUser>cmatusiak</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CSimon</islandora:isViewableByUser>
+    <islandora:isViewableByUser>dot.porter</islandora:isViewableByUser>
+    <islandora:isViewableByUser>ilovan</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jakacki</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jamescummings</islandora:isViewableByUser>
+    <islandora:isViewableByUser>John Bradley</islandora:isViewableByUser>
+    <islandora:isViewableByUser>katiefaull</islandora:isViewableByUser>
+    <islandora:isViewableByUser>kchung</islandora:isViewableByUser>
+    <islandora:isViewableByUser>KimMartin</islandora:isViewableByUser>
+    <islandora:isViewableByUser>mpdavies</islandora:isViewableByUser>
+    <islandora:isViewableByUser>obedomar</islandora:isViewableByUser>
+    <islandora:isViewableByUser>pgregory</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Rachel Milio</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sally-beth</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sbrown</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Suzanne Westfall</islandora:isViewableByUser>
+    <islandora:isViewableByUser>tlusty</islandora:isViewableByUser>
+    <islandora:isViewableByUser>fedoraAdmin</islandora:isViewableByUser>
+    <islandora:isViewableByRole>administrator</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:2:member</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:4:project contributor</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:5:project editor</islandora:isViewableByRole>
+    <islandora:isManageableByUser>adminUP</islandora:isManageableByUser>
+    <islandora:isManageableByUser>aribaughman</islandora:isManageableByUser>
+    <islandora:isManageableByUser>CSimon</islandora:isManageableByUser>
+    <islandora:isManageableByUser>ilovan</islandora:isManageableByUser>
+    <islandora:isManageableByUser>jakacki</islandora:isManageableByUser>
+    <islandora:isManageableByUser>KimMartin</islandora:isManageableByUser>
+    <islandora:isManageableByUser>Rachel Milio</islandora:isManageableByUser>
+    <islandora:isManageableByUser>fedoraAdmin</islandora:isManageableByUser>
+    <islandora:isManageableByRole>administrator</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:4:project contributor</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:5:project editor</islandora:isManageableByRole>
+    <islandora:lock-expiry>indefinite</islandora:lock-expiry>
+    <islandora:locked-by>jakacki</islandora:locked-by>
+    <islandora:isManagementRule>TRUE</islandora:isManagementRule>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.8" LABEL="Fedora Object to Object Relationship Metadata." CREATED="2018-12-29T20:36:58.732Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="3692">
+<foxml:xmlContent>
+<rdf:RDF xmlns:cwrc="http://cwrc.ca/ns/cw#" xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:islandora="http://islandora.ca/ontology/relsext#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/ceww:1ad6be83-7046-46de-b44e-54845cb69110">
+    <fedora-model:hasModel rdf:resource="info:fedora/cwrc:documentCModel"></fedora-model:hasModel>
+    <cwrc:hasSchema rdf:resource="info:fedora/cwrc:5d5159ce-8710-4717-b977-cc528dedc25e"></cwrc:hasSchema>
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/reed:da9840b3-1c42-47eb-b338-775bb96e1545"></fedora:isMemberOfCollection>
+    <islandora:isViewableByUser>adminUP</islandora:isViewableByUser>
+    <islandora:isViewableByUser>aribaughman</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CarolynBlack</islandora:isViewableByUser>
+    <islandora:isViewableByUser>cmatusiak</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CSimon</islandora:isViewableByUser>
+    <islandora:isViewableByUser>dot.porter</islandora:isViewableByUser>
+    <islandora:isViewableByUser>ilovan</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jakacki</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jamescummings</islandora:isViewableByUser>
+    <islandora:isViewableByUser>John Bradley</islandora:isViewableByUser>
+    <islandora:isViewableByUser>katiefaull</islandora:isViewableByUser>
+    <islandora:isViewableByUser>kchung</islandora:isViewableByUser>
+    <islandora:isViewableByUser>KimMartin</islandora:isViewableByUser>
+    <islandora:isViewableByUser>mpdavies</islandora:isViewableByUser>
+    <islandora:isViewableByUser>obedomar</islandora:isViewableByUser>
+    <islandora:isViewableByUser>pgregory</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Rachel Milio</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sally-beth</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sbrown</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Suzanne Westfall</islandora:isViewableByUser>
+    <islandora:isViewableByUser>tlusty</islandora:isViewableByUser>
+    <islandora:isViewableByUser>fedoraAdmin</islandora:isViewableByUser>
+    <islandora:isViewableByRole>administrator</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:2:member</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:4:project contributor</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:5:project editor</islandora:isViewableByRole>
+    <islandora:isManageableByUser>adminUP</islandora:isManageableByUser>
+    <islandora:isManageableByUser>aribaughman</islandora:isManageableByUser>
+    <islandora:isManageableByUser>CSimon</islandora:isManageableByUser>
+    <islandora:isManageableByUser>ilovan</islandora:isManageableByUser>
+    <islandora:isManageableByUser>jakacki</islandora:isManageableByUser>
+    <islandora:isManageableByUser>KimMartin</islandora:isManageableByUser>
+    <islandora:isManageableByUser>Rachel Milio</islandora:isManageableByUser>
+    <islandora:isManageableByUser>fedoraAdmin</islandora:isManageableByUser>
+    <islandora:isManageableByRole>administrator</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:4:project contributor</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:5:project editor</islandora:isManageableByRole>
+    <islandora:lock-expiry>indefinite</islandora:lock-expiry>
+    <islandora:locked-by>jakacki</islandora:locked-by>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.9" LABEL="Fedora Object to Object Relationship Metadata." CREATED="2018-12-29T20:36:59.454Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="3692">
+<foxml:xmlContent>
+<rdf:RDF xmlns:cwrc="http://cwrc.ca/ns/cw#" xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:islandora="http://islandora.ca/ontology/relsext#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/ceww:1ad6be83-7046-46de-b44e-54845cb69110">
+    <fedora-model:hasModel rdf:resource="info:fedora/cwrc:documentCModel"></fedora-model:hasModel>
+    <cwrc:hasSchema rdf:resource="info:fedora/cwrc:5d5159ce-8710-4717-b977-cc528dedc25e"></cwrc:hasSchema>
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/reed:da9840b3-1c42-47eb-b338-775bb96e1545"></fedora:isMemberOfCollection>
+    <islandora:lock-expiry>indefinite</islandora:lock-expiry>
+    <islandora:locked-by>jakacki</islandora:locked-by>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <islandora:isViewableByUser>adminUP</islandora:isViewableByUser>
+    <islandora:isViewableByUser>aribaughman</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CarolynBlack</islandora:isViewableByUser>
+    <islandora:isViewableByUser>cmatusiak</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CSimon</islandora:isViewableByUser>
+    <islandora:isViewableByUser>dot.porter</islandora:isViewableByUser>
+    <islandora:isViewableByUser>ilovan</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jakacki</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jamescummings</islandora:isViewableByUser>
+    <islandora:isViewableByUser>John Bradley</islandora:isViewableByUser>
+    <islandora:isViewableByUser>katiefaull</islandora:isViewableByUser>
+    <islandora:isViewableByUser>kchung</islandora:isViewableByUser>
+    <islandora:isViewableByUser>KimMartin</islandora:isViewableByUser>
+    <islandora:isViewableByUser>mpdavies</islandora:isViewableByUser>
+    <islandora:isViewableByUser>obedomar</islandora:isViewableByUser>
+    <islandora:isViewableByUser>pgregory</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Rachel Milio</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sally-beth</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sbrown</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Suzanne Westfall</islandora:isViewableByUser>
+    <islandora:isViewableByUser>tlusty</islandora:isViewableByUser>
+    <islandora:isViewableByUser>fedoraAdmin</islandora:isViewableByUser>
+    <islandora:isViewableByRole>administrator</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:2:member</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:4:project contributor</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:5:project editor</islandora:isViewableByRole>
+    <islandora:isManageableByUser>adminUP</islandora:isManageableByUser>
+    <islandora:isManageableByUser>aribaughman</islandora:isManageableByUser>
+    <islandora:isManageableByUser>CSimon</islandora:isManageableByUser>
+    <islandora:isManageableByUser>ilovan</islandora:isManageableByUser>
+    <islandora:isManageableByUser>jakacki</islandora:isManageableByUser>
+    <islandora:isManageableByUser>KimMartin</islandora:isManageableByUser>
+    <islandora:isManageableByUser>Rachel Milio</islandora:isManageableByUser>
+    <islandora:isManageableByUser>fedoraAdmin</islandora:isManageableByUser>
+    <islandora:isManageableByRole>administrator</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:4:project contributor</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:5:project editor</islandora:isManageableByRole>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.10" LABEL="Fedora Object to Object Relationship Metadata." CREATED="2018-12-29T20:37:01.714Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="3575">
+<foxml:xmlContent>
+<rdf:RDF xmlns:cwrc="http://cwrc.ca/ns/cw#" xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:islandora="http://islandora.ca/ontology/relsext#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/ceww:1ad6be83-7046-46de-b44e-54845cb69110">
+    <fedora-model:hasModel rdf:resource="info:fedora/cwrc:documentCModel"></fedora-model:hasModel>
+    <cwrc:hasSchema rdf:resource="info:fedora/cwrc:5d5159ce-8710-4717-b977-cc528dedc25e"></cwrc:hasSchema>
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/reed:da9840b3-1c42-47eb-b338-775bb96e1545"></fedora:isMemberOfCollection>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <islandora:isViewableByUser>adminUP</islandora:isViewableByUser>
+    <islandora:isViewableByUser>aribaughman</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CarolynBlack</islandora:isViewableByUser>
+    <islandora:isViewableByUser>cmatusiak</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CSimon</islandora:isViewableByUser>
+    <islandora:isViewableByUser>dot.porter</islandora:isViewableByUser>
+    <islandora:isViewableByUser>ilovan</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jakacki</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jamescummings</islandora:isViewableByUser>
+    <islandora:isViewableByUser>John Bradley</islandora:isViewableByUser>
+    <islandora:isViewableByUser>katiefaull</islandora:isViewableByUser>
+    <islandora:isViewableByUser>kchung</islandora:isViewableByUser>
+    <islandora:isViewableByUser>KimMartin</islandora:isViewableByUser>
+    <islandora:isViewableByUser>mpdavies</islandora:isViewableByUser>
+    <islandora:isViewableByUser>obedomar</islandora:isViewableByUser>
+    <islandora:isViewableByUser>pgregory</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Rachel Milio</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sally-beth</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sbrown</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Suzanne Westfall</islandora:isViewableByUser>
+    <islandora:isViewableByUser>tlusty</islandora:isViewableByUser>
+    <islandora:isViewableByUser>fedoraAdmin</islandora:isViewableByUser>
+    <islandora:isViewableByRole>administrator</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:2:member</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:4:project contributor</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:5:project editor</islandora:isViewableByRole>
+    <islandora:isManageableByUser>adminUP</islandora:isManageableByUser>
+    <islandora:isManageableByUser>aribaughman</islandora:isManageableByUser>
+    <islandora:isManageableByUser>CSimon</islandora:isManageableByUser>
+    <islandora:isManageableByUser>ilovan</islandora:isManageableByUser>
+    <islandora:isManageableByUser>jakacki</islandora:isManageableByUser>
+    <islandora:isManageableByUser>KimMartin</islandora:isManageableByUser>
+    <islandora:isManageableByUser>Rachel Milio</islandora:isManageableByUser>
+    <islandora:isManageableByUser>fedoraAdmin</islandora:isManageableByUser>
+    <islandora:isManageableByRole>administrator</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:4:project contributor</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:5:project editor</islandora:isManageableByRole>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.11" LABEL="Fedora Object to Object Relationship Metadata." CREATED="2018-12-29T20:39:00.166Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="3575">
+<foxml:xmlContent>
+<rdf:RDF xmlns:cwrc="http://cwrc.ca/ns/cw#" xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:islandora="http://islandora.ca/ontology/relsext#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/ceww:1ad6be83-7046-46de-b44e-54845cb69110">
+    <fedora-model:hasModel rdf:resource="info:fedora/cwrc:documentCModel"></fedora-model:hasModel>
+    <cwrc:hasSchema rdf:resource="info:fedora/cwrc:5d5159ce-8710-4717-b977-cc528dedc25e"></cwrc:hasSchema>
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/reed:da9840b3-1c42-47eb-b338-775bb96e1545"></fedora:isMemberOfCollection>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <islandora:isViewableByUser>adminUP</islandora:isViewableByUser>
+    <islandora:isViewableByUser>aribaughman</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CarolynBlack</islandora:isViewableByUser>
+    <islandora:isViewableByUser>cmatusiak</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CSimon</islandora:isViewableByUser>
+    <islandora:isViewableByUser>dot.porter</islandora:isViewableByUser>
+    <islandora:isViewableByUser>ilovan</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jakacki</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jamescummings</islandora:isViewableByUser>
+    <islandora:isViewableByUser>John Bradley</islandora:isViewableByUser>
+    <islandora:isViewableByUser>katiefaull</islandora:isViewableByUser>
+    <islandora:isViewableByUser>kchung</islandora:isViewableByUser>
+    <islandora:isViewableByUser>KimMartin</islandora:isViewableByUser>
+    <islandora:isViewableByUser>mpdavies</islandora:isViewableByUser>
+    <islandora:isViewableByUser>obedomar</islandora:isViewableByUser>
+    <islandora:isViewableByUser>pgregory</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Rachel Milio</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sally-beth</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sbrown</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Suzanne Westfall</islandora:isViewableByUser>
+    <islandora:isViewableByUser>tlusty</islandora:isViewableByUser>
+    <islandora:isViewableByUser>fedoraAdmin</islandora:isViewableByUser>
+    <islandora:isViewableByRole>administrator</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:2:member</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:4:project contributor</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:5:project editor</islandora:isViewableByRole>
+    <islandora:isManageableByUser>adminUP</islandora:isManageableByUser>
+    <islandora:isManageableByUser>aribaughman</islandora:isManageableByUser>
+    <islandora:isManageableByUser>CSimon</islandora:isManageableByUser>
+    <islandora:isManageableByUser>ilovan</islandora:isManageableByUser>
+    <islandora:isManageableByUser>jakacki</islandora:isManageableByUser>
+    <islandora:isManageableByUser>KimMartin</islandora:isManageableByUser>
+    <islandora:isManageableByUser>Rachel Milio</islandora:isManageableByUser>
+    <islandora:isManageableByUser>fedoraAdmin</islandora:isManageableByUser>
+    <islandora:isManageableByRole>administrator</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:4:project contributor</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:5:project editor</islandora:isManageableByRole>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.12" LABEL="Fedora Object to Object Relationship Metadata." CREATED="2018-12-29T20:39:00.660Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="3832">
+<foxml:xmlContent>
+<rdf:RDF xmlns:cwrc="http://cwrc.ca/ns/cw#" xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:islandora="http://islandora.ca/ontology/relsext#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/ceww:1ad6be83-7046-46de-b44e-54845cb69110">
+    <fedora-model:hasModel rdf:resource="info:fedora/cwrc:documentCModel"></fedora-model:hasModel>
+    <cwrc:hasSchema rdf:resource="info:fedora/cwrc:5d5159ce-8710-4717-b977-cc528dedc25e"></cwrc:hasSchema>
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/reed:da9840b3-1c42-47eb-b338-775bb96e1545"></fedora:isMemberOfCollection>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <islandora:isViewableByUser>adminUP</islandora:isViewableByUser>
+    <islandora:isViewableByUser>aribaughman</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CarolynBlack</islandora:isViewableByUser>
+    <islandora:isViewableByUser>cmatusiak</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CSimon</islandora:isViewableByUser>
+    <islandora:isViewableByUser>dot.porter</islandora:isViewableByUser>
+    <islandora:isViewableByUser>ilovan</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jakacki</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jamescummings</islandora:isViewableByUser>
+    <islandora:isViewableByUser>John Bradley</islandora:isViewableByUser>
+    <islandora:isViewableByUser>katiefaull</islandora:isViewableByUser>
+    <islandora:isViewableByUser>kchung</islandora:isViewableByUser>
+    <islandora:isViewableByUser>KimMartin</islandora:isViewableByUser>
+    <islandora:isViewableByUser>mpdavies</islandora:isViewableByUser>
+    <islandora:isViewableByUser>obedomar</islandora:isViewableByUser>
+    <islandora:isViewableByUser>pgregory</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Rachel Milio</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sally-beth</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sbrown</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Suzanne Westfall</islandora:isViewableByUser>
+    <islandora:isViewableByUser>tlusty</islandora:isViewableByUser>
+    <islandora:isViewableByUser>fedoraAdmin</islandora:isViewableByUser>
+    <islandora:isViewableByRole>administrator</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:2:member</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:4:project contributor</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:5:project editor</islandora:isViewableByRole>
+    <islandora:isManageableByUser>adminUP</islandora:isManageableByUser>
+    <islandora:isManageableByUser>aribaughman</islandora:isManageableByUser>
+    <islandora:isManageableByUser>CSimon</islandora:isManageableByUser>
+    <islandora:isManageableByUser>ilovan</islandora:isManageableByUser>
+    <islandora:isManageableByUser>jakacki</islandora:isManageableByUser>
+    <islandora:isManageableByUser>KimMartin</islandora:isManageableByUser>
+    <islandora:isManageableByUser>Rachel Milio</islandora:isManageableByUser>
+    <islandora:isManageableByUser>fedoraAdmin</islandora:isManageableByUser>
+    <islandora:isManageableByRole>administrator</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:4:project contributor</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:5:project editor</islandora:isManageableByRole>
+    <islandora:lock-expiry>indefinite</islandora:lock-expiry>
+    <islandora:locked-by>jakacki</islandora:locked-by>
+    <islandora:isManagementRule>TRUE</islandora:isManagementRule>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.13" LABEL="Fedora Object to Object Relationship Metadata." CREATED="2018-12-29T20:51:58.883Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="3832">
+<foxml:xmlContent>
+<rdf:RDF xmlns:cwrc="http://cwrc.ca/ns/cw#" xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:islandora="http://islandora.ca/ontology/relsext#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/ceww:1ad6be83-7046-46de-b44e-54845cb69110">
+    <fedora-model:hasModel rdf:resource="info:fedora/cwrc:documentCModel"></fedora-model:hasModel>
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/reed:da9840b3-1c42-47eb-b338-775bb96e1545"></fedora:isMemberOfCollection>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <islandora:isViewableByUser>adminUP</islandora:isViewableByUser>
+    <islandora:isViewableByUser>aribaughman</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CarolynBlack</islandora:isViewableByUser>
+    <islandora:isViewableByUser>cmatusiak</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CSimon</islandora:isViewableByUser>
+    <islandora:isViewableByUser>dot.porter</islandora:isViewableByUser>
+    <islandora:isViewableByUser>ilovan</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jakacki</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jamescummings</islandora:isViewableByUser>
+    <islandora:isViewableByUser>John Bradley</islandora:isViewableByUser>
+    <islandora:isViewableByUser>katiefaull</islandora:isViewableByUser>
+    <islandora:isViewableByUser>kchung</islandora:isViewableByUser>
+    <islandora:isViewableByUser>KimMartin</islandora:isViewableByUser>
+    <islandora:isViewableByUser>mpdavies</islandora:isViewableByUser>
+    <islandora:isViewableByUser>obedomar</islandora:isViewableByUser>
+    <islandora:isViewableByUser>pgregory</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Rachel Milio</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sally-beth</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sbrown</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Suzanne Westfall</islandora:isViewableByUser>
+    <islandora:isViewableByUser>tlusty</islandora:isViewableByUser>
+    <islandora:isViewableByUser>fedoraAdmin</islandora:isViewableByUser>
+    <islandora:isViewableByRole>administrator</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:2:member</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:4:project contributor</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:5:project editor</islandora:isViewableByRole>
+    <islandora:isManageableByUser>adminUP</islandora:isManageableByUser>
+    <islandora:isManageableByUser>aribaughman</islandora:isManageableByUser>
+    <islandora:isManageableByUser>CSimon</islandora:isManageableByUser>
+    <islandora:isManageableByUser>ilovan</islandora:isManageableByUser>
+    <islandora:isManageableByUser>jakacki</islandora:isManageableByUser>
+    <islandora:isManageableByUser>KimMartin</islandora:isManageableByUser>
+    <islandora:isManageableByUser>Rachel Milio</islandora:isManageableByUser>
+    <islandora:isManageableByUser>fedoraAdmin</islandora:isManageableByUser>
+    <islandora:isManageableByRole>administrator</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:4:project contributor</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:5:project editor</islandora:isManageableByRole>
+    <islandora:lock-expiry>indefinite</islandora:lock-expiry>
+    <islandora:locked-by>jakacki</islandora:locked-by>
+    <islandora:isManagementRule>TRUE</islandora:isManagementRule>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <cwrc:hasSchema rdf:resource="info:fedora/cwrc:5d5159ce-8710-4717-b977-cc528dedc25e"></cwrc:hasSchema>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.14" LABEL="Fedora Object to Object Relationship Metadata." CREATED="2018-12-29T20:52:00.178Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="3832">
+<foxml:xmlContent>
+<rdf:RDF xmlns:cwrc="http://cwrc.ca/ns/cw#" xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:islandora="http://islandora.ca/ontology/relsext#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/ceww:1ad6be83-7046-46de-b44e-54845cb69110">
+    <fedora-model:hasModel rdf:resource="info:fedora/cwrc:documentCModel"></fedora-model:hasModel>
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/reed:da9840b3-1c42-47eb-b338-775bb96e1545"></fedora:isMemberOfCollection>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <islandora:isViewableByUser>adminUP</islandora:isViewableByUser>
+    <islandora:isViewableByUser>aribaughman</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CarolynBlack</islandora:isViewableByUser>
+    <islandora:isViewableByUser>cmatusiak</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CSimon</islandora:isViewableByUser>
+    <islandora:isViewableByUser>dot.porter</islandora:isViewableByUser>
+    <islandora:isViewableByUser>ilovan</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jakacki</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jamescummings</islandora:isViewableByUser>
+    <islandora:isViewableByUser>John Bradley</islandora:isViewableByUser>
+    <islandora:isViewableByUser>katiefaull</islandora:isViewableByUser>
+    <islandora:isViewableByUser>kchung</islandora:isViewableByUser>
+    <islandora:isViewableByUser>KimMartin</islandora:isViewableByUser>
+    <islandora:isViewableByUser>mpdavies</islandora:isViewableByUser>
+    <islandora:isViewableByUser>obedomar</islandora:isViewableByUser>
+    <islandora:isViewableByUser>pgregory</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Rachel Milio</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sally-beth</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sbrown</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Suzanne Westfall</islandora:isViewableByUser>
+    <islandora:isViewableByUser>tlusty</islandora:isViewableByUser>
+    <islandora:isViewableByUser>fedoraAdmin</islandora:isViewableByUser>
+    <islandora:isViewableByRole>administrator</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:2:member</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:4:project contributor</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:5:project editor</islandora:isViewableByRole>
+    <islandora:isManageableByUser>adminUP</islandora:isManageableByUser>
+    <islandora:isManageableByUser>aribaughman</islandora:isManageableByUser>
+    <islandora:isManageableByUser>CSimon</islandora:isManageableByUser>
+    <islandora:isManageableByUser>ilovan</islandora:isManageableByUser>
+    <islandora:isManageableByUser>jakacki</islandora:isManageableByUser>
+    <islandora:isManageableByUser>KimMartin</islandora:isManageableByUser>
+    <islandora:isManageableByUser>Rachel Milio</islandora:isManageableByUser>
+    <islandora:isManageableByUser>fedoraAdmin</islandora:isManageableByUser>
+    <islandora:isManageableByRole>administrator</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:4:project contributor</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:5:project editor</islandora:isManageableByRole>
+    <islandora:lock-expiry>indefinite</islandora:lock-expiry>
+    <islandora:locked-by>jakacki</islandora:locked-by>
+    <islandora:isManagementRule>TRUE</islandora:isManagementRule>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <cwrc:hasSchema rdf:resource="info:fedora/cwrc:5d5159ce-8710-4717-b977-cc528dedc25e"></cwrc:hasSchema>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.15" LABEL="Fedora Object to Object Relationship Metadata." CREATED="2018-12-29T20:56:20.428Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="3832">
+<foxml:xmlContent>
+<rdf:RDF xmlns:cwrc="http://cwrc.ca/ns/cw#" xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:islandora="http://islandora.ca/ontology/relsext#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/ceww:1ad6be83-7046-46de-b44e-54845cb69110">
+    <fedora-model:hasModel rdf:resource="info:fedora/cwrc:documentCModel"></fedora-model:hasModel>
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/reed:da9840b3-1c42-47eb-b338-775bb96e1545"></fedora:isMemberOfCollection>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <islandora:isViewableByUser>adminUP</islandora:isViewableByUser>
+    <islandora:isViewableByUser>aribaughman</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CarolynBlack</islandora:isViewableByUser>
+    <islandora:isViewableByUser>cmatusiak</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CSimon</islandora:isViewableByUser>
+    <islandora:isViewableByUser>dot.porter</islandora:isViewableByUser>
+    <islandora:isViewableByUser>ilovan</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jakacki</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jamescummings</islandora:isViewableByUser>
+    <islandora:isViewableByUser>John Bradley</islandora:isViewableByUser>
+    <islandora:isViewableByUser>katiefaull</islandora:isViewableByUser>
+    <islandora:isViewableByUser>kchung</islandora:isViewableByUser>
+    <islandora:isViewableByUser>KimMartin</islandora:isViewableByUser>
+    <islandora:isViewableByUser>mpdavies</islandora:isViewableByUser>
+    <islandora:isViewableByUser>obedomar</islandora:isViewableByUser>
+    <islandora:isViewableByUser>pgregory</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Rachel Milio</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sally-beth</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sbrown</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Suzanne Westfall</islandora:isViewableByUser>
+    <islandora:isViewableByUser>tlusty</islandora:isViewableByUser>
+    <islandora:isViewableByUser>fedoraAdmin</islandora:isViewableByUser>
+    <islandora:isViewableByRole>administrator</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:2:member</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:4:project contributor</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:5:project editor</islandora:isViewableByRole>
+    <islandora:isManageableByUser>adminUP</islandora:isManageableByUser>
+    <islandora:isManageableByUser>aribaughman</islandora:isManageableByUser>
+    <islandora:isManageableByUser>CSimon</islandora:isManageableByUser>
+    <islandora:isManageableByUser>ilovan</islandora:isManageableByUser>
+    <islandora:isManageableByUser>jakacki</islandora:isManageableByUser>
+    <islandora:isManageableByUser>KimMartin</islandora:isManageableByUser>
+    <islandora:isManageableByUser>Rachel Milio</islandora:isManageableByUser>
+    <islandora:isManageableByUser>fedoraAdmin</islandora:isManageableByUser>
+    <islandora:isManageableByRole>administrator</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:4:project contributor</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:5:project editor</islandora:isManageableByRole>
+    <islandora:lock-expiry>indefinite</islandora:lock-expiry>
+    <islandora:locked-by>jakacki</islandora:locked-by>
+    <islandora:isManagementRule>TRUE</islandora:isManagementRule>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <cwrc:hasSchema rdf:resource="info:fedora/cwrc:5d5159ce-8710-4717-b977-cc528dedc25e"></cwrc:hasSchema>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.16" LABEL="Fedora Object to Object Relationship Metadata." CREATED="2018-12-29T21:02:53.416Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="3832">
+<foxml:xmlContent>
+<rdf:RDF xmlns:cwrc="http://cwrc.ca/ns/cw#" xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:islandora="http://islandora.ca/ontology/relsext#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/ceww:1ad6be83-7046-46de-b44e-54845cb69110">
+    <fedora-model:hasModel rdf:resource="info:fedora/cwrc:documentCModel"></fedora-model:hasModel>
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/reed:da9840b3-1c42-47eb-b338-775bb96e1545"></fedora:isMemberOfCollection>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <islandora:isViewableByUser>adminUP</islandora:isViewableByUser>
+    <islandora:isViewableByUser>aribaughman</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CarolynBlack</islandora:isViewableByUser>
+    <islandora:isViewableByUser>cmatusiak</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CSimon</islandora:isViewableByUser>
+    <islandora:isViewableByUser>dot.porter</islandora:isViewableByUser>
+    <islandora:isViewableByUser>ilovan</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jakacki</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jamescummings</islandora:isViewableByUser>
+    <islandora:isViewableByUser>John Bradley</islandora:isViewableByUser>
+    <islandora:isViewableByUser>katiefaull</islandora:isViewableByUser>
+    <islandora:isViewableByUser>kchung</islandora:isViewableByUser>
+    <islandora:isViewableByUser>KimMartin</islandora:isViewableByUser>
+    <islandora:isViewableByUser>mpdavies</islandora:isViewableByUser>
+    <islandora:isViewableByUser>obedomar</islandora:isViewableByUser>
+    <islandora:isViewableByUser>pgregory</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Rachel Milio</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sally-beth</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sbrown</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Suzanne Westfall</islandora:isViewableByUser>
+    <islandora:isViewableByUser>tlusty</islandora:isViewableByUser>
+    <islandora:isViewableByUser>fedoraAdmin</islandora:isViewableByUser>
+    <islandora:isViewableByRole>administrator</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:2:member</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:4:project contributor</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:5:project editor</islandora:isViewableByRole>
+    <islandora:isManageableByUser>adminUP</islandora:isManageableByUser>
+    <islandora:isManageableByUser>aribaughman</islandora:isManageableByUser>
+    <islandora:isManageableByUser>CSimon</islandora:isManageableByUser>
+    <islandora:isManageableByUser>ilovan</islandora:isManageableByUser>
+    <islandora:isManageableByUser>jakacki</islandora:isManageableByUser>
+    <islandora:isManageableByUser>KimMartin</islandora:isManageableByUser>
+    <islandora:isManageableByUser>Rachel Milio</islandora:isManageableByUser>
+    <islandora:isManageableByUser>fedoraAdmin</islandora:isManageableByUser>
+    <islandora:isManageableByRole>administrator</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:4:project contributor</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:5:project editor</islandora:isManageableByRole>
+    <islandora:lock-expiry>indefinite</islandora:lock-expiry>
+    <islandora:locked-by>jakacki</islandora:locked-by>
+    <islandora:isManagementRule>TRUE</islandora:isManagementRule>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <cwrc:hasSchema rdf:resource="info:fedora/cwrc:5d5159ce-8710-4717-b977-cc528dedc25e"></cwrc:hasSchema>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.17" LABEL="Fedora Object to Object Relationship Metadata." CREATED="2018-12-29T21:02:54.827Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="3766">
+<foxml:xmlContent>
+<rdf:RDF xmlns:cwrc="http://cwrc.ca/ns/cw#" xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:islandora="http://islandora.ca/ontology/relsext#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/ceww:1ad6be83-7046-46de-b44e-54845cb69110">
+    <fedora-model:hasModel rdf:resource="info:fedora/cwrc:documentCModel"></fedora-model:hasModel>
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/reed:da9840b3-1c42-47eb-b338-775bb96e1545"></fedora:isMemberOfCollection>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <islandora:isViewableByUser>adminUP</islandora:isViewableByUser>
+    <islandora:isViewableByUser>aribaughman</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CarolynBlack</islandora:isViewableByUser>
+    <islandora:isViewableByUser>cmatusiak</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CSimon</islandora:isViewableByUser>
+    <islandora:isViewableByUser>dot.porter</islandora:isViewableByUser>
+    <islandora:isViewableByUser>ilovan</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jakacki</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jamescummings</islandora:isViewableByUser>
+    <islandora:isViewableByUser>John Bradley</islandora:isViewableByUser>
+    <islandora:isViewableByUser>katiefaull</islandora:isViewableByUser>
+    <islandora:isViewableByUser>kchung</islandora:isViewableByUser>
+    <islandora:isViewableByUser>KimMartin</islandora:isViewableByUser>
+    <islandora:isViewableByUser>mpdavies</islandora:isViewableByUser>
+    <islandora:isViewableByUser>obedomar</islandora:isViewableByUser>
+    <islandora:isViewableByUser>pgregory</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Rachel Milio</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sally-beth</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sbrown</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Suzanne Westfall</islandora:isViewableByUser>
+    <islandora:isViewableByUser>tlusty</islandora:isViewableByUser>
+    <islandora:isViewableByUser>fedoraAdmin</islandora:isViewableByUser>
+    <islandora:isViewableByRole>administrator</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:2:member</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:4:project contributor</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:5:project editor</islandora:isViewableByRole>
+    <islandora:isManageableByUser>adminUP</islandora:isManageableByUser>
+    <islandora:isManageableByUser>aribaughman</islandora:isManageableByUser>
+    <islandora:isManageableByUser>CSimon</islandora:isManageableByUser>
+    <islandora:isManageableByUser>ilovan</islandora:isManageableByUser>
+    <islandora:isManageableByUser>jakacki</islandora:isManageableByUser>
+    <islandora:isManageableByUser>KimMartin</islandora:isManageableByUser>
+    <islandora:isManageableByUser>Rachel Milio</islandora:isManageableByUser>
+    <islandora:isManageableByUser>fedoraAdmin</islandora:isManageableByUser>
+    <islandora:isManageableByRole>administrator</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:4:project contributor</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:5:project editor</islandora:isManageableByRole>
+    <islandora:lock-expiry>indefinite</islandora:lock-expiry>
+    <islandora:locked-by>jakacki</islandora:locked-by>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <cwrc:hasSchema rdf:resource="info:fedora/cwrc:5d5159ce-8710-4717-b977-cc528dedc25e"></cwrc:hasSchema>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.18" LABEL="Fedora Object to Object Relationship Metadata." CREATED="2018-12-29T21:02:55.012Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="3766">
+<foxml:xmlContent>
+<rdf:RDF xmlns:cwrc="http://cwrc.ca/ns/cw#" xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:islandora="http://islandora.ca/ontology/relsext#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/ceww:1ad6be83-7046-46de-b44e-54845cb69110">
+    <fedora-model:hasModel rdf:resource="info:fedora/cwrc:documentCModel"></fedora-model:hasModel>
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/reed:da9840b3-1c42-47eb-b338-775bb96e1545"></fedora:isMemberOfCollection>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <islandora:lock-expiry>indefinite</islandora:lock-expiry>
+    <islandora:locked-by>jakacki</islandora:locked-by>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <cwrc:hasSchema rdf:resource="info:fedora/cwrc:5d5159ce-8710-4717-b977-cc528dedc25e"></cwrc:hasSchema>
+    <islandora:isViewableByUser>adminUP</islandora:isViewableByUser>
+    <islandora:isViewableByUser>aribaughman</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CarolynBlack</islandora:isViewableByUser>
+    <islandora:isViewableByUser>cmatusiak</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CSimon</islandora:isViewableByUser>
+    <islandora:isViewableByUser>dot.porter</islandora:isViewableByUser>
+    <islandora:isViewableByUser>ilovan</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jakacki</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jamescummings</islandora:isViewableByUser>
+    <islandora:isViewableByUser>John Bradley</islandora:isViewableByUser>
+    <islandora:isViewableByUser>katiefaull</islandora:isViewableByUser>
+    <islandora:isViewableByUser>kchung</islandora:isViewableByUser>
+    <islandora:isViewableByUser>KimMartin</islandora:isViewableByUser>
+    <islandora:isViewableByUser>mpdavies</islandora:isViewableByUser>
+    <islandora:isViewableByUser>obedomar</islandora:isViewableByUser>
+    <islandora:isViewableByUser>pgregory</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Rachel Milio</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sally-beth</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sbrown</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Suzanne Westfall</islandora:isViewableByUser>
+    <islandora:isViewableByUser>tlusty</islandora:isViewableByUser>
+    <islandora:isViewableByUser>fedoraAdmin</islandora:isViewableByUser>
+    <islandora:isViewableByRole>administrator</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:2:member</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:4:project contributor</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:5:project editor</islandora:isViewableByRole>
+    <islandora:isManageableByUser>adminUP</islandora:isManageableByUser>
+    <islandora:isManageableByUser>aribaughman</islandora:isManageableByUser>
+    <islandora:isManageableByUser>CSimon</islandora:isManageableByUser>
+    <islandora:isManageableByUser>ilovan</islandora:isManageableByUser>
+    <islandora:isManageableByUser>jakacki</islandora:isManageableByUser>
+    <islandora:isManageableByUser>KimMartin</islandora:isManageableByUser>
+    <islandora:isManageableByUser>Rachel Milio</islandora:isManageableByUser>
+    <islandora:isManageableByUser>fedoraAdmin</islandora:isManageableByUser>
+    <islandora:isManageableByRole>administrator</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:4:project contributor</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:5:project editor</islandora:isManageableByRole>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.19" LABEL="Fedora Object to Object Relationship Metadata." CREATED="2018-12-29T21:02:55.570Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="3649">
+<foxml:xmlContent>
+<rdf:RDF xmlns:cwrc="http://cwrc.ca/ns/cw#" xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:islandora="http://islandora.ca/ontology/relsext#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/ceww:1ad6be83-7046-46de-b44e-54845cb69110">
+    <fedora-model:hasModel rdf:resource="info:fedora/cwrc:documentCModel"></fedora-model:hasModel>
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/reed:da9840b3-1c42-47eb-b338-775bb96e1545"></fedora:isMemberOfCollection>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <cwrc:hasSchema rdf:resource="info:fedora/cwrc:5d5159ce-8710-4717-b977-cc528dedc25e"></cwrc:hasSchema>
+    <islandora:isViewableByUser>adminUP</islandora:isViewableByUser>
+    <islandora:isViewableByUser>aribaughman</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CarolynBlack</islandora:isViewableByUser>
+    <islandora:isViewableByUser>cmatusiak</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CSimon</islandora:isViewableByUser>
+    <islandora:isViewableByUser>dot.porter</islandora:isViewableByUser>
+    <islandora:isViewableByUser>ilovan</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jakacki</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jamescummings</islandora:isViewableByUser>
+    <islandora:isViewableByUser>John Bradley</islandora:isViewableByUser>
+    <islandora:isViewableByUser>katiefaull</islandora:isViewableByUser>
+    <islandora:isViewableByUser>kchung</islandora:isViewableByUser>
+    <islandora:isViewableByUser>KimMartin</islandora:isViewableByUser>
+    <islandora:isViewableByUser>mpdavies</islandora:isViewableByUser>
+    <islandora:isViewableByUser>obedomar</islandora:isViewableByUser>
+    <islandora:isViewableByUser>pgregory</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Rachel Milio</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sally-beth</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sbrown</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Suzanne Westfall</islandora:isViewableByUser>
+    <islandora:isViewableByUser>tlusty</islandora:isViewableByUser>
+    <islandora:isViewableByUser>fedoraAdmin</islandora:isViewableByUser>
+    <islandora:isViewableByRole>administrator</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:2:member</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:4:project contributor</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:5:project editor</islandora:isViewableByRole>
+    <islandora:isManageableByUser>adminUP</islandora:isManageableByUser>
+    <islandora:isManageableByUser>aribaughman</islandora:isManageableByUser>
+    <islandora:isManageableByUser>CSimon</islandora:isManageableByUser>
+    <islandora:isManageableByUser>ilovan</islandora:isManageableByUser>
+    <islandora:isManageableByUser>jakacki</islandora:isManageableByUser>
+    <islandora:isManageableByUser>KimMartin</islandora:isManageableByUser>
+    <islandora:isManageableByUser>Rachel Milio</islandora:isManageableByUser>
+    <islandora:isManageableByUser>fedoraAdmin</islandora:isManageableByUser>
+    <islandora:isManageableByRole>administrator</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:4:project contributor</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:5:project editor</islandora:isManageableByRole>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.20" LABEL="Fedora Object to Object Relationship Metadata." CREATED="2018-12-30T20:28:46.415Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="3649">
+<foxml:xmlContent>
+<rdf:RDF xmlns:cwrc="http://cwrc.ca/ns/cw#" xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:islandora="http://islandora.ca/ontology/relsext#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/ceww:1ad6be83-7046-46de-b44e-54845cb69110">
+    <fedora-model:hasModel rdf:resource="info:fedora/cwrc:documentCModel"></fedora-model:hasModel>
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/reed:da9840b3-1c42-47eb-b338-775bb96e1545"></fedora:isMemberOfCollection>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <cwrc:hasSchema rdf:resource="info:fedora/cwrc:5d5159ce-8710-4717-b977-cc528dedc25e"></cwrc:hasSchema>
+    <islandora:isViewableByUser>adminUP</islandora:isViewableByUser>
+    <islandora:isViewableByUser>aribaughman</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CarolynBlack</islandora:isViewableByUser>
+    <islandora:isViewableByUser>cmatusiak</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CSimon</islandora:isViewableByUser>
+    <islandora:isViewableByUser>dot.porter</islandora:isViewableByUser>
+    <islandora:isViewableByUser>ilovan</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jakacki</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jamescummings</islandora:isViewableByUser>
+    <islandora:isViewableByUser>John Bradley</islandora:isViewableByUser>
+    <islandora:isViewableByUser>katiefaull</islandora:isViewableByUser>
+    <islandora:isViewableByUser>kchung</islandora:isViewableByUser>
+    <islandora:isViewableByUser>KimMartin</islandora:isViewableByUser>
+    <islandora:isViewableByUser>mpdavies</islandora:isViewableByUser>
+    <islandora:isViewableByUser>obedomar</islandora:isViewableByUser>
+    <islandora:isViewableByUser>pgregory</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Rachel Milio</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sally-beth</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sbrown</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Suzanne Westfall</islandora:isViewableByUser>
+    <islandora:isViewableByUser>tlusty</islandora:isViewableByUser>
+    <islandora:isViewableByUser>fedoraAdmin</islandora:isViewableByUser>
+    <islandora:isViewableByRole>administrator</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:2:member</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:4:project contributor</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:5:project editor</islandora:isViewableByRole>
+    <islandora:isManageableByUser>adminUP</islandora:isManageableByUser>
+    <islandora:isManageableByUser>aribaughman</islandora:isManageableByUser>
+    <islandora:isManageableByUser>CSimon</islandora:isManageableByUser>
+    <islandora:isManageableByUser>ilovan</islandora:isManageableByUser>
+    <islandora:isManageableByUser>jakacki</islandora:isManageableByUser>
+    <islandora:isManageableByUser>KimMartin</islandora:isManageableByUser>
+    <islandora:isManageableByUser>Rachel Milio</islandora:isManageableByUser>
+    <islandora:isManageableByUser>fedoraAdmin</islandora:isManageableByUser>
+    <islandora:isManageableByRole>administrator</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:4:project contributor</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:5:project editor</islandora:isManageableByRole>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.21" LABEL="Fedora Object to Object Relationship Metadata." CREATED="2018-12-30T20:28:46.755Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="3906">
+<foxml:xmlContent>
+<rdf:RDF xmlns:cwrc="http://cwrc.ca/ns/cw#" xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:islandora="http://islandora.ca/ontology/relsext#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/ceww:1ad6be83-7046-46de-b44e-54845cb69110">
+    <fedora-model:hasModel rdf:resource="info:fedora/cwrc:documentCModel"></fedora-model:hasModel>
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/reed:da9840b3-1c42-47eb-b338-775bb96e1545"></fedora:isMemberOfCollection>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <cwrc:hasSchema rdf:resource="info:fedora/cwrc:5d5159ce-8710-4717-b977-cc528dedc25e"></cwrc:hasSchema>
+    <islandora:isViewableByUser>adminUP</islandora:isViewableByUser>
+    <islandora:isViewableByUser>aribaughman</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CarolynBlack</islandora:isViewableByUser>
+    <islandora:isViewableByUser>cmatusiak</islandora:isViewableByUser>
+    <islandora:isViewableByUser>CSimon</islandora:isViewableByUser>
+    <islandora:isViewableByUser>dot.porter</islandora:isViewableByUser>
+    <islandora:isViewableByUser>ilovan</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jakacki</islandora:isViewableByUser>
+    <islandora:isViewableByUser>jamescummings</islandora:isViewableByUser>
+    <islandora:isViewableByUser>John Bradley</islandora:isViewableByUser>
+    <islandora:isViewableByUser>katiefaull</islandora:isViewableByUser>
+    <islandora:isViewableByUser>kchung</islandora:isViewableByUser>
+    <islandora:isViewableByUser>KimMartin</islandora:isViewableByUser>
+    <islandora:isViewableByUser>mpdavies</islandora:isViewableByUser>
+    <islandora:isViewableByUser>obedomar</islandora:isViewableByUser>
+    <islandora:isViewableByUser>pgregory</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Rachel Milio</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sally-beth</islandora:isViewableByUser>
+    <islandora:isViewableByUser>sbrown</islandora:isViewableByUser>
+    <islandora:isViewableByUser>Suzanne Westfall</islandora:isViewableByUser>
+    <islandora:isViewableByUser>tlusty</islandora:isViewableByUser>
+    <islandora:isViewableByUser>fedoraAdmin</islandora:isViewableByUser>
+    <islandora:isViewableByRole>administrator</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:2:member</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:4:project contributor</islandora:isViewableByRole>
+    <islandora:isViewableByRole>node:131:5:project editor</islandora:isViewableByRole>
+    <islandora:isManageableByUser>adminUP</islandora:isManageableByUser>
+    <islandora:isManageableByUser>aribaughman</islandora:isManageableByUser>
+    <islandora:isManageableByUser>CSimon</islandora:isManageableByUser>
+    <islandora:isManageableByUser>ilovan</islandora:isManageableByUser>
+    <islandora:isManageableByUser>jakacki</islandora:isManageableByUser>
+    <islandora:isManageableByUser>KimMartin</islandora:isManageableByUser>
+    <islandora:isManageableByUser>Rachel Milio</islandora:isManageableByUser>
+    <islandora:isManageableByUser>fedoraAdmin</islandora:isManageableByUser>
+    <islandora:isManageableByRole>administrator</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:4:project contributor</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:5:project editor</islandora:isManageableByRole>
+    <islandora:lock-expiry>indefinite</islandora:lock-expiry>
+    <islandora:locked-by>jakacki</islandora:locked-by>
+    <islandora:isManagementRule>TRUE</islandora:isManagementRule>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.22" LABEL="Fedora Object to Object Relationship Metadata." CREATED="2018-12-30T20:30:30.810Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="2006">
+<foxml:xmlContent>
+<rdf:RDF xmlns:cwrc="http://cwrc.ca/ns/cw#" xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:islandora="http://islandora.ca/ontology/relsext#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/ceww:1ad6be83-7046-46de-b44e-54845cb69110">
+    <fedora-model:hasModel rdf:resource="info:fedora/cwrc:documentCModel"></fedora-model:hasModel>
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/reed:da9840b3-1c42-47eb-b338-775bb96e1545"></fedora:isMemberOfCollection>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <cwrc:hasSchema rdf:resource="info:fedora/cwrc:5d5159ce-8710-4717-b977-cc528dedc25e"></cwrc:hasSchema>
+    <islandora:lock-expiry>indefinite</islandora:lock-expiry>
+    <islandora:locked-by>jakacki</islandora:locked-by>
+    <islandora:isManagementRule>TRUE</islandora:isManagementRule>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <islandora:isManageableByUser>adminUP</islandora:isManageableByUser>
+    <islandora:isManageableByUser>aribaughman</islandora:isManageableByUser>
+    <islandora:isManageableByUser>CSimon</islandora:isManageableByUser>
+    <islandora:isManageableByUser>ilovan</islandora:isManageableByUser>
+    <islandora:isManageableByUser>jakacki</islandora:isManageableByUser>
+    <islandora:isManageableByUser>KimMartin</islandora:isManageableByUser>
+    <islandora:isManageableByUser>Rachel Milio</islandora:isManageableByUser>
+    <islandora:isManageableByUser>fedoraAdmin</islandora:isManageableByUser>
+    <islandora:isManageableByRole>administrator</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:4:project contributor</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:5:project editor</islandora:isManageableByRole>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.23" LABEL="Fedora Object to Object Relationship Metadata." CREATED="2018-12-31T20:53:33.165Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="1940">
+<foxml:xmlContent>
+<rdf:RDF xmlns:cwrc="http://cwrc.ca/ns/cw#" xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:islandora="http://islandora.ca/ontology/relsext#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/ceww:1ad6be83-7046-46de-b44e-54845cb69110">
+    <fedora-model:hasModel rdf:resource="info:fedora/cwrc:documentCModel"></fedora-model:hasModel>
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/reed:da9840b3-1c42-47eb-b338-775bb96e1545"></fedora:isMemberOfCollection>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <cwrc:hasSchema rdf:resource="info:fedora/cwrc:5d5159ce-8710-4717-b977-cc528dedc25e"></cwrc:hasSchema>
+    <islandora:lock-expiry>indefinite</islandora:lock-expiry>
+    <islandora:locked-by>jakacki</islandora:locked-by>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <islandora:isManageableByUser>adminUP</islandora:isManageableByUser>
+    <islandora:isManageableByUser>aribaughman</islandora:isManageableByUser>
+    <islandora:isManageableByUser>CSimon</islandora:isManageableByUser>
+    <islandora:isManageableByUser>ilovan</islandora:isManageableByUser>
+    <islandora:isManageableByUser>jakacki</islandora:isManageableByUser>
+    <islandora:isManageableByUser>KimMartin</islandora:isManageableByUser>
+    <islandora:isManageableByUser>Rachel Milio</islandora:isManageableByUser>
+    <islandora:isManageableByUser>fedoraAdmin</islandora:isManageableByUser>
+    <islandora:isManageableByRole>administrator</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:4:project contributor</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:5:project editor</islandora:isManageableByRole>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.24" LABEL="Fedora Object to Object Relationship Metadata." CREATED="2018-12-31T20:53:34.190Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="1940">
+<foxml:xmlContent>
+<rdf:RDF xmlns:cwrc="http://cwrc.ca/ns/cw#" xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:islandora="http://islandora.ca/ontology/relsext#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/ceww:1ad6be83-7046-46de-b44e-54845cb69110">
+    <fedora-model:hasModel rdf:resource="info:fedora/cwrc:documentCModel"></fedora-model:hasModel>
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/reed:da9840b3-1c42-47eb-b338-775bb96e1545"></fedora:isMemberOfCollection>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <cwrc:hasSchema rdf:resource="info:fedora/cwrc:5d5159ce-8710-4717-b977-cc528dedc25e"></cwrc:hasSchema>
+    <islandora:lock-expiry>indefinite</islandora:lock-expiry>
+    <islandora:locked-by>jakacki</islandora:locked-by>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <islandora:isManageableByUser>adminUP</islandora:isManageableByUser>
+    <islandora:isManageableByUser>aribaughman</islandora:isManageableByUser>
+    <islandora:isManageableByUser>CSimon</islandora:isManageableByUser>
+    <islandora:isManageableByUser>ilovan</islandora:isManageableByUser>
+    <islandora:isManageableByUser>jakacki</islandora:isManageableByUser>
+    <islandora:isManageableByUser>KimMartin</islandora:isManageableByUser>
+    <islandora:isManageableByUser>Rachel Milio</islandora:isManageableByUser>
+    <islandora:isManageableByUser>fedoraAdmin</islandora:isManageableByUser>
+    <islandora:isManageableByRole>administrator</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:4:project contributor</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:5:project editor</islandora:isManageableByRole>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.25" LABEL="Fedora Object to Object Relationship Metadata." CREATED="2018-12-31T20:53:35.137Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="1823">
+<foxml:xmlContent>
+<rdf:RDF xmlns:cwrc="http://cwrc.ca/ns/cw#" xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:islandora="http://islandora.ca/ontology/relsext#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/ceww:1ad6be83-7046-46de-b44e-54845cb69110">
+    <fedora-model:hasModel rdf:resource="info:fedora/cwrc:documentCModel"></fedora-model:hasModel>
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/reed:da9840b3-1c42-47eb-b338-775bb96e1545"></fedora:isMemberOfCollection>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <cwrc:hasSchema rdf:resource="info:fedora/cwrc:5d5159ce-8710-4717-b977-cc528dedc25e"></cwrc:hasSchema>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <islandora:isManageableByUser>adminUP</islandora:isManageableByUser>
+    <islandora:isManageableByUser>aribaughman</islandora:isManageableByUser>
+    <islandora:isManageableByUser>CSimon</islandora:isManageableByUser>
+    <islandora:isManageableByUser>ilovan</islandora:isManageableByUser>
+    <islandora:isManageableByUser>jakacki</islandora:isManageableByUser>
+    <islandora:isManageableByUser>KimMartin</islandora:isManageableByUser>
+    <islandora:isManageableByUser>Rachel Milio</islandora:isManageableByUser>
+    <islandora:isManageableByUser>fedoraAdmin</islandora:isManageableByUser>
+    <islandora:isManageableByRole>administrator</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:4:project contributor</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:5:project editor</islandora:isManageableByRole>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.26" LABEL="Fedora Object to Object Relationship Metadata." CREATED="2019-01-07T16:07:53.809Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="1823">
+<foxml:xmlContent>
+<rdf:RDF xmlns:cwrc="http://cwrc.ca/ns/cw#" xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:islandora="http://islandora.ca/ontology/relsext#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/ceww:1ad6be83-7046-46de-b44e-54845cb69110">
+    <fedora-model:hasModel rdf:resource="info:fedora/cwrc:documentCModel"></fedora-model:hasModel>
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/reed:da9840b3-1c42-47eb-b338-775bb96e1545"></fedora:isMemberOfCollection>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <cwrc:hasSchema rdf:resource="info:fedora/cwrc:5d5159ce-8710-4717-b977-cc528dedc25e"></cwrc:hasSchema>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <islandora:isManageableByUser>adminUP</islandora:isManageableByUser>
+    <islandora:isManageableByUser>aribaughman</islandora:isManageableByUser>
+    <islandora:isManageableByUser>CSimon</islandora:isManageableByUser>
+    <islandora:isManageableByUser>ilovan</islandora:isManageableByUser>
+    <islandora:isManageableByUser>jakacki</islandora:isManageableByUser>
+    <islandora:isManageableByUser>KimMartin</islandora:isManageableByUser>
+    <islandora:isManageableByUser>Rachel Milio</islandora:isManageableByUser>
+    <islandora:isManageableByUser>fedoraAdmin</islandora:isManageableByUser>
+    <islandora:isManageableByRole>administrator</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:4:project contributor</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:5:project editor</islandora:isManageableByRole>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.27" LABEL="Fedora Object to Object Relationship Metadata." CREATED="2019-01-07T16:07:54.992Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="2080">
+<foxml:xmlContent>
+<rdf:RDF xmlns:cwrc="http://cwrc.ca/ns/cw#" xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:islandora="http://islandora.ca/ontology/relsext#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/ceww:1ad6be83-7046-46de-b44e-54845cb69110">
+    <fedora-model:hasModel rdf:resource="info:fedora/cwrc:documentCModel"></fedora-model:hasModel>
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/reed:da9840b3-1c42-47eb-b338-775bb96e1545"></fedora:isMemberOfCollection>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <cwrc:hasSchema rdf:resource="info:fedora/cwrc:5d5159ce-8710-4717-b977-cc528dedc25e"></cwrc:hasSchema>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <islandora:isManageableByUser>adminUP</islandora:isManageableByUser>
+    <islandora:isManageableByUser>aribaughman</islandora:isManageableByUser>
+    <islandora:isManageableByUser>CSimon</islandora:isManageableByUser>
+    <islandora:isManageableByUser>ilovan</islandora:isManageableByUser>
+    <islandora:isManageableByUser>jakacki</islandora:isManageableByUser>
+    <islandora:isManageableByUser>KimMartin</islandora:isManageableByUser>
+    <islandora:isManageableByUser>Rachel Milio</islandora:isManageableByUser>
+    <islandora:isManageableByUser>fedoraAdmin</islandora:isManageableByUser>
+    <islandora:isManageableByRole>administrator</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:4:project contributor</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:5:project editor</islandora:isManageableByRole>
+    <islandora:lock-expiry>indefinite</islandora:lock-expiry>
+    <islandora:locked-by>jakacki</islandora:locked-by>
+    <islandora:isManagementRule>TRUE</islandora:isManagementRule>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.28" LABEL="Fedora Object to Object Relationship Metadata." CREATED="2019-01-07T16:08:12.386Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="2014">
+<foxml:xmlContent>
+<rdf:RDF xmlns:cwrc="http://cwrc.ca/ns/cw#" xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:islandora="http://islandora.ca/ontology/relsext#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/ceww:1ad6be83-7046-46de-b44e-54845cb69110">
+    <fedora-model:hasModel rdf:resource="info:fedora/cwrc:documentCModel"></fedora-model:hasModel>
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/reed:da9840b3-1c42-47eb-b338-775bb96e1545"></fedora:isMemberOfCollection>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <cwrc:hasSchema rdf:resource="info:fedora/cwrc:5d5159ce-8710-4717-b977-cc528dedc25e"></cwrc:hasSchema>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <islandora:isManageableByUser>adminUP</islandora:isManageableByUser>
+    <islandora:isManageableByUser>aribaughman</islandora:isManageableByUser>
+    <islandora:isManageableByUser>CSimon</islandora:isManageableByUser>
+    <islandora:isManageableByUser>ilovan</islandora:isManageableByUser>
+    <islandora:isManageableByUser>jakacki</islandora:isManageableByUser>
+    <islandora:isManageableByUser>KimMartin</islandora:isManageableByUser>
+    <islandora:isManageableByUser>Rachel Milio</islandora:isManageableByUser>
+    <islandora:isManageableByUser>fedoraAdmin</islandora:isManageableByUser>
+    <islandora:isManageableByRole>administrator</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:4:project contributor</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:5:project editor</islandora:isManageableByRole>
+    <islandora:lock-expiry>indefinite</islandora:lock-expiry>
+    <islandora:locked-by>jakacki</islandora:locked-by>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.29" LABEL="Fedora Object to Object Relationship Metadata." CREATED="2019-01-07T16:08:12.988Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="2014">
+<foxml:xmlContent>
+<rdf:RDF xmlns:cwrc="http://cwrc.ca/ns/cw#" xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:islandora="http://islandora.ca/ontology/relsext#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/ceww:1ad6be83-7046-46de-b44e-54845cb69110">
+    <fedora-model:hasModel rdf:resource="info:fedora/cwrc:documentCModel"></fedora-model:hasModel>
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/reed:da9840b3-1c42-47eb-b338-775bb96e1545"></fedora:isMemberOfCollection>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <cwrc:hasSchema rdf:resource="info:fedora/cwrc:5d5159ce-8710-4717-b977-cc528dedc25e"></cwrc:hasSchema>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <islandora:lock-expiry>indefinite</islandora:lock-expiry>
+    <islandora:locked-by>jakacki</islandora:locked-by>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <islandora:isManageableByUser>adminUP</islandora:isManageableByUser>
+    <islandora:isManageableByUser>aribaughman</islandora:isManageableByUser>
+    <islandora:isManageableByUser>CSimon</islandora:isManageableByUser>
+    <islandora:isManageableByUser>ilovan</islandora:isManageableByUser>
+    <islandora:isManageableByUser>jakacki</islandora:isManageableByUser>
+    <islandora:isManageableByUser>KimMartin</islandora:isManageableByUser>
+    <islandora:isManageableByUser>Rachel Milio</islandora:isManageableByUser>
+    <islandora:isManageableByUser>fedoraAdmin</islandora:isManageableByUser>
+    <islandora:isManageableByRole>administrator</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:4:project contributor</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:5:project editor</islandora:isManageableByRole>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.30" LABEL="Fedora Object to Object Relationship Metadata." CREATED="2019-01-07T16:08:15.291Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="1897">
+<foxml:xmlContent>
+<rdf:RDF xmlns:cwrc="http://cwrc.ca/ns/cw#" xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:islandora="http://islandora.ca/ontology/relsext#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/ceww:1ad6be83-7046-46de-b44e-54845cb69110">
+    <fedora-model:hasModel rdf:resource="info:fedora/cwrc:documentCModel"></fedora-model:hasModel>
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/reed:da9840b3-1c42-47eb-b338-775bb96e1545"></fedora:isMemberOfCollection>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <cwrc:hasSchema rdf:resource="info:fedora/cwrc:5d5159ce-8710-4717-b977-cc528dedc25e"></cwrc:hasSchema>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <islandora:isUserManagementRule>TRUE</islandora:isUserManagementRule>
+    <islandora:isManageableByUser>adminUP</islandora:isManageableByUser>
+    <islandora:isManageableByUser>aribaughman</islandora:isManageableByUser>
+    <islandora:isManageableByUser>CSimon</islandora:isManageableByUser>
+    <islandora:isManageableByUser>ilovan</islandora:isManageableByUser>
+    <islandora:isManageableByUser>jakacki</islandora:isManageableByUser>
+    <islandora:isManageableByUser>KimMartin</islandora:isManageableByUser>
+    <islandora:isManageableByUser>Rachel Milio</islandora:isManageableByUser>
+    <islandora:isManageableByUser>fedoraAdmin</islandora:isManageableByUser>
+    <islandora:isManageableByRole>administrator</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:4:project contributor</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:5:project editor</islandora:isManageableByRole>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="CWRC" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
+<foxml:datastreamVersion ID="CWRC.0" LABEL="GIJohnBankes_1633-34.xml" CREATED="2018-08-28T18:35:24.607Z" MIMETYPE="text/xml" SIZE="14913">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/ceww:1ad6be83-7046-46de-b44e-54845cb69110/CWRC/2018-08-28T18:35:24.607Z"/>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="CWRC.1" LABEL="GIJohnBankes_1633-34.xml" CREATED="2018-12-29T20:51:59.131Z" MIMETYPE="text/xml" SIZE="15292">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/ceww:1ad6be83-7046-46de-b44e-54845cb69110/CWRC/2018-12-29T20:51:59.131Z"/>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="CWRC.2" LABEL="GIJohnBankes_1633-34.xml" CREATED="2018-12-29T20:52:00.362Z" MIMETYPE="text/xml" SIZE="15292">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/ceww:1ad6be83-7046-46de-b44e-54845cb69110/CWRC/2018-12-29T20:52:00.362Z"/>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="CWRC.3" LABEL="GIJohnBankes_1633-34.xml" CREATED="2018-12-29T20:56:21.030Z" MIMETYPE="text/xml" SIZE="17976">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/ceww:1ad6be83-7046-46de-b44e-54845cb69110/CWRC/2018-12-29T20:56:21.030Z"/>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="CWRC.4" LABEL="GIJohnBankes_1633-34.xml" CREATED="2018-12-29T21:02:53.552Z" MIMETYPE="text/xml" SIZE="17967">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/ceww:1ad6be83-7046-46de-b44e-54845cb69110/CWRC/2018-12-29T21:02:53.552Z"/>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="DC" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
+<foxml:datastreamVersion ID="DC.0" LABEL="Dublin Core Record" CREATED="2018-08-28T18:35:24.607Z" MIMETYPE="text/xml" SIZE="1518">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/ceww:1ad6be83-7046-46de-b44e-54845cb69110/DC/2018-08-28T18:35:24.607Z"/>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="DC.1" LABEL="Dublin Core Record" CREATED="2018-12-29T20:37:04.173Z" MIMETYPE="text/xml" SIZE="2493">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/ceww:1ad6be83-7046-46de-b44e-54845cb69110/DC/2018-12-29T20:37:04.173Z"/>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="DC.2" LABEL="Dublin Core Record" CREATED="2019-01-07T16:08:19.494Z" MIMETYPE="text/xml" SIZE="2481">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/ceww:1ad6be83-7046-46de-b44e-54845cb69110/DC/2019-01-07T16:08:19.494Z"/>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="MODS" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
+<foxml:datastreamVersion ID="MODS.0" LABEL="MODS Record" CREATED="2018-08-28T18:35:24.607Z" MIMETYPE="text/xml" SIZE="2995">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/ceww:1ad6be83-7046-46de-b44e-54845cb69110/MODS/2018-08-28T18:35:24.607Z"/>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="MODS.1" LABEL="MODS Record" CREATED="2018-12-29T20:36:58.450Z" MIMETYPE="text/xml" SIZE="2893">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/ceww:1ad6be83-7046-46de-b44e-54845cb69110/MODS/2018-12-29T20:36:58.450Z"/>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="MODS.2" LABEL="MODS Record" CREATED="2018-12-29T20:37:02.289Z" MIMETYPE="application/xml" SIZE="2893">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/ceww:1ad6be83-7046-46de-b44e-54845cb69110/MODS/2018-12-29T20:37:02.289Z"/>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="MODS.3" LABEL="MODS Record" CREATED="2019-01-07T16:08:12.189Z" MIMETYPE="application/xml" SIZE="2881">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/ceww:1ad6be83-7046-46de-b44e-54845cb69110/MODS/2019-01-07T16:08:12.189Z"/>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="WORKFLOW" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
+<foxml:datastreamVersion ID="WORKFLOW.0" LABEL="WORKFLOW DS" CREATED="2018-08-28T18:35:25.525Z" MIMETYPE="text/xml" SIZE="484">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/ceww:1ad6be83-7046-46de-b44e-54845cb69110/WORKFLOW/2018-08-28T18:35:25.525Z"/>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="WORKFLOW.1" LABEL="WORKFLOW DS" CREATED="2018-12-29T20:38:05.661Z" MIMETYPE="text/xml" SIZE="733">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/ceww:1ad6be83-7046-46de-b44e-54845cb69110/WORKFLOW/2018-12-29T20:38:05.661Z"/>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="WORKFLOW.2" LABEL="WORKFLOW DS" CREATED="2018-12-29T21:05:28.105Z" MIMETYPE="text/xml" SIZE="1479">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/ceww:1ad6be83-7046-46de-b44e-54845cb69110/WORKFLOW/2018-12-29T21:05:28.105Z"/>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="WORKFLOW.3" LABEL="WORKFLOW DS" CREATED="2018-12-29T21:17:33.663Z" MIMETYPE="text/xml" SIZE="1770">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/ceww:1ad6be83-7046-46de-b44e-54845cb69110/WORKFLOW/2018-12-29T21:17:33.663Z"/>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="WORKFLOW.4" LABEL="WORKFLOW DS" CREATED="2018-12-29T21:17:52.804Z" MIMETYPE="text/xml" SIZE="2061">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/ceww:1ad6be83-7046-46de-b44e-54845cb69110/WORKFLOW/2018-12-29T21:17:52.804Z"/>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="WORKFLOW.5" LABEL="WORKFLOW DS" CREATED="2018-12-29T21:18:11.824Z" MIMETYPE="text/xml" SIZE="2352">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/ceww:1ad6be83-7046-46de-b44e-54845cb69110/WORKFLOW/2018-12-29T21:18:11.824Z"/>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="WORKFLOW.6" LABEL="WORKFLOW DS" CREATED="2018-12-29T21:18:35.203Z" MIMETYPE="text/xml" SIZE="2643">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/ceww:1ad6be83-7046-46de-b44e-54845cb69110/WORKFLOW/2018-12-29T21:18:35.203Z"/>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="WORKFLOW.7" LABEL="WORKFLOW DS" CREATED="2019-01-07T16:08:36.687Z" MIMETYPE="text/xml" SIZE="2921">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/ceww:1ad6be83-7046-46de-b44e-54845cb69110/WORKFLOW/2019-01-07T16:08:36.687Z"/>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="POLICY" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
+<foxml:datastreamVersion ID="POLICY.0" LABEL="XACML Policy Stream" CREATED="2018-09-08T12:59:54.854Z" MIMETYPE="application/xml" SIZE="17841">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/ceww:1ad6be83-7046-46de-b44e-54845cb69110/POLICY/2018-09-08T12:59:54.854Z"/>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="POLICY.1" LABEL="XACML Policy Stream" CREATED="2018-09-14T12:43:35.843Z" MIMETYPE="application/xml" SIZE="18053">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/ceww:1ad6be83-7046-46de-b44e-54845cb69110/POLICY/2018-09-14T12:43:35.843Z"/>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="POLICY.2" LABEL="XACML Policy Stream" CREATED="2018-10-08T15:04:18.505Z" MIMETYPE="application/xml" SIZE="18471">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/ceww:1ad6be83-7046-46de-b44e-54845cb69110/POLICY/2018-10-08T15:04:18.505Z"/>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="POLICY.3" LABEL="XACML Policy Stream" CREATED="2018-12-29T20:35:18.753Z" MIMETYPE="application/xml" SIZE="18471">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/ceww:1ad6be83-7046-46de-b44e-54845cb69110/POLICY/2018-12-29T20:35:18.753Z"/>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="POLICY.4" LABEL="XACML Policy Stream" CREATED="2018-12-29T20:37:01.403Z" MIMETYPE="application/xml" SIZE="18471">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/ceww:1ad6be83-7046-46de-b44e-54845cb69110/POLICY/2018-12-29T20:37:01.403Z"/>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="POLICY.5" LABEL="XACML Policy Stream" CREATED="2018-12-29T20:39:00.343Z" MIMETYPE="application/xml" SIZE="18471">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/ceww:1ad6be83-7046-46de-b44e-54845cb69110/POLICY/2018-12-29T20:39:00.343Z"/>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="POLICY.6" LABEL="XACML Policy Stream" CREATED="2018-12-29T21:02:55.104Z" MIMETYPE="application/xml" SIZE="18471">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/ceww:1ad6be83-7046-46de-b44e-54845cb69110/POLICY/2018-12-29T21:02:55.104Z"/>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="POLICY.7" LABEL="XACML Policy Stream" CREATED="2018-12-30T20:28:46.578Z" MIMETYPE="application/xml" SIZE="18471">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/ceww:1ad6be83-7046-46de-b44e-54845cb69110/POLICY/2018-12-30T20:28:46.578Z"/>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="POLICY.8" LABEL="XACML Policy Stream" CREATED="2018-12-30T20:30:30.929Z" MIMETYPE="application/xml" SIZE="13187">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/ceww:1ad6be83-7046-46de-b44e-54845cb69110/POLICY/2018-12-30T20:30:30.929Z"/>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="POLICY.9" LABEL="XACML Policy Stream" CREATED="2018-12-31T20:53:34.615Z" MIMETYPE="application/xml" SIZE="13187">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/ceww:1ad6be83-7046-46de-b44e-54845cb69110/POLICY/2018-12-31T20:53:34.615Z"/>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="POLICY.10" LABEL="XACML Policy Stream" CREATED="2019-01-07T16:07:54.594Z" MIMETYPE="application/xml" SIZE="13187">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/ceww:1ad6be83-7046-46de-b44e-54845cb69110/POLICY/2019-01-07T16:07:54.594Z"/>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="POLICY.11" LABEL="XACML Policy Stream" CREATED="2019-01-07T16:08:14.100Z" MIMETYPE="application/xml" SIZE="13187">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/ceww:1ad6be83-7046-46de-b44e-54845cb69110/POLICY/2019-01-07T16:08:14.100Z"/>
+</foxml:datastreamVersion>
+</foxml:datastream>
+</foxml:digitalObject>

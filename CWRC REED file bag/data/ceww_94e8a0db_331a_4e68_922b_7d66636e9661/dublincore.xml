@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+  <dc:title>Gray&apos;s Inn Pension Book, 1576-77</dc:title>
+  <dc:subject>Theater--England--London--History--16th century</dc:subject>
+  <dc:subject></dc:subject>
+  <dc:subject></dc:subject>
+  <dc:description>Some abstract here.</dc:description>
+  <dc:contributor>Gray&apos;s Inn</dc:contributor>
+  <dc:type>Text</dc:type>
+  <dc:type>Born Digital</dc:type>
+  <dc:type>born digital</dc:type>
+  <dc:type>Scholarly writing</dc:type>
+  <dc:type>Reference work</dc:type>
+  <dc:type>some tag</dc:type>
+  <dc:format>electronic resource</dc:format>
+  <dc:format>text/xml</dc:format>
+  <dc:identifier>ceww:94e8a0db-331a-4e68-922b-7d66636e9661</dc:identifier>
+  <dc:language>English</dc:language>
+  <dc:coverage>London</dc:coverage>
+  <dc:coverage>1501-1600</dc:coverage>
+  <dc:rights>Use of this public-domain resource is governed by the &lt;a
+               rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;
+               target=&quot;blank&quot;&gt;Creative Commons Attribution-NonCommercial 4.0 International
+               License&lt;/a&gt;.</dc:rights>
+</oai_dc:dc>

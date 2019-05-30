@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="https://beta.cwrc.ca/islandora/object/cwrc%3A5d5159ce-8710-4717-b977-cc528dedc25e/datastream/CSS/view"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cw="http://cwrc.ca/ns/cw#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xml:base="tei/records/" xml:id="london" xml:lang="eng"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cw="http://cwrc.ca/ns/cw#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:bibo="http://purl.org/ontology/bibo/">
+<rdf:Description rdf:about="https://beta.cwrc.ca/sites/default/modules/islandora_cwrc_writer/build/editor/documents/reed:b048103a-cb66-4ecc-82b8-52357a8cbbe0">
+	<cw:mode>0</cw:mode>
+	<cw:allowOverlap>false</cw:allowOverlap>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/582693e2-52fc-4c66-ac7d-52f7bb2e5c8a">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/bdb72d3c-cc2b-46f5-9a2d-f821fc8bb365"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/note/e3dbf775-380f-4536-9f8f-46b1282b8100"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/user/0f230557-471f-4abc-a12a-cfd5c4ed8b8e"/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-09-30T00:43:04.483Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-09-30T00:43:04.483Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#commenting"/>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/note/e3dbf775-380f-4536-9f8f-46b1282b8100">
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Note"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/bdb72d3c-cc2b-46f5-9a2d-f821fc8bb365">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/2ee25003-091c-42de-aaf8-53157bcb50a5"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/a093eb06-ba2e-46a2-9a3c-1db9c100780a"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/a093eb06-ba2e-46a2-9a3c-1db9c100780a">
+	<rdf:value>xpointer(//note[@annotationId="ent_296"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+</rdf:RDF>
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>               
+                <title type="main">Inns of Court</title>
+                
+                
+                <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>
+                <funder><orgName>CANARIE</orgName></funder>
+                
+                <funder><orgName>British Academy, London, UK</orgName></funder>
+                <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>
+                <funder><orgName>National Endowment for the Humanities, Washington, DC, United States of America</orgName></funder>
+                <funder><orgName>Social Sciences and Humanities Research Council, Ottawa, Canada</orgName></funder>
+                
+                <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
+                <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
+                
+                
+                <!--  REED staff  -->
+                <respStmt>
+                    <persName xml:id="CB">Carolyn Black</persName>
+                    <orgName>Records of Early English Drama (REED)</orgName>
+                    <resp>Project Manager</resp>
+                </respStmt>
+                
+                <respStmt>
+                    <persName>William Cooke</persName>
+                    <orgName>Records of Early English Drama (REED)</orgName>
+                    <resp>English Glossarian</resp>
+                </respStmt>
+                
+                <respStmt>
+                    <persName xml:id="PG">Patrick Gregory</persName>
+                    <orgName>Records of Early English Drama (REED)</orgName>
+                    <resp>Associate Editor</resp>
+                    <!--  confirm  -->
+                    <resp>Paleographer, Translator</resp>
+                    <!--  confirm  -->
+                </respStmt>
+                
+                <respStmt>
+                    <persName>Alexandra F. Johnston</persName>
+                    <orgName>Records of Early English Drama (REED)</orgName>
+                    <resp>REED Founder and Senior Consultant</resp>
+                </respStmt>
+                
+                <respStmt>
+                    <persName>Arleane Ralph</persName>
+                    <orgName>Records of Early English Drama (REED)</orgName>
+                    <resp>Paleographer</resp>
+                </respStmt>
+                
+                <respStmt>
+                    <persName>Abigail Ann Young</persName>
+                    <orgName>Records of Early English Drama (REED)</orgName>
+                    <resp>Latin Glossarian</resp>
+                </respStmt>
+                
+                
+                <!--  NHPRC-Mellon Team, 2018  -->
+                <respStmt>
+                    <persName>John Bradley</persName>
+                    <resp>NHPRC-Mellon Project Team Member</resp>
+                </respStmt>
+                
+                <respStmt>
+                    <persName>Susan Brown</persName>
+                    <orgName>University of Guelph</orgName>
+                    <resp>NHPRC-Mellon Project Team Member</resp>
+                </respStmt>
+                
+                <respStmt>
+                    <persName xml:id="KC">Kathy Chung</persName>
+                    <orgName>Records of Early English Drama (REED)</orgName>
+                    <resp>REED Research Associate, NHPRC-Mellon Project Consultant</resp>
+                </respStmt>
+                
+                <respStmt>
+                    <persName xml:id="JC">James Cummings</persName>
+                    <orgName>Newcastle University</orgName>
+                    <resp>Records of Early English Drama (REED) Executive Board</resp>
+                    <resp>NHPRC-Mellon Project Team Member</resp>
+                    <resp>TEI Schema Designer, Technical Consultant</resp>
+                </respStmt>
+                
+                <respStmt>
+                    <persName>Matthew Davies</persName>
+                    <orgName>University of London, Birkbeck College</orgName>
+                    <!--  confirm  -->
+                    <resp>Records of Early English Drama (REED) Executive Board</resp>
+                    <resp>NHPRC-Mellon Project Team Member</resp>
+                </respStmt>
+                
+                <respStmt>
+                    <persName>Tanya Hagen</persName>
+                    <orgName>Records of Early English Drama (REED)</orgName>
+                    <resp>Bibliographer, NHPRC-Mellon Project Consultant</resp>
+                </respStmt>
+                
+                <respStmt>
+                    <persName>Mihaela Iloven</persName>
+                    <orgName>Canadian Writing Research Collaboratory</orgName>
+                    <resp>CWRC project manager, NHPRC-Mellon advisor</resp>
+                </respStmt>
+                
+                <respStmt>
+                    <persName xml:id="JAKA1">Diane K. Jakacki</persName>
+                    <orgName>Bucknell University</orgName>
+                    <resp>Records of Early English Drama (REED) Executive Board</resp>
+                    <resp>Principal Investigator, NHPRC-Mellon Digital Edition Publishing Cooperatives Planning Grant</resp>
+                </respStmt>
+                
+                <respStmt>
+                    <persName>David Kathman</persName>
+                    <resp>NHPRC-Mellon Project Team Member</resp>
+                </respStmt>
+                
+                <respStmt>
+                    <persName>Sally-Beth MacLean</persName>
+                    <orgName>Records of Early English Drama (REED)</orgName>
+                    <resp>Principal Investigator, SSHRC grant; Director of Research and General Editor</resp>
+                    <resp>NHPRC-Mellon Project Team Member</resp>
+                </respStmt>
+                
+                <respStmt>
+                    <persName xml:id="KM">Kimberley Martin</persName>
+                    <orgName>University of Guelph</orgName>
+                    <resp>NHPRC-Mellon Project Consultant</resp>
+                </respStmt>
+                
+                <respStmt>
+                    <persName>Christopher Matusiak</persName>
+                    <orgName>Ithaca College</orgName>
+                    <resp>NHPRC-Mellon Project Team Member</resp>
+                </respStmt>
+                
+                <respStmt>
+                    <persName xml:id="JN">Jamie Norrish</persName>
+                    <resp>Programmer, EATS developer, NHPRC-Mellon Project Consultant</resp>
+                </respStmt>
+                
+                <respStmt>
+                    <persName>Dorothy Porter</persName>
+                    <orgName>University of Pennsylvania</orgName>
+                    <resp>NHPRC-Mellon Project Team Member</resp>
+                </respStmt>
+                
+                <respStmt>
+                    <persName>Suzanne Westfall</persName>
+                    <orgName>Lafayette College</orgName>
+                    <resp>Records of Early English Drama (REED) Executive Board Member</resp>
+                    <resp>NHPRC-Mellon Project Team Member</resp>
+                </respStmt>
+                
+                <!--  Bucknell Research Assistantx  -->
+                <respStmt>
+                    <persName>Ari Baughman</persName>
+                    <orgName>Bucknell Univerity</orgName>
+                    <resp>REED London research assistant, 2018</resp>
+                </respStmt>
+                
+                <respStmt>
+                    <persName>Maureen Maclean</persName>
+                    <orgName>Bucknell University</orgName>
+                    <resp>REED London research assistant, 2018</resp>
+                </respStmt>
+                
+                <respStmt>
+                    <persName>Rachel Milio</persName>
+                    <orgName>Bucknell University</orgName>
+                    <resp>REED London research assistant, 2018</resp>
+                </respStmt>
+                
+                <respStmt>
+                    <persName>Charlotte Simon</persName>
+                    <orgName>Bucknell University</orgName>
+                    <resp>REED London research assistant, 2018</resp>
+                </respStmt>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>Print version, published <date when-iso="2010">2010</date>. Electronic edition, anticipated publication <date when-iso="2018">2018</date></edition>
+            </editionStmt>
+            
+            <publicationStmt>
+                <authority><orgName>Records of Early English Drama (REED)</orgName>
+                    <address>
+                        <addrLine>University of Toronto</addrLine>
+                        <addrLine>170 St George Street, Suite 810</addrLine>
+                        <addrLine>Toronto, Ontario, Canada</addrLine>
+                        <addrLine>M5R 2M8</addrLine>
+                    </address>
+                </authority>
+                
+                <publisher>D.S. Brewer, Cambridge, an imprint of Boydell &amp; Brewer Ltd./Boydell &amp; Brewer Ltd.</publisher>
+                <pubPlace>Rochester, NY</pubPlace>
+                <date>2010</date>
+                <idno type="other">978-1-84384-259-0</idno>
+                
+                <availability>
+                    <p>Copyright <orgName>Records of Early English Drama (REED)</orgName>, <date>2017</date></p>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) licence.</licence>
+                </availability>
+            </publicationStmt>
+            
+            <seriesStmt>
+                <title>Records of Early English Drama</title>
+            </seriesStmt>
+            <sourceDesc>
+                <p>This publication constitutes a remediation of the printed Inns of Court collection. Information on original sources for transcriptions can be accessed via the Document Descriptions.</p>
+                <p>This record can be found on [PAGE(S)] of REED: Inns of Court, Vol. [#]</p>
+                <p>For a full list of REED collections, editors, executive board members, and staff, please visit http://reed.utoronto.ca/people</p>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <listPrefixDef>
+                <prefixDef ident="taxon" matchPattern="([A-Za-z0-9_-]+)" replacementPattern="../taxonomy.xml#$1">
+                    <p>Private URIs using the <code>taxon</code> prefix are pointers to entities in the taxonomy.xml file. For example, <code>taxon:church</code> dereferences to <code>taxonomy.xml#church</code>.</p>
+                </prefixDef>
+                <prefixDef ident="gloss" matchPattern="([A-Za-z0-9_-]+)" replacementPattern="../glossary.xml#$1">
+                    <p>Private URIs using the <code>gloss</code> prefix are pointers to entities in the glossary.xml file. For example, <code>gloss:histrio-1</code> dereferences to <code>glossary.xml#histrio-1</code>.</p>
+                </prefixDef>
+            </listPrefixDef>
+            
+            <projectDesc>
+                <p>Records of Early English Drama (REED) is an international scholarly project that is establishing for the first time the context from which the drama of Shakespeare and his contemporaries grew. Founded in 1976, REED has worked since then to locate, transcribe, and edit historical documents containing evidence of drama, secular music, and other communal entertainment and ceremony from the Middle Ages until 1642, when the Puritans closed the London theatres.</p>
+            </projectDesc>
+        </encodingDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <settingDesc>
+                <place>
+                    <placeName>London</placeName>
+                </place>
+            </settingDesc>
+        </profileDesc>
+    </teiHeader>
+
+    <text ana="taxon:grays-inn" type="record" xml:id="RLGIM001">
+        <body>
+            <head>
+                <date when-iso="1613">1613-14</date></head>
+            <div type="transcription" xml:lang="en">
+                <div>
+                    <head>
+                        <supplied>Gray's Inn Masque<note annotationId="ent_296">In this poem ‘Paris’ seems to signify London. Clearly ‘Lorde of Poole’ is the
+Gray’s Inn Prince of Purpoole. Characters referenced in the poem match the same Inn’s Masque of
+Flowers, but only approximately: see Appendix 2, p 544. The poem has been assigned to 1613–14 on
+this (somewhat equivocal) evidence. </note></supplied></head>
+                    <pb n="21-1v" type="folio"/>
+                    <lg>
+                        <l>Last Christ-mas 't was my chance</l>
+                        <l>to be in Paris city</l>
+                        <l>where I did see a dance</l>
+                        <l>In my conceite 't was pretty</l>
+                        <l>by men of ffrance.</l>
+                    </lg>
+                    <lg>
+                        <l>ffirst comes the Lorde of Poole</l>
+                        <l>&amp; he beganne his measures</l>
+                        <l>&amp; after him a foole</l>
+                        <l>to dance with him for pleasure</l>
+                        <l>with his toole</l>
+                    </lg>
+                    <lg>
+                        <l>The nexte a knighte comes in</l>
+                        <l>he lookte as he would swagger</l>
+                        <l>&amp; after followed him</l>
+                        <l>a very needy begger</l>
+                        <l>dancing in</l>
+                    </lg>
+                    <lg>
+                        <l>A gentleman nexte him</l>
+                        <l>on him a serjente tended</l>
+                        <l>&amp; they the dance beginne</l>
+                        <l>with nimble bodies bended</l>
+                        <l>like to frends</l>
+                    </lg>
+                    <lg>
+                        <l>The next a lawyer came</l>
+                        <l>with him a knave came leaping</l>
+                        <l>&amp; they theire dance did frame</l>
+                        <l>&amp; hand in hand came skipping</l>
+                        <l>as to the terme</l>
+                    </lg>
+                    <lg>
+                        <l>The next a Citizen</l>
+                        <l>&amp; he a Cuckolde leading</l>
+                        <l>&amp; round about they ranne</l>
+                        <l>the maske they fell to treading</l>
+                        <l>&amp; fame they wanne</l>
+                    </lg>
+                    <lg>
+                        <l>The laste an vsurer</l>
+                        <l>ould fatte back he came grunting</l>
+                        <l>the devill lefte all care</l>
+                        <l>&amp; felle for ioye to iumping</l>
+                        <l>to see the<expan>m</expan> there |</l>
+                    </lg>
+                    <lg>
+                        <l>Then ending thus theire maske</l>
+                        <l>the foole the Lord did carry</l>
+                        <l>vpon his backe in haste</l>
+                        <l>no longer would they tarry</l>
+                        <l>they rode so faste</l>
+                    </lg>
+                    <lg>
+                        <l>The begger tooke the knighte</l>
+                        <l>who tooke it in derision</l>
+                        <l>The serjente bare with spight</l>
+                        <l>the gentleman to prison</l>
+                        <l>for all his might</l>
+                    </lg>
+                    <lg>
+                        <l>The Cuckolde silly man</l>
+                        <l>for all he was abhorred</l>
+                        <l>he tooke the Citisen</l>
+                        <l>&amp; ledde him by the foreheade</l>
+                        <l>&amp; out they ranne</l>
+                    </lg>
+                    <lg>
+                        <l>The devill he likte it well</l>
+                        <l>his lotte it was to carrie</l>
+                        <l>the Vsurer to hell</l>
+                        <l>quoth he here shalte thou tarrie</l>
+                        <l>with me to dwell</l>
+                    </lg>
+                    <lg>
+                        <l>As for the knave and [lawyer]</l>
+                        <l>Like frends that were true hearted</l>
+                        <l>they went away together</l>
+                        <l>&amp; since they neuer parted.</l>
+                        <l>one from the other.</l>
+                    </lg>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

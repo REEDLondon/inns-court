@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="REED.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="eng"> 
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            
+            <title type="main">Inns of Court</title>
+            
+            
+            <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>
+            <funder><orgName>CANARIE</orgName></funder> 
+            
+            <funder><orgName>British Academy, London, UK</orgName></funder>
+            <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>            
+            <funder><orgName>National Endowment for the Humanities, Washington, DC, United States of
+               America</orgName></funder>
+            <funder><orgName>Social Sciences and Humanities Research Council, Ottawa,
+               Canada</orgName></funder>
+            
+            <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
+            <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
+            <respStmt>
+               <persName>Ari Baughman</persName>
+               <orgName>Bucknell Univerity</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="CB">Carolyn Black</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Project Manager</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>John Bradley</persName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Susan Brown</persName> 
+               <orgName>University of Guelph</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="KC">Kathy Chung</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>REED Research Associate, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>William Cooke</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>English Glossarian</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="JC">James Cummings</persName>
+               <orgName>Newcastle University</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+               <resp>TEI Schema Designer, Technical Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Matthew Davies</persName>
+               <orgName>University of London, Birkbeck College</orgName> <!-- confirm -->
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="PG">Patrick Gregory</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Associate Editor</resp> <!-- confirm -->
+               <resp>Paleographer, Translator</resp> <!-- confirm -->
+            </respStmt>
+            <respStmt>
+               <persName>Tanya Hagen</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Bibliographer, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="JAKA1">Diane K. Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>Principal Investigator, NHPRC-Mellon Digital Edition Publishing Cooperatives Planning Grant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Alexandra F. Johnston</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>REED Founder and Senior Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>David Kathman</persName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Sally-Beth MacLean</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Principal Investigator, SSHRC grant; Director of Research and General Editor</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Maureen Maclean</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="KM">Kimberley Martin</persName>
+               <orgName>University of Guelph</orgName>
+               <resp>NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Christopher Matusiak</persName>
+               <orgName>Ithaca College</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="JN">Jamie Norrish</persName>
+               <resp>Programmer, EATS developer, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Dorothy Porter</persName>
+               <orgName>University of Pennsylvania</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Arleane Ralph</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Paleographer</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Suzanne Westfall</persName>
+               <orgName>Lafayette College</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board Member</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Abigail Ann Young</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Latin Glossarian</resp>
+            </respStmt>
+            
+         </titleStmt>
+         <editionStmt>
+            <edition>Print version, published <date when-iso="2010">2010</date>. Electronic edition, anticipated publication <date when-iso="2018">2018</date></edition>
+         </editionStmt>
+         
+         <publicationStmt>
+            <authority><orgName>Records of Early English Drama (REED)</orgName>
+               <address>
+                  <addrLine>University of Toronto</addrLine>
+                  <addrLine>170 St George Street, Suite 810</addrLine>
+                  <addrLine>Toronto, Ontario, Canada</addrLine>
+                  <addrLine>M5R 2M8</addrLine>
+               </address>
+            </authority>
+            
+            <publisher>D.S. Brewer, Cambridge, an imprint of Boydell &amp; Brewer Ltd./Boydell &amp; Brewer Ltd.</publisher>
+            <pubPlace>Rochester, NY</pubPlace>
+            <date>2010</date>
+            <idno type="other">978-1-84384-259-0</idno>
+            
+            <availability>
+               <p>Copyright <orgName>Records of Early English Drama (REED)</orgName>,
+                  <date>2017</date></p>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a
+                  Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA
+                  4.0) licence.</licence>
+            </availability>
+         </publicationStmt>
+         
+         <seriesStmt>
+            <title>Records of Early English Drama</title>
+         </seriesStmt>
+         <sourceDesc>
+            <p>This publication constitutes a remediation of the printed Inns of Court collection. Information on original sources for transcriptions can be accessed via the Document Descriptions.</p>
+            <p>For a full list of REED collections, editors, executive board members, and staff, please visit http://reed.utoronto.ca/people</p>       
+         </sourceDesc>
+      </fileDesc>
+      
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="taxon" matchPattern="([A-Za-z0-9_-]+)"
+               replacementPattern="../taxonomy.xml#$1">
+               <p>Private URIs using the <code>taxon</code> prefix are pointers to entities in the
+                  taxonomy.xml file. For example, <code>taxon:church</code> dereferences to
+                  <code>taxonomy.xml#church</code>.</p>
+            </prefixDef>
+            <prefixDef ident="gloss" matchPattern="([A-Za-z0-9_-]+)"
+               replacementPattern="../glossary.xml#$1">
+               <p>Private URIs using the <code>gloss</code> prefix are pointers to entities in the
+                  glossary.xml file. For example, <code>gloss:histrio-1</code> dereferences to
+                  <code>glossary.xml#histrio-1</code>.</p>
+            </prefixDef>
+         </listPrefixDef>
+         
+         <projectDesc>
+            <p>Records of Early English Drama (REED) is an international scholarly project that is
+               establishing for the first time the context from which the drama of Shakespeare and his
+               contemporaries grew. Founded in 1976, REED has worked since then to locate, transcribe,
+               and edit historical documents containing evidence of drama, secular music, and other
+               communal entertainment and ceremony from the Middle Ages until 1642, when the Puritans
+               closed the London theatres.</p>
+         </projectDesc>
+      </encodingDesc>
+      
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">English</language>
+            <language ident="lat">Latin</language>
+            <language ident="fra">Anglo-French</language>
+         </langUsage>
+         <settingDesc>
+            <place>
+               <placeName>London</placeName> 
+            </place>
+         </settingDesc>
+      </profileDesc>
+      <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
+         <mods:mods>
+            <mods:titleInfo>
+               <mods:title>Gray's Inn Pension Book, 1633-34</mods:title>
+            </mods:titleInfo>
+            <mods:name
+               type="corporate">
+               <mods:namePart>Gray's Inn</mods:namePart>
+            </mods:name>
+            <mods:typeOfResource>text</mods:typeOfResource>
+            <mods:genre type="formatType">Born Digital</mods:genre>
+            <mods:genre type="format">born digital</mods:genre>
+            <mods:genre type="primaryGenre">Record</mods:genre>
+            <mods:genre type="subgenre">Archival material</mods:genre>
+            <mods:genre>Performance</mods:genre>
+            <mods:language>
+               <mods:languageTerm type="text">English</mods:languageTerm>
+            </mods:language>
+            <mods:physicalDescription>
+               <mods:form authority="marccategory">electronic resource</mods:form>
+               <mods:internetMediaType>text/xml</mods:internetMediaType>
+               <mods:digitalOrigin>born digital</mods:digitalOrigin>
+            </mods:physicalDescription>
+            <mods:abstract>"Surviving Pension Books date from 1568–9. William Dugdale consulted an earlier volume, now lost. His Origines Juridiciales (1666) preserves entries from 1529–30 and 1550–1 (see pp 58–9, 74; see p lxxvi for document description). Financial accounts were entered in the Pension Book to 1582–3, and thereafter in Ledger Books. The library holds microfiche of the Pension Books produced in 1976 (skipping ff 234v–5), and digital photos of PEN/1/1 (Pension Book 1), taken in 2006 when the volume was disbound for conservation.
+               The standard essential publication is Reginald J. Fletcher (ed), The Pension Book of Gray’s Inn (Records of the Honourable Society)1569–1669, vol 1 (London, 1901)."</mods:abstract>
+            <mods:subject>
+               <mods:topic valueURI="http://id.loc.gov/authorities/subjects/sh2002012473">Theater--England--London--History--17th century
+               </mods:topic>
+            </mods:subject>
+            <mods:subject>
+               <mods:geographic valueURI="http://www.geonames.org/2643743/">London</mods:geographic>
+            </mods:subject>
+            <mods:subject>
+               <mods:temporal point="start">1601</mods:temporal>
+               <mods:temporal point="end">1700</mods:temporal>
+            </mods:subject>    
+            <mods:accessCondition
+               type="use and reproduction">Use of this public-domain resource is governed by the &lt;a
+               rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"
+               target="blank"&gt;Creative Commons Attribution-NonCommercial 4.0 International
+               License&lt;/a&gt;.</mods:accessCondition>
+            <mods:recordInfo>
+               <mods:recordOrigin>This MODS record was created using the Islandora XML Forms collection of Drupal modules.</mods:recordOrigin>
+               <mods:languageOfCataloging>
+                  <mods:languageTerm type="text">English</mods:languageTerm>
+               </mods:languageOfCataloging>
+               <mods:recordContentSource>Canadian Writing Research Collaboratory</mods:recordContentSource>
+            </mods:recordInfo>
+         </mods:mods>
+      </xenoData>
+   </teiHeader>
+   
+   <text ana="taxon:grays_inn" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1633-09-29" to-iso="1634-09-29">1633-4</date>
+            <seg ana="taxon:RLGIPB01" corresp="taxon:RPCIC1 pp. 234-9">RLGIPB01</seg></head>
+         <div type="transcription">
+            <div>
+               <head>ff 401–1v <date from-iso="1633-11-09" to-iso="1633-11-14"/><supplied>(9–14 November 1633) (Pension orders)</supplied><ptr type="endnote" target="RLE00206"/></head>
+               <pb n="401-1v" type="folio"/>
+               <gap reason="omitted"/>
+               <list>
+                  <item>It is agreed that towards the furni <damage/>  now intended ther shall bee levyed  <damage/></item> 
+                  <item>the Bench &amp; of eu<ex>er</ex>y Barronet or  <damage/> the house 4 li. a man of euery  <damage/></item>
+                  <item>eu<ex>er</ex>y Barrister 40 s. &amp; of eu<ex>er</ex>y yo <damage/>  presently of ech that is in towne  <damage/></item>
+                  <item>house mr Godbold &amp; mr Rumsey  <damage/>  for the Bench and knights  <damage/></item>
+                  <item>will<ex>iam</ex> Ward for the Auncients./</item>
+                  <item>mr newdegate &amp; mr Rutter for  <damage/> </item>
+                  <item>mr Gulston mr wentworth &amp; mr  <damage/></item>
+                  <item>And mr whitfeld is chosen Treasuror to whom these Collectors are to pay there monyes collected weekely</item>                  
+                  <item>And power is giuen to mr whitfeld mr Brereton &amp; mr dauison the three com<ex>m</ex>ittees of this house for the Maske together with the other com<ex>m</ex>ittees of the <del>three</del> other houses to agree w<ex>i</ex>th the s<ex>ai</ex>d other com<ex>m</ex>ittees of such things as they shall thinke fitt about the accomodation of the Maske./</item>
+               </list>
+               <gap reason="omitted"/>                                       
+            </div>
+            
+            <div>
+               <head><date when-iso="1633-11-14"/><supplied>(14 November 1633)</supplied></head>
+               <list>
+                  <item>mr Iones mr Hooker &amp; mr Page three of the Attorneyes of <damage/> hamber are to pay 3 li. a man towards the maske  <damage/>  the chambers they hold there, &amp; the Clarke  <damage/>amber to pay 4 li. &amp; the Custos Breuiums<note type="foot">Breuiums: <hi rend="italic">for</hi> Breuium</note>   <damage/>  in respect of his office &amp; the Clarke  <damage/>  in respect of his office in Grayes  <damage/> in aunchients Collections &amp; the 4<hi rend="superscript">ers</hi>  <damage/>  Collections./</item>
+                  <item><damage/> towards the maske are to pay  <damage/> seu<ex>er</ex>all collectors thereof by this day <damage/> there seu<ex>er</ex>all Chambers to bee seased for <damage/> forfeited./.</item>
+                  <item><damage/> bee assistants and to pay there vacac<ex>i</ex>ons <damage/> in &amp; as they accept the said assistancey <damage/>nd to present names of assistance  <damage/> Pencions the fower maskers &amp; the 25 <damage/> house that are to present the Masque <damage/>nd to bee exempted from the <del>Collection</del> <damage/> to the Masque./</item>
+               </list>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>ff 402v–3 <date when-iso="1633-11-18"/><supplied>(18 November 1633)</supplied></head>
+               <pb n="402v-3" type="folio"/>               
+               <gap reason="omitted"/>
+               <list>
+                  <item>It is Ordred that if any gent<ex>leman</ex> taxed to the masque shall faile to pay his
+                     tax before Thursday next<note type="foot">Thursday next: <hi rend="italic">21 November 1633</hi></note> that then his Chamber if hee haue ^<add place="above">a Chamber</add> shallbe seased as forfited And hee put out of Com<ex>m</ex>ons; And if hee haue noe Chamber &amp; bee in Com<ex>m</ex>ons then hee shallbe put out of Com<ex>m</ex>ons &amp; pay duble taxe. And if hee bee not in Com<ex>m</ex>ons hee shalbee Cast into Com<ex>m</ex>ons &amp; kept in till hee haue payd his taxe double./</item>
+                  <item>It is Ordred that mr Will<ex>ia</ex>m Greeke shall for refuseinge to bee an Assistant pay a fine of 50 li./</item>
+                  <item>It is Ordred that mr Edward Ascough bee discharged of his being an Assistant./</item>
+                  <item>It is Ordred that mr Will<ex>ia</ex>m Iackson &amp; mr Richard Proctor bee called Assistants &amp; are to bee warned to attend at the next Penc<ex>i</ex>on</item>
+               </list>
+               <gap reason="omitted"/>
+            </div>
+
+            <div>
+               <head><date when-iso="1633-11-21"/><supplied>(21 November 1633)</supplied></head>
+               <list>
+                  <item>It is orderd that mr Will<ex>ia</ex>m Iackson bee discharged of his being an Assistant</item>
+                  <item>Mr Iohn Onby is called an Assistant &amp; is to attend at the next Penc<ex>i</ex>on./.</item>
+                  <item>Mr Richard Proctor hath accepted of his being Assistant</item>
+                  <item>It is ordred that the Collectors for the masque shall on Satterday<note type="foot">Satterday: <hi rend="italic">23 November 1633</hi></note> dinner p<ex>re</ex>sent the names of all such as haue not payd there tax, to the end that such as haue chambers in the house may haue the Chambers seased as forfayted &amp; bee put out of Com<ex>m</ex>ons vntill they pay there respectiue taxes. And such as haue noe Chambers to bee put out of commons vntill they <add place="above">shall</add> pay there taxes duble And such as bee not in Com<ex>m</ex>ons shall bee cast into com<ex>m</ex>ons &amp; kept in vntill they pay there respectiue taxes duble./</item>
+               </list>
+               <gap reason="omitted"/>
+            </div>
+               
+               <div>
+                  <head> <date when-iso="1633-11-26"/><supplied>(26 November 1633)</supplied></head>
+                  <list>
+                     <item>It is Ordred that Mr Rutter bee added to the Com<ex>m</ex>ittees to the Masque to assist them therein./</item>
+                     <item> It is Ordred that mr Whitfeld may deliu<ex>er</ex> out any of the moneys w<ex>hi</ex>ch hee shall receiue towards the Masque vppon warrants to him to bee directed &amp; seig<del><damage/></del>ned by any three of the Com<ex>m</ex>ittees for the fower Howses of Court and that such deliu<ex>ery</ex> vppon such warrant shallbe a discharge to him; neuerthelesse it is ordred hee may issue out any some not exceedinge xl s. &amp; the same shallbe allowed him hee takeinge a receipt for the same vnder the p<ex>ar</ex>ties hands that receues the same of him respectiuely.</item>
+                  </list>
+                  <gap reason="omitted"/>
+               </div>
+            
+                  <div>
+                     <head>f 403v <date when-iso="1634-01-23"/><supplied>(23 January 1633/4)</supplied></head>
+                     <pb n="403v" type="folio"/>
+                     <gap reason="omitted"/>
+                     <list>
+                        <item>It is ordred that towards the furnishing of the masque to be p<ex>re</ex>sented at Co<ex>ur</ex>t ther shallbe leuied more then is form<ex>er</ex>ly taxed of eu<ex>er</ex>y man halfe soe much as was formerly taxed vppon him; All these to bee leuied p<ex>re</ex>sently vnder the former penallty by the former Collectors respectiuely &amp; payd to the Tr<ex>easu</ex>rer for the masque prouided that this tax shall not extend to any gent<ex>leman</ex> that is a <del>Rider</del> Masquer or shall Ryde to p<ex>re</ex>sent the masque at Court./.</item>
+                     </list>
+                     <gap reason="omitted"/>
+                  </div>
+            
+                  <div>                     
+                     <head><date when-iso="1634-01-29"/><supplied>(29 January 1633/4)</supplied></head>
+                     <list>
+                        <item>All gent<ex>lemen</ex> of this societie that are taxed to paye towards the masque are to make payment before ffryday<note type="foot">ffryday: <hi rend="italic">31 January 1633/4</hi></note> at night or otherwise they shall pay double &amp; their Chambers to be seized./</item>
+                     </list>
+                     <gap reason="omitted"/>
+                  </div>
+                  
+                  <div>
+                     
+                     <head><date when-iso="1634-02-04"/><supplied>(4 February 1633/4)</supplied></head>
+                     <list>
+                        <item>It is ordered that all those who shall not pay their taxes for the masque form<ex>er</ex>ly sett, before Thirsday<note type="foot">Thirsday: <hi rend="italic">6 February 1633/4</hi></note> at noone next shall pay double taxes &amp; their Chambers to be fourthw<ex>i</ex>th seized &amp; if they haue noe Chambers in the house then they are to be cast into Com<ex>m</ex>ons &amp; continued in Com<ex>m</ex>ons vntill they shall pay their taxes double, &amp; the Collectors are to p<ex>re</ex>sent the names vpon Thirsday<note type="foot">Thirsday: <hi rend="italic">6 February 1633/4</hi></note> at night of all such as shall not then haue paid their said taxes.</item>
+                     </list>
+                     <gap reason="omitted"/>
+                  </div>
+                                    
+                  <div>                     
+                     <head><date when-iso="1634-02-05"/><supplied>(5 February 1633/4)</supplied></head>
+                     <list>
+                        <item>It is Orderd that towards the finishing of the masque &amp; the new p<ex>re</ex>sentment therof to the <persName n="King James I">King</persName> &amp; <persName n="Queen Anne of Denmark">Queenes M<ex>aies</ex>tie</persName>, ther shall be levyed more then is form<ex>er</ex>ly taxed, soe much more as was taxed on them at the penc<ex>i</ex>on holden the xxiij day of Ianuary last: All the said monyes to be paid vpon the former penalties to the former Collectors only <persName n="John Heilen">mr Heilen</persName> is to Collect in the place of <persName n="Samuel Wentworth">mr Wentworth</persName> who is out of Towne &amp; the Collectors are to pay the monyes Collected as they shall be Collected to the Tr<ex>easur</ex>er for the masque/. Prouided this Tax shall not extend to any gent<ex>leman</ex> <damage/> is a masquer or Rydes to p<ex>re</ex>sent the Masque./</item>
+                     </list>
+                  </div>
+                  
+                  <div>                     
+                     <head>f404v <date when-iso="1634-05-05"/><supplied>(5 May 1634)</supplied></head>
+                     <pb n="404v" type="folio"/>
+                     <gap reason="omitted"/>
+                     <list>
+                        <item>It is Ordered that all the gent<ex>lemen</ex> of this societie shall before the end of this Terme pay their payments for the last masque or in default therof to be expelled this societie./</item>
+                     </list>
+                     <gap reason="omitted"/>
+                  </div>
+                  
+                  <div>                     
+                     <head>f405 <date when-iso="1634-05-12"/><supplied>(12 May)</supplied></head>
+                     <pb n="405" type="folio"/>
+                     <gap reason="omitted"/>
+                     <list>
+                        <item>These gent<ex>lemen</ex> following are put out of Com<ex>m</ex>ons for not appeerance at this Penc<ex>i</ex>on &amp; not payment of their taxac<ex>i</ex>ons for the late masque vid<ex>elicet</ex>. <persName n="... Burwell, the younger">Mr Burwell</persName> Iu<ex>nior</ex> <persName n="Earl George">Mr Earl George</persName>, <persName n="... Richardson, the younger">Mr Richardson</persName>./</item>
+                        <item>It is also orderd that all the gent<ex>lemen</ex> of the house who do not pay their taxac<ex>i</ex>ons for the late masque before Thirsday next,<note type="foot">Thirsday next: <hi rend="italic">15 May 1634</hi></note> their Chambers are to be seized to the vse of the house./</item>
+                     </list>
+                     <gap reason="omitted"/>
+                  </div>
+
+                  <div>
+                     <head><date when-iso="1634-05-16"/><supplied>(16 May 1634)</supplied></head>
+                     <list>
+                        <item>The Collectors by too morrow at din<ex>n</ex>er are to p<ex>re</ex>sent the names of such as haue not p<ex>ai</ex>d their taxac<ex>i</ex>ons for the masque, &amp; to be p<ex>ro</ex>ceeded against, according to the last order./</item>
+                     </list>
+                     <gap reason="omitted"/>
+                  </div>
+                  
+                  <div>
+                     <head>f 405v</head>
+                     <pb n="405v" type="folio"/>
+                     <ab>These Gentlemen vnder written are cast into Com<ex>m</ex>ons and to be put out of Com<ex>m</ex>ons vntill they haue paide their double Taxes to the Masque vid<ex>elicet</ex>.</ab>
+                     
+                     <table>
+                        <row>
+                           <cell><persName n="John Carrill">Mr Carrill</persName></cell>
+                           <cell><persName n="John Roch">Mr Roch Iohn</persName></cell>
+                           <cell><persName n="Edmund Fernely">Mr ffernely</persName></cell>
+                        </row>
+                        <row>
+                           <cell><persName n="William Deere">Deere</persName></cell>
+                           <cell><persName n="Phillip Roch">Roch Phillip</persName></cell>
+                           <cell><persName n="Cuthbert Ogle">Ogle Cuthbert</persName></cell>
+                        </row>
+                        <row>
+                           <cell><persName n="Thomas Dixie, the younger">Dixie Iunior</persName></cell>
+                           <cell><persName n="Thomas Southland">Southland</persName></cell>
+                           <cell><persName n="Robert Remington">Remington Robert</persName></cell>
+                        </row>
+                        <row>
+                           <cell><persName n="Richard or William Grimstone">Grimstone</persName></cell>
+                           <cell><persName n="John Taylor">Tailour Iohn</persName></cell>
+                           <cell><persName n="... Richardson, the younger">Richardson Iunior</persName></cell>
+                        </row>
+                        <row>
+                           <cell><persName n="John Smith">Smith Iohn</persName></cell>
+                           <cell><persName n="... Walsh">Walsh</persName></cell>
+                           <cell><persName n="Thomas Cotton">Cotton Thomas</persName></cell>
+                        </row>
+                        <row>
+                           <cell><del><persName n="Henry Morgan, the younger">Morgan Henry Iunior</persName></del></cell>
+                           <cell><persName n="Tobias Rose">Rose Tobias</persName></cell>
+                           <cell></cell>
+                        </row>
+                     </table>
+                     
+                     <ab>These Gentlemen vnderwritten are to paie ther double Taxes to the Masque before Wednesday<note type="foot">Wednesday: <hi rend="italic">21 May 1634</hi></note> Dinner or to be expeld the Howse</ab>
+                     <list>
+                        <item><persName n="Bacon Walpole">Mr Walpoole Bacon</persName></item>
+                        <item><persName n="George Sewster">Sewster George</persName></item>
+                        <item><persName n="Thomas Bate">Bate Thomas</persName> and his Castings in./ Or his Bond to be sued</item>
+                     </list>
+                     
+                     <note type="marginal"><persName n="William Hughes">Hughes William</persName><lb/> <persName n="John Warren">Warren Iohn</persName></note>
+                     <ab><persName n="William Hughes">Mr William Hughes</persName> and <persName n="John Warren">Mr Iohn Warrens</persName> Chambers to be seised for there Commons and there Taxes./</ab>
+                     
+                     <ab>It is ordered that <persName n="... Lawrence">Mr Lawrence</persName>, <persName n="Dudley North">Mr North Dudley</persName>, <persName n="... Steward, the elder">Mr Stewards Senior</persName> et <persName n="... Steward, the younger">Iunior</persName>, <persName n="Edward Spencer">Mr Spencer Edward</persName> <persName n="Humphrey Mackworth">Mr Humphry Mackworth</persName>, <persName n="Simeon Brograve">Mr Simeon Brograue</persName>, <persName n="Henry Goldsmith">Mr Henry Goldsmith</persName> <persName n="Thomas Proctor, the elder">Mr Thomas Procter Senior</persName>, <persName n="Robert Tylney">Mr Tilney Senior</persName>, <persName n="... Revet, the elder">Mr Reuet Senior</persName>, <persName n="Thomas Marsh">Mr Thomas Marsh</persName>, <persName n="Henry Dewell, the elder">Mr Dewell senior</persName>, and <persName n="Thomas Cole">Mr Thomas Cole</persName>, theire Chambers shalbe seised for theire Taxacions to the Masque, and to paie double</ab>
+                     <gap reason="omitted"/>
+                  </div>
+
+                  <div>
+                     <head>f 406v <date when-iso="1634-06-11"/><supplied>(11 June 1634)</supplied></head>
+                     <pb n="406v" type="folio"/>
+                     <gap reason="omitted"/>
+                     <list>
+                        <item><persName n="James Necton">Mr Necton</persName> to paie a double Taxe towards the Maske for his Contempt in
+                           refusinge to paie his Taxacion vppon request</item>
+                        <item><persName n="Tobias Rose">Mr Tobias Rose</persName> to paie his Taxacion double of the Maske if he doth not paie
+                           his former taxacion by ffridaie next.<note type="foot">ffridaie next: <hi rend="italic">13 June 1634</hi></note></item>
+                        <item><persName n="Francis Angeir">Mr Angeirs</persName> Chamber to be seised for not paiement of his Taxacion
+                           and Mr Carrills in like manner.</item>
+                        <item><persName n="George or Richard Benefeild">Mr Benefeild</persName> his Chamber to be seised for not payment of his Taxacion</item>
+                        <item><persName n="William Polly, the younger">Mr Polly Iunior</persName> his Chamber to be seised for the like</item>
+                        <item><persName n="John Pecke">Mr Pecke</persName> the like.</item>
+                        <item><persName n="Cuthbert Ogle">Mr Ogle</persName> the like</item>
+                        <item><persName n="John Walpole">Mr Walpoole Iohn</persName> the like</item>
+                        <item><persName n="John Taylor">Mr Tailor Iohn</persName> the like.</item>
+                        <item><persName n="Bacon Walpole">Mr Bacon Walpoole</persName> if he doth not paie before ffridaie<note type="foot">ffridaie: <hi rend="italic">13 June 1634</hi></note> to be cast and kept
+                           in Commons vntill he paie double</item>
+                        <item><persName n="John Skeirne">Mr Skeirne</persName> to be put out of Commons and paie double if he doth not paie
+                           on[t] ffridaie next<note type="foot">ffridaie next: <hi rend="italic">13 June 1634</hi></note></item>
+                        <item><persName n="Christopher Blewcok">Mr Blewcoks</persName> Chamber to be seised for the like</item>
+                        <item><persName n="Thomas Cotton">Mr Thomas Cotton</persName> to be cast into Commons for the like,</item>
+                        <item><persName n="Patrick or Peter Chamberlain">Mr Chamberlaines</persName> Chamber to be seised and to paie double</item>
+                        <item><persName n="John Ford">Mr fforde</persName> the like</item>
+                        <item><persName n="Thomas Faldo">Mr Thomas ffaldoe</persName> the like</item>
+                        <item><persName n="William Gerrard">Mr William Gerrard</persName> the like</item>
+                        <item><persName n="James Harvey">Mr Iames Harvie</persName> the like</item>
+                        <item><persName n="Edward Fisher">Sir Edward fisher</persName> the like</item>
+                        <item><persName n="Thomas Hammon">Mr Thomas Hammon</persName> the like</item>
+                        <item><persName n="James Heath">Mr Heath</persName> the like</item>
+                        <item><persName n="Nicholas Fisher">Mr Nicholas ffisher</persName> <del><damage/></del> And <persName>Mr Tomline</persName> the like./.</item>
+                        <item>The Cheife Butler is to send notice to all the Benchers and auncients ^<add place="above">&amp;c:</add>
+                           who haue not paied there Taxacions ^ towards the masque to paie the same with speed.</item>
+                     </list>
+                     <gap reason="omitted"/>
+                  </div>
+            </div>
+
+      </body>
+   </text>
+   
+</TEI>

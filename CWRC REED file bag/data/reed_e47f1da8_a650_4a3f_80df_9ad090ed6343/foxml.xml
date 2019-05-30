@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<foxml:digitalObject VERSION="1.1" PID="reed:e47f1da8-a650-4a3f-80df-9ad090ed6343"
+xmlns:foxml="info:fedora/fedora-system:def/foxml#"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+<foxml:objectProperties>
+<foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Active"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE="gloss_intro.pdf-1"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE="jakacki"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2018-11-21T15:13:22.750Z"/>
+<foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2018-11-21T16:02:03.729Z"/>
+</foxml:objectProperties>
+<foxml:datastream ID="AUDIT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="AUDIT.0" LABEL="Audit Trail for this object" CREATED="2018-11-21T15:13:22.750Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:format/xml.fedora.audit">
+<foxml:xmlContent>
+<audit:auditTrail xmlns:audit="info:fedora/fedora-system:def/audit#">
+<audit:record ID="AUDREC1">
+<audit:process type="Fedora API-M"/>
+<audit:action>addDatastream</audit:action>
+<audit:componentID>TN</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-11-21T15:13:25.653Z</audit:date>
+<audit:justification>Copied datastream from reed:e47f1da8-a650-4a3f-80df-9ad090ed6343.</audit:justification>
+</audit:record>
+<audit:record ID="AUDREC2">
+<audit:process type="Fedora API-M"/>
+<audit:action>addDatastream</audit:action>
+<audit:componentID>JPG</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-11-21T15:13:27.452Z</audit:date>
+<audit:justification>Copied datastream from reed:e47f1da8-a650-4a3f-80df-9ad090ed6343.</audit:justification>
+</audit:record>
+<audit:record ID="AUDREC3">
+<audit:process type="Fedora API-M"/>
+<audit:action>addDatastream</audit:action>
+<audit:componentID>JP2</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-11-21T15:13:36.242Z</audit:date>
+<audit:justification>Copied datastream from reed:e47f1da8-a650-4a3f-80df-9ad090ed6343.</audit:justification>
+</audit:record>
+<audit:record ID="AUDREC4">
+<audit:process type="Fedora API-M"/>
+<audit:action>addDatastream</audit:action>
+<audit:componentID>RELS-INT</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-11-21T15:13:37.844Z</audit:date>
+<audit:justification>Copied datastream from reed:e47f1da8-a650-4a3f-80df-9ad090ed6343.</audit:justification>
+</audit:record>
+<audit:record ID="AUDREC5">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-INT</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-11-21T15:13:37.993Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC6">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-11-21T16:02:03.587Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC7">
+<audit:process type="Fedora API-M"/>
+<audit:action>addDatastream</audit:action>
+<audit:componentID>POLICY</audit:componentID>
+<audit:responsibility>jakacki</audit:responsibility>
+<audit:date>2018-11-21T16:02:03.729Z</audit:date>
+<audit:justification>Copied datastream from reed:e47f1da8-a650-4a3f-80df-9ad090ed6343.</audit:justification>
+</audit:record>
+</audit:auditTrail>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="RELS-EXT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+<foxml:datastreamVersion ID="RELS-EXT.0" LABEL="Fedora Object to Object Relationship Metadata." CREATED="2018-11-21T15:13:22.750Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="918">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:islandora="http://islandora.ca/ontology/relsext#">
+  <rdf:Description rdf:about="info:fedora/reed:e47f1da8-a650-4a3f-80df-9ad090ed6343">
+    <fedora-model:hasModel rdf:resource="info:fedora/islandora:pageCModel"></fedora-model:hasModel>
+    <islandora:isPageOf rdf:resource="info:fedora/reed:3e447b7b-1632-4d10-af9f-e5e0099ae225"></islandora:isPageOf>
+    <fedora:isMemberOf rdf:resource="info:fedora/reed:3e447b7b-1632-4d10-af9f-e5e0099ae225"></fedora:isMemberOf>
+    <islandora:isSequenceNumber>1</islandora:isSequenceNumber>
+    <islandora:isPageNumber>1</islandora:isPageNumber>
+    <islandora:isSection>1</islandora:isSection>
+    <islandora:generate_ocr>FALSE</islandora:generate_ocr>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.1" LABEL="Fedora Object to Object Relationship Metadata." CREATED="2018-11-21T16:02:03.587Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="1781">
+<foxml:xmlContent>
+<rdf:RDF xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:islandora="http://islandora.ca/ontology/relsext#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/reed:e47f1da8-a650-4a3f-80df-9ad090ed6343">
+    <fedora-model:hasModel rdf:resource="info:fedora/islandora:pageCModel"></fedora-model:hasModel>
+    <islandora:isPageOf rdf:resource="info:fedora/reed:3e447b7b-1632-4d10-af9f-e5e0099ae225"></islandora:isPageOf>
+    <fedora:isMemberOf rdf:resource="info:fedora/reed:3e447b7b-1632-4d10-af9f-e5e0099ae225"></fedora:isMemberOf>
+    <islandora:isSequenceNumber>1</islandora:isSequenceNumber>
+    <islandora:isPageNumber>1</islandora:isPageNumber>
+    <islandora:isSection>1</islandora:isSection>
+    <islandora:generate_ocr>FALSE</islandora:generate_ocr>
+    <islandora:isManageableByUser>adminUP</islandora:isManageableByUser>
+    <islandora:isManageableByUser>aribaughman</islandora:isManageableByUser>
+    <islandora:isManageableByUser>CSimon</islandora:isManageableByUser>
+    <islandora:isManageableByUser>ilovan</islandora:isManageableByUser>
+    <islandora:isManageableByUser>jakacki</islandora:isManageableByUser>
+    <islandora:isManageableByUser>KimMartin</islandora:isManageableByUser>
+    <islandora:isManageableByUser>Rachel Milio</islandora:isManageableByUser>
+    <islandora:isManageableByUser>fedoraAdmin</islandora:isManageableByUser>
+    <islandora:isManageableByRole>administrator</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:4:project contributor</islandora:isManageableByRole>
+    <islandora:isManageableByRole>node:131:5:project editor</islandora:isManageableByRole>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="PDF" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
+<foxml:datastreamVersion ID="PDF.0" LABEL="PDF" CREATED="2018-11-21T15:13:22.750Z" MIMETYPE="application/pdf" SIZE="22978">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/reed:e47f1da8-a650-4a3f-80df-9ad090ed6343/PDF/2018-11-21T15:13:22.750Z"/>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="OBJ" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
+<foxml:datastreamVersion ID="OBJ.0" LABEL="OBJ Datastream" CREATED="2018-11-21T15:13:22.750Z" MIMETYPE="image/tiff" SIZE="840948">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/reed:e47f1da8-a650-4a3f-80df-9ad090ed6343/OBJ/2018-11-21T15:13:22.750Z"/>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="DC" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+<foxml:datastreamVersion ID="DC1.0" LABEL="Dublin Core Record for this object" CREATED="2018-11-21T15:13:22.750Z" MIMETYPE="text/xml" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" SIZE="411">
+<foxml:xmlContent>
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+  <dc:title>gloss_intro.pdf-1</dc:title>
+  <dc:identifier>reed:e47f1da8-a650-4a3f-80df-9ad090ed6343</dc:identifier>
+</oai_dc:dc>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="TN" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
+<foxml:datastreamVersion ID="TN.0" LABEL="Thumbnail" CREATED="2018-11-21T15:13:25.653Z" MIMETYPE="image/jpeg" SIZE="201821">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/reed:e47f1da8-a650-4a3f-80df-9ad090ed6343/TN/2018-11-21T15:13:25.653Z"/>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="JPG" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
+<foxml:datastreamVersion ID="JPG.0" LABEL="Medium sized JPEG" CREATED="2018-11-21T15:13:27.452Z" MIMETYPE="image/jpeg" SIZE="397801">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/reed:e47f1da8-a650-4a3f-80df-9ad090ed6343/JPG/2018-11-21T15:13:27.452Z"/>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="JP2" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
+<foxml:datastreamVersion ID="JP2.0" LABEL="JPEG 2000" CREATED="2018-11-21T15:13:36.242Z" MIMETYPE="image/jp2" SIZE="1156588">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/reed:e47f1da8-a650-4a3f-80df-9ad090ed6343/JP2/2018-11-21T15:13:36.242Z"/>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="RELS-INT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+<foxml:datastreamVersion ID="RELS-INT.0" LABEL="Fedora Relationship Metadata." CREATED="2018-11-21T15:13:37.844Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="315">
+<foxml:xmlContent>
+<rdf:RDF xmlns:islandora="http://islandora.ca/ontology/relsint#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/reed:e47f1da8-a650-4a3f-80df-9ad090ed6343/JP2">
+    <width xmlns="http://islandora.ca/ontology/relsext#">4050</width>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-INT.1" LABEL="Fedora Relationship Metadata." CREATED="2018-11-21T15:13:37.993Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="387">
+<foxml:xmlContent>
+<rdf:RDF xmlns:islandora="http://islandora.ca/ontology/relsint#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/reed:e47f1da8-a650-4a3f-80df-9ad090ed6343/JP2">
+    <width xmlns="http://islandora.ca/ontology/relsext#">4050</width>
+    <height xmlns="http://islandora.ca/ontology/relsext#">5850</height>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="POLICY" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
+<foxml:datastreamVersion ID="POLICY.0" LABEL="XACML Policy Stream" CREATED="2018-11-21T16:02:03.729Z" MIMETYPE="application/xml" SIZE="13187">
+<foxml:contentLocation TYPE="INTERNAL_ID" REF="http://localhost:8080/fedora/get/reed:e47f1da8-a650-4a3f-80df-9ad090ed6343/POLICY/2018-11-21T16:02:03.729Z"/>
+</foxml:datastreamVersion>
+</foxml:datastream>
+</foxml:digitalObject>

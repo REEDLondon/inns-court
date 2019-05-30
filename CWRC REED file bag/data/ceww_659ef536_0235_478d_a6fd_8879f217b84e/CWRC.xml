@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="REED.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="eng"> 
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            
+            <title type="main">Inns of Court</title>
+            
+            
+            <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>
+            <funder><orgName>CANARIE</orgName></funder> 
+            
+            <funder><orgName>British Academy, London, UK</orgName></funder>
+            <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>            
+            <funder><orgName>National Endowment for the Humanities, Washington, DC, United States of
+               America</orgName></funder>
+            <funder><orgName>Social Sciences and Humanities Research Council, Ottawa,
+               Canada</orgName></funder>
+            
+            <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
+            <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
+            <respStmt>
+               <persName>Ari Baughman</persName>
+               <orgName>Bucknell Univerity</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="CB">Carolyn Black</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Project Manager</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>John Bradley</persName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Susan Brown</persName> 
+               <orgName>University of Guelph</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="KC">Kathy Chung</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>REED Research Associate, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>William Cooke</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>English Glossarian</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="JC">James Cummings</persName>
+               <orgName>Newcastle University</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+               <resp>TEI Schema Designer, Technical Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Matthew Davies</persName>
+               <orgName>University of London, Birkbeck College</orgName> <!-- confirm -->
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="PG">Patrick Gregory</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Associate Editor</resp> <!-- confirm -->
+               <resp>Paleographer, Translator</resp> <!-- confirm -->
+            </respStmt>
+            <respStmt>
+               <persName>Tanya Hagen</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Bibliographer, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="JAKA1">Diane K. Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>Principal Investigator, NHPRC-Mellon Digital Edition Publishing Cooperatives Planning Grant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Alexandra F. Johnston</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>REED Founder and Senior Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>David Kathman</persName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Sally-Beth MacLean</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Principal Investigator, SSHRC grant; Director of Research and General Editor</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Maureen Maclean</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="KM">Kimberley Martin</persName>
+               <orgName>University of Guelph</orgName>
+               <resp>NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Christopher Matusiak</persName>
+               <orgName>Ithaca College</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName xml:id="JN">Jamie Norrish</persName>
+               <resp>Programmer, EATS developer, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Dorothy Porter</persName>
+               <orgName>University of Pennsylvania</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Arleane Ralph</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Paleographer</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Suzanne Westfall</persName>
+               <orgName>Lafayette College</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board Member</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+            
+            <respStmt>
+               <persName>Abigail Ann Young</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Latin Glossarian</resp>
+            </respStmt>
+            
+         </titleStmt>
+         <editionStmt>
+            <edition>Print version, published <date when-iso="2010">2010</date>. Electronic edition, anticipated publication <date when-iso="2018">2018</date></edition>
+         </editionStmt>
+         
+         <publicationStmt>
+            <authority><orgName>Records of Early English Drama (REED)</orgName>
+               <address>
+                  <addrLine>University of Toronto</addrLine>
+                  <addrLine>170 St George Street, Suite 810</addrLine>
+                  <addrLine>Toronto, Ontario, Canada</addrLine>
+                  <addrLine>M5R 2M8</addrLine>
+               </address>
+            </authority>
+            
+            <publisher>D.S. Brewer, Cambridge, an imprint of Boydell &amp; Brewer Ltd./Boydell &amp; Brewer Ltd.</publisher>
+            <pubPlace>Rochester, NY</pubPlace>
+            <date>2010</date>
+            <idno type="other">978-1-84384-259-0</idno>
+            
+            <availability>
+               <p>Copyright <orgName>Records of Early English Drama (REED)</orgName>,
+                  <date>2017</date></p>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a
+                  Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA
+                  4.0) licence.</licence>
+            </availability>
+         </publicationStmt>
+         
+         <seriesStmt>
+            <title>Records of Early English Drama</title>
+         </seriesStmt>
+         <sourceDesc>
+            <p>This publication constitutes a remediation of the printed Inns of Court collection. Information on original sources for transcriptions can be accessed via the Document Descriptions.</p>
+            <p>For a full list of REED collections, editors, executive board members, and staff, please visit http://reed.utoronto.ca/people</p>       
+         </sourceDesc>
+      </fileDesc>
+      
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="taxon" matchPattern="([A-Za-z0-9_-]+)"
+               replacementPattern="../taxonomy.xml#$1">
+               <p>Private URIs using the <code>taxon</code> prefix are pointers to entities in the
+                  taxonomy.xml file. For example, <code>taxon:church</code> dereferences to
+                  <code>taxonomy.xml#church</code>.</p>
+            </prefixDef>
+            <prefixDef ident="gloss" matchPattern="([A-Za-z0-9_-]+)"
+               replacementPattern="../glossary.xml#$1">
+               <p>Private URIs using the <code>gloss</code> prefix are pointers to entities in the
+                  glossary.xml file. For example, <code>gloss:histrio-1</code> dereferences to
+                  <code>glossary.xml#histrio-1</code>.</p>
+            </prefixDef>
+         </listPrefixDef>
+         
+         <projectDesc>
+            <p>Records of Early English Drama (REED) is an international scholarly project that is
+               establishing for the first time the context from which the drama of Shakespeare and his
+               contemporaries grew. Founded in 1976, REED has worked since then to locate, transcribe,
+               and edit historical documents containing evidence of drama, secular music, and other
+               communal entertainment and ceremony from the Middle Ages until 1642, when the Puritans
+               closed the London theatres.</p>
+         </projectDesc>
+      </encodingDesc>
+      
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">English</language>
+            <language ident="lat">Latin</language>
+            <language ident="fra">Anglo-French</language>
+         </langUsage>
+         <settingDesc>
+            <place>
+               <placeName>London</placeName> 
+            </place>
+         </settingDesc>
+      </profileDesc>
+      <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
+         <mods:mods>
+            <mods:titleInfo>
+               <mods:title>Gray's Inn Pension Book, 1616-17</mods:title>
+            </mods:titleInfo>
+            <mods:name
+               type="corporate">
+               <mods:namePart>Gray's Inn</mods:namePart>
+            </mods:name>
+            <mods:typeOfResource>text</mods:typeOfResource>
+            <mods:genre type="formatType">Born Digital</mods:genre>
+            <mods:genre type="format">born digital</mods:genre>
+            <mods:genre type="primaryGenre">Record</mods:genre>
+            <mods:genre type="subgenre">Archival material</mods:genre>
+            <mods:genre>Performance</mods:genre>
+            <mods:language>
+               <mods:languageTerm type="text">English</mods:languageTerm>
+            </mods:language>
+            <mods:physicalDescription>
+               <mods:form authority="marccategory">electronic resource</mods:form>
+               <mods:internetMediaType>text/xml</mods:internetMediaType>
+               <mods:digitalOrigin>born digital</mods:digitalOrigin>
+            </mods:physicalDescription>
+            <mods:abstract>"Surviving Pension Books date from 1568–9. William Dugdale consulted an earlier volume, now lost. His Origines Juridiciales (1666) preserves entries from 1529–30 and 1550–1 (see pp 58–9, 74; see p lxxvi for document description). Financial accounts were entered in the Pension Book to 1582–3, and thereafter in Ledger Books. The library holds microfiche of the Pension Books produced in 1976 (skipping ff 234v–5), and digital photos of PEN/1/1 (Pension Book 1), taken in 2006 when the volume was disbound for conservation.
+               The standard essential publication is Reginald J. Fletcher (ed), The Pension Book of Gray’s Inn (Records of the Honourable Society)1569–1669, vol 1 (London, 1901)."</mods:abstract>
+            <mods:subject>
+               <mods:topic valueURI="http://id.loc.gov/authorities/subjects/sh2002012473">Theater--England--London--History--17th century
+               </mods:topic>
+            </mods:subject>
+            <mods:subject>
+               <mods:geographic valueURI="http://www.geonames.org/2643743/">London</mods:geographic>
+            </mods:subject>
+            <mods:subject>
+               <mods:temporal point="start">1601</mods:temporal>
+               <mods:temporal point="end">1700</mods:temporal>
+            </mods:subject>    
+            <mods:accessCondition
+               type="use and reproduction">Use of this public-domain resource is governed by the &lt;a
+               rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"
+               target="blank"&gt;Creative Commons Attribution-NonCommercial 4.0 International
+               License&lt;/a&gt;.</mods:accessCondition>
+            <mods:recordInfo>
+               <mods:recordOrigin>This MODS record was created using the Islandora XML Forms collection of Drupal modules.</mods:recordOrigin>
+               <mods:languageOfCataloging>
+                  <mods:languageTerm type="text">English</mods:languageTerm>
+               </mods:languageOfCataloging>
+               <mods:recordContentSource>Canadian Writing Research Collaboratory</mods:recordContentSource>
+            </mods:recordInfo>
+         </mods:mods>
+      </xenoData>
+   </teiHeader>
+   
+   <text ana="taxon:grays_inn" type="record">
+      <body xml:lang="eng">
+         <head>
+            <date from-iso="1616-09-29" to-iso="1617-09-29">1616-17</date>
+            <seg ana="taxon:RLGIPB01" corresp="taxon:RPCIC1 pp. 189-90">RLGIPB01</seg></head>
+         <div type="transcription">
+            <div>
+               <head>f 314 <date when-iso="1616-10-17"/><supplied>(17 October 1616) (Pension orders)</supplied><ptr type="endnote" target="RLE00166"/></head>
+               <pb n="314" type="folio"/>
+
+               <note type="marginal">A Taxe for the Charge of the Barriors.</note>
+               <ab>At this Penc<ex>i</ex>on every Reador Ancient Barrister and other gent<ex>leman</ex> that shalbe in the Towne betwene this and the end of Hillary terme or have any Chamber in the howse other of the house or by lease ortherwyse<note type="foot">ortherwyse: <hi rend="italic">for</hi> otherwyse</note> shal pay towards the Barriors intended to be p<ex>re</ex>sented before <persName n="King James I">his Ma<ex>ies</ex>ti</persName> shall pay affter these Rats and p<ex>ro</ex>porc<ex>i</ex>ons followinge Every Reador or Ancient of the Bench xl s. every Ancient vnder the Bench xxx s. Every Barrister xx s. &amp; Every other gent<ex>lemen</ex> xiij s. iiij d.</ab>               
+               <list>
+                  <item><del>Ther is apointed for</del></item>
+                  <item>Mr Newton is appointed Collector of the Readors &amp; Ancients</item> 
+                  <item>Mr Griffeth <del>for</del> of the Barristers</item>
+                  <item>And Mr wrightington of the yonge gent<ex>lemen</ex> vnder the Barr</item>
+               </list>               
+            <gap reason="omitted"/>   
+            </div>
+            
+            <div>
+               <head>f 314v <date when-iso="1616-11-08"/><supplied>(8 November 1616)</supplied></head>
+               <pb n="314v" type="folio"/>
+               
+               <gap reason="omitted"/>
+               <ab>
+                  At this Penc<ex>i</ex>on it is Ordered that all such gent<ex>lemen</ex> of this Societie as are be hinde with ther taxacion towardes the barriers p<ex>er</ex>formed at the Courte yf they be in Com<ex>m</ex>ons they shall pay ther taxac<ex>i</ex>on before fryday dinnor or els to put fourth of Com<ex>m</ex>ons, and that such as are forth of Com<ex>m</ex>ons shal pay ther taxac<ex>i</ex>on before the next Penc<ex>i</ex>on in the next weeke and those w<ex>hi</ex>ch shall not paye the same before the next penc<ex>i</ex>on in the next weeke if they have howse Chambers or Chambers by lease in the howse shall forfet ther Chambers and if they have no Chambers then they shalbe forth<note type="foot">shalbe forth: <hi rend="italic">for</hi> shalbe put forth</note> of the howse</ab>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 315 <date when-iso="1616-11-18"/><supplied>(18 November 1616)</supplied></head>
+               <pb n="315" type="folio"/>
+               
+               <gap reason="omitted"/>
+               <note type="marginal" rend="left">such gent<ex>lemen</ex> to appere before the Bench in the hall, as pay not their taxe to the Barriors.</note>
+               <ab>It is Ordered at this Penc<ex>i</ex>on that 12 of the Ancientest Comonors that ar behind w<ex>it</ex>h ther taxac<ex>i</ex>on towards the barriors shall appeare before the Readors at the tables end to morrowe at Dinnor to shewe Cause why they pay it not and yf they do not pay nor shall give satisfactio<ex>n</ex> why they doe it not, That they shall stand expelled fourth of this Societie And so all the rest of the Ancient Barristers and other gent<ex>lemen</ex> to appeare by 12 a day every day affter the other till they have all appeared and be in the same Case</ab>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head><date when-iso="1617-01-21"/><supplied>(21 January 1616/17)</supplied></head>
+               <note type="marginal" rend="left">Admittances this Terme for the Barriors.</note>
+               <ab>At this Penc<ex>i</ex>on it is Ordered that all the moneys that shalbe Rec<ex>eive</ex>d this terme for admissio<ex>ns</ex> shalbe paid and deliu<ex>er</ex>ed to Sir Thomas Tildesley to be Imployed towardes the satisfactio<ex>n</ex> of such as have Lent moneyes towards the p<ex>er</ex>formance of the Barriors</ab>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head>f 315v <date when-iso="1617-05-21"/><supplied>(21 May 1617)</supplied></head>
+               <pb n="315v" type="folio"/>            
+               <gap reason="omitted"/>
+               <ab>At this Penc<ex>i</ex>on it is Ordered that the moneys this terme Rec<ex>eive</ex>d for admittances shall goe and be imployed towards the payment of the Readors of such moneys as they have lent for the settinge forth of Barriors w<ex>hi</ex>ch is yet behinde</ab>
+               
+               <note type="marginal">3 l. 6 s. 5 d. p<ex>er</ex> Ann<ex>um</ex> allow to Michell the Musitian p<ex>er</ex> vit<ex>am</ex>.</note>
+               <ab>It is Ordered at this Penc<ex>i</ex>on that Mr Michell the Musition of the howse shall have allowed vnto him duringe his liffe five Markes to be p<ex>ai</ex>d every midsomer terme out of the first admittance money that shalbe that terme rec<ex>eiv</ex>ed</ab>
+               <gap reason="omitted"/>
+            </div>
+         </div>
+      </body>
+   </text>
+   
+</TEI>

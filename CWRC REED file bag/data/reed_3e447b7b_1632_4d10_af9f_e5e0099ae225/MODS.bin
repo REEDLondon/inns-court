@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/mods.xsd">
+  <titleInfo>
+    <title>Inns of Court Glossaries</title>
+    <subTitle>Latin and English</subTitle>
+  </titleInfo>
+  <name type="corporate">
+    <role>
+      <roleTerm authority="marcrelator" type="text">Editor</roleTerm>
+    </role>
+    <affiliation>Records of Early English Drama</affiliation>
+    <namePart type="date">2010</namePart>
+    <namePart>Young, Abigail Ann</namePart>
+  </name>
+  <typeOfResource>text</typeOfResource>
+  <genre type="formatType">Book Chapter</genre>
+  <language>
+    <languageTerm type="text">la</languageTerm>
+    <languageTerm type="text">en</languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="marccategory">text</form>
+    <internetMediaType>application/pdf</internetMediaType>
+  </physicalDescription>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>REED: Inns of Court</title>
+    </titleInfo>
+    <originInfo type="text">Toronto, Ontario, Canada</originInfo>
+  </relatedItem>
+  <accessCondition type="use and reproduction">Use of this public-domain resource is governed by the &lt;a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"&gt;Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</accessCondition>
+  <recordInfo>
+    <recordOrigin>This MODS record was created using the Islandora XML Forms collection of Drupal modules.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm type="text">English</languageTerm>
+    </languageOfCataloging>
+    <recordContentSource>Canadian Writing Research Collaboratory</recordContentSource>
+  </recordInfo>
+  <name type="corporate">
+    <namePart>Cooke, William</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Editor</roleTerm>
+    </role>
+    <affiliation>Records of Early English Drama</affiliation>
+    <namePart type="date">2010</namePart>
+  </name>
+  <genre type="format">Book</genre>
+  <genre type="primaryGenre">Scholarly Writing</genre>
+  <genre type="subgenre">Bibliography</genre>
+  <abstract>Latin and English glossaries prepared for the REED: Inns of Court collection (including introduction, works consulted, and abbreviations used).</abstract>
+</mods>

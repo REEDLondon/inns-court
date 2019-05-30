@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/mods.xsd">
+  <titleInfo>
+    <title>Robert Carr and Frances Howard, Earl and Countess of Somerset</title>
+  </titleInfo>
+  <typeOfResource>still image</typeOfResource>
+  <genre type="formatType">Image</genre>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Aberystwyth, Ceredigion, Wales</placeTerm>
+    </place>
+  </originInfo>
+  <language>
+    <languageTerm type="text">English</languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="marccategory">nonprojected graphic</form>
+  </physicalDescription>
+  <abstract>Woodcut featuring Robert Carr, Earl of Somerset, and Frances Howard Carr, Countess of Somerset</abstract>
+  <identifier type="uri">http://hdl.handle.net/10107/4672416</identifier>
+  <accessCondition type="use and reproduction">Use of this public-domain resource is governed by the &lt;a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="blank"&gt;Creative Commons Attribution-NonCommercial 4.0 International License&lt;/a&gt;.</accessCondition>
+  <recordInfo>
+    <recordOrigin>This MODS record was created using the Islandora XML Forms collection of Drupal modules.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm type="text">English</languageTerm>
+    </languageOfCataloging>
+    <recordContentSource>Canadian Writing Research Collaboratory</recordContentSource>
+  </recordInfo>
+</mods>
