@@ -105,7 +105,7 @@ In general, REED London Online follows the transcription conventions adopted by 
 * Marginal notes from original documents have been maintained in REED transcription style, so that `<note type="marginal" place="margin_left">` or `<note type="marginal" place="margin_right">` is meant to recognize that placement in the document. This notation is not meant for display purposes at this point.
 * Long and editorial endnotes are placed inline in CWRC-Writer. Where in the printed collection references within long and endnotes to other records are indicated by page number, wherever possible those interleaved notes are now recognized with a `<ref target="#">` to that/those objects within the CWRC collection.
 * Lists are marked up using TEI list element - http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-list.html, containing items.
-* Tables are marked up using TEI table element http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-table.html. Where information in a table cell is right- or center-aligned in the original transcribed document, the cell is tagged thus: `<cell rend="right">Summa £10</cell>`. Complicated tables that include curly braces or are similarly not easily represented in TEI are marked with `@rend="right_brace"` or similar. Where a table-cell contains currency the cell should be tagged `<cell role="data">`. The REED London CSS will then right-align that amount.
+* Tables are marked up using TEI table element http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-table.html. Where information in a table cell is right- or center-aligned in the original transcribed document, the cell is tagged thus: `<cell rend="right">Summa £10</cell>`. For presentation' sake, these cells are also given the @role "data", so that they right-align in CWRC. Complicated tables that include curly braces or are similarly not easily represented in TEI are marked with `@rend="right_brace"` or similar. Where a table-cell contains currency the cell should be tagged `<cell role="data">`. The REED London CSS will then right-align that amount.
 
 <a name="semantic-markup"></a>
 ### Semantic Markup
@@ -113,4 +113,5 @@ In general, REED London Online follows the transcription conventions adopted by 
 	* We plan to make "white lists" of REED people and place entities available in 2019.
 * entities that are of value to REED London (objects, occupations, performance- and entertainer-types, etc.) are managed using taxonomies and prefixed with `taxon:` in the record object.
 * Currency is of particular interest in our work; monies are therefore tagged as `<measure type="currency" n=#">[amount]</measure>`, where the pound/shilling/pence string is replaced in the @n attribute with a cumulative calculation of pence. https://en.wikipedia.org/wiki/%C2%A3sd#Origins
-
+* Dates are tagged as RDF-XML entities in CWRC; old-style dates are corrected to new-style when they are tagged as entities. Each reference to a date in a document is tagged; this includes implicit date references (e.g., 'the same day', 'fift of November').  Where a date is also a holiday (e.g., All Saints Day, 1st November) it is tagged also as `<name type="holiday">`
+* 
