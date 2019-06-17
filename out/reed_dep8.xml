@@ -5,10 +5,17 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2019-06-17T20:00:23Z. .
+<<<<<<< HEAD
+Schema generated from ODD source 2018-11-15T16:02:41Z. .
 TEI Edition: Version 3.1.0. Last updated on
 	15th December 2016, revision d3f5e70
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.1.0/
+=======
+Schema generated from ODD source 2018-12-22T15:47:51Z. .
+TEI Edition: Version 3.3.0. Last updated on
+	31st January 2018, revision f4d8439
+TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
+>>>>>>> 3bea80d2a49604309da4282e21ab6ef954ebef6c
   
 --><!--[https://creativecommons.org/licenses/by/4.0/] Creative Commons Attribution-->
    <define name="macro.paraContent">
@@ -3172,12 +3179,10 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
          <optional>
             <attribute name="role">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">may be used to specify further information about the entity referenced by this name in the form of a set of whitespace-separated values, for example the occupation of a person, or the status of a place.
-Suggested values include: 1] ; 2] animal keeper; 3] monkey keeper; 4] bird keeper; 5] dog keeper; 6] lion keeper; 7] armorer; 8] reed:attorney general; 9] baker; 10] beggar; 11] brewer; 12] censor; 13] chandler; 14] scrivener; 15] lace maker; 16] coach maker; 17] cobbler; 18] cordwainer; 19] composer; 20] construction; 21] carpenter; 22] joiner; 23] cook; 24] dancer; 25] messenger; 26] diplomat; 27] ambassador; 28] consul; 29] domestic servant; 30] chambermaid; 31] draper; 32] linen draper; 33] silkwoman; 34] horseman; 35] jockey; 36] ostler; 37] gardener; 38] haberdasher; 39] lord lieutenant; 40] lord of the council; 41] lord privy seal; 42] lord steward; 43] lord treasurer; 44] privy councillor</a:documentation>
+Suggested values include: 1] animal keeper; 2] monkey keeper; 3] bird keeper; 4] dog keeper; 5] lion keeper; 6] armorer; 7] attorney general; 8] baker; 9] beggar; 10] brewer; 11] censor; 12] chandler; 13] scrivener; 14] lace maker; 15] coach maker; 16] cobbler; 17] cordwainer; 18] composer; 19] construction; 20] carpenter; 21] joiner; 22] cook; 23] dancer; 24] messenger; 25] diplomat; 26] ambassador; 27] consul; 28] domestic servant; 29] chambermaid; 30] draper; 31] linen draper; 32] silkwoman; 33] horseman; 34] jockey; 35] ostler; 36] gardener; 37] haberdasher; 38] lord lieutenant; 39] lord of the council; 40] lord privy seal; 41] lord steward; 42] lord treasurer; 43] privy councillor</a:documentation>
                <list>
                   <oneOrMore>
                      <choice>
-                        <value/>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>animal keeper</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>monkey keeper</value>
@@ -3190,7 +3195,7 @@ Suggested values include: 1] ; 2] animal keeper; 3] monkey keeper; 4] bird keepe
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>armorer</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>reed:attorney general</value>
+                        <value>attorney general</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>baker</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -3284,10 +3289,15 @@ Suggested values include: 1] ; 2] animal keeper; 3] monkey keeper; 4] bird keepe
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Describes a categorical entertainment (for example: 'play', 'masque', 'oration')</a:documentation>
                   <value>holiday</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Describes a holiday</a:documentation>
+
                   <value>character</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Describes a character</a:documentation>
                   <value>event</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Describes an event</a:documentation>
+
+                  <value>event</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Describes an event that is not covered by entertainment</a:documentation>
+
                </choice>
             </attribute>
          </optional>
@@ -3299,8 +3309,6 @@ Suggested values include: 1] ; 2] animal keeper; 3] monkey keeper; 4] bird keepe
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">animal keeper, marmoset (monkeys), baboon keeper, bird keeper, crow keeper, lion keeper, dog keeper</a:documentation>
                   <value>armorer</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">armorer</a:documentation>
-                  <value>attorneyGeneral</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>attorneyGeneral</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">attorney general</a:documentation>
                   <value>baker</value>
@@ -3806,8 +3814,6 @@ Suggested values include: 1] gloss; 2] index; 3] instructions; 4] litany; 5] syl
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The note to this REED Record is another type of note. (If you use this more than a handful of times we should update the TEI ODD Customisation.)</a:documentation>
                   <value>real</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">This note satisfies the CWRC note entity attribute</a:documentation>
-                  <value>researchNote</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">This note satisfies the CWRC research note attribute</a:documentation>
                </choice>
             </attribute>
          </optional>
@@ -7909,21 +7915,6 @@ Suggested values include: 1] paper; 2] parch(parchment) ; 3] mixed</a:documentat
          <ref name="att.global.responsibility.attribute.resp"/>
          <ref name="att.personal.attributes"/>
          <ref name="att.typed.attributes"/>
-         <optional>
-            <attribute name="cert">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(certainty) signifies the degree of certainty associated with the intervention or interpretation.</a:documentation>
-               <choice>
-                  <value>definite</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">There is a high degree of certainty about this place</a:documentation>
-                  <value>reasonably certain</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">There is a moderate degree of certainty about this place</a:documentation>
-                  <value>probable</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">There is a low degree of certainty about this place</a:documentation>
-                  <value>speculative</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The place is unknown</a:documentation>
-               </choice>
-            </attribute>
-         </optional>
          <optional>
             <attribute name="cert">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(certainty) signifies the degree of certainty associated with the intervention or interpretation.</a:documentation>
