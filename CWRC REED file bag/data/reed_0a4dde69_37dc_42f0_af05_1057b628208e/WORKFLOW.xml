@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://cwrc.ca/schemas/workflow.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<cwrc><workflow date="2019-02-17" userID="jakacki" time="12:58:40" timestamp="2019-02-17T17:58:40.628947+00:00" workflowID="reed_0a4dde69-37dc-42f0-af05-1057b628208e_wk_0"><activity category="created" stamp="cwrc:cre" status="c"/><assigned category="content_contribution"><message><recipient userID="KimMartin"/><subject>Lincoln's Inn 1602 ready to semanticize</subject><body>Hi there, I've decided to start ingesting the LI Black Books via template. Seems to speed things up (plus less typing). ;) D</body></message></assigned></workflow></cwrc>

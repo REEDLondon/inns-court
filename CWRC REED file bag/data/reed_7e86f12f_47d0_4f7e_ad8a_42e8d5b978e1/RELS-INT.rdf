@@ -1,7 +1,0 @@
-
-<rdf:RDF xmlns:islandora="http://islandora.ca/ontology/relsint#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="info:fedora/reed:7e86f12f-47d0-4f7e-ad8a-42e8d5b978e1/JP2">
-    <width xmlns="http://islandora.ca/ontology/relsext#">2077</width>
-    <height xmlns="http://islandora.ca/ontology/relsext#">3000</height>
-  </rdf:Description>
-</rdf:RDF>

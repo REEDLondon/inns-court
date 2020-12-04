@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://cwrc.ca/schemas/workflow.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<cwrc><workflow date="2018-08-28" userID="adminUP" time="18:33:46" timestamp="2018-08-28T18:33:46.369262+00:00" workflowID="ceww_3426a5d9-0008-4610-b2b8-58767e302fc9_wk_0"><activity category="published" stamp="cwrc:cre" status="c"><note>Initial ingest into the CWRC repository.</note></activity></workflow><workflow date="2018-11-03" userID="jakacki" time="12:13:21" timestamp="2018-11-03T16:13:21.279051+00:00" workflowID="ceww_3426a5d9-0008-4610-b2b8-58767e302fc9_wk_1"><activity category="checked" stamp="cwrc:ckd" status="c"/></workflow></cwrc>

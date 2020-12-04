@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://cwrc.ca/schemas/workflow.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<cwrc><workflow date="2018-09-29" userID="jakacki" time="19:45:10" timestamp="2018-09-29T23:45:10.707510+00:00" workflowID="reed_52acc953-f3da-493a-a393-ff2ef81d6813_wk_0"><activity category="created" stamp="cwrc:dep" status="c"/></workflow><workflow date="2018-09-29" userID="jakacki" time="19:45:31" timestamp="2018-09-29T23:45:31.267629+00:00" workflowID="reed_52acc953-f3da-493a-a393-ff2ef81d6813_wk_1"><activity category="created" stamp="cwrc:dep" status="c"/></workflow></cwrc>
