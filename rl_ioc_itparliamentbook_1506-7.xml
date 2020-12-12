@@ -676,7 +676,7 @@
          <head>Inner Temple Parliament Book <date from-iso="1506" to-iso="1507">1506–7</date></head>
          <div type="transcription" xml:lang="la">
            <div> 
-              <head>f 16 <supplied><date when-iso="1506-11-02">(2 November)</date> (Christmas officers)</supplied></head>
+              <head><supplied>f 16 <date when-iso="1506-11-02">(2 November)</date> (Christmas officers)</supplied></head>
             <pb n="16" type="folio"/> 
             
             <gap reason="omitted"/>

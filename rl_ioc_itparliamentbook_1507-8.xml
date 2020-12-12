@@ -676,7 +676,7 @@
          <head>Inner Temple Parliament Book<date from-iso="1507" to-iso="1508">1507–8</date></head>
          <div type="transcription" xml:lang="en">
             <div>
-               <head>f 18 <supplied><date when-iso="1507-11-01">(1 November)</date> (Christmas officers)</supplied></head>
+               <head><supplied>f 18 <date when-iso="1507-11-01">(1 November)</date> (Christmas officers)</supplied></head>
             <pb n="18" type="folio"/> 
             
             <gap reason="omitted"/>
@@ -696,7 +696,7 @@
                   </row>
                <row>
                   <cell></cell>
-                  <cell>Plunket</cell>
+                  <cell>Plunket<note type="foot">Brice ... Plunket: <hi rend="italic">encompassed by brace pointing to the left</hi></note></cell>
                </row>                     
             </table>
             <gap reason="omitted"/>
@@ -705,7 +705,7 @@
             
           <div type="transcription" xml:lang="la">
              <div>
-             <head>f 19 <supplied><date when-iso="1508-02-06">(6 February)</date></supplied></head> 
+             <head><supplied>f 19 <date when-iso="1508-02-06">(6 February)</date></supplied></head> 
                <pb n="19" type="folio"/> 
                <gap reason="omitted"/>
                <table>
@@ -720,7 +720,7 @@
          
          <div type="translation" xml:lang="en">  
             <div>
-               <head>f 19 <supplied><date when-iso="1508-02-06">(6 February 1507/8)</date></supplied></head> 
+               <head><supplied>f 19 <date when-iso="1508-02-06">(6 February 1507/8)</date></supplied></head> 
                <pb n="19" type="folio"/> 
                <gap reason="omitted"/>
                <table>
