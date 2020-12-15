@@ -673,115 +673,25 @@
    </teiHeader>
    <text type="record">
       <body>
-         <head>Inner Temple Parliament Book <date from-iso="1509" to-iso="1510">1509–10</date></head>
+         <head>Inner Temple Parliament Book, <date from-iso="1522-09-29" to-iso="1523-09-29">1522-3</date></head>
          <div type="transcription" xml:lang="la">
             <div>
-               <head><supplied>f 22 <date when-iso="1509-11-02">(2 November)</date> (Christmas officers)</supplied></head>
-               <pb n="22" type="folio"/>
-               <gap reason="omitted"/>
-               <table>
-                  <row>
-                     <cell></cell>
-                     <cell><del>Primyer</del></cell>
-                     <cell></cell>
-                  </row>
-                  <row>
-                     <cell></cell>
-                     <cell>Babyngton R</cell>
-                     <cell></cell>
-                  </row>
-                  <row>
-                     <cell>Mast<ex>er</ex>s dez Reuells<note type="marginal" place="margin_left">A<ex>nn</ex>o primo</note></cell>
-                     <cell><del>Dracott<ex>es</ex></del></cell>
-                     <cell><del><damage><gap unit="char" extent="3"></gap></damage></del>no<ex>n</ex> exercer<ex>un</ex>t officiu<ex>m</ex> eor<ex>um</ex></cell>
-                  </row>
-                  <row>
-                     <cell></cell>
-                     <cell>Tyndale</cell>
-                     <cell></cell>
-                  </row>
-                  <row>
-                     <cell></cell>
-                     <cell>Thymbelby</cell>
-                     <cell></cell>
-                  </row>
-                  <row>
-                     <cell></cell>
-                     <cell>Woodye</cell>
-                     <cell></cell>
-                  </row>
-               </table>
-               <gap reason="omitted"/>
+               <head><supplied>f 78 <date when-iso="1523-02-04">(4 February)</date> (List of fines)</supplied></head> 
+            <pb n="78" type="folio"/> 
+            
+            <gap reason="omitted"/>
+            
+            <ab><del>Mas</del> Magistri de le Reuelles <space/></ab>
+            
+            <gap reason="omitted"/>
             </div>
          </div>
-            <div type="translation" xml:lang="en">
-               <div>
-                  <head><supplied>f 22 <date when-iso="1509-11-02">(2 November)</date> (Christmas officers)</supplied></head>
-                  <pb n="22" type="folio"/>
-                  <gap reason="omitted"/>
-                  <table>
-                     <row>
-                        <cell></cell>
-                        <cell><del>Primyer</del></cell>
-                        <cell></cell>
-                     </row>
-                     <row>
-                        <cell></cell>
-                        <cell>Babyngton R</cell>
-                        <cell></cell>
-                     </row>
-                     <row>
-                        <cell>Masters of the revels<note type="marginal" place="margin_left">In the first year (of the reign of Henry VIII)</note></cell>
-                        <cell><del>Dracottes</del></cell>
-                        <cell><del><damage><gap unit="chars" extent="3"/></damage></del> did not carry out their office.</cell>
-                     </row>
-                     <row>
-                        <cell></cell>
-                        <cell>Tyndale</cell>
-                        <cell></cell>
-                     </row>
-                     <row>
-                        <cell></cell>
-                        <cell>Thimblebye</cell>
-                        <cell></cell>
-                     </row>
-                     <row>
-                        <cell></cell>
-                        <cell>Woodye</cell>
-                        <cell></cell>
-                     </row>
-                  </table>
-                  
-                  <gap reason="omitted"/>
-               </div>
-            </div>
-            <div type="transcription" xml:lang="la">
-               <div>
-                  <head><supplied>f 22v <date when-iso="1510-02-03">(3 February)</date></supplied></head>
-                  <pb n="22v" type="folio"/>
-                  <gap reason="omitted"/>
-                  <ab>Dracotes<note type="marginal" place="margin_left">It<ex>em</ex></note>  am<ex>er</ex>c<ex>iatur</ex>
-                     <del><damage><gap unit="chars" extent="2"/></damage></del> ad <measure type="currency">vj s. viij d.</measure> q<ex>ui</ex>a no<ex>n</ex>
-                     <del>assumps<damage><gap unit="chars" extent="2"/></damage></del> assumpsit sup<ex>er</ex> se offic<ex>ium</ex> M<ex>agist</ex>ri dez Reuels in festo Nat<ex>alis</ex>
-                        d<ex>om</ex>ini <damage><gap unit="chars" extent="3"/></damage>
-                  </ab>
-                  <gap reason="omitted"/>
-               </div>
-            </div>
-            <div type="translation" xml:lang="en">
-               <div>
-                  <head><supplied>f 22v <date when-iso="1510-02-03">(3 February)</date></supplied></head>
-                  <pb n="22v" type="folio"/>
-                  <gap reason="omitted"/>
-                  <ab>Let Dracottes<note type="marginal" place="margin_left">Likewise</note> be amerced at 6s 8d because he did not assume the office of master of the revels in the feast of Christmas
-                           <damage><gap unit="chars" extent="3"/></damage>. </ab>
-                  <gap reason="omitted"/>
-
-               </div>
-            </div>
-            <div type="endnote">
-               <p>Folio damaged by post–World War II fire; the date is supplied from Inderwick.</p>
-            </div>
+         
+         <div type="endnote">
+            <p>Folio damaged by post–World War II fire; the date is supplied from Inderwick.</p>
+         </div>
       </body>
    </text>
+            
+   
 </TEI>
