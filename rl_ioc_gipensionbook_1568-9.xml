@@ -674,7 +674,7 @@
 
    <text type="record">
       <body>
-         <head>Gray's Inn Pension Book, 1568–9</head>
+         <head>Gray's Inn Pension Book, <date from-iso="1568" to-iso="1569">1568–9</date></head>
          <div type="transcription" xml:lang="en">
             <div>
                <head><supplied>f <del>iiiv</del>(Money laid out for the house)</supplied></head>

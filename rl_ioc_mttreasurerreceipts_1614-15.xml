@@ -673,7 +673,7 @@
    </teiHeader>
    <text type="record">
       <body>
-         <head>Middle Temple Treasurer's Receipts, 1614–15</head>
+         <head>Middle Temple Treasurer's Receipts, <date from-iso="1614" to-iso="1615">1614–15</date></head>
          <div type="transcription" xml:lang="en">
             <div>
                <head><supplied>f 13 <date from-iso="1614-11-02" to-iso="1615-11-24">(2 November 1614–24 November 1615)</date> (Pensions, fines, rents, and

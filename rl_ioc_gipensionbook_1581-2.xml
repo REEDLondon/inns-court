@@ -674,7 +674,7 @@
    
    <text type="record">
       <body>
-         <head>Gray's Inn Pension Book, 1581–2</head>
+         <head>Gray's Inn Pension Book, <date from-iso="1581" to-iso="1582">1581–2</date></head>
          <div type="transcription" xml:lang="en">
             <div>
             <head><supplied>f 161v (Steward’s accounts)</supplied></head>

@@ -674,7 +674,7 @@
 
    <text type="record">
       <body>
-         <head>Gray's Inn Ledger Book, 1590–1</head>
+         <head>Gray's Inn Ledger Book, <date from-iso="1590" to-iso="1591">1590–1</date></head>
          <div type="transcription" xml:lang="en">
             <div>
             <head><supplied>f 30v <date from-iso="1590-11-25" to-iso="1591-11-24">(25 November 1590–24 November 1591)</date> (Disbursements)</supplied></head>

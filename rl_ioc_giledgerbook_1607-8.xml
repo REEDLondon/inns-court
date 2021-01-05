@@ -673,7 +673,7 @@
    </teiHeader>
    <text type="record">
       <body>
-         <head>Gray's Inn Ledger Book, 1607–8</head>
+         <head>Gray's Inn Ledger Book, <date from-iso="1607" to-iso="1608">1607–8</date></head>
          <div type="transcription" xml:lang="en">
             <div>
                <head><supplied>f 66v <date from-iso="1604-11-05" to-iso="1608-08-12">(5 November 1604–12 August 1608)</date> (Treasurer's disbursements)</supplied></head>

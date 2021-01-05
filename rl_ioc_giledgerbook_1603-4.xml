@@ -674,7 +674,7 @@
 
    <text type="record">
       <body>
-         <head>Gray's Inn Ledger Book, 1603-04</head>
+         <head>Gray's Inn Ledger Book, <date from-iso="1603" to-iso="1604">1603-04</date></head>
          <div type="transcription">
             <div>
             <head><supplied>f 58v<date from-iso="1602-11-26" to-iso="1604-11-01">(26 November 1602 – 1 November 1604)</date> (Steward’s disbursements)</supplied></head>

@@ -674,7 +674,7 @@
 
    <text type="record">
       <body>
-         <head>Gray's Inn Ledger Book, 1635-6</head>
+         <head>Gray's Inn Ledger Book, <date from-iso="1635" to-iso="1636">1635-6</date></head>
          <div type="transcription" xml:lang="en">
             <div>
                <head><supplied>f 113 <date when-iso="1635-02-26">(26 February 1635)</date> (Treasurer’s

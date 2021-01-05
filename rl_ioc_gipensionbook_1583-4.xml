@@ -674,7 +674,7 @@
    
    <text type="record">
       <body>
-         <head>Gray's Inn Pension Book, 1583–4</head>
+         <head>Gray's Inn Pension Book, <date from-iso="1583" to-iso="1584">1583–4</date></head>
          <div type="transcription" xml:lang="en">
             <div>
                <head><supplied>f 177v <date from-iso="1583-01-28" to-iso="1584-01-31">(28 January 1582/3 - 31 January 1583/4)</date> (Money laid out)</supplied></head>

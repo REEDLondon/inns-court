@@ -674,7 +674,7 @@
 
    <text type="record">
       <body>
-         <head>Gray's Inn Ledger Book, 1600-01</head>
+         <head>Gray's Inn Ledger Book, <date from-iso="1600" to-iso="1601">1600-01</date></head>
          <div type="transcription" xml:lang="en">
             <div>
                <head><supplied><date from-iso="1600-10-04" to-iso="1601-11-25">(4 October–25 November)</date> (Treasurer’s disbursements)</supplied></head>

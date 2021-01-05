@@ -674,7 +674,7 @@
    
    <text type="record">
       <body>
-         <head> Gray's Inn Pension Book, 1585–6</head>
+         <head> Gray's Inn Pension Book, <date from-iso="1585" to-iso="1586">1585–6</date></head>
          <div type="transcription" xml:lang="en">
             <div>
             <head><supplied>f 187 <date when="1585-11-26">(26 November)</date> (Pension orders)</supplied></head>

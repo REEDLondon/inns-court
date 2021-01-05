@@ -674,7 +674,7 @@
    <text type="record"> 
       <body>
                 
-         <head>Lincoln's Inn Black Book 5, 1583–4</head>
+         <head>Lincoln's Inn Black Book 5, <date from-iso="1583" to-iso="1584">1583–4</date></head>
          <div type="transcription" xml:lang="en">
             <div>
             <head><supplied>f 351 <date when-iso="1583-11-18">(18 November)</date> (Christmas officers)</supplied></head>

@@ -674,7 +674,7 @@
 
    <text type="record">
       <body>
-         <head>Gray's Inn Ledger Book, 1641–2</head>
+         <head>Gray's Inn Ledger Book, <date from-iso="1641" to-iso="1642">1641–2</date></head>
          <div type="transcription" xml:lang="en">
             <div>
                <head><supplied>f 120 (Steward’s payments and disbursements)</supplied></head>

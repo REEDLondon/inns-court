@@ -674,7 +674,7 @@
 
    <text type="record">
       <body>
-         <head>Gray's Inn Ledger Book, 1604–1608</head>
+         <head>Gray's Inn Ledger Book, <date from-iso="1604" to-iso="1608">1604–1608</date></head>
          <div type="transcription" xml:lang="en">
             <div>
                <head><supplied>f 66 <date from-iso="1604-11-05" to-iso="1608-08-12">(5 November

@@ -674,7 +674,7 @@
 
    <text type="record">
       <body>
-         <head>Gray's Inn Ledger Book, 1584–5</head>
+         <head>Gray's Inn Ledger Book, <date from-iso="1584" to-iso="1585">1584–5</date></head>
          <div type="transcription" xml:lang="en">
             <div>
                <head><supplied>f 3v (Pensioner's disbursements)</supplied></head>

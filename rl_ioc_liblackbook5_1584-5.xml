@@ -673,7 +673,7 @@
    </teiHeader>
    <text type="record">
       <body>
-         <head>Lincoln's Inn Black Book 5, 1584–5</head>
+         <head>Lincoln's Inn Black Book 5, <date from-iso="1584" to-iso="1585">1584–5</date></head>
          <div type="transcription" xml:lang="la">
             <div>
             <head>

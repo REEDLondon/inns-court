@@ -673,7 +673,7 @@
    </teiHeader>
    <text type="record">
       <body>
-         <head>Middle Temple Parliament Book, 1587–8</head>
+         <head>Middle Temple Parliament Book, <date from-iso="1587" to-iso="1588">1587–8</date></head>
          <div type="transcription" xml:lang="la">
             <div>
                <head><supplied>f 191 <date when-iso="1587-11-24">(24 November)</date></supplied></head>

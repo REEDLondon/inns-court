@@ -673,7 +673,7 @@
    </teiHeader>
    <text type="record">
       <body>
-         <head>Lincoln's Inn Black Book 5, 1586–7</head>
+         <head>Lincoln's Inn Black Book 5, <date from-iso="1586" to-iso="1587">1586–7</date></head>
          <div type="transcription" xml:lang="la">
             <div>
                <head><supplied>f 418 <date from-iso="1586-11-24" to-iso="1587-11-21">(24 November–21 November)</date> (Treasurer’s
