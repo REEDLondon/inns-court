@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">REED London Online</title>
+            <funder>
+               <orgName>Andrew W. Mellon Foundation<address>
+                     <addrLine>140 E. 62nd Street</addrLine>
+                     <addrLine>New York, NY 1006</addrLine>
+                     <addrLine>United States of America</addrLine>
+                  </address>
+               </orgName>
+               <date from-iso="2018-01-01" to-iso="2018-12-31">NHPRC-Mellon Planning Grant</date>
+               <date from-iso="2020-01-01" to-iso="2022-12-31">NHPRC-Mellon Implementation
+                  Grant</date>
+            </funder>
+
+            <!-- The following persons participated in the second phase of REED London Online, funded by an NHPRC-Andrew W. Mellon Digital Edition Publishing Cooperatives Implementation Grant, 2020-22  -->
+
+            <respStmt>
+               <persName xml:id="JAKA1">Diane K. Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Principal Investigator, REED London Online</resp>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="CB">Carolyn Black</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Project Manager, REED</resp>
+               <resp>NHPRC-Mellon Project Team Member, 2018-Present</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Susan Brown</persName>
+               <orgName>University of Guelph</orgName>
+               <resp>Lead Investigator, Canadian Writing Research Collaboratory (CWRC)</resp>
+               <resp>NHPRC-Mellon Project Team Member, 2018-Present</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="JC">James Cummings</persName>
+               <orgName>Newcastle University</orgName>
+               <resp>NHPRC-Mellon Project Team Member, 2018-Present</resp>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mihaela Ilovan</persName>
+               <orgName>CWRC</orgName>
+               <resp>Project Manager, CWRC</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Sally-Beth MacLean</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Director of Research and General Editor</resp>
+               <resp>NHPRC-Mellon Project Team Member, 2018-Present</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Kim Martin</persName>
+               <orgName>University of Guelph</orgName>
+               <resp>NHPRC-Mellon Project Team Member, 2018-Present</resp>
+               <resp>Linked Data Consultant</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Rachel Millio</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Research Assistant, 2018-Present</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Charlotte Simon</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Research Assistant, 2018-Present</resp>
+            </respStmt>
+
+            <!-- The following additional persons participated in the first phase of REED London, funded by an NHPRC-Andrew W. Mellon Digital Edition Publishing Cooperatives Planning Grant, 2018 -->
+
+            <respStmt>
+               <persName>John Bradley</persName>
+               <resp>NHPRC-Mellon Project Team Member, 2018</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Kathy Chung</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>REED Research Associate, NHPRC-Mellon Project Consultant, 2018</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matthew Davies</persName>
+               <orgName>University of London, Birkbeck College</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>NHPRC-Mellon Project Team Member, 2018</resp>
+            </respStmt>
+            <respStmt>
+               <persName>David Kathman</persName>
+               <resp>NHPRC-Mellon Project Team Member, 2018</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Maureen Maclean</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>REED London Research Assistant, 2018-2020</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Christopher Matusiak</persName>
+               <orgName>Ithaca College</orgName>
+               <resp>NHPRC-Mellon Project Team Member, 2018</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Dorothy Porter</persName>
+               <orgName>University of Pennsylvania</orgName>
+               <resp>NHPRC-Mellon Project Team Member, 2018</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Suzanne Westfall</persName>
+               <orgName>Lafayette College</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board Member</resp>
+               <resp>NHPRC-Mellon Project Team Member, 2018</resp>
+            </respStmt>
+
+            <!-- The following persons are editors of REED print collections considered in REED London Online -->
+
+            <respStmt>
+               <persName>John R. Elliott Jr.</persName>
+               <resp>Editor, Inns of Court</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mary C. Erler</persName>
+               <resp>Editor, Ecclesiastical London</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Anne Lancashire</persName>
+               <resp>Editor, Civic London to 1558</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Alan H. Nelson</persName>
+               <resp>Editor, Inns of Court</resp>
+            </respStmt>
+
+            <!-- The following persons are members of the REED Executive Board (2020-2021) -->
+            <respStmt>
+               <persName>Carolyn Black</persName>
+               <orgName>University of Toronto</orgName>
+               <resp>Project Manager</resp>
+            </respStmt>
+            <respStmt>
+               <persName>John Craig</persName>
+               <orgName>Simon Fraser University</orgName>
+               <resp>Chair</resp>
+            </respStmt>
+            <respStmt>
+               <persName>James Cummings</persName>
+               <orgName>Newcastle University</orgName>
+               <resp>Board Member</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matthew Davies</persName>
+               <orgName>University of London</orgName>
+               <resp>Board Member</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Alexandra Gillespie</persName>
+               <orgName>University of Toronto</orgName>
+               <resp>Board Member</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Peter Greenfield</persName>
+               <orgName>University of Puget Sound</orgName>
+               <resp>Secretary</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Diane Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Board Member</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Alexandra F. Johnston</persName>
+               <orgName>University of Toronto</orgName>
+               <resp>Founder and Senior Consultant</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Sally-Beth MacLean</persName>
+               <orgName>University of Toronto</orgName>
+               <resp>Director of Research and General Editor</resp>
+            </respStmt>
+            <respStmt>
+               <persName>C.E. McGee</persName>
+               <orgName>St Jerome’s University</orgName>
+               <resp>Board Member</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Alan H. Nelson</persName>
+               <orgName>University of California, Berkeley</orgName>
+               <resp>Board Member</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Paul Stevens</persName>
+               <orgName>University of Toronto </orgName>
+               <resp>Chair of English, ex officio</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Suzanne Westfall</persName>
+               <orgName>Lafayette College</orgName>
+               <resp>Board Member</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matthew Woodcock</persName>
+               <orgName>University of East Anglia</orgName>
+               <resp>Board Member</resp>
+            </respStmt>
+            <respStmt>
+               <persName>John Bradley</persName>
+               <orgName>King’s College London</orgName>
+               <resp>Senior Digital Advisor</resp>
+            </respStmt>
+            <respStmt>
+               <persName>J.J. McGavin</persName>
+               <orgName>University of Southampton</orgName>
+               <resp>Corresponding Advisor</resp>
+            </respStmt>
+
+            <!-- The following persons were REED directors and editorial staff involved in the print publication of Civic London to 1558, Ecclesiastical London, and Inns of Court -->
+
+            <respStmt>
+               <persName>Carolyn Black</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Associate Editor</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Jason Boyd</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Patrons Researcher, Inns of Court</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Patrick Gregory</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Associate Editor, Civic London to 1558 and Inns of Court</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tanya Hagen</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Bibliographer</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Alexandra F. Johnston</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Director</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Milton Kooistra</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Associate Bibliographer, Inns of Court</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Maria Lau</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Typesetter, Civic London to 1558 and Inns of Court</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Sally-Beth MacLean</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Associate Director/Executive Editor</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Gord Oxley</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Typesetter, Civic London to 1558 and Ecclesiastical London</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Arleane Ralph</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Associate Editor, Ecclesiastical London</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Abigail Ann Young</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Associate Editor</resp>
+            </respStmt>
+
+         </titleStmt>
+         <editionStmt>
+            <edition>version 2, released <date when-iso="2020-01-01">1 January 2020</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <address>
+                  <addrLine>University of Toronto</addrLine>
+                  <addrLine>170 St George Street, Suite 810</addrLine>
+                  <addrLine>Toronto, Ontario, Canada</addrLine>
+                  <addrLine>M5R 2M8</addrLine>
+               </address>
+            </authority>
+            <availability>
+               <p>Copyright <orgName>Records of Early English Drama (REED)</orgName>,
+                     <date>2020</date></p>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed
+                  under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+                  (CC BY-NC-SA 4.0) licence.</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Records of Early English Drama</title>
+         </seriesStmt>
+         <sourceDesc>
+            <p>This publication constitutes a remediation of the printed REED collections - Inns of
+               Court, Ecclesiastical London, and Civic London to 1558. Information on original
+               sources for transcriptions can be accessed via the Document Descriptions. <listBibl>
+                  <biblStruct>
+                     <monogr>
+                        <title>Ecclesiastical London</title>
+                        <editor>
+                           <persName>
+                              <forename>Mary</forename>
+                              <addName>C.</addName>
+                              <surname>Erler</surname>
+                           </persName>
+                        </editor>
+                        <imprint>
+                           <publisher>University of Toronto Press and The British
+                              Library.</publisher>
+                           <date>2008</date>
+                        </imprint>
+                        <biblScope unit="page">504</biblScope>
+                        <extent>
+                           <idno type="ISBN">978-0-8020-9858-0</idno>
+                           <idno type="ISBN">978-0-7123-5024-2</idno>
+                        </extent>
+                     </monogr>
+                  </biblStruct>
+                  <biblStruct>
+                     <monogr>
+                        <title>Inns of Court</title>
+                        <editor>
+                           <persName>
+                              <forename>Alan</forename>
+                              <addName>H.</addName>
+                              <surname>Nelson</surname>
+                           </persName>
+                        </editor>
+                        <editor>
+                           <persName>
+                              <forename>John</forename>
+                              <addName>R.</addName>
+                              <surname>Elliott, Jr</surname>
+                           </persName>
+                        </editor>
+                        <imprint>
+                           <publisher>Boydell &amp; Brewer</publisher>
+                           <date>2010</date>
+                        </imprint>
+                        <biblScope unit="page" n="1174">1174</biblScope>
+                        <biblScope unit="volume">3</biblScope>
+                        <biblScope>
+                           <idno type="ISBN">978-1-84384-259-0</idno>
+                        </biblScope>
+                     </monogr>
+                  </biblStruct>
+                  <biblStruct>
+                     <monogr>
+                        <title>Civic London to 1558</title>
+                        <editor>
+                           <persName>
+                              <forename>Ann</forename>
+                              <surname>Lancashire</surname>
+                           </persName>
+                        </editor>
+                        <editor>
+                           <persName>
+                              <forename>David</forename>
+                              <addName>J.</addName>
+                              <surname>Parkinson</surname>
+                           </persName>
+                        </editor>
+                        <imprint>
+                           <publisher>Boydell &amp; Brewer</publisher>
+                           <date>2015</date>
+                        </imprint>
+                        <biblScope unit="volume">3</biblScope>
+                        <biblScope unit="page">1795</biblScope>
+                        <biblScope>
+                           <idno type="ISBN">978-1-84384-399-3</idno>
+                        </biblScope>
+                     </monogr>
+                  </biblStruct>
+               </listBibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Records of Early English Drama (REED) is an international scholarly project that
+               is establishing for the first time the context from which the drama of
+               Shakespeare and his contemporaries grew. Founded in 1976, REED has worked since
+               then to locate, transcribe, and edit historical documents containing evidence of
+               drama, secular music, and other communal entertainment and ceremony from the
+               Middle Ages until 1642, when the Puritans closed the London theatres.</p>
+            <p>REED London Online is a prototype online collection developing from the Records of Early English Drama (REED) in partnership with the Canadian Writing Research Collaboratory (CWRC) and supported by Bucknell University. It aims to establish an openly accessible online scholarly and pedagogical resource of London-centric documentary, editorial, and bibliographic materials related to performance, theatre, and music spanning the period 1100-1642. With support from an NHPRC-Mellon Planning Grant for Digital Edition Publishing Cooperatives and CANARIE Research Software Program grants, REED London is creating new environments for scholarly presentation of archival materials gathered from legal, ecclesiastical, civic, political, and personal archival sources in and around London. The objective of the REED London project team is to build a stable, extensible publication environment that optimizes access to these compiled materials in ways that respond to scholars’ research interests across disciplines. Consulting with other planning grant recipients will be invaluable to ensuring that REED London’s production and publication environment is in line with standards laid out in the NHPRC-Mellon grant objectives. It is hoped that the progress REED London and CWRC make will also inform the larger dialogue about best practices among funded teams.</p>
+         </projectDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="bibliography_sections">
+                  <catDesc>Bibliography Sections</catDesc>
+                  <category xml:id="ioc">
+                     <catDesc>Inns of Court</catDesc>
+                  </category>
+                  <category xml:id="eccl">
+                     <catDesc>Ecclesiastical London</catDesc>
+                  </category>    
+                  <category xml:id="civic">
+                     <catDesc>Civic London to 1558</catDesc>
+                  </category>
+               </category>
+               <category xml:id="record_types">
+                  <catDesc>Record Types</catDesc>
+                  <category xml:id="central_gvt">
+                     <catDesc>central government and royal</catDesc>
+                  </category>
+                  <category xml:id="chron_hist">
+                     <catDesc>chronicles and histories</catDesc>
+                  </category>
+                  <category xml:id="church">
+                     <catDesc>church</catDesc>
+                  </category>
+                  <category xml:id="corr_diplomatic">
+                     <catDesc>correspondence, diplomatic</catDesc>
+                  </category>
+                  <category xml:id="corr_personal">
+                     <catDesc>correspondence, personal</catDesc>
+                  </category>
+                  <category xml:id="education">
+                     <catDesc>educational institution</catDesc>
+                  </category>
+                  <category xml:id="family">
+                     <catDesc>family</catDesc>
+                  </category>
+                  <category xml:id="guild_craft">
+                     <catDesc>guild, craft/trade</catDesc>
+                  </category>
+                  <category xml:id="guild_rel">
+                     <catDesc>guild, religious</catDesc>
+                  </category>
+                  <category xml:id="legal">
+                     <catDesc>legal</catDesc>
+                  </category>
+                  <category xml:id="local_gvt">
+                     <catDesc>local government</catDesc>
+                  </category>
+                  <category xml:id="manor">
+                     <catDesc>manorial</catDesc>
+                  </category>
+                  <category xml:id="rel_community">
+                     <catDesc>religious community</catDesc>
+                  </category>
+               </category>
+               
+               <category xml:id="repositories">
+                  <catDesc>Repositories</catDesc>
+                  <category xml:id="all-hallows-tower">
+                     <catDesc>All Hallows by the Tower Muniments Room</catDesc>
+                  </category>
+                  <category xml:id="AGS">
+                     <catDesc>
+                        <choice>
+                           <abbr>AGS</abbr>
+                           <expan>Archivo General de Simancas</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="archivo-segreto-vaticano">
+                     <catDesc>Archivo Segreto Vaticano</catDesc>
+                  </category>
+                  <category xml:id="archivo-stato">
+                     <catDesc>Archivio di Stato</catDesc>
+                  </category>
+                  <category xml:id="barber-surgeons-hall">
+                     <catDesc>Barber-Surgeons' Hall</catDesc>
+                  </category>
+                  <category xml:id="BL">
+                     <catDesc>
+                        <choice>
+                           <abbr>BL</abbr>
+                           <expan>British Library</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="Bodl.">
+                     <catDesc>
+                        <choice>
+                           <abbr>Bodl.</abbr>
+                           <expan>Bodleian</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="clothworkers-hall">
+                     <catDesc>Clothworkers' Hall</catDesc>
+                  </category>
+                  <category xml:id="CUL">
+                     <catDesc>
+                        <choice>
+                           <abbr>CUL</abbr>
+                           <expan>Cambridge University Library</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="derbyshire-record-office">
+                     <catDesc>Derbyshire Record Office</catDesc>
+                  </category>
+                  <category xml:id="dorset-history-centre">
+                     <catDesc>Dorset History Centre</catDesc>
+                  </category>
+                  <category xml:id="drapers-hall">
+                     <catDesc>Drapers' Hall</catDesc>
+                  </category>
+                  <category xml:id="folger-shakespeare-library">
+                     <catDesc>Folger Shakespeare Library</catDesc>
+                  </category>
+                  <category xml:id="goldsmiths-hall">
+                     <catDesc>Goldsmiths' Hall</catDesc>
+                  </category>
+                  <category xml:id="gonville-caius-library">
+                     <catDesc>Gonville and Caius College Library (Cambridge)</catDesc>
+                  </category>
+                  <category xml:id="GI-Arch">
+                     <catDesc>
+                        <choice>
+                           <abbr>GI Arch</abbr>
+                           <expan>Gray's Inn Archives</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="GL">
+                     <catDesc>
+                        <choice>
+                           <abbr>GL</abbr>
+                           <expan>Guildhall Library</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="hatfield-house-library">
+                     <catDesc>Hatfield House Library</catDesc>
+                  </category>
+                  <category xml:id="IT-Arch">
+                     <catDesc>
+                        <choice>
+                           <abbr>IT Arch</abbr>
+                           <expan>Inner Temple Archives</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="IT-Lib">
+                     <catDesc>
+                        <choice>
+                           <abbr>IT Lib</abbr>
+                           <expan>Inner Temple Library</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="lambeth-palace-library">
+                     <catDesc>Lambeth Palace Library</catDesc>
+                  </category>
+                  <category xml:id="leathersellers-hall">
+                     <catDesc>Leathersellers' Hall</catDesc>
+                  </category>
+                  <category xml:id="lincoln-cathedral-library">
+                     <catDesc>Lincoln Cathedral Library</catDesc>
+                  </category>
+                  <category xml:id="LI-Arch">
+                     <catDesc>
+                        <choice>
+                           <abbr>LI Arch</abbr>
+                           <expan>Lincoln's Inn Archives</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="LI-Lib">
+                     <catDesc>
+                        <choice>
+                           <abbr>LI Lib</abbr>
+                           <expan>Lincoln's Inn Library</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="london-metropolitan-archives">
+                     <catDesc>London Metropolitan Archives</catDesc>
+                  </category>
+                  <category xml:id="longleat-house">
+                     <catDesc>Longleat House</catDesc>
+                  </category>
+                  <category xml:id="mercers-hall">
+                     <catDesc>Mercers' Hall</catDesc>
+                  </category>
+                  <category xml:id="MT-Arch">
+                     <catDesc>
+                        <choice>
+                           <abbr>MT Arch</abbr>
+                           <expan>Middle Temple Archives</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="MT-Lib">
+                     <catDesc>
+                        <choice>
+                           <abbr>MT Lib</abbr> 
+                           <expan>Middle Temple Library</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="parliamentary-archives">
+                     <catDesc>Parliamentary Archives</catDesc>
+                  </category>
+                  <category xml:id="rousham-house">
+                     <catDesc>Rousham House</catDesc>
+                  </category>
+                  <category xml:id="st-bartholomews-hospital-archives">
+                     <catDesc>St Bartholomew's Hospital Archives</catDesc>
+                  </category>
+                  <category xml:id="st-james-palace">
+                     <catDesc>St James Palace</catDesc>
+                  </category>
+                  <category xml:id="st-johns-college-library">
+                     <catDesc>St John's College Library (Cambridge)</catDesc>
+                  </category>
+                  <category xml:id="stationers-hall">
+                     <catDesc>Stationers' Hall</catDesc>
+                  </category>
+                  <category xml:id="TNA">
+                     <catDesc>
+                        <choice>
+                           <abbr>TNA</abbr>
+                           <expan>The National Archives</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="trinity-college-library">
+                     <catDesc>Trinity College Library (Cambridge)</catDesc>
+                  </category>
+                  <category xml:id="york-city-archives">
+                     <catDesc>York City Archives</catDesc>
+                  </category>
+               </category>
+               <category xml:id="short_title_catalogues">
+                  <catDesc>Short-Title Catalogues</catDesc>
+                  <category xml:id="STC">
+                     <catDesc>
+                        <choice>
+                           <abbr>STC</abbr>
+                           <expan>Pollard and Redgrave (eds), Short-Title Catalogue</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="Wing">
+                     <catDesc>
+                        <choice>
+                           <abbr>Wing</abbr>
+                           <expan>Wing, Short-Title</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2020-07-23" who="#CB">Added repositories and abbreviations to TEI header for Archivo General de Simancas, GI Arch, IT Arch, IT Lib, LI Arch, LI Lib, MT Arch, and MT Lib</change>
+         <change when="2020-07-23" who="#CB">Replaced current REED editorial staff section in TEI header with names of staff responsible for three London collections</change>
+         <change when="2020-02-15" who="#JAKA1">Updated master TEI header to refer to ongoing funding for REED London Online and to recognize repositories and record types as project expands.</change>
+      </revisionDesc>
+   </teiHeader>
+
+   
+   <text type="record" >
+      <body>
+         <head>Gray's Inn Pension Book, <date from-iso="1612" to-iso="1613">1612–13</date></head>
+      	<div type="transcription">
+         	<div xml:lang="en">
+               <head><supplied>f 298 <date when-iso="1613-01-27">(27 January 1612/13)</date> (Pension orders)</supplied></head>
+            <pb n="298" type="folio"/>
+            <gap reason="omitted"/>
+            <note place="margin_left" type="marginal">An assesse toward a Maske.</note>
+            <ab>At this Penc<ex>i</ex>on the Readers ar prised every man <measure n="960" type="currency">4 li</measure>. the Ancient<ex>es</ex> and such as ar at this tyme to be Called ancient<ex>es</ex> at <measure n="600" type="currency">2 li. 10 s.</measure> the baristers at <measure n="480" type="currency">40 s</measure>. the Studient<ex>es</ex> at <measure n="240" type="currency">20 s</measure>. toward<ex>es</ex> the maske out of w<ex>hi</ex>ch monye <del>so much</del> so much to be Collected as the Inner Temple doth alowe</ab>
+               
+               <ab>Mr Will<ex>iam</ex> Gerrad electted Treasorer ffor the Maske and such thinges to be bought as Master Solicitor shall thinke ffitt and the Prises to be concidered of by the overseers appointed all Prises as they shall alowe of to be paid by M<ex>aste</ex>r Solicitors warrente
+</ab>
+            </div>
+            
+            <div xml:lang="en">
+               <head><supplied>f 298v <date when-iso="1613-02-04">(4 February 1612/13)</date></supplied></head>
+               <pb n="298v" type="folio"/>
+               <gap reason="omitted"/>
+               <note place="margin_left" type="marginal">eu<ex>er</ex>y gent<ex>leman</ex> to pay his taxac<ex>i</ex>on to the maske, or to loose chamb<ex>er</ex> or expelled.</note>
+               <ab>At this Penc<ex>i</ex>on it is Ordered that every gent<ex>leman</ex> of this societie taxed to the Charge of the Kings Maske having a Chamber in the howse shall not by <date when="1613-02-08">munday next</date>  pay his taxac<ex>i</ex>on his Chamber is ipso ffacto fforffeated &amp; to be sesed to the vse of the howse and yf any man taxed havinge noe Chamber shall not pay his taxacion as affores<ex>ai</ex>d is ipso ffacto expulsed the howse</ab>
+               
+               <ab>ffurther it is Ordered that if the taxe alredie made for the <name type="event">maske</name> will not be sufficient to discharge the <del>howse</del> same then it is nowe Ordered that at the next Pencion ffurther Order shalbe taken for Leviinge of so much as shalbe suffitient beffore beffor <note type="foot"><hi rend="italic">dittography</hi></note> saterday com <date when="1613-02-20">senight</date><note type="foot">saturday</note> and a Penc<ex>i</ex>on to be holden one <date when="1613-02-15">munday next</date> in that behalffe</ab>
+            </div>
+            
+            <div xml:lang="en">
+               <head><supplied>f 299 <date when-iso="1613-02-08">(8 February 1612/13)</date></supplied></head>
+               <pb n="299" type="folio"/>
+               <gap reason="omitted"/>
+               <note place="margin_left" type="marginal">Voluntary Contribut<ex>i</ex>on toward the maske beside the Tax.</note>
+               <ab>It is <del>...</del> agreed at this Penc<ex>i</ex>on that it shalbe concidered what gent<ex>lemen</ex> are fitt to Contribute voluntary toward<ex>es</ex> the mask besid<ex>es</ex> the taxe allredi sett &amp; then Collector<ex>es</ex> to be assined ffor the gatheringe of the voluntary Contribuc<ex>i</ex>on</ab>
+            </div>
+            
+            <div xml:lang="en">
+               <head><supplied>f 299v <date when-iso="1613-03-02">(2 March 1612/13)</date></supplied></head>
+               <pb n="299v" type="folio"/>
+               <gap reason="omitted"/>
+               <ab>Wher it was Ordered that wheras Mr Hansbie hath lent <measure n="9600" type="currency">40 li.</measure> &amp; Mr Wallor &amp; Mr Mosley ether of them <measure n="7200" type="currency">30 li.</measure> for the generall vse of Graies Inne toward<ex>es</ex> the discharginge of the maske that every of these gent<ex>lemen</ex> shall have ther severall somes of money repaid them againe by the howse at the end of the terme next ensuinge
+               </ab>
+               <ab>And it is ffurther Ordered that if any gent<ex>lemen</ex> shall herafter Lend any money for this purpose that he or thay shall have ther money repaid them againe by the howse at the end of the next terme as affores<ex>ai</ex>d</ab>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div>
+               <head><supplied><date when-iso="1613-05-08">(8 May 1613) (Pension orders)</date></supplied></head>
+               
+               <ab>It is Ordered at this Penc<ex>i</ex>on that they w<ex>hi</ex>ch <add place="above">have</add> not paid their money
+                  seaced vppo<ex>n</ex> them toward<ex>es</ex> the <name type="event">Kinges Maske</name> accordinge to the fformer Order shall pay the same beffore the <date when="1613-05-13">assention day next</date>  vnto the severalie Collectors therof, vnder Losse of ther Chambers that have Chambers in the howse whether they be howse Chambers or Lease Chambers and vnder paine of Expulsion of such out of the Howse as have noe Chambers, Neverthelesse such as nether are nor shalbe in Com<ex>m</ex>ons nor in nor neer the towne this terme nor any p<ex>ar</ex>t therof shall have Libertie to pay their s<ex>ai</ex>d moneis vntill t<date when="1613-06-26">he second saterday in the next terme </date> vppo<ex>n</ex> the penalties affores<ex>ai</ex>d</ab>
+            </div>
+            
+            <div xml:lang="en">
+               <head><supplied> f 300 <date when-iso="1613-05-12">(12 May 1613)</date></supplied></head>
+               <pb n="300" type="folio"/>
+               <gap reason="omitted"/>
+               <ab>At this Penc<ex>i</ex>on it is Ordered that Mr Barker one of the Readers of this howse shalbe ffreed and discharged from all taxes &amp; paiment<ex>es</ex> heerafter to be made for and toward<ex>es</ex> the maske &amp; solemnities in Regard that he hath willingly paid <measure n="960" type="currency">iiij li.</measure> accordinge to the Levie mad the Last terme when he was absent</ab>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div xml:lang="en">
+               <head><supplied>f 301-1v <date when-iso="1613-05-18">(18 May 1613) (Cupboard order)</date></supplied></head>
+               <pb n="301" type="folio"/>
+               <gap reason="omitted"/>
+               <ab>It was Ordered that the gent<ex>lemen</ex> Late Actors in the maske at the Court shall bring in all ther maskinge apparrel w<ex>hi</ex>ch they had of the Howse Charge at or beffore the first <del>next</del> penc<ex>i</ex>on in the next terme or els the value therof as the Readers then shall thinke ffitt</ab>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div xml:lang="en">
+               <head><supplied><date when-iso="1613-06-16">(16 June 1613) (Pension orders)</date></supplied></head>
+               <ab>It is ordered at this Penc<ex>i</ex>on that every one of the Revelors in the Late Maske at the Court shall bringe in ther masking apparrell and deliver it to S<ex>i</ex>r ffran<ex>cis</ex> Evre at his Chamber in Graies Inne one <date when="1613-06-19">Saterdaye next </date> or before or els euery one of the s<ex>ai</ex>d Revelors makinge defavlt therof shall pay vnto the same S<ex>i</ex>r ffran<ex>cis</ex> Evre at his Chamber affores<ex>ai</ex>d the full some <measure n="7200" type="currency">xxx li.</measure> one <date when="1613-06-21">Munday next </date> before eleven of the Clocke in the forenone to the vse of the Societie of Graies Inne in Leue of the same apparrell or els Incure such censure as may ensue. |</ab>
+               <pb type="folio" n="301v"/>
+               <ab>It is also Ordered at this Penc<ex>i</ex>on that wheras by Order mad in Penc<ex>i</ex>on the <date when="1613-05-08">eight day of Maye 1613</date> it was Ordained that every gent<ex>leman</ex> of this Societie then being in Or nere the towne should paye his taxac<ex>i</ex>on imposed vppon him by <date when="1613-06-13">assenc<ex>i</ex>on day then next affter w<ex>hi</ex>ch is now past </date> and also that every gent<ex>leman</ex> of this Societie then not in nor nere the Towne so as he by <del>...</del> intendment Could not have convenient notice in so short a tyme to accomplish the Order affores<ex>ai</ex>d should Likewyse p<ex>er</ex>forme the same by <date when="1613-06-26">the second saterday in Trinitie terme then next <del>...</del> insuinge</date> w<ex>hi</ex>ch is Likewyse Now past Therfore in respect defavlt is made by divers gent<ex>lemen</ex> of this Societie as well then p<ex>re</ex>sent as absent it is Now Ordered at this Penc<ex>i</ex>on that the Penc<ex>i</ex>oner doe ffourthwith execut the s<ex>ai</ex>d Order ffor Seisinge of Chambers both vppo<ex>n</ex> such as were then absent by reason ther tyme given them is now expired &amp; also vppo<ex>n</ex> those that were then p<ex>re</ex>sent having not paid ther seu<ex>er</ex>all taxac<ex>i</ex>ons according to ther severall rankes and that w<ex>i</ex>thout further p<ex>ro</ex>crastinac<ex>i</ex>on or delay</ab>
+               <gap reason="omitted"/>
+            </div>
+            
+            <div xml:lang="en">
+               <head><supplied><date when-iso="1613-06-22">(22 June 1613)</date></supplied></head>
+               <pb n="302" type="folio"/>
+               <gap reason="omitted"/>
+               <note place="margin_left" type="marginal">for Bringing in the Masking suits</note>
+               <ab>At this Penc<ex>i</ex>on it is allso Ordered that wheras before the Maske Lateley performed at the Court before his M<ex>aies</ex>tie yt was by the Order of this Howse as by the Orders of all the other Howses of Court amongst them for themselves Ordered that the Maskers should affter the p<ex>er</ex>formance of that s<ex>er</ex>vice bring in ther Maskings suit<ex>es</ex> wherby some p<ex>ro</ex>fitt might be made of them to ease the great Charge w<ex>hi</ex>ch was expended and in great p<ex>ar</ex>te resteth yet vnpaid And wheras the Maskers of the Howse fforbearinge to bringe them in according to the s<ex>ai</ex>d Order yt was affter the severall answeres of some of them recorded in <lb/> 
+                  <note type="marginal" rend="left">or pay 30 li. a peece w<ex>hi</ex>ch cost the house C mark<ex>es</ex> a peece</note> Open penc<ex>i</ex>on againe Ordered that they should bringe them in by a Certaine day of this terme or ells every one of them makinge default to aunswere <measure n="7200" type="currency">Thirtie pound</measure><ex>es</ex> in Leuie therof every of ther s<ex>ai</ex>d sut<ex>es</ex> having Cost the Howse above a <measure type="currency">Hundred Markes</measure> w<ex>hi</ex>ch they have Contemptuously neglectted and refused to p<ex>er</ex>forme, Albeit none of them did Contribute any thing to the s<ex>ai</ex>d Charge as also were alowed all other ther necessarie Charg<ex>es</ex> expended therabout<ex>es</ex> wherfore for as much as It is not thought ffitt that any gentl<ex>emen</ex> of this Howse should make p<ex>ro</ex>fitt of the howse in that manor in p<ex>ar</ex>ticuler as also that if the s<ex>ai</ex>d Maskinge apparell should not be brought in accordinge to the Order ther must be a generall newe taxac<ex>i</ex>on of the hole howse to paie the severall debt<ex>es</ex> behind &amp; vnpaide</ab>
+               <note place="margin_left" type="marginal">The Maskers refused, although none of them paid toward the tax, &amp; had all theire other charges borne necessarie therabout<ex>es</ex>.<lb/>therfore put out of Com<ex>m</ex>ons &amp;c./</note>
+                  <ab>It is therfore ordered that everye of the said severale maskers nowe beinge in towne shall for ther s<ex>ai</ex>d Contempt<ex>es</ex> be p<ex>re</ex>sently Cast into Com<ex>m</ex>ons and put out againe and so to Continewe accordinge to the Order of the Howse vntill they <add place="above">have</add> p<ex>er</ex>formed the s<ex>ai</ex>d Last Order And that such of them as <add place="above">ar</add> now owt of Townes hall performe the same Order at or before Hollamas next at w<ex>hi</ex>ch tyme such of them as shalbe found failinge in the p<ex>er</ex>formance of the s<ex>ai</ex>d Order that is to say aswell those that are Cast into Com<ex>m</ex>ons and out againe to the others, are then fourthw<ex>i</ex>th expelled this societie for ther willfull Contempt<ex>es</ex> of the governmente of this Howse and ther Inconciderate dealinge and the gen<ex>er</ex>all wronges to every member therof</ab>
+               
+               <ab rend="center"><date when="1613-06-23">23 Iunij 1613</date></ab>
+               <ab>It is thought ffitt by these Readers whose names ar vnder written that the draught of the Order towchinge the Maskers apparrell be revewed and the publishinge of it be staied tell <add place="above">the</add> next terme</ab>
+               <table>
+                  <row>
+                     <cell>ffranc<ex>is</ex> Bacon Mil<ex>itis</ex></cell> 
+                     <cell>Henry Yelverton</cell>
+                     <cell>Edw<ex>ard</ex> Bolt</cell>
+                  </row>
+                  <row>
+                     <cell>Cle<ex>ment</ex> Goldsmith</cell>
+                     <cell>Tho<ex>mas</ex> Chamberline</cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>Henry ffinch</cell>
+                     <cell>Lanc<ex>elot</ex> Lovelace</cell>
+                     <cell>Humfray Davenpo<ex>r</ex></cell>
+                  </row>
+                  <row>
+                     <cell>Tho<ex>mas</ex> Hughes</cell>
+                     <cell/>
+                     <cell>Armiger Lector</cell>
+                  </row>
+               </table>
+            </div>
+      		<div type="endnote"><p>The ‘maske’, Beaumont’s Masque of the Inner Temple and Gray’s Inn, was performed in the
+Banqueting House, Whitehall, on <date when="1613-02-20">20 February 1612/13</date>, following the marriage of Princess Elizabeth
+and the count palatine. The current order seems designed to guarantee that Gray’s Inn will raise funds
+at the same rate as its partner, the Inner Temple.</p>	
+		<p>The ‘maskinge apparrel’ featured in this and subsequent entries was worn by Inns of
+Court gentlemen in their equestrian procession or ‘riding’: see <ref target="https://beta.cwrc.ca/reed-london/inns-court/inns-court-drama-entertainment-and-music">Introduction, Martial Exercises</ref>. </p>
+		
+	
+	
+		</div>                           
+         </div>
+      </body>
+   </text>
+   
+</TEI>
