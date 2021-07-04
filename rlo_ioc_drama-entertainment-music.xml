@@ -1,0 +1,2323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">REED London Online</title>
+            <funder>
+               <orgName>Andrew W. Mellon Foundation<address>
+                     <addrLine>140 E. 62nd Street</addrLine>
+                     <addrLine>New York, NY 1006</addrLine>
+                     <addrLine>United States of America</addrLine>
+                  </address>
+               </orgName>
+               <date from-iso="2018-01-01" to-iso="2018-12-31">NHPRC-Mellon Planning Grant</date>
+               <date from-iso="2020-01-01" to-iso="2022-12-31">NHPRC-Mellon Implementation
+                  Grant</date>
+            </funder>
+
+            <!-- The following persons participated in the second phase of REED London Online, funded by an NHPRC-Andrew W. Mellon Digital Edition Publishing Cooperatives Implementation Grant, 2020-22  -->
+
+            <respStmt>
+               <persName xml:id="JAKA1">Diane K. Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Principal Investigator, REED London Online</resp>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="CB">Carolyn Black</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Project Manager, REED</resp>
+               <resp>NHPRC-Mellon Project Team Member, 2018-Present</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Susan Brown</persName>
+               <orgName>University of Guelph</orgName>
+               <resp>Lead Investigator, Canadian Writing Research Collaboratory (CWRC)</resp>
+               <resp>NHPRC-Mellon Project Team Member, 2018-Present</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="JC">James Cummings</persName>
+               <orgName>Newcastle University</orgName>
+               <resp>NHPRC-Mellon Project Team Member, 2018-Present</resp>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mihaela Ilovan</persName>
+               <orgName>CWRC</orgName>
+               <resp>Project Manager, CWRC</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Sally-Beth MacLean</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Director of Research and General Editor</resp>
+               <resp>NHPRC-Mellon Project Team Member, 2018-Present</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Kim Martin</persName>
+               <orgName>University of Guelph</orgName>
+               <resp>NHPRC-Mellon Project Team Member, 2018-Present</resp>
+               <resp>Linked Data Consultant</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Rachel Millio</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Research Assistant, 2018-Present</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Charlotte Simon</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Research Assistant, 2018-Present</resp>
+            </respStmt>
+
+            <!-- The following additional persons participated in the first phase of REED London, funded by an NHPRC-Andrew W. Mellon Digital Edition Publishing Cooperatives Planning Grant, 2018 -->
+
+            <respStmt>
+               <persName>John Bradley</persName>
+               <resp>NHPRC-Mellon Project Team Member, 2018</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Kathy Chung</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>REED Research Associate, NHPRC-Mellon Project Consultant, 2018</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matthew Davies</persName>
+               <orgName>University of London, Birkbeck College</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>NHPRC-Mellon Project Team Member, 2018</resp>
+            </respStmt>
+            <respStmt>
+               <persName>David Kathman</persName>
+               <resp>NHPRC-Mellon Project Team Member, 2018</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Maureen Maclean</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>REED London Research Assistant, 2018-2020</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Christopher Matusiak</persName>
+               <orgName>Ithaca College</orgName>
+               <resp>NHPRC-Mellon Project Team Member, 2018</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Dorothy Porter</persName>
+               <orgName>University of Pennsylvania</orgName>
+               <resp>NHPRC-Mellon Project Team Member, 2018</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Suzanne Westfall</persName>
+               <orgName>Lafayette College</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board Member</resp>
+               <resp>NHPRC-Mellon Project Team Member, 2018</resp>
+            </respStmt>
+
+            <!-- The following persons are editors of REED print collections considered in REED London Online -->
+
+            <respStmt>
+               <persName>John R. Elliott Jr.</persName>
+               <resp>Editor, Inns of Court</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mary C. Erler</persName>
+               <resp>Editor, Ecclesiastical London</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Anne Lancashire</persName>
+               <resp>Editor, Civic London to 1558</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Alan H. Nelson</persName>
+               <resp>Editor, Inns of Court</resp>
+            </respStmt>
+
+            <!-- The following persons are members of the REED Executive Board (2020-2021) -->
+            <respStmt>
+               <persName>Carolyn Black</persName>
+               <orgName>University of Toronto</orgName>
+               <resp>Project Manager</resp>
+            </respStmt>
+            <respStmt>
+               <persName>John Craig</persName>
+               <orgName>Simon Fraser University</orgName>
+               <resp>Chair</resp>
+            </respStmt>
+            <respStmt>
+               <persName>James Cummings</persName>
+               <orgName>Newcastle University</orgName>
+               <resp>Board Member</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matthew Davies</persName>
+               <orgName>University of London</orgName>
+               <resp>Board Member</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Alexandra Gillespie</persName>
+               <orgName>University of Toronto</orgName>
+               <resp>Board Member</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Peter Greenfield</persName>
+               <orgName>University of Puget Sound</orgName>
+               <resp>Secretary</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Diane Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Board Member</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Alexandra F. Johnston</persName>
+               <orgName>University of Toronto</orgName>
+               <resp>Founder and Senior Consultant</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Sally-Beth MacLean</persName>
+               <orgName>University of Toronto</orgName>
+               <resp>Director of Research and General Editor</resp>
+            </respStmt>
+            <respStmt>
+               <persName>C.E. McGee</persName>
+               <orgName>St Jerome’s University</orgName>
+               <resp>Board Member</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Alan H. Nelson</persName>
+               <orgName>University of California, Berkeley</orgName>
+               <resp>Board Member</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Paul Stevens</persName>
+               <orgName>University of Toronto </orgName>
+               <resp>Chair of English, ex officio</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Suzanne Westfall</persName>
+               <orgName>Lafayette College</orgName>
+               <resp>Board Member</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matthew Woodcock</persName>
+               <orgName>University of East Anglia</orgName>
+               <resp>Board Member</resp>
+            </respStmt>
+            <respStmt>
+               <persName>John Bradley</persName>
+               <orgName>King’s College London</orgName>
+               <resp>Senior Digital Advisor</resp>
+            </respStmt>
+            <respStmt>
+               <persName>J.J. McGavin</persName>
+               <orgName>University of Southampton</orgName>
+               <resp>Corresponding Advisor</resp>
+            </respStmt>
+
+            <!-- The following persons were REED directors and editorial staff involved in the print publication of Civic London to 1558, Ecclesiastical London, and Inns of Court -->
+
+            <respStmt>
+               <persName>Carolyn Black</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Associate Editor</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Jason Boyd</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Patrons Researcher, Inns of Court</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Patrick Gregory</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Associate Editor, Civic London to 1558 and Inns of Court</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tanya Hagen</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Bibliographer</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Alexandra F. Johnston</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Director</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Milton Kooistra</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Associate Bibliographer, Inns of Court</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Maria Lau</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Typesetter, Civic London to 1558 and Inns of Court</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Sally-Beth MacLean</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Associate Director/Executive Editor</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Gord Oxley</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Typesetter, Civic London to 1558 and Ecclesiastical London</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Arleane Ralph</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Associate Editor, Ecclesiastical London</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Abigail Ann Young</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Associate Editor</resp>
+            </respStmt>
+
+         </titleStmt>
+         <editionStmt>
+            <edition>version 2, released <date when-iso="2020-01-01">1 January 2020</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <address>
+                  <addrLine>University of Toronto</addrLine>
+                  <addrLine>170 St George Street, Suite 810</addrLine>
+                  <addrLine>Toronto, Ontario, Canada</addrLine>
+                  <addrLine>M5R 2M8</addrLine>
+               </address>
+            </authority>
+            <availability>
+               <p>Copyright <orgName>Records of Early English Drama (REED)</orgName>,
+                     <date>2020</date></p>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed
+                  under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+                  (CC BY-NC-SA 4.0) licence.</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Records of Early English Drama</title>
+         </seriesStmt>
+         <sourceDesc>
+            <p>This publication constitutes a remediation of the printed REED collections - Inns of
+               Court, Ecclesiastical London, and Civic London to 1558. Information on original
+               sources for transcriptions can be accessed via the Document Descriptions. <listBibl>
+                  <biblStruct>
+                     <monogr>
+                        <title>Ecclesiastical London</title>
+                        <editor>
+                           <persName>
+                              <forename>Mary</forename>
+                              <addName>C.</addName>
+                              <surname>Erler</surname>
+                           </persName>
+                        </editor>
+                        <imprint>
+                           <publisher>University of Toronto Press and The British
+                              Library.</publisher>
+                           <date>2008</date>
+                        </imprint>
+                        <biblScope unit="page">504</biblScope>
+                        <extent>
+                           <idno type="ISBN">978-0-8020-9858-0</idno>
+                           <idno type="ISBN">978-0-7123-5024-2</idno>
+                        </extent>
+                     </monogr>
+                  </biblStruct>
+                  <biblStruct>
+                     <monogr>
+                        <title>Inns of Court</title>
+                        <editor>
+                           <persName>
+                              <forename>Alan</forename>
+                              <addName>H.</addName>
+                              <surname>Nelson</surname>
+                           </persName>
+                        </editor>
+                        <editor>
+                           <persName>
+                              <forename>John</forename>
+                              <addName>R.</addName>
+                              <surname>Elliott, Jr</surname>
+                           </persName>
+                        </editor>
+                        <imprint>
+                           <publisher>Boydell &amp; Brewer</publisher>
+                           <date>2010</date>
+                        </imprint>
+                        <biblScope unit="page" n="1174">1174</biblScope>
+                        <biblScope unit="volume">3</biblScope>
+                        <biblScope>
+                           <idno type="ISBN">978-1-84384-259-0</idno>
+                        </biblScope>
+                     </monogr>
+                  </biblStruct>
+                  <biblStruct>
+                     <monogr>
+                        <title>Civic London to 1558</title>
+                        <editor>
+                           <persName>
+                              <forename>Ann</forename>
+                              <surname>Lancashire</surname>
+                           </persName>
+                        </editor>
+                        <editor>
+                           <persName>
+                              <forename>David</forename>
+                              <addName>J.</addName>
+                              <surname>Parkinson</surname>
+                           </persName>
+                        </editor>
+                        <imprint>
+                           <publisher>Boydell &amp; Brewer</publisher>
+                           <date>2015</date>
+                        </imprint>
+                        <biblScope unit="volume">3</biblScope>
+                        <biblScope unit="page">1795</biblScope>
+                        <biblScope>
+                           <idno type="ISBN">978-1-84384-399-3</idno>
+                        </biblScope>
+                     </monogr>
+                  </biblStruct>
+               </listBibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Records of Early English Drama (REED) is an international scholarly project that
+               is establishing for the first time the context from which the drama of
+               Shakespeare and his contemporaries grew. Founded in 1976, REED has worked since
+               then to locate, transcribe, and edit historical documents containing evidence of
+               drama, secular music, and other communal entertainment and ceremony from the
+               Middle Ages until 1642, when the Puritans closed the London theatres.</p>
+            <p>REED London Online is a prototype online collection developing from the Records of Early English Drama (REED) in partnership with the Canadian Writing Research Collaboratory (CWRC) and supported by Bucknell University. It aims to establish an openly accessible online scholarly and pedagogical resource of London-centric documentary, editorial, and bibliographic materials related to performance, theatre, and music spanning the period 1100-1642. With support from an NHPRC-Mellon Planning Grant for Digital Edition Publishing Cooperatives and CANARIE Research Software Program grants, REED London is creating new environments for scholarly presentation of archival materials gathered from legal, ecclesiastical, civic, political, and personal archival sources in and around London. The objective of the REED London project team is to build a stable, extensible publication environment that optimizes access to these compiled materials in ways that respond to scholars’ research interests across disciplines. Consulting with other planning grant recipients will be invaluable to ensuring that REED London’s production and publication environment is in line with standards laid out in the NHPRC-Mellon grant objectives. It is hoped that the progress REED London and CWRC make will also inform the larger dialogue about best practices among funded teams.</p>
+         </projectDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="bibliography_sections">
+                  <catDesc>Bibliography Sections</catDesc>
+                  <category xml:id="ioc">
+                     <catDesc>Inns of Court</catDesc>
+                  </category>
+                  <category xml:id="eccl">
+                     <catDesc>Ecclesiastical London</catDesc>
+                  </category>    
+                  <category xml:id="civic">
+                     <catDesc>Civic London to 1558</catDesc>
+                  </category>
+               </category>
+               <category xml:id="record_types">
+                  <catDesc>Record Types</catDesc>
+                  <category xml:id="central_gvt">
+                     <catDesc>central government and royal</catDesc>
+                  </category>
+                  <category xml:id="chron_hist">
+                     <catDesc>chronicles and histories</catDesc>
+                  </category>
+                  <category xml:id="church">
+                     <catDesc>church</catDesc>
+                  </category>
+                  <category xml:id="corr_diplomatic">
+                     <catDesc>correspondence, diplomatic</catDesc>
+                  </category>
+                  <category xml:id="corr_personal">
+                     <catDesc>correspondence, personal</catDesc>
+                  </category>
+                  <category xml:id="education">
+                     <catDesc>educational institution</catDesc>
+                  </category>
+                  <category xml:id="family">
+                     <catDesc>family</catDesc>
+                  </category>
+                  <category xml:id="guild_craft">
+                     <catDesc>guild, craft/trade</catDesc>
+                  </category>
+                  <category xml:id="guild_rel">
+                     <catDesc>guild, religious</catDesc>
+                  </category>
+                  <category xml:id="legal">
+                     <catDesc>legal</catDesc>
+                  </category>
+                  <category xml:id="local_gvt">
+                     <catDesc>local government</catDesc>
+                  </category>
+                  <category xml:id="manor">
+                     <catDesc>manorial</catDesc>
+                  </category>
+                  <category xml:id="rel_community">
+                     <catDesc>religious community</catDesc>
+                  </category>
+               </category>
+               
+               <category xml:id="repositories">
+                  <catDesc>Repositories</catDesc>
+                  <category xml:id="all-hallows-tower">
+                     <catDesc>All Hallows by the Tower Muniments Room</catDesc>
+                  </category>
+                  <category xml:id="AGS">
+                     <catDesc>
+                        <choice>
+                           <abbr>AGS</abbr>
+                           <expan>Archivo General de Simancas</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="archivo-segreto-vaticano">
+                     <catDesc>Archivo Segreto Vaticano</catDesc>
+                  </category>
+                  <category xml:id="archivo-stato">
+                     <catDesc>Archivio di Stato</catDesc>
+                  </category>
+                  <category xml:id="barber-surgeons-hall">
+                     <catDesc>Barber-Surgeons' Hall</catDesc>
+                  </category>
+                  <category xml:id="BL">
+                     <catDesc>
+                        <choice>
+                           <abbr>BL</abbr>
+                           <expan>British Library</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="Bodl.">
+                     <catDesc>
+                        <choice>
+                           <abbr>Bodl.</abbr>
+                           <expan>Bodleian</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="clothworkers-hall">
+                     <catDesc>Clothworkers' Hall</catDesc>
+                  </category>
+                  <category xml:id="CUL">
+                     <catDesc>
+                        <choice>
+                           <abbr>CUL</abbr>
+                           <expan>Cambridge University Library</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="derbyshire-record-office">
+                     <catDesc>Derbyshire Record Office</catDesc>
+                  </category>
+                  <category xml:id="dorset-history-centre">
+                     <catDesc>Dorset History Centre</catDesc>
+                  </category>
+                  <category xml:id="drapers-hall">
+                     <catDesc>Drapers' Hall</catDesc>
+                  </category>
+                  <category xml:id="folger-shakespeare-library">
+                     <catDesc>Folger Shakespeare Library</catDesc>
+                  </category>
+                  <category xml:id="goldsmiths-hall">
+                     <catDesc>Goldsmiths' Hall</catDesc>
+                  </category>
+                  <category xml:id="gonville-caius-library">
+                     <catDesc>Gonville and Caius College Library (Cambridge)</catDesc>
+                  </category>
+                  <category xml:id="GI-Arch">
+                     <catDesc>
+                        <choice>
+                           <abbr>GI Arch</abbr>
+                           <expan>Gray's Inn Archives</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="GL">
+                     <catDesc>
+                        <choice>
+                           <abbr>GL</abbr>
+                           <expan>Guildhall Library</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="hatfield-house-library">
+                     <catDesc>Hatfield House Library</catDesc>
+                  </category>
+                  <category xml:id="IT-Arch">
+                     <catDesc>
+                        <choice>
+                           <abbr>IT Arch</abbr>
+                           <expan>Inner Temple Archives</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="IT-Lib">
+                     <catDesc>
+                        <choice>
+                           <abbr>IT Lib</abbr>
+                           <expan>Inner Temple Library</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="lambeth-palace-library">
+                     <catDesc>Lambeth Palace Library</catDesc>
+                  </category>
+                  <category xml:id="leathersellers-hall">
+                     <catDesc>Leathersellers' Hall</catDesc>
+                  </category>
+                  <category xml:id="lincoln-cathedral-library">
+                     <catDesc>Lincoln Cathedral Library</catDesc>
+                  </category>
+                  <category xml:id="LI-Arch">
+                     <catDesc>
+                        <choice>
+                           <abbr>LI Arch</abbr>
+                           <expan>Lincoln's Inn Archives</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="LI-Lib">
+                     <catDesc>
+                        <choice>
+                           <abbr>LI Lib</abbr>
+                           <expan>Lincoln's Inn Library</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="london-metropolitan-archives">
+                     <catDesc>London Metropolitan Archives</catDesc>
+                  </category>
+                  <category xml:id="longleat-house">
+                     <catDesc>Longleat House</catDesc>
+                  </category>
+                  <category xml:id="mercers-hall">
+                     <catDesc>Mercers' Hall</catDesc>
+                  </category>
+                  <category xml:id="MT-Arch">
+                     <catDesc>
+                        <choice>
+                           <abbr>MT Arch</abbr>
+                           <expan>Middle Temple Archives</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="MT-Lib">
+                     <catDesc>
+                        <choice>
+                           <abbr>MT Lib</abbr> 
+                           <expan>Middle Temple Library</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="parliamentary-archives">
+                     <catDesc>Parliamentary Archives</catDesc>
+                  </category>
+                  <category xml:id="rousham-house">
+                     <catDesc>Rousham House</catDesc>
+                  </category>
+                  <category xml:id="st-bartholomews-hospital-archives">
+                     <catDesc>St Bartholomew's Hospital Archives</catDesc>
+                  </category>
+                  <category xml:id="st-james-palace">
+                     <catDesc>St James Palace</catDesc>
+                  </category>
+                  <category xml:id="st-johns-college-library">
+                     <catDesc>St John's College Library (Cambridge)</catDesc>
+                  </category>
+                  <category xml:id="stationers-hall">
+                     <catDesc>Stationers' Hall</catDesc>
+                  </category>
+                  <category xml:id="TNA">
+                     <catDesc>
+                        <choice>
+                           <abbr>TNA</abbr>
+                           <expan>The National Archives</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="trinity-college-library">
+                     <catDesc>Trinity College Library (Cambridge)</catDesc>
+                  </category>
+                  <category xml:id="york-city-archives">
+                     <catDesc>York City Archives</catDesc>
+                  </category>
+               </category>
+               <category xml:id="short_title_catalogues">
+                  <catDesc>Short-Title Catalogues</catDesc>
+                  <category xml:id="STC">
+                     <catDesc>
+                        <choice>
+                           <abbr>STC</abbr>
+                           <expan>Pollard and Redgrave (eds), Short-Title Catalogue</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+                  <category xml:id="Wing">
+                     <catDesc>
+                        <choice>
+                           <abbr>Wing</abbr>
+                           <expan>Wing, Short-Title</expan>
+                        </choice>
+                     </catDesc>
+                  </category>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2020-07-23" who="#CB">Added repositories and abbreviations to TEI header for Archivo General de Simancas, GI Arch, IT Arch, IT Lib, LI Arch, LI Lib, MT Arch, and MT Lib</change>
+         <change when="2020-07-23" who="#CB">Replaced current REED editorial staff section in TEI header with names of staff responsible for three London collections</change>
+         <change when="2020-02-15" who="#JAKA1">Updated master TEI header to refer to ongoing funding for REED London Online and to recognize repositories and record types as project expands.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+         	<head>
+         		<title type="main">Drama, Entertainment, and Music </title>
+         	</head>
+         	
+         	<div type="section">
+               <head>
+                  <title>Christmas at the <orgName>Inns of Court</orgName></title>
+               </head>
+
+               <p>Life at the Inns of Court, whether devoted to the practice of
+                  law, the study of law, or secular entertainment, was largely governed by the legal
+                  year, divided into four terms defined by the liturgical calendar: Michaelmas (from
+                  29 September), Hilary (from 13 January), Easter (springtime – moveable), and
+                  Trinity (summertime – moveable). [10. Information in this
+                     section relies heavily on Finkelpearl, John Marston of the Middle
+                        Temple, Chapters 3 and 4; and Baker, 'Christmas in the Inns
+                        of Court and Chancery,' pp 41-7.] Secular entertainment was
+                  associated with Michaelmas and Hilary terms, and even more particularly with the
+                  breaks or vacations between terms over the Christmas season, which by common
+                  agreement began on 1 November (All Saints’ Day) and ended on 2 February
+                  (Candlemas) or Shrovetide (the three days before Ash Wednesday).</p>
+
+               <p>The report of the c 1534–47 royal commission confirms the
+                  connection between Christmas and entertainment (see p 62): <quote>The Readers and
+                     Benchers at a Parliament or Pension held before Christmas, if it seeme unto
+                     them that there be no dangerous time of sickness, neither dearth of victuals,
+                     and that they are furnished of such a Company, as both for their number and
+                     appertaines are meet to keep a solemn Christmas, then doe they appoint and
+                     chose certain of the house to be Officers, and bear certain rules in the house
+                     during the said time, which Officers for the most part are such, as are
+                     exercised in the King’s Highness house, and other Noble men, and this is done
+                     onely to the intent, that they should in time to come know how to use
+                     themselves. In this Christmas time, they have all manner of pastimes, as
+                     singing and dancing; and in some of the houses ordinarily they have some
+                     interlude or Tragedy played by the Gentlemen of the same house, the ground, and
+                     matter whereof, is devised by some of the Gentlemen of the house.</quote> Thus
+                  for the entertainment to go forward, plague or other danger must be absent, while
+                  willing and able personnel must be on hand. Christmas ‘pastimes’ included singing
+                  and dancing, and sometimes plays. The range of activities is verified and even
+                  extended for the fifteenth century by an antiquarian history of
+                     Clifford’s Inn (an Inn of Chancery, c
+                  1483 (22 Edward IV), naming ‘Choyce musicke, maiesticall
+                  maskes, stately stageplaye!." bountifull Banquettings, dycing, daunceinge, and
+                  many other rare invented Courtlyke pastymes, with like Raritye, of Oratory
+                  Speeches’ (see p 350). The ostensible purpose of the entertainments, including
+                  appointments to supervisory offices, was according to the report of c 1534–47 to prepare gentlemen for life at court.</p>
+
+               <p>Christmas at the Inns of Court was generally celebrated in
+                  either a conventional or a more ‘solemn,’ intensive manner. A conventional
+                  Christmas was presided over by a master of the revels who was typically appointed
+                  in November. The revels which he supervised consisted primarily of feasting,
+                  music, dancing, and gaming, especially on the three or four Saturdays leading up
+                  to Christmas, and on major post-Christmas holidays such as Holy Innocents’ Day (28
+                  December), New Year’s Day, Twelfth Night (6 January), and Candlemas. Less
+                  frequently a lord of misrule or Christmas prince presided over a more elaborate
+                  and scripted Christmas season, often at enormous cost to himself and others. </p>
+
+               <p>A printed satire of 1601 acknowledges the importance of ‘Revels’ to the
+                     Inns of Court: ‘You kept such reuell with your carelesse
+                  pen,/ As made me thinke you of the Innes of Court:/ For they vse Reuels more then
+                  any men.’ [11. W.I., The Whipping of the
+                        Satire (London, 1601; STC: 14071), sig E9v. The author may be John
+                     Weever.] At Furnival’s Inn ‘Revellors’ received bread
+                  in 1407–8, while in 1416–17 and 1417–18 lists of food are headed ‘fforreyn
+                     <expan>Expenc<ex>es</ex></expan> touchinge the Revells’ and ‘<expan>Expenc<ex>e</ex>s</expan> circa le
+                  Revells.’ The first mention of revels at Lincoln’s Inn occurs
+                  in a decree of 1430–1 that ‘ther schal be iiij revels in the yeere and no mo’ –
+                  suggesting that revels had become frequent in the recent past. </p>
+
+               <p>The appointment of a master of the revels is recorded annually (except for plague
+                  years) at Lincoln’s Inn from 1455–6, at the Middle
+                     Temple from 1501–2, and at the Inner Temple from
+                  1505–6. A notable incumbent at Lincoln’s Inn was the poet
+                     John Donne, who (as ‘mr dun’) held the office in 1592–3.
+                  Systematic appointments cease at the Inner Temple in 1554–5 and
+                  at the Middle Temple in 1558–9, but continue at
+                     Lincoln’s Inn through 1617–18. (No comparable sequence
+                  survives from Gray’s Inn.) The Records disclose that
+                  appointments continued even when they were not systematically recorded. At the
+                  Middle Temple a ‘mr Watson’ was ‘Lord of Misrule’ in 1613–14, Bulstrode
+                     Whitelocke was master of the revels in 1628–9, and Thomas
+                     Maunsell held the same office in 1635–6. Thanks to Whitelocke’s
+                  penchant for autobiography we have a lengthy and highly informative account of his
+                  tenure. An unidentified gentleman was appointed master of the revels at Lincoln’s
+                  Inn for 1629–30, while Thomas Escourt held the office in 1633–4. At
+                     Gray’s Inn John Lambert held the office in 1594–5 (Jarvis
+                  Tevery was ‘Master of the Revellers’), while in 1640–1 a Mr Henry Parker was
+                  appointed master of the revels in the place of Edward Page. </p>
+
+               <p>Titles other than ‘Lord of Misrule’ or ‘Master of the Revels’ sometimes occur in
+                  contexts which suggest a distinction without much of a difference. At the
+                     Middle Temple a ‘lord of Candlemas night’ is named in 1590–1
+                  (see p 118 and endnote, which point back to 1584), while a ‘Lieutenant’ of
+                  Christmas was appointed at various Inns during the seventeenth century, including
+                     Lincoln’s Inn in 1617–18 (‘<expan>Lo<ex>rd</ex></expan> Lieutenant
+                  generall’), the Middle Temple in 1622–3, and the Inner
+                     Temple in 1624–5, 1627–8, and 1628–9. </p>
+
+               <p>The master of the revels was only one of many Christmas officers. In 1553–4, for
+                  example, the Inner Temple recognized seven offices: constable
+                  marshal, sergeants of the queen, common sergeants, masters of the revels, master
+                  of the game, the ranger, and attendant of the tower. [12.
+                     Inderwick, Calendar, vol 1, p 175.] In the same year the
+                     Middle Temple appointed five officers: steward, marshal,
+                  constable, butler, and master of the revels. [13. Hopwood,
+                        Middle Temple Records, vol 1, p 94.] Dugdale
+                  transcribes an elaborate list from the Inner Temple 1561–2
+                  (Appendix 11, p 769). Most masters of the revels cited in the Records are
+                  extracted from such lists. </p>
+
+               <p>As the mastership of the revels entailed a considerable financial burden,
+                  prospective members of an Inn sometimes insisted on exemption from the office as a
+                  condition of admission, as with John Newdigate of Lincoln’s
+                  Inn, 1509–10. In the late fifteenth and early sixteenth century five or
+                  six candidates were routinely appointed in the expectation of finding one who
+                  would serve. Gerard Legh’s Accedens of Armory, referring to the
+                     Inner Temple, 1561–2, mentions ‘.iiii. Masters of the
+                  Reuelles’ as if this were the approved number (Appendix 1, p 372, ll.1–2). Members
+                  refused the office in such numbers that their fines served as a source of general
+                  funding. </p>
+
+               <p>Bulstrode Whitelocke, master of the revels at the Middle Temple
+                  in 1628–9, confirms that revels were celebrated on successive Saturday nights
+                  during the Christmas season (see p 224, l.15). (A Saturday tradition is reported
+                  as early as 1471–2 at Furnival’s Inn and 1529–30 at Gray’s
+                  Inn.) Satisfactory discharge of responsibilities required both planning
+                  and diligent practice (see pp 223–4): <quote>When they met att the Tauerne their
+                     buisnes was, to practise their dauncing, &amp; to exercise both their wits
+                     &amp; bodyes, &amp; not to clowde their reason, or parts with excesse or
+                     debauchery, butt to improue their judgements &amp; knowledge, by good discourse
+                     &amp; conuersation, &amp; sometimes by putting of cases, &amp; they did appear
+                     togither, much more like to graue antients in a Councell chamber, then to young
+                     reuellers in an house of drinking.</quote>
+               </p>
+
+               <p>In 1629–30 the musician Henry Wilson received 20s from the Middle
+                     Temple ‘for 2 nightes practice of the <expan>gent<ex>lemen</ex></expan> Revellers’;
+                  similarly in 1632–3 the musician Geoffrey Collins received 10s ‘for our paines in
+                  the hall <expan>w<ex>i</ex>th</expan> the Revellers one <expan>night<ex>es</ex></expan> practice.’ The more
+                  powerful office of Christmas prince or ‘king’ is described c 1500 by Sir John Spelman. Translated from obscure law-French into
+                  modern English, ‘The rules used in olden days in Gray’s Inn at
+                  the time of the Nativity of our saviour Jesus Christ’ include the following:
+                     <quote>...someone is chosen king by the clerks of the third table, and he shall
+                     sit in the middle of the high bench and shall choose the officers, who were
+                     previously ordained by the fellowship at the Cupboard. And then the wardens of
+                     the wax shall take the torches, and the cupbearer and the carver shall give
+                     bread and ale to the king. And then the king shall rise and all shall shout
+                     with one voice, ‘Long live the king.’</quote>
+               </p>
+
+               <p>A ‘Kyng de Cokkeneys’ is recorded at Lincoln’s Inn in 1494–5
+                  while ‘Iake Stray’ (Jack Straw) is mentioned in 1516–17. In 1518–19 both a ‘Kynge’
+                  who ruled over Christmas Day and a ‘Kynge of Cockneys’ who ruled over Childermas
+                  Day (Holy Innocents’ Day) were tolerated on good behaviour, whereas ‘Iack Strawe
+                  &amp; all his adherentes’ were ‘ffrom hensforth uttrely banyshed.’ </p>
+
+               <p> Under Elizabeth I and the Stuarts Christmas princes were few and far between.
+                  Only seven incumbents have been identified between 1561–2 and 1641–2, and two more
+                  for years after 1660:</p>
+               <table>
+                  <row>
+                     <cell>
+                        Gray’s Inn:</cell>
+                     <cell> Prince of Purpoole</cell>
+                     <cell> William Hatclyff 1587–8</cell>
+                  </row>
+
+                  <row>
+                     <cell/>
+                     <cell/>
+                     <cell>Henry Helmes 1594–5</cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell/>
+                     <cell> Henry Yelverton 1617–18</cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>Master of the Revels</cell>
+                     <cell>Richard Gipps 1682–3</cell>
+                  </row>
+                  <row>
+                     <cell>Inner Temple:</cell>
+                     <cell>Prince of Sophy</cell>
+                     <cell>Robert Dudley 1561–2</cell>
+                  </row>
+                  <row>
+                     <cell>Lincoln’s Inn:</cell>
+                     <cell>Lord Lieutenant</cell>
+                     <cell>Edward Smyth 1617–18</cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>Prince de la Grange</cell>
+                     <cell>John Lort 1661–2</cell>
+                  </row>
+                  <row>
+                     <cell>Middle Temple:</cell>
+                     <cell>Prince d’Amour</cell>
+                     <cell>Richard Martyn 1597–8</cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell/>
+                     <cell>Richard Vyvyan 1635–6</cell>
+                  </row>
+               </table>
+
+               <p> While the Gray’s Inn Prince of Purpoole (from the local site
+                  name ‘Portpoole’) and the Middle Temple Prince d’Amour are
+                  attested over the years, the Inner Temple Prince of Sophy and
+                     Lincoln’s Inn Prince de la Grange are attested only in the
+                  year listed. (Whether Edward Smyth held the latter title is unknown, but he and
+                  John Lort held the designation ‘lord lieutenant’ in common.) The name
+                  ‘Pallaphilos’ is applied to the Inner Temple prince in Gerard
+                  Legh’s Accedens of Armory (1561–2), while the 1565/6
+                     ‘Montagu Oration’ of Thomas Pounde of Lincoln’s
+                     Inn declares, ‘<expan>o<ex>ur</ex></expan> prynce is the graund troposonte/ so named
+                  longe ago’ (Appendix 3, p 626, ll.26–7).[14. Gerard’s
+                     narrative reads, ‘The mightye Pallaphilos prince of Sophie’ (Appendix 1, p 372,
+                     l.23), yet ‘Pallaphilos’ is identified in the same text as the
+                  herald.]</p>
+
+               <p>The relative prominence of just two Christmas princes, from Gray’s
+                     Inn and the Middle Temple, may be related to the
+                  fact that the Inns of Court paired up for major festivities,
+                     Gray’s Inn with the Inner
+                     Temple, Lincoln’s Inn with the
+                     Middle Temple. Seasons in which this pairing is particularly
+                  notable included 1594–5 (Gesta Grayorum), 1597–8 (Le Prince
+                     d’Amour alias Noctes Templariae), and 1612/13 (when the four Inns
+                  paired off to put on masques). [15. In Gesta
+                        Grayorum the Inner Temple is ‘our ancient allied Friend’ (Appendix
+                     1, p 382, l.8). Similarly Lincoln’s Inn is named in Le Prince d’Amour
+                        alias Noctes Templariae (Appendix 1, p 479, l.8): hence the ‘show’
+                     named in Lincoln’s Inn accounts for 1597–8. The pairing in 1612–13 is recorded
+                     in the titles of the two masques of that year: see especially Appendix
+                     6.1.]</p>
+
+               <p>The long memory of the Inns of Court gentlemen is evident in
+                  the fact that Henry Yelverton at Gray’s Inn (1617–18) was
+                  styled Henry the second, in deference to Henry Helmes of 1594–5, and Richard
+                  Vyvyan at the Middle Temple (1635–6) was styled Richard the
+                  second, in deference to Richard Martyn of 1597–8.</p>
+
+               <p>Christmas princes incurred vastly greater expenses than masters of the revels.
+                  Richard Vyvyan is variously reported to have spent £3,000 or £6,000 of his recent
+                  inheritance as Prince d’Amour of the Middle Temple. In Stuart
+                  times (if not before) service as master of the revels was rewarded with a real
+                  knighthood, as happened with Henry Yelverton and Richard Vyvyan. Thomas Dayrell of
+                     Lincoln’s Inn, appointed ‘Marshall’ for The Triumph
+                     of Peace, received his knighthood in February 1633/4.[16. The knighthoods are recorded in Wm. A. Shaw, The
+                        Knights of England, vol 2 (London, 1906), 167 (Henry Yelverton, 23
+                     February 1617/18), 202 (Thomas Dayrell, 4 February 1633/4), and 204 (Richard
+                     Vyvyan, 1 March 1635/6).]</p>
+
+               <p>While masters of the revels presided over Christmas feasting, music, dancing, and
+                  gambling, Christmas princes presided over entertainments and rituals which
+                  required elaborate planning, fund-raising, the appointment of additional officers,
+                  and a script. Gerard Legh’s Accedens of Armory (Appendix 1, pp
+                  371–2) preserves a long list of Inner Temple Christmas officers
+                  for 1561–2, while Gesta Grayorum names almost fifty for 1594–5
+                  (Appendix 1, pp 383–5). Inner Temple receipts for 1633–4 reveal
+                  that eleven gentlemen purchased mock Christmas offices: thus Richard Brownlow paid
+                  £5 for ‘his Office of Cheiffe Prothonotary of the <expan>Com<ex>m</ex>on</expan> pleas,’ while
+                  Humphrey Streete paid £3 6s 8d for ‘his Office of Auditor.’ Of Richard Vyvyan of
+                  the Middle Temple it was reported in 1635–6: ‘He hath all his
+                  Greate officers attending him, <expan>L<ex>or</ex>d</expan> Keeper, <expan>L<ex>or</ex>d</expan> Treasorer,
+                  eight whyte staues at the least, <expan>Cap<ex>tayne</ex></expan> of his Pencioners, Captayne of
+                  his Guard, two Chaplaines’ (Appendix 4, p 708, ll.25–7; see also Appendix 1, pp
+                  499–500).</p>
+
+               <p>Six Christmas prince scripts which survive either complete or as fragments are
+                  gathered into Appendix 1, ranging from Gerard Legh’s Accedens of
+                     Armory in 1561–2 to the Middle Temple Christmas revels of 1635–6. The
+                  most elaborate script, from Gray’s Inn 1594–5, was published in
+                  1688 as Gesta Grayorum. Supplemented by Gray’s
+                     Inn archival documents (see pp 121–5) this text records the full
+                  range of events presided over by the Prince of Purpoole, including mock
+                  proclamations and appointments, the reception of mock ambassadors, a play
+                     (Comedy of Errors), masques, speeches, music, and dancing.</p>
+         	</div>            
+
+            <div type="section">
+               <head>
+                  <title>Plays and Players</title>
+               </head>
+
+               <p>The royal commission report of c 1534–47 acknowledges the
+                  tradition of ‘some interlude or Tragedy played by the Gentlemen of the same house,
+                  the ground, and matter whereof, is devised by some of the Gentlemen of the house.’
+                  An entertainment presented by ‘master Roo’ of Gray’s Inn,
+                  1526–7, called both a ‘plaie’ and a ‘disguisyng,’ was perhaps a dramatic satire in
+                  the Skeltonic tradition. In 1550–1 the governors of the same Inn proclaimed that
+                  ‘when there shall be any ... Comedies, then all the Society at that time in
+                  Commons, to bear the charge of the Apparel.’ About 1555–6 William Baldwin
+                  consulted various Inns of Court concerning a play of his own
+                  devising (see p 80), but nothing is known of an actual performance.</p>
+
+               <p> In January 1561/2 the well-documented tragedy Gorboduc, otherwise
+                  known as Ferrex and Porrex, was performed by the Inner
+                     Temple, both at home and at court. Not only was this ‘Tragedy played
+                  by the Gentlemen of the same house,’ but its ‘ground, and manner’ were literally
+                  devised by gentlemen of the house,’ that is, by Thomas Sackville and Thomas Norton
+                  (Appendix 6.1). Three more Inns of Court tragedies followed:
+                  George Gascoigne’s Jocasta at Gray’s Inn,
+                  Christmas season, 1566–7; the effectively anonymous Gismond of
+                     Salerne at the Inner Temple in 1565–6 or 1566–7; and
+                  Thomas Hughes’ Misfortunes of Arthur at Gray’s
+                     Inn in January or February 1587/8. Inns of Court
+                  comedy is represented uniquely by Gascoigne’s Supposes, performed
+                  at Gray’s Inn in 1566–7. A lost play, evidently a Roman comedy,
+                  is recorded at Gray’s Inn in 1587/8, but only a tantalizing
+                  cast list survives and no evidence as to its composition (Appendix 7).</p>
+
+               <p>
+                  Gorboduc had a significant afterlife in print and was famously
+                  commended by Sir Philip Sidney, but only Supposes is known to have
+                  had an afterlife in performance, with a revival at Trinity College, Oxford, on 8
+                  January 1581/2. [17. Sir Philip
+                           Sidney, An Apologie for Poetrie (London,
+                     1595; STC: 22534), sigs I4v–K1; and REED: Oxford, vol 2, p
+                     854.]</p>
+
+            <div type="subsection">
+               <head>
+                  <title>PROFESSIONAL PLAYERS</title>
+               </head>
+
+               <p>As Wilfrid Prest observes, ‘after a brief but highly creative burst of dramatic
+                  activity in the 1560s, the societies seem to have relied entirely upon
+                  professionals; the only indigenous play known to have been performed between 1568
+                  and 1640 was Thomas Hughes’ Misfortunes of Arthur....’ [18. Prest, Inns of Court, p 155. While Prest
+                     dates this play to 1589, the present editors date it to 1587/8.] (We may
+                  add the lost Roman comedy of the same year, 1587/8.) Even before the 1560s,
+                  entertainers were given financial rewards by various Inns. At Furnival’s Inn
+                  Thomas Thwaits paid 6s 8d in 1412–13 ‘pro Interludio,’ while in 1416–17 the Inn’s
+                  treasurer paid 7s ‘Pro Lusoribus &amp; Ludo suo.’ An account of 1417–18
+                  contains an entry ‘Pro Cœna Ludensium,’ apparently in connection with revels. In
+                  1499–1500 Lincoln’s Inn paid 10s ‘<expan>p<ex>ro</ex></expan>
+                  <expan>int<ex>er</ex>ludio</expan>’ on the feast of the Purification (2 February). Miscellaneous
+                  entertainers recorded for Furnival’s Inn include the keepers of a monkey
+                  (‘Marmosett,’ 1481–2; ‘Babone,’ 1485–6) and a lion (1497–8). The lion keeper,
+                  whose name was Pescod, also visited Lincoln’s Inn (1498–9).
+                  Even within the 1560s, the children of the Chapel, an outside if not perhaps a
+                  fully professional company, played at Lincoln’s Inn under the
+                  direction of Richard Edwards in 1564–5 and 1565–6; they returned under the
+                  direction of Richard Farrant in 1579–80.</p>
+
+               <p>All Inns of Court plays subsequent to 1587–8 seem indeed to
+                  have been performed by professionals, including Shakespeare’s Comedy of
+                     Errors, given at Gray’s Inn on 28 December 1594;
+                  unnamed comedies at the Middle Temple on 28 December 1597 and 2
+                  January 1597/8; and Shakespeare’s Twelfth Night, given at the
+                     Middle Temple on 2 February 1601/2 Candlemas). (The
+                     Gesta Grayorum, Appendix 1, p 397, l.38, denigrates the
+                  professional players as ‘a Company of base and common Fellows’ who had been
+                  ‘foisted’ on the distinguished gentlemen of Gray’s Inn.)</p>
+
+               <p> While a Candlemas play seems to be indicated by a Gray’s Inn
+                  entry of 1579–80, the earliest explicit reference to a standing tradition of
+                     Inns of Court plays on All Saints and Candlemas occurs in an
+                     Inner Temple prohibition of 1610–11, labelled ‘Noe playes
+                  one festyvall days’:</p>
+
+               <p>And for that great disorder &amp; scurrilytie is brought into this howse by
+                  lewde &amp; lasciuious playes. It is likewise ordered in this
+                     <expan>p<ex>ar</ex>liam<ex>en</ex>t</expan> that from henceforth there shalbe no more playes
+                  in this howse either vpon the ffeast of all <expan>S<ex>ain</ex>ct<ex>e</ex>s</expan> or
+                  Candlemas day, but the same from henceforth to bee vtterly taken awaie and
+                  abolyshed...</p>
+
+               <p>Verification survives in a 1611–12 reversal of the same order, where ‘of late
+                  yeares vpon the two festivall dayes of All <expan>S<ex>ain</ex>t<ex>e</ex>s</expan> and
+                  Candlemasse playes haue beene vsed after dinner for recreacion w<ex>hi</ex>ch haue
+                  lately beene layd downe by order in Parliament It is now ordered that the same
+                  order shall henceforth stand repealed.’ An implicit reference to the tradition
+                  occurs as early as 1605–6 (Lincoln’s Inn). Absolute and
+                  detailed verification occurs in a Middle Temple receipt in the
+                  hand of the professional actor Edward Juby, dated 2 February 1615/16: ‘Receved of
+                  Mr Baldwin, for a play parformd by the Palgraves Players, on Candlmas day last
+                  1615 the Sume of twelue poundes.’ A similar receipt, also from the Middle
+                     Temple, dated 3 November 1632 and signed by Anthony Turner, even
+                  preserves a play title: ‘<expan>Rec<ex>eived</ex></expan> then of the Society of the
+                        <expan>Midd<ex>le</ex></expan> Temple <expan>Lond<ex>on</ex></expan> for a Playe called
+                  Hyde Parke, acted there on the feast of all S<ex>ain</ex>t<ex>e</ex>s last past
+                  the <expan>sum<ex>m</ex>e</expan> of Ten poundes....’ Hyde Park was a comedy by
+                  James Shirley, licensed 20 April 1632 and printed in 1637 (see Appendix 6.3). [19. Bentley, Jacobean and Caroline Stage, vol
+                     5, p 1122.]</p>
+
+               <p> In addition to Hyde Park, Comedy of Errors, and
+                     Twelfth Night, whose texts survive, the Records and
+                  supplementary documents preserve the titles of three professional plays whose
+                  texts are lost: ‘Oxford Tragedy,’ ‘The Bridegroom and the
+                     Madman,’ and ‘The City Shuffler,’ performed respectively
+                  on All Saints or Candlemas 1607/8, 1618/19, and 1633–4. Named companies appearing
+                  at various Inns of Court from 1614–15 to the 1640s include the
+                  king’s men alias Blackfriars’ players, the palsgrave’s men, Prince Charles’ men,
+                  the queen’s men, and Beeston’s boys (see REED’s Patrons and Performances
+                     Web Site). On All Saints’ Day 1611–12 the Inner
+                     Temple hosted, instead of plays and players, ‘<expan>Antick<ex>e</ex>s</expan> or
+                     <expan>puppitt<ex>e</ex>s</expan>.’ Certain roles in the Inner Temple Masque of
+                  1618/19 were played by named members of Prince Charles’ company, though the
+                  printed text also reports that the masque itself received ‘it’s Illustration from
+                  nine of the Gentlemen of the House’ (Appendix 2, p 581, ll.2–6, 24–5).</p>
+
+               <p> Records concerning professional performers and performances have implications not
+                  only for the Inns of Court, but also for the professional
+                  companies. Taking the king’s men as the most fully documented example, it appears
+                  that the players committed to being in London (and not on the road) on 1 November
+                  and 2 February each and every year from perhaps the beginning of the seventeenth
+                  century to the closing of the theatres in 1642.</p>
+            </div>
+            </div>
+
+            <div type="section">
+               <head>
+                  <title>Masques</title>
+               </head>
+
+               <p> The standard definition of ‘masque’ in the OED (n. 1.a.) nicely
+                  fits these Inns of Court entertainments: ‘A form of courtly dramatic
+                  entertainment, often richly symbolic, in which music and dancing played a
+                  substantial part, costumes and stage machinery tended to be elaborate, and the
+                  audience might be invited to contribute to the action or the dancing.’ The
+                  definition continues with an equally applicable historical narrative: ‘The masque
+                  became a clearly defined genre during the reigns of James i and Charles i; less
+                  sophisticated earlier spectacles are sometimes called entertainments to distinguish them from these Stuart masques....’ At
+                  least one contemporary took the word ‘masque’ more literally: John Chamberlain
+                  (see his letters in Appendix 4) objected that the Gray’s Inn
+                  entertainment of 19 February 1617/18 (The Masque of Mountebanks)
+                  was at best a ‘shew’: ‘for I cannot call yt a maske seeing they were not disguised
+                  nor had visards.’ Earlier, on 23 February 1612/13, Chamberlain had complained in a
+                  somewhat similar vein that a certain masque (not by the Inns of
+                     Court) ‘was long and tedious, and <expan>w<ex>i</ex>th</expan> many deuises more
+                  lyke a play then a maske’; he commended the joint masque of Lincoln’s
+                     Inn and the Middle Temple, presumably because it
+                  better fit his idea of what a masque should be.</p>
+
+               <p>Pre-Elizabethan entertainments at the Inns of Court, generally
+                  identified as disguisings, may have featured masque-like spectacle as well as
+                  plot. On 3 January 1489/90 an Inner Temple disguising ‘went to
+                  grays Inne’; a week later a Gray’s Inn disguising ‘cam
+                     <expan>i<ex>n</ex></expan> lyke wise to ye <expan>Inn<ex>er</ex></expan> <expan>Te<ex>m</ex>ple</expan>.’
+                  On the penultimate day of January the Inner Temple possibly
+                  played its disguising at home before the earls of Oxford, Derby, and Shrewsbury;
+                  Lord Hastings; the lord chamberlain (Sir William Stanley); sixteen or seventeen
+                  knights; and various squires and gentlemen. In 1503–4 Lincoln’s
+                     Inn paid 10s to the king’s minstrels ‘for the dysguysyng.’ A
+                        Lincoln’s Inn entry for 1529–30
+                  concerns a disguising of that year. In 1533–4 the Inns of Court
+                  kept Christmas with ‘suche <expan>disguysing<ex>es</ex></expan> and pastymes as hath not byn
+                  sene’ (Appendix 4, p 683).</p>
+
+               <p>Even Inns of Court plays tended to be long on spectacle. The
+                     Inner Temple tragedy Gorboduc
+                  (1561–2) featured elaborate dumb shows. The masque-like qualities of The
+                     Misfortunes of Arthur (1587/8) are announced on its title page: ‘Certaine deuises and shewes presented to her Maiestie by the
+                     gentlemen of Grayes-Inne at her Highnesse court in Greenewich.’ Though
+                  neither of these was a fully developed masque, both belonged to the entertainment
+                  tradition out of which the formal masque would develop.</p>
+
+               <p>The Gray’s Inn ‘Masque of Juno and Diana’
+                  (1564/5) was characterized by elaborate scenic effects, with contributions by the
+                  office of the Revels (Appendix 5). The Gesta Grayorum of 1594/5 is
+                  described on the title page of its late first edition (1688) as having been
+                  performed with a masque. The masque in question was The Masque of
+                     Proteus (see Appendix 6.1). Stephen Orgel characterizes this masque,
+                  evidently by Francis Davison, as ‘the first English masque to conceive, in however
+                  small a way, of the masquing hall as a theater.’ [20. Stephen
+                     Orgel, The Jonsonian Masque (Cambridge, MA, 1965), 9.]
+                  Francis Bacon alludes, in a letter of c 1595–6, to a failed
+                  ‘joynt maske from the fowr Innes of Cowrt.’</p>
+
+               <p>Eight post-Elizabethan Inns of Court masques are more or less
+                  richly documented in the Records and Appendixes 2, 4, 5, and 6.1 (under
+                  ‘Masques’): The Memorable Masque (by Chapman), Middle
+                     Temple and Lincoln’s Inn, 15 February 1612/13;
+                     Masque of the Inner Temple and Gray’s
+                        Inn (by Beaumont), 20 February 1612/13; Masque of
+                     Flowers (anonymous), Gray’s Inn, 6 January 1613/14;
+                  Ulysses and Circe (by William Browne of Tavistock), Inner
+                     Temple, 13 January 1614/15; Masque of Mountebanks
+                  (anonymous), Gray’s Inn, 2 and 19 February 1617/18; The
+                     Masque of Heroes (by Middleton), Inner Temple,
+                  between 6 January and 2 February 1618/19; Triumph of Peace (by
+                  Shirley), Four Inns, 3 and 13 February 1633/4; and Triumphs of the Prince
+                     d’Amour (by Davenant), Middle Temple, 23 or 24
+                  February 1635/6. (Yet more masques noted in Appendix 8 might logically be added to
+                  this list.) The genre seems to have received its impetus from the 14 February
+                  1612/13 wedding of Princess Elizabeth, notorious for her love of masques and
+                  plays. Most Inns of Court masque texts were commis- sioned from
+                  professional dramatists, and most were put into print and advertised for sale by
+                  publishers with shops in or near the legal district (see the title pages
+                  transcribed in Appendix 2).</p>
+
+               <p> Masques sometimes entailed a mix of amateur and professional players. In 1612–13
+                  stockings were purchased by Lincoln’s Inn for
+                     ‘<expan>Heming<ex>es</ex></expan> boy,’ probably William, son of John Heminges of the king’s
+                  men, probably in connection with the masque performed jointly with the
+                     Middle Temple. We have already noted that the
+                        Inner Temple Masque of 1618/19 was played
+                  by professionals as well as by ‘the Gentlemen of the House.’</p>
+
+               <p> While most Inns of Court masques, like plays and shows before them, were
+                  organized with royalty or nobility in mind, The Triumph of Peace of
+                  February 1633/4 was explicitly political. In 1633 the incautious William Prynne,
+                  of Lincoln’s Inn, published a book whose subject is effusively
+                  proclaimed in its title (STC: 20464): <quote>Histrio-mastix The players scourge, or, actors tragædie, divided into two
+                        parts. Wherein it is largely evidenced ... That popular Stage-playes ... are
+                        sinfull, heathenish, lewde, ungodly Spectacles, and most pernicious
+                        Corruptions; condemned in all ages, as intolerable Mischiefes to Churches,
+                        to Republickes, to the manners, mindes, and soules of men. And that the
+                        Profession of Play-poets, of Stage-players; together with the penning,
+                        acting, and frequenting of Stage-playes, are unlawfull, infamous and
+                        misbeseeming Christians. All pretences to the contrary are here likewise
+                        fully answered; and the unlawfulnes of acting, of beholding Academicall
+                        Enterludes, briefly discussed; besides sundry other particulars concerning
+                        Dancing, Dicing, Health-drinking, &amp;c. of which the Table will
+                        informe you.</quote> Prynne dedicated his screed to the benchers of
+                     Lincoln’s Inn. Adding to their discomfort, in his Index
+                  Prynne referenced court masques, in which Queen Henrietta Maria and various
+                  noblewomen were frequent participants: ‘Women-Actors, notorious whores.’</p>
+
+               <p>All four Inns joined in a theatrical frenzy meant to reassure the king and queen
+                  of their institutional sympathy and loyalty. Committees were appointed, money was
+                  raised, and a playwright was hired. This was James Shirley, resident of the parish
+                  of St Andrew, Holborn, and thus a neighbour of Gray’s Inn,
+                  formally admitted as ‘one of the Valets of the Chamber of Queen Henrietta
+                     Maria.’ [21. See <hi rend="italic">ODNB</hi> under ‘James
+                     Shirley.’] Shirley himself describes his Triumph of Peace
+                  as ‘for the variety of the Shewes, and richnesse of the Habits, the most
+                  magnificent that hath beene brought to Court in our time’ (Appendix 2, p 612).
+                  Inigo Jones was hired as manager and designer, William Lawes and Simon Ives to
+                  compose the music. The enormous cost of the enterprise – said to have been in
+                  excess of £20,000 – burdened all four Inns for years to come.</p>
+
+               <p>The financial burden on the Middle Temple was compounded by its
+                  decision to mount yet another masque two years later. This was William Davenant’s
+                     Triumphs of the Prince d’Amour, performed on 23 or 24 February
+                  1635/6. For the first time, rather than bringing the masque to the royal court,
+                  royalty came to the Inn, including the prince elector and his brother Prince
+                  Rupert. Though the king did not attend, Queen Henrietta Maria appeared with ladies
+                  of her court, all wearing hats to preserve the fiction of being ‘in disguise.’
+                  Gervase Holles reports that the masque cost the Middle Temple
+                  ‘neare .20000. li. Sterling’ (Appendix 4, p 708).</p>
+            </div>
+
+            <div type="section">
+               <head>
+                  <title> Orations</title>
+               </head>
+
+               <p> In Thomas Dekker’s Satiromastix (London, 1602; STC: 6521, sig M1) Sir Rees ap Vaughan admonishes his fellow character Horace,
+                  generally held to represent Ben Jonson: ‘You shall sweare not to bumbast out a new
+                  Play, with the olde lynings of Iestes, stolne from the Temples Reuels.’ (‘Iestes’
+                  may be a pun on both ‘chests’ and ‘jests.’) While Dekker may have been thinking of
+                  Inner or Middle Temple plays or masques, perhaps he had also in
+                  mind various comic or semi-serious paradoxes and orations which passed for
+                  entertainment at the Inns of Court.</p>
+
+               <p>The distinction between masques and plays on the one hand and paradoxes and
+                  orations on the other is not absolute, as the former often incorporated the
+                  latter. (For Inns of Court orations, see Appendixes 3 and 6.1.) The Inner
+                     Temple tragedy Gorboduc consists largely of formal
+                  disquisitions by royal advisors. The ‘Montagu Oration’ of 1565/6
+                  and the ‘Sussex Oration’ of 1566 celebrated the marriages of the
+                  earl of Southampton and the daughter of the earl of Sussex respectively. According
+                  to their titles the first was ‘made &amp; <expan>p<ex>ro</ex>nunced</expan> by Mr Pownde of
+                  lyncolnes Inne <expan>w<ex>i</ex>th</expan> a brave maske owt of the same howse,’ while the
+                  second was ‘made &amp; <expan>p<ex>ro</ex>nou<ex>n</ex>ced</expan> by Mr Pownd of lincolnes
+                  Inne <expan>w<ex>i</ex>th</expan> a Maske.’ The 1594–5 Gesta Grayorum includes six formal
+                  orations composed by Francis Bacon and an oration in Latin by a schoolboy of St
+                  Paul’s (Appendix 1, pp 405–12, 424–5). John Hoskins delivered his ‘Fustian
+                     Answer Made to a Tufftaffata Speech’ at the Middle
+                     Temple in 1597–8, yielding evidence also of the original (but lost)
+                     ‘Tufftaffata Speech’ (Appendix 1, pp 456–7). An oration in
+                  French is referenced in a dedicatory letter published by Bartholomew Yong in 1598
+                  (see p 130).</p>
+
+               <p> Similarly John Chamberlain wrote on 15 January 1604/5 of a Christmas
+                  entertainment at the Middle Temple (Appendix 4, p 686,
+                  ll.8–11): ‘... by reason of ye press of people nothing could be done that night.
+                  onely mr Ross made an extemporal speach in excuse; and though a man might sweare
+                  it was not studied, yet was he charged by malitious fellows to haue lett in
+                  company of purpose to haue occasion for a speach....’</p>
+
+               <p> Also about 1605 the Inner Temple was the venue for two
+                  orations, Heneage Finch’s ‘Arithmetic Lecture’ and Francis
+                  Beaumont’s ‘Grammar Lecture’ (Appendix 3, pp 651–66), while Edward
+                  Pudsey records a series of paradoxes which seem to derive from a Middle Temple
+                  entertainment c 1610 (Appendix 1, pp 485–8). The
+                     Inns of Court gentleman who played Paradox in the
+                     Gray’s Inn
+                  Masque of Mountebanks of 1617–18 (Appendix 2) was much commended,
+                  as in Gerard Herbert’s contemporary letter (Appendix 4, pp 696–7): ‘The speeches
+                  weare acted by some of there owne gentlemen: one, called paradox, who spake most,
+                  &amp; pleasinge in many thinges, was much comended for well discharginge his
+                  place, &amp; good vtterance in speech....’ The same paradoxes survive in
+                  manuscript (Appendix 6.1) and in an appendix to Sir Thomas Overbury his
+                     Wife (London, 1632; STC : 18918, sigs V2–8v), in two parts: ‘Paradoxes,
+                  as they were spoken in a Maske, and presented before his Maiesty at White-hall’;
+                  and ‘The Mountebankes Receipts.’</p>
+            </div>
+
+            <div type="section">
+               <head>
+                  <title>Martial Exercises</title>
+               </head>
+
+               <p>As Inns of Court gentlemen tended to come from wealthy landed
+                  families, many were proud and skilled horsemen. Accordingly many an Inns
+                     of Court entertainment betrayed a fondness for equestrian and even
+                  military spectacle. Lincoln’s Inn archives mention attendance
+                  at royal jousts in 1466–7, 1477–8, 1494–5, 1508–9, 1510–11, 1532–3 (for the
+                  coronation of Anne Boleyn), and 1546–7; Furnival’s Inn archives contain a similar
+                  reference in 1501–2; while in a letter of 6 July 1566 the Spanish ambassador
+                  describes yet another joust.</p>
+
+               <p>The earliest mention of an equestrian ‘riding’ performed by members of the
+                     Inns of Court occurs in Henry Machyn’s 1561–2 diary. He
+                  writes that on 27 December a lord of misrule rode through London in a gilded
+                  harness, with 100 horses and gentlemen riding with chains of gold, presumably to
+                  the Inner Temple (Appendix 4, p 683). The Montagu oration of
+                  Shrovetide 1565/6 was associated with a ‘brave maske’ out of Lincoln’s
+                     Inn, on ‘greatte horses’ (Appendix 3, p 625).</p>
+
+               <p> At least two Stuart masques involved elaborate ridings. The first is described by
+                  John Chamberlain in his letter of 18 February 1612/13 (Appendix 4, pp 687–8):
+                     <quote> on munday night was the Middle Temple and Lincolns
+                        <del>.</del> ynne | maske presented in the hall at court ... yt went from
+                     the Rolles all vp fleetstreet and the Strand, and made such a gallant and
+                     glorious shew that yt is highly commended. they had forty gentlemen of best
+                     choise out of both houses rode before them in theyre best array, vpon the
+                        <expan>k<ex>ings</ex></expan> horses: and the twelue maskers with theyre torchbearers and
+                     pages rode likewise vpon horses exceedingly well trapped and furnished. besides
+                     a dousen litle boyes drest like babones that serued for an antimaske, (and they
+                     say performed yt exceedingly well when they came to yt), and three open
+                     shariots drawne <expan>w<ex>i</ex>th</expan> fowre horses a peece that caried theyre
+                     musicians, and other personages that had parts to speake: all <expan>w<ex>hi</ex>ch</expan>
+                     together with theyre trumpetters and other attendants were so well set out,
+                     that yt is generally held for the best shew that hath ben seen many a day. the
+                     King stoode in the gallerie to behold them and made them ride about the
+                     tilt-yard...</quote> A riding was also a major feature of James Shirley’s
+                  masque, The Triumph of Peace, sponsored and performed twice by the
+                  four Inns of Court in February 1633/4. John Finet waxed lyrical
+                  in his memoirs (see p 310), writing that 100 gentlemen, who rode in front of the
+                  masquers, were ‘bravely mounted on great horses richely caparossond, themselves
+                  all in chinquant sutes,’ while the sixteen masquers were drawn in four chariots
+                  with four horses drawing each. The provision of coats for the 100 riders was a
+                  major part of the expense, which burdened the four Inns for years to come.</p>
+
+               <p> On 4 November 1616, for the installation of Prince Charles as prince of Wales,
+                  the four Inns mounted a ‘barriers,’ defined by Alan Young as ‘a form of foot
+                  combat that eventually became a familiar event at most tournaments. Opponents,
+                  either singly or in groups, were separated by a waist-high wooden barrier and
+                  fought each other either with swords or long staves. In the sixteenth and
+                  seventeenth centuries, combats at barriers were frequenly held indoors and
+                  accompanied by disguisings and the use of scenic devices and music.’ [22. The genre is described at length by Alan Young,
+                        Tudor and Jacobean Tournaments (London and Dobbs Ferry, NY,
+                     1987), 193, figs 15, 40.] An anonymous untitled text for the 1616
+                  barriers survives in manuscript (Appendix 3, pp 666–71). It was perhaps the
+                  success of the entertainment that provoked a letter from the king dated 10 March
+                  1616/17 requesting that 600 gentlemen from the Inns form themselves into a
+                  military company. [23. LI Arch: A1a6 (Black Book 6), ff
+                     642v–3v; see Baildon (ed), Black Books, vol 2, p 193.]</p>
+
+               <p> The gentlemen of the four Inns were supported in November 1616 by professional
+                  players, as indicated by apparently unique verses cited in Appendix 6.1 (pp
+                  744–5): named are not only the ‘Young Gentlemen’ of the Inns, but four members of
+                  the king’s men: John Heminges (?), Richard Burbage, Nathan Field, and Henry
+                  Condell.</p>
+
+               <p> Yet another ‘ceremony’ associated with Inns of Court Christmas
+                  revels involved the shoot- ing of cannon (also called ‘chambers’). The tradition
+                  is first mentioned by Gerard Legh in his Accedens of Armory, which
+                  describes events of 1561–2 (Appendix 1, pp 366–7). For the Inner
+                        Temple and Gray’s Inn masque of
+                  February 1612/13 cannon were discharged thrice during the procession by Thames
+                  barges (Appendix 4, p 688, ll.25–31): <quote>they made choise to come by water
+                     from winchester place in Southwarke: (<expan>w<ex>hi</ex>ch</expan> suted well enough with
+                     theyre deuise), <expan>w<ex>hi</ex>ch</expan> was the mariage of the riuer of Thames to the
+                     Rhine: and theyre shew by water was very gallant by reason of infinite store of
+                     lights very curiously set and placed: and many boats and barges <expan>w<ex>i</ex>th</expan>
+                     deuises of light and lampes, <expan>w<ex>i</ex>th</expan> three peales of ordinance, one at
+                     theyre taking water, another in the Temple garden, and the | last at theyre
+                     landing...</quote> The discharge of cannon gave rise in 1622–3 to a notable
+                  rumour, elsewhere associated with the gentlemen of Inner Temple
+                  (Appendix 4, pp 697–8): <quote>The gentlemen of Grayes Inne to make an end of
+                     Christmas on Twelfe night, in the dead time of the night shott of all the
+                     chambers they had borrowed from the Tower, being as many as filled 4
+                     carts.<lb/> The King awakened with this noise, started out of his bed, &amp;
+                     cryed Treason Treason, &amp;c &amp; that the Cittie was in an vprore; in such
+                     sort (as it is told) that the whole court was raised, &amp; almost in armes;
+                     The Earle of Arundell running to the Bedchamber with his sword drawne as to
+                     rescue the Kings person. &amp;c These are such things as I heard from
+                     Londoners. &amp; so I leaue them.</quote>
+               </p>
+            </div>
+
+            <div type="section">
+               <head>
+                  <title> Music and Musicians</title>
+               </head>
+
+               <p> Music was an integral part of Inns of Court entertainment
+                  apparently from the beginning. [24. This section of the
+                     Introduction is heavily indebted to Professor Elliott’s essay, ‘Invisible
+                     Evidence,’ pp 45–57.] This point is made very clear by the report of John
+                  Spelman c 1500 (see pp 26–7), which records some half a
+                  dozen hymns, anthems, and songs ceremonially recited on Christmas day, along with
+                  cheers of ‘Viva le roy’ and an ‘Oyez.’ The roughly contemporary legal manuscript
+                  Cambridge University Library: Ms L1.1.11, f 32 (see Appendix 13, p 784) contains
+                  several texts of the carol ‘Out of <expan>yo<ex>ur</ex></expan> slep arise &amp; wake,’ complete
+                  with a musical score.</p>
+
+               <p> Gerard Legh’s Accedens of Armory, recounting the Inner
+                     Temple revels of 1561–2, includes a description of musical
+                  accompaniment to a banquet: ‘And at euery course, The Trompetts blew the coragious
+                  blast of deadly warre with noise of drome and fyffe, with ye swete Armony of
+                  violetts, shakbutts, recorders, &amp; cornetts, | with other instruments of
+                  musicke, as it semed Appollos harpe had tewned ther strock’ (Appendix 1, p 372,
+                  ll.15–18). The Gray’s Inn accounts of 1583–4 and 1584–5
+                  preserve yet more musical detail, cited here from the latter account: ‘Payd to
+                  Cloughe the butler ... bookes to sing on at the revells....’ As ‘bookes’ is plural
+                  in number, perhaps these were printed anthologies purchased from a bookstall. For
+                  the celebra- tion of ‘Amity’ in the course of the 1594–5 Gesta
+                     Grayorum (Appendix 1, p 399, ll.25–30): <quote> At the side of the
+                     Hall, behind a Curtain, was erected an Altar to the Goddess of Amity; her
+                     Arch-Flamen, ready to attend the Sacrifice and Incense that should, by her
+                     Servants, be offered unto her: Round about the same sate Nymphs and Fairies,
+                     with Instruments of Musick, and made very pleasant Melody with Viols and
+                     Voices, and sang Hymns and Praises to her Deity.</quote> Several years later,
+                  in 1597–8, gentlemen of the Middle Temple visited those of
+                     Lincoln’s Inn, who ‘entertained them with variety of Musick’
+                  (Appendix 1, p 479, l.11).</p>
+
+               <p> Professional musicians, including harpers, fiddlers, and waits, were employed by
+                  Furnival’s Inn (an Inn of Chancery) from 1407–8 to 1533–4. Entertainers
+                  (‘histriones’) were employed by Lincoln’s Inn from 1445–6 (and
+                  probably earlier). That these were minstrels is implied by an entry for 1447–8;
+                  that they were servants of the Inn is implied by a 1487–8 payment to ‘entertainers
+                  of the said Inn’ (‘<expan>histrionib<ex>us</ex></expan> <expan>dict<ex>i</ex></expan> <expan>hospici<ex>j’</ex></expan>).</p>
+
+               <p> Beginning in 1546–7 the house musicians of Lincoln’s Inn are
+                  named as Robert Jugleger and John Brayne alias Drayne. While the former remained
+                  until 1563–4, the latter is last recorded in 1551–2. An apparent replacement, John
+                  Gilbert, is recorded in one year only, 1552–3. In 1562–3 Richard Knight and
+                  William Perryn appear in the Records, Knight surviving until 1574–5, Perryn until
+                  1599–1600, the year of his death. Beginning in 1566–7 supplementary musicians were
+                  hired ‘ffor theyr seruice’ on All Saints’ Day and Candlemas: among these were the
+                  London wait Anthony Tyndale and his fellows (‘et socijs suis’), first recorded in
+                  1574–5. By 1615–16 the Inn’s annual outlay for musicians at Christmas was £10 – an
+                  amount recorded because it was deemed excessive.</p>
+
+               <p> At the Inner Temple, where little or no information on music
+                  survives from before 1610, house musicians were paid – or perhaps paid extra – for
+                  performances on All Saints’ Day and Candlemas, with a performance on 5 November
+                  (that is, Guy Fawkes Day) first recorded in 1610–11. Additional sums were paid for
+                  playing over the Christmas season: for 1614–15, £12 the first week, £12 the
+                  second, £11 the third, and £5 10s the fourth. Doubtless some of this music
+                  accompanied the Inner Temple’s famous dances (discussed in the
+                  next section). In subsequent years references occur to trumpeting for ‘healths ...
+                  pledged through the hall.’ Over these same years the porter or panier man blew a
+                  horn to signal the start of dinner.</p>
+
+               <p> Prior to 1606–7 Inner Temple musicians apparently stood in the
+                  ‘gallery in the hall,’ but in that year the gallery was pulled down, perhaps to
+                  enlarge the dining area. Inner Temple records for 1614–15, 1615–16, and 1616–17
+                  include references to ‘paynetinge of the Mussick Roome,’ ‘mendinge of the Clothe
+                  for ye musicke Rome,’ and ‘Mending the Curteynes about the Musicke.’ The music
+                  room may have been a walled and canopied platform, or perhaps something more
+                  elaborate. A similar structure is recorded at Lincoln’s Inn in
+                  1632–3 (p 232, ll.15–16).</p>
+
+               <p>Of the four players at the Inner Temple who performed either
+                  from the gallery or from the music room, the best documented is Henry Field. In
+                  1636–7 Field is referred to as the leader of the consort and ‘an auncient servant
+                  to this Howse’ (p 344). How ancient may be inferred from the fact that he was a
+                  London wait from 1619 to 1641, and played in the Middle Temple
+                  consort in 1618–19 (p 205). His name occurs among musicians hired for The
+                     Triumph of Peace in 1633–4. This pattern of multiple employment was
+                  common among London musicians who were not under royal or aristocratic patronage
+                  and even among some who were. In a single year (1633–4) John Adson served as a
+                  member of the London waits and the king’s musick, as well as the band at the Globe
+                  and Blackfriars theatres – not to mention a one-off appearance in a masque at
+                  court. Of the other three Inner Temple musicians, ‘Mr. Hall’ is
+                  unknown, but William Saunder had in 1641 been a city wait for nearly twenty years
+                  and was in that year a member of the king’s men’s band; while John Hopper, after
+                  leading the house musicians for three years (1615–17), served as a violinist in
+                  the king’s musick from 1621 to 1642.</p>
+
+               <p> Records from Gray’s Inn and the Middle
+                     Temple are less informative but show many of the same features. At
+                     Gray’s Inn the musicians received a yearly salary of £2 in
+                  the sixteenth century, rising to £4 in the seventeenth, for playing on All Saints’
+                  Day and Candlemas. When they were hired for other nights, excluding the Christmas
+                  season, the going rate in 1635–6 was 16d per night. At Christmas Gray’s
+                     Inn resorted to the same system as Lincoln’s Inn,
+                  the steward raising money from the members on a roll, to be paid directly to the
+                  musicians. For some reason, however, the musicians’ roll at Gray’s Inn never
+                  yielded a surplus, and we find the steward regularly receiving supplementary
+                  payments for the Christmas musicians from the treasurer. Although very few of the
+                  accounts have survived, we do get some exact figures. In 1568–9 the musicians at
+                  Christmas received 26s 8d; in 1589–90 and 1599–1600, £7; in 1606–7, £8; and in
+                  1607–8, £12, at which point the records fall silent. But the figures are enough to
+                  indicate that the amount spent on music for the Christmas revels at
+                     Gray’s Inn was only a fraction of that spent at the
+                     Inner Temple, despite the fact that Gray’s
+                     Inn at this time was the most populous of the Inns. This accords with
+                  what we know from evidence in letters and memoirs: that it was the two Temples
+                  which put on the most lavish revels, often so lavish that they attracted
+                  spectators from the royal court.</p>
+
+               <p> Of the named musicians at Gray’s Inn, ‘Mr Michell,’ whose
+                  first name is never given, is first referred to as the leader of the consort in
+                  1603–4 and presumably remained in that position until 1616–17, when the benchers
+                  awarded him an annual pension of five marks for life. It is likely that he was the
+                  same ‘John Mitchell’ who was a member of the Minstrels’ guild in London in
+                     1604.25 [H.A.F. Crewdson, The Worshipful Company of
+                        Musicians (London, 1950), 96.] The names of the other five who
+                  made up the consort in 1619 are written onto the flyleaf of the first surviving
+                  volume of the Gray’s Inn Pension Books (see p 203): Thomas Adson, Thomas Cordwell,
+                  John Amaria of Onslow (Surrey), Robert Ammery, and William Tallice.</p>
+
+               <p> With the list is a note dated 22 October 1618 to the effect that these men had
+                  agreed ‘to serve this howse <expan>w<ex>i</ex>th</expan> Musicke for this next yeare following
+                  for the Owld wages’ (that is, £4, as last recorded in the surviving accounts in
+                  1607–8). Thomas Adson, whose position first on the list suggests that he was the
+                  leader, was probably John Adson, who in 1619 was one of the London waits – though
+                  John Adson had a son, whose first name is unknown, who played with the waits some
+                  years later. Thomas Cordwell, a violinist, is only recorded elsewhere as the
+                  leader of a consort who played for the earl of Dorset in 1607. He is probably not
+                  to be confused with his near-namesake, Thomas Cardell, who was a lutenist and
+                  dancing master at the court of Queen Elizabeth. [26. Kent
+                     Archives Office: U269/Al/l. We are grateful to Lynne Hulse for this reference.
+                     On Cardell, see John M. Ward, ‘Sprightly and Cheerful Musick. Notes on the
+                     Cittern, Gittern &amp;24; and Anne Batchelor, ‘Daniel Bacheler: The Right
+                     Perfect Musician,’ The Lute 28 (1988), 3–12.] John Amaria
+                  of Onslow is possibly so called to distinguish him from his anglicized namesake,
+                  Robert Ammery, who follows him in the list. Both may be descended from the famous
+                  Italian musician, John Maria of Cremona, who had come to England in the middle of
+                  the previous century. Finally William Tallice is another bearer of a distinguished
+                  musical name, although like the two Amarias, or Ammerys, nothing further is known
+                  of him.</p>
+
+               <p> When we turn to the Middle Temple records, we find only the
+                  barest hints of the riches which we know from other sources ought to be there. The
+                  earliest reference to musicians is to a group of minstrels who performed at
+                  Christmas in 1509–10 for a total fee of 25s. By 1524 this entertainment had been
+                  reduced to a single harper, who received 20s and an invitation to come back in the
+                  future. The records are then lost until 1551–2, when we find that the single
+                  ‘minstrell of the temple’ was a man named Nicholas Killingworth, whose yearly wage
+                  was still 20s. Nothing further is heard on this subject until 1572–3, when it was
+                  ordered that the minstrels ‘now serving the Inn’ should have a yearly salary of
+                  26s 8d, plus 40s for the Christmas revels. This resembles the formula at Lincoln’s
+                  Inn and the Inner Temple, though the actual salary is only half
+                  of what Lincoln’s Inn was paying to Perryn and Knight in that
+                  same year. The allowance of 40s for the Christmas music, which is repeated in the
+                  parliament minutes every year thereafter, must be a mere administrative formula,
+                  as that sum could not possibly have met the cost of four weeks of revelling. It
+                  may simply be a way of saying that the benchers were willing to pay an extra 40s
+                  on top of the money collected for the musicians by the steward, if the model of
+                  other Inns was followed.</p>
+
+               <p> After 1572–3 there are no further references to individual musicians or to
+                  specific bands of musicians from the Middle Temple Parliament
+                  Books. A bit of additional information can be gleaned, however, in the
+                     Middle Temple archives. The first item of interest is a
+                  receipt, dated 2 February 1612/13: ‘Receaved by mee Iohn Dowland for my selfe and
+                  my fellowes Musitians, vpon candellmas Daye, 1612 for the consorte
+                  <expan>p<ex>er</ex>formed</expan> before the Iudges and Reverent benchers, of the honnorable
+                  Society, of the Midle Temple....’ The receipt is for the sum of £5, which is
+                  indicative of the status of John Dowland in English musical life at this time, a
+                  status he is at pains to emphasize by signing himself ‘<expan>Io<ex>hn</ex></expan> dowlande,
+                  Lutenist to the <expan>King<ex>es</ex></expan> <expan>ma<ex>ies</ex>tie</expan>’ (an appointment he had only
+                  recently received). The document is also signed by two other men, William Corkine
+                  and Richard Goosey. Corkine is known as the author of two books of airs with lute
+                  and viol accompaniment published in 1610 and 1612 but there is no other reference
+                  to him as a performer. [27. Frank, ‘A New Dowland Document,’
+                     pp 15–16.] Richard Goosey is completely unknown. It may or may not be
+                  mere coincidence that a man named Richard Goosey was the assistant steward of the
+                  Middle Temple about this time (1617), but the person who signed the receipt
+                  clearly did so in his capacity as a visiting musician, not as a servant of the
+                  society. Whether Corkine and Goosey constituted all of the ‘fellowes Musitians’
+                  who appeared with Dowland in this consort, or whether they were signing on behalf
+                  of still other unnamed players, is not clear. It was, however, unusual for more
+                  than one person to sign such a receipt. There are four similar receipts among the
+                  loose papers at the Middle Temple, and all are signed by a
+                  single musician on behalf of a consort. It is probable, therefore, that Dowland
+                  led a three-man consort on this occasion, though what instruments they played is
+                  not indicated.</p>
+
+               <p>In the same year that Dowland gave his concert for the judges, a different consort
+                  received 40s for their services in the Michaelmas term of 1612–13, signed for by
+                  John Papson, a member of the London Minstrels’ guild. This payment was delayed
+                  until June, probably because the Inn was out of pocket after footing the bill for
+                  a masque at court in February, the usual month for paying the house musicians
+                  their annual salary. The delay caused Papson to send a written petition to the
+                  benchers, which survives on a different slip, wherein he lists the exact dates on
+                  which the consort played (see pp 161–2): ‘We your poore orratoures the mvsissians
+                  intreates your worshipes for fower nightes paye’; namely Thursday, 5 November;
+                  Saturday, 7 November; Saturday, 5 December (Prince Henry’s funeral was on Monday,
+                  7 December); and Saturday, 26 December. This lends credence to the statement by
+                  Sir Robert Brerewood in his manuscript notes on the history of the Inn, written
+                  about this time, that at the Middle Temple the so-called
+                  ‘Christmas sports’ began on the eve of All Saints and then went on ‘continuely ...
+                  every Saturday weeklie after supper ended.’ [28. Cited from
+                     Robert W. Wienpahl, Music at the Inns of Court During the Reigns of
+                        Elizabeth, James, and Charles (Ann Arbor, 1989), 165–6.]</p>
+
+               <p> Papson and Brerewood both specify that all the musical performances took place at
+                  night; indeed revels and masques were always held at night, under artificial light
+                  ‘specially Coloured and Varied,’ as Bacon remarks in his Essayes
+                  (Appendix 12, p 782). The wording of Papson’s petition suggests that his consort
+                  was the regular house music in this year. They would normally also have been
+                  employed on Candlemas Day, but for some reason they were replaced by Dowland’s
+                  group on that occasion; perhaps there was a connection with his performance
+                  thirteen days later in the Middle Temple’s masque at court. It
+                  is not surprising that the petition does not mention the Christmas revels, since
+                  if Papson’s consort played for them they would have been paid separately by the
+                  steward.</p>
+
+               <p> Two years later (1614–15) we find Papson receiving the money for the musicians’
+                  annual salary. In this entry (see p 184, ll.34–6) he is called ‘one of the
+                  musicions that s<ex>er</ex>veth the Howse,’ and the money is paid to him ‘for his
+                  &amp; his fellowes yearely fee.’ Aside from docu- ments connected with the
+                  production of court masques, there are no further references in the archives to
+                  the domestic consumption of music in the Middle Temple until the very last years
+                  of our period. In 1637–8 the annual payment to the musicians was signed for by
+                  Thomas Hunter and in the following two years by Geoffrey Collins. Hunter is not
+                  otherwise known but Collins, whose name appears in 1632–3, 1633–4 , 1638–9,
+                  1639–40, and 1641–2, was a member of several theatre bands, though his instrument
+                  is unknown. [29. John P. Cutts, ‘New Findings with Regard to
+                     the 1624 Protection List,’ Shakespeare Survey 19 (1966), 101–7; and Bentley,
+                        Jacobean and Caroline Stage, vol 2, p 409.] In this
+                  period the acting company at the Cockpit Theatre in Drury Lane known as Beeston’s
+                  boys was one of two that were regularly hired to perform plays at the
+                     Middle Temple on All Saints and Candlemas (the other being
+                  the queen’s men at Salisbury Court). The Inn seems to have had the same working
+                  arrangement with the Cockpit band, since in 1641–2 we again find Collins
+                  collecting the money for the musicians. In 1640–1, however, it was collected by
+                  John Gamble, who was probably a member of the king’s men’s band, since he composed
+                  several songs for that company. He is known to have played the violin and cornet,
+                  and to have been a student of Ambrose Beeland, a violinist for both the king’s
+                  musick and the king’s men under Charles i. Gamble became a member of the king’s
+                  musick under Charles II. [30. Cutts, ‘New Findings,’ p 102;
+                     and Andrew Ashbee, Records of English Court Music, Volume I,
+                     1660–1685 (Snodland, Kent, 1986).]</p>
+            </div>
+
+            <div type="section">
+               <head>
+                  <title>Dancing</title>
+               </head>
+
+
+               <p>The earliest reference to dancing in the Records derives from Furnival’s Inn (an
+                  Inn of Chancery), where at Christmas in 1494–5 the hall was decorated with
+                  hangings of crimson fabric and ‘matted for the Revellers to daunce vpon....’ Music
+                  for this dancing was apparently supplied by waits and a harper. The same elements
+                  obtained for the same Inn for Christmas 1503–4: ‘whereas was muche dancinge &amp;
+                  Revellinge/ and for that purpose, the minstralsey of the Ladie Princes and her
+                     <expan>Servant<ex>es</ex></expan> were heare, <expan>w<ex>i</ex>th</expan> the <expan>wait<ex>es</ex></expan> of London, the
+                  harpur and other musicall <expan>Instrument<ex>es</ex></expan>.’ If anything, preparations this
+                  year were even more elaborate, especially in the provision of musicians.</p>
+
+               <p> The importance of dancing for the Inns of Court is recognized
+                  by the report of the royal commission of c 1534–47 (see p 62): ‘In this Christmas
+                  time, they have all manner of pastimes, as singing and dancing....’ In his
+                     Accedens of Armory Gerard Legh employs ‘mask’ or ‘maske’ as a
+                  verb signifying ‘to dance’ (Appendix 1, p 379, ll.33–4): ‘And after for theyr
+                  solace, they masked with Bewties dames.’ Beauty in this instance was a character
+                  in The Masque of Beauty and Desire (attributed to Arthur Brooke).
+                  In March 1564/5 the Spanish ambassador heaped praise (cited here in translation)
+                  upon the dancing which followed the Gray’s Inn ‘Masque
+                     of Juno and Diana’: ‘when the masque was finished there soon entered
+                  two quadrilles of twelve gentlemen each. They were the same who had fought on
+                  horseback and fought on foot, and afterwards, armed as they were, they danced with
+                  the ladies.’</p>
+
+               <p> Dancing seems also to have featured in The Misfortunes of Arthur
+                  in 1587/8 at Gray’s Inn, as recorded (among other sources) in a contemporary poem
+                  (see p 114): <lg>
+                     <l>And <expan>y<ex>o</ex>w</expan> suete gentilmen of Grayan name</l>
+                     <l> Well was a solace to her highnes meant</l>
+                     <l> And all that passed from <expan>y<ex>o</ex>w</expan> deseru’s good fame</l>
+                     <l> Your mend’ments good . your acting excellent</l>
+                     <l> But when your Spyks of Poesie be ripe</l>
+                     <l> Dance haruest home after a better pipe.</l>
+                  </lg> The Gesta Grayorum of 1594–5 records preparation for mixed
+                  dancing on the night which featured Shakespeare’s Comedy of Errors:
+                  ‘it was thought good not to offer any thing of Account, saving Dancing and
+                  Revelling with Gentlewomen’ (Appendix 1, p 397, ll.10–11). On another occasion,
+                  however (Appendix 1, p 395, ll.4–10): <quote> ...His Highness called for the
+                     Master of the Revels, and willed him to pass the time in Dancing: So his
+                     Gentlemen-Pensioners and Attendants, very gallantly appointed, in thirty
+                     Couples, danced the Old Measures, and their Galliards, and other kind of
+                     Dances, revelling until it was very late; and so spent the rest of their
+                     Performance in those Exercises, until it pleased His Honour to take his way to
+                     his Lodging, with Sound of Trumpets, and his Attendants in order, as is above
+                     set down.</quote> Heneage Finch, in his ‘Arithmetic Lecture’ of
+                     c 1605, mentions the cinquepace (‘Cinquapase,’ Appendix
+                  3, p 656, l.37), a dance made notorious by Sir Andrew Aguecheek in Twelfth
+                     Night (performed at the Middle Temple on 2 February
+                  1601/2). In his letter of 18 February 1612/13 John Chamberlain waxes enthusiastic
+                  on the subject of dancing by gentlemen of the Inns of Court:
+                  ‘themselues and theyre devises ... made such a glittering shew that the king and
+                  all the companie were exceedingly pleased and specially <expan>w<ex>i</ex>th</expan> theyre
+                  dauncing. <expan>w<ex>hi</ex>ch</expan> was beyond all that hath ben yet’ (Appendix 4, p 688,
+                  ll.14–17). Chamberlain was seconded by other observers the same year. Later, in a
+                  letter of 21 February 1617/18, Nathanael Brent reported to Sir Dudley Carleton
+                  that the gentlemen of Gray’s Inn ‘pleased tolerably wel. for
+                  divers of ye 18 maskers danced gracefully enough, and there was in it some wittie
+                  ribalderie <expan>y<ex>a</ex>t</expan> made ye companie merrie’ (Appendix 4, p 696, ll.14–16).
+                  The next day, 22 February, Gerard Herbert advised Carleton: ‘Grayes Inn maske ...
+                  was well liked, &amp; the dances well performed of the gentle men: the ayres &amp;
+                  dances well deuised: Some of the <expan>danc<ex>e</ex>rs</expan> danct by the voices of boyes (in
+                  stead of musick) <expan>w<ex>hi</ex>ch</expan> songe excellent well...’ (Appendix 4, p 696,
+                  ll.33–6).</p>
+
+               <p>Recalling his 1628–9 mastership of the revels, Bulstrode Whitelocke, writing in
+                  the third person, describes a typical Saturday evening among the Middle Templars:
+                  ‘They began with the old measures after that, they daunced the Braules then the
+                     M<ex>aste</ex>r took his seat, &amp; the Reuellers daunced Galliards,
+                  Corantoes, &amp; french daunces, then countrey daunces till it grew very late’
+                  (see p 224, ll.11–13). Whitelocke’s reference to ‘old measures’ followed by a
+                  variety of what seems to have been more recent measures provides an opportunity to
+                  note that certain Inns of Court gentlemen of this period took
+                  lessons from dancing masters (see Appendix 14, pp 793–4, 801, 811–12).</p>
+
+               <p>Anticipating The Triumph of Peace of February 1633/4, already in
+                  preparation at the time of his letter of 17 October 1633, Thomas Coke wrote to his
+                  father, Sir John (Appendix 4, p 700, ll. 11–21): <quote>The æmulation that will be
+                     between the Ins of Courtmen, &amp; the Courtiers you may easily imagine, But
+                     all my feare is that we shall giue them iust cause of ieering us by reason of
+                     our weake <expan>p<ex>er</ex>formance</expan>, The fower selected in our house are Mr Crawley
+                        <expan>sen<ex>io</ex>r</expan>, Mr Damport <expan>iun<ex>ior</ex></expan> the other two punies that came
+                     long since your <expan>dep<ex>ar</ex>ture</expan> that haue not beene at the dancing schoole
+                     aboue halfe a <expan>y<ex>ea</ex>re</expan> &amp; can scarce dance one dance to any purpose:
+                     nor euer see any dancing or maske at the Court neyth|er know what belong to it:
+                     Mr Chapman &amp; Mr Parker haue beene along time in ffrance, &amp; all the old
+                     reuellers dispersed. |<lb/> Who is the poet or who makes the maske dance I doe
+                     not yet understand... </quote> The ‘poet’ was to be James Shirley while the
+                  choreographer remains unknown. William Crofts composed an elaborate joke on 1
+                  February 1633/4, several days before the event (Appendix 4, p 701): <quote> wee
+                     are heere in a greate expectation of a horse maske and a foote maske by the
+                     templares and opinions much deuided which will proue the best, I am for the
+                     horse maskes because I thinke there horse will daunce under them much betar
+                     then they can when they are | on there owne legges...</quote> In his
+                  recollection of The Triumph of Peace Whitelocke recounts the
+                  participation of the queen and ladies from her court (see p 277, ll.30–3): ‘The
+                  Queen did the honor to some of the Masquers to daunce with them herselfe, &amp; to
+                  iudge them, as good dauncers as euer she sawe, &amp; the great Ladyes were very
+                  free &amp; ciuill in dauncing with all the Masquers as they were taken out by
+                  them.’ Again at the repeat performance at Merchant Taylors’ Hall, as reported by
+                  John Finet: ‘After the maskers had danced the Kyng Queen Lordes and Ladyes fell to
+                  dancyng...’ (see p 310, ll.38–9).</p>
+
+               <p>A number of manuscripts contain descriptions of dances and even systematic
+                  choreographies of the Inns of Court and especially the
+                     Inner Temple. [31The editors express
+                     their gratitude to Nina Monahin, who supplied information and wording for the
+                     present discussion of dancing in the Inns of Court, including the list of
+                     manuscripts in Appendix 13, p 284. Monahin in turn acknowledges her
+                     indebtedness to Ingrid Brainard, ‘The Role of the Dancing Master in 15th
+                     Century Courtly Society,’ Fifteenth Century Studies 2 (1979),
+                     21–44.] Listed in Appendix 13 (p 784) are one apparently unique
+                  manuscript from around 1500, one cluster of seven later manuscripts, and a
+                  recently discovered fragment. One particular manuscript from the cluster of seven,
+                  the mid- to late-seventeenth century Royal College of Music: Ms 1119, ff 1–2v,
+                  contains not only choreographies but music. Yet another manuscript describing
+                     Inner Temple dance routines is transcribed in Appendix 9.
+                  Though the seven-manuscript cluster comprises manuscripts from the mid-sixteenth
+                  century to the latter half of the seventeenth, the choreographies are remarkably
+                  consistent though they do not all derive from the same source.</p>
+
+               <p> A comparison of the Inns of Court dance manuscripts to
+                  citations in the Records strongly suggests that Inns of Court
+                  dancing fell into two categories. Ancient, relatively static, and tradition-bound
+                  dances dating from the mid-sixteenth century (or earlier) characterized internal
+                  Christmas revels. Contemporary social dances, by contrast, were used for
+                     Inns of Court masques, especially when female spectators
+                  were taken by the gentlemen as partners. Though it may be tempting to suppose that
+                  the ‘old measures’ were danced exclusively by Inns of Court
+                  males, evidence from the Records, from personal recollections, and from the dance
+                  manuscripts themselves, points repeatedly to the presence of women on many (though
+                  perhaps not all) occasions of dancing in the Inns of Court.</p>
+            </div>
+
+            <div type="section">
+               <head>
+                  <title>Finances</title>
+               </head>
+
+               <p> Wanting endowments the Inns of Court generally survived on
+                  annual charges to members, admission fees, chamber rents, and fines, including
+                  fines for refusal to serve as master of the revels. Any surplus was carried over
+                  from one year to the next as ‘stock,’ mentioned in the Pension Books of
+                     Gray’s Inn for 1587–8: <quote> Att this <expan>penc<ex>io</ex>n</expan>
+                     there was allowed out of the stocke of the house, <expan>toward<ex>es</ex></expan> the
+                        <expan>charg<ex>es</ex></expan> of the comedy or shew sett forth by the gentlemen of the
+                     house this last christenmas xxtie <expan>mark<ex>es</ex></expan> <expan>w<ex>i</ex>th</expan> this
+                        <expan>p<ex>ro</ex>viso</expan> that ffrom henceforth noe allowanc, be made out of the
+                     stock of the house for such lyke occasion vnlesse yt ryste vpon some such
+                     charge, agreed vpon by the reders of the house before; And this xx
+                        <expan>mark<ex>es</ex></expan> is to be payd out of the admyttance money.</quote> Payment
+                  from stock was not to be a precedent. The financing of any future ‘comedy or shew’
+                  was to be arranged in advance.</p>
+
+               <p> Students involved in the ‘Christmas Prince’ revels at St John’s
+                  College, Oxford, in 1607–8, solicited former members and friends of the college
+                  for funding. [32. <title>REED: Oxford</title>, vol 1, pp
+                     345–6, 360–1; vol 2, pp 611, 613.] In 1635–6, for the same college,
+                  Archbishop William Laud dipped into his own pocket to fund George Wild’s
+                     Love’s Hospital. [33. REED:
+                        Oxford, vol 1, p 606.] The Inns of Court at
+                  various times adopted both these expedients. Thus the gentlemen of Gray’s
+                     Inn, for their Gesta Grayorum revels of 1594–5, and
+                  those of the Middle Temple, for their revels of 1597–8,
+                  appealed by letter to senior members and friends. One Middle
+                     Temple letter of solicitation survives, endorsed by Gilbert Talbot,
+                  earl of Shrewsbury, with an annotation in his own hand noting his gift of £30 (see
+                  pp 129–30).</p>
+
+               <p> Francis Bacon personally underwrote the Gray’s Inn
+                     masque of 1613/14 in the amount, it was said, of £2,000; Bacon refused
+                  assistance from Sir Henry Yelverton in the amount of £500 (Appendix 4, p 692,
+                  ll.14–18). Inns of Court gentlemen who served as Christmas
+                  prince did so, as we have seen, largely at their own expense. Bulstrode Whitelocke
+                  of the Middle Temple seems to have composed his annals to
+                  explain to his children and grandchildren why their inheritance was so small: he
+                  had spent much of the family fortune on revels and masques, particularly on the
+                  February 1633/4 Triumph of Peace. [34. This
+                     opinion was expressed in handwritten memos found among Professor Elliott’s
+                     papers.]</p>
+
+               <p> The Inns also resorted to private loans, liquidated by taxations upon members and
+                  residents. Thus funds toward the Gesta Grayorum of 1594–5 were
+                  borrowed from Mr William Mills, with a promise of repayment by the end of the
+                  following term. To that end a tax was laid upon members, graded by rank: readers,
+                  10s; ancients, 6s 8d; utter-barristers, 5s; all other gentlemen, 4s. Additionally
+                  the ‘publique Stock’ of the ‘said house’ contributed £30.</p>
+
+               <p> Taxation, in this and subsequent cases, required pressure on those taxed, ranging
+                  from repeated demands, to naming and shaming, to threats of expulsion. Malingerers
+                  were pursued relentlessly; indeed the bulk of masque records relate to
+                  post-performance taxations. Lincoln’s Inn had a collection in
+                  1597–8 for the ‘shew the last Chrestmas.’ Efforts of the Middle
+                     Temple to pay off debts from 1612–13 continued to 1616–17. As late as
+                  1640–1 the treasurer of the Middle Temple was still collecting
+                  money ‘on the masque roll,’ whether for the 1633/4 Triumph of Peace
+                  or for the 1635/6 Triumphs of the Prince d’Amour.</p>
+
+               <p> For the Inns of Court masques of 1612/13 ‘maskinge apparrel’
+                  was given out to gentlemen participants. Each suit cost ‘above a Hundred Markes’ –
+                  or more than £66 13s 8d (see pp 150–1). Governors of Gray’s Inn
+                  demanded either the return of the apparel or £30 in cash. Shirkers were threatened
+                  with expulsion from chambers.</p>
+
+               <p> On the expenditure side more than thirty receipts survive from the masque the
+                  Middle Temple shared with Lincoln’s Inn in 1612/13, along with
+                  a detailed list of payments by Christopher Brooke of Lincoln’s
+                     Inn (see pp 155–9). For The Triumph of Peace of
+                  1633/4, performed by all four Inns, the treasurer was John Herne, also of
+                     Lincoln’s Inn. Warrants for some sixty-eight major expenses
+                  directed to the Middle Temple survive in a virtually complete
+                  series. Tucker Orbison, who analyzes both the 1612/13 and the 1633/4 expenditures
+                  at length, concludes that the total cost of the latter was only marginally less
+                  than the £21,000 reported in contemporary letters. [35.
+                     Orbison, ‘Chapman’s The Memorable Masque,’ pp 1–30; and
+                     ‘Shirley’s The Triumph of Peace,’ pp 31–84.]</p>
+
+               <p> In 1639–40 the governors of the Middle Temple ordered the
+                  dissolution of Christmas due to excessive expenditure: <quote>the licentious
+                     expensivenes of some <expan>gent<ex>lemen</ex></expan> in those times is so great, as exceeds
+                     all reasonable <expan>limit<ex>es</ex></expan>, whereby they bring inconvenience vpon
+                     themselves, and make manie debt<ex>es</ex> vpon poore people unp<ex>ai</ex>d
+                        <expan>w<ex>hi</ex>ch</expan> <expan>begett<ex>es</ex></expan> <expan>clamo<ex>u</ex>r</expan> against the Society; and
+                     besides, <expan>diu<ex>er</ex>se</expan> &amp; sundrie other disorders &amp; abuses in later
+                     yeares, haue more &amp; more crept in, &amp; are growne to such height, that
+                     the <expan>misgou<ex>ern</ex>ment</expan> of those times, is become a publique
+                     scandall...</quote> The ‘expensivenes’ may have included monies spent on
+                  gambling, but the ‘manie <expan>debt<ex>es</ex></expan> vpon poore people <expan>unp<ex>ai</ex>d</expan>’
+                  suggests that artisans who supplied accoutrements for masques had been left in the
+                  lurch.</p>
+            </div>
+
+            <div type="section">
+               <head>
+                  <title>Disorders</title>
+               </head>
+
+               <p> Almost by definition revels (root: ‘rebellare,’ to rebel) entailed a breach of
+                  order, though within strict limits. Thus it may seem scarcely worth noting that
+                     Inns of Court gentlemen were occa- sionally admonished,
+                  chastised, or fined for breaches of the peace. At Furnival’s Inn members were
+                  fined in 1498–9 for being absent from hall at the time of revels. Assessments for
+                  refusal to serve as master of the revels or other Christmas officers were so
+                  commonplace that the topic has been covered under finances rather than
+                  disorders.</p>
+
+               <p>The elimination of the office of Jack Straw by Lincoln’s Inn in
+                  1518–19 on pain of a £5 fine suggests a significant threat to the peace.
+                  Night-wandering may be inferred from strictures against absence from hall in the
+                  accounts of Gray’s Inn for 1529–30, or Lincoln’s
+                     Inn for 1549–50. An entry from Gray’s Inn, 1570–1,
+                  suggests more than normal wear-and-tear: ‘to the carpenter for mendynge tables and
+                  trestles this winter broken <expan>w<ex>i</ex>th</expan> <expan>revell<ex>es</ex></expan> at sundrye tymes.’ A
+                  similar Gray’s Inn expense, for similar reasons, occurs in the
+                  following year, 1571–2, for the ‘great Showe.’</p>
+
+               <p> Also at Gray’s Inn, in 1594–5, occurred the disorders reported
+                  in the Gesta Grayorum (Appendix 1, pp 396–7): <quote>...there arose
+                     such a disordered Tumult and Crowd upon the Stage, that there was no
+                     Opportunity to effect that which was intended: There came so great a number of
+                     worshipful Personages upon the Stage, that might not be displaced; and
+                     Gentlewomen, whose Sex did privilege them from Violence, that when the Prince
+                     and his Officers had in vain, a good while, expected and endeavoured a
+                     Reformation, at length there was no hope of Redress for that present. The Lord
+                     Ambassador and his Train thought that they were not so kindly entertained, as
+                     was before expected, and thereupon would not stay any longer at that time, but,
+                     in a sort, discontented and displeased. After their Departure the Throngs and
+                     Tumults did somewhat cease, although so much of them continued, as was able to
+                     disorder and confound any good Inventions whatsoever.’</quote> Such events are
+                  further characterized as ‘great Disorders and Misdemeanours, by Hurly-burlies,
+                  Crowds, Errors, Confusions, vain Representations and Shews’ (Appendix 1, p 397,
+                  ll.25–6); but nothing in the history of the Inns of Court came
+                  close to the riots which attended on plays at Cambridge over the 1610–11 Christmas
+                     season. [36. REED: Cambridge, vol 1, pp
+                     424–86; vol 2, pp 1030–4.]</p>
+
+               <p> Among activities which threatened civil order was the practice, recorded at
+                  Lincoln’s Inn in 1516–17 and explicitly forbidden at Gray’s Inn
+                  in 1585–6, at the Middle Temple about the same time, and at the
+                     Inner Temple in 1610–11, of breaking open chamber doors or
+                  abusing fellows of the ‘house’ in the name of the Christmas lord – in the latter
+                  instance accompanied by a note that ‘great disorder &amp; scurrilytie is brought
+                  into this howse by lewde &amp; lasciuious playes.’ [37On
+                     Middle Temple disorders, see Records, pp 118–19, and endnote.] An unnamed
+                  offence at Christmas was discouraged at Lincoln’s Inn in 1607–8
+                  and steps were taken that year and the next for ‘better order.’ As late as 1627–8
+                  the Christmas lord lieutenant of the Inner Temple was arrested
+                  for the same offence when his attempt to collect ‘taxes’ was met with silence or
+                     refusal. [38. On Inner Temple disorders, see especially
+                     the letters of Joseph Mede (Appendix 4, pp 698–9). See also Nelson, ‘“Give
+                     Fire, Gunner!”’ pp 46–8.]</p>
+
+               <p> On 29 November 1627 the governors of Lincoln’s Inn noted ‘such
+                  disorder and excesse as were the last Christmas,’ presumably Christmas 1626. In
+                  1629–30 the same Inn identified as a particular ‘disorder’ that ‘woemen haue of
+                  late resorted to <expan>o<ex>u</ex>r</expan> Revells’; as a remedy, ‘It is ordered the stayre
+                  foote doore leading up to the gallery, where they stoode, bee from hence- forth
+                  kept lockt every night of the Revells, and that noe <expan>p<ex>er</ex>sons</expan>
+                     <expan>whatsoev<ex>er</ex></expan> be suffered to bee there at those tymes.’ We have noted
+                  above (pp xxxvi–xxxvii) the disorder of 1639–40 which caused the privy council to
+                  suspend Christmas festivities at the Inner Temple. The Inn
+                  argued – evidently to no avail – that the suspension left it without proper
+                  governance over the Christmas season. As civil war approached, however, the issue
+                  became moot.</p>
+            </div>
+
+            <div type="section">
+               <head>
+                  <title>Performance Venues and Processional Routes</title>
+               </head>
+
+               <p> Music, revels, plays, masques, and other forms of entertainment occurred for the
+                  most part in the halls of the several Inns. The earliest reference is at
+                  Furnival’s Inn in 1494–5. The same hall is named in a similar context in 1497–8
+                  and 1499–1500. In 1528–9 the hall was ‘newe tiled, and the Gallerie in the Hall
+                  made’ and in 1533–4 on ‘the feast daie of Saint Katheryn. Musick in the Hall.’</p>
+
+               <p> Putting aside Furnival’s Inn and other Inns of Chancery, of the four
+                     Inns of Court, Gray’s Inn promulgated an
+                  order in 1529–30 that ‘Fellows of this House ... when there are Revells, should
+                  not depart out of the Hall, untill the said Revells were ended.’ [39. Halls of various Inns of Chancery, for which evidence is
+                     scarce, are briefly described on REED’s Patrons and Performances Web
+                        Site.] Members of Lincoln’s Inn were
+                  disciplined in 1549–50 ‘for goyng out of the Hall on Hallowmas evyn at the tyme of
+                  the <expan>Revell<ex>es</ex></expan>.’ Inner Temple Hall was
+                  used for its 1561–2 Christmas revels, as evidenced by Gerard Legh’s
+                     Accedens of Armory (see Appendix 1, p 371, l.22). In 1571–2
+                     Gray’s Inn paid a carpenter ‘for mendynge formes and tables
+                  in the hall after the great Showe.’ Gesta Grayorum, for 1594–5,
+                  notes, ‘Want of Room in the Hall, the Scaffolds being taken away’ (Appendix 1, p
+                  422, ll.13–14). References to hall performances become so numerous in the
+                  seventeenth century that we refer the reader to the Index. It is nevertheless
+                  worth noting the details of a professional play performance recorded in 1618–19:
+                  ‘Comody Called the brydgrom &amp; the madmane, presented in the mydell tempell
+                  hall before the Ivdges/ &amp; the benchers/ on Candelmas Day last.’</p>
+
+               <p> The halls of the several Inns of Court have been described,
+                  with plans and photographs, in numerous publications, notably in volumes of the
+                  Royal Commission on Historical Monuments (Figures 6–8), and in Pevsner’s Buildings
+                  of England series. A focused survey, with a discussion of early dramatic uses, is
+                  Robert E. Burkhart, ‘The Surviving Shakespearean Playhouses.’ See also further
+                  architectural details, images, and bibliography for each of the four Inns on
+                  REED’s Patrons and Performances Web Site, provided by
+                  Sally-Beth MacLean.</p>
+
+               <p>The typical Inn of Court hall had an open floor-plan with a screen and entrance
+                  doors at the lower end, and a dais at the upper end; a peaked roof supported by
+                  open beams; a central fire-pit with louvre above; and glazed windows. As to size
+                     Middle Temple Hall ranks with the largest of its age, while
+                  the other three are (or were) of more modest dimensions. (The current
+                     Inner Temple Hall is a modern building.) When used for
+                  dining the halls were filled with tables and with chairs or benches (‘forms’); but
+                  all such furniture was easily rearranged or cleared away, and possibly replaced
+                  with scaffolds, for the sake of a play or a masque.</p>
+
+               <p>
+                  Gray’s Inn Hall, constructed (or re-edified?) 1556–60, is
+                  approximately 69’ in length by 35’ in width (Figure 3). [40.
+                     Royal Commission on Historical Monuments (England), An Inventory of the
+                        Historical Monuments in London. Volume II. West London. Excluding
+                        Westminster Abbey (London, 1925), 53–5; and Bridget Cherry and
+                     Nikolaus Pevsner, London 4: North (London, 1998), 281–2. See
+                     also Burkhart, ‘Surviving Shakespearean Playhouses,’ pp 186–91.]Though it
+                  took a direct hit from incendiary bombs during World War II, its glass had been
+                  removed and its screens partly dismantled. The current hall is a careful
+                  reconstruction. Its five bays are illuminated by clear-glass windows set high up
+                  between the buttresses. Armorial glass in the gable end includes the name of John
+                  Spencer, lord mayor of London, whose admission entry on 6 January 1597/8 was
+                  signed by Henry Helmes, Prince of Purpoole.</p>
+
+               <p>Inner Temple Hall, likely constructed in the fourteenth
+                  century, was approximately 70’ in length by 29’ in width (Figure 2). [41. Royal Commission on Historical Monuments (England),
+                        An Inventory of the Historical Monuments in London. Vol. IV. The
+                        City (London, 1929), 145; and Simon Bradley and Nikolaus Pevsner,
+                        London 1: The City of London (London, 1997), 350. See also
+                     Gerard Noel, A Portrait of the Inner Temple (Wilby, Norwich,
+                     2002); and Burkhart, ‘Surviving Shakespearean Playhouses,’ pp 175–80.]
+                  The medieval structure having been demolished in 1866, its replacement was
+                  destroyed in World War II and subsequently rebuilt. The original interior had
+                  four-centred arches in the side windows and Gothic arches in the gable ends. Side
+                  windows on the north were small, those on the south, large and (apparently)
+                  bright. In addition to screens at the lower end the hall contained a place for
+                  musicians, pulled down in 1606–7 but rebuilt or replaced (as mentioned above) in
+                  the years 1614–15 to 1616–17.</p>
+
+               <p>Lincoln’s Inn ‘Old Hall,’ constructed 1489–92, was
+                  originally some 60’ in length by 32’ in width, but was later extended by one bay
+                  (Figure 4). [42. Royal Commission on Historical Monuments
+                     (England), An Inventory of the Historical Monuments in London. Volume
+                        II, pp 50–1; Cherry and Pevsner, London 4, p 286. See
+                     also John W. Simpson, Some Account of the Old Hall of Lincoln’s
+                        Inn (Brighton, 1920); and Burkhart, ‘Surviving Shakespearean
+                     Playhouses,’ pp 180–6.] The result is an I-shaped floor-plan with four
+                  oriel windows, two at each end. A screen, built by Robert Lyndon, dates from 1624.
+                  The Records mention a ‘stayre foote doore leading up to the gallery’ in 1629–30
+                  and a place for musicians in 1632–3. Presumably this gallery stood over the
+                  screen. Superseded by a much larger Victorian hall in the 1840s, the original
+                  structure survives as the ‘Old Hall.’ During a program of restoration in 1924–8
+                  the screen-face was removed to the lower end wall, elimi- nating the original
+                  passageway but increasing the useable floor-space. (The Old Hall was unscathed by
+                  World War II.)</p>
+
+               <p>
+                  Middle Temple Hall, constructed 1562–73, is approximately
+                  88’ in length by 39’ in width, and 59’ to the peak of its spectacular double
+                  hammerbeam roof (Figure 5). [43. Royal Commission on
+                     Historical Monuments (England), Inventory of the Historical Monuments in
+                        London. Vol. IV, pp 147–51; and Bradley and Pevsner, London
+                        1, pp 348–9. See also Burkhart, ‘Surviving Shakespearean
+                     Playhouses,’ pp 191–2; and ‘The Dimensions of the Middle Temple Hall,’
+                        Shakespeare Quarterly 37 (1986), 370–1.] (It is only
+                  slightly smaller than the halls of Christ Church, Oxford, 1529–30, and Trinity
+                  College, Cambridge, 1605–7.) Lying east-west it contains five bays, with
+                  full-length oriel windows at its west (or upper) end and clear windows set high up
+                  between the buttresses. The hall has been praised as ‘the finest Elizabethan
+                  building in central London.’ [44. Bradley and Pevsner,
+                        London 1, p 348.] The screen, with a ‘minstral’s gallery’
+                  above, was constructed in the early 1570s, with two round-headed openings
+                  (doorless before 1671). The screen was shattered but not burned by a bomb
+                  explosion during World War II, when the stained glass had been removed for
+                  safe-keeping. The roof was subsequently repaired, the screen rebuilt, and the
+                  windows restored.</p>
+
+            <div type="subsection">
+               <head>
+                  <title> OTHER VENUES</title>
+               </head>
+               <p>
+                  Inns of Court plays and masques were often performed twice,
+                  first at home and subsequently at court. [45. Royal
+                     performance venues are discussed by John H. Astington, English Court
+                        Theatre, 1558–1642 (Cambridge, 1999), 44–51 (Whitehall), 53 (‘Old’
+                     Banqueting House and Inigo Jones’ ‘New’ Banqueting House), and 55–7
+                     (Greenwich).] Performances before the monarch are recorded in the halls
+                  of the palaces of Whitehall (January 1561/2, February
+                  1612/13, February 1617/18) and Greenwich (February 1587/8,
+                  March 1594/5). Whitehall venues also included the ‘Old’ Banqueting
+                     House (February 1612/13, January 1613/14) and Inigo Jones’
+                     ‘New’ Banqueting House (February 1633/4), constructed
+                  1619–22 and still a stunning feature of Whitehall Road. The
+                  February 1633/4 performance was repeated the same month at royal request in
+                     Merchant Taylors’ Hall, on Threadneedle
+                     Street in the heart of London. (For particulars of these
+                  performances, see Appendix 8, Chronology.)</p>
+
+               <p>Though dancing at the Inns must normally have been executed on hall floors, plays
+                  and masques were performed on stage platforms erected along the sides of the hall
+                  or, more fre- quently, at the lower end. Thus of two stage directions for the
+                     Inner Temple masque Ulysses and Circe,
+                  January 1614/15, the first specifies: ‘On one side the hall towardes the lower end
+                  was discouered a cliffe of the sea’ (Appendix 2, p 549, ll.7–8); the second:
+                  ‘While Circe was speakinge | first speech ... a trauers was drawne at ye lower end
+                  of the hall, &amp; gaue way for the discouery of an artificiall wood’ (p 552,
+                  ll.38–9).</p>
+
+               <p>
+                  Inns of Court masques performed in royal venues seem to have
+                  been staged exclusively at the lower end of the hall, as with George Chapman’s
+                     Memorable Masque of February 1612/13 (Appendix 2, p 508,
+                  ll.3–4): ‘First there appear’d at the lower end of the | Hall, an Artificiall
+                  Rock, whose top was neere as high as the hall it selfe.’ Similarly with the
+                     Masque of Flowers of January 1613/14 (Appendix 2, p 538,
+                  ll.31–5): <quote>AT the entrance of the King, at the lower end of the Banquetting
+                     house, appeared a Trauers painted in Perspectiue, like the wall of a Cittie,
+                     with battlements, ouer which were seene the Tops of houses. In the middle
+                     whereof was a great gate, and on either side a Temple, the one dedicated to
+                     Silenus, and the other to Kawasha, in either of which opened a little
+                     gate.</quote> A similar configuration obtained twenty years later for Shirley’s
+                     Triumph of Peace in February 1633/4 (Appendix 2, pp 594–5):
+                     <quote>TThis Masque was presented in the Banquetting-house. At white Hall
+                     before the King and Queenes Maiesties and a great Assembly of Lords and Ladies,
+                     and other persons of quality, whose aspect setting on the degrees prepared for
+                     that purpose gaue a great grace to this spectacle, especially being all richly
+                     attired.<lb/> At the lower end of the roome opposite to the state was raysed a
+                     Stage with a descent of staires in two branches landing into the
+                     roome....</quote> Since most hall performances served as rehearsals for
+                  performances in royal venues, scenes set at or near the lower end of the hall may
+                  have been the norm, perhaps forced there by the fact that at court the monarch
+                  occupied the upper end. [46. This inference runs counter to
+                     arguments previously urged by Burkhart, ‘Surviving Shakespearean Playhouses,’
+                     pp 173–96; and by Alan H. Nelson, Early Cambridge Theatres: University,
+                        College, and Town Stages, 1464–1720 (Cambridge, 1994).] Even
+                  at home the Christmas prince sat enthroned at the upper end, as with the Prince of
+                  Purpoole at Gray’s Inn in 1594–5 (Appendix 1, p 399, ll.18–23):
+                     <quote> ...the Prince came into the Hall with his wonted State, and ascended
+                     his Throne at the high End of the Hall, under His Highness’s Arms; and after
+                     him came the Ambassador of Templaria, with his Train likewise, and was placed
+                     by the Prince as he was before; his Train also had Places reserved for them,
+                     and were provided for them particularly....</quote> In 1635–6 the
+                     Middle Temple Prince d’Amour was similarly positioned
+                  ‘BEFORE the Scene was discovered, the Princes being prepar’d under the state at
+                  the upper end of the Hall...’ (Appendix 2, p 613, ll.25–6).</p>
+
+               <p>The ‘descent of staires in two branches landing into the roome’ for The
+                     Triumph of Peace in 1633/4 gave easy access from the stage to the hall
+                  floor, doubtless for dancing. Side-gallery seating for members of the audience
+                  also helped to keep the floor free for dancing. Bulstrode Whitelocke, referring to
+                  himself in the third person, illustrates the point for the same masque (Records, p
+                  277, ll.19–24): <quote>The Horsemen of the Masque, and other gentlemen of the
+                     Innes of Court, sate in the Gallery reserued for them, &amp; those of the
+                     Committee that were present, were with them, only Hyde &amp; Whitelocke were
+                     placed belowe among the Grandees, &amp; neare the Sceane, that they might be
+                     ready to giue their assistance, if there should be occasion, &amp; as an
+                     extraordinary fauour to them att that time, &amp; in that presence.</quote>
+                  Documents show that as early as January 1561/2, for the performance either of
+                     Gorboduc or a masque before Queen Elizabeth,
+                     Whitehall Palace was fitted with ‘a grett skaffold in ye
+                  hall ... &amp; ye morow after ye skaffold was taken done’ (Appendix 4, pp 683–4).
+                  Similar provision was made in 1587–8, ‘makinge readie the halle and greate Chamber
+                  for playes and daunsinge in the tyme of <expan>chr<ex>ist</ex>enmas</expan> and settinge vp
+                  degrees against Twelfte nighte ... makinge of a great Scaffolde with degrees and
+                     <expan>p<ex>ar</ex>tic<ex>i</ex>ons</expan> for a playe presented to the Queenes
+                     <expan>ma<ex>ies</ex>tie</expan> by the Gentlemen of Greyes Inne’ (Appendix 5, p 717,
+                  ll.35–8). Gesta Grayorum reveals, with reference to the performance
+                  of <title>Comedy of Errors</title> in December 1594, that an imagined ‘Sorcerer or
+                  Conjurer ... had caused the Stage to be built, and Scaffolds to be reared to the
+                  top of the House, to increase Expectation’ (Appendix 1, p 397, ll.30–3).
+                  Unanticipated confusion interfered with the intended performance, while a
+                  subsequent performance scheduled for the Prince of Purpoole’s return from an
+                  imagined journey to Russia was forestalled by the start of the new law-term
+                  (Appendix 1, p 422, ll.9–16): <quote>...So that very good Inventions, which were
+                     to be performed in publick at his Entertain- ment into the House again, and two
+                     grand Nights which were intended at his Triumphal Return, wherewith his Reign
+                     had been conceitedly determined, were by the aforesaid Readers and Governors
+                     made frustrate, for the Want of Room in the Hall, the Scaffolds being taken
+                     away, and forbidden to be built up again (as would have been necessary for the
+                     good Discharge of such a Matter)...</quote> The dancing which followed was
+                  confined to available floor-space (Appendix 1, p 425, ll.26–32): <quote>The Prince
+                     ... came, after Supper, into the Hall, and there he danced and revelled among
+                     the Nobles, and others of his own Court; and in like manner they spent the Day
+                     following; but there was no other Performance, by reason of want of the Stage
+                     and Scaffolds, till Shrovetide, that they went to the Court: And the things
+                     that were then performed before Her Majesty, were rather to discharge our own
+                     Promise, than to satisfie the Expectation of others.</quote> Royal expenditure
+                  for the Shrovetide performance at court included ‘fyttinge of degrees’ (that is,
+                  scaffolds) for both sides of the hall – presumably for the audience (Appendix 5, p
+                  718, l.19).</p>
+
+               <p> John Chamberlain remarked, in a letter of 18 February 1612/13, with reference to
+                  one or the other (or both) of the Inns of Court masques brought
+                  to court that year: ‘there were more scaffolds and more prouision made for roome
+                  then euer I saw both in the hall and banketting roome’ (Appendix 4, p 689,
+                  ll.16–17). Use of scaffolds is further confirmed by Dugdale, with reference to the
+                     Inner Temple (Appendix 11, p 775): ‘IT is proper to the
+                  Butler’s Office, to give warning to every House of Court, of this Banquet; to the
+                  end that they, and the Inns of Chancery be invited thereto, to see a Play and
+                  Mask. The Hall is to be furnished with Scaffolds to sit on, for Ladies to behold
+                  the Sports, on each side.’</p>
+
+               <p>Two technical innovations were adopted for the 1633/4 Triumph of
+                     Peace. The first innovation, tickets to control admissions, is noted by
+                  Bulstrode Whitelocke (see p 310, ll.8–10): ‘I tooke what order I could for placing
+                  of theyr Secretareys and followers of best sort. so got Tickets for 24, which got
+                  them entrance and seates with conveniency in the Banketting House....’ On 19
+                  February 1633/4 William Gawdy wrote to Framlingham Gawdy (Appendix 4, pp 705–6):
+                     ‘<expan>S<ex>i</ex>r</expan> you inioyned mee to send you a briefe relation howe I got into
+                  the masque and howe I was placed: S<ex>i</ex>r Edmund Varney by the
+                     mediatio<del>.</del> of my cosen Charles got mee a ticket and placed mee very
+                  well in the midle gallery.’ This signification of ‘ticket’ antedates the earliest
+                     <title>OEDO</title> reference (n.15.a.) by forty years. (The use of tickets was
+                  resumed at the Restoration: see below, p xlvii.)</p>
+
+               <p> The second innovation was the use of a ‘turning-chair,’ as described by George
+                  Garrard in a letter of 27 February 1633/4 to Thomas Wentworth, earl of Strafford
+                  (Appendix 4, p 707, ll.10–13): ‘The Templers were all invited, and well placed,
+                  They have found a new way of letting them in by a Turning Chayre, besides they let
+                  in none but such as haue Ticketts sent them before hand, so yat now the Keeping of
+                  the Door is noe Troble ....’ Presumably the ‘Turning Chayre’ worked like a
+                  turnstile, but further details are wanting.</p>
+
+               <p>Finally an external part of Middle Temple hall was commandeered
+                  for the Prince d’Amour revels of 1597–8 (Appendix 1, p 479,
+                  ll.31–3): ‘Then Stradilax stept up upon the stone Staires in the Porch of the
+                  Temple-Hall, from whence nothing but Oysters ever opened their mouthes with
+                  eloquence.’</p>
+
+               <p>As noted above (under ‘Martial Exercises’), on several occasions Inns of
+                     Court gentlemen organized outdoor spectacles visible to the London
+                  populace. Gesta Grayorum (Appendix 1, p 413, ll.33–8) describes a
+                  February 1594/5 procession of the Prince of Purpoole and ‘the Ambassador of
+                  Templaria’ to Crosby Place, residence of the current lord
+                  mayor: ‘they rode very gallantly, from Grays-Inn, through
+                     Chancery-lane, Fleet-street, so
+                  through Cheap-side, Corn-hill, and
+                  to Cosby’s Place, in
+                     Bishop’s-gate-street’; at the conclusion of dinner, ‘the
+                  Prince and his Company ... returned again the same Way.’ The 15 February 1612/13
+                  procession of Lincoln’s Inn and Middle
+                     Temple went from the Rolls Office in
+                     Chancery Lane to Whitehall. [47. The beginning of the processional route at ‘the Maister of
+                     the Rolls his house’ is reported in the title of The Memorable
+                        Masque (Appendix 2, p 501), while the conclusion at
+                        Whitehall is reported in the text (p 507,
+                     ll.33–9).] The water-borne procession of Gray’s Inn
+                  and Inner Temple a few days later began at
+                     Winchester House in Southwark,
+                  touched land at Temple Garden, and finished at the ‘priuie
+                  stayres’ in Whitehall (Appendix 2, pp 526, l.10; and
+                  Appendix 4, p 688, l.33). The procession of all four Inns in February 1633/4
+                  assembled at Ely House and Hatton
+                     House in Ely Place,
+                     Holborn: ‘their way was directed through
+                     Chancery lane, and from thence through Temple
+                     barre, &amp; so the high way to Whitehall to
+                  the Court’ (see p 273, ll.16–18). [48. A particularly
+                     informative description of the processional route occurs in Richard Hutton’s
+                     diary entry for 3 February 1633/4 (Appendix 4, pp 702–3).]</p>
+            </div>
+            </div>
+
+            <div type="section">
+               <head>
+                  <title> Post-1642 Plays and Masques</title>
+               </head>
+
+               <p> Though Christmas was cancelled at the Middle Temple in
+                  1639–40, routine orders concerning Christmas resumed in 1640–1 and 1641–2. A more
+                  detailed prohibition was promulgated by the Middle Temple in
+                  1642–3, a year past the terminal date of REED: <quote>It is ordered
+                     by the <expan>Ma<ex>ste</ex>rs</expan> of the Bench at this <expan>p<ex>ar</ex>liam<ex>en</ex>t</expan> that
+                        <expan>Com<ex>m</ex>ons</expan> maye be kept in the house, &amp; so continue throughout the
+                     Christmas following, vnto the next Hilarie terme <expan>w<ex>i</ex>thout</expan> any Musicke,
+                     Gaming or any publique noise or shewe, wherby companie may be drawne into the
+                     house; And this in respect of the danger &amp; trouble- somnes of the times.
+                     And for this purpose the <expan>M<ex>aste</ex>rs</expan> of the Bench doe agree, for the
+                     better ease of <expan>Com<ex>m</ex>ons</expan>, that the ordinarie <expan>allow<ex>au</ex>nce</expan> of a
+                     loade of Coales be allowed, as likewise three pounds for the <expan>com<ex>m</ex>ons</expan>
+                     of the officers, out of the Treasurie of the house. And during the time of
+                     Christmas, that the <expan>com<ex>m</ex>ons</expan> shalbe in such manner, &amp; at such
+                     rates, as by the <expan>gent<ex>lemen</ex></expan> then in <expan>com<ex>m</ex>ons</expan> shalbe
+                        agreed. [49. MT Arch: MT.1/MPA/No. 5, p 273 (25
+                        November 1642), flagged ‘<expan>Com<ex>m</ex>ons</expan>’ in the left
+                     margin.]</quote> Especially notable here is the explicit prohibition of
+                  music.</p>
+
+               <p> In his Inns of Court and Early English Drama, A. Wigfall Green
+                  carries his discussion of plays and masques to the end of the seventeenth century.
+                  On 29 November 1651 Middle Temple performed a masque in which the benchers sang
+                  Psalm 100 and drank hippocras: <quote> On Saturday night last there was a Masque
+                     at the Middle Temple London, before it began the Benchers,
+                     or ancients of the house were in the Hall and sung the hundred Psalm, which
+                     being ended, every man drank a cup of Hipocras, and so departed to their
+                     Chambers, then the young Gentlemen of that society began to recreate them-
+                     selves with civil dancings and had melodious musick, many Ladyes and persons of
+                     quality were present. [50. Perfect Passages of
+                           Every Daies intelligence from the Parliaments Army, under the Command of
+                           his Excellency the Lord General Cromwell (London, 1651), 323,
+                        under the date 4 December 1651. Green, Inns of Court, p 136, omitting to
+                        supply an explicit year, inadvertently implies a date of
+                     1628.]</quote> Green also notes (p 153): ‘From 1650 to the end of the
+                  century, numerous plays were presented by professional actors at the Inns
+                     of Court. The records of the Inner Temple, though
+                  frequently noting the amount paid “for a play,” sometimes give the name of the
+                  play, and, less often, the name of the author.’ Green’s list (pp 154–6) is rich in
+                  play titles from 1657 to 1687. Thus professional performances continued almost to
+                  the end of the seventeenth century, even more richly documented after 1642 than
+                  before.</p>
+
+               <p> Two masques are recorded in the Restoration years. The first was presented by
+                  Lincoln’s Inn on 3 January 1662/3 and published contemporaneously:
+                     ‘Egkuklocoreía, or, Vniversal Motion Being part of that
+                  Magnificent Entertainment by the Noble Prince, De la Grange, Lord Lieutenant of
+                  Lincolns Inn, Presented to the High and Mighty Charles II, Monarck of Great
+                  Brittain, France and Ireland, on Friday 3 of January 1662’ (London, 1662; Wing:
+                  E253). Both John Evelyn and Samuel Pepys note the masque in their diaries. [51. Green, Inns of Court, pp 88–9.]
+                  Evelyn confirms that the lord lieutenant of Lincoln’s Inn,
+                  mentioned in the Records under 1617–18, was denomi- nated ‘the Prince de la
+                  Grange.’ John Lort, who held the office this year, was duly knighted on 17 January
+                     1661/2. [52. Shaw, Knights of England, vol
+                     2, p 236. Green entitles this masque ‘The Dance of the Nations.’ [53Green, Inns of Court, pp 138–41.]</p>
+
+               <p> A masque by Gray’s Inn in February 1682/3 is noted in the
+                  diary of Narcissus Luttrell. [54. Green, Inns of
+                        Court, pp 135–6.] Richard Gipps, admitted to Gray’s
+                     Inn on 5 February 1675/6, was appointed master of the revels on 3
+                  November 1682 and (as noted above) knighted for his service in this office at
+                  Whitehall on 27 November 1682, even before the masque was realized. [55. Shaw, Knights of England, vol 2, p
+                     258.] The image (if not the original) of a ticket printed for this event
+                  survives today. [56. Though the original of the Gipps ticket
+                     has not been traced, an image is printed in Nichols, Elizabeth,
+                     vol 1, p xxi; and reprinted in Green, Inns of Court, p 136
+                     (facing).]</p>
+            </div>
+         </div>
+
+
+
+      </body>
+   </text>
+</TEI>
